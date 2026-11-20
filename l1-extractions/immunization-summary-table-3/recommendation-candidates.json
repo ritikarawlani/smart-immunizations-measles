@@ -3,14 +3,14 @@
   "entry": "library/immunization-summary-table-3",
   "curation": {
     "path": "l1-extractions/immunization-summary-table-3/curation.yaml",
-    "sha256": "a6a501a0fe740d1555a42521b1dc3110fcf8dc9ae19620817934f42fe7054545"
+    "sha256": "dbc4141889c0e366a380142ed9afab8b9ce784878b21e168aa9a582d7fb90b51"
   },
   "publication": {
-    "iri": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+    "iri": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf",
     "identifiers": [
       {
         "type": "url",
-        "value": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        "value": "https://github.com/user-attachments/files/35149129/immunization-summary-table-3.pdf"
       }
     ],
     "title": "Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers",
@@ -1073,6 +1073,6 @@
     }
   ],
   "runContext": {
-    "sha256": "a94ea4ca1e66a32c75850a677613b13b850ed8f6a97947332bb0f91e9b227505"
+    "sha256": "47f638d15c971a1548d23afcbc74f911abb6075bdbddcb8cff941068f4bc0fd6"
   }
 }

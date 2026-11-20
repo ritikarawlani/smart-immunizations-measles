@@ -4,10 +4,10 @@ entry: library/immunization-summary-table-3
 publication:
   identifiers:
   - type: url
-    value: https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers
+    value: https://github.com/user-attachments/files/35149129/immunization-summary-table-3.pdf
   title: 'Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers'
   publicationType: summary-table
-  basis: Title as printed at the head of page 1. A summary table of position papers for interrupted or delayed immunization.
+  basis: 'Title as printed at the head of page 1. A summary table of position papers for interrupted or delayed immunization. Identified by the URL of the file as attached to issue #1: Tables 1-3 all print the same position-papers URL, which identifies the series, not the table, and would give their nodes one IRI.'
 decisions:
   p2:s1:
     as: recommendation

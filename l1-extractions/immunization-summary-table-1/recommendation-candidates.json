@@ -3,14 +3,14 @@
   "entry": "library/immunization-summary-table-1",
   "curation": {
     "path": "l1-extractions/immunization-summary-table-1/curation.yaml",
-    "sha256": "06394b205d88b726be2b8b441329e326de9443aed9fa3290d25084e6681fb2b4"
+    "sha256": "c95cf6e4b0f060227d55cc16640b638f17502972f5a9e84bd4beaa6b4783a4d6"
   },
   "publication": {
-    "iri": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+    "iri": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
     "identifiers": [
       {
         "type": "url",
-        "value": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        "value": "https://github.com/user-attachments/files/35149133/immunization-summary-table-1.pdf"
       }
     ],
     "title": "Table 1: Summary of WHO Position Papers – Recommendations for Routine Immunization",
@@ -2184,6 +2184,6 @@
     }
   ],
   "runContext": {
-    "sha256": "19df2a747e284e8b6c0b7f2e0a67681fc68c6848a13e986a57a4080c3d294b25"
+    "sha256": "f05c94f58919325378f45cd9c7a28359db543c9f94dfe926183390dac93b58f8"
   }
 }

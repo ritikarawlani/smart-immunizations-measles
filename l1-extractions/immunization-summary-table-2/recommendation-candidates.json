@@ -3,14 +3,14 @@
   "entry": "library/immunization-summary-table-2",
   "curation": {
     "path": "l1-extractions/immunization-summary-table-2/curation.yaml",
-    "sha256": "8e33f613c5da9b8c818edd02e1571631c56a382e9b289fa82548a7c2f5f0175f"
+    "sha256": "a0b4c8095fdd39accf1094379e042e74d76c676ae0b0d93e2ce3af08db68ae03"
   },
   "publication": {
-    "iri": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+    "iri": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149137-immunization-summary-table-2-pdf",
     "identifiers": [
       {
         "type": "url",
-        "value": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+        "value": "https://github.com/user-attachments/files/35149137/immunization-summary-table-2.pdf"
       }
     ],
     "title": "Table 2: Summary of WHO Position Papers - Recommended Routine Immunizations for Children",
@@ -2189,6 +2189,6 @@
     }
   ],
   "runContext": {
-    "sha256": "a6cb1ef5220be177a27c72adf8a7e61401524555f2119f2cd6313fb4de4535ff"
+    "sha256": "f7b586767ffa4502ef081b9bba65e5ba64d9bcbf0546a44940d63dc81446664b"
   }
 }

@@ -1,7 +1,7 @@
 {
   "$schema": "folio-run-context/v1",
   "platform": {
-    "commit": "85824129f991c0825ac08c1c0125f42852c4e3f9"
+    "commit": "56af2a7482767f82443d649a9cf94a599a832171"
   },
   "mounts": {
     "state": "locked",
@@ -60,7 +60,7 @@
   },
   "inputs": [
     {
-      "hash": "47921f140932",
+      "hash": "f61c2e040966",
       "inputs": [
         "l1-extractions/immunization-summary-table-3/curation.yaml",
         "library/immunization-summary-table-3/structure.json"

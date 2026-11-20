@@ -3,11 +3,11 @@
   "id": "http://smart.who.int/immunizations-measles/graph/l1-scenarios/measles-scenario-t3",
   "type": "Entity",
   "ontologyVersion": "1.0",
-  "generatedAt": "2026-11-20T13:04:48Z",
+  "generatedAt": "2026-11-20T13:05:43Z",
   "wasDerivedFrom": [
     {
       "path": "l1-extractions/immunization-summary-table-3/l1.json",
-      "sha256": "6c3af240bcdd7322d3bb7b9104866dbd112048d14bf25cfe52eb9165b3d9b012",
+      "sha256": "daa3ab07e04f5779c1b8df39bd5fd1331773f79e3c33f4191e43e52f02142081",
       "note": "The L1 recommendations, each the source of one implementedBy edge."
     },
     {
@@ -170,7 +170,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.interrupted-delayed-schedule-row",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.interrupted-delayed-schedule-row",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-interrupted-delayed-schedule-row",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -206,7 +206,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.two-doses-standard",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.two-doses-standard",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-two-doses-standard",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -242,7 +242,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.interrupted-resume-no-repeat",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.interrupted-resume-no-repeat",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-interrupted-resume-no-repeat",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -278,7 +278,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv-minimum-interval",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.mcv-minimum-interval",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-mcv-minimum-interval",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -314,7 +314,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.routine-delivery-not-age-limited",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.routine-delivery-not-age-limited",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-routine-delivery-not-age-limited",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",

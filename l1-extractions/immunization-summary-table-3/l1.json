@@ -1,9 +1,9 @@
 {
   "@context": "http://smart.who.int/kg/l1.context.jsonld",
-  "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers#recommendation-candidates",
+  "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf#recommendation-candidates",
   "type": "Entity",
   "ontologyVersion": "3.0",
-  "generatedAt": "2026-11-20T12:57:29Z",
+  "generatedAt": "2026-11-20T13:05:43Z",
   "wasDerivedFrom": [
     {
       "path": "library/immunization-summary-table-3/structure.json",
@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf",
       "type": "publication",
       "label": "Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers",
       "properties": {
@@ -26,21 +26,21 @@
         "identifiers": [
           {
             "type": "url",
-            "value": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+            "value": "https://github.com/user-attachments/files/35149129/immunization-summary-table-3.pdf"
           }
         ],
         "publicationType": "summary-table",
         "sha256": "aead588449159c46bad3a190f6427f4bf3d53ead55786b165105ccffaeb357a2"
       },
       "derivation": "inferred",
-      "note": "Title as printed at the head of page 1. A summary table of position papers for interrupted or delayed immunization.",
+      "note": "Title as printed at the head of page 1. A summary table of position papers for interrupted or delayed immunization. Identified by the URL of the file as attached to issue #1: Tables 1-3 all print the same position-papers URL, which identifies the series, not the table, and would give their nodes one IRI.",
       "evidence": {
         "location": "library/immunization-summary-table-3/sections/sec-000-table-3-recommendations-for-interrupted-or-delay.md"
       },
       "skill": "smart-base/recommendation-extraction"
     },
     {
-      "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.interrupted-delayed-schedule-row",
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.interrupted-delayed-schedule-row",
       "type": "recommendation",
       "label": "measles.interrupted-delayed-schedule-row",
       "properties": {
@@ -57,7 +57,7 @@
       "skill": "smart-base/recommendation-extraction"
     },
     {
-      "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.two-doses-standard",
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.two-doses-standard",
       "type": "recommendation",
       "label": "measles.two-doses-standard",
       "properties": {
@@ -74,7 +74,7 @@
       "skill": "smart-base/recommendation-extraction"
     },
     {
-      "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.interrupted-resume-no-repeat",
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.interrupted-resume-no-repeat",
       "type": "recommendation",
       "label": "measles.interrupted-resume-no-repeat",
       "properties": {
@@ -91,7 +91,7 @@
       "skill": "smart-base/recommendation-extraction"
     },
     {
-      "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv-minimum-interval",
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.mcv-minimum-interval",
       "type": "recommendation",
       "label": "measles.mcv-minimum-interval",
       "properties": {
@@ -108,7 +108,7 @@
       "skill": "smart-base/recommendation-extraction"
     },
     {
-      "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.routine-delivery-not-age-limited",
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.routine-delivery-not-age-limited",
       "type": "recommendation",
       "label": "measles.routine-delivery-not-age-limited",
       "properties": {
@@ -129,8 +129,8 @@
     {
       "type": "Statement",
       "predicate": "definedIn",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.interrupted-delayed-schedule-row",
-      "target": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.interrupted-delayed-schedule-row",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf",
       "derivation": "inferred",
       "note": "Printed in this publication.",
       "evidence": {
@@ -141,8 +141,8 @@
     {
       "type": "Statement",
       "predicate": "definedIn",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.two-doses-standard",
-      "target": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.two-doses-standard",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf",
       "derivation": "inferred",
       "note": "Printed in this publication.",
       "evidence": {
@@ -153,8 +153,8 @@
     {
       "type": "Statement",
       "predicate": "definedIn",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.interrupted-resume-no-repeat",
-      "target": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.interrupted-resume-no-repeat",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf",
       "derivation": "inferred",
       "note": "Printed in this publication.",
       "evidence": {
@@ -165,8 +165,8 @@
     {
       "type": "Statement",
       "predicate": "definedIn",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv-minimum-interval",
-      "target": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.mcv-minimum-interval",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf",
       "derivation": "inferred",
       "note": "Printed in this publication.",
       "evidence": {
@@ -177,8 +177,8 @@
     {
       "type": "Statement",
       "predicate": "definedIn",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.routine-delivery-not-age-limited",
-      "target": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.routine-delivery-not-age-limited",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf",
       "derivation": "inferred",
       "note": "Printed in this publication.",
       "evidence": {

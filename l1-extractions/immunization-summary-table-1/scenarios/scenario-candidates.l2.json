@@ -3,11 +3,11 @@
   "id": "http://smart.who.int/immunizations-measles/graph/l1-scenarios/measles-scenario-t1",
   "type": "Entity",
   "ontologyVersion": "1.0",
-  "generatedAt": "2026-11-20T13:04:48Z",
+  "generatedAt": "2026-11-20T13:05:43Z",
   "wasDerivedFrom": [
     {
       "path": "l1-extractions/immunization-summary-table-1/l1.json",
-      "sha256": "042d52250e1c91da0b28727ee4de8ed5c8e6c2408af8c82f1e31a67207da0783",
+      "sha256": "5204719444f34122ee6b378aff9efba489f03ebc9ea85b21102622e6f2fbe35e",
       "note": "The L1 recommendations, each the source of one implementedBy edge."
     },
     {
@@ -494,7 +494,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.two-doses-standard",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.two-doses-standard",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-two-doses-standard",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -530,7 +530,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv2-in-schedule",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-in-schedule",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv2-in-schedule",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -566,7 +566,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv1-9-months-high-transmission",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-9-months-high-transmission",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv1-9-months-high-transmission",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -602,7 +602,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv2-15-18-months",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-15-18-months",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv2-15-18-months",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -638,7 +638,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv-minimum-interval",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv-minimum-interval",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv-minimum-interval",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -674,7 +674,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.routine-delivery-not-age-limited",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.routine-delivery-not-age-limited",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-routine-delivery-not-age-limited",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -710,7 +710,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.catch-up-every-opportunity",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.catch-up-every-opportunity",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-catch-up-every-opportunity",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -746,7 +746,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.policies-allow-older-ages",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.policies-allow-older-ages",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-policies-allow-older-ages",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -782,7 +782,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv1-12-months-low-transmission",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-12-months-low-transmission",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv1-12-months-low-transmission",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -818,7 +818,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv2-at-school-entry",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-at-school-entry",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv2-at-school-entry",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -854,7 +854,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.same-formulation-both-doses",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.same-formulation-both-doses",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-same-formulation-both-doses",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -890,7 +890,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv0-situations",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-situations",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv0-situations",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -926,7 +926,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv0-recording",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-recording",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv0-recording",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -962,7 +962,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv0-then-routine-doses",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-then-routine-doses",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv0-then-routine-doses",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -998,7 +998,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.hiv-routine-vaccination",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-routine-vaccination",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-routine-vaccination",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -1034,7 +1034,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.hiv-high-incidence-mcv0-6-months",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-high-incidence-mcv0-6-months",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-high-incidence-mcv0-6-months",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -1070,7 +1070,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.hiv-haart-additional-dose",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-haart-additional-dose",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-haart-additional-dose",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -1106,7 +1106,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.hiv-haart-no-cd4-monitoring",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-haart-no-cd4-monitoring",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-haart-no-cd4-monitoring",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -1142,7 +1142,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.hiv-exposed-mcv0",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-exposed-mcv0",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-exposed-mcv0",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -1178,7 +1178,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mild-infection-not-contraindication",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mild-infection-not-contraindication",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mild-infection-not-contraindication",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -1214,7 +1214,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.avoid-in-pregnancy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.avoid-in-pregnancy",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-avoid-in-pregnancy",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -1250,7 +1250,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.contraindications",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.contraindications",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-contraindications",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
@@ -1286,7 +1286,7 @@
     {
       "type": "Statement",
       "predicate": "implementedBy",
-      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.live-vaccine-spacing",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.live-vaccine-spacing",
       "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-live-vaccine-spacing",
       "derivation": "inferred",
       "skill": "smart-base/recommendation-extraction",
