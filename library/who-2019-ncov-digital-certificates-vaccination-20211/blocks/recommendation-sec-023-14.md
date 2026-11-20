@@ -1,0 +1,1 @@
+DDCC.FXNREQ.055 Any communication between a Verifier and a DDCC:VS Registry Service or other data service managed by a PHA SHALL be secured to prevent interference with the data in transit and at rest.

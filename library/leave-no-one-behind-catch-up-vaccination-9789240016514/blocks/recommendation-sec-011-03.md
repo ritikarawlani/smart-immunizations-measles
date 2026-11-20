@@ -1,0 +1,1 @@
+Reducing missed opportunities for vaccination through integration with other health services • Beyond immunization services, every health contact should be used as an opportunity to review an individual’s vaccination status and to administer doses for which they are eligible – or to refer them to an immunization provider for vaccination (i.e. “screen and refer”).

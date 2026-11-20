@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.012 Disaster recovery, business continuity, resilience All data and derived analysis SHALL be stored within an appropriate data architecture to ensure redundancy and rapid disaster recovery, to eliminate the risk of data loss.

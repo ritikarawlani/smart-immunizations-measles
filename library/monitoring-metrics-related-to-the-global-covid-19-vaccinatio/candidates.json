@@ -1,0 +1,71 @@
+{
+ "_schema": "ingest-candidates/v1",
+ "doc_id": "monitoring-metrics-related-to-the-global-covid-19-vaccinatio",
+ "source": {
+  "structure_sha256": "129415f7c33d6069c1e200fe2848ebbfbab0dcec2d78149012b7a9543d7f033e",
+  "file": "Monitoring-Metrics-Related-to-the-Global-Covid-19-Vaccination-Strategy---July-2022-update.pdf"
+ },
+ "provenance": {
+  "title": "Monitoring Metrics Related to the Global Covid-19 Vaccination Strategy in a Changing World",
+  "authors": null,
+  "arxiv": null,
+  "doi": null
+ },
+ "aspects": [
+  "requirements"
+ ],
+ "summary": {
+  "candidates": 3,
+  "by_kind": {
+   "recommendation": 3
+  },
+  "formalization_candidates": 0
+ },
+ "candidates": [
+  {
+   "kind": "recommendation",
+   "source_kind": "normative-statement",
+   "number": null,
+   "name": null,
+   "statement": "Monitoring metrics The following metrics are recommended for the global community to measure and monitor progress in support of the strategic goals (see table 1).",
+   "strength": null,
+   "strength_list": "rfc2119-requirement-level",
+   "section_file": "sections/page-003.md",
+   "section_title": "Page 3",
+   "pages": "3-3",
+   "formalization_candidate": false,
+   "route_to": "l2-dak-authoring",
+   "aspect": "requirements"
+  },
+  {
+   "kind": "recommendation",
+   "source_kind": "normative-statement",
+   "number": null,
+   "name": null,
+   "statement": "Countries are recommended to continue reporting data at least monthly for metrics 1-4, and annually for metric 6.",
+   "strength": null,
+   "strength_list": "rfc2119-requirement-level",
+   "section_file": "sections/page-004.md",
+   "section_title": "Page 4",
+   "pages": "4-4",
+   "formalization_candidate": false,
+   "route_to": "l2-dak-authoring",
+   "aspect": "requirements"
+  },
+  {
+   "kind": "recommendation",
+   "source_kind": "normative-statement",
+   "number": null,
+   "name": null,
+   "statement": "2 \u2022 Number of older adults vaccinated with a complete primary series by country \u2022 Number of older persons vaccinated with at least one booster/additional dose by country \u2022 Definition of \u2018older population\u2019 age group by country8 \u2022 Regional systems based on country reports \u2022 Total number of older adults, aggregated by age based on country- specific definition of older population \u2022 United Nations population estimates9 3 \u2022 Number of persons vaccinated with a complete primary series by country \u2022 Number of persons vaccinated with at least one booster/additional dose by country \u2022 Regional systems based on country reports \u2022 Total population by country \u2022 United Nations population estimates 4 \u2022 Areas with people in need of humanitarian assistance \u2022 Global Humanitarian Overview, defined by The United Nations Office for the Coordination of Humanitarian Affairs (OCHA)10 \u2022 Total number of people living in areas with people in need of humanitarian assistance \u2022 Multiple sources, as collated by the UN (WHO) Global Health Cluster11 5 The WHO will define a data collection mechanism in the second half of 2022 6 \u2022 Proxy metric12 \u2022 WHO And UNICEF \u2019s annual eJRF13 \u2022 Supplementary information provided by c",
+   "strength": null,
+   "strength_list": "rfc2119-requirement-level",
+   "section_file": "sections/page-005.md",
+   "section_title": "Page 5",
+   "pages": "5-5",
+   "formalization_candidate": false,
+   "route_to": "l2-dak-authoring",
+   "aspect": "requirements"
+  }
+ ]
+}

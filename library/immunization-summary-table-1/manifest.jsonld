@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/immunization-summary-table-1",
+  "@type": [
+    "cat-harness:SourceDocument"
+  ],
+  "title": "immunization-summary-table-1",
+  "contains": [
+    "library/immunization-summary-table-1/sections/sec-front-matter",
+    "library/immunization-summary-table-1/sections/sec-000",
+    "library/immunization-summary-table-1/sections/sec-001",
+    "library/immunization-summary-table-1/sections/sec-002"
+  ],
+  "provenance": "ingested",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/smart-immunizations-measles/directory/library",
+  "meta": {
+    "doc_id": "immunization-summary-table-1",
+    "title_source": "slug",
+    "source_file": "immunization-summary-table-1.pdf",
+    "source_sha256": "9861c483644986f477485fdf98f61f493a4f1e2ace8e20f48c04ba70e0d18f8d",
+    "pages": 13,
+    "arxiv": null,
+    "doi": null,
+    "document_class": null,
+    "extractor_validated": null,
+    "disposition": "ingested source material — attributed to its document, not folio content"
+  }
+}

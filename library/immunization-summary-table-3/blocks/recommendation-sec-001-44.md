@@ -1,0 +1,1 @@
+However, if the product used for a prior dose is unavailable or unknown, the series should be completed with any available licensed product. • Rotavirus vaccinations may be administered simultaneously with other vaccines of the childhood immunization programme.

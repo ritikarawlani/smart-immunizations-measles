@@ -1,0 +1,1 @@
+In addition, a review of relevant literature and discussions with countries with established catch-up vaccination policies could further guide this decision-making process. • Existing policies should be reviewed for any provisions that may negatively impact catch-up vaccination and be revised, if needed.

@@ -1,0 +1,1 @@
+See position paper. • Previously unvaccinated or incompletely vaccinated children who recover from invasive pneumococcal disease (IPD) should be vaccinated according to the recommended age-appropriate regimens.

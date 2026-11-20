@@ -1,0 +1,1 @@
+21 • Interchangeability of formulations: If needed to continue completion of a vaccine series, combination vaccines may be used interchangeably with monovalent formulations and other combination products with similar component antigens if produced by the same manufacturer.

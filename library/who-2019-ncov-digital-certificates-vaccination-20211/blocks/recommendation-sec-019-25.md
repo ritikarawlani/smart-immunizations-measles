@@ -1,0 +1,1 @@
+DDCC.FXNREQ.027 If an online/connected public health DDCC:VS Generation Service is available at the time of vaccination, then it SHALL be possible to register the vaccination as soon as possible after it is administered.

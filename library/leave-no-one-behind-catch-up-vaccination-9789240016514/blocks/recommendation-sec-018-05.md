@@ -1,0 +1,1 @@
+Table A1.2 – WHO recommendations for Interrupted or Delayed Routine Immunization – simplified tablea Antigen Minimum age of first dose Doses in primary series (minimum interval between doses) Interrupted primary series Doses for those who start vaccination late Booster If ≤ 12 months of age If > 12 months of age

@@ -1,0 +1,1 @@
+Use of the targeted delivery activity is considered expensive and may interfere with the normal, routine health system operations, so sufficient value and need must be present before supporting the use of a targeted delivery activity.

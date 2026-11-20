@@ -1,0 +1,1 @@
+If the mapping uses cardinality as a metric, then it must be clearly defined in terms of what is being linked between source and target, how the cardinalities are counted, and the direction of the map.

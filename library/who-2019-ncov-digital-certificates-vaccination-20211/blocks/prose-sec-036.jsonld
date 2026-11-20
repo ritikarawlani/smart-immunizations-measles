@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-036",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "kind": "prose",
+  "title": "Additional resources to support implementation",
+  "pageStart": 76,
+  "pageEnd": 77,
+  "text": "../sections/sec-036-84-additional-resources-to-support-implementatio.md",
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/who-2019-ncov-digital-certificates-vaccination-20211",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/who-2019-ncov-digital-certificates-vaccination-20211",
+  "provenance": "ingested"
+}

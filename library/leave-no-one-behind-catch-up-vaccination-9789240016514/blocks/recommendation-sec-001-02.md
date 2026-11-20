@@ -1,0 +1,1 @@
+In most cases, a significant interruption in immunization services will be a consequence of a large-scale disruption in the overall health system, therefore any specialized efforts to restart and/or intensify immunization efforts should be part of an overall health system recovery plan.

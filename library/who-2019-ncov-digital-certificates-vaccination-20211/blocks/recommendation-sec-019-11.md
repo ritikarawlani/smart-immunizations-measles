@@ -1,0 +1,1 @@
+DDCC.FXNREQ.011 It SHALL be possible to manually sign the paper card and include the official stamp of the administering centre as a non-digital means of certifying that the content has been recorded by an approved authority.

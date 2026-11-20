@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.026 Performance/ response time As with system availability, the solution SHALL have the ability to set thresholds on performance and use the breach of those thresholds to raise alerts that can trigger email notifications or automated system actions (bring an extra server into a load- balanced set, for example).

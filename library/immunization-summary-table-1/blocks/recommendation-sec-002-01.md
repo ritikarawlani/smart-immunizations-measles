@@ -1,0 +1,1 @@
+Antigen Children (See Table 2 for details) Adolescents Adults Considerations (see footnotes for details) Recommendations for children receiving vaccinations from immunization programmes with certain characteristics Mumps 22 2 doses, with measles and rubella containing vaccine

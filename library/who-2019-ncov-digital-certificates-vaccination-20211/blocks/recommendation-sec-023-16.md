@@ -1,0 +1,1 @@
+DDCC.FXNREQ.058 A Member State SHOULD put in place bilateral or multilateral agreements with other countries or with a supranational entity or regional body for access to those entities’ vaccination certificate data and digital signatures.

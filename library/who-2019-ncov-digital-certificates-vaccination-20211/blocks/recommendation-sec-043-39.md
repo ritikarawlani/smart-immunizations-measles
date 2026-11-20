@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.037 Regulation and compliance Any solution SHALL be compliant with any data storage, retention and destruction laws mandated by the data policies and data laws of the countries in which data are located.

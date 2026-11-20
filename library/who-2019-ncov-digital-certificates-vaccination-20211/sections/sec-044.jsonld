@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "library/who-2019-ncov-digital-certificates-vaccination-20211/sections/sec-044",
+  "@type": [
+    "doco:Section"
+  ],
+  "title": "Open Health Information Exchange (OpenHIE)-based architectural blueprint",
+  "pageStart": 94,
+  "pageEnd": 99,
+  "contains": [
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-044",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-044-01",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/figure-img-p095-1",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-093",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-094",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-095"
+  ],
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/who-2019-ncov-digital-certificates-vaccination-20211",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/who-2019-ncov-digital-certificates-vaccination-20211",
+  "provenance": "ingested"
+}

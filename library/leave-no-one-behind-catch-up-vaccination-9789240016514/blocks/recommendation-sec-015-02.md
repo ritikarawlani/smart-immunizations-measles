@@ -1,0 +1,1 @@
+Estimating target population for catch-up vaccination efforts In addition to compiling a list based on individual vaccination records, the target population for an intensified catch-up effort should be monitored throughout the period of disrupted services.

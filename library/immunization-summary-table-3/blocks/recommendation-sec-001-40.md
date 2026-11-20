@@ -1,0 +1,1 @@
+Restarting a series is not recommended, even for the primary series. • Wherever possible, catch-up vaccination at the time of introduction of PCV should be used to accelerate its impact on disease in children aged 1–5 years, particularly in settings with a high disease burden and mortality.

@@ -1,0 +1,111 @@
+{
+  "$schema": "folio-tabular-csvw/v1",
+  "doc_id": "monitoring-metrics-related-to-the-global-covid-19-vaccinatio",
+  "source": {
+    "file": "Monitoring-Metrics-Related-to-the-Global-Covid-19-Vaccination-Strategy---July-2022-update.pdf",
+    "sha256": "129415f7c33d6069c1e200fe2848ebbfbab0dcec2d78149012b7a9543d7f033e",
+    "bytes": 204946,
+    "pages": 7,
+    "text_source": "embedded",
+    "extractor": "pymupdf",
+    "mtime": "2026-11-20T12:49:37Z",
+    "mimetype_sniffed": "application/pdf",
+    "mimetype_source": "magic-bytes",
+    "note": "tables extracted from the PDF pages by pdf-tables.py — drafts, not checked against the page"
+  },
+  "narrative": {
+    "text": null,
+    "state": "not-authored"
+  },
+  "tables": [
+    {
+      "url": "tables/table-1.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "strategic-goals",
+            "titles": "Strategic goals",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "monitoring-metrics",
+            "titles": "Monitoring metrics",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 10,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 1",
+      "fac:caption": "Table 1. Monitoring metrics related to the ‘Global Covid-19 Vaccination",
+      "fac:pages": [
+        3,
+        4
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p003-002",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-2.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "monitoring-metrics",
+            "titles": "Monitoring metrics",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "metadata",
+            "titles": "Metadata",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "source",
+            "titles": "Source",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 15,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 2",
+      "fac:caption": "Table 2. Metadata for monitoring metrics related to the ‘Global Covid-19",
+      "fac:pages": [
+        4,
+        5,
+        6
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p004-004",
+        "at": "2026-11-20"
+      }
+    }
+  ]
+}

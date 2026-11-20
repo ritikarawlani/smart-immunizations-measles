@@ -1,0 +1,1 @@
+The 2020 WHO Global Strategy to Accelerate the Elimination of Cervical Cancer as a Public Health Problem WHO recommends that HPV vaccines should be included in all national immunization programmes and should reach 90% of all girls by age 15 by 2030.

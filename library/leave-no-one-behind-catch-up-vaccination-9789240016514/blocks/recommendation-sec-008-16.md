@@ -1,0 +1,1 @@
+Restarting a series is not recommended, even for the primary series. o If different vaccine products require different number of doses for series completion (e.g., Haemophilus influenzae b (Hib), rotavirus vaccines), administering the higher number of doses is recommended to complete the series. • Vaccine diluents are not interchangeable across manufacturers nor formulations.

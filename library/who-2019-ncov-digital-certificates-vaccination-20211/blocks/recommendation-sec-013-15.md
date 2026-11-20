@@ -1,0 +1,1 @@
+Consideration should be given to whether the DDCC:VS infrastructure could hinder vaccination rates or reduce access to vaccines because of the potential inefficiencies it may introduce for processing vaccination registration and certification.

@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "library/who-2019-ncov-digital-certificates-vaccination-20211/sections/sec-039",
+  "@type": [
+    "doco:Section"
+  ],
+  "title": "Illustrative example of Digital Documentation of COVID-19 Certificates: Vaccination Status (DDCC:VS)",
+  "pageStart": 80,
+  "pageEnd": 81,
+  "contains": [
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-039",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/figure-img-p081-1",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/figure-img-p081-2",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/figure-img-p081-3",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/figure-img-p081-4",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-079"
+  ],
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/who-2019-ncov-digital-certificates-vaccination-20211",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/who-2019-ncov-digital-certificates-vaccination-20211",
+  "provenance": "ingested"
+}

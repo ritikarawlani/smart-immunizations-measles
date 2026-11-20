@@ -1,0 +1,1 @@
+IPV-only • An IPV-only schedule may be considered in countries in polio-free regions with a very low risk of importation and sustained high routine immunization coverage (DTP3 >90%). • Upon request from SAGE, WHO has developed a risk-grading framework to assess a country’s readiness to safely transition to an IPV-only schedule ahead of synchronized global bOPV cessation.

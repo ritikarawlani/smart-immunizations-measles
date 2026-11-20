@@ -1,0 +1,1 @@
+TAK-003 does not prevent all cases of dengue. • WHO recommends that countries consider introducing TAK-003 into their routine immunization programmes in geographical locations where high transmission intensity of dengue poses a significant public health problem.

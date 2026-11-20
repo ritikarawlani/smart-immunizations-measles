@@ -1,0 +1,1 @@
+• Everyone should fully benefit from vaccination by receiving recommended vaccines as soon as they are eligible, and those who arrive “late” should not be denied vaccination. • Most vaccines are safe and effective to administer with no upper age limit and while timely vaccination should always be the aim, it is almost always better to vaccinate late than never.

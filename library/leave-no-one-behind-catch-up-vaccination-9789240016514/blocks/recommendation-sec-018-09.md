@@ -1,0 +1,1 @@
+Resume without repeating previous dose 2 doses 2 doses Not recommended Rubella 9 or 12 months 1 dose with MCV NA 1 dose 1 dose Not recommended Human Papillomavirus vaccine (HPV) As soon as possible from 9 years of age If started <15 years, 2 doses (5 months) Resume without repeating previous dose No maximum interval.

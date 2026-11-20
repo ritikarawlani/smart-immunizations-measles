@@ -1,0 +1,1 @@
+The maintenance phase should include an outline of the overall life-cycle plan for the map, conflict resolution mechanism, continuous improvement process, and decision process around when an update is required.

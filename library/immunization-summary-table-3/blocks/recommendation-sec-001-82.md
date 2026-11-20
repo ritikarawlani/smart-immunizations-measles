@@ -1,0 +1,1 @@
+If a highly endemic country nevertheless wishes to consider largescale vaccination, it is essential to undertake a thorough prior analysis of risks vs benefits and ensure a high vaccination coverage to avoid this risk. • Groups at higher risk of hepatitis A should be vaccinated.

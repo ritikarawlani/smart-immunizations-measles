@@ -1,0 +1,1 @@
+As a general rule, any live vaccine may be given either simultaneously or at an interval of 4 weeks. • Inactivated JE vaccine can be used in immunocompromised persons including HIV-infected individuals, but the immune response may be lower than in fully immunocompetent persons.

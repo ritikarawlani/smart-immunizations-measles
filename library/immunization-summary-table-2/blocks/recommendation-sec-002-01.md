@@ -1,0 +1,1 @@
+Antigen Age of 1st Dose (minimum) Doses in Primary Series Interval Between Doses Booster Dose Considerations (see footnotes for details) 1st to 2nd 2nd to 3rd 3rd to 4th Recommendations for children residing in certain regions Japanese Encephalitis 12 Inactivated Vero cell- derived 6 month 2 generally 4 weeks (generally)

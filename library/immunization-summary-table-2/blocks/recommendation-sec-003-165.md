@@ -1,0 +1,1 @@
+Record (2024, 82: 49-60). • Recommended for use in countries who are able to achieve sustained high coverage of MR vaccination, and attain measles and rubella control and/or elimination levels. • If implemented, mumps vaccine should be administered with measles and rubella as MMR or MMRV combination vaccine and follow the same schedule.

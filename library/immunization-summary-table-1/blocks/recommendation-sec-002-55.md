@@ -1,0 +1,1 @@
+vaccine), it might be advantageous to give a booster dose by following either a 2p+1 or 3p+1 schedule. • The interval between doses should be at least 4 weeks if 3 primary doses are given, and at least 8 weeks if 2 primary doses are given.

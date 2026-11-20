@@ -1,0 +1,1 @@
+Behaviourally informed interventions • To design and evaluate effective immunization programmes and services, including catch-up vaccination strategies, immunization professionals must first identify the root causes for low coverage. • Assessing the drivers and barriers of immunization does not need to be a resource and time intensive activity.

@@ -1,0 +1,1 @@
+This strategy should include education about reducing behaviours that increase the risk of acquiring HPV infection, and information about screening, diagnosis and treatment of precancerous lesions, cancer and risk factors.

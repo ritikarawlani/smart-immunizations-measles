@@ -1,0 +1,1 @@
+Every country should have a catch-up vaccination schedule designed in line with the national immunization schedule, that adhere to any upper or lower age requirements as determined by the national immunization policy.

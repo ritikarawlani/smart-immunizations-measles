@@ -1,0 +1,395 @@
+{
+ "$schema": "folio-document-footnotes/v1",
+ "entry": "who-2019-ncov-digital-certificates-vaccination-20211",
+ "status": "determined",
+ "body_size": 11.0,
+ "footnotes": [
+  {
+   "id": "fn-p011-1",
+   "page": 11,
+   "mark": "1",
+   "text": "This definition is based on the definition published by the Internet Engineering Task Force (IETF) (https://www.ietf.org/rfc/rfc2119.txt, accessed 30 June 2021).",
+   "marks": [
+    {
+     "page": 11,
+     "context": "context."
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-002"
+  },
+  {
+   "id": "fn-p012-1",
+   "page": 12,
+   "mark": "1",
+   "text": "This definition is based on the definition published by the Internet Engineering Task Force (IETF) (https://www.ietf.org/rfc/rfc2119.txt, accessed 30 June 2021).",
+   "marks": [
+    {
+     "page": 12,
+     "context": "specification."
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-002"
+  },
+  {
+   "id": "fn-p036-1",
+   "page": 36,
+   "mark": "1",
+   "text": "The business process symbols used in the workflows are explained in Annex 2.",
+   "marks": [
+    {
+     "page": 36,
+     "context": "Continuity of Care scenario"
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p038-1",
+   "page": 38,
+   "mark": "1",
+   "text": "The business process symbols used in the workflows are explained in Annex 2.",
+   "marks": [
+    {
+     "page": 38,
+     "context": "Continuity of Care scenario: Paper First use case (UC001)"
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p039-1",
+   "page": 39,
+   "mark": "1",
+   "text": "The business process symbols used in the workflows are explained in Annex 2.",
+   "marks": [
+    {
+     "page": 39,
+     "context": "ontinuity of Care scenario: Offline Digital use case (UC002)"
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p040-1",
+   "page": 40,
+   "mark": "1",
+   "text": "The business process symbols used in the workflows are explained in Annex 2.",
+   "marks": [
+    {
+     "page": 40,
+     "context": "Continuity of Care scenario: Online Digital use case (UC003)"
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p048-1",
+   "page": 48,
+   "mark": "1",
+   "text": "The business process symbols used in the workflows are explained in Annex 2.",
+   "marks": [
+    {
+     "page": 48,
+     "context": "Proof of Vaccination scenario"
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-022"
+  },
+  {
+   "id": "fn-p050-1",
+   "page": 50,
+   "mark": "1",
+   "text": "The business process symbols used in the workflows are explained in Annex 2.",
+   "marks": [
+    {
+     "page": 50,
+     "context": "f Vaccination scenario: Manual Verification use case (UC004)"
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-022"
+  },
+  {
+   "id": "fn-p051-1",
+   "page": 51,
+   "mark": "1",
+   "text": "The business process symbols used in the workflows are explained in Annex 2.",
+   "marks": [
+    {
+     "page": 51,
+     "context": "(UC005)"
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-022"
+  },
+  {
+   "id": "fn-p052-1",
+   "page": 52,
+   "mark": "1",
+   "text": "The business process symbols used in the workflows are explained in Annex 2.",
+   "marks": [
+    {
+     "page": 52,
+     "context": "(UC006)"
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-022"
+  },
+  {
+   "id": "fn-p053-1",
+   "page": 53,
+   "mark": "1",
+   "text": "The business process symbols used in the workflows are explained in Annex 2.",
+   "marks": [
+    {
+     "page": 53,
+     "context": "use case (UC007)"
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-022"
+  },
+  {
+   "id": "fn-p058-1",
+   "page": 58,
+   "mark": "1",
+   "text": "The DDCC implementation guide can be found here: https://worldhealthorganization.github.io/ddcc/",
+   "marks": [
+    {
+     "page": 58,
+     "context": "certificate implementation guide"
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-025"
+  },
+  {
+   "id": "fn-p059-1",
+   "page": 59,
+   "mark": "1",
+   "text": "Coding data elements are multiple choice and the input options, or values, are data elements taken from a set of predefined options (e.g. sex, vaccine or prophylaxis, vaccine brand).",
+   "marks": [
+    {
+     "page": 59,
+     "context": "Coding"
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-025"
+  },
+  {
+   "id": "fn-p080-1",
+   "page": 80,
+   "mark": "1",
+   "text": "This illustrative example is adapted from the COVID-19 Paper Based Information System designed and developed by Sonder Design, which can be accessed here: https://www.notion.so/COVID-19-Paper-Based-Information-System-a1fcf3840e904142b775f1e9c92711c8.",
+   "marks": [
+    {
+     "page": 80,
+     "context": "s, fraud prevention mechanisms and scenarios of use in mind."
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-038"
+  },
+  {
+   "id": "fn-p082-1",
+   "page": 82,
+   "mark": "1",
+   "text": "Further mapping guidance details are provided in the forthcoming white paper on WHO-FIC classifications and terminology mapping produced in collaboration with the WHO-FIC Network, available at: www.who.int/classifications.",
+   "marks": [
+    {
+     "page": 82,
+     "context": "principles listed below."
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-040"
+  },
+  {
+   "id": "fn-p094-2",
+   "page": 94,
+   "mark": "2",
+   "text": "OpenHIE Architecture Specification. OpenHIE; September 2020 (https://ohie.org/wp-content/uploads/2020/12/OpenHIE-Specification- Release-3.0.pdf, accessed 29 June 2021).",
+   "marks": [
+    {
+     "page": 94,
+     "context": "The OpenHIE high-level architecture"
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-043"
+  },
+  {
+   "id": "fn-p095-1",
+   "page": 95,
+   "mark": "1",
+   "text": "Orange boxes indicate registries and repositories relevant to DDCC:VS.",
+   "marks": [
+    {
+     "page": 95,
+     "context": "OpenHIE architecture"
+    }
+   ],
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-044"
+  }
+ ],
+ "uncalled_notes": [
+  {
+   "id": "fn-p043-1",
+   "page": 43,
+   "mark": "1",
+   "text": "D: one-dimensional; 2D: two-dimensional; DDCC: Digital Documentation of COVID-19 Certificates; DDCC:VS: Digital Documentation of COVID-19 Certificates: Vaccination Status; HCID: health certificate identifier; ID: identifier; PHA: public health authority.",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-019"
+  },
+  {
+   "id": "fn-p043-2",
+   "page": 43,
+   "mark": "1",
+   "text": "The use case(s) to which each functional requirement applies are indicated with a .",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-019"
+  },
+  {
+   "id": "fn-p049-1",
+   "page": 49,
+   "mark": "2",
+   "text": "D barcodes matches →Can check whether signed 2D the health content barcodes containing DDCC:VS represented therein. content have been revoked or →Can check whether updated. signed 2D barcodes containing DDCC:VS content have been revoked or updated. Verify whether Not possible Possible if a cache of Possible Possible the DDCC:VS revoked certificates has been is maintained by the revoked? Verifier DDCC:VS Not required Required Required Required Registry Service DDCC:VS Optional Optional Required Required Repository DDCC:VS: Digital Documentation of COVID-19 Certificates: Vaccination Status; HCID: health certificate identifier; ID: identifier; PHA: public health authority.",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-022"
+  },
+  {
+   "id": "fn-p056-1",
+   "page": 56,
+   "mark": "1",
+   "text": "D: one-dimensional; 2D: two-dimensional; DDCC: Digital Documentation of COVID-19 Certificates; DDCC:VS: Digital Documentation of COVID-19 Certificates: Vaccination Status; DSC: document signer certificate; HCID: health certificate identifier; ID: identifier; PHA: public health authority.",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-023"
+  },
+  {
+   "id": "fn-p056-2",
+   "page": 56,
+   "mark": "1",
+   "text": "The use case(s) to which each functional requirement applies are indicated with a .",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-023"
+  },
+  {
+   "id": "fn-p077-1",
+   "page": 77,
+   "mark": "11",
+   "text": "11.\t Technical considerations for implementing a risk-based approach to international travel in the context of COVID-19: Interim guidance. Geneva: World Health Organization; 2 July 2021 (https://www.who.int/publications/i/item/WHO-2019- nCoV-Risk-based-international-travel-2021.1, accessed 20 July 2021).",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-036"
+  },
+  {
+   "id": "fn-p077-2",
+   "page": 77,
+   "mark": "12",
+   "text": "Monitoring COVID-19 vaccination: considerations for the collection and use of vaccination data. Interim guidance. Geneva: World Health Organization; 3 March 2021 (https://www.who.int/publications/i/item/monitoring-covid-19- vaccination-interim-guidance, accessed 27 June 2021).",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-036"
+  },
+  {
+   "id": "fn-p077-3",
+   "page": 77,
+   "mark": "13",
+   "text": "Practical guide for the design, use and promotion of home-based records in immunization programmes. Geneva: World Health Organization; 1 June 2015 (https://www.who.int/publications/i/item/WHO-IVB-15.05, accessed 27 June 2021).",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-036"
+  },
+  {
+   "id": "fn-p077-4",
+   "page": 77,
+   "mark": "14",
+   "text": "Guidance on developing a national deployment and vaccination plan for COVID-19 vaccines. Geneva: World Health Organization; 1 June 2021 (https://www.who.int/publications/i/item/WHO-2019-nCoV-Vaccine-deployment-2021.1-eng, accessed 27 June 2021).",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-036"
+  },
+  {
+   "id": "fn-p077-5",
+   "page": 77,
+   "mark": "15",
+   "text": "International Health Regulations (2005), third edition. Geneva: World Health Organization; 1 January 2016 (https://www. who.int/publications/i/item/9789241580496, accessed 27 June 2021).",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-036"
+  },
+  {
+   "id": "fn-p077-6",
+   "page": 77,
+   "mark": "16",
+   "text": "Guidelines: visible digital seals (“VDS-NC”) for travel-related health proofs. International Civil Aviation Organization (ICAO) Technical Advisory Group (TAG) on the Traveler Identification Group (TRIP); no date (https://www.icao.int/ Security/FAL/TRIP/PublishingImages/Pages/Publications/Guidelines%20-%20VDS%20for%20Travel-Related%20Public%20 Health%20Proofs.pdf, accessed 27 June 2021).",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-036"
+  },
+  {
+   "id": "fn-p077-7",
+   "page": 77,
+   "mark": "17",
+   "text": "EU Digital COVID certificate. In: European Commission [website]; no date (https://ec.europa.eu/info/live-work-travel-eu/ coronavirus-response/safe-covid-19-vaccines-europeans/eu-digital-covid-certificate_en#what-is-the-eu-digital-covid- certificate, accessed 27 June 2021).",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-036"
+  },
+  {
+   "id": "fn-p078-1",
+   "page": 78,
+   "mark": "33",
+   "text": "Health system governance. In: World Health Organization/Health topics [website]. Geneva: World Health Organization; no date (https://www.who.int/health-topics/health-systems-governance#tab=tab_1, accessed 27 June 2021).",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-037"
+  },
+  {
+   "id": "fn-p078-2",
+   "page": 78,
+   "mark": "34",
+   "text": "Adams C, Farrell S, Kause T, Mononen T. Internet X.509 Public Key Infrastructure Certificate Management Protocol (CMP), section 3.1.1.2 Certification Authority. Reston (VA) and Geneva: The Internet Society Network Working Group; 2005 (https://datatracker.ietf.org/doc/html/rfc4210#section-3.1.1.2, accessed 27 June 2021).",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-037"
+  },
+  {
+   "id": "fn-p078-3",
+   "page": 78,
+   "mark": "35",
+   "text": "Budd J, Miller BS, Manning EM, Lampos V, Zhuang M, Edelstein M, et al. Digital technologies in the public-health response to COVID-19. Nat Med. 2020;26(8):1183–92. doi:10.1038/s41591-020-1011-4.",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-037"
+  },
+  {
+   "id": "fn-p078-4",
+   "page": 78,
+   "mark": "36",
+   "text": "National eHealth Strategy Toolkit: overview. Geneva: World Health Organization and International Telecommunication Union; 2012 (https://www.who.int/ehealth/publications/overview.pdf, accessed 28 June 2021).",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-037"
+  },
+  {
+   "id": "fn-p078-5",
+   "page": 78,
+   "mark": "37",
+   "text": "Digital implementation investment guide (DIIG): integrating digital interventions into health programmes. Geneva: World Health Organization; 15 September 2020 (https://www.who.int/publications/i/item/9789240010567, accessed 28 June 2021).",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-037"
+  },
+  {
+   "id": "fn-p078-6",
+   "page": 78,
+   "mark": "38",
+   "text": "Rwanda uses DHIS2 as an interactive system for rapid and paperless COVID-19 vaccination. In: dhis2 [website]. University of Oslo; no date (https://dhis2.org/rwanda-covid-vaccination, accessed 28 June 2021).",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-037"
+  },
+  {
+   "id": "fn-p078-7",
+   "page": 78,
+   "mark": "39",
+   "text": "DIVOC - Digital Infrastructure for Vaccination Open Credentialing. In: DIVOC [website]. India: eGov Foundation; no date (https://divoc.egov.org.in, accessed 28 June 2021).",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-037"
+  },
+  {
+   "id": "fn-p078-8",
+   "page": 78,
+   "mark": "40",
+   "text": "Statement on the eighth meeting of the International Health Regulations (2005) Emergency Committee regarding the coronavirus disease (COVID-19) pandemic. In: World Health Organization/News [website]; 15 July 2021 https://www.who. int/news/item/15-07-2021-statement-on-the-eighth-meeting-of-the-international-health-regulations-(2005)-emergency- committee-regarding-the-coronavirus-disease-(covid-19)-pandemic, accessed 26 July 2021)",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-037"
+  },
+  {
+   "id": "fn-p094-1",
+   "page": 94,
+   "mark": "1",
+   "text": "OpenHIE. In: OpenHIE [website]. OpenHIE; no date (https://ohie.org/about, accessed 29 June 2021)2",
+   "block": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-043"
+  }
+ ],
+ "unlinked_marks": [
+  {
+   "page": 12,
+   "mark": "2",
+   "context": "outlined"
+  },
+  {
+   "page": 41,
+   "mark": "1",
+   "context": "Functional requirements for the Continuity of Care scenario"
+  },
+  {
+   "page": 54,
+   "mark": "1",
+   "context": "unctional requirements for the Proof of Vaccination scenario"
+  }
+ ]
+}

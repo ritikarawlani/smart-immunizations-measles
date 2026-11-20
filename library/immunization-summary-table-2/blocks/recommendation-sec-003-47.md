@@ -1,0 +1,1 @@
+Vaccination history should be verified in order to determine whether a dose of TTCV is needed in the current pregnancy. • WHO confirms its earlier recommendation to shift from the use of single-antigen TT to combinations containing diphtheria toxoid, i.e.

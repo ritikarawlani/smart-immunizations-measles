@@ -1,0 +1,1 @@
+Record (2021, 96: 301-320). • Early administration is favoured, with the first dose of rotavirus vaccine to be administered as soon as possible after 6 weeks of age, however, in order to benefit those who may come late should be vaccinated. • If a child <24 months of age misses a rotavirus dose or series for any reason, WHO recommends rotavirus vaccination for that child.

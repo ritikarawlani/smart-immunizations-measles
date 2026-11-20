@@ -1,0 +1,1 @@
+Consideration should be given to whether unvaccinated individuals could use other proofs of health status to allow them similar access to the same services while mitigating the risk of disease spread.

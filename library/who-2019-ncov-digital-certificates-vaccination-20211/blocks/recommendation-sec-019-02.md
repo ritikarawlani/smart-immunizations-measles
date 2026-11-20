@@ -1,0 +1,1 @@
+DDCC.FXNREQ.002 It SHOULD be possible to verify the identity of the Subject of Care against existing records, if such a check is mandated by local procedures, and to retrieve any pertinent health history.

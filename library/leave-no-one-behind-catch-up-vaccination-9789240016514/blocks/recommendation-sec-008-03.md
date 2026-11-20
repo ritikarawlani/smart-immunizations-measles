@@ -1,0 +1,1 @@
+Training should be reinforced through supportive supervision and any in-service training of new staff hires. • See Box 2 for a summary of instructions for health workers, which can be adapted into a job aid.

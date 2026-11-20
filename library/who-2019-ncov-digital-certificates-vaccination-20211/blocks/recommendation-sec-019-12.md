@@ -1,0 +1,1 @@
+DDCC.FXNREQ.012 The data concerning the vaccination (at minimum, the HCID and the core data set content) SHOULD be entered into an electronic format as soon as reasonably possible after the vaccine is administered.

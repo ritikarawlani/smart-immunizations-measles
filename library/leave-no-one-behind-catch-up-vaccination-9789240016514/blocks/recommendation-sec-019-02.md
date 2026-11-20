@@ -1,0 +1,1 @@
+DTP-containing vaccine 6 weeks 4 weeks 4 weeks (If >1 year, leave at least 6 months between dose 2 and 3) 6 months (and >1 year of age) If >7 years, use only aP containing vaccine; if >7 years, use Td-containing vaccine A total of 6 doses of Td/DT-containing vaccine are recommended, minimum interval of 6 months.

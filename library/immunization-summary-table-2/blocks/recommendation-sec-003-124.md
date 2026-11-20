@@ -1,0 +1,1 @@
+If more than 2 years have passed, the primary series of 2 doses should be repeated. • In cholera-endemic countries, vaccination of the entire population (throughout a country regardless of risk) is usually not warranted.

@@ -1,0 +1,1 @@
+Booster doses should be administered at least six months after completion of the primary series. • If the vaccination course has been interrupted, the schedule should be resumed without repeating the previous dose.

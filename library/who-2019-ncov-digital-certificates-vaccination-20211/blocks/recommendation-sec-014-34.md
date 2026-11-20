@@ -1,0 +1,1 @@
+INDEPENDENT OVERSIGHT AND ACCOUNTABILITY An independent public authority should be responsible for monitoring whether any data controller and data processor involved in the processing of personal data in the interest of the DDCC:VS adhere to the principles, and may recommend revoking the authorization to collect or otherwise process DDCC:VS data.

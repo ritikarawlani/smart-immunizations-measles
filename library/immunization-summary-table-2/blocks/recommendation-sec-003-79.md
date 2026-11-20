@@ -1,0 +1,1 @@
+Children who receive MCV0 should also receive MCV1 and MCV2 at the recommended ages according to the national schedule. • Given the severe course of measles in patients with AIDS, measles vaccination should be routinely administered to potentially susceptible, asymptomatic HIV infected children and adults.

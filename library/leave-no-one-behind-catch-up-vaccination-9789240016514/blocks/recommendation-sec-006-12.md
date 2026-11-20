@@ -1,0 +1,1 @@
+It is safe to revaccinate individuals who have been previously vaccinated.7 • All revised policies and operational guidance should be disseminated from national, to subnational, and service delivery levels.

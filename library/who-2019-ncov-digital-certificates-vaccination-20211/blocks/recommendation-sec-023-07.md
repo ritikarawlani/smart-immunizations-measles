@@ -1,0 +1,1 @@
+DDCC.FXNREQ.044 If, at the time of verification, a Verifier has online access/connectivity to a DDCC:VS Registry Service managed by a National PHA, then it SHALL be possible to query whether the HCID present in the barcode (and the public key, if also present) of the paper vaccination card are currently valid.

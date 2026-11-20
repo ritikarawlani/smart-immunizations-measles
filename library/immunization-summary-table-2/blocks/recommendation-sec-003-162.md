@@ -1,0 +1,1 @@
+Alternatively, countries could consider a hybrid of these approaches, giving the first 3 doses through age-based administration and subsequent annual doses seasonally. • The vaccination series should be completed with the same product whenever feasible.

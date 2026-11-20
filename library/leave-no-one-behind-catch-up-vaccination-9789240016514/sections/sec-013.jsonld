@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-013",
+  "@type": [
+    "doco:Section"
+  ],
+  "title": "Policy and advocacy",
+  "pageStart": 25,
+  "pageEnd": 26,
+  "contains": [
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-013",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-013-01",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-013-02",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-013-03",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-013-04"
+  ],
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "provenance": "ingested"
+}

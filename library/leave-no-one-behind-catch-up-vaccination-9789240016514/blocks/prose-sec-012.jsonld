@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-012",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "kind": "prose",
+  "title": "Special catch-up vaccination efforts following an interruption of services",
+  "pageStart": 25,
+  "pageEnd": 25,
+  "text": "../sections/sec-012-2-special-catch-up-vaccination-efforts-following.md",
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "provenance": "ingested"
+}

@@ -1,0 +1,1 @@
+BCG 1 BCG vaccination is recommended for unvaccinated TST- or IGRA-negative persons at risk of occupational exposure in low and high TB incidence areas (e.g. health- care workers, laboratory workers, medical students, prison workers, other individuals with occupational exposure).

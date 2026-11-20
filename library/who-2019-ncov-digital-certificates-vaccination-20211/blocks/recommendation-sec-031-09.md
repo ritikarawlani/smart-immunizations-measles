@@ -1,0 +1,1 @@
+→REVOCATION OF DDCC:VS: There should be clear and transparent processes for revocation of a DDCC:VS in case fraud has occurred, incorrect information needs to be rectified, faulty vaccine batches have been discovered or issues have been detected within the vaccine supply chain.

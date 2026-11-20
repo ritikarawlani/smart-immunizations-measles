@@ -1,0 +1,1 @@
+Record (2024, 99: 203-224) • Vaccination against dengue should be viewed as part of an integrated strategy to control the disease, including vector control, proper case management, community education, and community engagement.

@@ -1,0 +1,55 @@
+{
+  "$schema": "folio-library-extraction/v1",
+  "doc_id": "immunization-summary-table-3",
+  "kinds": {
+    "contents": {
+      "state": "found",
+      "count": 4,
+      "note": "contents from outline",
+      "tool": "pdf-structure.py",
+      "version": "0b311238188a",
+      "at": "2026-11-20"
+    },
+    "sections": {
+      "state": "found",
+      "count": 3,
+      "tool": "pdf-structure.py",
+      "version": "0b311238188a",
+      "at": "2026-11-20"
+    },
+    "figures": {
+      "state": "none",
+      "count": 0,
+      "note": "1 caption(s) read off the pages",
+      "tool": "pdf-images.py+pdf-vector-figures.py",
+      "at": "2026-11-20"
+    },
+    "tables": {
+      "state": "found",
+      "count": 4,
+      "note": "drafts; backend pdfplumber 0.11.10; 21 candidate(s) dropped: under two columns or no row under the header",
+      "tool": "pdf-tables.py",
+      "version": "b3b9e4012c21",
+      "at": "2026-11-20"
+    },
+    "references": {
+      "state": "not-extracted",
+      "note": "the instance declares no references directory to hold the nodes",
+      "tool": "references-extract",
+      "at": "2026-11-20"
+    },
+    "glossary": {
+      "state": "not-extracted",
+      "note": "the instance declares no glossary directory to hold the scheme",
+      "tool": "glossary-from-source",
+      "at": "2026-11-20"
+    },
+    "footnotes": {
+      "state": "found",
+      "count": 3,
+      "note": "called from the text; also kept: 42 foot-of-page line(s) no mark calls, 11 mark(s) with no note found",
+      "tool": "pdf-footnotes.py",
+      "at": "2026-11-20"
+    }
+  }
+}

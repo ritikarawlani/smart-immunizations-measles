@@ -1,0 +1,1 @@
+Record (2022, 97: 645-672). • The current evidence supports the recommendation that a 2-dose schedule be used in the primary target group from 9 years of age and for all older age groups for which HPV vaccines are licensed. • The minimum interval between first and second dose is 6 months.

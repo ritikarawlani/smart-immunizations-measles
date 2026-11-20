@@ -1,0 +1,1 @@
+3 For example, rotavirus vaccine is not recommended >24 months, Haemophilus influenza type b (Hib) is not recommended >5 years as there is limited benefit beyond these ages due to disease epidemiology; DTP-containing vaccines should only be given with Td and aP if >7 years.

@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.006 Accessibility Any solution SHOULD automatically optimize its interface (layout of elements, organization of information, etc.) to adapt to the device on which it is being used, so that it is accessible on personal computers (desktops, laptops), tablets and smartphones using principles of adaptive design.

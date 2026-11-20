@@ -1,0 +1,1 @@
+Unless given together with other live viral vaccines (measles, MR, MMR), it should be administered at a minimum interval of 28 days (4 weeks). • Regardless of the duration of delay, interrupted schedules should be resumed as soon as possible without repeating previous doses.

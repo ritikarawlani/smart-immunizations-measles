@@ -1,0 +1,1 @@
+Record (2024, 99: 225-248) • Malaria vaccines should be provided as part of a comprehensive malaria control strategy. • WHO recommends the use of malaria vaccines for the prevention of P. falciparum malaria in children living in malaria endemic areas, prioritizing areas of moderate and high transmission.

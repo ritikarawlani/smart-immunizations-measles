@@ -1,0 +1,1 @@
+DDCC.FXNREQ.043 It SHALL always be possible to perform some form of offline verification of vaccination cards; any solution should be designed so that a loss of connectivity to online components of the solution cannot force the verification work to stop.

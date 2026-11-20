@@ -1,0 +1,1 @@
+presumes vaccination will take place (e.g. “we will have to give some vaccines today”)18 caregivers and individuals are usually willing to receive multiple injections during the same visit. • However, if a caregiver or individual still has concerns about receiving multiple vaccine injections, they should not be pressured to receive all catch-up vaccination doses during one visit.

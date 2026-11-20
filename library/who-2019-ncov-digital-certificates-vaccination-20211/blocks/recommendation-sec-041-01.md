@@ -1,0 +1,1 @@
+International Classifications (WHO-FIC) and other classifications Mapping from classifications and terminologies used in existing systems to the International Classification of Diseases, 11th revision (ICD-11), and other WHO-FIC classifications should follow the principles listed below.1 1.

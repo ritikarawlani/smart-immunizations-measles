@@ -1,0 +1,1 @@
+2 doses Only if occupation puts a frequent or continual risk of exposure, titres should be tested if possible Dengue (TAK-003) 20 6 years (min) 2 doses (3 months) Resume without repeating previous dose Not recommended 2 doses 6-16 years Not recommended Malaria 21 5 months 4 doses (4 weeks) Resume without repeating previous dose 4 doses 4 doses

@@ -1,0 +1,1 @@
+→ACCESSIBILITY: The provision of flexibility to accommodate each user’s needs and preferences, along with appropriate measures to ensure access to persons with disabilities on an equal basis with others; for example, the solution should still be accessible to those with visual impairment.

@@ -1,0 +1,1 @@
+DDCC.FXNREQ.036 The DDCC:VS Generation Service SHALL maintain a connection between an HCID, the vaccination data associated with it in a DDCC:VS, any 2D barcode generated from the data, and the private/public key used to sign the data.

@@ -1,0 +1,1 @@
+If in a specific context there is a compelling reason to vaccinate infants younger than 9 months, a 2-dose schedule should be used starting at 3 months of age, with an interval of at least 8 weeks between doses. • For monovalent MenC conjugate vaccine one single intramuscular dose is recommended for children aged ≥12 months, teenagers and adults.

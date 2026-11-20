@@ -1,0 +1,1 @@
+The campaign should target males as well as females in order to reduce the likelihood of creating immunity gaps. • The first dose of RCV can be delivered at 9 or 12 months, depending on the level of measles virus transmission.

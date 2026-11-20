@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.020 Performance/ response time The solution SHALL follow best practices to deliver a responsive interface in which typical requests can be served (end-to-end interaction) in a maximum time specified in a number of seconds to be determined based on typical bandwidths.

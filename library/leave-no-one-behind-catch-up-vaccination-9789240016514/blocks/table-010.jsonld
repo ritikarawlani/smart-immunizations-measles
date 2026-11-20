@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-010",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "kind": "table",
+  "label": "Table 10",
+  "file": "../tables/table-10.csv",
+  "headers": [
+    "Name: Date of this assessment: Date of birth: Age at this assessment: Additional Number of Number of doses doses doses Dose number Vaccine required Comments received and needed at due now (interval or date for each current age date) To be completed Note here if based on any upper age national limits apply immunization (e.g. Rotavirus) schedule Photocopy or take a photo of the section below and provide to individual (hard copy or send via SMS/chat/email):",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "pageStart": 40,
+  "pageEnd": 40,
+  "derivedFrom": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-020",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "provenance": "ingested"
+}

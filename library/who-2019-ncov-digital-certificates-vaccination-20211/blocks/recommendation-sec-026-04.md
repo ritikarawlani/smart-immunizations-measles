@@ -1,0 +1,1 @@
+Date Complete date, following ISO 8601 Required Required Vaccination valid from Date upon which provided vaccination is considered valid This data should only be considered valid at the time of issuance, as guidance is likely to evolve with further scientific evidence.

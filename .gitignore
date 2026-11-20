@@ -98,3 +98,7 @@ output-ast/
 
 # QA results are computed and published to cat/cat-harness/qa-reports (publish-qa.yml), never committed.
 /test/results/
+
+# Ingestion scratch (bun run cat ingest): staged entries and LSI/QA build output
+/ingest-staging/
+/build/

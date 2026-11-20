@@ -1,0 +1,1 @@
+Maternal RSV vaccine • For countries using maternal RSV vaccine , WHO recommends a single dose in the third trimester of pregnancy, as defined in the local context (≥28 weeks gestation in most settings). • Ideally vaccination should occur more than 2 weeks before delivery to ensure adequate transfer of antibodies to protect the baby.

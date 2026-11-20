@@ -1,0 +1,335 @@
+{
+  "$schema": "folio-referenced-source/v1",
+  "identity": {
+    "title": "Analysis and use of health facility data: guidance for immunization programme managers",
+    "version": "Working document – February 2018",
+    "document_number": "none printed (no WHO reference number, ISBN or IRIS handle appears in the document)",
+    "date": "2018-02",
+    "publisher": "World Health Organization"
+  },
+  "source": {
+    "file": "facilityanalysisguide-immunization.pdf",
+    "sha256": "899513a64de612a66e318efdd8ed84ec1d63eec3a72bba49f73bdfefe387d01b",
+    "bytes": 1298901,
+    "mtime": "2026-11-20T12:49:37Z",
+    "mimetype_sniffed": "application/pdf",
+    "mimetype_source": "magic-bytes"
+  },
+  "outline": [
+    {
+      "level": 1,
+      "title": "MODULE 6. Guidance for immunization programme managers",
+      "page": 5
+    },
+    {
+      "level": 2,
+      "title": "Learning Objectives",
+      "page": 5
+    },
+    {
+      "level": 2,
+      "title": "Audience",
+      "page": 5
+    },
+    {
+      "level": 2,
+      "title": "Suggested References",
+      "page": 5
+    },
+    {
+      "level": 2,
+      "title": "Key Authors",
+      "page": 5
+    },
+    {
+      "level": 1,
+      "title": "Contents",
+      "page": 7
+    },
+    {
+      "level": 1,
+      "title": "Acknowledgements",
+      "page": 8
+    },
+    {
+      "level": 1,
+      "title": "1. About the data",
+      "page": 9
+    },
+    {
+      "level": 1,
+      "title": "2. Data quality",
+      "page": 10
+    },
+    {
+      "level": 1,
+      "title": "3. Core facility indicators",
+      "page": 12
+    },
+    {
+      "level": 1,
+      "title": "Disaggregations",
+      "page": 12
+    },
+    {
+      "level": 1,
+      "title": "Definition",
+      "page": 12
+    },
+    {
+      "level": 1,
+      "title": "Core Indicators",
+      "page": 12
+    },
+    {
+      "level": 1,
+      "title": "4. Core analysis",
+      "page": 13
+    },
+    {
+      "level": 2,
+      "title": "Immunization coverage for each vaccine in the national schedule",
+      "page": 13
+    },
+    {
+      "level": 3,
+      "title": "Purpose",
+      "page": 13
+    },
+    {
+      "level": 3,
+      "title": "Analysis",
+      "page": 13
+    },
+    {
+      "level": 3,
+      "title": "Considerations/issues for interpretation",
+      "page": 15
+    },
+    {
+      "level": 4,
+      "title": "Necessary dis-aggregations",
+      "page": 15
+    },
+    {
+      "level": 4,
+      "title": "Monitoring access",
+      "page": 15
+    },
+    {
+      "level": 4,
+      "title": "Monitoring overall performance of immunization services",
+      "page": 15
+    },
+    {
+      "level": 4,
+      "title": "Misclassification",
+      "page": 15
+    },
+    {
+      "level": 4,
+      "title": "Monitoring coverage with all vaccines in the schedule",
+      "page": 15
+    },
+    {
+      "level": 4,
+      "title": "Age dis-aggregations",
+      "page": 15
+    },
+    {
+      "level": 4,
+      "title": "Unnecessary dis-aggregations",
+      "page": 15
+    },
+    {
+      "level": 4,
+      "title": "Denominators",
+      "page": 16
+    },
+    {
+      "level": 4,
+      "title": "Year-to-year fluctuations in the denominator",
+      "page": 16
+    },
+    {
+      "level": 4,
+      "title": "When reliable denominator estimates are lacking there are several options for monitoring performance:",
+      "page": 16
+    },
+    {
+      "level": 4,
+      "title": "Time series (see graphs 6, 7, 8)",
+      "page": 16
+    },
+    {
+      "level": 4,
+      "title": "Trends",
+      "page": 16
+    },
+    {
+      "level": 4,
+      "title": "Comparison with survey estimates",
+      "page": 17
+    },
+    {
+      "level": 2,
+      "title": "Dropouts – children who start but don’t complete the immunization schedule",
+      "page": 18
+    },
+    {
+      "level": 3,
+      "title": "Purpose",
+      "page": 18
+    },
+    {
+      "level": 3,
+      "title": "Analysis",
+      "page": 18
+    },
+    {
+      "level": 3,
+      "title": "Considerations/issues for interpretation",
+      "page": 19
+    },
+    {
+      "level": 4,
+      "title": "Classification of districts/provinces based upon Key Performance Indicators",
+      "page": 19
+    },
+    {
+      "level": 2,
+      "title": "Management of vaccine stocks",
+      "page": 20
+    },
+    {
+      "level": 3,
+      "title": "Purpose",
+      "page": 20
+    },
+    {
+      "level": 3,
+      "title": "Analysis",
+      "page": 20
+    },
+    {
+      "level": 4,
+      "title": "Monitor cold chain equipment",
+      "page": 21
+    },
+    {
+      "level": 3,
+      "title": "Considerations/issues for interpretation",
+      "page": 22
+    },
+    {
+      "level": 4,
+      "title": "Monitoring for full availability",
+      "page": 22
+    },
+    {
+      "level": 4,
+      "title": "Monitoring closed vial wastage",
+      "page": 22
+    },
+    {
+      "level": 4,
+      "title": "Monitoring open vial wastage",
+      "page": 22
+    },
+    {
+      "level": 4,
+      "title": "Monitoring vaccine temperature alarms",
+      "page": 22
+    },
+    {
+      "level": 4,
+      "title": "Monitoring the number of functional refrigerators",
+      "page": 22
+    },
+    {
+      "level": 2,
+      "title": "Adverse events following immunizations",
+      "page": 23
+    },
+    {
+      "level": 3,
+      "title": "Purpose",
+      "page": 23
+    },
+    {
+      "level": 3,
+      "title": "Analysis",
+      "page": 23
+    },
+    {
+      "level": 3,
+      "title": "Considerations/issues for interpretation",
+      "page": 23
+    },
+    {
+      "level": 4,
+      "title": "Sensitivity of AEFI surveillance",
+      "page": 23
+    },
+    {
+      "level": 2,
+      "title": "Immunization sessions",
+      "page": 24
+    },
+    {
+      "level": 3,
+      "title": "Purpose",
+      "page": 24
+    },
+    {
+      "level": 3,
+      "title": "Analysis",
+      "page": 24
+    },
+    {
+      "level": 2,
+      "title": "Completeness of reporting",
+      "page": 25
+    },
+    {
+      "level": 3,
+      "title": "Purpose",
+      "page": 25
+    },
+    {
+      "level": 3,
+      "title": "Analysis",
+      "page": 25
+    },
+    {
+      "level": 3,
+      "title": "Considerations/issues for interpretation",
+      "page": 25
+    },
+    {
+      "level": 4,
+      "title": "Assess facility reporting completeness",
+      "page": 25
+    },
+    {
+      "level": 4,
+      "title": "Disaggregation of reporting completeness",
+      "page": 25
+    }
+  ],
+  "outline_source": "embedded",
+  "materialization": {
+    "$schema": "folio-materialization/v1",
+    "state": "referenced",
+    "provenance": {
+      "upstream": {
+        "url": "https://github.com/user-attachments/files/35149130/facilityanalysisguide-immunization.pdf"
+      }
+    },
+    "note": "Text withheld by licence; the bytes identified by `source.sha256` were read once to take this record."
+  },
+  "withheld": {
+    "what": "all text, figures and tables",
+    "why": "Page 4: \"© World Health Organization 2018. All rights reserved. This is a working document and should not be quoted, reproduced, translated or adapted, in part or in whole, in any form or by any means.\""
+  }
+}

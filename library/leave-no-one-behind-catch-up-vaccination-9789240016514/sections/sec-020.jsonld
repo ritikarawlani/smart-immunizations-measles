@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-020",
+  "@type": [
+    "doco:Section"
+  ],
+  "title": "Sample job aids for catch-up vaccination",
+  "pageStart": 37,
+  "pageEnd": 40,
+  "contains": [
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-020",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p038-1",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p039-1",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-010"
+  ],
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "provenance": "ingested"
+}

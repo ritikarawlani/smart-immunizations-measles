@@ -1,0 +1,1 @@
+Furthermore, the dengue seropositivity rate in this age group is generally low, even in high dengue transmission settings. • The vaccine is recommended as a 2-dose schedule with a minimum interval of 3 months between doses.

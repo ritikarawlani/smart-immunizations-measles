@@ -1,0 +1,1 @@
+DDCC.FXNREQ.021 If an offline Digital Health Solution for vaccination registration is available, then it SHOULD be possible to search, list, filter, reorder and export the history of vaccinations administered.

@@ -1,0 +1,1 @@
+This component of the Rubella Position Paper will be amended in the next update; in the meantime, the new policy recommendation can be found in the Meeting of the Strategic Advisory Group of Experts on Immunization, September 2024: conclusions and recommendations. • All countries that have not yet introduced RCV should plan to do so.

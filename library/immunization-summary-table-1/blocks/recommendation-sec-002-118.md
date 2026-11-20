@@ -1,0 +1,1 @@
+Revaccination is recommended every 3 years for ViPS, and every 3-7 years for Ty21a. • Use of the live attenuated Ty21a vaccine during pregnancy should be avoided because of theoretical safety concerns about potential adverse effects.

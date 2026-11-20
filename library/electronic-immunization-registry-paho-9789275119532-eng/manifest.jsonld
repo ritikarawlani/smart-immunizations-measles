@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/electronic-immunization-registry-paho-9789275119532-eng",
+  "@type": [
+    "cat-harness:SourceDocument"
+  ],
+  "title": "Electronic Immunization Registry: Practical Considerations for Planning, Development, Implementation and Evaluation",
+  "contains": [],
+  "provenance": "ingested",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/smart-immunizations-measles/directory/library",
+  "meta": {
+    "doc_id": "electronic-immunization-registry-paho-9789275119532-eng",
+    "title_source": "referenced",
+    "title_from": "referenced.json identity.title",
+    "source_file": "electronic-immunization-registry-PAHO-9789275119532_eng.pdf",
+    "source_sha256": "1010a882f2c1990aec1b6ad1f69a6eda548ba007f3c667db5c1edef1b87dcd34",
+    "disposition": "referenced source — recorded, text withheld by licence"
+  }
+}

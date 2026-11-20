@@ -1,0 +1,1 @@
+Instead, the criteria for age at first dose must be determined from local epidemiologic data. • If a catch-up schedule for interrupted immunization is available, it is noted in the footnotes. • Other vaccines, such as varicella and pneumococcal polysaccharide vaccines, may be of individual benefit but have not been generally recommended for routine immunization.

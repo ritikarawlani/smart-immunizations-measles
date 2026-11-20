@@ -1,0 +1,18 @@
+{
+  "$schema": "folio-library-extraction/v1",
+  "doc_id": "electronic-immunization-registry-paho-9789275119532-eng",
+  "kinds": {
+    "references": {
+      "state": "not-extracted",
+      "note": "the entry has no sections/ to read",
+      "tool": "references-extract",
+      "at": "2026-11-20"
+    },
+    "glossary": {
+      "state": "not-extracted",
+      "note": "the entry has no sections/ to read",
+      "tool": "glossary-from-source",
+      "at": "2026-11-20"
+    }
+  }
+}
