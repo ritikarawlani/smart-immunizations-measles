@@ -1,0 +1,15 @@
+{
+  "contentType": "document",
+  "adapter": "document",
+  "adapterModule": "./../folio-assistant/cat-harness/adapters/document/index.ts",
+  "feedbackDir": ".folio-feedback",
+  "skills": ".claude/skills/local",
+  "viewer": {
+    "dir": "../folio-assistant/cat-harness/viewer",
+    "port": 8080
+  },
+  "readme": {
+    "linkStyle": "blob",
+    "publishRef": "gh-pages"
+  }
+}

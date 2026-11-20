@@ -1,0 +1,15 @@
+{
+  "name": "measles",
+  "title": "WHO SMART Guidelines — Measles Immunization",
+  "directories": [
+    {
+      "id": "folio",
+      "path": "folio/",
+      "dependents": "reproduce",
+      "graphKinds": [
+        "folio"
+      ],
+      "description": "The content of WHO SMART Guidelines — Measles Immunization — its document, chapters and blocks."
+    }
+  ]
+}
