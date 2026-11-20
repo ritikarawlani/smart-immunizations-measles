@@ -33,4 +33,21 @@ signs them.
 
 #### L2 → L3
 
-Not started at the time of writing; see the next stage.
+The readiness gate (`input/L3/l3-readiness.json`) found nothing missing
+before stage 6. What L3 now holds, and what it does not:
+
+| L2 asset | L3 | note |
+|---|---|---|
+| DT.01–DT.04 | ✓ Library (CQL) + SGDecisionTable PlanDefinition each | derived rule for rule by `input/L3/dmn2cql.py`; compiled; 28/28 dummy clients pass |
+| IND.01, .02, .06, .07 | ✓ Measures + `MEASLESIndicators.cql` | denominators are an **interpretation** of the JRF's population estimates (registered children turning 1 or 2), pending the programme manager |
+| IND.03, .04 (districts by coverage band), IND.05 (late MCV1 doses) | — | aggregate counts over districts and doses, not patient-level Measures |
+| core data elements | ✓ logical model, CodeSystem, 9 ValueSets | **local codes only**: no SNOMED CT / LOINC / ICD-11 binding until the terminologist reviews |
+| personas | ✓ 4 ActorDefinitions | |
+| functional requirements | ✓ Requirements | |
+| MEASLES.A / MEASLES.B (BPMN) | — | no workflow PlanDefinition yet |
+| forms | — | **no Questionnaire**: stage 4 designed no form wireframe (`wireframe-design-review`), and the Questionnaire is derived from the chosen wireframe |
+| test scenarios | — | run against the CQL (above); no FHIR test bundles |
+
+The IG Publisher has not been run here: SUSHI builds clean (0 errors,
+0 warnings), but the rendered IG, its QA report and the CQL packaging by
+the Publisher are not checked. No build workflow is installed yet.

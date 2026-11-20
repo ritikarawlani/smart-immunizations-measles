@@ -1,0 +1,23 @@
+{
+ "$schema": "qa-review/v1",
+ "subject": {
+  "kind": "indicators",
+  "id": "l2-measles-indicators-csv",
+  "path": "input/indicators/measles-indicators.csv"
+ },
+ "findings": [],
+ "notes": [
+  {
+   "id": "l2-measles-indicators-csv-request",
+   "author": {
+    "kind": "agent",
+    "id": "claude"
+   },
+   "rationale": "Review requested of role `programme-manager`: Are these the measles indicators, with the right numerators and denominators? Staged on the PR's branch; no decision recorded yet (pending).",
+   "cites": [],
+   "written_at": "2026-11-20T00:00:00Z"
+  }
+ ],
+ "decisions": [],
+ "updated_at": "2026-11-20T00:00:00Z"
+}

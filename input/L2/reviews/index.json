@@ -1,0 +1,194 @@
+{
+ "$comment": "Review items requested (smart-guideline-end-to-end, Per-asset review). outcome stays pending until a person in the role records a decision in the item's qa-review file.",
+ "items": [
+  {
+   "id": "l1-immunization-summary-table-1",
+   "subject": "l1-extractions/immunization-summary-table-1/",
+   "role": "l1-extraction-reviewer",
+   "question": "Are the proposed exclusions right (sign each), and does every measles sentence of the source have a node?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l1-sme-immunization-summary-table-1",
+   "subject": "l1-extractions/immunization-summary-table-1/l1.json",
+   "role": "clinical-sme",
+   "question": "Does each recommendation node say what the printed sentence says, beside its page?",
+   "outcome": "pending"
+  },
+  {
+   "id": "scen-immunization-summary-table-1",
+   "subject": "l1-extractions/immunization-summary-table-1/scenarios/",
+   "role": "clinical-sme",
+   "question": "Is the persona, act and outcome of each scenario right?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l1-immunization-summary-table-2",
+   "subject": "l1-extractions/immunization-summary-table-2/",
+   "role": "l1-extraction-reviewer",
+   "question": "Are the proposed exclusions right (sign each), and does every measles sentence of the source have a node?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l1-sme-immunization-summary-table-2",
+   "subject": "l1-extractions/immunization-summary-table-2/l1.json",
+   "role": "clinical-sme",
+   "question": "Does each recommendation node say what the printed sentence says, beside its page?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l1-immunization-summary-table-3",
+   "subject": "l1-extractions/immunization-summary-table-3/",
+   "role": "l1-extraction-reviewer",
+   "question": "Are the proposed exclusions right (sign each), and does every measles sentence of the source have a node?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l1-sme-immunization-summary-table-3",
+   "subject": "l1-extractions/immunization-summary-table-3/l1.json",
+   "role": "clinical-sme",
+   "question": "Does each recommendation node say what the printed sentence says, beside its page?",
+   "outcome": "pending"
+  },
+  {
+   "id": "scen-immunization-summary-table-3",
+   "subject": "l1-extractions/immunization-summary-table-3/scenarios/",
+   "role": "clinical-sme",
+   "question": "Is the persona, act and outcome of each scenario right?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l1-immunization-summary-table-4",
+   "subject": "l1-extractions/immunization-summary-table-4/",
+   "role": "l1-extraction-reviewer",
+   "question": "Are the proposed exclusions right (sign each), and does every measles sentence of the source have a node?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l1-sme-immunization-summary-table-4",
+   "subject": "l1-extractions/immunization-summary-table-4/l1.json",
+   "role": "clinical-sme",
+   "question": "Does each recommendation node say what the printed sentence says, beside its page?",
+   "outcome": "pending"
+  },
+  {
+   "id": "scen-immunization-summary-table-4",
+   "subject": "l1-extractions/immunization-summary-table-4/scenarios/",
+   "role": "clinical-sme",
+   "question": "Is the persona, act and outcome of each scenario right?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l1-leave-no-one-behind-catch-up-vaccination-9789240016514",
+   "subject": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/",
+   "role": "l1-extraction-reviewer",
+   "question": "Are the proposed exclusions right (sign each), and does every measles sentence of the source have a node?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l1-sme-leave-no-one-behind-catch-up-vaccination-9789240016514",
+   "subject": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json",
+   "role": "clinical-sme",
+   "question": "Does each recommendation node say what the printed sentence says, beside its page?",
+   "outcome": "pending"
+  },
+  {
+   "id": "scen-leave-no-one-behind-catch-up-vaccination-9789240016514",
+   "subject": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenarios/",
+   "role": "clinical-sme",
+   "question": "Is the persona, act and outcome of each scenario right?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l2-personas-md",
+   "subject": "input/pagecontent/personas.md",
+   "role": "clinical-sme",
+   "question": "Are these the people who act in measles vaccination, and is each described right?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l2-user-scenarios-md",
+   "subject": "input/pagecontent/user-scenarios.md",
+   "role": "clinical-sme",
+   "question": "Do the five stories match practice and the recommendations they cite?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l2-MEASLES-A-bpmn",
+   "subject": "input/business-processes/MEASLES.A.bpmn",
+   "role": "clinical-sme",
+   "question": "Walking Asha, Daniel, Lina and Grace through the diagram lane by lane: is every step right?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l2-MEASLES-B-bpmn",
+   "subject": "input/business-processes/MEASLES.B.bpmn",
+   "role": "programme-manager",
+   "question": "Is this how defaulters are found and coverage reported?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l2-MEASLES-DT-01-dmn",
+   "subject": "input/decision-logic/MEASLES.DT.01.dmn",
+   "role": "clinical-sme",
+   "question": "Is the dose each dummy client gets (testing.md) the dose recommendation measles.* says?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l2-MEASLES-DT-02-dmn",
+   "subject": "input/decision-logic/MEASLES.DT.02.dmn",
+   "role": "clinical-sme",
+   "question": "Is each screening outcome right for the dummy clients?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l2-MEASLES-DT-03-dmn",
+   "subject": "input/decision-logic/MEASLES.DT.03.dmn",
+   "role": "clinical-sme",
+   "question": "Is each recorded dose counted right?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l2-MEASLES-DT-04-dmn",
+   "subject": "input/decision-logic/MEASLES.DT.04.dmn",
+   "role": "clinical-sme",
+   "question": "Is the additional-dose rule for children on HAART right?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l2-measles-core-data-elements-csv",
+   "subject": "input/dictionary/measles-core-data-elements.csv",
+   "role": "clinical-sme",
+   "question": "Does each element mean what the decision tables need?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l2-measles-core-data-elements-csv-terminologist",
+   "subject": "input/dictionary/measles-core-data-elements.csv",
+   "role": "terminologist",
+   "question": "Which standard codes (SNOMED CT, LOINC, ICD-11) should each coded element bind to?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l2-measles-indicators-csv",
+   "subject": "input/indicators/measles-indicators.csv",
+   "role": "programme-manager",
+   "question": "Are these the measles indicators, with the right numerators and denominators?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l2-measles-functional-requirements-csv",
+   "subject": "input/system-requirements/measles-functional-requirements.csv",
+   "role": "business-analyst",
+   "question": "Is each requirement needed and testable?",
+   "outcome": "pending"
+  },
+  {
+   "id": "l2-l2-dependencies-md-programme-manager",
+   "subject": "input/pagecontent/l2-dependencies.md",
+   "role": "programme-manager",
+   "question": "Is reusing only smart-base's generic personas, and not the IMMZ DAK, the right choice?",
+   "outcome": "pending"
+  }
+ ]
+}

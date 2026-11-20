@@ -1,0 +1,23 @@
+{
+ "$schema": "qa-review/v1",
+ "subject": {
+  "kind": "functional-requirements",
+  "id": "l2-measles-functional-requirements-csv",
+  "path": "input/system-requirements/measles-functional-requirements.csv"
+ },
+ "findings": [],
+ "notes": [
+  {
+   "id": "l2-measles-functional-requirements-csv-request",
+   "author": {
+    "kind": "agent",
+    "id": "claude"
+   },
+   "rationale": "Review requested of role `business-analyst`: Is each requirement needed and testable? Staged on the PR's branch; no decision recorded yet (pending).",
+   "cites": [],
+   "written_at": "2026-11-20T00:00:00Z"
+  }
+ ],
+ "decisions": [],
+ "updated_at": "2026-11-20T00:00:00Z"
+}

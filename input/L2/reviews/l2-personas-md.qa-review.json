@@ -1,0 +1,23 @@
+{
+ "$schema": "qa-review/v1",
+ "subject": {
+  "kind": "personas",
+  "id": "l2-personas-md",
+  "path": "input/pagecontent/personas.md"
+ },
+ "findings": [],
+ "notes": [
+  {
+   "id": "l2-personas-md-request",
+   "author": {
+    "kind": "agent",
+    "id": "claude"
+   },
+   "rationale": "Review requested of role `clinical-sme`: Are these the people who act in measles vaccination, and is each described right? Staged on the PR's branch; no decision recorded yet (pending).",
+   "cites": [],
+   "written_at": "2026-11-20T00:00:00Z"
+  }
+ ],
+ "decisions": [],
+ "updated_at": "2026-11-20T00:00:00Z"
+}

@@ -1,0 +1,23 @@
+{
+ "$schema": "qa-review/v1",
+ "subject": {
+  "kind": "core-data-elements-codes",
+  "id": "l2-measles-core-data-elements-csv-terminologist",
+  "path": "input/dictionary/measles-core-data-elements.csv"
+ },
+ "findings": [],
+ "notes": [
+  {
+   "id": "l2-measles-core-data-elements-csv-terminologist-request",
+   "author": {
+    "kind": "agent",
+    "id": "claude"
+   },
+   "rationale": "Review requested of role `terminologist`: Which standard codes (SNOMED CT, LOINC, ICD-11) should each coded element bind to? Staged on the PR's branch; no decision recorded yet (pending).",
+   "cites": [],
+   "written_at": "2026-11-20T00:00:00Z"
+  }
+ ],
+ "decisions": [],
+ "updated_at": "2026-11-20T00:00:00Z"
+}

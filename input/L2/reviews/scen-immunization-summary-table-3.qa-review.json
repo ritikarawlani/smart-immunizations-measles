@@ -1,0 +1,23 @@
+{
+ "$schema": "qa-review/v1",
+ "subject": {
+  "kind": "l1-scenarios",
+  "id": "scen-immunization-summary-table-3",
+  "path": "l1-extractions/immunization-summary-table-3/scenarios/"
+ },
+ "findings": [],
+ "notes": [
+  {
+   "id": "scen-immunization-summary-table-3-request",
+   "author": {
+    "kind": "agent",
+    "id": "claude"
+   },
+   "rationale": "Review requested of role `clinical-sme`: Is the persona, act and outcome of each scenario right? Staged on the PR's branch; no decision recorded yet (pending).",
+   "cites": [],
+   "written_at": "2026-11-20T00:00:00Z"
+  }
+ ],
+ "decisions": [],
+ "updated_at": "2026-11-20T00:00:00Z"
+}

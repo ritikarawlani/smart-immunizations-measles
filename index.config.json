@@ -349,7 +349,8 @@
         "input/scenarios/",
         "input/system-requirements/",
         "input/testing/",
-        "input/L2/"
+        "input/L2/",
+        "input/L3/"
       ]
     }
   }

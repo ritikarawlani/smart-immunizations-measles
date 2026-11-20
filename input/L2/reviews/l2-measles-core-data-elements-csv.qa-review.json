@@ -1,0 +1,23 @@
+{
+ "$schema": "qa-review/v1",
+ "subject": {
+  "kind": "core-data-elements",
+  "id": "l2-measles-core-data-elements-csv",
+  "path": "input/dictionary/measles-core-data-elements.csv"
+ },
+ "findings": [],
+ "notes": [
+  {
+   "id": "l2-measles-core-data-elements-csv-request",
+   "author": {
+    "kind": "agent",
+    "id": "claude"
+   },
+   "rationale": "Review requested of role `clinical-sme`: Does each element mean what the decision tables need? Staged on the PR's branch; no decision recorded yet (pending).",
+   "cites": [],
+   "written_at": "2026-11-20T00:00:00Z"
+  }
+ ],
+ "decisions": [],
+ "updated_at": "2026-11-20T00:00:00Z"
+}
