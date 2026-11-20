@@ -15,7 +15,7 @@ starts.
 ## The source rule
 
 **Content comes only from the sources attached to issue #1** (owner,
-2026-11-20): the files in `sources/` and the page `who.int/data/immunization`.
+2026-11-20): the files in `uploads/` (two of them referenced only, their licence forbidding a copy) and the page `who.int/data/immunization`.
 folio-assistant supplies skills, processes and tools, never content. Do not
 copy L1, L2 or L3 content from another guideline, including
 smart-immunizations, even where it covers the same ground.
