@@ -1,0 +1,38 @@
+{
+  "$schema": "cat-harness-declaration/1.0.0",
+  "name": "smart-immunizations-measles",
+  "version": "0.1.0",
+  "repository": "ritikarawlani/smart-immunizations-measles",
+  "iriBase": "https://ritikarawlani.github.io/smart-immunizations-measles/",
+  "title": "SMART Immunizations — Measles",
+  "description": "A measles immunization SMART Guideline: the L1 sources attached to issue #1 ingested into `library/`, the measles recommendations extracted from them, the L2 DAK authored from those recommendations, and the L3 FHIR IG derived from the DAK. A layer on smart-base, mounted through `index.config.json`.",
+  "needs": [
+    "smart-base"
+  ],
+  "assets": [
+    {
+      "id": "agent-instructions",
+      "src": "AGENTS.md",
+      "role": "agent-instructions",
+      "title": "AGENTS.md — smart-immunizations-measles",
+      "description": "Cold start for work here: the entry point is smart-base's smart-guideline-end-to-end, and the only content sources are the ones attached to issue #1."
+    },
+    {
+      "id": "instance-readme",
+      "src": "README.md",
+      "role": "instance-readme",
+      "title": "SMART Immunizations — Measles",
+      "description": "What this guideline is, where its sources came from, and how it is built."
+    }
+  ],
+  "directories": [
+    {
+      "id": "library",
+      "path": "library/",
+      "description": "L1 source content: one `<bib-slug>/` per ingested source from issue #1 (`sections/*.md`, `structure.json`, `manifest.jsonld`, `blocks/`), and beside each its L1 knowledge graph. The originals as attached are kept in `sources/`.",
+      "graphTypologies": [
+        "library"
+      ]
+    }
+  ]
+}
