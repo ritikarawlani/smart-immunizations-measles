@@ -1,0 +1,51 @@
+[
+  {
+    "location": "p1:s4",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p1:s6",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p1:s7",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p1:s9",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p1:s10",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p1:s26",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p1:s31",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  }
+]

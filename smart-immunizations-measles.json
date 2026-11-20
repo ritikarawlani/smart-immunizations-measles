@@ -29,9 +29,65 @@
     {
       "id": "library",
       "path": "library/",
-      "description": "L1 source content: one `<bib-slug>/` per ingested source from issue #1 (`sections/*.md`, `structure.json`, `manifest.jsonld`, `blocks/`), and beside each its L1 knowledge graph. The originals as attached are kept in `sources/`.",
+      "description": "L1 source content: one `<bib-slug>/` per ingested source from issue #1 (`sections/*.md`, `structure.json`, `manifest.jsonld`, `blocks/`), and beside each its L1 knowledge graph. The originals as attached are kept in `uploads/`; the two whose licence forbids a copy are referenced (identity, sha256, outline), not ingested.",
       "graphTypologies": [
         "library"
+      ]
+    },
+    {
+      "id": "l1-extraction-immunization-summary-table-1",
+      "path": "l1-extractions/immunization-summary-table-1/",
+      "description": "recommendation-extraction output for library/immunization-summary-table-1: the work list of every normative sentence (recommendation-candidates.json), the measles-scope curation (curation.yaml), the L1 3.0 graph (l1.json), the proposed exclusions and the warnings.",
+      "graphTypologies": [
+        "l1-extraction"
+      ]
+    },
+    {
+      "id": "l1-extraction-immunization-summary-table-2",
+      "path": "l1-extractions/immunization-summary-table-2/",
+      "description": "recommendation-extraction output for library/immunization-summary-table-2: the work list of every normative sentence (recommendation-candidates.json), the measles-scope curation (curation.yaml), the L1 3.0 graph (l1.json), the proposed exclusions and the warnings.",
+      "graphTypologies": [
+        "l1-extraction"
+      ]
+    },
+    {
+      "id": "l1-extraction-immunization-summary-table-3",
+      "path": "l1-extractions/immunization-summary-table-3/",
+      "description": "recommendation-extraction output for library/immunization-summary-table-3: the work list of every normative sentence (recommendation-candidates.json), the measles-scope curation (curation.yaml), the L1 3.0 graph (l1.json), the proposed exclusions and the warnings.",
+      "graphTypologies": [
+        "l1-extraction"
+      ]
+    },
+    {
+      "id": "l1-extraction-immunization-summary-table-4",
+      "path": "l1-extractions/immunization-summary-table-4/",
+      "description": "recommendation-extraction output for library/immunization-summary-table-4: the work list of every normative sentence (recommendation-candidates.json), the measles-scope curation (curation.yaml), the L1 3.0 graph (l1.json), the proposed exclusions and the warnings.",
+      "graphTypologies": [
+        "l1-extraction"
+      ]
+    },
+    {
+      "id": "l1-extraction-leave-no-one-behind-catch-up-vaccination-9789240016514",
+      "path": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/",
+      "description": "recommendation-extraction output for library/leave-no-one-behind-catch-up-vaccination-9789240016514: the work list of every normative sentence (recommendation-candidates.json), the measles-scope curation (curation.yaml), the L1 3.0 graph (l1.json), the proposed exclusions and the warnings.",
+      "graphTypologies": [
+        "l1-extraction"
+      ]
+    },
+    {
+      "id": "l1-extraction-monitoring-metrics-related-to-the-global-covid-19-vaccinatio",
+      "path": "l1-extractions/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/",
+      "description": "recommendation-extraction output for library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio: the work list of every normative sentence (recommendation-candidates.json); not curated: this source holds no measles recommendation.",
+      "graphTypologies": [
+        "l1-extraction"
+      ]
+    },
+    {
+      "id": "l1-extraction-who-2019-ncov-digital-certificates-vaccination-20211",
+      "path": "l1-extractions/who-2019-ncov-digital-certificates-vaccination-20211/",
+      "description": "recommendation-extraction output for library/who-2019-ncov-digital-certificates-vaccination-20211: the work list of every normative sentence (recommendation-candidates.json); not curated: this source holds no measles recommendation.",
+      "graphTypologies": [
+        "l1-extraction"
       ]
     }
   ]

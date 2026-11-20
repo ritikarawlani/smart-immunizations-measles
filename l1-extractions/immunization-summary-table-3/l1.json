@@ -1,0 +1,190 @@
+{
+  "@context": "http://smart.who.int/kg/l1.context.jsonld",
+  "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers#recommendation-candidates",
+  "type": "Entity",
+  "ontologyVersion": "3.0",
+  "generatedAt": "2026-11-20T12:57:29Z",
+  "wasDerivedFrom": [
+    {
+      "path": "library/immunization-summary-table-3/structure.json",
+      "sha256": "0a682a70438df6c7952f11c45774fdc62d503a72b92cc1406f603fa46478c88f",
+      "note": "The entry's structure; the source PDF's sha256 is aead588449159c46bad3a190f6427f4bf3d53ead55786b165105ccffaeb357a2."
+    },
+    {
+      "path": "library/immunization-summary-table-3/sections/",
+      "sha256": "186ab964818c1b6c5c5e11f578f9409c086600ed69566ab4603b7eefde586dba",
+      "note": "The page texts read, hashed as a sha256sum listing in file order."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+      "type": "publication",
+      "label": "Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers",
+      "properties": {
+        "title": "Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers",
+        "identifiers": [
+          {
+            "type": "url",
+            "value": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers"
+          }
+        ],
+        "publicationType": "summary-table",
+        "sha256": "aead588449159c46bad3a190f6427f4bf3d53ead55786b165105ccffaeb357a2"
+      },
+      "derivation": "inferred",
+      "note": "Title as printed at the head of page 1. A summary table of position papers for interrupted or delayed immunization.",
+      "evidence": {
+        "location": "library/immunization-summary-table-3/sections/sec-000-table-3-recommendations-for-interrupted-or-delay.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.interrupted-delayed-schedule-row",
+      "type": "recommendation",
+      "label": "measles.interrupted-delayed-schedule-row",
+      "properties": {
+        "identifier": "measles.interrupted-delayed-schedule-row",
+        "statement": "Measles 9 9 or 12 months (6 months min, see footnote) 2 doses (4 weeks) Resume without repeating previous dose 2 doses 2 doses Not recommended",
+        "contentHash": "0336d5f27e779a3c1d00a5c5d2b9e1c8406fd687fdf7a06fbc0d28af8cd8c58b"
+      },
+      "derivation": "inferred",
+      "note": "The measles row of Table 3 (page 2), read across its printed columns: age of 1st dose (minimum); doses in primary series (min interval); interrupted primary series; doses for those who start late, if <=12 months and if >12 months of age; booster. This location also holds the other antigens' rows, which are not curated here.",
+      "evidence": {
+        "location": "library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md",
+        "quote": "Antigen Age of 1st Dose (minimum) Doses in Primary Series (min interval between doses)** Interrupted primary series*** Doses for those who start vaccination late Booster If ≤ 12 months of age If > 12 months of age Pneumococcal (Conjugate) 7 6 weeks (min) 3 doses (3p+0) with DTPcv (4weeks) or 2 doses (2p+1) (4-8 weeks) Resume without repeating previous dose 2-3 doses 12-24 months: 2 doses 2-5 yrs: 1 dose 1-5 yrs at high-risk: 2 doses Booster at 9-18 months if following 2 dose schedule Another booster if HIV+or preterm neonate Vaccination in older adults Rotavirus 8 6 weeks (min) 2 or 3 depending on product given with DTPCV Resume without repeating previous dose 2 or 3 depending on product >24 months limited benefit Not recommended if > 24 months old Measles 9 9 or 12 months (6 months min, see footnote) 2 doses (4 weeks) Resume without repeating previous dose 2 doses 2 doses Not recommended Rubella 10 9 or 12 months 1 dose with measles containing vaccine NA 1 dose 1 dose Not recommended HPV 11 As soon as possible from 9 years of age (females) 1-2 doses (6-12 months) Resume without repeating previous dose NA Girls: 9-14 years 1-2 doses (see footnote) Not recommended Recommendations for certain regions Japanese Encephalitis12 Inactivated Vero cell- derived vaccine 6 months 2 (4 weeks) generally Resume without repeating previous dose 2 doses (generally) 2 doses (generally) Not recommended Live attenuated 8 months 1 NA 1 dose 1 dose Live recombinant vaccine 9 months 1 NA 1 dose 1 dose Yellow Fever 13 9-12 months 1 dose with measles containing vaccine NA 1 dose 1 dose Not recommended Tick-Borne Encephalitis 14 FSME-Immun & Encepur ≥ 1 yr 3 doses (1st to 2nd 1-3 mos; 2nd to 3rd 12 mos) Resume without repeating previous dose 3 doses 3 doses At least 1 booster TBE_Moscow & EnceVir ≥ 3 yr 3 doses (1st to 2nd 1-7 mos; 2nd to 3rd 12 mos) Resume without repeating previous dose 3 doses 3 doses Every 3 years Recommendations for some high-risk populations Typhoid 15 TCV-Typbar >6 months 1 dose NA 1 dose 1 dose Vi PS 2 years (min) 1 dose NA Not recommended 1 dose Every 3 years Ty21a Capsules 6 years (min) (see footnote) 3-4 doses (1 day) (see footnote) If interruption is < 21 days, resume without repeating previous dose; If > 21 days restart primary series Not recommended > 6 yrs: 3-4 doses Every 3-7 years (updated: December 2025) Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers Antigen Age of 1st Dose (minimum) Doses in Primary Series (min interval between doses)** Interrupted primary series*** Doses for those who start vaccination late Booster If ≤ 12 months of age If > 12 months of age Cholera 16 Dukoral (WC-rBS) 2 years (min) 2-5 yrs: 3 doses ≥ 6 yrs: 2 doses (≥ 7 days) If interval since last dose ≥ 6 weeks restart primary series Not recommended 2-5 yrs: 3 doses > 6 yrs: 2 doses 2-5 yrs: every 6 months."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.two-doses-standard",
+      "type": "recommendation",
+      "label": "measles.two-doses-standard",
+      "properties": {
+        "identifier": "measles.two-doses-standard",
+        "statement": "Reaching all children with 2 doses of measles vaccine should be the standard for all national immunization programmes.",
+        "contentHash": "4f5ab08b4aac2ecd92b6f636df7233e9b5b3570e3384783c5723d43a8cb39c64"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote of Table 3, page 2; also printed in Table 1 p3:s92.",
+      "evidence": {
+        "location": "library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md",
+        "quote": "Record (2017, 92: 205-228). • Reaching all children with 2 doses of measles vaccine should be the standard for all national immunization programmes. • Regardless of the duration of delay, interrupted schedules should be resumed as soon as possible, without repeating previous doses. • The minimum interval between MCV1 and MCV2 is 4 weeks. • Because many cases of measles occur in children aged >12 months who have not been vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and routine delivery of MCV2 should not be limited to infants 15 to 18 months of age."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.interrupted-resume-no-repeat",
+      "type": "recommendation",
+      "label": "measles.interrupted-resume-no-repeat",
+      "properties": {
+        "identifier": "measles.interrupted-resume-no-repeat",
+        "statement": "Regardless of the duration of delay, interrupted schedules should be resumed as soon as possible, without repeating previous doses.",
+        "contentHash": "b94f2329383a3c93037c6754f3ef70277b576238dc4a73b3ddf8cbbce4404c59"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote of Table 3, page 2: an interrupted measles schedule resumes without repeating doses. Not in Table 1.",
+      "evidence": {
+        "location": "library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md",
+        "quote": "Record (2017, 92: 205-228). • Reaching all children with 2 doses of measles vaccine should be the standard for all national immunization programmes. • Regardless of the duration of delay, interrupted schedules should be resumed as soon as possible, without repeating previous doses. • The minimum interval between MCV1 and MCV2 is 4 weeks. • Because many cases of measles occur in children aged >12 months who have not been vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and routine delivery of MCV2 should not be limited to infants 15 to 18 months of age."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv-minimum-interval",
+      "type": "recommendation",
+      "label": "measles.mcv-minimum-interval",
+      "properties": {
+        "identifier": "measles.mcv-minimum-interval",
+        "statement": "The minimum interval between MCV1 and MCV2 is 4 weeks.",
+        "contentHash": "0f5ceea3e5717bf9bc84d0393d67c76b20ec462a0cc05823df0f0d67114b247b"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote of Table 3, page 2; also Table 1 p3:s95.",
+      "evidence": {
+        "location": "library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md",
+        "quote": "Record (2017, 92: 205-228). • Reaching all children with 2 doses of measles vaccine should be the standard for all national immunization programmes. • Regardless of the duration of delay, interrupted schedules should be resumed as soon as possible, without repeating previous doses. • The minimum interval between MCV1 and MCV2 is 4 weeks. • Because many cases of measles occur in children aged >12 months who have not been vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and routine delivery of MCV2 should not be limited to infants 15 to 18 months of age."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.routine-delivery-not-age-limited",
+      "type": "recommendation",
+      "label": "measles.routine-delivery-not-age-limited",
+      "properties": {
+        "identifier": "measles.routine-delivery-not-age-limited",
+        "statement": "Because many cases of measles occur in children aged >12 months who have not been vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and routine delivery of MCV2 should not be limited to infants 15 to 18 months of age.",
+        "contentHash": "e04d2de8978427b4b325a6fffef13a7f2fa72655a0163b0c71877fd38cf9976c"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote of Table 3, page 2; also Table 1 p3:s95.",
+      "evidence": {
+        "location": "library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md",
+        "quote": "Record (2017, 92: 205-228). • Reaching all children with 2 doses of measles vaccine should be the standard for all national immunization programmes. • Regardless of the duration of delay, interrupted schedules should be resumed as soon as possible, without repeating previous doses. • The minimum interval between MCV1 and MCV2 is 4 weeks. • Because many cases of measles occur in children aged >12 months who have not been vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and routine delivery of MCV2 should not be limited to infants 15 to 18 months of age."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    }
+  ],
+  "edges": [
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.interrupted-delayed-schedule-row",
+      "target": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.two-doses-standard",
+      "target": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.interrupted-resume-no-repeat",
+      "target": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv-minimum-interval",
+      "target": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.routine-delivery-not-age-limited",
+      "target": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    }
+  ]
+}

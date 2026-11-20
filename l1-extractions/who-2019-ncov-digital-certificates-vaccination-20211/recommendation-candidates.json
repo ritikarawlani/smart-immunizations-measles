@@ -1,0 +1,3321 @@
+{
+  "$schema": "l1-recommendation-candidates/v1",
+  "entry": "library/who-2019-ncov-digital-certificates-vaccination-20211",
+  "publication": {
+    "identifiers": [],
+    "proposedBy": "none"
+  },
+  "counts": {
+    "statementClass": "recommendation",
+    "recommendations": 0,
+    "remarks": 0,
+    "partOf": 0,
+    "excluded": 0,
+    "undecided": 296
+  },
+  "coverage": {
+    "normative": 296,
+    "captured": 0,
+    "excluded": 0,
+    "unaccounted": 296,
+    "capturedPct": 0,
+    "accountedForPct": 0
+  },
+  "hints": {
+    "licence-or-imprint": "licence, rights or imprint text — normally excluded as `editorial`",
+    "glossary-page": "printed on a glossary or abbreviations page — a definition, not a recommendation",
+    "layout-fragment": "the sentence looks split by the page layout (a table, list or figure); read the page before deciding"
+  },
+  "candidates": [
+    {
+      "location": "p10:s19",
+      "page": 10,
+      "file": "sec-002-glossary.md",
+      "text": "In this context, the digital representation must be a digitally signed FHIR document or a digitally signed two-dimensional (2D) barcode (e.g. a QR code).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p10:s39",
+      "page": 10,
+      "file": "sec-002-glossary.md",
+      "text": "SHALL: SHALL is used to describe technical features and functions that are mandatory for this specification.1 SHOULD: SHOULD is used to describe technical features and functions that are recommended, but are not mandatory.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p10:s41",
+      "page": 10,
+      "file": "sec-002-glossary.md",
+      "text": "However, it is highly recommended that the implementer review the reasons for not following the recommendations before deviating from the technical specifications outlined2 SUBJECT OF CARE: The vaccinated person.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s16",
+      "page": 13,
+      "file": "sec-003-executive-summary.md",
+      "text": "A digital certificate should never require individuals to have a smartphone or computer.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s26",
+      "page": 13,
+      "file": "sec-003-executive-summary.md",
+      "text": "In relation to the ICVP, The IHR EC furthermore recommends States Parties “recognition of all COVID-19 vaccines that have received WHO Emergency Use Listing in the context of international travel.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s34",
+      "page": 13,
+      "file": "sec-003-executive-summary.md",
+      "text": "Table 1 Some possible uses of DDCC:VS Continuity of Care Proof of Vaccination → Provides a basis for health workers to offer a subsequent dose and/or appropriate health services → Provides schedule information for an individual to know whether another dose, and of which vaccine, is needed, and when the next dose is due → Enables investigation into adverse events by health workers, as per existing guidance on adverse events following immunization (AEFI) (vaccine safety) → Establishes the vaccination status of individuals in coverage monitoring surveys → Establishes vaccination status after a positive COVID-19 test, to understand vaccine effectiveness → For work → For university education → For international travel* * In the context of international travel, in accordance with advice from the 8th meeting of the International Health Regulations (2005) Emergency Committee on COVID-19, held on 14 July 2021, countries should not require proof of COVID-19 vaccination as a condition for travel.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s37",
+      "page": 13,
+      "file": "sec-003-executive-summary.md",
+      "text": "Digital vaccination certificates should meet the public health needs of each WHO Member State, as well as the needs of individuals around the world.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s38",
+      "page": 13,
+      "file": "sec-003-executive-summary.md",
+      "text": "They should never create inequity due to lack of access to specific software or technologies (i.e. a digital divide).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s39",
+      "page": 13,
+      "file": "sec-003-executive-summary.md",
+      "text": "The recommendations for the implementation of DDCC:VS must therefore be applicable to the widest range of use cases, catering to many different levels of digital maturity between implementing countries.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s41",
+      "page": 13,
+      "file": "sec-003-executive-summary.md",
+      "text": "The minimum requirements for a DDCC:VS are as follows. →The potential benefits, risks and costs of implementing a DDCC:VS solution should be assessed before introducing a DDCC:VS system and its associated infrastructure.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s42",
+      "page": 13,
+      "file": "sec-003-executive-summary.md",
+      "text": "This includes an impact assessment of the ethical and privacy implications and potential risks that may arise with the implementation of a DDCC:VS. →Member States must establish the appropriate policies for appropriate use, data protection and governance of the DDCC:VS to reduce the potential harms, while achieving the public health benefits involved in deploying such a solution. →A digitally signed electronic version of the data about a vaccination event, called a DDCC:VS, must exist.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s43",
+      "page": 13,
+      "file": "sec-003-executive-summary.md",
+      "text": "As a minimum, both the required data elements in the core data set and the metadata should be recorded, as described in section 5.2. →An individual who has received a vaccination should have access to proof of this – either as a traditional paper card or a version of the electronic DDCC:VS. →Where a paper vaccination card is used, it should be associated with a health certificate identifier (HCID).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s44",
+      "page": 13,
+      "file": "sec-003-executive-summary.md",
+      "text": "A DDCC:VS should be associated, as a digital representation, with the paper vaccination card via the HCID.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s45",
+      "page": 13,
+      "file": "sec-003-executive-summary.md",
+      "text": "Multiple forms of digital representations of the DDCC:VS may be associated with the paper vaccination card via the HCID. →The HCID should appear on any paper card in both a human-readable and a machine-readable format (i.e. alphanumeric characters that are printed, as well as rendered as a 1D or 2D barcode). →A DDCC:VS Generation Service should exist.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s47",
+      "page": 13,
+      "file": "sec-003-executive-summary.md",
+      "text": "This signed FHIR document is the DDCC:VS. →A DDCC:VS Registry Service should exist.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p18:s5",
+      "page": 18,
+      "file": "sec-005-11-purpose-of-this-document.md",
+      "text": "There are a wide range of digital solutions that can be used to document COVID-19 vaccination, and choices on design and implementation should be guided by balancing various values and contextual considerations.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p19:s4",
+      "page": 19,
+      "file": "sec-007-13-scope.md",
+      "text": "This document describes a specification for a signed digital vaccination certificate, including: →ethical and legal considerations, and privacy and data protection principles for the design, implementation and use of a DDCC:VS; →use cases arising from the two scenarios for the operation of a DDCC:VS, including the sequence of steps involved in executing the scenarios; →a core data set with the data elements that must be handled for a DDCC:VS describing vaccination status, as described in the use cases; →a Health Level Seven (HL7) Fast Healthcare Interoperability Resources (FHIR) implementation guide based on the content outlined in this guidance document, to support the adoption of open standards for interoperability; and →approaches for implementing a DDCC:VS, including considerations for setting up a national trust framework to enable digital signing of a vaccination certificate.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p19:s9",
+      "page": 19,
+      "file": "sec-007-13-scope.md",
+      "text": "The HL7 FHIR implementation guide (at https://WorldHealthOrganization.github.io/ddcc) provides an algorithm for generating 2D barcodes that may be used in the absence of identifying information beyond that found within the core data set; and →technical functionality to support selective disclosure of information contained in DDCC:VS.",
+      "markers": [
+        "permission"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p20:s2",
+      "page": 20,
+      "file": "sec-008-14-assumptions.md",
+      "text": "It is assumed that there is no one-size-fits-all solution, and so the specification must remain flexible and software-agnostic, while minimizing the amount of digital infrastructure required.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p20:s8",
+      "page": 20,
+      "file": "sec-008-14-assumptions.md",
+      "text": "To avoid digital exclusion, the recommendations and requirements in the current document are designed to support the use of paper augmented with 1D or 2D barcodes or a smartphone application, or in another format. →If a Member State decides to implement the DDCC:VS in paper format, any paper vaccination card issued will have a health certificate identifier (HCID) in both a human-readable and, additionally, a machine-readable (1D or 2D barcode) format to link it to a digital record.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p20:s10",
+      "page": 20,
+      "file": "sec-008-14-assumptions.md",
+      "text": "This document does not describe the PKI in detail, but key assumptions are that the PHA will need to: » establish and maintain a root certificate authority that anchors the country’s PKI for the purposes of supporting DDCC:VS; » generate and cryptographically sign document signer certificates (DSCs); » authorize document signer private keys to cryptographically sign digital DDCC:VS; » broadly disseminate public keys if there is a desire to allow others to validate issued DDCC:VS; » allow for the health content contained within a traditional paper vaccination card to be digitized and verifiable by one or more digital representations, including, as a minimum, a DDCC:VS identified through the HCID; a Member State may choose to also generate and distribute to the DDCC:VS Holder a signed 2D barcode as a digital representation, containing, as a minimum, the core data set content (e.g. printed on or attached to the paper record, sent by email, loaded into a smartphone app or downloaded from website); » keep the signature-verification processes manageable; the number of private keys used by the PHA to sign DDCC:VS should be no more than a small proportion relative to the number of digital health solutions used to capture health events; and » ensure private keys used to sign DDCC:VS will not be associated with individual health workers. →The PHA will need to operate a DDCC:VS Generation Service to create DDCC:VS, and a DDCC:VS Registry Service to record their issuance.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p22:s1",
+      "page": 22,
+      "file": "sec-011-17-other-initiatives.md",
+      "text": "Specific guidance on how or when DDCC:VS should be used can be found in the following WHO guidance documents. →Technical considerations for implementing a risk-based approach to international travel in the context of COVID-19: Interim guidance, 2 July 2021 (6) →Policy considerations for implementing a risk-based approach to international travel in the context of COVID-19 (7) →Interim guidance on considerations for implementing and adjusting public health and social measures in the context of COVID-19 (8) The following WHO guidance documents also served as a baseline for this work. →Statement of the eighth meeting of the International Health Regulations (2005) Emergency Committee regarding the coronavirus disease (COVID-19) pandemic (40) →Statement of the seventh meeting of the International Health Regulations (2005) Emergency Committee regarding the coronavirus disease (COVID-19) pandemic (9) →Statement on the sixth meeting of the International Health Regulations (2005) Emergency Committee regarding the coronavirus disease (COVID-19) pandemic (10) →Interim position paper: considerations regarding proof of COVID-19 vaccination for international travellers (as of 5 February 2021) (11) →Monitoring COVID-19 vaccination: considerations for the collection and use of vaccination data (12) →Practical guide for the design, use and promotion of home-based records in immunization programmes (13) →Guidance on developing a national deployment and vaccination plan for COVID-19 vaccines (14) →International Health Regulations (2005), third edition (15)",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s1",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "States are encouraged to – and, where they have legal obligations, must – include in their respective deployments of any DDCC:VS.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s3",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "This section therefore focuses on the ethical considerations relevant to these two use cases in a national or local setting and provides some recommendations for their ethical implementation.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s6",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "SECTION Ethical considerations and data protection principles 2 Requiring proof of vaccination to protect against COVID-19 for international travel as a condition for entry to or exit from a country will not be discussed here, as it is a legal matter that is captured in the WHO’s interim position paper on considerations regarding proof of COVID-19 vaccination for international travellers specifying “proof of COVID-19 vaccination should not be required as a condition of entry to, or exit from a country.”(11) 2.1.1.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s7",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "Key ethical considerations for current proposed uses of DDCC:VS Ethics should be an integral part of the design and deployment of a DDCC:VS solution.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s13",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "A number of different ethical considerations should be taken into account, including both objectives and processes.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s33",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "Another example might be that a DDCC:VS should only be used for its intended purpose, as inappropriate uses may result in legitimate ones being undermined.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s59",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "Consideration should be given to whether unvaccinated individuals could use other proofs of health status to allow them similar access to the same services while mitigating the risk of disease spread.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s62",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "Recommendations The design, development and implementation of a DDCC:VS for domestic use raises many ethical issues.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s63",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "The following series of recommendations focuses on the two proposed priority uses of DDCC:VS for Proof of Vaccination and Continuity of Care.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s65",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "THE SCOPE OF USE OF A DDCC:VS SHOULD BE CLEARLY DEFINED.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s67",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "Each Member State that introduces one should be clear about which uses are proposed and that a DDCC:VS should not be used for other purposes.",
+      "markers": [
+        "negation",
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s69",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "To prevent any potential misuse, any DDCC:VS policy should set out clear and specific policies, and laws if needed, on the limits to legitimate uses of a DDCC:VS.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s72",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "POTENTIAL BENEFITS, RISKS AND COSTS SHOULD BE ASSESSED BEFORE INTRODUCTION OF A DDCC:VS.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s73",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "The creation or development of a DDCC:VS should be based on an assessment of the benefits and costs of its uses, and the advantages and disadvantages of the proposed infrastructure, in comparison with other potential or existing ways to record, validate and verify vaccination records.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s74",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "Benefit and cost assessment – as a function of stewardship of scarce public health resources – should take short-, medium- and long-term views.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s76",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "Consideration should be given to whether the DDCC:VS infrastructure could hinder vaccination rates or reduce access to vaccines because of the potential inefficiencies it may introduce for processing vaccination registration and certification.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s78",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "In addition, the ethical issues and risks raised by a DDCC:VS, and the impact of trade-offs between the benefits and burdens accrued to individuals, families, businesses and other relevant stakeholders should be assessed prior to implementation.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s79",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "Community engagement, particularly with representatives of groups who are likely to face increased disadvantages or risks, should also be conducted.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s81",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "OBTAINING AND USING A DDCC:VS SHOULD BE AS INCLUSIVE AND FAIR AS POSSIBLE.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s82",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "DDCC:VS solutions should be as inclusive as possible and should not create disadvantage.",
+      "markers": [
+        "negation",
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s84",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "No one should be excluded through a requirement for individual payment to obtain and use a DDCC:VS.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s86",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "ALL NECESSARY MEASURES SHOULD BE PUT IN PLACE TO PROTECT PARTICIPANTS FOR CONTINUITY OF CARE.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s87",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "A DDCC:VS will include potentially sensitive data relating to the health of individuals, and this data should therefore be protected by appropriate medical confidentiality and privacy safeguards.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s88",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "Access to or use of the data for continuity of care should be based on the appropriate consent standard (e.g. implied or explicit) in a given health-care system and should be sufficient for the receiving health-care provider or team to continue providing good medical care.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s91",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "Minors with sufficient intelligence and maturity should be able to allow the use of their DDCC:VS data for continuity of care, where consent is required.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s93",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "ALL COMMUNICATION SHOULD BE CLEAR AND TRANSPARENT.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s94",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "Implementation details of a DDCC:VS relevant to users should be communicated in a transparent manner, which may contribute to the promotion of public trust and acceptance of a DDCC:VS.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s96",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "If, in the future, the uses of DDCC:VS are extended into other scientific or public health purposes (e.g. programme monitoring or research), data subjects and other members of the public should be informed of the nature and occurrences of these activities in advance, the ethics oversight or governance structure in place (including for surveillance activities (25), and options for controlling or limiting DDCC:VS data for these uses.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s97",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "DDCC:VS data are sensitive and should, in general, be anonymized (or pseudonymized, or de-identified) for scientific or public health purposes, to minimize risks to the data subjects.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s98",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "Where DDCC:VS data need to be retained in an identifiable form for these purposes, consideration should be given to whether consent is required or should be waived based on satisfaction of appropriate ethical criteria (e.g. minimal risk, impracticability of obtaining consent, no adverse effects on the rights and welfare of the data subjects, and serving a public health good).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s100",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "THE DDCC:VS SHOULD BE CONSTANTLY MONITORED FOR IMPACT AND ADJUSTED AS NECESSARY.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p23:s102",
+      "page": 23,
+      "file": "sec-013-21-ethical-considerations-for-a-ddccvs.md",
+      "text": "Such monitoring should also review uses that do not fit neatly into legitimate and illegitimate use categories set by policies, to consider whether these uses should be continued, modified or stopped.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s6",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "LAWFUL BASIS, LEGITIMATE USE AND FAIR PROCESSING The personal data collected in the interest of the application of the DDCC:VS should be processed in a fair and non-discriminatory manner, based on the consent of the data subject, the necessity to protect the vital interests of the data subject or of another data subject, or explicitly justified by legitimate public health objectives.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s7",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "The processing of personal data in the interest of the application of the DDCC:VS should have a lawful basis; it should comply with applicable laws, including broader human rights standards and data privacy and data protection laws, as well as respecting the highest standards of confidentiality, and moral and ethical conduct.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s8",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Personal data collected for the application of the DDCC:VS should only be accessed, analysed or otherwise used while respecting the legitimate interests of the data subjects concerned.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s9",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Specifically, to ensure that data use is fair, data should not be used in a way that violates human rights or in any other ways that are likely to cause unjustified or adverse effects on any individual(s) or group(s) of individuals.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s10",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Any retention of personal data processed in the interest of the application of the DDCC:VS should have a legitimate and fair basis.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s11",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Before any data are retained, the potential risks, harms and benefits should be considered.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s12",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Personal data should be permanently deleted after the time needed to fulfil their purpose, unless their extended retention is justified for specified purposes.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s14",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "TRANSPARENCY The processing of personal data in the interest of the application of the DDCC:VS should be carried out to be transparent to the data subjects.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s15",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Data subjects should be provided with easily accessible, concise, comprehensible and reader-friendly information in clear and unambiguous language regarding: the purpose of the data processing; the type of data processed; how data will be retained, stored and shared, or made otherwise accessible; who will be the recipients of the data and how long the data will be retained.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s16",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Information should also be provided to data subjects on applicable data retention schedules, and on how to exercise their data subject rights.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s17",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "A list of entities authorized to process personal data in the interest of the application of the DDCC:VS should be made public.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s19",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "PURPOSE LIMITATION AND SPECIFICATION As the personal data collected in the interest of the DDCC:VS may only be used for continuity of care and proof of verification, they should not be processed in ways that are incompatible with such purposes.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s20",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "The use of this data for any other purpose, including the sale and use of personal data for commercial purposes, should be prohibited, except with the explicit, unambiguous and freely given prior consent of the data subject.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s21",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "The purposes for which personal data are processed in the interest of the application of the DDCC:VS should be specified no later than at the time of data collection.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s22",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "The subsequent use of the personal data should be limited to the fulfilment of those specified purposes.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s23",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "When a health worker or verifier of the DDCC:VS is carrying out their mandated activities for continuity of care or proof of vaccination; transferring personal data processed in the interest of the application of the DDCC:VS to a third party or allowing access by a third party should only be permitted if the principles underlying the lawful basis, as referred to above, are met; and the third party affords appropriate protection that is equal to or higher than those protections provided by the data controller, for the personal data.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s24",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Personal data processed in the interest of the application of the DDCC:VS should be relevant to the purposes for which they are to be used and, to the extent necessary for those purposes, be accurate, complete, and kept up to date.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s26",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "PROPORTIONALITY, NECESSITY AND DATA MINIMIZATION The processing of personal data should be relevant (have a rational link to specified purposes), adequate (sufficient to properly fulfil the specified purposes) and limited to what is required to fulfil the specified purposes.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s27",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "The processing of personal data should not be excessive for the purposes for which those personal data are collected.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s28",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Data collected and retained on the DDCC:VS should be as limited as possible, respecting proportionality and necessity.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s29",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Data access, analysis or other use should be kept to the minimum necessary to fulfil their purpose.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s30",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "The amount of data, including their granularity, should be limited to the minimum necessary.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s31",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Selective disclosure mechanisms should be used to support proportionate data access.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s32",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Data use should be monitored to ensure that it does not exceed the legitimate use.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s33",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Personal data retained in the interest of the application of the DDCC:VS should only be retained and stored for the time that is necessary for specified purposes.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s34",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Personal data accessed at the point of verification of the DDCC:VS should not be retained and stored in a repository, database or otherwise.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s36",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "CONFIDENTIALITY AND SECURITY Personal data processed in the interest of the application of the DDCC:VS should be kept confidential and not disclosed to unauthorized parties; personal data should only be accessible to the data subject or to other explicitly authorized parties.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s37",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "With regard to the nature and sensitivity of the personal data processed in the interest of the application of the DDCC:VS, appropriate organizational, physical and technical security measures should be implemented for both electronic and paper-based data in order to protect the security and integrity of personal data.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s39",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Taking into account the available technology and cost of implementation, robust technical and organizational safeguards and procedures (e.g. efficient monitoring of data access, data breach notification procedures) should be implemented to ensure proper data management throughout the data life-cycle.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s41",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "In case of a security breach leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of or access to personal data transmitted, stored or otherwise processed, DDCC:VS Holders should be notified in an appropriate and timely manner.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s42",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "DDCC:VS Holders should be notified of: any data breach; the nature of the data breach, which may affect their rights as data subjects; and recommendations to mitigate potential adverse effects.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s44",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "DATA SUBJECT RIGHTS, COMPLAINT AND LEGAL REDRESS DDCC:VS Holders, if they have provided sufficient evidence of being the DDCC:VS Holder, should be able to exercise data subject rights.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s47",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Data subjects should be provided with easily accessible, concise, comprehensible and reader-friendly information about how they might exercise their data subject rights and how to seek legal redress, including how they can exercise any rights in the case of alleged fraud.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s49",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "INDEPENDENT OVERSIGHT AND ACCOUNTABILITY An independent public authority should be responsible for monitoring whether any data controller and data processor involved in the processing of personal data in the interest of the DDCC:VS adhere to the principles, and may recommend revoking the authorization to collect or otherwise process DDCC:VS data.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s50",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Such a public authority should have access to all information necessary to fulfil its task.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s51",
+      "page": 29,
+      "file": "sec-014-22-data-protection-principles-for-a-ddccvs.md",
+      "text": "Adequate policies and mechanisms should be in place to ensure adherence to these principles.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p32:s3",
+      "page": 32,
+      "file": "sec-015-23-ddccvs-design-criteria.md",
+      "text": "Implementation of the DDCC:VS should not increase health inequities or increase the digital divide.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p32:s8",
+      "page": 32,
+      "file": "sec-015-23-ddccvs-design-criteria.md",
+      "text": "Any solution should also work in online and offline environments across multiple platforms – paper and digital.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p32:s10",
+      "page": 32,
+      "file": "sec-015-23-ddccvs-design-criteria.md",
+      "text": "Individuals should not be treated differently or given different levels of trust due to the format of the DDCC:VS they are using (e.g. there should be no discrimination based on whether someone is presenting a DDCC:VS on a smartphone or a paper card).",
+      "markers": [
+        "negation",
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p32:s12",
+      "page": 32,
+      "file": "sec-015-23-ddccvs-design-criteria.md",
+      "text": "Any solution should not be at an additional cost to the vaccinated person.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p32:s13",
+      "page": 32,
+      "file": "sec-015-23-ddccvs-design-criteria.md",
+      "text": "The interoperability specifications used in DDCC:VS solutions should be based on open standards to ensure equitable access to a range of non-proprietary digital tools.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p32:s15",
+      "page": 32,
+      "file": "sec-015-23-ddccvs-design-criteria.md",
+      "text": "The infrastructure that the DDCC:VS solution is built on should ensure that individuals and Member States are not locked into a commitment with only one vendor.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p32:s17",
+      "page": 32,
+      "file": "sec-015-23-ddccvs-design-criteria.md",
+      "text": "Any solution should be as environmentally friendly as possible.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p32:s18",
+      "page": 32,
+      "file": "sec-015-23-ddccvs-design-criteria.md",
+      "text": "The most environmentally sustainable options should be pursued to reduce any additional undue harm to the environment.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p32:s20",
+      "page": 32,
+      "file": "sec-015-23-ddccvs-design-criteria.md",
+      "text": "Any solution should be designed to augment and work within the context of existing health information systems, as appropriate.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p32:s22",
+      "page": 32,
+      "file": "sec-015-23-ddccvs-design-criteria.md",
+      "text": "Any solution should not share or store more data than is needed to successfully execute its tasks.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p32:s23",
+      "page": 32,
+      "file": "sec-015-23-ddccvs-design-criteria.md",
+      "text": "Minimization of health content for purposes not related to health care, and privacy-protecting features, should be built into the system and be respected accordingly.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p32:s25",
+      "page": 32,
+      "file": "sec-015-23-ddccvs-design-criteria.md",
+      "text": "Anti-fraud mechanisms should be built into any approach.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p32:s27",
+      "page": 32,
+      "file": "sec-015-23-ddccvs-design-criteria.md",
+      "text": "Digital technology should not be the only mechanism available for verification.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p32:s28",
+      "page": 32,
+      "file": "sec-015-23-ddccvs-design-criteria.md",
+      "text": "There should always be possible ways to revert to a paper-only manual verification of vaccination certificates.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p35:s12",
+      "page": 35,
+      "file": "sec-018-32-continuity-of-care-workflows-and-use-cases.md",
+      "text": "Elements of the DDCC:VS core data set content SHALL be entered onto the DDCC:VS paper card, which SHALL have an HCID.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p35:s13",
+      "page": 35,
+      "file": "sec-018-32-continuity-of-care-workflows-and-use-cases.md",
+      "text": "The DDCC:VS paper card SHALL be provided to the DDCC:VS Holder at Point A.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p35:s14",
+      "page": 35,
+      "file": "sec-018-32-continuity-of-care-workflows-and-use-cases.md",
+      "text": "The HCID SHALL be used to establish a globally unique identifier (ID) for the DDCC:VS or to reference the ID of a previously established DDCC:VS.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p35:s17",
+      "page": 35,
+      "file": "sec-018-32-continuity-of-care-workflows-and-use-cases.md",
+      "text": "If so, the Vaccinator and/or Data Entry Personnel directly record details of the vaccination event, which SHALL be persisted based on the DDCC:VS core data set.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p35:s20",
+      "page": 35,
+      "file": "sec-018-32-continuity-of-care-workflows-and-use-cases.md",
+      "text": "If so, Data Entry Personnel can record details of the vaccination event, which SHALL be persisted according to the DDCC:VS core data set.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p35:s21",
+      "page": 35,
+      "file": "sec-018-32-continuity-of-care-workflows-and-use-cases.md",
+      "text": "If a Digital Health Solution does not exist at the care site, details of the vaccination event SHALL be recorded and persisted in a paper record (e.g. immunization registry book), according to the required DDCC:VS core data set.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p35:s23",
+      "page": 35,
+      "file": "sec-018-32-continuity-of-care-workflows-and-use-cases.md",
+      "text": "Health data captured during the vaccination event SHALL be recorded as coded content using the FHIR standard.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p35:s24",
+      "page": 35,
+      "file": "sec-018-32-continuity-of-care-workflows-and-use-cases.md",
+      "text": "If the data represent a subsequent vaccination event (e.g. second dose), this content SHALL be added as another event to the Subject of Care’s existing FHIR composition.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p35:s50",
+      "page": 35,
+      "file": "sec-018-32-continuity-of-care-workflows-and-use-cases.md",
+      "text": "HCID barcode must be preprinted on the card or preprinted on a sticker to affix to the paper card.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s5",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "Table 5 Functional requirements for the Continuity of Care scenario1 Requirement ID Functional requirement UC001 Paper First UC002 Offline Digital UC003 Online Digital DDCC.FXNREQ.001 It SHALL be possible for the Vaccinator to identify the Subject of Care as per the norms and policies of the PHA under whose authority the vaccination is administered.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s6",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.002 It SHOULD be possible to verify the identity of the Subject of Care against existing records, if such a check is mandated by local procedures, and to retrieve any pertinent health history.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s7",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.003 It SHALL be possible to register a new Subject of Care if the person is presenting for the first time.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s8",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.004 It SHALL be possible to issue a new paper card to the Subject of Care for the purpose of recording the vaccination.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s9",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.005 It SHALL be possible to update an existing paper card held by the Subject of Care if the card is presented during the vaccination and there is space available on the card.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s10",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.006 Where paper cards are used, a PHA SHALL put in place a process to replace lost or damaged cards with the necessary supporting technology.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s11",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.007 It SHALL be possible to associate a globally unique HCID with a paper vaccination card recording each vaccination administered to the Subject of Care.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s12",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "Requirement ID Functional requirement UC001 Paper First UC002 Offline Digital UC003 Online Digital DDCC.FXNREQ.008 It SHALL be possible to enter or attach the HCID as a 1D barcode to any paper vaccination card issued to the Subject of Care (or the HCID card holder).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s13",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.009 It SHOULD be possible to prepare pre-printed cards with a previously generated HCID that is encoded in (at minimum) a 1D barcode.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s14",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.010 It SHALL be possible to record the core data set content on a paper vaccination card issued to the Subject of Care (or the DDCC:VS card holder).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s15",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.011 It SHALL be possible to manually sign the paper card and include the official stamp of the administering centre as a non-digital means of certifying that the content has been recorded by an approved authority.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s16",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.012 The data concerning the vaccination (at minimum, the HCID and the core data set content) SHOULD be entered into an electronic format as soon as reasonably possible after the vaccine is administered.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s18",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.013 It SHALL be possible to retrieve information about the vaccination(s) administered to the Subject of Care from the content in the DDCC:VS.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s19",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.014 All data concerning the vaccination SHALL be handled in a secure manner to respect confidentiality between the health worker and Subject of Care.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s20",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.015 Digital technology SHALL NOT be needed for any aspect of paper card issue/update – the process SHALL function in an entirely offline and non-electronic manner.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s21",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.016 Paper cards and the validation markings they bear SHALL be designed to combat fraud and misuse.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s22",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.017 Where an offline (disconnected) Digital Health Solution exists, the Data Entry Personnel SHALL securely log in to record all pertinent information about the vaccination.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s23",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.018 Any offline Digital Health Solution for vaccination registration SHALL include required content defined in the DDCC:VS core data set.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s24",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.019 Any offline Digital Health Solution for vaccination registration SHOULD be designed for quality data capture, including enforcement of data validation rules at the point of data entry.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s25",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.020 If patients’ records are held in an offline Digital Health Solution available at the time of vaccination, then it SHOULD be possible for an authorized user to view the record for the Subject of Care, including pertinent medical history, per PHA policies.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s26",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.021 If an offline Digital Health Solution for vaccination registration is available, then it SHOULD be possible to search, list, filter, reorder and export the history of vaccinations administered.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s28",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.023 If an offline Digital Health Solution for vaccination registration is available, then it SHALL validate that HCIDs entered are confirmed to be unique, based on its own data set.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s30",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.025 If an offline Digital Health Solution for vaccine registration is available, and is part of the national PKI trust framework, and is authorized by the PHA to sign vaccination content as a DDCC:VS, then it SHALL register the DDCC:VS through the DDCC:VS Registry Service.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s31",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.026 For each care delivery session, the facility, organization and care delivery health worker context of the vaccine administration event SHALL be established.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s32",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.027 If an online/connected public health DDCC:VS Generation Service is available at the time of vaccination, then it SHALL be possible to register the vaccination as soon as possible after it is administered.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s33",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.028 The DDCC:VS Generation Service involved in the vaccination SHALL ensure encryption of data, in transit and at rest, to provide end-to-end security of personal data.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s35",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "If the DDCC:VS Generation Service is responsible for issuing HCIDs, it SHALL only issue unique HCIDs, i.e. the same HCID should never appear on two different paper vaccination cards.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s36",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.030 If pre-generated HCIDs and pre-printed vaccination cards are used, the generation of the HCIDs, along with any supporting technology to ensure HCIDs will not be duplicated within or across care sites, SHALL be managed by PHA policy.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s37",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.031 It SHALL be possible for the DDCC:VS Generation Service to accept data from an authorized, connected point-of-care system, where such a system exists, i.e. to be able to accept data transferred from local data stores at sites where vaccinations are administered.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s38",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.032 It SHALL be possible for the DDCC:VS Generation Service to represent vaccination data using the FHIR format.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s39",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.033 It SHALL be possible for the DDCC:VS Generation Service to perform digital signing of vaccination data.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p41:s42",
+      "page": 41,
+      "file": "sec-019-33-functional-requirements-for-continuity-of-car.md",
+      "text": "DDCC.FXNREQ.036 The DDCC:VS Generation Service SHALL maintain a connection between an HCID, the vaccination data associated with it in a DDCC:VS, any 2D barcode generated from the data, and the private/public key used to sign the data.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p44:s2",
+      "page": 44,
+      "file": "sec-021-41-key-settings-personas-and-digital-services.md",
+      "text": "How, when, where, and by whom the DDCC:VS can be verified should be defined by the Member State.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p44:s3",
+      "page": 44,
+      "file": "sec-021-41-key-settings-personas-and-digital-services.md",
+      "text": "The relevant policies, including data protection policies, should be put in place accordingly.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s5",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "Table 9 Functional requirements for the Proof of Vaccination scenario1 Requirement ID Functional requirement UC004 Manual UC005 Offline UC006 National UC007 International DDCC.FXNREQ.037 Paper cards and the validation markings they bear SHOULD be designed to combat fraud and misuse.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s6",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "Any process that generates a paper vaccination card SHALL include elements on the card that support the Verifier in visually checking that the card is genuine (e.g. water marks, holographic seals etc.) without the use of any digital technology.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s7",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.038 Paper vaccination cards SHALL display an HCID.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s8",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.039 Where paper cards are used, an authority SHALL put in place a process for the replacement of lost or damaged cards with the necessary supporting technology.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s9",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.040 If a paper vaccination card or electronic vaccination document bearing a 1D or 2D barcode is presented to a Verifier, then it SHALL be possible for the Verifier to scan the code and, as a minimum, read the HCID encoded in the barcode, to visually compare it with the HCID written on the paper card, if present.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s13",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.043 It SHALL always be possible to perform some form of offline verification of vaccination cards; any solution should be designed so that a loss of connectivity to online components of the solution cannot force the verification work to stop.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s14",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.044 If, at the time of verification, a Verifier has online access/connectivity to a DDCC:VS Registry Service managed by a National PHA, then it SHALL be possible to query whether the HCID present in the barcode (and the public key, if also present) of the paper vaccination card are currently valid.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s15",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.045 When making the verification check, any solution SHALL send only the minimum information required for the verification to complete.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s17",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.046 When receiving a request for validation, a National PHA SHALL consult its DDCC:VS Registry Service and respond with a status to indicate that the signing key has not been revoked, that the key was issued by a certified authority, and that the DDCC has not otherwise been revoked.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s19",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.048 A PHA SHALL maintain a PKI to underpin the signing and verification process.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s22",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "Requirement ID Functional requirement UC004 Manual UC005 Offline UC006 National UC007 International DDCC.FXNREQ.051 A PHA SHALL be able to return a verification status, as defined by the implementer, to a requester, based on the information provided.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s24",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.053 A PHA SHOULD be able to validate that the requestor making a verification request is an authorized agent, but MAY also allow anonymous verification requests.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s25",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.054 The certificate authority (or authorities) in each country SHALL maintain records of the DSCs issued for the purpose of signing vaccination certificates and expose any service(s) that allow a public key to be looked up and checked against its records to check for validity.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s26",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.055 Any communication between a Verifier and a DDCC:VS Registry Service or other data service managed by a PHA SHALL be secured to prevent interference with the data in transit and at rest.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s28",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.057 If a verification request is made in country A for a certificate that was issued by country B or a supranational entity, then country A’s PHA SHOULD have a means of transferring the request/ querying the data held by that authority.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s29",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.058 A Member State SHOULD put in place bilateral or multilateral agreements with other countries or with a supranational entity or regional body for access to those entities’ vaccination certificate data and digital signatures.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s30",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.059 Communications between one country’s and another’s PHA or a supranational DDCC:VS Registry Service SHALL be secure and prevent interference with the data in transit and at rest.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s31",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.060 It SHALL be the ultimate responsibility of the country where verification is taking place to decide whether a vaccination claim is valid or not.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p54:s32",
+      "page": 54,
+      "file": "sec-023-43-functional-requirements-for-proof-of-vaccinat.md",
+      "text": "DDCC.FXNREQ.061 There SHOULD be a mechanism for country A to notify country B if a suspected fraudulent certificate from country B’s jurisdiction comes to the attention of country A.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p57:s3",
+      "page": 57,
+      "file": "sec-025-51-core-data-set-principles.md",
+      "text": "The recommended core data set is intended to include the critical data required for interoperability, specific to the scenarios of use defined and driven by the public health need.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p57:s4",
+      "page": 57,
+      "file": "sec-025-51-core-data-set-principles.md",
+      "text": "Aligned with the principle of data privacy protection, only the minimum set of data elements necessary for documenting a vaccination event for the purposes of a DDCC:VS should be included.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p57:s5",
+      "page": 57,
+      "file": "sec-025-51-core-data-set-principles.md",
+      "text": "Each data element must have a purpose in accordance with the predefined use cases.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p57:s7",
+      "page": 57,
+      "file": "sec-025-51-core-data-set-principles.md",
+      "text": "Aligned with the principle of open access, proprietary terminology code systems or proprietary standards cannot be recommended to Member States. →IMPLEMENTABLE ON DIGITAL AND PAPER.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p57:s8",
+      "page": 57,
+      "file": "sec-025-51-core-data-set-principles.md",
+      "text": "Aligned with the principle of equity, data requirements should not increase inequities or put individuals at risk.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p57:s9",
+      "page": 57,
+      "file": "sec-025-51-core-data-set-principles.md",
+      "text": "Additionally, data input requirements should be feasible on paper but take advantage of the benefits of digital technology. →NOT ALL DATA ELEMENTS NEED TO BE IN THE VACCINATION CERTIFICATE.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p57:s14",
+      "page": 57,
+      "file": "sec-025-51-core-data-set-principles.md",
+      "text": "The 11th revision of ICD (ICD-11) (31), which comes into effect for recording and reporting in January 2022, is recommended as the most suitable and future-proof value set for use in the DDCC:VS data dictionary.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p59:s4",
+      "page": 59,
+      "file": "sec-026-52-core-data-elements.md",
+      "text": "This data should remain the same regardless of which vaccination a person has received; thus, it should only be collected once.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p59:s10",
+      "page": 59,
+      "file": "sec-026-52-core-data-elements.md",
+      "text": "ID Not applicable Optional – recommended Optional – recommended Sex Documentation of a specific instance of sex information for the vaccinated person.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p59:s11",
+      "page": 59,
+      "file": "sec-026-52-core-data-elements.md",
+      "text": "Coding1 As defined by Member State Optional – recommended Not needed ID: identifier; ISO: International Organization for Standardization.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p59:s26",
+      "page": 59,
+      "file": "sec-026-52-core-data-elements.md",
+      "text": "Date Complete date, following ISO 8601 Required Required Vaccination valid from Date upon which provided vaccination is considered valid This data should only be considered valid at the time of issuance, as guidance is likely to evolve with further scientific evidence.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p59:s27",
+      "page": 59,
+      "file": "sec-026-52-core-data-elements.md",
+      "text": "Any user of this data (Vaccinator, Verifier) should validate this date according to their national policy.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p59:s28",
+      "page": 59,
+      "file": "sec-026-52-core-data-elements.md",
+      "text": "In the case of repeated doses, the data field for a subsequent dose should override the data field for a predecessor dose.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p59:s31",
+      "page": 59,
+      "file": "sec-026-52-core-data-elements.md",
+      "text": "Quantity Not applicable Optional – recommended Optional – recommended Country of vaccination The country in which the individual has been vaccinated.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p59:s33",
+      "page": 59,
+      "file": "sec-026-52-core-data-elements.md",
+      "text": "String As defined by Member State Required Optional – recommended Signature of health worker The health worker who provided the vaccination or the supervising clinician's handwritten signature.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p59:s36",
+      "page": 59,
+      "file": "sec-026-52-core-data-elements.md",
+      "text": "Signature Not applicable Optional – recommended Required – conditional Health worker identifier OPTIONAL for DIGITAL and PAPER vaccination certificates.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p59:s40",
+      "page": 59,
+      "file": "sec-026-52-core-data-elements.md",
+      "text": "ID Not applicable Optional – recommended Optional – recommended Disease or agent targeted Name of disease that vaccine given to protect against (such as COVID-19).",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p59:s41",
+      "page": 59,
+      "file": "sec-026-52-core-data-elements.md",
+      "text": "Coding ICD-11 Optional – recommended Optional – recommended Due date of next dose Date on which the next vaccination should be administered, if a second dose is required.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p59:s42",
+      "page": 59,
+      "file": "sec-026-52-core-data-elements.md",
+      "text": "Date Complete date, following ISO 8601 Optional – recommended Not needed HPV: human papilloma virus; ICD-11: International Classification of Diseases 11th Revision; ID: identifier; ISO: International Organization for Standardization; mRNA: messenger ribonucleic acid.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p59:s48",
+      "page": 59,
+      "file": "sec-026-52-core-data-elements.md",
+      "text": "No health or clinical inferences should be made from this date.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p59:s50",
+      "page": 59,
+      "file": "sec-026-52-core-data-elements.md",
+      "text": "No health or clinical inferences should be made from this date.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p63:s15",
+      "page": 63,
+      "file": "sec-027-6-national-trust-architecture.md",
+      "text": "An existing PKI framework may be used, provided it meets the requirements outlined in this document.",
+      "markers": [
+        "permission"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p68:s2",
+      "page": 68,
+      "file": "sec-031-7-national-governance-considerations.md",
+      "text": "A national framework to govern the complex and dynamic health policy for implementing DDCC:VS should be tailored to meet the Member State’s needs, which vary.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p68:s5",
+      "page": 68,
+      "file": "sec-031-7-national-governance-considerations.md",
+      "text": "Fundamentally, trust in the system should derive from the security-by-design of a PKI and the governance rules put in place by the Member State to operate it.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p68:s9",
+      "page": 68,
+      "file": "sec-031-7-national-governance-considerations.md",
+      "text": "There are two recommended approaches.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p68:s12",
+      "page": 68,
+      "file": "sec-031-7-national-governance-considerations.md",
+      "text": "The private key of the Root Certificate managed by the Member State may be used by the Member State to sign a PHA’s DSC that has been authorized for use.",
+      "markers": [
+        "permission"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p68:s20",
+      "page": 68,
+      "file": "sec-031-7-national-governance-considerations.md",
+      "text": "National governance considerations To ensure that national governing bodies can establish mutual trust with other Member States through bilateral or multilateral agreements, governance mechanisms should be in place for the digital signing infrastructure based on each Member State’s governance context.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p68:s21",
+      "page": 68,
+      "file": "sec-031-7-national-governance-considerations.md",
+      "text": "In addition to the authorized DSCsharing mechanism, the following components should be addressed, with clear policies in place for each Member State. →ISSUING DDCC:VS: There should be clear and transparent processes in place for issuing DDCC:VS in order to establish trust in the system.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p68:s24",
+      "page": 68,
+      "file": "sec-031-7-national-governance-considerations.md",
+      "text": "The appropriate privacy mechanisms should be built into the implementation based on this decision. →REVOCATION OF DDCC:VS: There should be clear and transparent processes for revocation of a DDCC:VS in case fraud has occurred, incorrect information needs to be rectified, faulty vaccine batches have been discovered or issues have been detected within the vaccine supply chain.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p68:s25",
+      "page": 68,
+      "file": "sec-031-7-national-governance-considerations.md",
+      "text": "These revocation processes should also include standard operating procedures for: » INFORMING INDIVIDUALS: Individuals will need to be informed if their DDCC:VS has been revoked and for what reason.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p68:s27",
+      "page": 68,
+      "file": "sec-031-7-national-governance-considerations.md",
+      "text": "For example, if there are reports of counterfeit DDCC:VS, Verifiers should be informed about the possibility of encountering counterfeit DDCC:VS.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p68:s28",
+      "page": 68,
+      "file": "sec-031-7-national-governance-considerations.md",
+      "text": "This allows for continued trust in the system. » REMEDY PROVISION: If a DDCC:VS is revoked, Member States should apply measures to rectify the situation, for example, by providing the option of a new vaccination, if advisable.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p71:s1",
+      "page": 71,
+      "file": "sec-033-81-considerations-before-deploying.md",
+      "text": "Using the framework of essential components of a digital health implementation presented in the WHO/ITU’s National eHealth Strategy Toolkit (36), and the guidance provided in the Digital implementation investment guide (DIIG) (37), the following considerations and key questions should be examined prior to deployment of a DDCC:VS solution.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p71:s3",
+      "page": 71,
+      "file": "sec-033-81-considerations-before-deploying.md",
+      "text": "These should be assessed before introducing a DDCC:VS system and its associated infrastructure.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p71:s4",
+      "page": 71,
+      "file": "sec-033-81-considerations-before-deploying.md",
+      "text": "An impact assessment should include ethical and privacy implications and potential risks that may arise with the implementation of DDCC:VS. →What is the potential impact on individuals, families, businesses, health workers, vaccinators and other relevant stakeholders? →What is the potential impact on public health and on the economy? →What is the additional value added beyond using the paper system only?",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p71:s6",
+      "page": 71,
+      "file": "sec-033-81-considerations-before-deploying.md",
+      "text": "Due to the need for pandemic response, existing digital health investments should be leveraged as much as possible. →If there is an intention to pre-print DDCC:VS, then is high-volume printing capacity for paper forms available domestically? →Consider the coverage of mobile phone adoption before pursuing a mobile-only solution.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p71:s22",
+      "page": 71,
+      "file": "sec-033-81-considerations-before-deploying.md",
+      "text": "The benefits and risks of these different software models should be considered. →If deciding to use open source products, is there a responsive established user community that will provide support and help add features at no cost? →Which services and applications would be the most environmentally sustainable?",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p71:s28",
+      "page": 71,
+      "file": "sec-033-81-considerations-before-deploying.md",
+      "text": "Implementation of the DDCC:VS should change in accordance with the changing health context and remain evidence based.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p73:s4",
+      "page": 73,
+      "file": "sec-034-82-key-factors-to-consider-with-solution-develop.md",
+      "text": "The approach to inviting tenders for the work, assessing tenders, awarding a contract and then working with a partner should consider the following high-level key factors. →The terms of reference for the work that needs to be performed should be clearly expressed and at a level of detail that allows solution developers to respond with a high degree of confidence in their bids. →An early decision is needed as to whether work will be performed under a fixed price or a time-andmaterials arrangement (or a mixture of the two in which, for example, a core product is delivered but additional work paid on a prorata basis). →The timeline for work should be realistically set.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p73:s6",
+      "page": 73,
+      "file": "sec-034-82-key-factors-to-consider-with-solution-develop.md",
+      "text": "The engaging authority should have a realistic understanding of the likely effort of the project and the effects on scope and cost if the timeline is set to be too short.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p73:s7",
+      "page": 73,
+      "file": "sec-034-82-key-factors-to-consider-with-solution-develop.md",
+      "text": "A phased approach to deliver a minimum viable product first and iterate further enhancements is often recommended. →A decision is needed as to whether a single supplier (with sub-contractors) or a consortium of suppliers is permitted.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p73:s8",
+      "page": 73,
+      "file": "sec-034-82-key-factors-to-consider-with-solution-develop.md",
+      "text": "Working with a consortium brings the advantage that multiple best-inclass vendors can collaborate, but also involves the complication of extra communication and coordination between these actors. →The metrics for success of the work should be defined early, so that the goals and outcomes of the project are clear to all involved.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p73:s9",
+      "page": 73,
+      "file": "sec-034-82-key-factors-to-consider-with-solution-develop.md",
+      "text": "Ideally, these metrics should be measurable key performance indicators (number of vaccination records stored, speed of operation, compliance with regulations, etc.).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p73:s10",
+      "page": 73,
+      "file": "sec-034-82-key-factors-to-consider-with-solution-develop.md",
+      "text": "Contracts (and payment schedules) can be tied to performance indicators to incentivize vendors and keep the focus clearly on the desired outcome. →Suppliers should demonstrate solid expertise in the area of work for which they are being engaged; they should have a portfolio of previous experience and be able to provide references.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p73:s11",
+      "page": 73,
+      "file": "sec-034-82-key-factors-to-consider-with-solution-develop.md",
+      "text": "A demonstration of relevant previous work can be requested to gain confidence in the vendor’s expertise. →Suppliers should also demonstrate a solid track record of project management for delivering digital solutions.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p73:s12",
+      "page": 73,
+      "file": "sec-034-82-key-factors-to-consider-with-solution-develop.md",
+      "text": "This will include establishing a clear communication plan so that the regularity of and format for reporting on project progress is understood and the procedure for escalation of problems is agreed. →The working hours, location and corporate culture (including working language) of any supplier should be considered, to ensure that teams will work together well and that the risk of miscommunication is reduced. →As noted at the start of the section, if the strategy is to build a digital solution as part of a longerterm investment in public health technology that will outlive the COVID-19 pandemic, then the choice of a supplier that can potentially become a long-term partner in that journey is advisable. →It should be clear where the intellectual property for any work delivered by the digital supplier will reside, particularly if the supplier is creating new assets.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p77:s76",
+      "page": 77,
+      "file": "sec-037-references.md",
+      "text": "What place should COVID-19 vaccine passports have in society?",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s1",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "International Classifications (WHO-FIC) and other classifications Mapping from classifications and terminologies used in existing systems to the International Classification of Diseases, 11th revision (ICD-11), and other WHO-FIC classifications should follow the principles listed below.1 1.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s6",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "Maps should be unidirectional and single-purpose.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s7",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "Separate unidirectional maps should be used in place of bidirectional maps (to support both a forward and a backward map table).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s9",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "Maps should not be reversed.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [
+        "layout-fragment"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s13",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "Ideally, the producers of both terminologies in any map should participate in the mapping effort to ensure that the result accurately reflects the meaning and usage of their terminologies.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s14",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "As a minimum, both terminology producers should participate in defining the basic purpose and parameters of the mapping task, reviewing and verifying the map, developing the plan for testing and validation, and devising a cost-effective strategy for building, maintaining and enhancing the map over time.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s16",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "Map developers should agree on the competencies, knowledge and skills required of team members at the onset of the project.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s17",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "Ideally, target users of the map should also participate in its design and testing to ensure that it is fit for its intended purpose.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s34",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "Dissemination of maps should also include documentation as stated above, describing the purpose, scope, limitations and methodology used to create the maps.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s37",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "The maintenance phase should include an outline of the overall life-cycle plan for the map, conflict resolution mechanism, continuous improvement process, and decision process around when an update is required.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s38",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "Whenever maps are updated, the cycle of QA and validation must be repeated.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s40",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "When map specialists are conducting mapping manually, it is recommended to provide the necessary tools and documentation to drive consistency.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s51",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "The level of equivalence between source and target entities – such as equivalent, broader, narrower – should be specified.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s53",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "If the mapping uses cardinality as a metric, then it must be clearly defined in terms of what is being linked between source and target, how the cardinalities are counted, and the direction of the map.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p82:s56",
+      "page": 82,
+      "file": "sec-041-annex-3-guiding-principles-for-mapping-the-who-f.md",
+      "text": "Maps should be machine-readable to optimize their utility.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p85:s43",
+      "page": 85,
+      "file": "sec-042-annex-4-what-is-public-key-infrastructure-pki.md",
+      "text": "An interested party (i.e. a Verifier) who wants to decrypt the encrypted information for the vaccination certificate must have two key things. » The public key corresponding to the private key in the DSC; and » Trust that the public key, from the DSC, came from a certificate authority that the interested party trusts.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p85:s51",
+      "page": 85,
+      "file": "sec-042-annex-4-what-is-public-key-infrastructure-pki.md",
+      "text": "If the decryption reveals the data, the Verifier can be confident that: » the information could only have been encrypted by someone with the private key, therefore it must have come from someone in possession of the DSC; » the information has not been altered or tampered with after it was signed, otherwise the decryption would not work; and » the information can be trusted, because the Verifier trusts the certificate authority, and trusts the certificate authority to have issued the DSC, which must have been used to encrypt the information.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p85:s53",
+      "page": 85,
+      "file": "sec-042-annex-4-what-is-public-key-infrastructure-pki.md",
+      "text": "If the public key decrypts the encrypted information so that it looks identical to the unencrypted version provided, the Verifier can be confident that only the entity in possession of the private key sent these data, and that it has not been altered since by any other party. » For the vaccination certificates, the HCID must resolve back to a digital record that is digitally signed in the manner described. » Optionally, the DDCC:VS core data set could also be encoded into a barcode to enable the Verifier to perform an offline check, but the Verifier would still need to be able to validate that the public key was a valid one.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p85:s54",
+      "page": 85,
+      "file": "sec-042-annex-4-what-is-public-key-infrastructure-pki.md",
+      "text": "A PKI is only as secure as the IT infrastructure on which it is implemented; although PKI gives a high degree of trust, care must be taken to design and run the system in a manner that maintains security.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s3",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "Non-functional requirements explain the conditions under which any digital solution must remain effective and are organized into the following categories. →ACCESSIBILITY: The provision of flexibility to accommodate each user’s needs and preferences, along with appropriate measures to ensure access to persons with disabilities on an equal basis with others; for example, the solution should still be accessible to those with visual impairment. →AVAILABILITY (SERVICE LEVEL AGREEMENTS; SLAS): The definition of when the system will be available to the user community, how such metrics will be measured, and the functionality in the tool for managing planned downtime. →CAPACITY – CURRENT AND FORECAST: The number of concurrent users that can interact with the system without an unacceptable degradation in performance, speed or responsiveness.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s4",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "User populations are never static, and so the ability to handle current typical and peak volumes of usage and predicted future states, and the strategy for handling a traffic surge, must be considered. →UPTIME SLAs – DISASTER RECOVERY, BUSINESS CONTINUITY, RESILIENCE: The requirements for the system in terms of how it recovers from critical, unexpected failure and the support for business continuity.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s5",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "This includes time to recovery, how recovery is established, and at what levels resilience and redundancy are built into the system to minimize any data loss. →PERFORMANCE/RESPONSE TIME: The speed with which the system is expected to respond under normal and exceptional loads, with a definition of what those terms mean. →PLATFORM COMPATIBILITY: The different operating systems, machines and configuration on which the solution is expected to run. →SECURITY AND PRIVACY: The levels of security that the solution must provide in terms of user authentication and data protection. →REGULATION AND COMPLIANCE: Any regulatory/legal constraints with which the system must comply, such as data protection policies, WHO cloud policies, and information management and retention rules of the jurisdiction(s) in which the solution will run. →RELIABILITY: A measure of the reliability of the tool, for example the acceptable mean time between failures of the solution (both hardware and software components). →SCALABILITY (HORIZONTAL, VERTICAL): The ability to, and strategy for, handling an increasing load on the solution (in terms of increased number of users it can support, higher volumes of data it can handle, quicker performance and response, etc.).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s9",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "Table A5.1 Non-functional requirements for the DDCC:VS Requirement ID Category Non-functional requirement DDCC.NFXNREQ.001 Accessibility Any solution SHALL provide optimization for delivery to users with low bandwidth, as in a low digital maturity setting users will often have limited (or intermittent) Internet connectivity.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s10",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.002 Accessibility Any solution SHOULD provide offline availability that permits a user to continue to work with data while offline, such as by creating a set of requests to be sent when next online.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s11",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.003 Accessibility Any solution SHALL provide a mechanism for the resynchronization/dispatch of data created offline when the solution is reconnected.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s12",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.004 Accessibility Any solution SHOULD follow best practice to deliver interfaces that are clear, intuitive and consistent (standardized colour schemes, icons, placement of visual elements – titles, buttons, filters, navigation, etc.) DDCC.NFXNREQ.005 Accessibility Any solution SHOULD follow best practice to deliver interfaces that are accessible by the widest range of users, including considerations for different cultures (e.g. left-toright and right-to-left scripts), visual impairment (e.g. colour blindness) and physical disability (e.g. the need to interact using one hand).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s13",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.006 Accessibility Any solution SHOULD automatically optimize its interface (layout of elements, organization of information, etc.) to adapt to the device on which it is being used, so that it is accessible on personal computers (desktops, laptops), tablets and smartphones using principles of adaptive design.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s14",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.007 Availability Any solution developed SHOULD NOT be able to accept more than 10 minutes of outage during normal usage and cannot accept more than 1 minute of data loss of queries and responses.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s17",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.009 Capacity – current and forecast The system SHALL be able to support the potentially large number of concurrent users performing read and write operations during normal operation.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s18",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "This metric will vary significantly between different country contexts and will depend on the design, but should be used as the anticipated capacity standard.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s21",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "As a safety contingency, the system SHOULD support, or have scaling plans to support, growth of 25% per year.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s22",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.012 Disaster recovery, business continuity, resilience All data and derived analysis SHALL be stored within an appropriate data architecture to ensure redundancy and rapid disaster recovery, to eliminate the risk of data loss.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s23",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.013 Disaster recovery, business continuity, resilience The system SHOULD provide near-instantaneous switch-over if any one component of the system architecture fails critically (database server, web server, system monitoring job, service bus, etc.).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s24",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "Requirement ID Category Non-functional requirement DDCC.NFXNREQ.014 Disaster recovery, business continuity, resilience The system SHOULD provide near-instantaneous switch-over if any one component of the physical architecture fails critically (data centre destroyed, server destroyed, etc.) DDCC.NFXNREQ.015 Disaster recovery, business continuity, resilience All components of the solution SHOULD be underpinned by robust monitoring tools that track usage across space and time, so that system load and source can be queried.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s25",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.016 Disaster recovery, business continuity, resilience Data concerning system usage SHOULD be available to system administrators via a dashboard to show current load, and recent load (last week, last month), and be able to perform custom queries by place and time.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s26",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "It SHOULD be possible to export this data.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s27",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.017 Disaster recovery, business continuity, resilience It SHALL be possible to automatically log any periods of outage of the system and to supplement and update this record manually.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s28",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.018 Disaster recovery, business continuity, resilience It SHALL be possible to trigger system alerts based on uptime and performance.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s29",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.019 Disaster recovery, business continuity, resilience It SHOULD be possible to use system alerts to perform actions such as dispatch of a warning email/SMS to a system administrator or to execute a script that (for example) spins up a new virtual machine for load balancing.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s30",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.020 Performance/ response time The solution SHALL follow best practices to deliver a responsive interface in which typical requests can be served (end-to-end interaction) in a maximum time specified in a number of seconds to be determined based on typical bandwidths.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s32",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.021 Performance/ response time The solution SHOULD be designed so that degradation of performance due to increased load (surge of users) is minimized.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s35",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.024 Performance/ response time The system SHOULD collect metrics on performance and response time to allow a system administrator to monitor system behaviour, identify bottlenecks or issues, and pro-actively address any risk of unacceptable degradation of speed.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s36",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.025 Performance/ response time As with system availability, the solution SHALL provide dashboards of performance metrics, allow querying of the performance log and export of performance data for reports.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s37",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.026 Performance/ response time As with system availability, the solution SHALL have the ability to set thresholds on performance and use the breach of those thresholds to raise alerts that can trigger email notifications or automated system actions (bring an extra server into a loadbalanced set, for example).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s38",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.027 Security and privacy Tools to request an account, log in, log out, set and change passwords, and receive password reminders SHALL be provided.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s39",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.028 Security and privacy All interactions between a client and a server component of the solution SHALL be securely encrypted to prevent “man in the middle” interference with data in transit.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s40",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.029 Security and privacy Any cloud components of the solution SHALL store their cloud data-at-rest in an encrypted format.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s41",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.030 Security and privacy The solution SHALL have a security model that is robust and flexible and controls both access to data and the operations that can be executed against data.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s42",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "Requirement ID Category Non-functional requirement DDCC.NFXNREQ.031 Security and privacy Information about the governance and restricted use of data SHOULD be available within any solution alongside the data concerned, so that users have a clear and consistent reminder of the level of confidentiality, sensitivity and the permitted use of the data they are currently viewing.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s43",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.032 Security and privacy Dashboards, reports, standard queries and exports of security information SHOULD be provided to assist system administrators in the management of access permissions.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s44",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "Queries to highlight conflicting permissions SHOULD be available.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s45",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.033 Security and privacy The confidentiality of data must be managed with utmost care.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s46",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "In shared data environments, there SHALL be a clear separation of between the system’s data and any other hosted clients’ information.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s48",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.034 Regulation and compliance Any solution SHOULD be designed to be mindful of existing reference architecture guidelines and standards for distributed trust framework solutions and tools for exchanging vaccination data.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s49",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.035 Regulation and compliance Any solution SHALL be compliant with any data policies and legal requirements identified by the country in whose jurisdiction the solution will operate.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s52",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.037 Regulation and compliance Any solution SHALL be compliant with any data storage, retention and destruction laws mandated by the data policies and data laws of the countries in which data are located.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s53",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.038 Reliability Any solution SHOULD be designed to maximize the mean time between failures, with appropriate best practice to deliver a robust, well-tested and reliable platform.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s54",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.039 Reliability Any solution SHOULD provide a log, in which failures in any part of the system are logged, so that mean time between failures can be calculated and tracked.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s55",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.040 Scalability Any solution SHOULD be designed so that elements can be scaled horizontally by, for example, adding extra resources (more servers, extra virtual machines, etc.) and the mechanisms for coordinating their activity (load balancing, session management, etc.) DDCC.NFXNREQ.041 Scalability Any solution SHOULD be designed so that elements can be scaled vertically by, for example, adding extra capacity to solution elements (increased CPU, increased RAM, etc.) DDCC.NFXNREQ.042 Scalability It MAY be possible to configure rules for automatic horizontal scaling of the system to respond to increased load (e.g. spinning up a new virtual machine and adding it to a load-balanced pool of resources).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s57",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.043 Scalability Any solution SHOULD log sufficient information about performance and load so that technical staff can refine the system’s scaling strategy based on actual usage.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s58",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.044 Supportability Any solution SHOULD provide a feedback channel as described in functional requirements for collecting information and support requests.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s60",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.046 Supportability The solution SHALL include a system log of activity in which events of interest, the time and date when they occur, their categorization, and the user (if appropriate) who triggered the event are recorded.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s61",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "The log must be of sufficient detail to assist technical staff with debugging issues.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s64",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.048 Supportability It SHOULD be possible for technical support staff to filter and query system logs to quickly identify sections of interest.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s67",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.050 Supportability Any solution SHALL have a published strategy for the release of patches, maintenance releases and version upgrades.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s68",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.051 Usability Any interface created SHOULD be mindful of best practices for user design/adaptive design to ensure the best chance of presenting a clear and concise, and intuitive user experience.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s70",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.052 Usability It SHOULD be possible to deliver definition/explanation text in the language currently selected for the interface via the solution, so that acronyms, jargon, technical terms, etc. can be clarified where necessary.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s72",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.054 Usability When the solution adapts for display on a smartphone/tablet, the interface SHALL be designed mindful of touch-screen interaction.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s74",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.056 Data retention/ archiving It SHOULD be possible to manually request an archive of a selected subset of information.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s78",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.059 Data retention/ archiving Any archive function SHALL not affect the performance of the system.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s79",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.060 Data retention/ archiving Any archive material SHOULD be labelled with metadata about the information it contains and the date and time it was created, to facilitate quick navigation of all archived material.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s80",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.061 Data retention/ archiving It SHOULD be possible, with the necessary authority and permissions, to restore information from a chosen archive back into the operational set of information.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s81",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.062 Data retention/ archiving All archival operations SHALL be logged.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s82",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.063 Data retention/ archiving It SHOULD be possible, with the necessary authority and permissions, to perform a limited search of the contents of archives to identify information of interest.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p89:s83",
+      "page": 89,
+      "file": "sec-043-annex-5-non-functional-requirements.md",
+      "text": "DDCC.NFXNREQ.064 Data retention/ archiving All information written to archives SHALL be in an encrypted format to prevent misuse if accessed by an unauthorized system or person.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p94:s27",
+      "page": 94,
+      "file": "sec-044-annex-6-open-health-information-exchange-openhie.md",
+      "text": "SHARED HEALTH RECORD (SHR): A repository that may be used to maintain longitudinal health information about a Subject of Care and to support continuity of care over time, across different care delivery sites.",
+      "markers": [
+        "permission"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s5",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "In any use of this work, there should be no suggestion that WHO endorses any specific organization, products or services.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "licence-or-imprint",
+        "glossary-page"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s7",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "If you adapt the work, then you must license your work under the same or equivalent Creative Commons licence.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "licence-or-imprint",
+        "glossary-page"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s8",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "If you create a translation of this work, you should add the following disclaimer along with the suggested citation: “This translation was not created by the World Health Organization (WHO).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "licence-or-imprint",
+        "glossary-page"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s10",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "The original English edition shall be the binding and authentic edition”.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "licence-or-imprint",
+        "glossary-page"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s11",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Any mediation relating to disputes arising under the licence shall be conducted in accordance with the mediation rules of the World Intellectual Property Organization (http://www.wipo.int/amc/en/mediation/rules/).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "licence-or-imprint",
+        "glossary-page"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s27",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "The mention of specific companies or of certain manufacturers’ products does not imply that they are endorsed or recommended by WHO in preference to others of a similar nature that are not mentioned.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [
+        "licence-or-imprint",
+        "glossary-page"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s32",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "In no event shall WHO be liable for damages arising from its use.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "licence-or-imprint",
+        "glossary-page"
+      ],
+      "decision": "undecided"
+    }
+  ],
+  "runContext": {
+    "sha256": "40c3592bc44fe5976f5cdc9073b9f83d56a5a0fb5e6cd1d76cc2ca4388731c09"
+  }
+}

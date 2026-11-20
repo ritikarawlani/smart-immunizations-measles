@@ -1,0 +1,1593 @@
+{
+  "$schema": "l1-recommendation-candidates/v1",
+  "entry": "library/leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "curation": {
+    "path": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/curation.yaml",
+    "sha256": "1c60fd9481de50c43be168b70a0eb1dc2acf21089d8ac8fa16e550b82612e197"
+  },
+  "publication": {
+    "iri": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+    "identifiers": [
+      {
+        "type": "isbn",
+        "value": "978-92-4-001651-4"
+      }
+    ],
+    "title": "Leave no one behind: guidance for planning and implementing catch-up vaccination",
+    "publicationType": "implementation-guidance",
+    "proposedBy": "curation"
+  },
+  "counts": {
+    "statementClass": "implementation-practice",
+    "recommendations": 13,
+    "remarks": 0,
+    "partOf": 0,
+    "excluded": 0,
+    "undecided": 123
+  },
+  "coverage": {
+    "normative": 133,
+    "captured": 10,
+    "excluded": 0,
+    "unaccounted": 123,
+    "capturedPct": 7.52,
+    "accountedForPct": 7.52
+  },
+  "hints": {
+    "licence-or-imprint": "licence, rights or imprint text — normally excluded as `editorial`",
+    "glossary-page": "printed on a glossary or abbreviations page — a definition, not a recommendation",
+    "layout-fragment": "the sentence looks split by the page layout (a table, list or figure); read the page before deciding"
+  },
+  "candidates": [
+    {
+      "location": "p7:s4",
+      "page": 7,
+      "file": "sec-001-purpose-of-this-guidance.md",
+      "text": "All immunization programmes should have a catch-up vaccination policy and catch-up vaccination schedule in place to ensure individuals are able to be vaccinated even if they miss one or more scheduled doses.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p7:s9",
+      "page": 7,
+      "file": "sec-001-purpose-of-this-guidance.md",
+      "text": "In most cases, a significant interruption in immunization services will be a consequence of a large-scale disruption in the overall health system, therefore any specialized efforts to restart and/or intensify immunization efforts should be part of an overall health system recovery plan.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p7:s10",
+      "page": 7,
+      "file": "sec-001-purpose-of-this-guidance.md",
+      "text": "These specialized efforts should be implemented in addition to providing year-round continuous catchup vaccination through routine immunization services which is outlined in Section 1. vi",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "layout-fragment"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p8:s1",
+      "page": 8,
+      "file": "sec-002-key-terms.md",
+      "text": "Catch-up vaccination – refers to the action of vaccinating an individual, who for whatever reason (e.g. delays, stockouts, access, hesitancy, service interruptions, etc.), is missing/has not received doses of vaccines for which they are eligible, per the national immunization schedule. • Catchup vaccination can be conducted through regular routine immunization service delivery (fixed, outreach, mobile, school-based), periodic intensification of routine immunization (PIRI) activities, or through innovative local strategies that ensure individuals have the opportunity to receive routine immunizations for which they are overdue and eligible. • Catch-up vaccination as described in this document is not equivalent to other immunization activities that use the word ‘catch-up’ such as ‘catch-up SIAs’ that are one-time campaigns to vaccinate the main target population responsible for disease transmission in order to rapidly reduce the number of susceptible individuals (see SIAs below), other ‘catch-up campaigns’ that sometimes accompany new vaccine introductions, or from the strategy of ‘catch-up, keep-up, follow-up, speed-up’ used for measles elimination in the Region of the Americas.1 Catch-up vaccination policy – as part of the national immunization policy, a catch-up policy should provide clear directives to all actors within the immunization programme on the importance of providing vaccinations for individuals who have missed one or more doses, how to determine eligibility and permissible age ranges, correct recording and reporting of late doses and the value of using every health contact as an opportunity to check vaccination history and provide catch-up as appropriate.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p8:s2",
+      "page": 8,
+      "file": "sec-002-key-terms.md",
+      "text": "Catch-up vaccination schedule – along with a catch-up policy, every country should have a catch-up vaccination schedule that clearly indicates the age cohorts to whom the catch-up schedule applies, minimum and maximum ages (if applicable as per national policy) and directives on minimum intervals permissible between doses for each antigen, to assist health workers and individuals to complete the vaccination schedule if interrupted or delayed (see Box 1).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "recommendation",
+      "keys": [
+        "catchup.national-catch-up-schedule"
+      ]
+    },
+    {
+      "location": "p8:s4",
+      "page": 8,
+      "file": "sec-002-key-terms.md",
+      "text": "Invalid dose – a vaccine dose is considered invalid if it is administered earlier than the minimum age recommended, or earlier than the minimum interval since the previous dose in the vaccine series.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p8:s5",
+      "page": 8,
+      "file": "sec-002-key-terms.md",
+      "text": "Invalid doses may not elicit an adequate immune response and therefore should be repeated once the individual has reached the minimum age and/or the appropriate minimum interval has passed.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p8:s15",
+      "page": 8,
+      "file": "sec-002-key-terms.md",
+      "text": "It should be noted that as best practice, some countries use home-based records/immunization cards that include a special separate section for recording “supplementary” doses given.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p8:s16",
+      "page": 8,
+      "file": "sec-002-key-terms.md",
+      "text": "An SIA should not be confused with a “selective” mass vaccination campaign; the latter does screen for eligibility and records the doses given to each individual on their home-based record/immunization card.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p8:s17",
+      "page": 8,
+      "file": "sec-002-key-terms.md",
+      "text": "In this way, “selective” mass vaccination campaigns are considered a PIRI approach and the doses should be reported in the routine administrative immunization coverage.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p8:s18",
+      "page": 8,
+      "file": "sec-002-key-terms.md",
+      "text": "Timely dose – refers to a vaccine dose administered within a certain time since the recommended age of vaccination.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p8:s19",
+      "page": 8,
+      "file": "sec-002-key-terms.md",
+      "text": "There is no universal standard window of time within which a vaccine must be given to be considered timely, and the timeliness window may vary for different antigens.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p10:s2",
+      "page": 10,
+      "file": "sec-003-overview.md",
+      "text": "However, despite best efforts and intentions, individuals may not always receive all vaccinations in a timely manner as per the recommended age in a national immunization schedule. • Regularly scheduled vaccinations may be missed for a variety of context-specific reasons (e.g. difficulty accessing health services and other health system barriers, health worker practices, stock outs, beliefs held by caregivers and community members about vaccination, etc.). • No one should miss out on the right to the protection that vaccines offer, simply because they are not able to access services in time. • A catch-up vaccination strategy (which includes a clearly defined catch-up vaccination policy and catch-up schedule) is an essential part of a well-functioning national immunization programme and should be implemented on a continuous basis. • The importance of having a catch-up vaccination strategy is more pronounced when there is an extended interruption of routine immunization services or delay of mass vaccination campaigns (e.g., due to vaccine shortages or system disruptions caused by outbreaks or epidemics, natural disaster, acute conflict, population displacements, insecurity, etc.) • While every effort must be made to keep immunization services functioning during an emergency, unavoidable disruptions can result in a significant accumulation of susceptible individuals and may require additional specially planned catch-up efforts to address large immunization gaps.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p11:s1",
+      "page": 11,
+      "file": "sec-005-introduction.md",
+      "text": "• Everyone should fully benefit from vaccination by receiving recommended vaccines as soon as they are eligible, and those who arrive “late” should not be denied vaccination. • Most vaccines are safe and effective to administer with no upper age limit and while timely vaccination should always be the aim, it is almost always better to vaccinate late than never.",
+      "markers": [
+        "negation",
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [
+        "layout-fragment"
+      ],
+      "decision": "recommendation",
+      "keys": [
+        "catchup.late-not-denied"
+      ]
+    },
+    {
+      "location": "p11:s3",
+      "page": 11,
+      "file": "sec-005-introduction.md",
+      "text": "As these individuals age, it becomes harder to identify effective ways to reach them with the needed vaccines. • Having a catch-up vaccination strategy in place is an essential part of a well-functioning routine immunization programme and should be implemented on a continuous basis to ensure an individual’s right to be offered the benefit of vaccination, even if it is late (see Figure 1). • All touchpoints with the health system should be used to reduce missed opportunities for vaccination4, by assessing vaccination status and vaccinating or referring individuals for catch-up vaccination if they have missed any doses. • A catch-up vaccination strategy relies on the availability of good record keeping of vaccination history – either in individual home-based records (HBRs), facility-based registers or electronic immunization registers (EIRs).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "recommendation",
+      "keys": [
+        "catchup.every-touchpoint"
+      ]
+    },
+    {
+      "location": "p11:s6",
+      "page": 11,
+      "file": "sec-005-introduction.md",
+      "text": "Elements of a strong catch-up vaccination strategy 3 For example, rotavirus vaccine is not recommended >24 months, Haemophilus influenza type b (Hib) is not recommended >5 years as there is limited benefit beyond these ages due to disease epidemiology; DTP-containing vaccines should only be given with Td and aP if >7 years.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p11:s7",
+      "page": 11,
+      "file": "sec-005-introduction.md",
+      "text": "For all WHO recommendations for routine immunization and ages of eligibility, see WHO position paper Summary Tables, available at: https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/whorecommendations-for-routine-immunization---summary-tables 4 See WHO.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p12:s1",
+      "page": 12,
+      "file": "sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "text": "• Every country should have a clear catch-up vaccination policy and catch-up schedule designed in line with the national immunization schedule.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "layout-fragment"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p12:s2",
+      "page": 12,
+      "file": "sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "text": "The catch-up policy should provide clarity to health workers on: 1) The importance of providing vaccinations for those who have missed one or more doses within the national immunization schedule, 2) How to determine eligibility including permissible age ranges, 3) Correct recording and reporting of delayed doses, 4) Leveraging every health contact as an opportunity to check vaccination history and catch up on vaccinations as appropriate.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p12:s3",
+      "page": 12,
+      "file": "sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "text": "Decision-making • WHO has published tables with recommendations for interrupted or delayed immunization, which summarize the recommendations from WHO vaccine position papers in one place.5 These summary tables are not intended for direct use by health workers, but rather to aid and guide policy and decision-makers.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p12:s4",
+      "page": 12,
+      "file": "sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "text": "A User’s Guide to the Summary Tables 6 is also available, to help support the process of developing or revising immunization schedules. • Although each country has its own mechanisms for an informed decision-making process on developing or revising immunization policy, it is important to ensure that all relevant stakeholders are consulted and the implications across all components of the immunization programme are considered. • National immunization technical advisory groups (NITAGs) should be engaged to provide technical and programmatic advice on developing a catch-up vaccination policy and catch-up schedule (see Box 1).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p12:s5",
+      "page": 12,
+      "file": "sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "text": "As part of this process, local disease epidemiology, current immunization coverage levels and programme performance, health system capacity, and implications on budget and logistics (see Ensuring availability of vaccines and supplies for catch-up vaccination below) should be taken into consideration.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p12:s6",
+      "page": 12,
+      "file": "sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "text": "In addition, a review of relevant literature and discussions with countries with established catch-up vaccination policies could further guide this decision-making process. • Existing policies should be reviewed for any provisions that may negatively impact catch-up vaccination and be revised, if needed.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p12:s7",
+      "page": 12,
+      "file": "sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "text": "For example, remove restrictive target age groups or upper age limits; diminish restrictions on which cadre of health workers can vaccinate; expand which health workers can (and should) screen home-based records to determine vaccine eligibility, and increase flexibility on where and when immunization takes place. • Establishing or strengthening policies that encourage presentation of home-based records at every health contact is also important to ensure that all touch points with the health system can be leveraged. • Catch-up policies should also clearly indicate what to do if evidence of previous vaccination cannot be confirmed.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p12:s8",
+      "page": 12,
+      "file": "sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "text": "If no vaccination records are available, it should be assumed that the person has not 5 WHO Summary Table 3: Recommendations for Interrupted or Delayed Immunization.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p12:s10",
+      "page": 12,
+      "file": "sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "text": "Available at: https://www.who.int/publications/m/item/table-3-who-recommendations-for-routine-immunization 6 All WHO summary tables, along with the User’s Guide are available in English and French, at: https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routineimmunization---summary-tables 3 received the vaccine(s) and vaccination should be offered.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p12:s11",
+      "page": 12,
+      "file": "sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "text": "It is safe to revaccinate individuals who have been previously vaccinated.7 • All revised policies and operational guidance should be disseminated from national, to subnational, and service delivery levels.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p12:s12",
+      "page": 12,
+      "file": "sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "text": "Revisions should be well-explained and reinforced at all available opportunities, including supportive supervision, academic and in-service trainings, information circulars, etc.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p12:s13",
+      "page": 12,
+      "file": "sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "text": "Health workers should be trained on the importance and value of catch-up vaccination, and how to adopt these changes in policy into their practices. • Non-government immunization providers (e.g. private, NGO, faith-based, etc.) also need to be informed about the catch-up vaccination policy and catch-up schedule and urged to provide delayed doses in line with national policy, including monitoring and reporting doses administered as per systems in place.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p12:s15",
+      "page": 12,
+      "file": "sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "text": "Designing a catch-up schedule • All countries should have a catch-up schedule that includes: - Age cohorts to which the catch-up schedule applies (see below); - Minimum age and maximum/upper age limit (if applicable as per national policy); and - Clear directives on minimum intervals permissible between doses for each antigen. • As national immunization programmes expand to include vaccination across the life course, multiple catch-up schedules for different target populations/age groups will be needed.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p12:s16",
+      "page": 12,
+      "file": "sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "text": "This is because the vaccine presentations, number of doses required, and minimum intervals differ depending on an individuals’ current age, as well as age at starting a vaccine series. - For example, a country may require one catch-up schedule for children <7 years, another catch-up schedule for individuals between 7-18 years, plus additional catch-up schedules applicable to adults over 18 years, as well as special populations (such as health care workers) where recommendations may differ. - This will vary by country and the target groups included in the routine immunization programme. • Catch-up schedules can be designed in a variety of ways and because national immunization schedules vary considerably across countries (and sometimes within), it is not possible to recommend a ‘generic’ catch-up schedule. • Examples of catch-up schedules illustrating the variation in design approaches are provided in Annex 1.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s1",
+      "page": 13,
+      "file": "sec-007-12-ensuring-availability-of-vaccines-and-supplie.md",
+      "text": "• Planning to introduce a catch-up policy requires an assessment of the vaccine stock management and overall immunization supply chain (iSC) system performance to identify and address any gaps.8 • Immunization managers at all levels of the supply chain should closely monitor their actual vaccine stock, vaccine consumption, wastage, and target population in their respective catchment areas, and adjust vaccine forecasts and distribution accordingly, ensuring a buffer stock is maintained on top of any revised consumption.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "layout-fragment"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s8",
+      "page": 13,
+      "file": "sec-007-12-ensuring-availability-of-vaccines-and-supplie.md",
+      "text": "See https://extranet.who.int/evm2/web 4 • Often countries are concerned that implementing catch-up vaccination will lead to shortage of vaccines or stock-outs, as a result of increased demand from older age cohorts who missed vaccination at the recommended age.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s10",
+      "page": 13,
+      "file": "sec-007-12-ensuring-availability-of-vaccines-and-supplie.md",
+      "text": "However, ensuring that the recommended buffer stock is available is generally sufficient to manage any temporary increase. • As catch-up vaccination becomes standard practice and forecasting is revised based on updated consumption, vaccine and supply needs should stabilize, based on the following principles: o Catch-up vaccination is simply allowing for doses to be provided to individuals that should have already been included in the forecast of vaccines needed to protect that age cohort. o Delays between doses in a vaccine series (e.g.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p13:s12",
+      "page": 13,
+      "file": "sec-007-12-ensuring-availability-of-vaccines-and-supplie.md",
+      "text": "Therefore, catch-up vaccination should not require consumption of any extra vaccine per individual (except in some cases where vaccination history cannot be ascertained and re-vaccination with some vaccines may be needed). o Expanding eligibility and offering catch-up vaccination to older age cohorts who had missed doses may actually have the overall effect of reducing wastage for multi-dose vials of vaccines that must be discarded within six hours9 (such as BCG, measles-containing vaccine or yellow fever), as more eligible individuals may be vaccinated during a given session. • The use of electronic vaccine stock and supply management tools (such as the WHO/UNICEF Stock Management Tool (SMT)10, web-based Vaccine Stock and Supply Management tool (wVSSM)11, WHO Vaccine Wastage Rates Calculator12 or other electronic Logistics Management Information System (eLMIS)) should be reinforced, to facilitate proper tracking and monitoring of vaccine supply, distribution, utilization and wastage. • It is important to remember that providing catch-up vaccination to individuals who have missed doses will serve to raise population level immunity, lower the risk of outbreaks and ultimately lead to reduced doses needed in the long run for costly non-selective mass preventive and outbreakresponse campaigns.",
+      "markers": [
+        "negation",
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s4",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "9 WHO Policy Statement: Multi-dose vial policy (MDVP), Revision 2014. https://apps.who.int/iris/bitstream/handle/10665/135972/WHO_IVB_14.07_eng.pdf 10 https://www.smtplatform.org/; https://www.unicef.org/supply/introducing-vaccine-stock-management-tool-smt 11 Web VSSM can be downloaded here: http://www.wvssm-demo.com/download/; job aid (PAHO) available here: https://www.paho.org/hq/dmdocuments/2013/IM-JobAids-2010-12eng.pdf 12 https://www.who.int/publications/m/item/vaccine-wastage-rates-calculator 5 • Training, supervision, and other means of post-training support should reinforce the core principle that timely vaccination is ideal but (with few exceptions) late vaccination is preferable to no vaccination at all, as well as the practice of checking for vaccination history at every health contact. • Catch-up schedules, no matter how comprehensive, will not be able to address all possible scenarios that a health worker may encounter.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s5",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "Health workers (if possible, both immunization and non-immunization health workers) should be trained on how to evaluate eligibility of individuals of any age and determine if any missed vaccinations need to be provided. • For catch-up of vaccines requiring multiple doses in a series, the health worker will need to calculate the appropriate timing for subsequent doses, instruct the caregiver or individual when to return to complete the series, and write this down in their home-based record. • Updated operational guidance and resource materials should be provided to help health workers understand and implement catch-up vaccination, including best practices for recording and reporting (see Recording and reporting of catch-up vaccination doses, below). • Ideally, healthcare provider academic curricula should be updated to introduce catch-up vaccination policies and practice during academic medical training.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "recommendation",
+      "keys": [
+        "catchup.multi-dose-return-date"
+      ]
+    },
+    {
+      "location": "p14:s6",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "Training should be reinforced through supportive supervision and any in-service training of new staff hires. • See Box 2 for a summary of instructions for health workers, which can be adapted into a job aid.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s7",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "Additional examples for job aids and tools for assisting health workers are found in Annexes 2-4.13 Assessing vaccination status and determining eligibility • Written documentation (e.g. home-based record, or immunization register) of vaccination should be used to confirm individual vaccination status/history. • If evidence of previous vaccination cannot be confirmed, it should be assumed that the person has not received the vaccine(s) and vaccination should be offered.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "recommendation",
+      "keys": [
+        "catchup.confirm-by-written-record",
+        "catchup.unconfirmed-assume-unvaccinated"
+      ]
+    },
+    {
+      "location": "p14:s19",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "This method is more costly than revaccination and should only occur in settings where quality testing and guaranteed follow up are feasible.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s21",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "See Annex 2 for a reference table on minimum intervals that can be adapted into a job aid or printed on the back of a catch-up schedule and circulated to health workers. • Vaccine doses administered earlier than the minimum age recommended in the national immunization schedule or minimum interval should not be counted as valid and should be repeated (as age-appropriate), following the minimum interval after the invalid dose. • Should a vaccine dose be delayed, for any reason, in most cases it is not necessary to restart the vaccine series.16 The next dose in the series should be administered as soon as possible and the individual should be told to return for any subsequent doses, after the appropriate time interval.",
+      "markers": [
+        "negation",
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "recommendation",
+      "keys": [
+        "catchup.invalid-early-dose-repeat",
+        "catchup.delayed-dose-no-restart"
+      ]
+    },
+    {
+      "location": "p14:s22",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "Managing Multiple injections • Administering multiple vaccines at the same visit should be encouraged with health workers and individuals whenever possible.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s24",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "However, more than one dose of a single antigen should not be provided on the same day (see minimum intervals between doses, above). • Health workers should receive adequate training and supportive supervision on vaccine coadministration practices and interpersonal communications skills, to ensure they are comfortable and confident to communicate on the safety and acceptability of multiple injections, managing common side effects following vaccination and monitoring for adverse events following immunization (AEFI), and tips for reducing pain at the time of vaccination. • Multiple injections given together are generally well tolerated and do not increase reactogenicity, as compared with spacing out vaccinations over multiple immunization visits.",
+      "markers": [
+        "negation",
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s25",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "However, as with all vaccinations, the caregiver or individual should be informed about the possibility of minor side effects (e.g. fever, local tenderness at the injection sites) that may occur following vaccination and how to manage it. • Separate auto-disable syringes and needles should be used for each injection and, wherever possible, different injection sites (limbs) should be used.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s26",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "Ideally, national guidelines should include instructions on which injectable vaccine should be given on which limb (so that in case of severe local reaction, the AEFI investigator can identify which vaccine may have caused the reaction), and guidance on appropriate injection sites for vaccines given to older children and adults. • If two injections into the same limb are required, the injection sites should be separated by at least 2.5 cm.17 • Research and experience have shown that, in most settings, health workers are the most trusted source of information about vaccination and have the greatest influence over an individual’s decision to vaccinate.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s27",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "If the health worker can confidently answer questions and address concerns about the safety and effectiveness of multiple injections, perform correct technique in administering the vaccine to minimize pain, and initiate the recommendation in a manner that 16 There are a few exceptions to this general principle: Some vaccines lacking long duration protection (such as cholera and typhoid vaccines) require restarting the series if a certain amount of time has passed since the last dose.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s31",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "“we will have to give some vaccines today”)18 caregivers and individuals are usually willing to receive multiple injections during the same visit. • However, if a caregiver or individual still has concerns about receiving multiple vaccine injections, they should not be pressured to receive all catch-up vaccination doses during one visit.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s32",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "The health worker should elicit the reasons for deferring vaccination and work together with the caregiver or individual to agree on when they should return to receive remaining vaccine doses required at earliest opportunity. • Resources about multiple injections and minimizing pain during vaccination, including training modules and visual job aids, are available on the WHO website.19, 20 Spacing of inactivated vs. live vaccines • Inactivated vaccines: any inactivated vaccine can be administered together (simultaneously), before or after any other inactivated vaccine or live vaccine. • Live attenuated vaccines: as a general rule, live vaccines (for example, measles-containing vaccines, yellow fever, or Japanese Encephalitis) should be given either together at the same visit (simultaneously) or separated by an interval of 4 weeks; an exception to this rule is oral poliovirus vaccine (OPV), which can be given at any time before, simultaneously with, or after other live vaccines. • Providing guidance in the catch-up schedule or other job aids for health workers on which vaccines are live and inactivated may be helpful as a quick reference.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "recommendation",
+      "keys": [
+        "catchup.live-vaccine-spacing"
+      ]
+    },
+    {
+      "location": "p14:s33",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "Interchangeability of vaccine formulations or manufacturers products • Interchangeability of vaccines from different manufacturers: In general, the same manufacturer's product should be used for all doses in a vaccine series.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s34",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "However, if a series cannot be completed with the same vaccine, the available alternative product should be used.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s35",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "Restarting a series is not recommended, even for the primary series. o If different vaccine products require different number of doses for series completion (e.g., Haemophilus influenzae b (Hib), rotavirus vaccines), administering the higher number of doses is recommended to complete the series. • Vaccine diluents are not interchangeable across manufacturers nor formulations.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "recommendation",
+      "keys": [
+        "catchup.no-restart-series"
+      ]
+    },
+    {
+      "location": "p14:s36",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "Only the diluent assigned by the manufacturer for the specific vaccine and presentation should ever be used.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s37",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "21 • Interchangeability of formulations: If needed to continue completion of a vaccine series, combination vaccines may be used interchangeably with monovalent formulations and other combination products with similar component antigens if produced by the same manufacturer.",
+      "markers": [
+        "permission"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s56",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "If concerns remain, a caregiver or individual should not be pressured to receive all catch-up doses during one visit.",
+      "markers": [
+        "negation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s60",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "For HPV, the minimum interval is 5 months. o Intervals recommended in the national immunization schedule may be reduced if a previous dose was delayed, as long as the minimum interval is respected. o Example: if MR is recommended at 9 months and 15 months, and a child does not receive MR1 until 12 months, they should still receive MR2 at 15 months. o Example: If a child receives MR1 at 15 months, they should receive MR2 at 16 months (4 weeks later). o Example: if the first dose of HPV is delayed, observe the minimum interval of 5 months before administering the second dose, irrespective of the recommended interval that may be 6 or 12 months.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p14:s63",
+      "page": 14,
+      "file": "sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "text": "Continue with the next dose required in the series. o Example: If the home-based record indicates the child has received 2 previous doses of pentavalent (Penta1 and Penta2), but it has been 6 months since the last visit, continue the series and record the dose given today as Penta3. o Example: If the home-based record or HPV vaccination card indicates more than the recommended 6 or 12 months has passed since the first dose of HPV, provide the second dose today, regardless of how long the interval and irrespective of the age of the girl.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p19:s5",
+      "page": 19,
+      "file": "sec-009-14-recording-and-reporting-of-catch-up-vaccinati.md",
+      "text": "However, these restrictive formats may lead to unintended consequences, such as vaccines being denied to children above the recommended age range if they are unable to be vaccinated on time (for a variety of reasons). • Furthermore, dividing doses into 12 month calendar cycles buckets for monitoring coverage results in inconsistency amongst antigens in what constitutes an acceptable time frame for capturing coverage: for example, a vaccine due at birth such as BCG would have an acceptable delay of 12 months, while for MR1 it would only be 3 months (for schedules with MR1 at 9 months), or 12 months in programmes that schedule MR1 at 12 months. • Recording and reporting tools, as well as the way administrative coverage is calculated22, may therefore need to be redesigned to facilitate capturing delayed vaccine doses (see also a note about denominators in Box 3). • The key point is that vaccinations given outside of the target age range should be recorded, reported and monitored; thus, recording and reporting tools should never signal that vaccination beyond the target date is undesirable: 22 Both “timely coverage” (vaccines given within the recommended age range) and “total coverage” are useful data points, but for programmes truly interested in monitoring timeliness, coverage surveys offer a more nuanced picture than administrative systems, provided a high proportion of home-based records with vaccination dates are available.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p19:s6",
+      "page": 19,
+      "file": "sec-009-14-recording-and-reporting-of-catch-up-vaccinati.md",
+      "text": "10 o Home-based records should contain sufficient space for health workers to record all routine doses of vaccines, the dates they were administered, and the dates to return for the next vaccination visit (see Box 4); o Tally sheets should be designed in a way that guides health workers to accurately record all vaccination doses administered at any age and doesn’t cause unnecessary confusion or arbitrary restrictions on recording delayed doses (e.g. if tally sheets are disaggregated by age groups, there should also be an option for recording doses given above the target age).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p19:s7",
+      "page": 19,
+      "file": "sec-009-14-recording-and-reporting-of-catch-up-vaccinati.md",
+      "text": "Examples of tally sheets for routine childhood immunization that allow for capturing delayed catch-up vaccination doses are available in Annex 5; o Monthly summary reports should capture and summarize all data collected on the tally sheets.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p19:s8",
+      "page": 19,
+      "file": "sec-009-14-recording-and-reporting-of-catch-up-vaccinati.md",
+      "text": "(e.g. if the tally sheet contains space for reporting doses given above the target age, then the monthly summary report should also capture this so that health workers do not have to improvise their own solutions); o Immunization registers should include space for individually recording dates that doses are administered without restricting the time-frame within which they must be given. • The WHO Handbook on the use, collection, and improvement of immunization data23 and WHO Establishing and strengthening immunization in the second year of life: practices for vaccination beyond infancy24 include suggestions for modifications to monitoring tools and immunization data systems. • Health workers should be trained how to accurately record and report catch-up vaccination doses: o All doses, regardless of when they are given, should be recorded on the home-based record, tally sheets, registers, electronic immunization records, and monthly reports, according to when the vaccine is actually administered, even if considered “late” or “delayed” according to the national immunization schedule. o All doses should be recorded in the order in which they are actually given (e.g. if a child is 15 months old and has never received a measles vaccine, the dose should be recorded as MCV1; and the caregiver should be asked to bring the child back for MCV2 in 4 weeks’ time).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p19:s9",
+      "page": 19,
+      "file": "sec-009-14-recording-and-reporting-of-catch-up-vaccinati.md",
+      "text": "A dose should never be recorded and reported as MCV2 if the child has not first received MCV1.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "recommendation",
+      "keys": [
+        "catchup.mcv2-only-after-mcv1"
+      ]
+    },
+    {
+      "location": "p19:s16",
+      "page": 19,
+      "file": "sec-009-14-recording-and-reporting-of-catch-up-vaccinati.md",
+      "text": "The importance for the individual or caregiver to safely guard the HBR and bring it to every health contact should be stressed at every opportunity.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p19:s17",
+      "page": 19,
+      "file": "sec-009-14-recording-and-reporting-of-catch-up-vaccinati.md",
+      "text": "In some countries, it may not be common practice to recommend caregivers keep HBRs beyond early childhood.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p19:s20",
+      "page": 19,
+      "file": "sec-009-14-recording-and-reporting-of-catch-up-vaccinati.md",
+      "text": "Countries must ensure that an ample supply of HBRs are available for distribution, including sufficient buffer stock for replacement if a caregiver or individual has misplaced the HBR.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p19:s21",
+      "page": 19,
+      "file": "sec-009-14-recording-and-reporting-of-catch-up-vaccinati.md",
+      "text": "Where an individuals’ vaccination status cannot be confirmed, it should be assumed that they are not vaccinated, and catch-up vaccination should be offered.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p22:s1",
+      "page": 22,
+      "file": "sec-011-16-strategies-for-catch-up-vaccination.md",
+      "text": "• Targeted communications should inform individuals, caregivers, and communities more broadly of the value of vaccination and the importance of being vaccinated in a timely manner. • Communication with caregivers and individuals through phone calls, emails, and SMS text message reminders, as well as broader messaging through television, radio, social media, posters, etc. should aim to increase awareness that missing a scheduled vaccination does not necessarily mean that individuals are no longer eligible: vaccines given late are still safe and effective at providing protection against disease, and caregivers and individuals should feel empowered to seek vaccination, even if delayed. • Local community and civil society groups, non-government organizations, faith-based groups and other stakeholders should be considered partners in the design and delivery of services.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "layout-fragment"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p22:s1",
+      "page": 22,
+      "file": "sec-011-16-strategies-for-catch-up-vaccination.md",
+      "text": "Routine immunization services throughout the year • The practice of catch-up vaccination should be integrated into routine immunization service delivery on a continuous basis.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p22:s2",
+      "page": 22,
+      "file": "sec-011-16-strategies-for-catch-up-vaccination.md",
+      "text": "Every immunization contact, whether fixed or outreach (including school-based), should be used as an opportunity to review an individual’s vaccination status and catch-up any antigens that have been missed before that visit. • Every health facility should have a process in place for newborn and defaulter tracking and for identifying and reaching zero-dose children in their catchment area (see Box 3). • Creative and innovative behavioral interventions should be explored, to encourage individuals to return for future vaccinations, and reinforce the message that it is never too late to be immunized. • For certain mobile populations (e.g. refugees, asylum seekers, migrant populations), offering catchup vaccination is critical to ensure they have the opportunity to be caught up to date according to the local recommended immunization schedule.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "recommendation",
+      "keys": [
+        "catchup.every-immunization-contact",
+        "catchup.defaulter-tracking"
+      ]
+    },
+    {
+      "location": "p22:s3",
+      "page": 22,
+      "file": "sec-011-16-strategies-for-catch-up-vaccination.md",
+      "text": "Reducing missed opportunities for vaccination through integration with other health services • Beyond immunization services, every health contact should be used as an opportunity to review an individual’s vaccination status and to administer doses for which they are eligible – or to refer them to an immunization provider for vaccination (i.e.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p22:s15",
+      "page": 22,
+      "file": "sec-011-16-strategies-for-catch-up-vaccination.md",
+      "text": "14 • For more on PIRI, including considerations for improving recording and reporting practices, see Annex 6, and WHO Periodic Intensification of Routine Immunization: Lessons learned and implications for action.30 School vaccination checks31 • School settings provide excellent opportunities to integrate interventions aimed at reducing vaccine preventable diseases along improving overall mental, physical and social health of children. • Implementing school vaccination checks (either as part of the entry/enrollment process each year or during school along with other school health services) is also an important catch-up vaccination strategy. • If school-based immunization or school-based health screening platform already exists, this can be an opportunity to check for missed vaccine doses and facilitate catch-up vaccination (either by providing doses of missed vaccines along with the school-based immunization programme, or by referral to a health facility). • Prior to implementing a strategy of school vaccination checks, countries should assess the capacity of their school and health systems32 to support such an activity. • In addition to a well-defined and enabling catch-up vaccination policy, some key facilitating factors that have been identified in countries that have successfully implemented a practice of school vaccination checks include: o strong collaboration between ministries of health and ministries of education; o existence of legislation or written policy requiring the collection of vaccination history at entry to, or during school; o clear implementation guidance and standard operating procedures outlining how individual vaccination records are collected, screened, recorded, and reported, as well as how and where the catch-up vaccination will take place; o widespread availability of up-to-date home-based records or electronic register that summarize the individual’s vaccination history on one page for easy reference; o availability of funding and staff (health workers and/or education staff) time to carry out checking of vaccination history on an annual basis; o advocacy, communication and sensitization to promote cooperation and acceptance from the community. • School vaccination checks do not need to be accompanied by a mandate requiring proof of vaccination for entry into school.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p25:s1",
+      "page": 25,
+      "file": "sec-013-21-policy-and-advocacy.md",
+      "text": "services • Immunization is an essential health service that should continue without interruption to the maximum extent possible under all circumstances.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "layout-fragment"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p25:s2",
+      "page": 25,
+      "file": "sec-013-21-policy-and-advocacy.md",
+      "text": "However, in exceptional emergency or disaster situations there may be an interruption or significant drop in routine immunization services, delay or temporary suspension of mass vaccination campaigns, and/or prolonged vaccine shortages, leading to an accumulation of individuals susceptible to one or more VPDs. • If not already in place, catch-up vaccination practices should be integrated into ongoing routine immunization service delivery as soon as services are restored (see Section 1), and should continue as an essential component of the routine immunization programme. • Offering catch-up vaccination on an ongoing basis through the routine immunization system is the least resource intensive and most sustainable strategy for ensuring individuals are able to receive the vaccines they are due, especially if the service interruption is relatively short. • However, planning for catch-up vaccination following a significant period of interruption or reduction in services may also require additional large-scale intensified and specialized efforts to identify and seek out groups who have missed vaccination, to close immunity gaps as quickly as possible. • Monitoring the situation as closely as possible throughout the period of disruption and tracking of individuals or cohorts who missed vaccination is important to inform catch-up strategies.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p25:s4",
+      "page": 25,
+      "file": "sec-013-21-policy-and-advocacy.md",
+      "text": "There may be decreased demand for immunization services (due to misinformation, fear, inaccessibility, limitation in mobility, competing priorities, previous disruptions in services, etc.) • Efforts to restart and/or intensify immunization should be part of an overall coordinated health system recovery plan. • In the context of several competing pressures and resource constraints (both financial and human), it will be important to advocate for the importance of immunization with a view to resuming services and closing gaps at the earliest opportunity.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p25:s5",
+      "page": 25,
+      "file": "sec-013-21-policy-and-advocacy.md",
+      "text": "The consequences of inaction, including quantification of the increased morbidity and mortality expected as a result of suspending immunization, should be made to emphasize these points. • If catch-up vaccination is not already an ongoing component of the routine immunization programme, restoration of services following a disruption is an opportunity to begin implementing this practice (See Section 1). • NITAGs should be engaged at the earliest opportunity for a rapid review of any policies that may impact catch-up vaccination (e.g. restrictive target age groups, upper age limits, or maximum dose intervals; restrictions on which health workers can vaccinate, and where and when immunization takes place).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p25:s11",
+      "page": 25,
+      "file": "sec-013-21-policy-and-advocacy.md",
+      "text": "16 • Where policy development or revision can be a lengthy process, interim guidance for catch-up vaccination should be issued (e.g. temporary removal of upper age limits to ensure those missed as a result of service interruption are able to receive the vaccines for which they were due).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p25:s12",
+      "page": 25,
+      "file": "sec-013-21-policy-and-advocacy.md",
+      "text": "Once the situation resumes to normal, a policy review should be conducted to decide if the removal of agecutoffs should be permanently adopted. • Any interim guidance on catch-up vaccination should be coordinated closely with other related programmes (e.g.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p26:s2",
+      "page": 26,
+      "file": "sec-014-22-managing-vaccines-and-supplies.md",
+      "text": "Stock out of key supplies may be a challenge, requiring a remapping of inventory, at all levels, and a coordinated redistribution of supplies once delivery channels are reopened. • The situation can be mitigated by the following actions: o Establish and implement procedures for safeguarding and maximizing in-country stocks of vaccines through robust management of temperature records, VVM indicators and expiry dates. o Account for any expired or damaged vaccine, delayed deliveries, etc. o Closely monitor stocks of vaccine and related supplies, including the recommended buffer stock at all levels. o Adopt multi-dose vial policy34, if not already in place. o Forecast and procure vaccines and related supplies including any anticipated surge stock required for catch-up vaccination of missed cohorts (see Monitoring below) o Review cold chain capacity using existing tools (e.g.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p27:s2",
+      "page": 27,
+      "file": "sec-015-23-monitoring-the-extent-of-the-interruption.md",
+      "text": "This can be done by: o Continuing to monitor vaccination coverage, VPD surveillance, AEFIs, and vaccine safety concerns in order to identify gaps, inequalities and vulnerable groups and communities. o Maintaining a logbook of the population with pending vaccines, including newborns during the period of disruption, based on individual records (facility-based paper immunization register, tickler files, EIR, etc.) o Monitoring, on a monthly basis and by district/municipality, the impending buildup of susceptible persons to estimate a target population for intensified catch-up vaccination efforts (see Box 5 – Estimating target for catch-up vaccination efforts) • Rapid coverage assessments in areas known to be particularly affected by the disruption may be necessary to identify communities for prioritization of catch-up efforts. • In addition to coverage data, triangulation with surveillance data is needed to conduct a comprehensive risk assessment to help map out the needs for catch-up efforts, particularly in deciding on the scale and type of catch-up strategies needed (see Strategies for catch-up vaccination after a disruption of services, below) • Known high-risk and low coverage communities (e.g. displaced populations, urban poor, remote/ rural, conflict-affected, etc.) should remain a high priority for catch-up, given existing inequalities and higher risk for outbreaks.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p27:s4",
+      "page": 27,
+      "file": "sec-015-23-monitoring-the-extent-of-the-interruption.md",
+      "text": "Estimating target population for catch-up vaccination efforts In addition to compiling a list based on individual vaccination records, the target population for an intensified catch-up effort should be monitored throughout the period of disrupted services.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p27:s9",
+      "page": 27,
+      "file": "sec-015-23-monitoring-the-extent-of-the-interruption.md",
+      "text": "Modifying target population • If the disruption took place over an extended period, catching up of all missed doses will take several sessions and months following resumption of services (for example, a child that missed Penta2 and Penta3 visits will require two catch up visits, spaced 4 weeks apart). • The estimate of individuals who have missed vaccinations should be added to the combined monthly target population for the months where intensified catch-up is expected.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p27:s10",
+      "page": 27,
+      "file": "sec-015-23-monitoring-the-extent-of-the-interruption.md",
+      "text": "18 • These higher target populations should be used to forecast needs for vaccine orders and to plan the number and frequency of immunization sessions.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p27:s11",
+      "page": 27,
+      "file": "sec-015-23-monitoring-the-extent-of-the-interruption.md",
+      "text": "Monitoring the success of the catch-up vaccination efforts • All doses administered during catch-up (whether through delivery of routine immunization services, or through a PIRI activity) should be compared against the modified target population (i.e. original target for that period + catch-up target). • Recording delayed doses may be a challenge for programmes that do not already have monitoring systems set up to capture doses given outside the recommended target age range (see Section 1). • As the immediate period following a significant interruption in immunization services is likely not the time to introduce major changes to country immunization information systems, in the interim it will be necessary to emphasize the importance of recording all doses administered and dates they are given in the HBR and immunization register, even if there is not currently a designated place to record doses given outside the age range on the national immunization schedule. o A suggested standard practice for the interim solution should be documented and shared widely at all levels. o In some cases, documentation of these doses on individual home-based records and validated later through a coverage survey may be the only reliable way to enable estimation of vaccine coverage for the period of immunization service interruption.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p28:s1",
+      "page": 28,
+      "file": "sec-016-24-communication-and-community-engagement.md",
+      "text": "• Even if routine immunization services have continued at reduced capacity or once they resume, demand and accessibility may remain low and intermittent interruptions may continue to occur for some time. • Engagement with communities (including local civil society, non-governmental and faith-based organizations, professional associations, etc.) to help design and implement tailored and targeted communication strategies will be essential to restore and rebuild community confidence in vaccines and/or immunization services. • If possible, formative research should be conducted to learn about the needs and characteristics of the target population and identify the major drivers and barriers to immunization faced, in order to design the most appropriate strategies to respond. • Monitoring of traditional media and digital listening across social media platforms may offer insights on local rumours and misinformation that can help to inform the development and targeting of key messages. • Communication about catch-up vaccination should aim to: o increase awareness that individuals are still eligible for any vaccinations that have been missed during the service interruption and should not be denied vaccination, o emphasize that vaccinations given late are still safe and effective at providing protection against disease, o ensure individuals know where and when immunization services are currently being provided and are informed about any new or additional safety precautions in place for safe delivery of services. • See Annex 7 for a job aid with key considerations for strengthening community acceptance and demand for vaccination. • For more on building and restoring confidence in vaccines and vaccination, both in ongoing work and during/following crises, see WHO guidance on Vaccine and trust.37 37 Available at: https://www.euro.who.int/__data/assets/pdf_file/0004/329647/Vaccines-and-trust.PDF 19",
+      "markers": [
+        "negation",
+        "obligation"
+      ],
+      "hints": [
+        "layout-fragment"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s1",
+      "page": 29,
+      "file": "sec-017-25-strategies-for-catch-up-vaccination-after-an.md",
+      "text": "• Offering catch-up vaccination on an ongoing basis through the routine immunization system is the least resource intensive and most sustainable strategy for ensuring individuals are able to receive the vaccines they are due, especially if the service interruption is relatively short. • If immunization services have been impacted for a prolonged period of time, additional strategies to accelerate catch-up vaccination efforts will likely be needed, to reach larger groups and close immunization gaps as quickly as possible. • Depending on the extent and duration of the disruption in immunization services, as well as preexisting coverage levels, it is likely that multiple strategies will be needed, either in combination or in sequence (see Box 6). • Additional catch-up vaccination strategies may include: o Intensified catch-up through routine immunization services – e.g. mass call backs, intensified defaulter tracking, expanded outreach, etc. o Targeted and selective (PIRI approach) vaccination campaigns that screen for eligibility and record individual doses o Supplementary immunization activities (SIAs) • The decision on strategy, or combination of strategies, to use for catch-up will depend on many factors and will be very context specific. • Countries should undertake a risk assessment, particularly with respect to the local epidemiology of outbreak-prone VPDs, current population immunity levels and the extent and localization of preexisting immunity gaps, to determine the highest priority strategies and target areas for specialized catch-up activities (See Box 7) • WHO guidance document on Vaccination in Acute Humanitarian Emergencies: a Framework for Decision Making38 can help countries follow an evidence based approach to prioritize delivery of routine immunizations during and following a protracted crisis situation.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "layout-fragment"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s6",
+      "page": 29,
+      "file": "sec-017-25-strategies-for-catch-up-vaccination-after-an.md",
+      "text": "These concerns should be considered when planning activities and during training.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s7",
+      "page": 29,
+      "file": "sec-017-25-strategies-for-catch-up-vaccination-after-an.md",
+      "text": "To succeed, the selected strategy or strategies must be convenient and acceptable to the local community.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s16",
+      "page": 29,
+      "file": "sec-017-25-strategies-for-catch-up-vaccination-after-an.md",
+      "text": "Considerations to manage this include: o Scheduling appointments to avoid overcrowding (but important to still allow those arriving without prior appointment to be vaccinated). o Assigning specific times for certain population groups (e.g. older persons, people with underlying health conditions, adolescents40, etc.). • Outreach immunization activities should be expanded to include wider age ranges to catch-up individuals who might not be within the typical target groups for outreach activities. • If possible, outreach activities should be planned in collaboration with other health programmes, in order to catch-up individuals with a package of priority health interventions at once. • If school-based immunization was interrupted, planning with the Ministry of Education and school teams should be initiated to restart the activities as soon as possible, and caregivers should be notified. o If a vaccine series is interrupted, it is still safe and efficacious to deliver these vaccines to children and adolescents, as needed, even if the interval between doses is longer than indicated in the national immunization schedule. o School-based immunization can also be used as an opportunity to check for any other missed doses and facilitate catch-up vaccination (either by providing doses of other missed antigens along with the vaccines routinely delivered at school, or by referral back to a health facility). • If no school-based immunization platform or school vaccination checks currently exist, consider whether such a platform can be implemented as a strategy to quickly close immunity gaps in these age groups (See Section 1): o E.g. upon resumption of school, local health facilities and schools should arrange specific days where pupils bring their home-based records to school so that health workers can determine vaccine eligibility.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s18",
+      "page": 29,
+      "file": "sec-017-25-strategies-for-catch-up-vaccination-after-an.md",
+      "text": "Targeted and selective (PIRI approach) vaccination campaigns that screen for vaccination history and record doses given as routine immunization • If resources are available, countries may choose to conduct targeted and selective mass vaccination (similar to a PIRI approach) to provide more intensive and large-scale opportunities for catch-up of missed vaccinations. • The number of intensified activities to be conducted should be based on the duration and extent of the immunization service interruption.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s22",
+      "page": 29,
+      "file": "sec-017-25-strategies-for-catch-up-vaccination-after-an.md",
+      "text": "Supplementary Immunization Activities (SIAs) • If there’s greater urgency to vaccinate a large number of susceptible individuals with specific antigens, non-selective SIAs may be considered.41 • SIAs enable the vaccination of a large number of individuals regardless of their vaccination history by vaccinating all within a target age group.",
+      "markers": [
+        "permission"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s23",
+      "page": 29,
+      "file": "sec-017-25-strategies-for-catch-up-vaccination-after-an.md",
+      "text": "Given their scope and speed SIAs often limit the number of antigens and additional interventions provided. • The vaccine doses that are administered during SIAs are considered “supplemental” rather than “routine” and are not recorded and reported as part of the routine immunization administrative coverage.42 They may, however, still be recorded on individual home-based records or on SIAspecific cards as a supplemental dose. • In countries where preventive campaigns are already planned and conducted at regular intervals, these opportunities should be leveraged to assist with catch-up to the extent possible (for example, adjusting the age ranges as necessary due to the extent of the disruption, integrating multiple antigens, and/or other health interventions, such as vitamin A, deworming and insecticide-treated bed nets, etc.) • While integration should be promoted where possible, the feasibility must be carefully assessed as additional interventions may significantly increase crowd size, extend implementation time and require additional training and resources. • In addition, consideration must be given to the programmatic feasibility of delivering multiple antigens in a non-selective SIA vs conducting a selective mass campaign (PIRI-style) as described above, including recording doses as routine or supplementary doses. • With any large-scale vaccination campaign, proper attention must be paid to waste management.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s24",
+      "page": 29,
+      "file": "sec-017-25-strategies-for-catch-up-vaccination-after-an.md",
+      "text": "WHO has issued new guidance on technologies for the appropriate treatment of infectious and sharp waste from health care facilities43 which emphasizes the preferred use of treatment technologies (high temperature incineration, autoclaving, microwaving) over uncontrolled combustion (only to be used as a last resort). • In the event of an ongoing outbreak where infection risk remains elevated, the decision to conduct mass campaigns of any kind must accompany a thorough risk assessment.44 • Special considerations for setting up the vaccination site, spacing clients (e.g. through scheduling), extending duration of activity, and maintaining good infection, prevention and control (IPC) practices including screening to exclude potentially infected clients/caregivers and the use of 41 For more on planning and implementing SIAs, see WHO.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p29:s30",
+      "page": 29,
+      "file": "sec-017-25-strategies-for-catch-up-vaccination-after-an.md",
+      "text": "Available at: https://www.who.int/publications/i/item/WHO-2019-nCoV-essential_health_services- 2020.2 23 recommended personal protective equipment (PPE), should be followed as detailed in existing related WHO guidance.45 45 The latest WHO COVID-19 technical guidance on Infection prevention and control / WASH is available at: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/infection-prevention-and-control 24",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [
+        "layout-fragment"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p34:s1",
+      "page": 34,
+      "file": "sec-018-annex-1-designing-catch-up-vaccination-schedules.md",
+      "text": "Every country should have a catch-up vaccination schedule designed in line with the national immunization schedule, that adhere to any upper or lower age requirements as determined by the national immunization policy.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p34:s2",
+      "page": 34,
+      "file": "sec-018-annex-1-designing-catch-up-vaccination-schedules.md",
+      "text": "NITAGs should be involved in the process of developing a catch-up vaccination schedule at the earliest opportunity.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p34:s3",
+      "page": 34,
+      "file": "sec-018-annex-1-designing-catch-up-vaccination-schedules.md",
+      "text": "Catch-up vaccination schedules can be designed in a variety of ways and, as immunization programmes and schedules vary considerably across countries (and sometimes within), it is not possible to recommend a ‘generic’ catch-up schedule.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p34:s4",
+      "page": 34,
+      "file": "sec-018-annex-1-designing-catch-up-vaccination-schedules.md",
+      "text": "See Table A1.2 for a simplified version of the WHO Recommendations for Interrupted or Delayed Routine Immunization.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p34:s12",
+      "page": 34,
+      "file": "sec-018-annex-1-designing-catch-up-vaccination-schedules.md",
+      "text": "25 Table A1.2 – WHO recommendations for Interrupted or Delayed Routine Immunization – simplified tablea Antigen Minimum age of first dose Doses in primary series (minimum interval between doses) Interrupted primary series Doses for those who start vaccination late Booster If ≤ 12 months of age If > 12 months of age BCG As soon as possible after birth 1 dose NA 1 dose 1 dose Not recommended Hepatitis B As soon as possible after birth (<24h) Birth dose <24 hrs plus 2-3 doses with DTPCV (4 weeks) Resume without repeating previous dose 3 doses 3 doses Not recommended Polio bOPV + IPV 6 weeks (see footnote for birth dose)b 4 doses (IPV dose to be given with bOPV dose from 14 weeks of age) (4 weeks) Resume without repeating previous dose 4 doses (IPV to be given with 1st dose of bOPV) 4 doses (IPV to be given with 1st dose of bOPV) Not recommended IPV / bOPV Sequential 8 weeks (IPV 1st) 1-2 doses IPV and 2 doses bOPV (4 weeks) Resume without repeating previous dose 1-2 doses IPV and 2 doses bOPV 1-2 doses IPV and 2 doses bOPV Not recommended IPV 8 weeks 3 doses (4 weeks) Resume without repeating previous dose 3 doses 3 doses If primary series begins < 2 months of age, booster to be given at least 6 months after the last dose DTP-containing vaccine (DTPCV) 6 weeks 3 doses (4 weeks) Resume without repeating previous dose 3 doses 3 doses with interval of at least 4 weeks between 1st & 2nd dose, and at least 6 months between 2nd & 3rd dose.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p34:s16",
+      "page": 34,
+      "file": "sec-018-annex-1-designing-catch-up-vaccination-schedules.md",
+      "text": "Rotavirus 6 weeks 2 or 3 depending on product Resume without repeating previous dose 2 or 3 depending on product >24 months limited benefit Not recommended Measles-containing vaccine (MCV) 9 or 12 months (6 months min, see footnote)c 2 doses (4 weeks) Resume without repeating previous dose 2 doses 2 doses Not recommended Rubella 9 or 12 months 1 dose with MCV NA 1 dose 1 dose Not recommended Human Papillomavirus vaccine (HPV) As soon as possible from 9 years of age If started <15 years, 2 doses (5 months) Resume without repeating previous dose No maximum interval.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p34:s17",
+      "page": 34,
+      "file": "sec-018-annex-1-designing-catch-up-vaccination-schedules.md",
+      "text": "NA 9-14 years: 2 doses Not recommended If started ≥15 years, 3 doses (1 month for 2nd dose, 4 months for 3rd dose) Resume without repeating previous dose No maximum interval. ≥15 years: 3 doses a See full version of Table 3 for addition al details, and recommendations for certain regions and high-risk populations: https://www.who.int/publications/m/item/table-3-who-recommendations-for-routine-immunization b In polio-endemic countries and in countries at high risk for importation and subsequent spread of poliovirus, WHO recommends a birth dose of bOPV (“bOPV0”), followed by a primary series of 3 bOPV doses and at least 1 dose of IPV. c In certain situations, MCV can be given from 6 months of age.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p34:s18",
+      "page": 34,
+      "file": "sec-018-annex-1-designing-catch-up-vaccination-schedules.md",
+      "text": "This dose should be considered a zero dose (“MCV0”) and two subsequent doses (MCV1 and MCV2) should still be provided according to the national schedule.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p36:s3",
+      "page": 36,
+      "file": "sec-019-annex-2-minimum-intervals-between-doses-in-a-vac.md",
+      "text": "Refer to WHO recommendations for interrupted or delayed immunization to design an catch-up vaccination schedule and job aids to assist health workers in assessing eligibility for vaccination when an individual has missed or delayed doses.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p36:s4",
+      "page": 36,
+      "file": "sec-019-annex-2-minimum-intervals-between-doses-in-a-vac.md",
+      "text": "Antigen Minimum age at first dose Minimum interval between doses 1 and 2 Minimum interval between doses 2 and 3 Minimum interval between doses 3 and 4 Comments BCG Birth Give at earliest opportunity after birth Hepatitis B birth dose Birth Give at earliest opportunity after birth, up until eligible for the first dose of HepB1 or combination vaccine Hepatitis B (excluding birth dose) 6 weeks 4 weeks 4 weeks DTP-containing vaccine 6 weeks 4 weeks 4 weeks (If >1 year, leave at least 6 months between dose 2 and 3) 6 months (and >1 year of age) If >7 years, use only aP containing vaccine; if >7 years, use Td-containing vaccine A total of 6 doses of Td/DT-containing vaccine are recommended, minimum interval of 6 months.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p36:s7",
+      "page": 36,
+      "file": "sec-019-annex-2-minimum-intervals-between-doses-in-a-vac.md",
+      "text": "Not recommended for >5 years, if healthy.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p36:s8",
+      "page": 36,
+      "file": "sec-019-annex-2-minimum-intervals-between-doses-in-a-vac.md",
+      "text": "Polio OPV (excluding birth dose)* 6 weeks 4 weeks 4 weeks 4 weeks Polio IPV* 8 weeks 4 weeks 4 weeks For IPV-only schedules, if the first dose is given <2 months, a booster should be given at least 6 months after the last dose.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p36:s9",
+      "page": 36,
+      "file": "sec-019-annex-2-minimum-intervals-between-doses-in-a-vac.md",
+      "text": "Rotavirus 6 weeks 4 weeks 4 weeks (if using a 3dose schedule) Not recommended >2 years.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p36:s12",
+      "page": 36,
+      "file": "sec-019-annex-2-minimum-intervals-between-doses-in-a-vac.md",
+      "text": "Any dose given <9 months should be recorded as MCV0.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p36:s15",
+      "page": 36,
+      "file": "sec-019-annex-2-minimum-intervals-between-doses-in-a-vac.md",
+      "text": "See WHO recommendations for interrupted or delayed immunization for additional detail and for other antigens not shown above.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p43:s8",
+      "page": 43,
+      "file": "sec-023-annex-6-periodic-intensification-of-routine-immu.md",
+      "text": "This means that health workers must screen children for eligibility based on age and immunization history and that the doses administered must be recorded on vaccination cards and registers, reported as part of annual coverage estimates generated by countries, and submitted as part of the WHO/UNICEF Joint Reporting Form process.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p43:s10",
+      "page": 43,
+      "file": "sec-023-annex-6-periodic-intensification-of-routine-immu.md",
+      "text": "Targeted delivery of all or selected routinely-recommended vaccinations to under-vaccinated populations within the usual target age range stipulated by the national immunization program for routine vaccination services.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p43:s27",
+      "page": 43,
+      "file": "sec-023-annex-6-periodic-intensification-of-routine-immu.md",
+      "text": "Use of the targeted delivery activity is considered expensive and may interfere with the normal, routine health system operations, so sufficient value and need must be present before supporting the use of a targeted delivery activity.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p43:s29",
+      "page": 43,
+      "file": "sec-023-annex-6-periodic-intensification-of-routine-immu.md",
+      "text": "Table A6.1 - PIRI goals, general strategies, and activities PIRI goal General strategy Type of activity Expand access and provide vaccination plus other health interventions that are not routinely available to a wide range of population Deliver routine immunization doses (and possibly other selected child health interventions) during a multiday period Child Health Day/Week Deliver routine immunization doses (and possibly other maternal and child health interventions) during a multiday period Maternal & Child Health Day/Week Expand access and provide vaccination to specificallydefined vaccination-eligible populations that have not received recommended vaccines Deliver routine immunization doses (and other selected health interventions) during a multi-day period, targeted at specifically defined, under-vaccinated communities Targeted CHW/MCHW Improve demand: Promote the benefits of routine vaccination High visibility communication, advocacy, and social mobilization events Global/Regional/ National Immunization Week 35 PIRI Targeted Delivery Activities, Supplemental Immunization Activities (SIA), and Routine Immunization Services A PIRI service delivery activity differs from an SIA and routine immunization in some key ways (summarized in Table A6.2): 1.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p43:s30",
+      "page": 43,
+      "file": "sec-023-annex-6-periodic-intensification-of-routine-immu.md",
+      "text": "Vaccine doses provided during the PIRI activity are considered as routine immunization doses and must be recorded and reported so that they are captured in annual estimates of coverage.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p43:s31",
+      "page": 43,
+      "file": "sec-023-annex-6-periodic-intensification-of-routine-immu.md",
+      "text": "In operational terms, this means that all children must be screened for eligibility for each dose provided through PIRI.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p43:s43",
+      "page": 43,
+      "file": "sec-023-annex-6-periodic-intensification-of-routine-immu.md",
+      "text": "Screening Required to determine child’s age Required to determine child’s age and eligibility for each vaccine dose to be given Required to determine child’s age and eligibility for each vaccine dose to be given Recording of doses Each dose is considered supplemental and is recorded on tally sheet for the SIA, and ideally Each dose is considered routine and must be recorded on home-based Each dose is considered routine and must be recorded on home-based 36 should be recorded as a supplemental dose on home-based record or SIA card record, clinic-based register, and tally sheet record, clinic-based register, and tally sheet Reporting of doses All doses are captured in report for the SIA All doses are captured in annual administrative estimates of coverage and Joint Reporting Form All doses are captured in annual administrative estimates of coverage and Joint Reporting Form Communication on next doses Inform caregiver of need for routine immunization Inform caregiver on when to return for next dose Inform caregiver on when to return for next dose Potential PIRI Benefits • Identifies, prioritizes, and vaccinates populations that are underserved by routine immunization services. • If the target age group is expanded for PIRI, can rapidly vaccinate children who are overdue for vaccination. • Has potential to rapidly raise demand for measles first and second doses and other routine immunization services. • May strengthen microplanning skills to ensure inclusion of populations at high risk of undervaccination. • In locations with very little or no functioning health system, may be the only recourse for reaching certain populations (pulse immunization).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p43:s47",
+      "page": 43,
+      "file": "sec-023-annex-6-periodic-intensification-of-routine-immu.md",
+      "text": "Doses given during PIRI must be captured in registers and HBRs as routine doses.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p43:s51",
+      "page": 43,
+      "file": "sec-023-annex-6-periodic-intensification-of-routine-immu.md",
+      "text": "Ideally, PIRIs should be part of a bigger immunization program strategy that also includes efforts to simultaneously strengthen routine immunization services for the long term.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p43:s53",
+      "page": 43,
+      "file": "sec-023-annex-6-periodic-intensification-of-routine-immu.md",
+      "text": "Whether a PIRI should be conducted depends largely on whether investing resources into the PIRI activity to rapidly raise coverage among certain target groups outweighs the potential benefits of using those resources to support routine operational activities (e.g., ensuring that planned outreach sessions occur, routine supportive supervision takes place, routine microplanning happens at all levels).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p48:s3",
+      "page": 48,
+      "file": "sec-024-annex-7-actions-to-enhance-acceptance-and-demand.md",
+      "text": "Communication about immunization • It is always important to reinforce the value of vaccination to build public awareness. • In the event of service disruptions, communication must address public concerns and convey clear messages about the extent of the disruption. • Programmes should communicate regularly during and even after disruptions to reinforce two key messages: ✓ Importance and benefits of vaccines ✓ Where, when and how the public can continue to access vaccination services.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p48:s7",
+      "page": 48,
+      "file": "sec-024-annex-7-actions-to-enhance-acceptance-and-demand.md",
+      "text": "They can also play a key role in implementation of immunization and encourage transparency and accountability. • To build acceptance and demand for vaccination, programmes must: o Harness local alliances – especially any structures that may have emerged during emergency/exceptional situations. o Coordinate with CSOs to facilitate community engagement to build support for vaccination, listen and respond to community concerns regarding vaccination, and promote the value of vaccination, and where and when to seek vaccination.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p48:s8",
+      "page": 48,
+      "file": "sec-024-annex-7-actions-to-enhance-acceptance-and-demand.md",
+      "text": "Behaviourally informed interventions • To design and evaluate effective immunization programmes and services, including catch-up vaccination strategies, immunization professionals must first identify the root causes for low coverage. • Assessing the drivers and barriers of immunization does not need to be a resource and time intensive activity.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p48:s10",
+      "page": 48,
+      "file": "sec-024-annex-7-actions-to-enhance-acceptance-and-demand.md",
+      "text": "39 • Immunization programme managers and planners should generate insights on context-specific drivers and barriers to uptake, and tailor services and interventions to help individuals overcome any lack of motivation or competing priorities. • For detailed guidance on tailoring interventions, please see the Tailoring Immunization Programmesc (2019) approach. • Important behaviourally informed interventions for addressing known drivers and barriers to immunization include: o Ensure clean workstations and simple/easy workflows for vaccination health workers to encourage safe, effective and prompt service. o Make use of prescheduled appointments or dedicated appointment times wherever possible to control the total number of individuals at the health facility and reduce waiting times. o Ensure comfortable waiting spaces: clean, well ventilated, not overcrowded, and allowing for respectful physical distances, if necessary. o Where possible, provide: seating, access to water and restrooms, and nursing spaces. o To try to reduce anxiety of individuals kept waiting for vaccination, facilitate a steady flow of individuals coming and going by dedicating distinct entrances and exits to the vaccination area and reduce unnecessary physical contact between individuals, where possible.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p48:s12",
+      "page": 48,
+      "file": "sec-024-annex-7-actions-to-enhance-acceptance-and-demand.md",
+      "text": "To sustainably build acceptance and demand, programmes must invest in adequate training and support for front-line vaccination health workers. • Supportive supervision is intended to help health workers to enhance the quality of service delivery, which includes: o Improving lines of communication between health workers and supervisors. o Using feedback mechanisms to gather and address any health worker concerns. o Using tools for supervision, including job descriptions and performance reviews. o Providing written feedback for reference and evidence-based action planning. • Training and capacity building also contribute to the delivery of quality services that shape positive service experiences, and in turn grow community demand: o All staff should be trained in key areas of immunization, per the WHO Standard Immunization Competencies Framework,d and offered ‘refreshers’ where feasible. o All staff should receive training in inter-personal communications and related community engagement.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p48:s13",
+      "page": 48,
+      "file": "sec-024-annex-7-actions-to-enhance-acceptance-and-demand.md",
+      "text": "This should include guidance on how to address rumours and concerns about vaccines, and communicate about AEFIs, and the benefits of vaccines. c http://www.euro.who.int/en/health-topics/communicable-diseases/poliomyelitis/publications/2019/tip-tailoringimmunization-programmes-2019 d https://www.who.int/publications/m/item/full-competency-framework-document 40",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "layout-fragment"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p50:s4",
+      "page": 50,
+      "file": "sec-025-annex-8-example-vpd-risk-assessment-worksheets.md",
+      "text": "Local experts should be consulted on local seasonal changes.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p50:s5",
+      "page": 50,
+      "file": "sec-025-annex-8-example-vpd-risk-assessment-worksheets.md",
+      "text": "Population immunity Routine vaccination coverage for children <18 months is <70% Routine vaccination coverage for children <18 months is 70-89% Routine vaccination coverage for children <18 months is >95% and routine immunization can be maintained Reaching all children with 2 doses of measles-containing vaccine should be the standard for all national immunization programmes.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p50:s17",
+      "page": 50,
+      "file": "sec-025-annex-8-example-vpd-risk-assessment-worksheets.md",
+      "text": "Age-specific burden: Children <5 years are especially vulnerable; children 5–14 generally have lower rates of complications or death but should also be vaccinated.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s4",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "In any use of this work, there should be no suggestion that WHO endorses any specific organization, products or services.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "licence-or-imprint"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s6",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "If you adapt the work, then you must license your work under the same or equivalent Creative Commons licence.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "licence-or-imprint"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s7",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "If you create a translation of this work, you should add the following disclaimer along with the suggested citation: “This translation was not created by the World Health Organization (WHO).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "licence-or-imprint"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s9",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "The original English edition shall be the binding and authentic edition”.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "licence-or-imprint"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s10",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Any mediation relating to disputes arising under the licence shall be conducted in accordance with the mediation rules of the World Intellectual Property Organization (http://www.wipo.int/amc/en/mediation/rules/).",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "licence-or-imprint"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s26",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "The mention of specific companies or of certain manufacturers’ products does not imply that they are endorsed or recommended by WHO in preference to others of a similar nature that are not mentioned.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [
+        "licence-or-imprint"
+      ],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s31",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "In no event shall WHO be liable for damages arising from its use. iii Contents Acknowledgements .................................................................................................................................... iv Purpose of this guidance ............................................................................................................................. v Key terms .................................................................................................................................................... vi Overview ................................................................................................................................................... viii Section 1.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [
+        "licence-or-imprint"
+      ],
+      "decision": "undecided"
+    }
+  ],
+  "runContext": {
+    "sha256": "24514b3da9b5e075e8bf040250c3f181143d55f0c7f84b0c6a593f91c5363d4c"
+  }
+}

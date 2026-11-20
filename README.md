@@ -6,7 +6,7 @@ L1 sources attached to
 
 | level | what | where |
 |---|---|---|
-| L1 | the sources as attached | `sources/` |
+| L1 | the sources as attached | `uploads/` |
 | L1 | the sources ingested, and the measles recommendations extracted from them | `library/` |
 | L2 | the Digital Adaptation Kit (personas, processes, decision tables, data elements, indicators, requirements, test scenarios) | `input/` (DAK components) |
 | L3 | the FHIR Implementation Guide derived from the DAK | `sushi-config.yaml`, `input/fsh/`, `input/cql/` |

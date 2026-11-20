@@ -1,0 +1,13 @@
+$schema: l1-recommendation-curation/v1
+_comment: 'AUTHORED by an agent under recommendation-extraction step 4, measles scope (issue #1): the measles row of the health-care-worker table. Other antigens are left undecided.'
+entry: library/immunization-summary-table-4
+publication:
+  title: 'Table 4: Summary of WHO Position Papers - Immunization of Health Care Workers'
+  publicationType: summary-table
+  basis: Printed heading 'Vaccination of Health Care Workers' with 'Updated December 2025' (page 1). The file name names it summary table 4; no URL or ISBN is printed in the extracted text.
+decisions:
+  p1:s6:
+    as: recommendation
+    key: measles.health-worker-immunity
+    statement: All HCWs should be immune to measles and proof/documentation of immunity or immunization should be required as a condition of enrollment into training and employment.
+    basis: Measles row of the health-care-worker table, page 1, footnote mark 5 dropped.

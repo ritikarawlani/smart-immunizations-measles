@@ -1,0 +1,67 @@
+{
+  "$schema": "l1-recommendation-candidates/v1",
+  "entry": "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio",
+  "publication": {
+    "identifiers": [],
+    "proposedBy": "none"
+  },
+  "counts": {
+    "statementClass": "recommendation",
+    "recommendations": 0,
+    "remarks": 0,
+    "partOf": 0,
+    "excluded": 0,
+    "undecided": 3
+  },
+  "coverage": {
+    "normative": 3,
+    "captured": 0,
+    "excluded": 0,
+    "unaccounted": 3,
+    "capturedPct": 0,
+    "accountedForPct": 0
+  },
+  "hints": {
+    "licence-or-imprint": "licence, rights or imprint text — normally excluded as `editorial`",
+    "glossary-page": "printed on a glossary or abbreviations page — a definition, not a recommendation",
+    "layout-fragment": "the sentence looks split by the page layout (a table, list or figure); read the page before deciding"
+  },
+  "candidates": [
+    {
+      "location": "p3:s2",
+      "page": 3,
+      "file": "page-003.md",
+      "text": "Monitoring metrics The following metrics are recommended for the global community to measure and monitor progress in support of the strategic goals (see table 1).",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p4:s18",
+      "page": 4,
+      "file": "page-004.md",
+      "text": "Countries are recommended to continue reporting data at least monthly for metrics 1-4, and annually for metric 6.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p5:s1",
+      "page": 5,
+      "file": "page-005.md",
+      "text": "2 • Number of older adults vaccinated with a complete primary series by country • Number of older persons vaccinated with at least one booster/additional dose by country • Definition of ‘older population’ age group by country8 • Regional systems based on country reports • Total number of older adults, aggregated by age based on countryspecific definition of older population • United Nations population estimates9 3 • Number of persons vaccinated with a complete primary series by country • Number of persons vaccinated with at least one booster/additional dose by country • Regional systems based on country reports • Total population by country • United Nations population estimates 4 • Areas with people in need of humanitarian assistance • Global Humanitarian Overview, defined by The United Nations Office for the Coordination of Humanitarian Affairs (OCHA)10 • Total number of people living in areas with people in need of humanitarian assistance • Multiple sources, as collated by the UN (WHO) Global Health Cluster11 5 The WHO will define a data collection mechanism in the second half of 2022 6 • Proxy metric12 • WHO And UNICEF ’s annual eJRF13 • Supplementary information provided by countries 8 While the 60+ age bracket is recommended for the purposes of comparability over time and across regions, the metric will be monitored in line with country-specific definitions of older adults to stimulate reporting.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    }
+  ],
+  "runContext": {
+    "sha256": "0aa99afc2f3754f086c36dde941f357978026262e21c4e5e9aaa7009049374d9"
+  }
+}
