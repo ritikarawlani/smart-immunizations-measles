@@ -1,0 +1,1 @@
+Targeted delivery of all or selected routinely-recommended vaccinations to under-vaccinated populations within the usual target age range stipulated by the national immunization program for routine vaccination services.

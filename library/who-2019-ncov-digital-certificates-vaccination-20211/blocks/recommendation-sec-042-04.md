@@ -1,0 +1,1 @@
+A PKI is only as secure as the IT infrastructure on which it is implemented; although PKI gives a high degree of trust, care must be taken to design and run the system in a manner that maintains security.

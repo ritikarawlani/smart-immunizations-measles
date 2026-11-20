@@ -1,0 +1,870 @@
+{
+ "$schema": "folio-document-footnotes/v1",
+ "entry": "leave-no-one-behind-catch-up-vaccination-9789240016514",
+ "status": "determined",
+ "body_size": 11.0,
+ "footnotes": [
+  {
+   "id": "fn-p008-1",
+   "page": 8,
+   "mark": "1",
+   "text": "https://www.who.int/immunization/sage/FEASIBILITY_FULL_TEXT_y09_final_draft.pdf",
+   "marks": [
+    {
+     "page": 8,
+     "context": " used for measles elimination in the Region of the Americas."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-001"
+  },
+  {
+   "id": "fn-p009-1",
+   "page": 9,
+   "mark": "2",
+   "text": "See WHO/UNICEF Guidance note on Criteria to determine if a given vaccination is a routine or supplemental dose: https://cdn.who.int/media/docs/default-source/immunization/who-unicef-guidance_note_on_vaccination_doses_2011.pdf",
+   "marks": [
+    {
+     "page": 9,
+     "context": "as part of the administrative routine immunization coverage."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-002"
+  },
+  {
+   "id": "fn-p011-1",
+   "page": 11,
+   "mark": "3",
+   "text": "For example, rotavirus vaccine is not recommended >24 months, Haemophilus influenza type b (Hib) is not recommended >5 years as there is limited benefit beyond these ages due to disease epidemiology; DTP-containing vaccines should only be given with Td and aP if >7 years. For all WHO recommendations for routine immunization and ages of eligibility, see WHO position paper Summary Tables, available at: https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who- recommendations-for-routine-immunization---summary-tables",
+   "marks": [
+    {
+     "page": 11,
+     "context": "cines for which upper age limits do apply for administration"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-003"
+  },
+  {
+   "id": "fn-p011-2",
+   "page": 11,
+   "mark": "4",
+   "text": "See WHO. Missed Opportunities for Vaccination (MOV) Strategy, at: https://www.who.int/fr/teams/immunization-vaccines- and-biologicals/essential-programme-on-immunization/implementation/reducing-missed-opportunities-for-vaccination-(mov)",
+   "marks": [
+    {
+     "page": 11,
+     "context": "vaccination"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-003"
+  },
+  {
+   "id": "fn-p012-1",
+   "page": 12,
+   "mark": "5",
+   "text": "WHO Summary Table 3: Recommendations for Interrupted or Delayed Immunization. Last updated April 2019. Available at: https://www.who.int/publications/m/item/table-3-who-recommendations-for-routine-immunization",
+   "marks": [
+    {
+     "page": 12,
+     "context": "commendations from WHO vaccine position papers in one place."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-005"
+  },
+  {
+   "id": "fn-p012-2",
+   "page": 12,
+   "mark": "6",
+   "text": "All WHO summary tables, along with the User’s Guide are available in English and French, at: https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine- immunization---summary-tables",
+   "marks": [
+    {
+     "page": 12,
+     "context": "cy and decision-makers. A User’s Guide to the Summary Tables"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-005"
+  },
+  {
+   "id": "fn-p013-1",
+   "page": 13,
+   "mark": "7",
+   "text": "Moro PL, Arana J, Marquez PL, et al. Is there any harm in administering extra-doses of vaccine to a person? Excess doses of vaccine reported to the Vaccine Adverse Event Reporting System (VAERS), 2007-2017. Vaccine. 2019;37(28):3730-3734. doi:10.1016/j.vaccine.2019.04.088.",
+   "marks": [
+    {
+     "page": 13,
+     "context": "have been previously vaccinated."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-006"
+  },
+  {
+   "id": "fn-p013-2",
+   "page": 13,
+   "mark": "8",
+   "text": "The updated Effective Vaccine Management tool (EVM2.0) includes a targeted assessment function for this purpose. See https://extranet.who.int/evm2/web",
+   "marks": [
+    {
+     "page": 13,
+     "context": "n (iSC) system performance to identify and address any gaps."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-006"
+  },
+  {
+   "id": "fn-p014-1",
+   "page": 14,
+   "mark": "9",
+   "text": "WHO Policy Statement: Multi-dose vial policy (MDVP), Revision 2014. https://apps.who.int/iris/bitstream/handle/10665/135972/WHO_IVB_14.07_eng.pdf",
+   "marks": [
+    {
+     "page": 14,
+     "context": "vaccines that must be discarded within six hours"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-007"
+  },
+  {
+   "id": "fn-p014-2",
+   "page": 14,
+   "mark": "10",
+   "text": "https://www.smtplatform.org/; https://www.unicef.org/supply/introducing-vaccine-stock-management-tool-smt",
+   "marks": [
+    {
+     "page": 14,
+     "context": "Management Tool (SMT)"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-007"
+  },
+  {
+   "id": "fn-p014-3",
+   "page": 14,
+   "mark": "11",
+   "text": "Web VSSM can be downloaded here: http://www.wvssm-demo.com/download/; job aid (PAHO) available here: https://www.paho.org/hq/dmdocuments/2013/IM-JobAids-2010-12eng.pdf",
+   "marks": [
+    {
+     "page": 14,
+     "context": ", web-based Vaccine Stock and Supply Management tool (wVSSM)"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-007"
+  },
+  {
+   "id": "fn-p014-4",
+   "page": 14,
+   "mark": "12",
+   "text": "https://www.who.int/publications/m/item/vaccine-wastage-rates-calculator",
+   "marks": [
+    {
+     "page": 14,
+     "context": "WHO Vaccine Wastage Rates Calculator"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-007"
+  },
+  {
+   "id": "fn-p015-1",
+   "page": 15,
+   "mark": "13",
+   "text": "See also WHO Establishing and strengthening immunization in the second year of life: practices for vaccination beyond infancy for training resources for health workers on catch-up vaccination. https://www.who.int/publications/i/item/9789241513678",
+   "marks": [
+    {
+     "page": 15,
+     "context": "tools for assisting health workers are found in Annexes 2-4."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008"
+  },
+  {
+   "id": "fn-p016-1",
+   "page": 16,
+   "mark": "16",
+   "text": "There are a few exceptions to this general principle: Some vaccines lacking long duration protection (such as cholera and typhoid vaccines) require restarting the series if a certain amount of time has passed since the last dose. Refer to WHO Summary Tables for details.",
+   "marks": [
+    {
+     "page": 16,
+     "context": "vaccine series."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008"
+  },
+  {
+   "id": "fn-p016-2",
+   "page": 16,
+   "mark": "17",
+   "text": "WHO. Immunization in Practice: a practical guide for health staff – 2015 update. https://apps.who.int/iris/bitstream/handle/10665/193412/9789241549097_eng.pdf",
+   "marks": [
+    {
+     "page": 16,
+     "context": "2.5 cm."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008"
+  },
+  {
+   "id": "fn-p017-1",
+   "page": 17,
+   "mark": "18",
+   "text": "Opel et al., The Architecture of Provider-Parent Vaccine Discussions at Health Supervision Visits. Pediatrics. 2013 Dec; 132(6): 1037–1046. doi: 10.1542/peds.2013-2037",
+   "marks": [
+    {
+     "page": 17,
+     "context": "take place (e.g. “we will have to give some vaccines today”)"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008"
+  },
+  {
+   "id": "fn-p017-4",
+   "page": 17,
+   "mark": "21",
+   "text": "WHO Guidance Note: Vaccine Diluents – Revision 2015. The proper handling and use of vaccine diluents. https://apps.who.int/iris/bitstream/handle/10665/192741/WHO_IVB_15.08_eng.pdf",
+   "marks": [
+    {
+     "page": 17,
+     "context": "r the specific vaccine and presentation should ever be used."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008"
+  },
+  {
+   "id": "fn-p019-1",
+   "page": 19,
+   "mark": "22",
+   "text": "Both “timely coverage” (vaccines given within the recommended age range) and “total coverage” are useful data points, but for programmes truly interested in monitoring timeliness, coverage surveys offer a more nuanced picture than administrative systems, provided a high proportion of home-based records with vaccination dates are available.",
+   "marks": [
+    {
+     "page": 19,
+     "context": "ls, as well as the way administrative coverage is calculated"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008"
+  },
+  {
+   "id": "fn-p020-1",
+   "page": 20,
+   "mark": "23",
+   "text": "Available at: https://www.technet-21.org/en/library/main/6634-who-handbook-on-the-use,-collection,-and-improvement- of-immunization-data",
+   "marks": [
+    {
+     "page": 20,
+     "context": "on the use, collection, and improvement of immunization data"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-009"
+  },
+  {
+   "id": "fn-p020-2",
+   "page": 20,
+   "mark": "24",
+   "text": "Available at: https://apps.who.int/iris/bitstream/handle/10665/260556/9789241513678-eng.pdf",
+   "marks": [
+    {
+     "page": 20,
+     "context": "beyond infancy"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-009"
+  },
+  {
+   "id": "fn-p021-1",
+   "page": 21,
+   "mark": "25",
+   "text": "Available at: https://apps.who.int/iris/bitstream/handle/10665/330101/9789241516310-eng.pdf",
+   "marks": [
+    {
+     "page": 21,
+     "context": "Opportunities for Vaccination"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-009"
+  },
+  {
+   "id": "fn-p021-2",
+   "page": 21,
+   "mark": "26",
+   "text": "Available at: https://apps.who.int/iris/bitstream/handle/10665/175905/WHO_IVB_15.05_eng.pdf; and https://apps.who.int/iris/bitstream/handle/10665/274277/9789241550352-eng.pdf",
+   "marks": [
+    {
+     "page": 21,
+     "context": "Records."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-009"
+  },
+  {
+   "id": "fn-p023-1",
+   "page": 23,
+   "mark": "27",
+   "text": "See more on the WHO Missed Opportunities for Vaccination (MOV) Strategy, at: https://www.who.int/teams/immunization- vaccines-and-biologicals/essential-programme-on-immunization/implementation/reducing-missed-opportunities-for- vaccination-(mov)",
+   "marks": [
+    {
+     "page": 23,
+     "context": " principle for reducing missed opportunities for vaccination"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011"
+  },
+  {
+   "id": "fn-p023-2",
+   "page": 23,
+   "mark": "28",
+   "text": "See WHO. Working Together: An integration resource guide for planning and strengthening immunization services throughout the life course, available at: https://apps.who.int/iris/bitstream/handle/10665/276546/9789241514736-eng.pdf",
+   "marks": [
+    {
+     "page": 23,
+     "context": "with other health delivery platforms across the life-course."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011"
+  },
+  {
+   "id": "fn-p023-3",
+   "page": 23,
+   "mark": "29",
+   "text": "See WHO/UNICEF Guidance note on Criteria to determine if a given vaccination is a routine or supplemental dose: https://cdn.who.int/media/docs/default-source/immunization/who-unicef-guidance_note_on_vaccination_doses_2011.pdf. Also Annex 6 for a comparison of the characteristics of PIRI vs SIAs.",
+   "marks": [
+    {
+     "page": 23,
+     "context": "home-based record."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011"
+  },
+  {
+   "id": "fn-p024-1",
+   "page": 24,
+   "mark": "30",
+   "text": "Available at: https://www.mchip.net/sites/default/files/PIRI%20monograph_Feb09_0.PDF",
+   "marks": [
+    {
+     "page": 24,
+     "context": "implications for action."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011"
+  },
+  {
+   "id": "fn-p024-2",
+   "page": 24,
+   "mark": "31",
+   "text": "For more information on checking vaccination status at entry to, or during school, including considerations for implementation and country case studies, see: https://www.who.int/teams/immunization-vaccines-and-biologicals/essential- programme-on-immunization/integration/school-vaccination",
+   "marks": [
+    {
+     "page": 24,
+     "context": "School vaccination checks"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011"
+  },
+  {
+   "id": "fn-p024-3",
+   "page": 24,
+   "mark": "32",
+   "text": "WHO has developed a School Vaccination Readiness Assessment Tool that can be adapted for this purpose, available at: https://www.who.int/publications/i/item/school-vaccination-readiness-assessment-tool",
+   "marks": [
+    {
+     "page": 24,
+     "context": "capacity of their school and health systems"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011"
+  },
+  {
+   "id": "fn-p025-1",
+   "page": 25,
+   "mark": "33",
+   "text": "For example, evidence showed a 25% decline in measles vaccine coverage in both Liberia and Guinea during the 2014-2015 Ebola outbreak in West Africa. See: Masresha BG, et al. The impact of a prolonged ebola outbreak on measles elimination activities in Guinea, Liberia and Sierra Leone, 2014-2015. Pan African Medical Journal. 2020;35(1):8.",
+   "marks": [
+    {
+     "page": 25,
+     "context": "overburdened."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011"
+  },
+  {
+   "id": "fn-p026-1",
+   "page": 26,
+   "mark": "34",
+   "text": "WHO Policy Statement: Multi-dose vial policy (MDVP), Revision 2014, available at: https://apps.who.int/iris/bitstream/handle/10665/135972/WHO_IVB_14.07_eng.pdf",
+   "marks": [
+    {
+     "page": 26,
+     "context": "oAdopt multi-dose vial policy"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-013"
+  },
+  {
+   "id": "fn-p026-2",
+   "page": 26,
+   "mark": "35",
+   "text": "See Acceptance of available traditional vaccine supply with reduced shelf-life. WHO-UNICEF Interim guidance. 1 March 2021. https://www.who.int/publications/i/item/acceptance-of-available-traditional-vaccine-supply-with-reduced-shelf-life",
+   "marks": [
+    {
+     "page": 26,
+     "context": "first out” (FEFO) principle."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-013"
+  },
+  {
+   "id": "fn-p026-3",
+   "page": 26,
+   "mark": "36",
+   "text": "https://www.who.int/teams/immunization-vaccines-and-biologicals/essential-programme-on-immunization/supply- chain/controlled-temperature-chain-(ctc)",
+   "marks": [
+    {
+     "page": 26,
+     "context": "conditions."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-013"
+  },
+  {
+   "id": "fn-p028-1",
+   "page": 28,
+   "mark": "37",
+   "text": "Available at: https://www.euro.who.int/__data/assets/pdf_file/0004/329647/Vaccines-and-trust.PDF",
+   "marks": [
+    {
+     "page": 28,
+     "context": "ing/following crises, see WHO guidance on Vaccine and trust."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-015"
+  },
+  {
+   "id": "fn-p029-1",
+   "page": 29,
+   "mark": "38",
+   "text": "Available at: https://apps.who.int/iris/bitstream/handle/10665/255575/WHO-IVB-17.03-eng.pdf",
+   "marks": [
+    {
+     "page": 29,
+     "context": "Decision Making"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-016"
+  },
+  {
+   "id": "fn-p030-1",
+   "page": 30,
+   "mark": "39",
+   "text": "Available at: https://apps.who.int/iris/bitstream/handle/10665/255575/WHO-IVB-17.03-eng.pdf",
+   "marks": [
+    {
+     "page": 30,
+     "context": "Making,"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017"
+  },
+  {
+   "id": "fn-p031-1",
+   "page": 31,
+   "mark": "40",
+   "text": "Lessons from delivering adolescent-friendly health services indicate that service uptake is lower if they are expected to cue with mothers and babies; also during outbreaks this age group may be a high-risk vector to other age groups.",
+   "marks": [
+    {
+     "page": 31,
+     "context": "underlying health conditions, adolescents"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017"
+  },
+  {
+   "id": "fn-p032-1",
+   "page": 32,
+   "mark": "41",
+   "text": "For more on planning and implementing SIAs, see WHO. Planning and implementing high-quality Supplementary Immunization Activities for injectable vaccines, available at: https://apps.who.int/iris/bitstream/handle/10665/330568/9789241511254-eng.pdf",
+   "marks": [
+    {
+     "page": 32,
+     "context": "antigens, non-selective SIAs may be considered."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017"
+  },
+  {
+   "id": "fn-p032-2",
+   "page": 32,
+   "mark": "42",
+   "text": "See WHO/UNICEF Guidance note on Criteria to determine if a given vaccination is a routine or supplemental dose: https://cdn.who.int/media/docs/default-source/immunization/who-unicef-guidance_note_on_vaccination_doses_2011.pdf",
+   "marks": [
+    {
+     "page": 32,
+     "context": "coverage."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017"
+  },
+  {
+   "id": "fn-p032-3",
+   "page": 32,
+   "mark": "43",
+   "text": "WHO. Overview of technologies for the treatment of infectious and sharp waste from health care facilities. Available at: https://apps.who.int/iris/bitstream/handle/10665/328146/9789241516228-eng.pdf",
+   "marks": [
+    {
+     "page": 32,
+     "context": "sharp waste from health care facilities"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017"
+  },
+  {
+   "id": "fn-p032-4",
+   "page": 32,
+   "mark": "44",
+   "text": "See WHO. Framework for decision-making: Implementation of mass vaccination campaigns in the context of the COVID-19 pandemic (2020) for principles to consider when deliberating the implementation of mass vaccination campaigns during an ongoing pandemic. This guidance discusses risk factors related to COVID-19 but can be adapted in the context of other outbreak-prone diseases. Available at: https://www.who.int/publications/i/item/WHO-2019-nCoV-essential_health_services- 2020.2",
+   "marks": [
+    {
+     "page": 32,
+     "context": "aigns of any kind must accompany a thorough risk assessment."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017"
+  },
+  {
+   "id": "fn-p033-1",
+   "page": 33,
+   "mark": "45",
+   "text": "The latest WHO COVID-19 technical guidance on Infection prevention and control / WASH is available at: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/infection-prevention-and-control",
+   "marks": [
+    {
+     "page": 33,
+     "context": "related WHO guidance."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017"
+  },
+  {
+   "id": "fn-p034-1",
+   "page": 34,
+   "mark": "46",
+   "text": "These and additional examples are also available on Tech-net – link forthcoming",
+   "marks": [
+    {
+     "page": 34,
+     "context": "ating the variation in design approaches can be found below."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017"
+  },
+  {
+   "id": "fn-p034-2",
+   "page": 34,
+   "mark": "47",
+   "text": "WHO. Protecting all against tetanus: Guide to sustaining maternal and neonatal tetanus elimination (MNTE) and broadening tetanus protection for all populations.",
+   "marks": [
+    {
+     "page": 34,
+     "context": "previously unvaccinated individuals >1 year of age"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017"
+  },
+  {
+   "id": "fn-p035-9",
+   "page": 35,
+   "mark": "a",
+   "text": "See full version of Table 3 for addition al details, and recommendations for certain regions and high-risk populations: https://www.who.int/publications/m/item/table-3-who-recommendations-for-routine-immunization",
+   "marks": [
+    {
+     "page": 35,
+     "context": "terrupted or Delayed Routine Immunization – simplified table"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p035-10",
+   "page": 35,
+   "mark": "b",
+   "text": "In polio-endemic countries and in countries at high risk for importation and subsequent spread of poliovirus, WHO recommends a birth dose of bOPV (“bOPV0”), followed by a primary series of 3 bOPV doses and at least 1 dose of IPV.",
+   "marks": [
+    {
+     "page": 35,
+     "context": "birth dose)"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p040-1",
+   "page": 40,
+   "mark": "a",
+   "text": "Adapted from the Australian Immunisation Handbook, developed by the Australian Government Department of Health, available online: https://immunisationhandbook.health.gov.au/resources/handbook-tables/resource-catch-up-worksheet- for-children",
+   "marks": [
+    {
+     "page": 40,
+     "context": ". Catch-up vaccination worksheet for determining eligibility"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-020"
+  },
+  {
+   "id": "fn-p043-1",
+   "page": 43,
+   "mark": "a",
+   "text": "Drafting led by Fields R, Kretsinger K, Mirza I, Sodha S, Wallace A.",
+   "marks": [
+    {
+     "page": 43,
+     "context": "as developed in October 2018 by an ad-hoc workgroup on PIRI."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-022"
+  },
+  {
+   "id": "fn-p043-2",
+   "page": 43,
+   "mark": "b",
+   "text": "As described in WHO. Periodic Intensification of Routine Immunization: Lessons Learned and Implications for Action, available at:    https://www.mchip.net/sites/default/files/PIRI%20monograph_Feb09_0.PDF",
+   "marks": [
+    {
+     "page": 43,
+     "context": "General Approach"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-022"
+  },
+  {
+   "id": "fn-p049-1",
+   "page": 49,
+   "mark": "c",
+   "text": "http://www.euro.who.int/en/health-topics/communicable-diseases/poliomyelitis/publications/2019/tip-tailoring- immunization-programmes-2019",
+   "marks": [
+    {
+     "page": 49,
+     "context": "Programmes"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-024"
+  },
+  {
+   "id": "fn-p049-2",
+   "page": 49,
+   "mark": "d",
+   "text": "https://www.who.int/publications/m/item/full-competency-framework-document",
+   "marks": [
+    {
+     "page": 49,
+     "context": "Immunization Competencies Framework,"
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-024"
+  },
+  {
+   "id": "fn-p050-1",
+   "page": 50,
+   "mark": "e",
+   "text": "Available at: https://apps.who.int/iris/bitstream/handle/10665/255575/WHO-IVB-17.03-eng.pdf",
+   "marks": [
+    {
+     "page": 50,
+     "context": "Humanitarian Emergencies: a Framework for Decision Making."
+    }
+   ],
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-024"
+  }
+ ],
+ "uncalled_notes": [
+  {
+   "id": "fn-p015-2",
+   "page": 15,
+   "mark": "14",
+   "text": "Moro PL, Arana J, Marquez PL, et al. Is there any harm in administering extra-doses of vaccine to a person? Excess doses of vaccine reported to the Vaccine Adverse Event Reporting System (VAERS), 2007-2017. Vaccine. 2019;37(28):3730-3734. doi:10.1016/j.vaccine.2019.04.088.",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008"
+  },
+  {
+   "id": "fn-p015-3",
+   "page": 15,
+   "mark": "15",
+   "text": "Some countries use serological testing to assess immunity status for individuals where evidence of vaccination cannot be ascertained, to determine if revaccination is needed. This method is more costly than revaccination and should only occur in settings where quality testing and guaranteed follow up are feasible.",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008"
+  },
+  {
+   "id": "fn-p017-2",
+   "page": 17,
+   "mark": "19",
+   "text": "Safety and acceptability of multiple vaccine injections. https://cdn.who.int/media/docs/default- source/immunization/multiple-injections/multiple_injections_acceptability_safety.pdf",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008"
+  },
+  {
+   "id": "fn-p017-3",
+   "page": 17,
+   "mark": "20",
+   "text": "Reducing pain at the time of vaccination: WHO position paper – September 2015. https://www.who.int/publications/i/item/wer9039",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008"
+  },
+  {
+   "id": "fn-p035-1",
+   "page": 35,
+   "mark": "9",
+   "text": "or 12 months",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p035-2",
+   "page": 35,
+   "mark": "2",
+   "text": "doses (4 weeks) Resume without",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p035-3",
+   "page": 35,
+   "mark": "2",
+   "text": "doses",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p035-4",
+   "page": 35,
+   "mark": "2",
+   "text": "doses Not recommended vaccine (MCV) (6 months min, see repeating previous dose footnote)c Rubella",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p035-5",
+   "page": 35,
+   "mark": "9",
+   "text": "or 12 months",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p035-6",
+   "page": 35,
+   "mark": "1",
+   "text": "dose with MCV NA",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p035-7",
+   "page": 35,
+   "mark": "1",
+   "text": "dose",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p035-8",
+   "page": 35,
+   "mark": "1",
+   "text": "dose Not recommended Human As soon as possible If started <15 years, 2 doses Resume without NA 9-14 years: 2 doses Not recommended Papillomavirus from 9 years of (5 months) repeating previous dose vaccine (HPV) age No maximum interval. If started ≥15 years, 3 doses Resume without ≥15 years: 3 doses (1 month for 2nd dose, 4 repeating previous dose months for 3rd dose) No maximum interval.",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p035-11",
+   "page": 35,
+   "mark": "c",
+   "text": "In certain situations, MCV can be given from 6 months of age. This dose should be considered a zero dose (“MCV0”) and two subsequent doses (MCV1 and MCV2) should still be provided according to the national schedule.",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-1",
+   "page": 36,
+   "mark": "8",
+   "text": "weeks",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-2",
+   "page": 36,
+   "mark": "4",
+   "text": "weeks",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-3",
+   "page": 36,
+   "mark": "4",
+   "text": "weeks For IPV-only schedules, if the first dose is given <2 months, a booster should be given at least 6 months after the last dose. Rotavirus",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-4",
+   "page": 36,
+   "mark": "6",
+   "text": "weeks",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-5",
+   "page": 36,
+   "mark": "4",
+   "text": "weeks",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-6",
+   "page": 36,
+   "mark": "4",
+   "text": "weeks Not recommended >2 years. (if using a 3- dose schedule) PCV*",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-7",
+   "page": 36,
+   "mark": "6",
+   "text": "weeks",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-8",
+   "page": 36,
+   "mark": "4",
+   "text": "weeks",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-9",
+   "page": 36,
+   "mark": "4",
+   "text": "weeks If 1-5 years, only 2 doses needed. MR or MMR",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-10",
+   "page": 36,
+   "mark": "9",
+   "text": "months",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-11",
+   "page": 36,
+   "mark": "4",
+   "text": "weeks In certain cases, a supplementary dose of measles vaccine can be given as early as 6 (6 months, see (and >1 year of months of age. Any dose given <9 months comments) age, for 2nd should be recorded as MCV0. Two subsequent dose) doses are required. HPV",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-12",
+   "page": 36,
+   "mark": "9",
+   "text": "years",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-13",
+   "page": 36,
+   "mark": "5",
+   "text": "months If series is started ≥15 years old, 3 doses are needed (minimum interval 1 month between (if started ≥15",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-14",
+   "page": 36,
+   "mark": "1",
+   "text": "st and 2nd dose; 4 months between 2nd and 3rd years, see dose) comments)",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  },
+  {
+   "id": "fn-p036-15",
+   "page": 36,
+   "mark": "*",
+   "text": "Alternative schedules available. See WHO recommendations for interrupted or delayed immunization for additional detail and for other antigens not shown above.",
+   "block": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018"
+  }
+ ],
+ "unlinked_marks": []
+}

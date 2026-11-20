@@ -1,0 +1,1 @@
+The processing of personal data in the interest of the application of the DDCC:VS should have a lawful basis; it should comply with applicable laws, including broader human rights standards and data privacy and data protection laws, as well as respecting the highest standards of confidentiality, and moral and ethical conduct.

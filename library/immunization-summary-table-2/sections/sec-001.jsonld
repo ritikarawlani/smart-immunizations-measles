@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "library/immunization-summary-table-2/sections/sec-001",
+  "@type": [
+    "doco:Section"
+  ],
+  "title": "Table 2: Summary of WHO Position Papers - Recommended Routine Immunizations for Children",
+  "pageStart": 2,
+  "pageEnd": 3,
+  "contains": [
+    "library/immunization-summary-table-2/blocks/prose-sec-001",
+    "library/immunization-summary-table-2/blocks/recommendation-sec-001-01",
+    "library/immunization-summary-table-2/blocks/recommendation-sec-001-02",
+    "library/immunization-summary-table-2/blocks/recommendation-sec-001-03",
+    "library/immunization-summary-table-2/blocks/recommendation-sec-001-04",
+    "library/immunization-summary-table-2/blocks/recommendation-sec-001-05",
+    "library/immunization-summary-table-2/blocks/recommendation-sec-001-06",
+    "library/immunization-summary-table-2/blocks/table-003"
+  ],
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/immunization-summary-table-2",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/immunization-summary-table-2",
+  "provenance": "ingested"
+}

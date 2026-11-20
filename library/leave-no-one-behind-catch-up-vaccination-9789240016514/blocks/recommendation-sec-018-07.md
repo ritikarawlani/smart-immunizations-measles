@@ -1,0 +1,1 @@
+1-2 doses IPV and 2 doses bOPV Not recommended IPV 8 weeks 3 doses (4 weeks) Resume without repeating previous dose 3 doses 3 doses If primary series begins < 2 months of age, booster to be given at least 6 months after the last dose DTP-containing vaccine (DTPCV) 6 weeks

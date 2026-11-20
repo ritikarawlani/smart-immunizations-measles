@@ -1,0 +1,1 @@
+The need for a booster dose is currently under review, based on accumulating programmatic experience. • For countries still using MenA conjugate vaccine, MenA conjugate vaccine (5µg) a 1-dose schedule is recommended at 9-18 months of age based on local programmatic and epidemiologic considerations.

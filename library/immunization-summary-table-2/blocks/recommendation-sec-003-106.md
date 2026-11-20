@@ -1,0 +1,1 @@
+Other contraindications for YF vaccination are severe hyper-sensitivity to egg antigens and severe immunodeficiency. • Preventive mass vaccination campaigns are recommended for inhabitants of areas at risk of YF where there is low vaccination coverage.

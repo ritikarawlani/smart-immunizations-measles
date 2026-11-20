@@ -1,0 +1,1 @@
+Summary Table 3 - Notes • Refer to http://www.who.int/immunization/documents/positionpapers for the most recent version of the tables and position papers. • The attached table summarizes the WHO recommendations for interrupted or delayed routine vaccination.

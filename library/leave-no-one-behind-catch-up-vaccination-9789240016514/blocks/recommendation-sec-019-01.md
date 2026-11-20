@@ -1,0 +1,1 @@
+Refer to WHO recommendations for interrupted or delayed immunization to design an catch-up vaccination schedule and job aids to assist health workers in assessing eligibility for vaccination when an individual has missed or delayed doses.

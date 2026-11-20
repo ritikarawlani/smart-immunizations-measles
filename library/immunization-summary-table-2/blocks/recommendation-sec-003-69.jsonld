@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/immunization-summary-table-2/blocks/recommendation-sec-003-69",
+  "@type": [
+    "folio-assistant-core:Recommendation"
+  ],
+  "kind": "recommendation",
+  "pageStart": 4,
+  "pageEnd": 14,
+  "text": "recommendation-sec-003-69.md",
+  "derivedFrom": "library/immunization-summary-table-2/sections/sec-003",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/immunization-summary-table-2",
+  "provenance": "ingested",
+  "meta": {
+    "source_kind": "normative-statement",
+    "strength": "should",
+    "aspect": "requirements"
+  }
+}

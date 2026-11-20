@@ -1,0 +1,1 @@
+Countries should therefore continue to recommend the use of vaccines in accordance with local disease epidemiology and current schedules until more definitive information becomes available. • Regardless of the duration of the delay, interrupted schedules should be resumed without repeating previous doses.

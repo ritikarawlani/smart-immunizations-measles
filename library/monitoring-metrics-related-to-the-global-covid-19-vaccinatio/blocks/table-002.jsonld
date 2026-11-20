@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/table-002",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "kind": "table",
+  "label": "Table 2",
+  "title": "Table 2. Metadata for monitoring metrics related to the ‘Global Covid-19",
+  "file": "../tables/table-2.csv",
+  "headers": [
+    "Monitoring metrics",
+    "Metadata",
+    "Source"
+  ],
+  "pageStart": 4,
+  "pageEnd": 6,
+  "derivedFrom": "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/sections/page-004",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/monitoring-metrics-related-to-the-global-covid-19-vaccinatio",
+  "provenance": "ingested"
+}

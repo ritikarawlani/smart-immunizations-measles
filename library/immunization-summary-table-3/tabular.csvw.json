@@ -1,0 +1,255 @@
+{
+  "$schema": "folio-tabular-csvw/v1",
+  "doc_id": "immunization-summary-table-3",
+  "source": {
+    "file": "immunization-summary-table-3.pdf",
+    "sha256": "aead588449159c46bad3a190f6427f4bf3d53ead55786b165105ccffaeb357a2",
+    "bytes": 350285,
+    "pages": 8,
+    "text_source": "embedded",
+    "extractor": "pymupdf",
+    "mtime": "2026-11-20T12:49:37Z",
+    "mimetype_sniffed": "application/pdf",
+    "mimetype_source": "magic-bytes",
+    "note": "tables extracted from the PDF pages by pdf-tables.py — drafts, not checked against the page"
+  },
+  "narrative": {
+    "text": null,
+    "state": "not-authored"
+  },
+  "tables": [
+    {
+      "url": "tables/table-1.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "doses-in-primary",
+            "titles": "Doses in Primary",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "interrupted",
+            "titles": "Interrupted",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "doses-for-those-who-start-vaccination-late",
+            "titles": "Doses for those who start vaccination late",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-7",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-8",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 64,
+        "columns": 8,
+        "source": "measured"
+      },
+      "fac:label": "Table 3",
+      "fac:caption": "Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers",
+      "fac:pages": [
+        1
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p001-001",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-2.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "doses-in-primary",
+            "titles": "Doses in Primary",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "interrupted",
+            "titles": "Interrupted",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "doses-for-those-who-start-vaccination-late",
+            "titles": "Doses for those who start vaccination late",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-7",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-8",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 94,
+        "columns": 8,
+        "source": "measured"
+      },
+      "fac:label": "Table 3",
+      "fac:caption": "Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers",
+      "fac:pages": [
+        2,
+        3
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p002-002",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-3.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "10-rubella",
+            "titles": "10 Rubella",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 3",
+      "fac:pages": [
+        5,
+        6
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p005-014",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-4.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "18-hepatitis-a",
+            "titles": "18 Hepatitis A",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 4",
+      "fac:pages": [
+        7,
+        8
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p007-023",
+        "at": "2026-11-20"
+      }
+    }
+  ]
+}

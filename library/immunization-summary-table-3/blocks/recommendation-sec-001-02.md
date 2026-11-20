@@ -1,0 +1,1 @@
+2 doses Not recommended Rubella 10 9 or 12 months 1 dose with measles containing vaccine NA 1 dose 1 dose Not recommended HPV 11 As soon as possible from 9 years of age (females) 1-2 doses (6-12 months) Resume without repeating previous dose

@@ -1,0 +1,1 @@
+For countries using aP vaccine, protection may decline appreciably before 6 years of age. • Delayed or interrupted DTP-containing series: For children whose vaccination series has been interrupted, the series should be resumed without repeating previous doses.

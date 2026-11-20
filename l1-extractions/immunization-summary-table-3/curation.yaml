@@ -1,0 +1,41 @@
+$schema: l1-recommendation-curation/v1
+_comment: 'AUTHORED by an agent under recommendation-extraction step 4, measles scope (issue #1). The measles footnote of Table 3 repeats most of Table 1''s (the location that also carries the new interrupted-schedule rule keeps all four sentences as Table 3 nodes, since an exclusion must be its location''s only decision; the rest are proposed duplicates, unsigned) and adds the rule for interrupted schedules; the measles row gives the late-start and booster columns. Other antigens are left undecided.'
+entry: library/immunization-summary-table-3
+publication:
+  identifiers:
+  - type: url
+    value: https://github.com/user-attachments/files/35149129/immunization-summary-table-3.pdf
+  title: 'Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers'
+  publicationType: summary-table
+  basis: 'Title as printed at the head of page 1. A summary table of position papers for interrupted or delayed immunization. Identified by the URL of the file as attached to issue #1: Tables 1-3 all print the same position-papers URL, which identifies the series, not the table, and would give their nodes one IRI.'
+decisions:
+  p2:s1:
+    as: recommendation
+    key: measles.interrupted-delayed-schedule-row
+    statement: Measles 9 9 or 12 months (6 months min, see footnote) 2 doses (4 weeks) Resume without repeating previous dose 2 doses 2 doses Not recommended
+    basis: 'The measles row of Table 3 (page 2), read across its printed columns: age of 1st dose (minimum); doses in primary series (min interval); interrupted primary series; doses for those who start late, if <=12 months and if >12 months of age; booster. This location also holds the other antigens'' rows, which are not curated here.'
+  p2:s51:
+  - as: recommendation
+    key: measles.two-doses-standard
+    basis: Measles footnote of Table 3, page 2; also printed in Table 1 p3:s92.
+    statement: Reaching all children with 2 doses of measles vaccine should be the standard for all national immunization programmes.
+  - as: recommendation
+    key: measles.interrupted-resume-no-repeat
+    basis: 'Measles footnote of Table 3, page 2: an interrupted measles schedule resumes without repeating doses. Not in Table 1.'
+    statement: Regardless of the duration of delay, interrupted schedules should be resumed as soon as possible, without repeating previous doses.
+  - as: recommendation
+    key: measles.mcv-minimum-interval
+    basis: Measles footnote of Table 3, page 2; also Table 1 p3:s95.
+    statement: The minimum interval between MCV1 and MCV2 is 4 weeks.
+  - as: recommendation
+    key: measles.routine-delivery-not-age-limited
+    basis: Measles footnote of Table 3, page 2; also Table 1 p3:s95.
+    statement: Because many cases of measles occur in children aged >12 months who have not been vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and routine delivery of MCV2 should not be limited to infants 15 to 18 months of age.
+  p2:s52:
+    as: exclude
+    reason: duplicate-of:measles.catch-up-every-opportunity
+    basis: Same as Table 1 p3:s96.
+  p2:s53:
+    as: exclude
+    reason: duplicate-of:measles.policies-allow-older-ages
+    basis: Table 1 p3:s97 bullet 1 (two added commas) and Table 1 p3:s108 bullet 2 (live-vaccine spacing), both printed in Table 1.

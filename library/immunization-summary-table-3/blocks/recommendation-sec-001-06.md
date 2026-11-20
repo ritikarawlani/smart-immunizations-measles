@@ -1,0 +1,1 @@
+1 dose Every 3 years Ty21a Capsules 6 years (min) (see footnote) 3-4 doses (1 day) (see footnote) If interruption is < 21 days, resume without repeating previous dose; If > 21 days restart primary series Not recommended > 6 yrs: 3-4 doses Every 3-7 years

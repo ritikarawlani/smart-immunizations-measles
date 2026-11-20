@@ -1,0 +1,108 @@
+{
+  "@context": "http://smart.who.int/kg/l2.context.jsonld",
+  "id": "http://smart.who.int/immunizations-measles/graph/l1-scenarios/measles-scenario-t4",
+  "type": "Entity",
+  "ontologyVersion": "1.0",
+  "generatedAt": "2026-11-20T13:04:48Z",
+  "wasDerivedFrom": [
+    {
+      "path": "l1-extractions/immunization-summary-table-4/l1.json",
+      "sha256": "d413bd6ebabde8f18f1f624068483c23989b08cf967120da12a62017c5772a6d",
+      "note": "The L1 recommendations, each the source of one implementedBy edge."
+    },
+    {
+      "path": "l1-extractions/scenarios/measles-guide-vocabulary.json",
+      "sha256": "9d085dd8073442a7a0f863e2402d57d72c18bf3c429c676fb1f86013315fad44",
+      "note": "The personas and processes of smart-immunizations-measles, read at ritikarawlani/smart-immunizations-measles@7f8cfe7d94585910e617ec8b92ba7b6081f4eb96."
+    },
+    {
+      "path": "smart-base/scripts/fixtures/l1-recommendation-scenarios/smart-base-generic-personas.json",
+      "sha256": "fa33902453047ae0f8f913a05bf5e6b3000a5084c553975923003c0f3267c4e5",
+      "note": "smart-base's generic personas, read at litlfred/smart-base@417720453eb28a142a503cc96afb38efc6e42386."
+    },
+    {
+      "path": "l1-extractions/immunization-summary-table-4/scenario-mapping.yaml",
+      "sha256": "bce53cec03eaac4a2106005168faad011a3ca587a9ce61934d8ca7d5d929a084",
+      "note": "The authored mapping: per recommendation, its personas, process, act, outcome and domain, each with a source and a basis."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t4-measles-health-worker-immunity",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T4.measles.health-worker-immunity: require proof of measles immunity or immunization from every health worker at enrolment in training and employment",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.health-worker-immunity, authored from its statement against the smart-immunizations-measles vocabulary. Domain health-system-strengthening (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-4/l1.json#measles.health-worker-immunity (library/immunization-summary-table-4/sections/sec-front-matter.md)",
+        "quote": "All HCWs should be immune to measles and proof/documentation of immunity or immunization should be required as a condition of enrollment into training and employment."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T4.measles.health-worker-immunity",
+        "title": "MEASLES.Scenario.T4.measles.health-worker-immunity: require proof of measles immunity or immunization from every health worker at enrolment in training and employment",
+        "description": "As a Health System Manager, during [process not determined], I require proof of measles immunity or immunization from every health worker at enrolment in training and employment so that health workers neither catch nor spread measles.",
+        "source": "l1-extractions/immunization-summary-table-4/scenario-mapping.yaml#entries.measles.health-worker-immunity"
+      }
+    },
+    {
+      "id": "https://smart.who.int/base/persona/health-system-manager",
+      "type": "persona",
+      "label": "Health System Manager",
+      "derivation": "derived",
+      "skill": "smart-base/recommendation-extraction",
+      "properties": {
+        "id": "DAK.Persona.HealthSystemManager",
+        "title": "Health System Manager",
+        "description": "A professional involved in the administration and oversight of health systems.",
+        "iscoCode": [
+          "1342",
+          "2446",
+          "3354",
+          "4311"
+        ],
+        "personaType": "person",
+        "source": "litlfred/smart-base@4177204:input/fsh/actors/DAK.Persona.HealthSystemManager.fsh (Instance: DAK.Persona.HealthSystemManager)",
+        "resolutionStatus": "resolved"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149138-immunization-summary-table-4-pdf/recommendation/measles.health-worker-immunity",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t4-measles-health-worker-immunity",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.health-worker-immunity is implemented by scenario MEASLES.Scenario.T4.measles.health-worker-immunity — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-4/scenario-mapping.yaml#entries.measles.health-worker-immunity"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "health-system-strengthening",
+        "domainSource": "inferred",
+        "domainBasis": "A workforce policy."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t4-measles-health-worker-immunity",
+      "target": "https://smart.who.int/base/persona/health-system-manager",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "An employment and training condition set by management.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-4/scenario-mapping.yaml#entries.measles.health-worker-immunity.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    }
+  ]
+}

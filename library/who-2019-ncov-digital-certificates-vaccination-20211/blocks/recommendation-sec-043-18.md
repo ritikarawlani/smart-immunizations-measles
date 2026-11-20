@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.016 Disaster recovery, business continuity, resilience Data concerning system usage SHOULD be available to system administrators via a dashboard to show current load, and recent load (last week, last month), and be able to perform custom queries by place and time.

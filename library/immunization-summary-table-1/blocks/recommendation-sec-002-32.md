@@ -1,0 +1,1 @@
+Countries adopting this vaccine should follow the same immunization schedules currently recommended for the pentavalent vaccine (i.e., at 6, 10, and 14 weeks or 8, 12, and 16 weeks,) depending on national policy. • As of March 2025, based on updated immunogenicity data, WHO no longer recommends a booster dose of IPV following a 3-dose primary series beginning at ≥6 weeks of age.

@@ -1,0 +1,1 @@
+However, it is highly recommended that the implementer review the reasons for not following the recommendations before deviating from the technical specifications outlined2 SUBJECT OF CARE: The vaccinated person.

@@ -1,0 +1,36 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-015",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "kind": "table",
+  "label": "Table A8.1",
+  "title": "Table A8.1 – Measles disease-specific risk factors",
+  "file": "../tables/table-15.csv",
+  "headers": [
+    "Factor",
+    "",
+    "Risk level",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Comments"
+  ],
+  "pageStart": 51,
+  "pageEnd": 52,
+  "derivedFrom": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-025",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "provenance": "ingested"
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_MEASLES.A" targetNamespace="http://smart.who.int/immunizations-measles/bpmn">
+  <bpmn:collaboration id="Collab_MEASLES.A"><bpmn:participant id="Pool_MEASLES.A" name="MEASLES.A Measles vaccination contact" processRef="MEASLES.A"/></bpmn:collaboration>
+  <bpmn:process id="MEASLES.A" name="MEASLES.A Measles vaccination contact" isExecutable="false">
+    <bpmn:documentation>A client is seen at any contact (fixed site, outreach, school, or any other health visit); the health worker determines which measles-containing vaccine (MCV) dose is due, screens, vaccinates, records and gives the return date. Derived from Table 1's measles footnote, Table 3's measles row and the catch-up guide's per-client practices (see input/L2/provenance.json). Adjudication: pending.</bpmn:documentation>
+    <bpmn:laneSet id="LaneSet_1">
+      <bpmn:lane id="Lane_Client" name="Client and caregiver">
+        <bpmn:flowNodeRef>Start_A</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>A1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>A10</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_A</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_HW" name="Health worker">
+        <bpmn:flowNodeRef>A2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>A3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>G1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>A5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>G2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>A6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>A7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>A9</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="Start_A" name="Client at a health contact">
+      <bpmn:outgoing>Flow_1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:manualTask id="A1" name="Bring home-based record">
+      <bpmn:documentation>catchup.confirm-by-written-record; catchup.every-touchpoint; catchup.every-immunization-contact; catchup.late-not-denied</bpmn:documentation>
+      <bpmn:incoming>Flow_1</bpmn:incoming>
+      <bpmn:outgoing>Flow_2</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:userTask id="A2" name="Retrieve vaccination history">
+      <bpmn:documentation>From the home-based record or the immunization register. catchup.confirm-by-written-record</bpmn:documentation>
+      <bpmn:incoming>Flow_2</bpmn:incoming>
+      <bpmn:outgoing>Flow_3</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:businessRuleTask id="A3" name="Determine MCV dose due (DT.03, DT.01, DT.04)">
+      <bpmn:documentation>MEASLES.DT.03 dose validity, then MEASLES.DT.01 dose due and MEASLES.DT.04 additional dose for HIV-infected children on HAART. A delayed or interrupted series is continued, never restarted (catchup.delayed-dose-no-restart; catchup.no-restart-series; measles.interrupted-resume-no-repeat).</bpmn:documentation>
+      <bpmn:incoming>Flow_3</bpmn:incoming>
+      <bpmn:outgoing>Flow_4</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:exclusiveGateway id="G1" name="Dose due today?" default="Flow_no_due">
+      <bpmn:incoming>Flow_4</bpmn:incoming>
+      <bpmn:outgoing>Flow_5</bpmn:outgoing>
+      <bpmn:outgoing>Flow_no_due</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:businessRuleTask id="A5" name="Screen (DT.02)">
+      <bpmn:documentation>MEASLES.DT.02: anaphylaxis to a component, severe immunosuppression, pregnancy, another live vaccine in the last 4 weeks.</bpmn:documentation>
+      <bpmn:incoming>Flow_5</bpmn:incoming>
+      <bpmn:outgoing>Flow_7</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+    <bpmn:exclusiveGateway id="G2" name="Vaccinate?" default="Flow_not_vacc">
+      <bpmn:incoming>Flow_7</bpmn:incoming>
+      <bpmn:outgoing>Flow_8</bpmn:outgoing>
+      <bpmn:outgoing>Flow_not_vacc</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:userTask id="A6" name="Give MCV">
+      <bpmn:incoming>Flow_8</bpmn:incoming>
+      <bpmn:outgoing>Flow_10</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:userTask id="A7" name="Record dose and next due date">
+      <bpmn:documentation>Record as MCV0, MCV1 or MCV2 (measles.mcv0-recording; catchup.mcv2-only-after-mcv1); calculate and write the next due date (catchup.multi-dose-return-date).</bpmn:documentation>
+      <bpmn:incoming>Flow_no_due</bpmn:incoming>
+      <bpmn:incoming>Flow_10</bpmn:incoming>
+      <bpmn:outgoing>Flow_11</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:userTask id="A9" name="Record reason; set return date">
+      <bpmn:documentation>Pregnancy, contraindication, or a deferral for live-vaccine spacing.</bpmn:documentation>
+      <bpmn:incoming>Flow_not_vacc</bpmn:incoming>
+      <bpmn:outgoing>Flow_12</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:manualTask id="A10" name="Keep record; return when due">
+      <bpmn:incoming>Flow_11</bpmn:incoming>
+      <bpmn:incoming>Flow_12</bpmn:incoming>
+      <bpmn:outgoing>Flow_13</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:endEvent id="End_A" name="Contact complete">
+      <bpmn:incoming>Flow_13</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_1" sourceRef="Start_A" targetRef="A1"/>
+    <bpmn:sequenceFlow id="Flow_2" sourceRef="A1" targetRef="A2"/>
+    <bpmn:sequenceFlow id="Flow_3" sourceRef="A2" targetRef="A3"/>
+    <bpmn:sequenceFlow id="Flow_4" sourceRef="A3" targetRef="G1"/>
+    <bpmn:sequenceFlow id="Flow_5" name="yes" sourceRef="G1" targetRef="A5"><bpmn:conditionExpression>doseDue != null</bpmn:conditionExpression></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_no_due" name="no" sourceRef="G1" targetRef="A7"/>
+    <bpmn:sequenceFlow id="Flow_7" sourceRef="A5" targetRef="G2"/>
+    <bpmn:sequenceFlow id="Flow_8" name="proceed" sourceRef="G2" targetRef="A6"><bpmn:conditionExpression>screening = 'proceed'</bpmn:conditionExpression></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_not_vacc" name="do not vaccinate / defer" sourceRef="G2" targetRef="A9"/>
+    <bpmn:sequenceFlow id="Flow_10" sourceRef="A6" targetRef="A7"/>
+    <bpmn:sequenceFlow id="Flow_11" sourceRef="A7" targetRef="A10"/>
+    <bpmn:sequenceFlow id="Flow_12" sourceRef="A9" targetRef="A10"/>
+    <bpmn:sequenceFlow id="Flow_13" sourceRef="A10" targetRef="End_A"/>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="Diagram_MEASLES.A"><bpmndi:BPMNPlane id="Plane_MEASLES.A" bpmnElement="Collab_MEASLES.A">
+    <bpmndi:BPMNShape id="Pool_MEASLES.A_di" bpmnElement="Pool_MEASLES.A" isHorizontal="true"><dc:Bounds x="120" y="80" width="1490" height="460"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="Lane_Client_di" bpmnElement="Lane_Client" isHorizontal="true"><dc:Bounds x="150" y="80" width="1460" height="170"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="Lane_HW_di" bpmnElement="Lane_HW" isHorizontal="true"><dc:Bounds x="150" y="250" width="1460" height="290"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="Start_A_di" bpmnElement="Start_A"><dc:Bounds x="222" y="147" width="36" height="36"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="A1_di" bpmnElement="A1"><dc:Bounds x="320" y="105" width="120" height="120"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="A2_di" bpmnElement="A2"><dc:Bounds x="320" y="275" width="120" height="120"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="A3_di" bpmnElement="A3"><dc:Bounds x="460" y="275" width="120" height="120"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="G1_di" bpmnElement="G1" isMarkerVisible="true"><dc:Bounds x="635" y="310" width="50" height="50"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="A5_di" bpmnElement="A5"><dc:Bounds x="740" y="275" width="120" height="120"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="G2_di" bpmnElement="G2" isMarkerVisible="true"><dc:Bounds x="915" y="310" width="50" height="50"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="A6_di" bpmnElement="A6"><dc:Bounds x="1020" y="275" width="120" height="120"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="A7_di" bpmnElement="A7"><dc:Bounds x="1160" y="275" width="120" height="120"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="A9_di" bpmnElement="A9"><dc:Bounds x="1020" y="410" width="120" height="120"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="A10_di" bpmnElement="A10"><dc:Bounds x="1300" y="105" width="120" height="120"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNShape id="End_A_di" bpmnElement="End_A"><dc:Bounds x="1482" y="147" width="36" height="36"/></bpmndi:BPMNShape>
+    <bpmndi:BPMNEdge id="Flow_1_di" bpmnElement="Flow_1"><di:waypoint x="258" y="165"/><di:waypoint x="320" y="165"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_2_di" bpmnElement="Flow_2"><di:waypoint x="380" y="225"/><di:waypoint x="380" y="275"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_3_di" bpmnElement="Flow_3"><di:waypoint x="440" y="335"/><di:waypoint x="460" y="335"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_4_di" bpmnElement="Flow_4"><di:waypoint x="580" y="335"/><di:waypoint x="635" y="335"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_5_di" bpmnElement="Flow_5"><di:waypoint x="685" y="335"/><di:waypoint x="740" y="335"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_no_due_di" bpmnElement="Flow_no_due"><di:waypoint x="660" y="310"/><di:waypoint x="660" y="262"/><di:waypoint x="1220" y="262"/><di:waypoint x="1220" y="275"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_7_di" bpmnElement="Flow_7"><di:waypoint x="860" y="335"/><di:waypoint x="915" y="335"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_8_di" bpmnElement="Flow_8"><di:waypoint x="965" y="335"/><di:waypoint x="1020" y="335"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_not_vacc_di" bpmnElement="Flow_not_vacc"><di:waypoint x="940" y="360"/><di:waypoint x="940" y="470"/><di:waypoint x="1020" y="470"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_10_di" bpmnElement="Flow_10"><di:waypoint x="1140" y="335"/><di:waypoint x="1160" y="335"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_11_di" bpmnElement="Flow_11"><di:waypoint x="1280" y="335"/><di:waypoint x="1360" y="335"/><di:waypoint x="1360" y="225"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_12_di" bpmnElement="Flow_12"><di:waypoint x="1140" y="470"/><di:waypoint x="1360" y="470"/><di:waypoint x="1360" y="225"/></bpmndi:BPMNEdge>
+    <bpmndi:BPMNEdge id="Flow_13_di" bpmnElement="Flow_13"><di:waypoint x="1420" y="165"/><di:waypoint x="1482" y="165"/></bpmndi:BPMNEdge>
+  </bpmndi:BPMNPlane></bpmndi:BPMNDiagram>
+</bpmn:definitions>

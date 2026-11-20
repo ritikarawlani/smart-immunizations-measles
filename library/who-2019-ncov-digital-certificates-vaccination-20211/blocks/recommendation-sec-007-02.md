@@ -1,0 +1,1 @@
+The HL7 FHIR implementation guide (at https://WorldHealthOrganization.github.io/ddcc) provides an algorithm for generating 2D barcodes that may be used in the absence of identifying information beyond that found within the core data set; and

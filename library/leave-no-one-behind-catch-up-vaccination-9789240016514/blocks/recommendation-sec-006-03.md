@@ -1,0 +1,1 @@
+Decision-making • WHO has published tables with recommendations for interrupted or delayed immunization, which summarize the recommendations from WHO vaccine position papers in one place.5 These summary tables are not intended for direct use by health workers, but rather to aid and guide policy and decision-makers.

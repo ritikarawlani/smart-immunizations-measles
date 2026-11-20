@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/immunization-summary-table-2/blocks/table-007",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "kind": "table",
+  "label": "Table 7",
+  "file": "../tables/table-7.csv",
+  "headers": [
+    "",
+    "13 Yellow Fever"
+  ],
+  "pageStart": 10,
+  "pageEnd": 11,
+  "derivedFrom": "library/immunization-summary-table-2/sections/sec-003",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/immunization-summary-table-2",
+  "provenance": "ingested"
+}

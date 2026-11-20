@@ -1,0 +1,55 @@
+{
+  "$schema": "folio-library-extraction/v1",
+  "doc_id": "leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "kinds": {
+    "contents": {
+      "state": "found",
+      "count": 26,
+      "note": "contents from inferred",
+      "tool": "pdf-structure.py",
+      "version": "0b311238188a",
+      "at": "2026-11-20"
+    },
+    "sections": {
+      "state": "found",
+      "count": 27,
+      "tool": "pdf-structure.py",
+      "version": "0b311238188a",
+      "at": "2026-11-20"
+    },
+    "figures": {
+      "state": "partial",
+      "count": 10,
+      "note": "10 kept (10 raster, 0 vector); 1 vector render(s) not yet inspected; 15 caption(s) read off the pages",
+      "tool": "pdf-images.py+pdf-vector-figures.py",
+      "at": "2026-11-20"
+    },
+    "tables": {
+      "state": "found",
+      "count": 15,
+      "note": "drafts; backend pdfplumber 0.11.10; 8 candidate(s) dropped: under two columns or no row under the header; 24 dropped as prose cut into columns (a word cut at a quarter or more of the cell boundaries)",
+      "tool": "pdf-tables.py",
+      "version": "b3b9e4012c21",
+      "at": "2026-11-20"
+    },
+    "references": {
+      "state": "not-extracted",
+      "note": "the instance declares no references directory to hold the nodes",
+      "tool": "references-extract",
+      "at": "2026-11-20"
+    },
+    "glossary": {
+      "state": "not-extracted",
+      "note": "the instance declares no glossary directory to hold the scheme",
+      "tool": "glossary-from-source",
+      "at": "2026-11-20"
+    },
+    "footnotes": {
+      "state": "found",
+      "count": 51,
+      "note": "called from the text; also kept: 28 foot-of-page line(s) no mark calls",
+      "tool": "pdf-footnotes.py",
+      "at": "2026-11-20"
+    }
+  }
+}

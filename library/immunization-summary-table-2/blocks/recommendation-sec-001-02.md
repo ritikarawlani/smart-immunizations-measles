@@ -1,0 +1,1 @@
+(see footnote) Single dose if >12 months of age Not recommended for children > 5 yrs Delayed/ interrupted schedule Co-administration and combination vaccine Option 2 2-3 8 weeks (min) if only 2 doses 4 weeks (min) if 3 doses 4 weeks (min) if 3 doses

@@ -1,0 +1,1 @@
+This component of the Polio Position Paper will be amended in the next update; in the meantime, the new policy recommendation can be found in the Meeting of the Strategic Advisory Group of Experts on Immunization, March 2025: conclusions and recommendations.

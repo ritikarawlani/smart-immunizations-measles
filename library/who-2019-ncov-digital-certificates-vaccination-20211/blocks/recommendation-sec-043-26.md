@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.025 Performance/ response time As with system availability, the solution SHALL provide dashboards of performance metrics, allow querying of the performance log and export of performance data for reports.

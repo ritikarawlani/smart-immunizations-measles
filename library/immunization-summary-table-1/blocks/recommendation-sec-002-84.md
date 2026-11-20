@@ -1,0 +1,1 @@
+MCVs should not be given to individuals with a history of anaphylactic reactions or severe allergic reactions to any component of the vaccine (e.g. neomycin or gelatin) or those with any form of severe immunosuppression. • As a general rule, live vaccines should be given either simultaneously or at intervals of 4 weeks.

@@ -1,0 +1,1 @@
+Because LAIV is a live-virus vaccine and data on its administration to pregnant women and the associated maternal and fetal risks are limited, LAIV is also not recommended during pregnancy. • Inactivated influenza vaccine is safe to give throughout pregnancy. • Co-administration of influenza vaccine, including with COVID-19 or live vaccines is acceptable.

@@ -1,0 +1,1323 @@
+{
+  "@context": "http://smart.who.int/kg/l2.context.jsonld",
+  "id": "http://smart.who.int/immunizations-measles/graph/l1-scenarios/measles-scenario-t1",
+  "type": "Entity",
+  "ontologyVersion": "1.0",
+  "generatedAt": "2026-11-20T13:05:43Z",
+  "wasDerivedFrom": [
+    {
+      "path": "l1-extractions/immunization-summary-table-1/l1.json",
+      "sha256": "5204719444f34122ee6b378aff9efba489f03ebc9ea85b21102622e6f2fbe35e",
+      "note": "The L1 recommendations, each the source of one implementedBy edge."
+    },
+    {
+      "path": "l1-extractions/scenarios/measles-guide-vocabulary.json",
+      "sha256": "9d085dd8073442a7a0f863e2402d57d72c18bf3c429c676fb1f86013315fad44",
+      "note": "The personas and processes of smart-immunizations-measles, read at ritikarawlani/smart-immunizations-measles@7f8cfe7d94585910e617ec8b92ba7b6081f4eb96."
+    },
+    {
+      "path": "smart-base/scripts/fixtures/l1-recommendation-scenarios/smart-base-generic-personas.json",
+      "sha256": "fa33902453047ae0f8f913a05bf5e6b3000a5084c553975923003c0f3267c4e5",
+      "note": "smart-base's generic personas, read at litlfred/smart-base@417720453eb28a142a503cc96afb38efc6e42386."
+    },
+    {
+      "path": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml",
+      "sha256": "61651078253e07072e81d9bffdc4662ef7ff4c2a26b3781c25df0f9190d1669f",
+      "note": "The authored mapping: per recommendation, its personas, process, act, outcome and domain, each with a source and a basis."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-avoid-in-pregnancy",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.avoid-in-pregnancy: not give measles vaccine to a pregnant client",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.avoid-in-pregnancy, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.avoid-in-pregnancy (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "As a precautionary measure, measles vaccine – alone or in combination with other vaccines – should be avoided during pregnancy."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.avoid-in-pregnancy",
+        "title": "MEASLES.Scenario.T1.measles.avoid-in-pregnancy: not give measles vaccine to a pregnant client",
+        "description": "As a Healthcare Provider, during [process not determined], I not give measles vaccine to a pregnant client so that precaution against vaccination in pregnancy.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.avoid-in-pregnancy"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-catch-up-every-opportunity",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.catch-up-every-opportunity: check every child who comes into contact with health services and vaccinate any who missed an MCV dose",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.catch-up-every-opportunity, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.catch-up-every-opportunity (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "Every opportunity (e.g. when children come into contact with health services) should be taken to vaccinate all children that missed one or both MCV routine doses, particularly those under 15 years of age."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.catch-up-every-opportunity",
+        "title": "MEASLES.Scenario.T1.measles.catch-up-every-opportunity: check every child who comes into contact with health services and vaccinate any who missed an MCV dose",
+        "description": "As a Healthcare Provider, during [process not determined], I check every child who comes into contact with health services and vaccinate any who missed an MCV dose so that children under 15 who missed doses are caught up.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.catch-up-every-opportunity"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-contraindications",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.contraindications: not give MCV to a client with anaphylaxis or severe allergy to a component, or severe immunosuppression",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.contraindications, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.contraindications (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "MCVs should not be given to individuals with a history of anaphylactic reactions or severe allergic reactions to any component of the vaccine (e.g. neomycin or gelatin) or those with any form of severe immunosuppression."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.contraindications",
+        "title": "MEASLES.Scenario.T1.measles.contraindications: not give MCV to a client with anaphylaxis or severe allergy to a component, or severe immunosuppression",
+        "description": "As a Healthcare Provider, during [process not determined], I not give MCV to a client with anaphylaxis or severe allergy to a component, or severe immunosuppression so that clients for whom the vaccine is unsafe are not vaccinated.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.contraindications"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-exposed-mcv0",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.hiv-exposed-mcv0: consider MCV0 for HIV-exposed infants and HIV-infected children not on HAART at high risk",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.hiv-exposed-mcv0, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.hiv-exposed-mcv0 (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "A supplementary dose of MCV (recorded as MCV0) should be considered for infants known to be exposed (i.e. born to an HIV-infected woman) or soon after diagnosis of HIV infection in children older than 6 months who are not receiving HAART and for whom the risk of measles is high, with the aim of providing partial protection until they are revaccinated after immune reconstitution with HAART."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.hiv-exposed-mcv0",
+        "title": "MEASLES.Scenario.T1.measles.hiv-exposed-mcv0: consider MCV0 for HIV-exposed infants and HIV-infected children not on HAART at high risk",
+        "description": "As a Healthcare Provider, during [process not determined], I consider MCV0 for HIV-exposed infants and HIV-infected children not on HAART at high risk so that partial protection until revaccination.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-exposed-mcv0"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-haart-additional-dose",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.hiv-haart-additional-dose: give an additional MCV dose to an HIV-infected child on HAART once immune reconstitution is reached",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.hiv-haart-additional-dose, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.hiv-haart-additional-dose (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "An additional dose of MCV should be administered to HIV-infected children receiving HAART following immune reconstitution If CD4+ T lymphocyte counts are monitored, an additional dose of MCV should be administered when immune reconstitution has been achieved, e.g. when the CD4+ T lymphocyte count reaches 20–25%."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.hiv-haart-additional-dose",
+        "title": "MEASLES.Scenario.T1.measles.hiv-haart-additional-dose: give an additional MCV dose to an HIV-infected child on HAART once immune reconstitution is reached",
+        "description": "As a Healthcare Provider, during [process not determined], I give an additional MCV dose to an HIV-infected child on HAART once immune reconstitution is reached so that protection is restored after immune reconstitution.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-haart-additional-dose"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-haart-no-cd4-monitoring",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.hiv-haart-no-cd4-monitoring: give an additional MCV dose 6-12 months after starting HAART where CD4+ is not monitored",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.hiv-haart-no-cd4-monitoring, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.hiv-haart-no-cd4-monitoring (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "Where CD4+ T lymphocyte monitoring is not available, children should receive an additional dose of MCV 6–12 months after initiation of HAART."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.hiv-haart-no-cd4-monitoring",
+        "title": "MEASLES.Scenario.T1.measles.hiv-haart-no-cd4-monitoring: give an additional MCV dose 6-12 months after starting HAART where CD4+ is not monitored",
+        "description": "As a Healthcare Provider, during [process not determined], I give an additional MCV dose 6-12 months after starting HAART where CD4+ is not monitored so that protection is restored without CD4+ monitoring.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-haart-no-cd4-monitoring"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-high-incidence-mcv0-6-months",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.hiv-high-incidence-mcv0-6-months: offer MCV0 from 6 months where HIV and measles incidence are both high",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.hiv-high-incidence-mcv0-6-months, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.hiv-high-incidence-mcv0-6-months (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "In areas where there is a high incidence of both HIV infection and measles, an initial dose of MCV may be offered as early as age 6 months (recorded as MCV0)."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.hiv-high-incidence-mcv0-6-months",
+        "title": "MEASLES.Scenario.T1.measles.hiv-high-incidence-mcv0-6-months: offer MCV0 from 6 months where HIV and measles incidence are both high",
+        "description": "As a Healthcare Provider, during [process not determined], I offer MCV0 from 6 months where HIV and measles incidence are both high so that infants at high risk are protected early.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-high-incidence-mcv0-6-months"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-routine-vaccination",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.hiv-routine-vaccination: vaccinate potentially susceptible, asymptomatic HIV-infected children and adults",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.hiv-routine-vaccination, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.hiv-routine-vaccination (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "Given the severe course of measles in patients with AIDS, measles vaccination should be routinely administered to potentially susceptible, asymptomatic HIV infected children and adults."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.hiv-routine-vaccination",
+        "title": "MEASLES.Scenario.T1.measles.hiv-routine-vaccination: vaccinate potentially susceptible, asymptomatic HIV-infected children and adults",
+        "description": "As a Healthcare Provider, during [process not determined], I vaccinate potentially susceptible, asymptomatic HIV-infected children and adults so that people living with HIV are protected from severe measles.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-routine-vaccination"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-live-vaccine-spacing",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.live-vaccine-spacing: give live vaccines on the same day or at least 4 weeks apart",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.live-vaccine-spacing, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.live-vaccine-spacing (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "As a general rule, live vaccines should be given either simultaneously or at intervals of 4 weeks."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.live-vaccine-spacing",
+        "title": "MEASLES.Scenario.T1.measles.live-vaccine-spacing: give live vaccines on the same day or at least 4 weeks apart",
+        "description": "As a Healthcare Provider, during [process not determined], I give live vaccines on the same day or at least 4 weeks apart so that live vaccines are given at valid intervals.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.live-vaccine-spacing"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv-minimum-interval",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.mcv-minimum-interval: leave at least 4 weeks between MCV1 and MCV2",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.mcv-minimum-interval, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.mcv-minimum-interval (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "The minimum interval between MCV1 and MCV2 is 4 weeks."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.mcv-minimum-interval",
+        "title": "MEASLES.Scenario.T1.measles.mcv-minimum-interval: leave at least 4 weeks between MCV1 and MCV2",
+        "description": "As a Healthcare Provider, during [process not determined], I leave at least 4 weeks between MCV1 and MCV2 so that the second dose counts as valid.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv-minimum-interval"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv0-recording",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.mcv0-recording: record any MCV given before 9 months as MCV0 on the child's vaccination record",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.mcv0-recording, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.mcv0-recording (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "MCV administered before 9 months of age should be considered a supplementary dose and recorded on the child’s vaccination record as “MCV0”."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.mcv0-recording",
+        "title": "MEASLES.Scenario.T1.measles.mcv0-recording: record any MCV given before 9 months as MCV0 on the child's vaccination record",
+        "description": "As a Healthcare Provider, during [process not determined], I record any MCV given before 9 months as MCV0 on the child's vaccination record so that the routine doses are still given and counted correctly.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv0-recording"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv0-situations",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.mcv0-situations: give a supplementary MCV dose from 6 months in the six printed situations",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.mcv0-situations, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.mcv0-situations (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "In the following situations, a supplementary dose of MCV should be given to infants from 6 months of age: (1) during a measles outbreak as part of intensified service delivery; (2) during campaigns in settings where the risk of measles among infants < 9 months of age remains high (e.g. in endemic countries experiencing regular outbreaks); (3) for internally displaced populations and refugees, and populations in conflict zones; (4) for individual infants at high risk of contracting measles (e.g. contacts of known measles cases or in settings with increased risk of exposure during outbreaks such as day-care facilities); (5) for infants travelling to countries experiencing measles outbreaks; (6) for infants known to be HIV-infected or exposed (i.e. born to an HIV-infected woman)."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.mcv0-situations",
+        "title": "MEASLES.Scenario.T1.measles.mcv0-situations: give a supplementary MCV dose from 6 months in the six printed situations",
+        "description": "As a Healthcare Provider, during [process not determined], I give a supplementary MCV dose from 6 months in the six printed situations so that infants at higher risk are protected early.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv0-situations"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv0-then-routine-doses",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.mcv0-then-routine-doses: give MCV1 and MCV2 at the scheduled ages to a child who had MCV0",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.mcv0-then-routine-doses, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.mcv0-then-routine-doses (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "Children who receive MCV0 should also receive MCV1 and MCV2 at the recommended ages according to the national schedule."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.mcv0-then-routine-doses",
+        "title": "MEASLES.Scenario.T1.measles.mcv0-then-routine-doses: give MCV1 and MCV2 at the scheduled ages to a child who had MCV0",
+        "description": "As a Healthcare Provider, during [process not determined], I give MCV1 and MCV2 at the scheduled ages to a child who had MCV0 so that the child completes the two routine doses.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv0-then-routine-doses"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv1-12-months-low-transmission",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.mcv1-12-months-low-transmission: give MCV1 at 12 months where measles transmission is low",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.mcv1-12-months-low-transmission, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.mcv1-12-months-low-transmission (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "In countries with low levels of measles transmission (i.e. those that are near elimination or verified as having eliminated endemic measles virus transmission) and therefore the risk of measles virus infection among infants is low, MCV1 may be administered at 12 months of age to take advantage of the higher seroconversion rates achieved at this age."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.mcv1-12-months-low-transmission",
+        "title": "MEASLES.Scenario.T1.measles.mcv1-12-months-low-transmission: give MCV1 at 12 months where measles transmission is low",
+        "description": "As a Healthcare Provider, during [process not determined], I give MCV1 at 12 months where measles transmission is low so that higher seroconversion at the first dose.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv1-12-months-low-transmission"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv1-9-months-high-transmission",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.mcv1-9-months-high-transmission: give MCV1 at 9 months where measles transmission and mortality risk are high",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.mcv1-9-months-high-transmission, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.mcv1-9-months-high-transmission (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "In countries with ongoing transmission in which the risk of measles mortality remains high, MCV1 should be given at age 9 months."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.mcv1-9-months-high-transmission",
+        "title": "MEASLES.Scenario.T1.measles.mcv1-9-months-high-transmission: give MCV1 at 9 months where measles transmission and mortality risk are high",
+        "description": "As a Healthcare Provider, during [process not determined], I give MCV1 at 9 months where measles transmission and mortality risk are high so that infants are protected before the age of highest risk.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv1-9-months-high-transmission"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv2-15-18-months",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.mcv2-15-18-months: give MCV2 between 15 and 18 months",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.mcv2-15-18-months, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.mcv2-15-18-months (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "MCV2 should be given between 15-18 months, as providing MCV2 in the 2nd year of life reduces the rate of accumulation of susceptible children and the risk of an outbreak."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.mcv2-15-18-months",
+        "title": "MEASLES.Scenario.T1.measles.mcv2-15-18-months: give MCV2 between 15 and 18 months",
+        "description": "As a Healthcare Provider, during [process not determined], I give MCV2 between 15 and 18 months so that fewer susceptible children accumulate and outbreaks are less likely.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv2-15-18-months"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv2-at-school-entry",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.mcv2-at-school-entry: schedule routine MCV2 at school entry when MCV1 coverage >90% and enrolment >95%",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.mcv2-at-school-entry, authored from its statement against the smart-immunizations-measles vocabulary. Domain public-health (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.mcv2-at-school-entry (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "If MCV1 coverage is high (>90%) and school enrolment is high (>95%), administration of routine MCV2 at school entry may prove an effective strategy for achieving high coverage and preventing outbreaks in schools."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.mcv2-at-school-entry",
+        "title": "MEASLES.Scenario.T1.measles.mcv2-at-school-entry: schedule routine MCV2 at school entry when MCV1 coverage >90% and enrolment >95%",
+        "description": "As a Health System Manager, during [process not determined], I schedule routine MCV2 at school entry when MCV1 coverage >90% and enrolment >95% so that high MCV2 coverage and fewer school outbreaks.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv2-at-school-entry"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv2-in-schedule",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.mcv2-in-schedule: add a routine MCV2 to the national schedule whatever the MCV1 coverage",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.mcv2-in-schedule, authored from its statement against the smart-immunizations-measles vocabulary. Domain public-health (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.mcv2-in-schedule (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "In addition to the first routine dose of MCV1, all countries should add a second routine dose of MCV2 to their national immunization schedules regardless of the level of MCV1 coverage."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.mcv2-in-schedule",
+        "title": "MEASLES.Scenario.T1.measles.mcv2-in-schedule: add a routine MCV2 to the national schedule whatever the MCV1 coverage",
+        "description": "As a Health System Manager, during [process not determined], I add a routine MCV2 to the national schedule whatever the MCV1 coverage so that every child is offered a second routine dose.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv2-in-schedule"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mild-infection-not-contraindication",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.mild-infection-not-contraindication: vaccinate a client who has a mild concurrent infection",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.mild-infection-not-contraindication, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.mild-infection-not-contraindication (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "Mild concurrent infections are not a contraindication to vaccination."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.mild-infection-not-contraindication",
+        "title": "MEASLES.Scenario.T1.measles.mild-infection-not-contraindication: vaccinate a client who has a mild concurrent infection",
+        "description": "As a Healthcare Provider, during [process not determined], I vaccinate a client who has a mild concurrent infection so that vaccination is not deferred needlessly.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mild-infection-not-contraindication"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-policies-allow-older-ages",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.policies-allow-older-ages: change policies that stop children over 1 year, older children and teenagers being vaccinated",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.policies-allow-older-ages, authored from its statement against the smart-immunizations-measles vocabulary. Domain health-system-strengthening (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.policies-allow-older-ages (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "Policies which prohibit use of vaccine in children >1 year of age, older children and teenagers should be changed to allow these individuals to be vaccinated."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.policies-allow-older-ages",
+        "title": "MEASLES.Scenario.T1.measles.policies-allow-older-ages: change policies that stop children over 1 year, older children and teenagers being vaccinated",
+        "description": "As a Health System Manager, during [process not determined], I change policies that stop children over 1 year, older children and teenagers being vaccinated so that older children can be vaccinated.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.policies-allow-older-ages"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-routine-delivery-not-age-limited",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.routine-delivery-not-age-limited: give MCV1 or MCV2 to an unvaccinated child even outside 9-12 or 15-18 months",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.routine-delivery-not-age-limited, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.routine-delivery-not-age-limited (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "Because many cases of measles occur in children aged >12 months who have not been vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and routine delivery of MCV2 should not be limited to infants 15 to 18 months of age."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.routine-delivery-not-age-limited",
+        "title": "MEASLES.Scenario.T1.measles.routine-delivery-not-age-limited: give MCV1 or MCV2 to an unvaccinated child even outside 9-12 or 15-18 months",
+        "description": "As a Healthcare Provider, during [process not determined], I give MCV1 or MCV2 to an unvaccinated child even outside 9-12 or 15-18 months so that older unvaccinated children are not left susceptible.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.routine-delivery-not-age-limited"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-same-formulation-both-doses",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.same-formulation-both-doses: use the same vaccine formulation for both routine MCV doses",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.same-formulation-both-doses, authored from its statement against the smart-immunizations-measles vocabulary. Domain health-system-strengthening (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.same-formulation-both-doses (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "For programmatic reasons (e.g. to reduce cold storage needs and vaccine wastage), it is recommended that the same vaccine formulation is used for both routine doses of MCV."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.same-formulation-both-doses",
+        "title": "MEASLES.Scenario.T1.measles.same-formulation-both-doses: use the same vaccine formulation for both routine MCV doses",
+        "description": "As a Health System Manager, during [process not determined], I use the same vaccine formulation for both routine MCV doses so that less cold-storage need and less wastage.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.same-formulation-both-doses"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-two-doses-standard",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T1.measles.two-doses-standard: set two doses of measles vaccine for every child as the national programme standard",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.two-doses-standard, authored from its statement against the smart-immunizations-measles vocabulary. Domain public-health (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/l1.json#measles.two-doses-standard (library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md)",
+        "quote": "Reaching all children with 2 doses of measles vaccine should be the standard for all national immunization programmes."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T1.measles.two-doses-standard",
+        "title": "MEASLES.Scenario.T1.measles.two-doses-standard: set two doses of measles vaccine for every child as the national programme standard",
+        "description": "As a Health System Manager, during [process not determined], I set two doses of measles vaccine for every child as the national programme standard so that the programme is planned and judged against two-dose coverage.",
+        "source": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.two-doses-standard"
+      }
+    },
+    {
+      "id": "https://smart.who.int/base/persona/health-system-manager",
+      "type": "persona",
+      "label": "Health System Manager",
+      "derivation": "derived",
+      "skill": "smart-base/recommendation-extraction",
+      "properties": {
+        "id": "DAK.Persona.HealthSystemManager",
+        "title": "Health System Manager",
+        "description": "A professional involved in the administration and oversight of health systems.",
+        "iscoCode": [
+          "1342",
+          "2446",
+          "3354",
+          "4311"
+        ],
+        "personaType": "person",
+        "source": "litlfred/smart-base@4177204:input/fsh/actors/DAK.Persona.HealthSystemManager.fsh (Instance: DAK.Persona.HealthSystemManager)",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "id": "https://smart.who.int/base/persona/healthcare-provider",
+      "type": "persona",
+      "label": "Healthcare Provider",
+      "derivation": "derived",
+      "skill": "smart-base/recommendation-extraction",
+      "properties": {
+        "id": "DAK.Persona.HealthcareProvider",
+        "title": "Healthcare Provider",
+        "description": "A member of the health workforce who delivers health interventions. This group has also been described as 'health workers' or 'healthcare workers'.",
+        "iscoCode": [
+          "2211",
+          "2212",
+          "2221",
+          "2222",
+          "3211",
+          "3212",
+          "3213",
+          "3221",
+          "3222",
+          "3255"
+        ],
+        "personaType": "person",
+        "source": "litlfred/smart-base@4177204:input/fsh/actors/DAK.Persona.HealthcareProvider.fsh (Instance: DAK.Persona.HealthcareProvider)",
+        "resolutionStatus": "resolved"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.two-doses-standard",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-two-doses-standard",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.two-doses-standard is implemented by scenario MEASLES.Scenario.T1.measles.two-doses-standard — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.two-doses-standard"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "inferred",
+        "domainBasis": "A population vaccination standard."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-two-doses-standard",
+      "target": "https://smart.who.int/base/persona/health-system-manager",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "A standard for national programmes is set by programme management.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.two-doses-standard.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-in-schedule",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv2-in-schedule",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.mcv2-in-schedule is implemented by scenario MEASLES.Scenario.T1.measles.mcv2-in-schedule — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv2-in-schedule"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "inferred",
+        "domainBasis": "A national schedule decision."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv2-in-schedule",
+      "target": "https://smart.who.int/base/persona/health-system-manager",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Changing the national schedule is a programme decision.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv2-in-schedule.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-9-months-high-transmission",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv1-9-months-high-transmission",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.mcv1-9-months-high-transmission is implemented by scenario MEASLES.Scenario.T1.measles.mcv1-9-months-high-transmission — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv1-9-months-high-transmission"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client dosing rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv1-9-months-high-transmission",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The dose is given by the provider at the vaccination contact.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv1-9-months-high-transmission.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-15-18-months",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv2-15-18-months",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.mcv2-15-18-months is implemented by scenario MEASLES.Scenario.T1.measles.mcv2-15-18-months — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv2-15-18-months"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client dosing rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv2-15-18-months",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The dose is given at the contact.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv2-15-18-months.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv-minimum-interval",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv-minimum-interval",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.mcv-minimum-interval is implemented by scenario MEASLES.Scenario.T1.measles.mcv-minimum-interval — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv-minimum-interval"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client interval rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv-minimum-interval",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Checked by the provider before giving MCV2.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv-minimum-interval.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.routine-delivery-not-age-limited",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-routine-delivery-not-age-limited",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.routine-delivery-not-age-limited is implemented by scenario MEASLES.Scenario.T1.measles.routine-delivery-not-age-limited — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.routine-delivery-not-age-limited"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client eligibility rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-routine-delivery-not-age-limited",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Applied at the contact by the provider.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.routine-delivery-not-age-limited.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.catch-up-every-opportunity",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-catch-up-every-opportunity",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.catch-up-every-opportunity is implemented by scenario MEASLES.Scenario.T1.measles.catch-up-every-opportunity — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.catch-up-every-opportunity"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client catch-up rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-catch-up-every-opportunity",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Acted on at every contact by the provider.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.catch-up-every-opportunity.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.policies-allow-older-ages",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-policies-allow-older-ages",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.policies-allow-older-ages is implemented by scenario MEASLES.Scenario.T1.measles.policies-allow-older-ages — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.policies-allow-older-ages"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "health-system-strengthening",
+        "domainSource": "inferred",
+        "domainBasis": "A policy change, not a per-client act."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-policies-allow-older-ages",
+      "target": "https://smart.who.int/base/persona/health-system-manager",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Policy is changed by programme management.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.policies-allow-older-ages.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-12-months-low-transmission",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv1-12-months-low-transmission",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.mcv1-12-months-low-transmission is implemented by scenario MEASLES.Scenario.T1.measles.mcv1-12-months-low-transmission — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv1-12-months-low-transmission"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client dosing rule conditional on setting."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv1-12-months-low-transmission",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The dose is given at the contact, once the national schedule sets 12 months.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv1-12-months-low-transmission.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-at-school-entry",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv2-at-school-entry",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.mcv2-at-school-entry is implemented by scenario MEASLES.Scenario.T1.measles.mcv2-at-school-entry — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv2-at-school-entry"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "inferred",
+        "domainBasis": "A delivery-strategy decision."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv2-at-school-entry",
+      "target": "https://smart.who.int/base/persona/health-system-manager",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "A schedule-design choice of the programme.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv2-at-school-entry.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.same-formulation-both-doses",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-same-formulation-both-doses",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.same-formulation-both-doses is implemented by scenario MEASLES.Scenario.T1.measles.same-formulation-both-doses — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.same-formulation-both-doses"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "health-system-strengthening",
+        "domainSource": "inferred",
+        "domainBasis": "Programmatic: supply and wastage."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-same-formulation-both-doses",
+      "target": "https://smart.who.int/base/persona/health-system-manager",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "A procurement and supply decision.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.same-formulation-both-doses.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-situations",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv0-situations",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.mcv0-situations is implemented by scenario MEASLES.Scenario.T1.measles.mcv0-situations — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv0-situations"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client dosing rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv0-situations",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider gives the dose to the infant.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv0-situations.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-recording",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv0-recording",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.mcv0-recording is implemented by scenario MEASLES.Scenario.T1.measles.mcv0-recording — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv0-recording"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "Recording a per-client dose."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv0-recording",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider records the dose.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv0-recording.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-then-routine-doses",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv0-then-routine-doses",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.mcv0-then-routine-doses is implemented by scenario MEASLES.Scenario.T1.measles.mcv0-then-routine-doses — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv0-then-routine-doses"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client dosing rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mcv0-then-routine-doses",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider applies it at later contacts.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mcv0-then-routine-doses.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-routine-vaccination",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-routine-vaccination",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.hiv-routine-vaccination is implemented by scenario MEASLES.Scenario.T1.measles.hiv-routine-vaccination — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-routine-vaccination"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-routine-vaccination",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider vaccinates.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-routine-vaccination.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-high-incidence-mcv0-6-months",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-high-incidence-mcv0-6-months",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.hiv-high-incidence-mcv0-6-months is implemented by scenario MEASLES.Scenario.T1.measles.hiv-high-incidence-mcv0-6-months — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-high-incidence-mcv0-6-months"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client rule conditional on setting."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-high-incidence-mcv0-6-months",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider gives the dose.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-high-incidence-mcv0-6-months.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-haart-additional-dose",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-haart-additional-dose",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.hiv-haart-additional-dose is implemented by scenario MEASLES.Scenario.T1.measles.hiv-haart-additional-dose — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-haart-additional-dose"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-haart-additional-dose",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider gives the dose.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-haart-additional-dose.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-haart-no-cd4-monitoring",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-haart-no-cd4-monitoring",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.hiv-haart-no-cd4-monitoring is implemented by scenario MEASLES.Scenario.T1.measles.hiv-haart-no-cd4-monitoring — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-haart-no-cd4-monitoring"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-haart-no-cd4-monitoring",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider gives the dose.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-haart-no-cd4-monitoring.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-exposed-mcv0",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-exposed-mcv0",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.hiv-exposed-mcv0 is implemented by scenario MEASLES.Scenario.T1.measles.hiv-exposed-mcv0 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-exposed-mcv0"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-hiv-exposed-mcv0",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider decides and gives the dose.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.hiv-exposed-mcv0.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mild-infection-not-contraindication",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mild-infection-not-contraindication",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.mild-infection-not-contraindication is implemented by scenario MEASLES.Scenario.T1.measles.mild-infection-not-contraindication — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mild-infection-not-contraindication"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client screening rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-mild-infection-not-contraindication",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider screens before vaccinating.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.mild-infection-not-contraindication.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.avoid-in-pregnancy",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-avoid-in-pregnancy",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.avoid-in-pregnancy is implemented by scenario MEASLES.Scenario.T1.measles.avoid-in-pregnancy — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.avoid-in-pregnancy"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client contraindication."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-avoid-in-pregnancy",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider screens before vaccinating.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.avoid-in-pregnancy.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.contraindications",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-contraindications",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.contraindications is implemented by scenario MEASLES.Scenario.T1.measles.contraindications — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.contraindications"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client contraindication."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-contraindications",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider screens before vaccinating.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.contraindications.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.live-vaccine-spacing",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-live-vaccine-spacing",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.live-vaccine-spacing is implemented by scenario MEASLES.Scenario.T1.measles.live-vaccine-spacing — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.live-vaccine-spacing"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client interval rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t1-measles-live-vaccine-spacing",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Checked by the provider at the contact.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-1/scenario-mapping.yaml#entries.measles.live-vaccine-spacing.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    }
+  ]
+}

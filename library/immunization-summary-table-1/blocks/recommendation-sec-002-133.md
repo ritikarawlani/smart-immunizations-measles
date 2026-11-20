@@ -1,0 +1,1 @@
+If the primary series is interrupted, vaccination should be resumed without repeating the previous dose. • Quadrivalent conjugate vaccine (ACWY-D, ACWY-CRM and ACWY-TT) schedules differ by product licensure.

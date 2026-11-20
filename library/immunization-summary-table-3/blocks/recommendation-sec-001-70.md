@@ -1,0 +1,1 @@
+For WC-rBS vaccine (Dukoral) 3 doses should be given to children 2-5 years of age, and 2 doses to children aged ≥6 years and adults, with an interval of 1-6 weeks between doses in both groups. • For WC vaccines, interrupted schedules should be resumed without repeating previous dose, regardless of delay.

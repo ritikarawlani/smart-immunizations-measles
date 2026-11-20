@@ -1,0 +1,1 @@
+Table 5 Functional requirements for the Continuity of Care scenario1 Requirement ID Functional requirement UC001 Paper First UC002 Offline Digital UC003 Online Digital DDCC.FXNREQ.001 It SHALL be possible for the Vaccinator to identify the Subject of Care as per the norms and policies of the PHA under whose authority the vaccination is administered.

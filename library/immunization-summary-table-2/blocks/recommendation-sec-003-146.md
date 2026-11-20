@@ -1,0 +1,1 @@
+category II, immediate vaccination is recommended; for category III, immediate vaccination is recommended, and administration of RIG, if indicated. • PrEP schedule: 2-site ID vaccine administered on days 0 and 7.

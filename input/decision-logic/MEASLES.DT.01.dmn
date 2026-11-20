@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" id="MEASLES-DT-01" name="Determine measles-containing vaccine dose due" namespace="http://smart.who.int/immunizations-measles/dmn">
+  <decision id="MEASLES.DT.01" name="Determine measles-containing vaccine dose due">
+    <description>Which MCV dose, if any, a client needs today, from the doses DT.03 counted as valid. Hit policy FIRST. Derived from Table 1's measles footnote and Table 3's measles row (input/L2/provenance.json). Adjudication: pending.</description>
+    <decisionTable id="MEASLES.DT.01_table" hitPolicy="FIRST">
+      <input id="MEASLES.DT.01_in0" label="Valid routine MCV doses (from DT.03)"><inputExpression id="MEASLES.DT.01_ie0" typeRef="number"><text>validRoutineDoses</text></inputExpression></input>
+      <input id="MEASLES.DT.01_in1" label="Age (months)"><inputExpression id="MEASLES.DT.01_ie1" typeRef="number"><text>ageMonths</text></inputExpression></input>
+      <input id="MEASLES.DT.01_in2" label="National schedule setting"><inputExpression id="MEASLES.DT.01_ie2" typeRef="string"><text>transmissionSetting</text></inputExpression><inputValues id="MEASLES.DT.01_iv2"><text>"high","low"</text></inputValues></input>
+      <input id="MEASLES.DT.01_in3" label="Supplementary-dose indication"><inputExpression id="MEASLES.DT.01_ie3" typeRef="boolean"><text>supplementaryIndication</text></inputExpression></input>
+      <input id="MEASLES.DT.01_in4" label="MCV0 already given"><inputExpression id="MEASLES.DT.01_ie4" typeRef="boolean"><text>mcv0Given</text></inputExpression></input>
+      <input id="MEASLES.DT.01_in5" label="Weeks since last valid MCV"><inputExpression id="MEASLES.DT.01_ie5" typeRef="number"><text>weeksSinceLastMcv</text></inputExpression></input>
+      <input id="MEASLES.DT.01_in6" label="Age at MCV1 (months)"><inputExpression id="MEASLES.DT.01_ie6" typeRef="number"><text>ageAtMcv1Months</text></inputExpression></input>
+      <output id="MEASLES.DT.01_out0" label="Dose due" name="doseDue" typeRef="string"/>
+      <output id="MEASLES.DT.01_out1" label="Reason" name="reason" typeRef="string"/>
+      <output id="MEASLES.DT.01_out2" label="Rests on" name="basis" typeRef="string"/>
+      <rule id="MEASLES.DT.01_r1">
+        <description>Table 3, page 2 (measles row and footnote); Table 1, page 3 (measles footnote) — T3:measles.interrupted-delayed-schedule-row T1:measles.two-doses-standard. Two doses complete the series; Table 3 prints no booster.</description>
+        <inputEntry id="MEASLES.DT.01_r1_i0"><text>&gt;= 2</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r1_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r1_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r1_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r1_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r1_i5"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r1_i6"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.01_r1_o0"><text>"none"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r1_o1"><text>"Series complete: two valid routine doses; no booster."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r1_o2"><text>"T3:measles.interrupted-delayed-schedule-row T1:measles.two-doses-standard"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.01_r2">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.mcv0-situations. Supplementary doses start at 6 months.</description>
+        <inputEntry id="MEASLES.DT.01_r2_i0"><text>&lt; 1</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r2_i1"><text>&lt; 6</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r2_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r2_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r2_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r2_i5"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r2_i6"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.01_r2_o0"><text>"none"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r2_o1"><text>"Too young: no MCV dose before 6 months."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r2_o2"><text>"T1:measles.mcv0-situations"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.01_r3">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.mcv0-situations T1:measles.hiv-high-incidence-mcv0-6-months T1:measles.hiv-exposed-mcv0. Record it as MCV0; MCV1 and MCV2 still follow.</description>
+        <inputEntry id="MEASLES.DT.01_r3_i0"><text>&lt; 1</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r3_i1"><text>&lt; 9</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r3_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r3_i3"><text>true</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r3_i4"><text>false</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r3_i5"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r3_i6"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.01_r3_o0"><text>"MCV0"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r3_o1"><text>"Supplementary dose: an infant aged 6-8 months in a situation the footnote lists."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r3_o2"><text>"T1:measles.mcv0-situations T1:measles.hiv-high-incidence-mcv0-6-months T1:measles.hiv-exposed-mcv0"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.01_r4">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.mcv1-9-months-high-transmission T1:measles.mcv1-12-months-low-transmission. Earliest routine MCV1 is 9 months.</description>
+        <inputEntry id="MEASLES.DT.01_r4_i0"><text>&lt; 1</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r4_i1"><text>&lt; 9</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r4_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r4_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r4_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r4_i5"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r4_i6"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.01_r4_o0"><text>"none"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r4_o1"><text>"MCV1 not yet due."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r4_o2"><text>"T1:measles.mcv1-9-months-high-transmission T1:measles.mcv1-12-months-low-transmission"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.01_r5">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.mcv1-9-months-high-transmission T1:measles.routine-delivery-not-age-limited T1:measles.catch-up-every-opportunity. Not limited to 9-12 months.</description>
+        <inputEntry id="MEASLES.DT.01_r5_i0"><text>&lt; 1</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r5_i1"><text>&gt;= 9</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r5_i2"><text>"high"</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r5_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r5_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r5_i5"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r5_i6"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.01_r5_o0"><text>"MCV1"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r5_o1"><text>"First routine dose (from 9 months where measles transmission and mortality risk are high; at any older age if missed)."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r5_o2"><text>"T1:measles.mcv1-9-months-high-transmission T1:measles.routine-delivery-not-age-limited T1:measles.catch-up-every-opportunity"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.01_r6">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.mcv1-12-months-low-transmission T1:measles.routine-delivery-not-age-limited. Context-specific: the national schedule chooses 12 months.</description>
+        <inputEntry id="MEASLES.DT.01_r6_i0"><text>&lt; 1</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r6_i1"><text>&gt;= 12</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r6_i2"><text>"low"</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r6_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r6_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r6_i5"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r6_i6"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.01_r6_o0"><text>"MCV1"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r6_o1"><text>"First routine dose (from 12 months where measles transmission is low; at any older age if missed)."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r6_o2"><text>"T1:measles.mcv1-12-months-low-transmission T1:measles.routine-delivery-not-age-limited"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.01_r7">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.mcv1-12-months-low-transmission</description>
+        <inputEntry id="MEASLES.DT.01_r7_i0"><text>&lt; 1</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r7_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r7_i2"><text>"low"</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r7_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r7_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r7_i5"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r7_i6"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.01_r7_o0"><text>"none"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r7_o1"><text>"MCV1 due at 12 months in this schedule."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r7_o2"><text>"T1:measles.mcv1-12-months-low-transmission"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.01_r8">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.mcv-minimum-interval. Give MCV2 once 4 weeks have passed.</description>
+        <inputEntry id="MEASLES.DT.01_r8_i0"><text>&lt; 2</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r8_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r8_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r8_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r8_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r8_i5"><text>&lt; 4</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r8_i6"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.01_r8_o0"><text>"none"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r8_o1"><text>"Too soon: at least 4 weeks between MCV1 and MCV2."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r8_o2"><text>"T1:measles.mcv-minimum-interval"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.01_r9">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.mcv2-15-18-months T1:measles.routine-delivery-not-age-limited T1:measles.catch-up-every-opportunity. A national schedule may give it at school entry instead (measles.mcv2-at-school-entry).</description>
+        <inputEntry id="MEASLES.DT.01_r9_i0"><text>&lt; 2</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r9_i1"><text>&gt;= 15</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r9_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r9_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r9_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r9_i5"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r9_i6"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.01_r9_o0"><text>"MCV2"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r9_o1"><text>"Second routine dose (from 15 months; at any older age if missed)."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r9_o2"><text>"T1:measles.mcv2-15-18-months T1:measles.routine-delivery-not-age-limited T1:measles.catch-up-every-opportunity"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.01_r10">
+        <description>Table 3, page 2 (measles row and footnote) — T3:measles.interrupted-delayed-schedule-row T3:measles.interrupted-resume-no-repeat. Table 3: doses for those who start late, &gt;12 months: 2 doses (4 weeks).</description>
+        <inputEntry id="MEASLES.DT.01_r10_i0"><text>&lt; 2</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r10_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r10_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r10_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r10_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r10_i5"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r10_i6"><text>&gt; 12</text></inputEntry>
+        <outputEntry id="MEASLES.DT.01_r10_o0"><text>"MCV2"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r10_o1"><text>"Late start: a child who began after 12 months gets the second dose 4 weeks after the first."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r10_o2"><text>"T3:measles.interrupted-delayed-schedule-row T3:measles.interrupted-resume-no-repeat"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.01_r11">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.mcv2-15-18-months</description>
+        <inputEntry id="MEASLES.DT.01_r11_i0"><text>&lt; 2</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r11_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r11_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r11_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r11_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r11_i5"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r11_i6"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.01_r11_o0"><text>"none"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r11_o1"><text>"MCV2 due at 15 months."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r11_o2"><text>"T1:measles.mcv2-15-18-months"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.01_r12">
+        <description>No source: returned only when the inputs match no rule above (a fact is missing or out of range).</description>
+        <inputEntry id="MEASLES.DT.01_r12_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r12_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r12_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r12_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r12_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r12_i5"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.01_r12_i6"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.01_r12_o0"><text>"unknown"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r12_o1"><text>"Not settled: a required fact (doses, age or schedule setting) is missing."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.01_r12_o2"><text>""</text></outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>

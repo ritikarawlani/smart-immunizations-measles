@@ -1,0 +1,1 @@
+22 Both “timely coverage” (vaccines given within the recommended age range) and “total coverage” are useful data points, but for programmes truly interested in monitoring timeliness, coverage surveys offer a more nuanced picture than administrative systems, provided a high proportion of home-based records with vaccination dates are available.

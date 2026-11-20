@@ -1,0 +1,1 @@
+DDCC.FXNREQ.030 If pre-generated HCIDs and pre-printed vaccination cards are used, the generation of the HCIDs, along with any supporting technology to ensure HCIDs will not be duplicated within or across care sites, SHALL be managed by PHA policy.

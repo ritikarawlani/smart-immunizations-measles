@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.061 Data retention/ archiving It SHOULD be possible, with the necessary authority and permissions, to restore information from a chosen archive back into the operational set of information.

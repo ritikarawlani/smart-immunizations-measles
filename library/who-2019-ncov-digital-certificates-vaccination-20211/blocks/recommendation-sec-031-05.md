@@ -1,0 +1,1 @@
+National governance considerations To ensure that national governing bodies can establish mutual trust with other Member States through bilateral or multilateral agreements, governance mechanisms should be in place for the digital signing infrastructure based on each Member State’s governance context.

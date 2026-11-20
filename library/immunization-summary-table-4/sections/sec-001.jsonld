@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "library/immunization-summary-table-4/sections/sec-001",
+  "@type": [
+    "doco:Section"
+  ],
+  "title": "Vaccination of Health Care Workers Recommended",
+  "pageStart": 1,
+  "pageEnd": 1,
+  "contains": [
+    "library/immunization-summary-table-4/blocks/prose-sec-001",
+    "library/immunization-summary-table-4/blocks/recommendation-sec-001-01",
+    "library/immunization-summary-table-4/blocks/recommendation-sec-001-02",
+    "library/immunization-summary-table-4/blocks/recommendation-sec-001-03",
+    "library/immunization-summary-table-4/blocks/recommendation-sec-001-04",
+    "library/immunization-summary-table-4/blocks/recommendation-sec-001-05",
+    "library/immunization-summary-table-4/blocks/recommendation-sec-001-06",
+    "library/immunization-summary-table-4/blocks/recommendation-sec-001-07",
+    "library/immunization-summary-table-4/blocks/recommendation-sec-001-08",
+    "library/immunization-summary-table-4/blocks/recommendation-sec-001-09"
+  ],
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/immunization-summary-table-4",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/immunization-summary-table-4",
+  "provenance": "ingested"
+}

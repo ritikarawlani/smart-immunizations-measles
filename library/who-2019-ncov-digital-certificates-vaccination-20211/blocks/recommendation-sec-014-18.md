@@ -1,0 +1,1 @@
+PROPORTIONALITY, NECESSITY AND DATA MINIMIZATION The processing of personal data should be relevant (have a rational link to specified purposes), adequate (sufficient to properly fulfil the specified purposes) and limited to what is required to fulfil the specified purposes.

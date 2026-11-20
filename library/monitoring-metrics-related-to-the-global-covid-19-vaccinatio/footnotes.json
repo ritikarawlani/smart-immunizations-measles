@@ -1,0 +1,121 @@
+{
+ "$schema": "folio-document-footnotes/v1",
+ "entry": "monitoring-metrics-related-to-the-global-covid-19-vaccinatio",
+ "status": "determined",
+ "body_size": 10.0,
+ "footnotes": [
+  {
+   "id": "fn-p005-1",
+   "page": 5,
+   "mark": "10",
+   "text": "https://gho.unocha.org/",
+   "marks": [
+    {
+     "page": 5,
+     "context": "(OCHA)"
+    }
+   ],
+   "block": "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/prose-page-005"
+  },
+  {
+   "id": "fn-p005-2",
+   "page": 5,
+   "mark": "11",
+   "text": "https://hum-insight.info/",
+   "marks": [
+    {
+     "page": 5,
+     "context": "(WHO) Global Health Cluster"
+    }
+   ],
+   "block": "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/prose-page-005"
+  },
+  {
+   "id": "fn-p005-3",
+   "page": 5,
+   "mark": "12",
+   "text": "The question from the eJRF used to indicate progress and against metric 6 is ‘Does the country have an electronic system that was already in place for routine immunization and was adapted to COVID-19 or new system developed for COVID-19 vaccines and was, is being or will be expanded to other routine vaccines.’",
+   "marks": [
+    {
+     "page": 5,
+     "context": "•\tProxy metric"
+    }
+   ],
+   "block": "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/prose-page-005"
+  },
+  {
+   "id": "fn-p005-4",
+   "page": 5,
+   "mark": "13",
+   "text": "https://www.who.int/teams/immunization-vaccines-and- biologicals/immunization-analysis-and-insights/global- monitoring/who-unicef-joint-reporting-process",
+   "marks": [
+    {
+     "page": 5,
+     "context": "•\tWHO And UNICEF ’s annual eJRF"
+    }
+   ],
+   "block": "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/prose-page-005"
+  },
+  {
+   "id": "fn-p006-1",
+   "page": 6,
+   "mark": "14",
+   "text": "https://www.who.int/clinical-trials-registry-platform",
+   "marks": [
+    {
+     "page": 6,
+     "context": "Registry Platform"
+    }
+   ],
+   "block": "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/prose-page-006"
+  }
+ ],
+ "uncalled_notes": [],
+ "unlinked_marks": [
+  {
+   "page": 3,
+   "mark": "1",
+   "context": "Strategy in a Changing World’ published in July of 2022."
+  },
+  {
+   "page": 3,
+   "mark": "2",
+   "context": "dose."
+  },
+  {
+   "page": 3,
+   "mark": "3",
+   "context": "dose."
+  },
+  {
+   "page": 3,
+   "mark": "4",
+   "context": "6. Core COVID-19 data"
+  },
+  {
+   "page": 3,
+   "mark": "5",
+   "context": "system."
+  },
+  {
+   "page": 4,
+   "mark": "6",
+   "context": "ILO modelled estimates"
+  },
+  {
+   "page": 4,
+   "mark": "7",
+   "context": "•\tWHO Health workforce estimations"
+  },
+  {
+   "page": 5,
+   "mark": "8",
+   "context": "group by country"
+  },
+  {
+   "page": 5,
+   "mark": "9",
+   "context": "•\tUnited Nations population estimates"
+  }
+ ]
+}

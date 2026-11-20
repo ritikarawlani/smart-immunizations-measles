@@ -1,0 +1,30 @@
+[
+  {
+    "location": "p2:s49",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p2:s52",
+    "reason": "duplicate-of:measles.catch-up-every-opportunity",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p2:s53",
+    "reason": "duplicate-of:measles.policies-allow-older-ages",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p2:s62",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  }
+]

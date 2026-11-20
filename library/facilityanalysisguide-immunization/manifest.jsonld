@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/facilityanalysisguide-immunization",
+  "@type": [
+    "cat-harness:SourceDocument"
+  ],
+  "title": "Analysis and use of health facility data: guidance for immunization programme managers",
+  "contains": [],
+  "provenance": "ingested",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/smart-immunizations-measles/directory/library",
+  "meta": {
+    "doc_id": "facilityanalysisguide-immunization",
+    "title_source": "referenced",
+    "title_from": "referenced.json identity.title",
+    "source_file": "facilityanalysisguide-immunization.pdf",
+    "source_sha256": "899513a64de612a66e318efdd8ed84ec1d63eec3a72bba49f73bdfefe387d01b",
+    "disposition": "referenced source — recorded, text withheld by licence"
+  }
+}

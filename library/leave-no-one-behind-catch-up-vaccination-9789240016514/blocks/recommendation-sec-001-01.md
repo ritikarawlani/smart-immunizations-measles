@@ -1,0 +1,1 @@
+All immunization programmes should have a catch-up vaccination policy and catch-up vaccination schedule in place to ensure individuals are able to be vaccinated even if they miss one or more scheduled doses.

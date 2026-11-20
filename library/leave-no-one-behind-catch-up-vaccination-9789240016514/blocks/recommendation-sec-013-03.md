@@ -1,0 +1,1 @@
+• Where policy development or revision can be a lengthy process, interim guidance for catch-up vaccination should be issued (e.g. temporary removal of upper age limits to ensure those missed as a result of service interruption are able to receive the vaccines for which they were due).

@@ -1,0 +1,1 @@
+The creation or development of a DDCC:VS should be based on an assessment of the benefits and costs of its uses, and the advantages and disadvantages of the proposed infrastructure, in comparison with other potential or existing ways to record, validate and verify vaccination records.

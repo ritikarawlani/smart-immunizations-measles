@@ -1,0 +1,1 @@
+An interested party (i.e. a Verifier) who wants to decrypt the encrypted information for the vaccination certificate must have two key things. » The public key corresponding to the private key in the DSC; and » Trust that the public key, from the DSC, came from a certificate authority that the interested party trusts.

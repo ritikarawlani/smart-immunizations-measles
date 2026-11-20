@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.046 Supportability The solution SHALL include a system log of activity in which events of interest, the time and date when they occur, their categorization, and the user (if appropriate) who triggered the event are recorded.

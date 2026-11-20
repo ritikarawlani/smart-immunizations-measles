@@ -1,0 +1,1 @@
+The minimum interval between MCV1 and MCV2 is 4 weeks. • Because many cases of measles occur in children aged >12 months who have not been vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and routine delivery of MCV2 should not be limited to infants 15 to 18 months of age.

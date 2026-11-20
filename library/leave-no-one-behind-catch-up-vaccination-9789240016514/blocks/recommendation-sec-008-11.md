@@ -1,0 +1,1 @@
+If the health worker can confidently answer questions and address concerns about the safety and effectiveness of multiple injections, perform correct technique in administering the vaccine to minimize pain, and initiate the recommendation in a manner that

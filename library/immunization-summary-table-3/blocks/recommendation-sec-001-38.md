@@ -1,0 +1,1 @@
+Record (2025, 39: 411-437). • For administration of PCV to infants, WHO recommends a 3-dose schedule administered either as 2p+1 or as 3p+0, starting as early as 6 weeks of age. • If the 2p+1 schedule is selected, an interval of ≥8 weeks is recommended between the 2 primary doses.

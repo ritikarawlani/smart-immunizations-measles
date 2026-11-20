@@ -1,0 +1,1 @@
+→The terms of reference for the work that needs to be performed should be clearly expressed and at a level of detail that allows solution developers to respond with a high degree of confidence in their bids.

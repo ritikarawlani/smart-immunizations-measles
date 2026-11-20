@@ -1,0 +1,1 @@
+3 1-3 months FSME- Immun and Encepur 1-7 months TBE-Moscow and EnceVir 5-12 months FSME- Immun and Encepur 12 months TBE-Moscow and EnceVir At least 1 every 3 years (see notes) Definition of high-risk; Vaccine options; Timing of booster Recommendations for children in some high-risk populations Typhoid 15 TCV (Typbar) >6 months 1

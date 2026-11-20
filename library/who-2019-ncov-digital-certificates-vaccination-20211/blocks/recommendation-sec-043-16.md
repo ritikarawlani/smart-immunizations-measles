@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.013 Disaster recovery, business continuity, resilience The system SHOULD provide near-instantaneous switch-over if any one component of the system architecture fails critically (database server, web server, system monitoring job, service bus, etc.).

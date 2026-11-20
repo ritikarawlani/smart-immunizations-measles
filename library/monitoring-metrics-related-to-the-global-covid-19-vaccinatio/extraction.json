@@ -1,0 +1,55 @@
+{
+  "$schema": "folio-library-extraction/v1",
+  "doc_id": "monitoring-metrics-related-to-the-global-covid-19-vaccinatio",
+  "kinds": {
+    "contents": {
+      "state": "partial",
+      "note": "contents refused, page granularity instead: 8 inferred entries, 75% of them starting on page(s) 2, 3 of 7 — a list found ON a page, not the document's structure",
+      "tool": "pdf-structure.py",
+      "version": "0b311238188a",
+      "at": "2026-11-20"
+    },
+    "sections": {
+      "state": "found",
+      "count": 7,
+      "note": "one section per page",
+      "tool": "pdf-structure.py",
+      "version": "0b311238188a",
+      "at": "2026-11-20"
+    },
+    "figures": {
+      "state": "none",
+      "count": 0,
+      "note": "2 caption(s) read off the pages",
+      "tool": "pdf-images.py+pdf-vector-figures.py",
+      "at": "2026-11-20"
+    },
+    "tables": {
+      "state": "found",
+      "count": 2,
+      "note": "drafts; backend pdfplumber 0.11.10; 1 candidate(s) dropped: under two columns or no row under the header",
+      "tool": "pdf-tables.py",
+      "version": "b3b9e4012c21",
+      "at": "2026-11-20"
+    },
+    "references": {
+      "state": "not-extracted",
+      "note": "the instance declares no references directory to hold the nodes",
+      "tool": "references-extract",
+      "at": "2026-11-20"
+    },
+    "glossary": {
+      "state": "not-extracted",
+      "note": "the instance declares no glossary directory to hold the scheme",
+      "tool": "glossary-from-source",
+      "at": "2026-11-20"
+    },
+    "footnotes": {
+      "state": "found",
+      "count": 5,
+      "note": "called from the text; also kept: 9 mark(s) with no note found",
+      "tool": "pdf-footnotes.py",
+      "at": "2026-11-20"
+    }
+  }
+}

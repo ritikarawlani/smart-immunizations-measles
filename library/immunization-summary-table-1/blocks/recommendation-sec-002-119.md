@@ -1,0 +1,1 @@
+Vaccination should be implemented in relevant settings as part of comprehensive cholera control strategies or while other activities are being developed. • WC vaccines (Shanchol, Euvchol, and mORCVAX) 2 doses should be given 14 days apart to individuals ≥1 year of age.

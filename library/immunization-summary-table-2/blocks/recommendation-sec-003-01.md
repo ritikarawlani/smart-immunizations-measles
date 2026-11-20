@@ -1,0 +1,1 @@
+Dengue (TAK-003) 20 6 years (min) 2 3 months (min) High transmission areas; Pregnancy and lactation; Comorbidities Malaria 21 5 months 4 4 weeks (min) 4 weeks (min) 6-18 months (min 4 weeks) Moderate to high transmission; Seasonal strategy Recommendations for children receiving vaccinations from immunization programmes with certain characteristics

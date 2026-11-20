@@ -1,0 +1,1 @@
+Requirement ID Category Non-functional requirement DDCC.NFXNREQ.031 Security and privacy Information about the governance and restricted use of data SHOULD be available within any solution alongside the data concerned, so that users have a clear and consistent reminder of the level of confidentiality, sensitivity and the permitted use of the data they are currently viewing.

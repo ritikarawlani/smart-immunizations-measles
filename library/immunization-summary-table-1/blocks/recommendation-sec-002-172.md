@@ -1,0 +1,1 @@
+Record (2025, 47: 567-590). • WHO recommends the use of varicella vaccines for the prevention of varicella in children in populations where varicella is considered an important public health problem • In general, countries introducing the varicella vaccine should aim to achieve high coverage levels with varicella vaccination both nationally and subnationally.

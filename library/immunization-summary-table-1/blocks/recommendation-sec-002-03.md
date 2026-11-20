@@ -1,0 +1,1 @@
+Summary Table 1 - Notes • Refer to https://www.who.int/teams/immunization-vaccines-and- biologicals/policies/position-papers for the most recent version of the tables and position papers. • The attached table summarizes the recommendations for vaccine administration found in the WHO position papers which are published in the Weekly Epidemiological Review.

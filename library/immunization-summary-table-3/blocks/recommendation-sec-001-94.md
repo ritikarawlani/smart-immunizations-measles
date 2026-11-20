@@ -1,0 +1,1 @@
+Record (2024, 82: 49-60). • If implemented, mumps vaccine should be administered with measles and rubella as MMR or MMRV combination vaccine and follow the same schedule. • Regardless of the duration of delay, interrupted schedules should be resumed as soon as possible without repeating previous doses. • Minimum interval between doses is 4 weeks.

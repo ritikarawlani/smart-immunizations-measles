@@ -1,0 +1,1 @@
+In addition, the ethical issues and risks raised by a DDCC:VS, and the impact of trade-offs between the benefits and burdens accrued to individuals, families, businesses and other relevant stakeholders should be assessed prior to implementation.

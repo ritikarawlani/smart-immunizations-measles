@@ -1,0 +1,1 @@
+However, other vaccines that can be given earlier in pregnancy (e.g. tetanus vaccine) should not be delayed or deferred for co-administration with RSVpreF. • RSV vaccine can be given in subsequent pregnancies as there is potential benefit and no expected harm from revaccination.

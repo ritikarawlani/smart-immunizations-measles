@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/immunization-summary-table-2/blocks/table-008",
+  "@type": [
+    "folio-assistant-core:Table",
+    "doco:Table"
+  ],
+  "kind": "table",
+  "label": "Table 8",
+  "file": "../tables/table-8.csv",
+  "headers": [
+    "",
+    "20 Dengue (TAK-003)"
+  ],
+  "pageStart": 13,
+  "pageEnd": 14,
+  "derivedFrom": "library/immunization-summary-table-2/sections/sec-003",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/immunization-summary-table-2",
+  "provenance": "ingested"
+}

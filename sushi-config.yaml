@@ -1,0 +1,57 @@
+# L3 of the measles SMART Guideline (issue #1). Every artefact under input/fsh
+# and input/cql names the L2 asset it implements (input/L3/provenance.json).
+id: smart.who.int.immunizations-measles
+canonical: http://smart.who.int/immunizations-measles
+name: ImmunizationsMeasles
+title: "SMART Immunizations — Measles"
+description: Measles immunization DAK (L2) and FHIR IG (L3), derived from the L1 sources attached to ritikarawlani/smart-immunizations-measles#1.
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: ci-build
+license: CC-BY-SA-3.0-IGO
+publisher:
+  name: WHO
+  url: http://who.int
+
+dependencies:
+  smart.who.int.base: 1.0.0
+
+pages:
+  index.md:
+    title: Home
+  l2-dependencies.md:
+    title: L2 dependencies
+  personas.md:
+    title: Personas
+  user-scenarios.md:
+    title: User scenarios
+  business-processes.md:
+    title: Business processes
+  dictionary.md:
+    title: Core data elements
+  decision-logic.md:
+    title: Decision logic
+  indicators.md:
+    title: Indicators
+  requirements.md:
+    title: Functional requirements
+  testing.md:
+    title: Test scenarios
+  gap-report.md:
+    title: Gap report
+
+menu:
+  Home: index.html
+  DAK:
+    Personas: personas.html
+    User scenarios: user-scenarios.html
+    Business processes: business-processes.html
+    Core data elements: dictionary.html
+    Decision logic: decision-logic.html
+    Indicators: indicators.html
+    Requirements: requirements.html
+    Test scenarios: testing.html
+  Gap report: gap-report.html
+  Artifacts: artifacts.html

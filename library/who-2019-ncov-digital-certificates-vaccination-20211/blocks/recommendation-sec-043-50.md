@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.052 Usability It SHOULD be possible to deliver definition/explanation text in the language currently selected for the interface via the solution, so that acronyms, jargon, technical terms, etc. can be clarified where necessary.

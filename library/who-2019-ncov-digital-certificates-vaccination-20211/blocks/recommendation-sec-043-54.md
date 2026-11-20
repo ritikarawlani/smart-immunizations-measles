@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.060 Data retention/ archiving Any archive material SHOULD be labelled with metadata about the information it contains and the date and time it was created, to facilitate quick navigation of all archived material.

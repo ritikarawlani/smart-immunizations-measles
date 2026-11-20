@@ -1,0 +1,1 @@
+Supplementary Immunization Activities (SIAs) • If there’s greater urgency to vaccinate a large number of susceptible individuals with specific antigens, non-selective SIAs may be considered.41 • SIAs enable the vaccination of a large number of individuals regardless of their vaccination history by vaccinating all within a target age group.

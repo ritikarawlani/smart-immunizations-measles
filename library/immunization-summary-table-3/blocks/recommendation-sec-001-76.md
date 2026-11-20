@@ -1,0 +1,1 @@
+Record (2024, 99: 1-10). • WHO now recommends the use of Men5CV (pentavalent meningococcal conjugate vaccine) as a single-dose schedule beginning at 9 months of age, in alignment with routine immunization schedules.

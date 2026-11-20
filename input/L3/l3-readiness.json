@@ -1,0 +1,44 @@
+{
+ "$comment": "smart-base l3-readiness, run before stage 6. Use case: measles vaccination. L1 sources included: summary tables 1-4 and the catch-up guide (each extracted under l1-extractions/); the COVID-19 metrics and certificates guides hold no measles recommendation and are not included; the facility analysis and PAHO EIR guides are referenced only (licence).",
+ "ready": true,
+ "findings": [],
+ "checked": {
+  "l1Extractions": [
+   "immunization-summary-table-1",
+   "leave-no-one-behind-catch-up-vaccination-9789240016514",
+   "immunization-summary-table-4",
+   "immunization-summary-table-3"
+  ],
+  "l2Assets": [
+   "input/business-processes/MEASLES.A.bpmn",
+   "input/business-processes/MEASLES.B.bpmn",
+   "input/decision-logic/MEASLES.DT.01.dmn",
+   "input/decision-logic/MEASLES.DT.02.dmn",
+   "input/decision-logic/MEASLES.DT.03.dmn",
+   "input/decision-logic/MEASLES.DT.04.dmn",
+   "input/dictionary/measles-core-data-elements.csv",
+   "input/indicators/measles-indicators.csv",
+   "input/pagecontent/personas.md",
+   "input/pagecontent/user-scenarios.md",
+   "input/system-requirements/measles-functional-requirements.csv"
+  ],
+  "l3Planned": [
+   "input/cql/MEASLESDT01.cql",
+   "input/fsh/decisions/MEASLESDT01.fsh",
+   "input/cql/MEASLESDT02.cql",
+   "input/fsh/decisions/MEASLESDT02.fsh",
+   "input/cql/MEASLESDT03.cql",
+   "input/fsh/decisions/MEASLESDT03.fsh",
+   "input/cql/MEASLESDT04.cql",
+   "input/fsh/decisions/MEASLESDT04.fsh",
+   "input/cql/MEASLESIndicators.cql",
+   "input/fsh/measures.fsh",
+   "input/fsh/codesystem.fsh",
+   "input/fsh/valuesets.fsh",
+   "input/fsh/models/MeaslesVaccinationContact.fsh",
+   "input/fsh/actors.fsh",
+   "input/fsh/requirements.fsh"
+  ],
+  "reviews": 27
+ }
+}

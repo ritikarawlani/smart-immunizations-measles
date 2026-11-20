@@ -1,0 +1,1 @@
+Table A5.1 Non-functional requirements for the DDCC:VS Requirement ID Category Non-functional requirement DDCC.NFXNREQ.001 Accessibility Any solution SHALL provide optimization for delivery to users with low bandwidth, as in a low digital maturity setting users will often have limited (or intermittent) Internet connectivity.

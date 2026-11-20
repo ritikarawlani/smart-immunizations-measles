@@ -1,0 +1,1 @@
+Unless given together with other live viral vaccines (measles, MR, MMR), it should be administered at a minimum interval of 28 days. • Countries should consider vaccination of potentially susceptible health-care workers (i.e. unvaccinated and with no history of varicella) with 2 doses of varicella vaccine.

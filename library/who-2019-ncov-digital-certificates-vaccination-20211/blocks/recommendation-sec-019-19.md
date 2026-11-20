@@ -1,0 +1,1 @@
+DDCC.FXNREQ.019 Any offline Digital Health Solution for vaccination registration SHOULD be designed for quality data capture, including enforcement of data validation rules at the point of data entry.

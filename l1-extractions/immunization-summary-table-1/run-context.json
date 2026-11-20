@@ -1,0 +1,70 @@
+{
+  "$schema": "folio-run-context/v1",
+  "platform": {
+    "commit": "56af2a7482767f82443d649a9cf94a599a832171"
+  },
+  "mounts": {
+    "state": "locked",
+    "lock": {
+      "file": "index.lock.json",
+      "sha256": "3c3cdab88a3d8f36e39279578f8ae63ec9d5282830a87c440160671092a42450"
+    },
+    "instances": [
+      {
+        "instance": "bootstrap",
+        "repository": "litlfred/bootstrap",
+        "sha": "417192bef3ca2b9d6f3481b41c39f1f747cae57f"
+      },
+      {
+        "instance": "bootstrap-tools",
+        "repository": "litlfred/bootstrap-tools",
+        "sha": "60e5ffc23b88137c0d9eaef00601da89237df094"
+      },
+      {
+        "instance": "cat-harness",
+        "repository": "litlfred/cat-harness",
+        "sha": "44f3c050ce5565cab593436a2450004e6dc7a4bb"
+      },
+      {
+        "instance": "cat-harness-tools",
+        "repository": "litlfred/cat-harness-tools",
+        "sha": "6dd108f5cdb33eae9482a4b55f1f88b3f98ecb4b"
+      },
+      {
+        "instance": "fhir-harness",
+        "repository": "litlfred/fhir-harness",
+        "sha": "d34ae7692a304983a495b20b62f37b8b98d3cb85"
+      },
+      {
+        "instance": "folio-assistant-core",
+        "repository": "litlfred/folio-assistant-core",
+        "sha": "419d59505a971a36d7e2e0162705be1828296188"
+      },
+      {
+        "instance": "smart-base",
+        "repository": "litlfred/smart-base",
+        "sha": "328e07312e44958d4d749c99dcee8f8209e7e55a"
+      },
+      {
+        "instance": "who-iris",
+        "repository": "litlfred/who-iris",
+        "sha": "bc7e22c3f6ee56bcf59b4f9a24edfa34df8ab707"
+      }
+    ]
+  },
+  "releases": [],
+  "invoker": {
+    "kind": "system",
+    "id": "smart-base/L1/scripts/l1-recommendation-candidates.ts",
+    "script_hash": "bbab48283b8c36f6516f73c7c3541d431491f6c270101ccd9bad93cc6c32495e"
+  },
+  "inputs": [
+    {
+      "hash": "9d746327a409",
+      "inputs": [
+        "l1-extractions/immunization-summary-table-1/curation.yaml",
+        "library/immunization-summary-table-1/structure.json"
+      ]
+    }
+  ]
+}

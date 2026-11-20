@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" id="MEASLES-DT-03" name="Count a recorded measles-containing vaccine dose" namespace="http://smart.who.int/immunizations-measles/dmn">
+  <decision id="MEASLES.DT.03" name="Count a recorded measles-containing vaccine dose">
+    <description>How one recorded MCV dose counts, evaluated dose by dose in date order. Hit policy FIRST. Adjudication: pending.</description>
+    <decisionTable id="MEASLES.DT.03_table" hitPolicy="FIRST">
+      <input id="MEASLES.DT.03_in0" label="Documented (home-based record or register)"><inputExpression id="MEASLES.DT.03_ie0" typeRef="boolean"><text>documented</text></inputExpression></input>
+      <input id="MEASLES.DT.03_in1" label="Age at the dose (months)"><inputExpression id="MEASLES.DT.03_ie1" typeRef="number"><text>ageAtDoseMonths</text></inputExpression></input>
+      <input id="MEASLES.DT.03_in2" label="Valid routine doses before this one"><inputExpression id="MEASLES.DT.03_ie2" typeRef="number"><text>priorRoutineDoses</text></inputExpression></input>
+      <input id="MEASLES.DT.03_in3" label="Weeks since the previous valid routine dose"><inputExpression id="MEASLES.DT.03_ie3" typeRef="number"><text>weeksSincePreviousRoutine</text></inputExpression></input>
+      <output id="MEASLES.DT.03_out0" label="Counts as" name="countsAs" typeRef="string"/>
+      <output id="MEASLES.DT.03_out1" label="Reason" name="reason" typeRef="string"/>
+      <output id="MEASLES.DT.03_out2" label="Rests on" name="basis" typeRef="string"/>
+      <rule id="MEASLES.DT.03_r1">
+        <description>catch-up guide, page 14 — CU:catchup.unconfirmed-assume-unvaccinated CU:catchup.confirm-by-written-record</description>
+        <inputEntry id="MEASLES.DT.03_r1_i0"><text>false</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r1_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r1_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r1_i3"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.03_r1_o0"><text>"not counted"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r1_o1"><text>"No written evidence: treat as not received and offer vaccination."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r1_o2"><text>"CU:catchup.unconfirmed-assume-unvaccinated CU:catchup.confirm-by-written-record"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.03_r2">
+        <description>catch-up guide, page 14; Table 1, page 3 (measles footnote) — CU:catchup.invalid-early-dose-repeat T1:measles.mcv0-situations</description>
+        <inputEntry id="MEASLES.DT.03_r2_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r2_i1"><text>&lt; 6</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r2_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r2_i3"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.03_r2_o0"><text>"invalid"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r2_o1"><text>"Given before the minimum age of 6 months: not valid; repeat as age-appropriate."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r2_o2"><text>"CU:catchup.invalid-early-dose-repeat T1:measles.mcv0-situations"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.03_r3">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.mcv0-recording T1:measles.mcv0-then-routine-doses</description>
+        <inputEntry id="MEASLES.DT.03_r3_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r3_i1"><text>&lt; 9</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r3_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r3_i3"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.03_r3_o0"><text>"MCV0"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r3_o1"><text>"Given before 9 months: a supplementary dose, recorded as MCV0; MCV1 and MCV2 still follow."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r3_o2"><text>"T1:measles.mcv0-recording T1:measles.mcv0-then-routine-doses"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.03_r4">
+        <description>Table 1, page 3 (measles footnote); catch-up guide, page 14 — T1:measles.mcv-minimum-interval CU:catchup.invalid-early-dose-repeat</description>
+        <inputEntry id="MEASLES.DT.03_r4_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r4_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r4_i2"><text>&gt;= 1</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r4_i3"><text>&lt; 4</text></inputEntry>
+        <outputEntry id="MEASLES.DT.03_r4_o0"><text>"invalid"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r4_o1"><text>"Less than 4 weeks after the previous MCV: not valid; repeat 4 weeks after this dose."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r4_o2"><text>"T1:measles.mcv-minimum-interval CU:catchup.invalid-early-dose-repeat"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.03_r5">
+        <description>catch-up guide, page 19 — CU:catchup.mcv2-only-after-mcv1. A dose is never counted as MCV2 without an MCV1.</description>
+        <inputEntry id="MEASLES.DT.03_r5_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r5_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r5_i2"><text>&lt; 1</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r5_i3"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.03_r5_o0"><text>"MCV1"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r5_o1"><text>"The first valid routine dose, whatever it was recorded as."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r5_o2"><text>"CU:catchup.mcv2-only-after-mcv1"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.03_r6">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.mcv2-15-18-months</description>
+        <inputEntry id="MEASLES.DT.03_r6_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r6_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r6_i2"><text>&lt; 2</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r6_i3"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.03_r6_o0"><text>"MCV2"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r6_o1"><text>"The second valid routine dose."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r6_o2"><text>"T1:measles.mcv2-15-18-months"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.03_r7">
+        <description>Table 3, page 2 (measles row and footnote) — T3:measles.interrupted-delayed-schedule-row</description>
+        <inputEntry id="MEASLES.DT.03_r7_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r7_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r7_i2"><text>&gt;= 2</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r7_i3"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.03_r7_o0"><text>"extra"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r7_o1"><text>"Series already complete; this dose is not needed."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r7_o2"><text>"T3:measles.interrupted-delayed-schedule-row"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.03_r8">
+        <description>No source: returned only when the inputs match no rule above (a fact is missing or out of range).</description>
+        <inputEntry id="MEASLES.DT.03_r8_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r8_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r8_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.03_r8_i3"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.03_r8_o0"><text>"unknown"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r8_o1"><text>"Not settled: the dose date, age or earlier doses are missing."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.03_r8_o2"><text>""</text></outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>

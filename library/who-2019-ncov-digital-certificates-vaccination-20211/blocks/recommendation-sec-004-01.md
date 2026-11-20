@@ -1,0 +1,1 @@
+There are a wide range of digital solutions that can be used to document COVID-19 vaccination, and choices on design and implementation should be guided by balancing various values and contextual considerations.

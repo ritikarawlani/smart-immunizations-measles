@@ -1,0 +1,1 @@
+SHARED HEALTH RECORD (SHR): A repository that may be used to maintain longitudinal health information about a Subject of Care and to support continuity of care over time, across different care delivery sites.

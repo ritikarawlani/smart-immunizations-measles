@@ -1,0 +1,1 @@
+With regard to the nature and sensitivity of the personal data processed in the interest of the application of the DDCC:VS, appropriate organizational, physical and technical security measures should be implemented for both electronic and paper-based data in order to protect the security and integrity of personal data.

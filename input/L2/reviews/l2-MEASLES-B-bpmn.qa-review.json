@@ -1,0 +1,23 @@
+{
+ "$schema": "qa-review/v1",
+ "subject": {
+  "kind": "business-process",
+  "id": "l2-MEASLES-B-bpmn",
+  "path": "input/business-processes/MEASLES.B.bpmn"
+ },
+ "findings": [],
+ "notes": [
+  {
+   "id": "l2-MEASLES-B-bpmn-request",
+   "author": {
+    "kind": "agent",
+    "id": "claude"
+   },
+   "rationale": "Review requested of role `programme-manager`: Is this how defaulters are found and coverage reported? Staged on the PR's branch; no decision recorded yet (pending).",
+   "cites": [],
+   "written_at": "2026-11-20T00:00:00Z"
+  }
+ ],
+ "decisions": [],
+ "updated_at": "2026-11-20T00:00:00Z"
+}

@@ -1,0 +1,1 @@
+Requirement ID Functional requirement UC004 Manual UC005 Offline UC006 National UC007 International DDCC.FXNREQ.051 A PHA SHALL be able to return a verification status, as defined by the implementer, to a requester, based on the information provided.

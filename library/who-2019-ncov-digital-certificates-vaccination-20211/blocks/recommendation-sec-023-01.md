@@ -1,0 +1,1 @@
+Table 9 Functional requirements for the Proof of Vaccination scenario1 Requirement ID Functional requirement UC004 Manual UC005 Offline UC006 National UC007 International DDCC.FXNREQ.037 Paper cards and the validation markings they bear SHOULD be designed to combat fraud and misuse.

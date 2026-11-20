@@ -1,0 +1,282 @@
+{
+  "$schema": "l1-recommendation-candidates/v1",
+  "entry": "library/immunization-summary-table-4",
+  "curation": {
+    "path": "l1-extractions/immunization-summary-table-4/curation.yaml",
+    "sha256": "395a55778ccb36dc0773f5f59461d977124d4a313d180321cd3fa9ba71590ef2"
+  },
+  "publication": {
+    "iri": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149138-immunization-summary-table-4-pdf",
+    "identifiers": [
+      {
+        "type": "url",
+        "value": "https://github.com/user-attachments/files/35149138/immunization-summary-table-4.pdf"
+      }
+    ],
+    "title": "Table 4: Summary of WHO Position Papers - Immunization of Health Care Workers",
+    "publicationType": "summary-table",
+    "proposedBy": "curation"
+  },
+  "counts": {
+    "statementClass": "recommendation",
+    "recommendations": 1,
+    "remarks": 0,
+    "partOf": 0,
+    "excluded": 0,
+    "undecided": 20
+  },
+  "coverage": {
+    "normative": 21,
+    "captured": 1,
+    "excluded": 0,
+    "unaccounted": 20,
+    "capturedPct": 4.76,
+    "accountedForPct": 4.76
+  },
+  "hints": {
+    "licence-or-imprint": "licence, rights or imprint text — normally excluded as `editorial`",
+    "glossary-page": "printed on a glossary or abbreviations page — a definition, not a recommendation",
+    "layout-fragment": "the sentence looks split by the page layout (a table, list or figure); read the page before deciding"
+  },
+  "candidates": [
+    {
+      "location": "p1:s1",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "BCG 1 BCG vaccination is recommended for unvaccinated TST- or IGRA-negative persons at risk of occupational exposure in low and high TB incidence areas (e.g. healthcare workers, laboratory workers, medical students, prison workers, other individuals with occupational exposure).",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s3",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Polio 3 All HCWs should have completed a full course of primary vaccination against polio.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s5",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "All health-care workers should up to date with immunization as recommended in their national immunization schedules.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s6",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Measles 5 All HCWs should be immune to measles and proof/documentation of immunity or immunization should be required as a condition of enrollment into training and employment.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "recommendation",
+      "keys": [
+        "measles.health-worker-immunity"
+      ]
+    },
+    {
+      "location": "p1:s7",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Rubella 6 If rubella vaccine has been introduced into the national programme, all HCWs should be immune to rubella and proof/documentation of immunity or immunization should be required as a condition of enrollment into training and employment.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s8",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Meningococcal 7 One booster dose 3-5 years after the primary dose may be given to persons considered to be at continued risk of exposure, including HCWs.",
+      "markers": [
+        "permission"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s10",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Annual immunization with a single dose is recommended.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s11",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Varicella 9 Countries should consider vaccination of potentially susceptible health-care workers (i.e. unvaccinated and with no history of varicella) with 2 doses of varicella vaccine.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s12",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Pertussis 10 HWCs should be prioritized as a group to receive pertussis vaccine.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s1",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Tetanus 11 There is currently no recommendation regarding HCWs.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s4",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "There is currently no recommendation regarding HCWs.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s13",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Workers at high-risk in endemic areas, such as those involved in vector control, should be vaccinated.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s14",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Yellow Fever 17 Individuals in endemic countries and travelers to these countries should receive a single dose of yellow fever vaccine.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s16",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "There is currently no recommendation regarding HCWs.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s18",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Workers at high-risk in endemic areas, such as those involved in vector control, should be vaccinated.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s19",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Typhoid 19 Typhoid vaccines should be employed as part of comprehensive control strategies in areas where the disease is endemic.",
+      "markers": [
+        "obligation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s21",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "There is currently no recommendation regarding HCWs.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s23",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "There is currently no recommendation regarding HCWs.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s26",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Rabies 22 PrEP may be considered for medical professionals who regularly provide care to persons with rabies.",
+      "markers": [
+        "permission"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s28",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "All health-care workers should be up-to-date with immunization as recommended in their national immunization schedule.",
+      "markers": [
+        "obligation",
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    },
+    {
+      "location": "p1:s30",
+      "page": 1,
+      "file": "sec-front-matter.md",
+      "text": "Malaria 25 Vaccine not recommended for adults.",
+      "markers": [
+        "recommendation"
+      ],
+      "hints": [],
+      "decision": "undecided"
+    }
+  ],
+  "runContext": {
+    "sha256": "6c81574754adb01b029196b85d862a1d5a7b70824c6ae7ab8b93af9c65130af2"
+  }
+}

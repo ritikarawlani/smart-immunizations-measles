@@ -1,0 +1,1 @@
+DDCC.FXNREQ.020 If patients’ records are held in an offline Digital Health Solution available at the time of vaccination, then it SHOULD be possible for an authorized user to view the record for the Subject of Care, including pertinent medical history, per PHA policies.

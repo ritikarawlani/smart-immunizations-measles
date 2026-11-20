@@ -1,0 +1,1 @@
+Requirement ID Functional requirement UC001 Paper First UC002 Offline Digital UC003 Online Digital DDCC.FXNREQ.008 It SHALL be possible to enter or attach the HCID as a 1D barcode to any paper vaccination card issued to the Subject of Care (or the HCID card holder).

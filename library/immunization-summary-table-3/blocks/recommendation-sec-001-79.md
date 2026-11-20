@@ -1,0 +1,1 @@
+Children 2-11 months require 2 doses administered at an interval of a least 2 months and a booster about 1 year after. • If the primary series is interrupted, vaccination should be resumed without repeating the previous dose.

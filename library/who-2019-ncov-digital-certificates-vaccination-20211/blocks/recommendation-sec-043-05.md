@@ -1,0 +1,1 @@
+→REGULATION AND COMPLIANCE: Any regulatory/legal constraints with which the system must comply, such as data protection policies, WHO cloud policies, and information management and retention rules of the jurisdiction(s) in which the solution will run.

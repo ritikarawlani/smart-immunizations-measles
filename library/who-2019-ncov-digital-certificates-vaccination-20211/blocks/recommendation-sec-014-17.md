@@ -1,0 +1,1 @@
+Personal data processed in the interest of the application of the DDCC:VS should be relevant to the purposes for which they are to be used and, to the extent necessary for those purposes, be accurate, complete, and kept up to date.

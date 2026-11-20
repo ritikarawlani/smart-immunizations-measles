@@ -1,0 +1,1 @@
+As part of this process, local disease epidemiology, current immunization coverage levels and programme performance, health system capacity, and implications on budget and logistics (see Ensuring availability of vaccines and supplies for catch-up vaccination below) should be taken into consideration.

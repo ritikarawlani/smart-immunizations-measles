@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.002 Accessibility Any solution SHOULD provide offline availability that permits a user to continue to work with data while offline, such as by creating a set of requests to be sent when next online.

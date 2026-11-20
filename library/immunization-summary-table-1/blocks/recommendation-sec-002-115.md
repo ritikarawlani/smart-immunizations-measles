@@ -1,0 +1,1 @@
+Booster doses are recommended every 3 years for those at continued risk of exposure. • The currently recommended booster interval should be maintained until more data have been obtained on the duration of protection induced by the Russian vaccines. • Regardless of the duration of the delay, interrupted schedules should be resumed without repeating previous doses.

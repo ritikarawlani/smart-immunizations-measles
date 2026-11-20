@@ -1,0 +1,4243 @@
+{
+  "$schema": "folio-tabular-csvw/v1",
+  "doc_id": "who-2019-ncov-digital-certificates-vaccination-20211",
+  "source": {
+    "file": "WHO-2019-nCoV-Digital_certificates-vaccination-2021.1.pdf",
+    "sha256": "f57b14cb2acb728d74f37934b2f16f21bc6f1841bbbe4fd0a878ed26c4e9c607",
+    "bytes": 2238470,
+    "pages": 99,
+    "text_source": "embedded",
+    "extractor": "pymupdf",
+    "mtime": "2026-11-20T12:49:37Z",
+    "mimetype_sniffed": "application/pdf",
+    "mimetype_source": "magic-bytes",
+    "note": "tables extracted from the PDF pages by pdf-tables.py — drafts, not checked against the page"
+  },
+  "narrative": {
+    "text": null,
+    "state": "not-authored"
+  },
+  "tables": [
+    {
+      "url": "tables/table-1.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-a",
+            "titles": "Page A",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 4,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 1",
+      "fac:pages": [
+        1
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p001-001",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-2.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-b",
+            "titles": "Page B",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 2",
+      "fac:pages": [
+        2
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p002-002",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-3.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-iii",
+            "titles": "Page iii",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 3",
+      "fac:pages": [
+        5
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p005-005",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-4.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-iv",
+            "titles": "Page iv",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 4",
+      "fac:pages": [
+        6
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p006-006",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-5.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-v",
+            "titles": "Page v",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 5",
+      "fac:pages": [
+        7
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p007-007",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-6.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-vi",
+            "titles": "Page vi",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 6",
+      "fac:pages": [
+        8
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p008-008",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-7.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-vii",
+            "titles": "Page vii",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 7",
+      "fac:pages": [
+        9
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p009-009",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-8.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-viii",
+            "titles": "Page viii",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 8",
+      "fac:pages": [
+        10
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p010-010",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-9.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-ix",
+            "titles": "Page ix",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 9",
+      "fac:pages": [
+        11
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p011-011",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-10.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-x",
+            "titles": "Page x",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 10",
+      "fac:pages": [
+        12
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p012-012",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-11.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-xi",
+            "titles": "Page xi",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 4,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 11",
+      "fac:pages": [
+        13
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p013-013",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-12.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-xii",
+            "titles": "Page xii",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 3,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 12",
+      "fac:pages": [
+        14
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p014-014",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-13.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-xiii",
+            "titles": "Page xiii",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 13",
+      "fac:pages": [
+        15
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p015-015",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-14.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-xiv",
+            "titles": "Page xiv",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 14",
+      "fac:pages": [
+        16
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p016-016",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-15.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-xv",
+            "titles": "Page xv",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 15",
+      "fac:pages": [
+        17
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p017-017",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-16.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-1",
+            "titles": "Page 1",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 4,
+        "columns": 5,
+        "source": "measured"
+      },
+      "fac:label": "Table 16",
+      "fac:pages": [
+        18
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p018-018",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-17.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-2",
+            "titles": "Page 2",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 17",
+      "fac:pages": [
+        19
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p019-019",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-18.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-3",
+            "titles": "Page 3",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 18",
+      "fac:pages": [
+        20
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p020-020",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-19.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-4",
+            "titles": "Page 4",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 19",
+      "fac:pages": [
+        21
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p021-021",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-20.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-5",
+            "titles": "Page 5",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 20",
+      "fac:pages": [
+        22
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p022-022",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-21.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-6",
+            "titles": "Page 6",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-5",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 4,
+        "columns": 5,
+        "source": "measured"
+      },
+      "fac:label": "Table 21",
+      "fac:pages": [
+        23
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p023-023",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-22.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-7",
+            "titles": "Page 7",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 22",
+      "fac:pages": [
+        24
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p024-024",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-23.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-8",
+            "titles": "Page 8",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 23",
+      "fac:pages": [
+        25
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p025-025",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-24.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-9",
+            "titles": "Page 9",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 24",
+      "fac:pages": [
+        26
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p026-026",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-25.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-10",
+            "titles": "Page 10",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 25",
+      "fac:pages": [
+        27
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p027-027",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-26.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-11",
+            "titles": "Page 11",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 26",
+      "fac:pages": [
+        28
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p028-028",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-27.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-12",
+            "titles": "Page 12",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 27",
+      "fac:pages": [
+        29
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p029-029",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-28.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-13",
+            "titles": "Page 13",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 28",
+      "fac:pages": [
+        30
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p030-030",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-29.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-14",
+            "titles": "Page 14",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 29",
+      "fac:pages": [
+        31
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p031-031",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-30.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-15",
+            "titles": "Page 15",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 30",
+      "fac:pages": [
+        32
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p032-032",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-31.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-16",
+            "titles": "Page 16",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-5",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 4,
+        "columns": 5,
+        "source": "measured"
+      },
+      "fac:label": "Table 31",
+      "fac:pages": [
+        33
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p033-033",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-32.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-17",
+            "titles": "Page 17",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 32",
+      "fac:pages": [
+        34
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p034-034",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-33.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-18",
+            "titles": "Page 18",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 33",
+      "fac:pages": [
+        35
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p035-035",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-34.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-19",
+            "titles": "Page 19",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 34",
+      "fac:pages": [
+        36
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p036-036",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-35.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-20",
+            "titles": "Page 20",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 35",
+      "fac:pages": [
+        37
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p037-037",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-36.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-21",
+            "titles": "Page 21",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 36",
+      "fac:pages": [
+        38
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p038-038",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-37.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-22",
+            "titles": "Page 22",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 37",
+      "fac:pages": [
+        39
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p039-039",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-38.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-23",
+            "titles": "Page 23",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 38",
+      "fac:pages": [
+        40
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p040-040",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-39.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-24",
+            "titles": "Page 24",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 39",
+      "fac:pages": [
+        41
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p041-041",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-40.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-25",
+            "titles": "Page 25",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 40",
+      "fac:pages": [
+        42
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p042-042",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-41.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-26",
+            "titles": "Page 26",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 41",
+      "fac:pages": [
+        43
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p043-043",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-42.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-27",
+            "titles": "Page 27",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 4,
+        "columns": 5,
+        "source": "measured"
+      },
+      "fac:label": "Table 42",
+      "fac:pages": [
+        44
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p044-044",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-43.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-28",
+            "titles": "Page 28",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 43",
+      "fac:pages": [
+        45
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p045-045",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-44.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-29",
+            "titles": "Page 29",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 4,
+        "columns": 4,
+        "source": "measured"
+      },
+      "fac:label": "Table 44",
+      "fac:pages": [
+        46
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p046-046",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-45.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-30",
+            "titles": "Page 30",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 45",
+      "fac:pages": [
+        47
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p047-047",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-46.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-31",
+            "titles": "Page 31",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 46",
+      "fac:pages": [
+        48
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p048-048",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-47.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-32",
+            "titles": "Page 32",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 47",
+      "fac:pages": [
+        49
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p049-049",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-48.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-33",
+            "titles": "Page 33",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 48",
+      "fac:pages": [
+        50
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p050-050",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-49.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-34",
+            "titles": "Page 34",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 49",
+      "fac:pages": [
+        51
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p051-051",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-50.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-35",
+            "titles": "Page 35",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 50",
+      "fac:pages": [
+        52
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p052-052",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-51.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-36",
+            "titles": "Page 36",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 51",
+      "fac:pages": [
+        53
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p053-053",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-52.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-37",
+            "titles": "Page 37",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 52",
+      "fac:pages": [
+        54
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p054-054",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-53.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-38",
+            "titles": "Page 38",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 53",
+      "fac:pages": [
+        55
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p055-055",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-54.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-39",
+            "titles": "Page 39",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 54",
+      "fac:pages": [
+        56
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p056-056",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-55.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-40",
+            "titles": "Page 40",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-5",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 4,
+        "columns": 5,
+        "source": "measured"
+      },
+      "fac:label": "Table 55",
+      "fac:pages": [
+        57
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p057-057",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-56.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-41",
+            "titles": "Page 41",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 56",
+      "fac:pages": [
+        58
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p058-058",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-57.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-42",
+            "titles": "Page 42",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 57",
+      "fac:pages": [
+        59
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p059-059",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-58.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-43",
+            "titles": "Page 43",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 58",
+      "fac:pages": [
+        60
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p060-060",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-59.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-44",
+            "titles": "Page 44",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 59",
+      "fac:pages": [
+        61
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p061-061",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-60.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-45",
+            "titles": "Page 45",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 60",
+      "fac:pages": [
+        62
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p062-062",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-61.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-46",
+            "titles": "Page 46",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-5",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 4,
+        "columns": 5,
+        "source": "measured"
+      },
+      "fac:label": "Table 61",
+      "fac:pages": [
+        63
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p063-063",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-62.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-47",
+            "titles": "Page 47",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 4,
+        "columns": 4,
+        "source": "measured"
+      },
+      "fac:label": "Table 62",
+      "fac:pages": [
+        64
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p064-064",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-63.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-48",
+            "titles": "Page 48",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 3,
+        "columns": 4,
+        "source": "measured"
+      },
+      "fac:label": "Table 63",
+      "fac:pages": [
+        65
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p065-065",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-64.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-49",
+            "titles": "Page 49",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 3,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 64",
+      "fac:pages": [
+        66
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p066-066",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-65.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-50",
+            "titles": "Page 50",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 65",
+      "fac:pages": [
+        67
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p067-067",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-66.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-51",
+            "titles": "Page 51",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 4,
+        "columns": 5,
+        "source": "measured"
+      },
+      "fac:label": "Table 66",
+      "fac:pages": [
+        68
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p068-068",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-67.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-52",
+            "titles": "Page 52",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 67",
+      "fac:pages": [
+        69
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p069-069",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-68.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-53",
+            "titles": "Page 53",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 4,
+        "columns": 5,
+        "source": "measured"
+      },
+      "fac:label": "Table 68",
+      "fac:pages": [
+        70
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p070-070",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-69.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-54",
+            "titles": "Page 54",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 69",
+      "fac:pages": [
+        71
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p071-071",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-70.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-55",
+            "titles": "Page 55",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 70",
+      "fac:pages": [
+        72
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p072-072",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-71.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-56",
+            "titles": "Page 56",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 71",
+      "fac:pages": [
+        73
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p073-073",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-72.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-57",
+            "titles": "Page 57",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 72",
+      "fac:pages": [
+        74
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p074-074",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-73.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-58",
+            "titles": "Page 58",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021 Implementation considerations SECTION 8",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 73",
+      "fac:pages": [
+        75
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p075-075",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-74.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-59",
+            "titles": "Page 59",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 74",
+      "fac:pages": [
+        76
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p076-076",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-75.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-60",
+            "titles": "Page 60",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 75",
+      "fac:pages": [
+        77
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p077-077",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-76.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-61",
+            "titles": "Page 61",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 76",
+      "fac:pages": [
+        78
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p078-078",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-77.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-ddcc-vs-technical-specifications-and-implem",
+            "titles": "Page DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021 62 Annexes",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 3,
+        "columns": 4,
+        "source": "measured"
+      },
+      "fac:label": "Table 77",
+      "fac:pages": [
+        79
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p079-079",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-78.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-63",
+            "titles": "Page 63",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 3,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 78",
+      "fac:pages": [
+        80
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p080-080",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-79.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-64",
+            "titles": "Page 64",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 79",
+      "fac:pages": [
+        81
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p081-081",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-80.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-65",
+            "titles": "Page 65",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 80",
+      "fac:pages": [
+        82
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p082-082",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-81.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-66",
+            "titles": "Page 66",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 81",
+      "fac:pages": [
+        83
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p083-083",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-82.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-67",
+            "titles": "Page 67",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 82",
+      "fac:pages": [
+        84
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p084-084",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-83.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-68",
+            "titles": "Page 68",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 83",
+      "fac:pages": [
+        85
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p085-085",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-84.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-69",
+            "titles": "Page 69",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 84",
+      "fac:pages": [
+        86
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p086-086",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-85.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-70",
+            "titles": "Page 70",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 85",
+      "fac:pages": [
+        87
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p087-087",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-86.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-71",
+            "titles": "Page 71",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 86",
+      "fac:pages": [
+        88
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p088-088",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-87.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-72",
+            "titles": "Page 72",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 87",
+      "fac:pages": [
+        89
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p089-089",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-88.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-73",
+            "titles": "Page 73",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 88",
+      "fac:pages": [
+        90
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p090-090",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-89.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-74",
+            "titles": "Page 74",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 89",
+      "fac:pages": [
+        91
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p091-091",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-90.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-75",
+            "titles": "Page 75",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 90",
+      "fac:pages": [
+        92
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p092-092",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-91.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-76",
+            "titles": "Page 76",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 91",
+      "fac:pages": [
+        93
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p093-093",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-92.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-77",
+            "titles": "Page 77",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 92",
+      "fac:pages": [
+        94
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p094-094",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-93.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-78",
+            "titles": "Page 78",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 93",
+      "fac:pages": [
+        95
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p095-095",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-94.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "page-79",
+            "titles": "Page 79",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 94",
+      "fac:pages": [
+        96
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p096-096",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-95.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "page-80",
+            "titles": "Page 80",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "ddcc-vs-technical-specifications-and-implementat",
+            "titles": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 95",
+      "fac:pages": [
+        97
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p097-097",
+        "at": "2026-11-20"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+DDCC.FXNREQ.031 It SHALL be possible for the DDCC:VS Generation Service to accept data from an authorized, connected point-of-care system, where such a system exists, i.e. to be able to accept data transferred from local data stores at sites where vaccinations are administered.

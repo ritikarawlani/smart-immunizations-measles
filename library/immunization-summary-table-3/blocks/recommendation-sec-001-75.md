@@ -1,0 +1,1 @@
+If more than 2 years have passed, the primary series of 2 doses should be repeated. • Pregnant and lactating women and HIV infected individuals should be included in OCV campaigns since there is a high potential benefit and minimal risks.

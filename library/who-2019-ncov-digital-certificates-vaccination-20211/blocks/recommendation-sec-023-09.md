@@ -1,0 +1,1 @@
+DDCC.FXNREQ.046 When receiving a request for validation, a National PHA SHALL consult its DDCC:VS Registry Service and respond with a status to indicate that the signing key has not been revoked, that the key was issued by a certified authority, and that the DDCC has not otherwise been revoked.

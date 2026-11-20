@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-024",
+  "@type": [
+    "doco:Section"
+  ],
+  "title": "Actions to enhance acceptance and demand for vaccination",
+  "pageStart": 48,
+  "pageEnd": 50,
+  "contains": [
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-024",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-024-01",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-024-02",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-024-03",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-024-04",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-024-05",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-024-06",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-014"
+  ],
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "provenance": "ingested"
+}

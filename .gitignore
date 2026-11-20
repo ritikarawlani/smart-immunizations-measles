@@ -1,0 +1,104 @@
+output
+fsh-generated
+input-cache
+temp
+template
+bundles
+*.jar
+.DS_Store
+input/tests/*/*/tests-*-bundle.json
+node_modules/
+outputs/*
+node_modules
+input/vocabulary/valueset/external/
+results/*
+input/tests/results/**
+input/tests/*/*/*/
+.vscode/
+**/.~lock.*
+**/target
+input/tests/*/*/Group-*.json
+
+# Temporary folders #
+#####################
+temp
+template
+output
+fsh-generated
+
+# Don't commit this because it's so large #
+###########################################
+/input-cache
+
+# Windows generated files #
+###########################
+Thumbs.db
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+# backup files #
+################
+*.bak
+
+# python #
+##########
+__pycache__/
+
+# java settings 
+################
+
+
+.vscode/
+.idea/
+.idea/*
+
+
+# emacs #
+#########
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+.swp
+
+# Upload PDFs are pinned by sha256 in intake.json, not committed (library/README.md).
+uploads/**/*.pdf
+
+# BEGIN index mounts (generated from index.config.json — do not edit)
+/smart-base/
+/fhir-harness/
+/who-iris/
+/folio-assistant-core/
+/cat-harness/
+/cat-harness-tools/
+/bootstrap/
+/bootstrap-tools/
+# END index mounts
+
+# BEGIN built at publish (smart-immunizations.json `builtAtPublish`)
+# Owner, 2026-10-14 (B1): computed at the checkout's pins, so no commit of this
+# instance can hold it current.
+/ns/context/v1.jsonld
+/fhir-artifact-index/index.json
+/fhir-artifact-index/menu.json
+/fhir-artifact-index/releases.json
+/fhir-artifact-index/package.tgz
+/fhir-artifact-index/sidecars/
+# END built at publish
+
+# The IG AST stage-local restores for the site build (build output)
+output-ast/
+
+# QA results are computed and published to cat/cat-harness/qa-reports (publish-qa.yml), never committed.
+/test/results/
+
+# Ingestion scratch (bun run cat ingest): staged entries and LSI/QA build output
+/ingest-staging/
+/build/

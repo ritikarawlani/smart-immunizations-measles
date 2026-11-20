@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.024 Performance/ response time The system SHOULD collect metrics on performance and response time to allow a system administrator to monitor system behaviour, identify bottlenecks or issues, and pro-actively address any risk of unacceptable degradation of speed.

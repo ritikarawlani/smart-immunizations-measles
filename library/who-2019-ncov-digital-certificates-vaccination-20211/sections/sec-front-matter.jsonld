@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "library/who-2019-ncov-digital-certificates-vaccination-20211/sections/sec-front-matter",
+  "@type": [
+    "doco:Section"
+  ],
+  "title": "Front matter",
+  "pageStart": 1,
+  "pageEnd": 7,
+  "contains": [
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-front-matter",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-front-matter-01",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-front-matter-02",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-front-matter-03",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-front-matter-04",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-front-matter-05",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-front-matter-06",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-front-matter-07",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/figure-img-p001-1",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-001",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-002",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-003",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-004",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-005"
+  ],
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/who-2019-ncov-digital-certificates-vaccination-20211",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/who-2019-ncov-digital-certificates-vaccination-20211",
+  "provenance": "ingested"
+}

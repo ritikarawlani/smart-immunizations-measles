@@ -1,0 +1,1 @@
+DDCC.FXNREQ.057 If a verification request is made in country A for a certificate that was issued by country B or a supranational entity, then country A’s PHA SHOULD have a means of transferring the request/ querying the data held by that authority.

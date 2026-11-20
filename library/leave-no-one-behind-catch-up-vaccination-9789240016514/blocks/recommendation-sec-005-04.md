@@ -1,0 +1,1 @@
+For all WHO recommendations for routine immunization and ages of eligibility, see WHO position paper Summary Tables, available at: https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who- recommendations-for-routine-immunization---summary-tables 4 See WHO.

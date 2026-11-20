@@ -1,0 +1,1 @@
+Catch-up vaccination schedules can be designed in a variety of ways and, as immunization programmes and schedules vary considerably across countries (and sometimes within), it is not possible to recommend a ‘generic’ catch-up schedule.

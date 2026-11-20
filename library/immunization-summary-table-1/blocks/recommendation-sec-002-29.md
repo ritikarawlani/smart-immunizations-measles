@@ -1,0 +1,1 @@
+The zero dose of bOPV should be administered at birth, or within the first week of life, to maximize seroconversion rates from subsequent doses and to establish early mucosal immunity before enteric pathogens may interfere with the immune response.

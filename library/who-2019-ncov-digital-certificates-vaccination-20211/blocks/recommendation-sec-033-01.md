@@ -1,0 +1,1 @@
+Using the framework of essential components of a digital health implementation presented in the WHO/ITU’s National eHealth Strategy Toolkit (36), and the guidance provided in the Digital implementation investment guide (DIIG) (37), the following considerations and key questions should be examined prior to deployment of a DDCC:VS solution.
