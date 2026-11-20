@@ -89,6 +89,14 @@
       "graphTypologies": [
         "l1-extraction"
       ]
+    },
+    {
+      "id": "l1-extraction-scenarios-vocabulary",
+      "path": "l1-extractions/scenarios/",
+      "description": "recommendation-extraction Part 2 input: this guide's own persona/process vocabulary (empty until the L2 personas and processes exist). The scenario candidates themselves are in each extraction directory's scenarios/.",
+      "graphTypologies": [
+        "l1-extraction"
+      ]
     }
   ]
 }

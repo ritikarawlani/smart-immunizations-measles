@@ -1,0 +1,350 @@
+# AUTHORED by an agent (recommendation-extraction Part 2); every entry is a CANDIDATE until a person reviews it.
+$schema: l1-scenario-mapping/v1
+guide: smart-immunizations-measles
+scenarioIdPrefix: MEASLES.Scenario.T1
+entries:
+  measles.two-doses-standard:
+    personas:
+    - id: DAK.Persona.HealthSystemManager
+      source: inferred
+      basis: A standard for national programmes is set by programme management.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: set two doses of measles vaccine for every child as the national programme standard
+    outcome: the programme is planned and judged against two-dose coverage
+    domain:
+      code: public-health
+      source: inferred
+      basis: A population vaccination standard.
+  measles.mcv2-in-schedule:
+    personas:
+    - id: DAK.Persona.HealthSystemManager
+      source: inferred
+      basis: Changing the national schedule is a programme decision.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: add a routine MCV2 to the national schedule whatever the MCV1 coverage
+    outcome: every child is offered a second routine dose
+    domain:
+      code: public-health
+      source: inferred
+      basis: A national schedule decision.
+  measles.mcv1-9-months-high-transmission:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The dose is given by the provider at the vaccination contact.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: give MCV1 at 9 months where measles transmission and mortality risk are high
+    outcome: infants are protected before the age of highest risk
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client dosing rule.
+  measles.mcv2-15-18-months:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The dose is given at the contact.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: give MCV2 between 15 and 18 months
+    outcome: fewer susceptible children accumulate and outbreaks are less likely
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client dosing rule.
+  measles.mcv-minimum-interval:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: Checked by the provider before giving MCV2.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: leave at least 4 weeks between MCV1 and MCV2
+    outcome: the second dose counts as valid
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client interval rule.
+  measles.routine-delivery-not-age-limited:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: Applied at the contact by the provider.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: give MCV1 or MCV2 to an unvaccinated child even outside 9-12 or 15-18 months
+    outcome: older unvaccinated children are not left susceptible
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client eligibility rule.
+  measles.catch-up-every-opportunity:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: Acted on at every contact by the provider.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: check every child who comes into contact with health services and vaccinate any who missed an MCV dose
+    outcome: children under 15 who missed doses are caught up
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client catch-up rule.
+  measles.policies-allow-older-ages:
+    personas:
+    - id: DAK.Persona.HealthSystemManager
+      source: inferred
+      basis: Policy is changed by programme management.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: change policies that stop children over 1 year, older children and teenagers being vaccinated
+    outcome: older children can be vaccinated
+    domain:
+      code: health-system-strengthening
+      source: inferred
+      basis: A policy change, not a per-client act.
+  measles.mcv1-12-months-low-transmission:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The dose is given at the contact, once the national schedule sets 12 months.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: give MCV1 at 12 months where measles transmission is low
+    outcome: higher seroconversion at the first dose
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client dosing rule conditional on setting.
+  measles.mcv2-at-school-entry:
+    personas:
+    - id: DAK.Persona.HealthSystemManager
+      source: inferred
+      basis: A schedule-design choice of the programme.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: schedule routine MCV2 at school entry when MCV1 coverage >90% and enrolment >95%
+    outcome: high MCV2 coverage and fewer school outbreaks
+    domain:
+      code: public-health
+      source: inferred
+      basis: A delivery-strategy decision.
+  measles.same-formulation-both-doses:
+    personas:
+    - id: DAK.Persona.HealthSystemManager
+      source: inferred
+      basis: A procurement and supply decision.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: use the same vaccine formulation for both routine MCV doses
+    outcome: less cold-storage need and less wastage
+    domain:
+      code: health-system-strengthening
+      source: inferred
+      basis: 'Programmatic: supply and wastage.'
+  measles.mcv0-situations:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider gives the dose to the infant.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: give a supplementary MCV dose from 6 months in the six printed situations
+    outcome: infants at higher risk are protected early
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client dosing rule.
+  measles.mcv0-recording:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider records the dose.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: record any MCV given before 9 months as MCV0 on the child's vaccination record
+    outcome: the routine doses are still given and counted correctly
+    domain:
+      code: clinical
+      source: inferred
+      basis: Recording a per-client dose.
+  measles.mcv0-then-routine-doses:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider applies it at later contacts.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: give MCV1 and MCV2 at the scheduled ages to a child who had MCV0
+    outcome: the child completes the two routine doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client dosing rule.
+  measles.hiv-routine-vaccination:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider vaccinates.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: vaccinate potentially susceptible, asymptomatic HIV-infected children and adults
+    outcome: people living with HIV are protected from severe measles
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client rule.
+  measles.hiv-high-incidence-mcv0-6-months:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider gives the dose.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: offer MCV0 from 6 months where HIV and measles incidence are both high
+    outcome: infants at high risk are protected early
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client rule conditional on setting.
+  measles.hiv-haart-additional-dose:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider gives the dose.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: give an additional MCV dose to an HIV-infected child on HAART once immune reconstitution is reached
+    outcome: protection is restored after immune reconstitution
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client rule.
+  measles.hiv-haart-no-cd4-monitoring:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider gives the dose.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: give an additional MCV dose 6-12 months after starting HAART where CD4+ is not monitored
+    outcome: protection is restored without CD4+ monitoring
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client rule.
+  measles.hiv-exposed-mcv0:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider decides and gives the dose.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: consider MCV0 for HIV-exposed infants and HIV-infected children not on HAART at high risk
+    outcome: partial protection until revaccination
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client rule.
+  measles.mild-infection-not-contraindication:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider screens before vaccinating.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: vaccinate a client who has a mild concurrent infection
+    outcome: vaccination is not deferred needlessly
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client screening rule.
+  measles.avoid-in-pregnancy:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider screens before vaccinating.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: not give measles vaccine to a pregnant client
+    outcome: precaution against vaccination in pregnancy
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client contraindication.
+  measles.contraindications:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider screens before vaccinating.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: not give MCV to a client with anaphylaxis or severe allergy to a component, or severe immunosuppression
+    outcome: clients for whom the vaccine is unsafe are not vaccinated
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client contraindication.
+  measles.live-vaccine-spacing:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: Checked by the provider at the contact.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: give live vaccines on the same day or at least 4 weeks apart
+    outcome: live vaccines are given at valid intervals
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client interval rule.

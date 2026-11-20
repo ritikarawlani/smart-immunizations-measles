@@ -1,0 +1,351 @@
+{
+  "@context": "http://smart.who.int/kg/l2.context.jsonld",
+  "id": "http://smart.who.int/immunizations-measles/graph/l1-scenarios/measles-scenario-t3",
+  "type": "Entity",
+  "ontologyVersion": "1.0",
+  "generatedAt": "2026-11-20T13:04:48Z",
+  "wasDerivedFrom": [
+    {
+      "path": "l1-extractions/immunization-summary-table-3/l1.json",
+      "sha256": "6c3af240bcdd7322d3bb7b9104866dbd112048d14bf25cfe52eb9165b3d9b012",
+      "note": "The L1 recommendations, each the source of one implementedBy edge."
+    },
+    {
+      "path": "l1-extractions/scenarios/measles-guide-vocabulary.json",
+      "sha256": "9d085dd8073442a7a0f863e2402d57d72c18bf3c429c676fb1f86013315fad44",
+      "note": "The personas and processes of smart-immunizations-measles, read at ritikarawlani/smart-immunizations-measles@7f8cfe7d94585910e617ec8b92ba7b6081f4eb96."
+    },
+    {
+      "path": "smart-base/scripts/fixtures/l1-recommendation-scenarios/smart-base-generic-personas.json",
+      "sha256": "fa33902453047ae0f8f913a05bf5e6b3000a5084c553975923003c0f3267c4e5",
+      "note": "smart-base's generic personas, read at litlfred/smart-base@417720453eb28a142a503cc96afb38efc6e42386."
+    },
+    {
+      "path": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml",
+      "sha256": "ae1137ffb094919c638b20ee0a5b7d148b1c3fe4fa8f138f8cfe3300ce4e30c0",
+      "note": "The authored mapping: per recommendation, its personas, process, act, outcome and domain, each with a source and a basis."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-interrupted-delayed-schedule-row",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T3.measles.interrupted-delayed-schedule-row: for a child who starts late or whose series was interrupted, give 2 MCV doses at least 4 weeks apart and no booster",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.interrupted-delayed-schedule-row, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/l1.json#measles.interrupted-delayed-schedule-row (library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md)",
+        "quote": "Measles 9 9 or 12 months (6 months min, see footnote) 2 doses (4 weeks) Resume without repeating previous dose 2 doses 2 doses Not recommended"
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T3.measles.interrupted-delayed-schedule-row",
+        "title": "MEASLES.Scenario.T3.measles.interrupted-delayed-schedule-row: for a child who starts late or whose series was interrupted, give 2 MCV doses at least 4 weeks apart and no booster",
+        "description": "As a Healthcare Provider, during [process not determined], I for a child who starts late or whose series was interrupted, give 2 MCV doses at least 4 weeks apart and no booster so that late or interrupted children complete two doses.",
+        "source": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.interrupted-delayed-schedule-row"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-interrupted-resume-no-repeat",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T3.measles.interrupted-resume-no-repeat: resume an interrupted measles series without repeating doses already given",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.interrupted-resume-no-repeat, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/l1.json#measles.interrupted-resume-no-repeat (library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md)",
+        "quote": "Regardless of the duration of delay, interrupted schedules should be resumed as soon as possible, without repeating previous doses."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T3.measles.interrupted-resume-no-repeat",
+        "title": "MEASLES.Scenario.T3.measles.interrupted-resume-no-repeat: resume an interrupted measles series without repeating doses already given",
+        "description": "As a Healthcare Provider, during [process not determined], I resume an interrupted measles series without repeating doses already given so that the series is completed without extra doses.",
+        "source": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.interrupted-resume-no-repeat"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-mcv-minimum-interval",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T3.measles.mcv-minimum-interval: leave at least 4 weeks between MCV1 and MCV2",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.mcv-minimum-interval, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/l1.json#measles.mcv-minimum-interval (library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md)",
+        "quote": "The minimum interval between MCV1 and MCV2 is 4 weeks."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T3.measles.mcv-minimum-interval",
+        "title": "MEASLES.Scenario.T3.measles.mcv-minimum-interval: leave at least 4 weeks between MCV1 and MCV2",
+        "description": "As a Healthcare Provider, during [process not determined], I leave at least 4 weeks between MCV1 and MCV2 so that the second dose counts as valid.",
+        "source": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.mcv-minimum-interval"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-routine-delivery-not-age-limited",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T3.measles.routine-delivery-not-age-limited: give MCV1 or MCV2 to an unvaccinated child outside the target ages",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.routine-delivery-not-age-limited, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/l1.json#measles.routine-delivery-not-age-limited (library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md)",
+        "quote": "Because many cases of measles occur in children aged >12 months who have not been vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and routine delivery of MCV2 should not be limited to infants 15 to 18 months of age."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T3.measles.routine-delivery-not-age-limited",
+        "title": "MEASLES.Scenario.T3.measles.routine-delivery-not-age-limited: give MCV1 or MCV2 to an unvaccinated child outside the target ages",
+        "description": "As a Healthcare Provider, during [process not determined], I give MCV1 or MCV2 to an unvaccinated child outside the target ages so that older unvaccinated children are protected.",
+        "source": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.routine-delivery-not-age-limited"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-two-doses-standard",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.T3.measles.two-doses-standard: set two doses of measles vaccine for every child as the national programme standard",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for recommendation measles.two-doses-standard, authored from its statement against the smart-immunizations-measles vocabulary. Domain public-health (inferred).",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/l1.json#measles.two-doses-standard (library/immunization-summary-table-3/sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md)",
+        "quote": "Reaching all children with 2 doses of measles vaccine should be the standard for all national immunization programmes."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.T3.measles.two-doses-standard",
+        "title": "MEASLES.Scenario.T3.measles.two-doses-standard: set two doses of measles vaccine for every child as the national programme standard",
+        "description": "As a Health System Manager, during [process not determined], I set two doses of measles vaccine for every child as the national programme standard so that the programme is planned against two-dose coverage.",
+        "source": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.two-doses-standard"
+      }
+    },
+    {
+      "id": "https://smart.who.int/base/persona/health-system-manager",
+      "type": "persona",
+      "label": "Health System Manager",
+      "derivation": "derived",
+      "skill": "smart-base/recommendation-extraction",
+      "properties": {
+        "id": "DAK.Persona.HealthSystemManager",
+        "title": "Health System Manager",
+        "description": "A professional involved in the administration and oversight of health systems.",
+        "iscoCode": [
+          "1342",
+          "2446",
+          "3354",
+          "4311"
+        ],
+        "personaType": "person",
+        "source": "litlfred/smart-base@4177204:input/fsh/actors/DAK.Persona.HealthSystemManager.fsh (Instance: DAK.Persona.HealthSystemManager)",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "id": "https://smart.who.int/base/persona/healthcare-provider",
+      "type": "persona",
+      "label": "Healthcare Provider",
+      "derivation": "derived",
+      "skill": "smart-base/recommendation-extraction",
+      "properties": {
+        "id": "DAK.Persona.HealthcareProvider",
+        "title": "Healthcare Provider",
+        "description": "A member of the health workforce who delivers health interventions. This group has also been described as 'health workers' or 'healthcare workers'.",
+        "iscoCode": [
+          "2211",
+          "2212",
+          "2221",
+          "2222",
+          "3211",
+          "3212",
+          "3213",
+          "3221",
+          "3222",
+          "3255"
+        ],
+        "personaType": "person",
+        "source": "litlfred/smart-base@4177204:input/fsh/actors/DAK.Persona.HealthcareProvider.fsh (Instance: DAK.Persona.HealthcareProvider)",
+        "resolutionStatus": "resolved"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.interrupted-delayed-schedule-row",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-interrupted-delayed-schedule-row",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.interrupted-delayed-schedule-row is implemented by scenario MEASLES.Scenario.T3.measles.interrupted-delayed-schedule-row — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.interrupted-delayed-schedule-row"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client catch-up rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-interrupted-delayed-schedule-row",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Applied by the provider at the contact.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.interrupted-delayed-schedule-row.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.two-doses-standard",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-two-doses-standard",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.two-doses-standard is implemented by scenario MEASLES.Scenario.T3.measles.two-doses-standard — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.two-doses-standard"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "inferred",
+        "domainBasis": "A population standard."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-two-doses-standard",
+      "target": "https://smart.who.int/base/persona/health-system-manager",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Programme standard.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.two-doses-standard.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.interrupted-resume-no-repeat",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-interrupted-resume-no-repeat",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.interrupted-resume-no-repeat is implemented by scenario MEASLES.Scenario.T3.measles.interrupted-resume-no-repeat — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.interrupted-resume-no-repeat"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-interrupted-resume-no-repeat",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Applied by the provider.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.interrupted-resume-no-repeat.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.mcv-minimum-interval",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-mcv-minimum-interval",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.mcv-minimum-interval is implemented by scenario MEASLES.Scenario.T3.measles.mcv-minimum-interval — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.mcv-minimum-interval"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client interval rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-mcv-minimum-interval",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Checked by the provider.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.mcv-minimum-interval.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-position-papers/recommendation/measles.routine-delivery-not-age-limited",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-routine-delivery-not-age-limited",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Recommendation measles.routine-delivery-not-age-limited is implemented by scenario MEASLES.Scenario.T3.measles.routine-delivery-not-age-limited — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.routine-delivery-not-age-limited"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client eligibility rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-t3-measles-routine-delivery-not-age-limited",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Applied by the provider.",
+      "evidence": {
+        "location": "l1-extractions/immunization-summary-table-3/scenario-mapping.yaml#entries.measles.routine-delivery-not-age-limited.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    }
+  ]
+}

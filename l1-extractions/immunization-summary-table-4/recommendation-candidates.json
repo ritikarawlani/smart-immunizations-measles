@@ -3,13 +3,19 @@
   "entry": "library/immunization-summary-table-4",
   "curation": {
     "path": "l1-extractions/immunization-summary-table-4/curation.yaml",
-    "sha256": "c44656f222885d0dc43d0f2894ee6bfbbe39b64efb271b2154825311c0ca9984"
+    "sha256": "395a55778ccb36dc0773f5f59461d977124d4a313d180321cd3fa9ba71590ef2"
   },
   "publication": {
-    "identifiers": [],
+    "iri": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149138-immunization-summary-table-4-pdf",
+    "identifiers": [
+      {
+        "type": "url",
+        "value": "https://github.com/user-attachments/files/35149138/immunization-summary-table-4.pdf"
+      }
+    ],
     "title": "Table 4: Summary of WHO Position Papers - Immunization of Health Care Workers",
     "publicationType": "summary-table",
-    "proposedBy": "none"
+    "proposedBy": "curation"
   },
   "counts": {
     "statementClass": "recommendation",
@@ -21,11 +27,11 @@
   },
   "coverage": {
     "normative": 21,
-    "captured": 0,
+    "captured": 1,
     "excluded": 0,
-    "unaccounted": 21,
-    "capturedPct": 0,
-    "accountedForPct": 0
+    "unaccounted": 20,
+    "capturedPct": 4.76,
+    "accountedForPct": 4.76
   },
   "hints": {
     "licence-or-imprint": "licence, rights or imprint text — normally excluded as `editorial`",
@@ -271,6 +277,6 @@
     }
   ],
   "runContext": {
-    "sha256": "abee572889de59844e071f8d377c46cbd36d7569eda9fe2d9efd5b492e6581f5"
+    "sha256": "6c81574754adb01b029196b85d862a1d5a7b70824c6ae7ab8b93af9c65130af2"
   }
 }

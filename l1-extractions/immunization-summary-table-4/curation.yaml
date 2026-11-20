@@ -4,7 +4,10 @@ entry: library/immunization-summary-table-4
 publication:
   title: 'Table 4: Summary of WHO Position Papers - Immunization of Health Care Workers'
   publicationType: summary-table
-  basis: Printed heading 'Vaccination of Health Care Workers' with 'Updated December 2025' (page 1). The file name names it summary table 4; no URL or ISBN is printed in the extracted text.
+  basis: 'Printed heading ''Vaccination of Health Care Workers'' with ''Updated December 2025'' (page 1). The file name names it summary table 4; no URL or ISBN is printed in the extracted text. Identified by the URL of the file as attached to issue #1, since it prints none for itself (its one URL, apps.who.int/iris/bitstream/10665/92462, is a cited reference).'
+  identifiers:
+  - type: url
+    value: https://github.com/user-attachments/files/35149138/immunization-summary-table-4.pdf
 decisions:
   p1:s6:
     as: recommendation

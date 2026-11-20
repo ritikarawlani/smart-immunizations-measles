@@ -1,0 +1,74 @@
+{
+  "@context": "http://smart.who.int/kg/l1.context.jsonld",
+  "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149138-immunization-summary-table-4-pdf#recommendation-candidates",
+  "type": "Entity",
+  "ontologyVersion": "3.0",
+  "generatedAt": "2026-11-20T13:04:48Z",
+  "wasDerivedFrom": [
+    {
+      "path": "library/immunization-summary-table-4/structure.json",
+      "sha256": "6258ed83a3e142b2319e3feb48aa6cc41d1d244804d999149b85ec158c9d10d0",
+      "note": "The entry's structure; the source PDF's sha256 is e821b7b570ddb9ec58d779609cbc7c5f1592d67dcb53aa578e4669beb74bc59a."
+    },
+    {
+      "path": "library/immunization-summary-table-4/sections/",
+      "sha256": "89939c7b6246934d88796733e59e97e063bb144146c45a7e0a2eb9594490e4f1",
+      "note": "The page texts read, hashed as a sha256sum listing in file order."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149138-immunization-summary-table-4-pdf",
+      "type": "publication",
+      "label": "Table 4: Summary of WHO Position Papers - Immunization of Health Care Workers",
+      "properties": {
+        "title": "Table 4: Summary of WHO Position Papers - Immunization of Health Care Workers",
+        "identifiers": [
+          {
+            "type": "url",
+            "value": "https://github.com/user-attachments/files/35149138/immunization-summary-table-4.pdf"
+          }
+        ],
+        "publicationType": "summary-table",
+        "sha256": "e821b7b570ddb9ec58d779609cbc7c5f1592d67dcb53aa578e4669beb74bc59a"
+      },
+      "derivation": "inferred",
+      "note": "Printed heading 'Vaccination of Health Care Workers' with 'Updated December 2025' (page 1). The file name names it summary table 4; no URL or ISBN is printed in the extracted text. Identified by the URL of the file as attached to issue #1, since it prints none for itself (its one URL, apps.who.int/iris/bitstream/10665/92462, is a cited reference).",
+      "evidence": {
+        "location": "library/immunization-summary-table-4/sections/sec-000-antigen.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149138-immunization-summary-table-4-pdf/recommendation/measles.health-worker-immunity",
+      "type": "recommendation",
+      "label": "measles.health-worker-immunity",
+      "properties": {
+        "identifier": "measles.health-worker-immunity",
+        "statement": "All HCWs should be immune to measles and proof/documentation of immunity or immunization should be required as a condition of enrollment into training and employment.",
+        "contentHash": "ab3b9647d0370ddb88b6461fbedc49a605c31bf53c365649ff0df8e56df1e9c9"
+      },
+      "derivation": "inferred",
+      "note": "Measles row of the health-care-worker table, page 1, footnote mark 5 dropped.",
+      "evidence": {
+        "location": "library/immunization-summary-table-4/sections/sec-front-matter.md",
+        "quote": "Measles 5 All HCWs should be immune to measles and proof/documentation of immunity or immunization should be required as a condition of enrollment into training and employment."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    }
+  ],
+  "edges": [
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149138-immunization-summary-table-4-pdf/recommendation/measles.health-worker-immunity",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149138-immunization-summary-table-4-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-4/sections/sec-front-matter.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    }
+  ]
+}
