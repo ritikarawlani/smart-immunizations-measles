@@ -348,7 +348,8 @@
         "input/indicators/",
         "input/scenarios/",
         "input/system-requirements/",
-        "input/testing/"
+        "input/testing/",
+        "input/L2/"
       ]
     }
   }

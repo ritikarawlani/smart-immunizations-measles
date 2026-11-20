@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" id="MEASLES-DT-02" name="Screen before measles vaccination" namespace="http://smart.who.int/immunizations-measles/dmn">
+  <decision id="MEASLES.DT.02" name="Screen before measles vaccination">
+    <description>Whether to vaccinate today, defer, or not vaccinate. Hit policy FIRST. A mild concurrent infection is not a reason to defer. Adjudication: pending.</description>
+    <decisionTable id="MEASLES.DT.02_table" hitPolicy="FIRST">
+      <input id="MEASLES.DT.02_in0" label="Anaphylaxis or severe allergy to a vaccine component"><inputExpression id="MEASLES.DT.02_ie0" typeRef="boolean"><text>anaphylaxisToComponent</text></inputExpression></input>
+      <input id="MEASLES.DT.02_in1" label="Severe immunosuppression"><inputExpression id="MEASLES.DT.02_ie1" typeRef="boolean"><text>severeImmunosuppression</text></inputExpression></input>
+      <input id="MEASLES.DT.02_in2" label="Pregnant"><inputExpression id="MEASLES.DT.02_ie2" typeRef="boolean"><text>pregnant</text></inputExpression></input>
+      <input id="MEASLES.DT.02_in3" label="Weeks since another live vaccine (not today)"><inputExpression id="MEASLES.DT.02_ie3" typeRef="number"><text>weeksSinceOtherLiveVaccine</text></inputExpression></input>
+      <output id="MEASLES.DT.02_out0" label="Screening" name="screening" typeRef="string"/>
+      <output id="MEASLES.DT.02_out1" label="Reason" name="reason" typeRef="string"/>
+      <output id="MEASLES.DT.02_out2" label="Rests on" name="basis" typeRef="string"/>
+      <rule id="MEASLES.DT.02_r1">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.contraindications</description>
+        <inputEntry id="MEASLES.DT.02_r1_i0"><text>true</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r1_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r1_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r1_i3"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.02_r1_o0"><text>"do-not-vaccinate"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.02_r1_o1"><text>"History of anaphylaxis or severe allergy to a component (e.g. neomycin, gelatin)."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.02_r1_o2"><text>"T1:measles.contraindications"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.02_r2">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.contraindications. Asymptomatic HIV infection is not this: those clients are vaccinated (measles.hiv-routine-vaccination).</description>
+        <inputEntry id="MEASLES.DT.02_r2_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r2_i1"><text>true</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r2_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r2_i3"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.02_r2_o0"><text>"do-not-vaccinate"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.02_r2_o1"><text>"Severe immunosuppression."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.02_r2_o2"><text>"T1:measles.contraindications"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.02_r3">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.avoid-in-pregnancy. A precaution.</description>
+        <inputEntry id="MEASLES.DT.02_r3_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r3_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r3_i2"><text>true</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r3_i3"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.02_r3_o0"><text>"defer"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.02_r3_o1"><text>"Pregnant: vaccinate after the pregnancy."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.02_r3_o2"><text>"T1:measles.avoid-in-pregnancy"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.02_r4">
+        <description>Table 1, page 3 (measles footnote); catch-up guide, page 14 — T1:measles.live-vaccine-spacing CU:catchup.live-vaccine-spacing. OPV is the printed exception and does not count here.</description>
+        <inputEntry id="MEASLES.DT.02_r4_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r4_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r4_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r4_i3"><text>&lt; 4</text></inputEntry>
+        <outputEntry id="MEASLES.DT.02_r4_o0"><text>"defer"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.02_r4_o1"><text>"Another live vaccine less than 4 weeks ago: give on the same day or wait until 4 weeks have passed."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.02_r4_o2"><text>"T1:measles.live-vaccine-spacing CU:catchup.live-vaccine-spacing"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.02_r5">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.mild-infection-not-contraindication</description>
+        <inputEntry id="MEASLES.DT.02_r5_i0"><text>false</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r5_i1"><text>false</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r5_i2"><text>false</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r5_i3"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.02_r5_o0"><text>"proceed"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.02_r5_o1"><text>"No contraindication; a mild concurrent infection does not count."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.02_r5_o2"><text>"T1:measles.mild-infection-not-contraindication"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.02_r6">
+        <description>No source: returned only when the inputs match no rule above (a fact is missing or out of range).</description>
+        <inputEntry id="MEASLES.DT.02_r6_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r6_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r6_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.02_r6_i3"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.02_r6_o0"><text>"unknown"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.02_r6_o1"><text>"Not settled: ask about allergy, immunosuppression and pregnancy."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.02_r6_o2"><text>""</text></outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>
