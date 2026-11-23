@@ -18,6 +18,11 @@ publisher:
 dependencies:
   smart.who.int.base: 1.0.0
 
+parameters:
+  # The IG Publisher attaches each Library's CQL (content.id ig-loader-<name>.cql) from here.
+  path-binary:
+    - input/cql
+
 pages:
   index.md:
     title: Home
