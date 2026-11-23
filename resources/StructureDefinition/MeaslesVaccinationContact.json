@@ -1,0 +1,1040 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "MeaslesVaccinationContact",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: StructureDefinition MeaslesVaccinationContact</b></p><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th scope=\"col\" style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th scope=\"col\" style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th scope=\"col\" style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the element can appear in the instance\">Card.</a></th><th scope=\"col\" style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th scope=\"col\" style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact\" title=\"The data a measles vaccination contact (MEASLES.A) and its reporting (MEASLES.B) record: the core data elements MEASLES.DE.01-26.\">MeaslesVaccinationContact</a><a name=\"MeaslesVaccinationContact\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.50\">0</span><span style=\"opacity: 0.50\">..</span><span style=\"opacity: 0.50\">*</span></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/types.html#Base\">Base</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Measles vaccination contact</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.clientIdentifier\" title=\"Unique identifier of the client in the register or EIR (MEASLES.DE.01; used by MEASLES.A; rests on catchup.confirm-by-written-record)\">clientIdentifier</a><a name=\"MeaslesVaccinationContact.clientIdentifier\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Client identifier</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.dateOfBirth\" title=\"Client's date of birth (MEASLES.DE.02; used by DT.01 DT.03 (age); rests on T1 measles footnote (ages throughout))\">dateOfBirth</a><a name=\"MeaslesVaccinationContact.dateOfBirth\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date of birth</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.sex\" title=\"Client's sex (MEASLES.DE.03; used by IND.01 IND.02 disaggregation; rests on JRF 4A. Routine Coverage)\">sex</a><a name=\"MeaslesVaccinationContact.sex\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Sex<br class=\"binding\"/><span style=\"font-weight:bold\" class=\"binding\">Binding: </span><a href=\"ValueSet-MeaslesSexVS.html\" title=\"http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS\" class=\"binding\">Sex</a><span class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span class=\"binding\">)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.caregiverName\" title=\"Name of the caregiver who brings a child (MEASLES.DE.04; used by MEASLES.A; rests on catchup.multi-dose-return-date)\">caregiverName</a><a name=\"MeaslesVaccinationContact.caregiverName\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Caregiver name</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.homeBasedRecordPresented\" title=\"Whether a home-based record was presented at this contact (MEASLES.DE.05; used by MEASLES.A A1; rests on catchup.confirm-by-written-record)\">homeBasedRecordPresented</a><a name=\"MeaslesVaccinationContact.homeBasedRecordPresented\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Home-based record presented</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.nationalScheduleSetting\" title=\"Whether the national schedule gives MCV1 at 9 months (high transmission) or 12 months (low transmission) (MEASLES.DE.06; used by DT.01 transmissionSetting; rests on measles.mcv1-9-months-high-transmission; measles.mcv1-12-months-low-transmission)\">nationalScheduleSetting</a><a name=\"MeaslesVaccinationContact.nationalScheduleSetting\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">National schedule setting<br class=\"binding\"/><span style=\"font-weight:bold\" class=\"binding\">Binding: </span><a href=\"ValueSet-MeaslesNationalScheduleSettingVS.html\" title=\"http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS\" class=\"binding\">National schedule setting</a><span class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span class=\"binding\">)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.supplementaryDoseIndication\" title=\"The infant is in a situation the measles footnote lists for a dose from 6 months (MEASLES.DE.07; used by DT.01 supplementaryIndication; rests on measles.mcv0-situations; measles.hiv-high-incidence-mcv0-6-months)\">supplementaryDoseIndication</a><a name=\"MeaslesVaccinationContact.supplementaryDoseIndication\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Supplementary-dose indication<br class=\"binding\"/><span style=\"font-weight:bold\" class=\"binding\">Binding: </span><a href=\"ValueSet-MeaslesSupplementaryDoseIndicationVS.html\" title=\"http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS\" class=\"binding\">Supplementary-dose indication</a><span class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span class=\"binding\">)</span><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.mcvDoseDateGiven\" title=\"Date a measles-containing vaccine dose was given (MEASLES.DE.08; used by DT.03 DT.01; rests on measles.mcv0-recording)\">mcvDoseDateGiven</a><a name=\"MeaslesVaccinationContact.mcvDoseDateGiven\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MCV dose: date given</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.mcvDoseDoseLabel\" title=\"How the dose counts (MEASLES.DE.09; used by DT.03 countsAs; rests on measles.mcv0-recording; catchup.mcv2-only-after-mcv1)\">mcvDoseDoseLabel</a><a name=\"MeaslesVaccinationContact.mcvDoseDoseLabel\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MCV dose: dose label<br class=\"binding\"/><span style=\"font-weight:bold\" class=\"binding\">Binding: </span><a href=\"ValueSet-MeaslesMcvDoseDoseLabelVS.html\" title=\"http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS\" class=\"binding\">MCV dose: dose label</a><span class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span class=\"binding\">)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.mcvDoseVaccine\" title=\"Which measles-containing vaccine was given (MEASLES.DE.10; used by IND.01 IND.02; rests on JRF 2A. Schedule rows 2270-2310; measles.same-formulation-both-doses)\">mcvDoseVaccine</a><a name=\"MeaslesVaccinationContact.mcvDoseVaccine\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MCV dose: vaccine<br class=\"binding\"/><span style=\"font-weight:bold\" class=\"binding\">Binding: </span><a href=\"ValueSet-MeaslesMcvDoseVaccineVS.html\" title=\"http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS\" class=\"binding\">MCV dose: vaccine</a><span class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span class=\"binding\">)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.mcvDoseDocumented\" title=\"Whether the dose is documented in a home-based record or register (MEASLES.DE.11; used by DT.03 documented; rests on catchup.confirm-by-written-record; catchup.unconfirmed-assume-unvaccinated)\">mcvDoseDocumented</a><a name=\"MeaslesVaccinationContact.mcvDoseDocumented\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">MCV dose: documented</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.anaphylaxisOrSevereAllergyToAVaccineComponent\" title=\"History of anaphylaxis or severe allergic reaction to any component (e.g. neomycin or gelatin) (MEASLES.DE.12; used by DT.02; rests on measles.contraindications)\">anaphylaxisOrSevereAllergyToAVaccineComponent</a><a name=\"MeaslesVaccinationContact.anaphylaxisOrSevereAllergyToAVaccineComponent\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Anaphylaxis or severe allergy to a vaccine component</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.severeImmunosuppression\" title=\"Client has any form of severe immunosuppression (MEASLES.DE.13; used by DT.02; rests on measles.contraindications)\">severeImmunosuppression</a><a name=\"MeaslesVaccinationContact.severeImmunosuppression\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Severe immunosuppression</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.pregnant\" title=\"Client is pregnant (MEASLES.DE.14; used by DT.02; rests on measles.avoid-in-pregnancy)\">pregnant</a><a name=\"MeaslesVaccinationContact.pregnant\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Pregnant</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.mildConcurrentInfection\" title=\"Client has a mild concurrent infection (recorded; not a reason to defer) (MEASLES.DE.15; used by DT.02; rests on measles.mild-infection-not-contraindication)\">mildConcurrentInfection</a><a name=\"MeaslesVaccinationContact.mildConcurrentInfection\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Mild concurrent infection</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.dateOfLastOtherLiveVaccine\" title=\"Date another live vaccine (not OPV) was last given (MEASLES.DE.16; used by DT.02 weeksSinceOtherLiveVaccine; rests on measles.live-vaccine-spacing; catchup.live-vaccine-spacing)\">dateOfLastOtherLiveVaccine</a><a name=\"MeaslesVaccinationContact.dateOfLastOtherLiveVaccine\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date of last other live vaccine</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.hivStatus\" title=\"Client's HIV status (MEASLES.DE.17; used by DT.01 DT.04; rests on measles.hiv-routine-vaccination; measles.hiv-exposed-mcv0)\">hivStatus</a><a name=\"MeaslesVaccinationContact.hivStatus\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">HIV status<br class=\"binding\"/><span style=\"font-weight:bold\" class=\"binding\">Binding: </span><a href=\"ValueSet-MeaslesHivStatusVS.html\" title=\"http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS\" class=\"binding\">HIV status</a><span class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span class=\"binding\">)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.receivingHaart\" title=\"Client is receiving highly active antiretroviral therapy (MEASLES.DE.18; used by DT.04; rests on measles.hiv-haart-additional-dose)\">receivingHaart</a><a name=\"MeaslesVaccinationContact.receivingHaart\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Receiving HAART</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.haartStartDate\" title=\"Date HAART was started (MEASLES.DE.19; used by DT.04 monthsSinceHaartStart; rests on measles.hiv-haart-no-cd4-monitoring)\">haartStartDate</a><a name=\"MeaslesVaccinationContact.haartStartDate\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">HAART start date</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.cd4TLymphocytePercentage\" title=\"Most recent CD4+ T lymphocyte count as a percentage (MEASLES.DE.20; used by DT.04; rests on measles.hiv-haart-additional-dose)\">cd4TLymphocytePercentage</a><a name=\"MeaslesVaccinationContact.cd4TLymphocytePercentage\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Quantity\">Quantity</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">CD4+ T lymphocyte percentage</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.hivAdditionalMcvDoseGiven\" title=\"The additional dose after immune reconstitution has been given (MEASLES.DE.21; used by DT.04; rests on measles.hiv-haart-additional-dose)\">hivAdditionalMcvDoseGiven</a><a name=\"MeaslesVaccinationContact.hivAdditionalMcvDoseGiven\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">HIV additional MCV dose given</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.screeningOutcome\" title=\"Outcome of screening before vaccination (MEASLES.DE.22; used by MEASLES.A G2; rests on DT.02)\">screeningOutcome</a><a name=\"MeaslesVaccinationContact.screeningOutcome\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Screening outcome<br class=\"binding\"/><span style=\"font-weight:bold\" class=\"binding\">Binding: </span><a href=\"ValueSet-MeaslesScreeningOutcomeVS.html\" title=\"http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS\" class=\"binding\">Screening outcome</a><span class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span class=\"binding\">)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.reasonNotVaccinated\" title=\"Why no dose was given at this contact (MEASLES.DE.23; used by MEASLES.A A9; rests on measles.avoid-in-pregnancy; measles.contraindications; measles.live-vaccine-spacing)\">reasonNotVaccinated</a><a name=\"MeaslesVaccinationContact.reasonNotVaccinated\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Reason not vaccinated<br class=\"binding\"/><span style=\"font-weight:bold\" class=\"binding\">Binding: </span><a href=\"ValueSet-MeaslesReasonNotVaccinatedVS.html\" title=\"http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS\" class=\"binding\">Reason not vaccinated</a><span class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span class=\"binding\">)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.nextMcvDueDate\" title=\"Date the next MCV dose is due (MEASLES.DE.24; used by MEASLES.A A7 A9; MEASLES.B B1; rests on catchup.multi-dose-return-date)\">nextMcvDueDate</a><a name=\"MeaslesVaccinationContact.nextMcvDueDate\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Next MCV due date</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\"\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.healthWorkerMeaslesImmunityProof\" title=\"Proof or documentation of measles immunity or immunization for a health worker (MEASLES.DE.25; used by MEASLES.S4; rests on measles.health-worker-immunity)\">healthWorkerMeaslesImmunityProof</a><a name=\"MeaslesVaccinationContact.healthWorkerMeaslesImmunityProof\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Health worker measles immunity proof<br class=\"binding\"/><span style=\"font-weight:bold\" class=\"binding\">Binding: </span><a href=\"ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.html\" title=\"http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS\" class=\"binding\">Health worker measles immunity proof</a><span class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span class=\"binding\">)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\"\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\"\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span style=\"position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0\" class=\"sr-only\">MeaslesVaccinationContact.</span><a href=\"StructureDefinition-MeaslesVaccinationContact-definitions.html#MeaslesVaccinationContact.confirmedMeaslesCase\" title=\"A confirmed measles case (laboratory or epidemiological link; reported clinical cases included as the JRF instructs) (MEASLES.DE.26; used by IND.07; rests on JRF 1. Reported Cases row 1020; Instructions row 10)\">confirmedMeaslesCase</a><a name=\"MeaslesVaccinationContact.confirmedMeaslesCase\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Confirmed measles case</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "url" : "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact",
+  "version" : "0.1.0",
+  "name" : "MeaslesVaccinationContact",
+  "title" : "Measles vaccination contact",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-23T10:30:20+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "The data a measles vaccination contact (MEASLES.A) and its reporting (MEASLES.B) record: the core data elements MEASLES.DE.01-26.",
+  "fhirVersion" : "4.0.1",
+  "kind" : "logical",
+  "abstract" : false,
+  "type" : "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Base",
+  "derivation" : "specialization",
+  "snapshot" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
+      "valueString" : "4.0.1"
+    }],
+    "element" : [{
+      "id" : "MeaslesVaccinationContact",
+      "path" : "MeaslesVaccinationContact",
+      "short" : "Measles vaccination contact",
+      "definition" : "The data a measles vaccination contact (MEASLES.A) and its reporting (MEASLES.B) record: the core data elements MEASLES.DE.01-26.",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Base",
+        "min" : 0,
+        "max" : "*"
+      },
+      "isModifier" : false
+    },
+    {
+      "id" : "MeaslesVaccinationContact.clientIdentifier",
+      "path" : "MeaslesVaccinationContact.clientIdentifier",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.01"
+      }],
+      "short" : "Client identifier",
+      "definition" : "Unique identifier of the client in the register or EIR (MEASLES.DE.01; used by MEASLES.A; rests on catchup.confirm-by-written-record)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.clientIdentifier",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.dateOfBirth",
+      "path" : "MeaslesVaccinationContact.dateOfBirth",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.02"
+      }],
+      "short" : "Date of birth",
+      "definition" : "Client's date of birth (MEASLES.DE.02; used by DT.01 DT.03 (age); rests on T1 measles footnote (ages throughout))",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.dateOfBirth",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.sex",
+      "path" : "MeaslesVaccinationContact.sex",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.03"
+      }],
+      "short" : "Sex",
+      "definition" : "Client's sex (MEASLES.DE.03; used by IND.01 IND.02 disaggregation; rests on JRF 4A. Routine Coverage)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.sex",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.caregiverName",
+      "path" : "MeaslesVaccinationContact.caregiverName",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.04"
+      }],
+      "short" : "Caregiver name",
+      "definition" : "Name of the caregiver who brings a child (MEASLES.DE.04; used by MEASLES.A; rests on catchup.multi-dose-return-date)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.caregiverName",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.homeBasedRecordPresented",
+      "path" : "MeaslesVaccinationContact.homeBasedRecordPresented",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.05"
+      }],
+      "short" : "Home-based record presented",
+      "definition" : "Whether a home-based record was presented at this contact (MEASLES.DE.05; used by MEASLES.A A1; rests on catchup.confirm-by-written-record)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.homeBasedRecordPresented",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.nationalScheduleSetting",
+      "path" : "MeaslesVaccinationContact.nationalScheduleSetting",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.06"
+      }],
+      "short" : "National schedule setting",
+      "definition" : "Whether the national schedule gives MCV1 at 9 months (high transmission) or 12 months (low transmission) (MEASLES.DE.06; used by DT.01 transmissionSetting; rests on measles.mcv1-9-months-high-transmission; measles.mcv1-12-months-low-transmission)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.nationalScheduleSetting",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.supplementaryDoseIndication",
+      "path" : "MeaslesVaccinationContact.supplementaryDoseIndication",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.07"
+      }],
+      "short" : "Supplementary-dose indication",
+      "definition" : "The infant is in a situation the measles footnote lists for a dose from 6 months (MEASLES.DE.07; used by DT.01 supplementaryIndication; rests on measles.mcv0-situations; measles.hiv-high-incidence-mcv0-6-months)",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.supplementaryDoseIndication",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.mcvDoseDateGiven",
+      "path" : "MeaslesVaccinationContact.mcvDoseDateGiven",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.08"
+      }],
+      "short" : "MCV dose: date given",
+      "definition" : "Date a measles-containing vaccine dose was given (MEASLES.DE.08; used by DT.03 DT.01; rests on measles.mcv0-recording)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.mcvDoseDateGiven",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.mcvDoseDoseLabel",
+      "path" : "MeaslesVaccinationContact.mcvDoseDoseLabel",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.09"
+      }],
+      "short" : "MCV dose: dose label",
+      "definition" : "How the dose counts (MEASLES.DE.09; used by DT.03 countsAs; rests on measles.mcv0-recording; catchup.mcv2-only-after-mcv1)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.mcvDoseDoseLabel",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.mcvDoseVaccine",
+      "path" : "MeaslesVaccinationContact.mcvDoseVaccine",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.10"
+      }],
+      "short" : "MCV dose: vaccine",
+      "definition" : "Which measles-containing vaccine was given (MEASLES.DE.10; used by IND.01 IND.02; rests on JRF 2A. Schedule rows 2270-2310; measles.same-formulation-both-doses)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.mcvDoseVaccine",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.mcvDoseDocumented",
+      "path" : "MeaslesVaccinationContact.mcvDoseDocumented",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.11"
+      }],
+      "short" : "MCV dose: documented",
+      "definition" : "Whether the dose is documented in a home-based record or register (MEASLES.DE.11; used by DT.03 documented; rests on catchup.confirm-by-written-record; catchup.unconfirmed-assume-unvaccinated)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.mcvDoseDocumented",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.anaphylaxisOrSevereAllergyToAVaccineComponent",
+      "path" : "MeaslesVaccinationContact.anaphylaxisOrSevereAllergyToAVaccineComponent",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.12"
+      }],
+      "short" : "Anaphylaxis or severe allergy to a vaccine component",
+      "definition" : "History of anaphylaxis or severe allergic reaction to any component (e.g. neomycin or gelatin) (MEASLES.DE.12; used by DT.02; rests on measles.contraindications)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.anaphylaxisOrSevereAllergyToAVaccineComponent",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.severeImmunosuppression",
+      "path" : "MeaslesVaccinationContact.severeImmunosuppression",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.13"
+      }],
+      "short" : "Severe immunosuppression",
+      "definition" : "Client has any form of severe immunosuppression (MEASLES.DE.13; used by DT.02; rests on measles.contraindications)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.severeImmunosuppression",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.pregnant",
+      "path" : "MeaslesVaccinationContact.pregnant",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.14"
+      }],
+      "short" : "Pregnant",
+      "definition" : "Client is pregnant (MEASLES.DE.14; used by DT.02; rests on measles.avoid-in-pregnancy)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.pregnant",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.mildConcurrentInfection",
+      "path" : "MeaslesVaccinationContact.mildConcurrentInfection",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.15"
+      }],
+      "short" : "Mild concurrent infection",
+      "definition" : "Client has a mild concurrent infection (recorded; not a reason to defer) (MEASLES.DE.15; used by DT.02; rests on measles.mild-infection-not-contraindication)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.mildConcurrentInfection",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.dateOfLastOtherLiveVaccine",
+      "path" : "MeaslesVaccinationContact.dateOfLastOtherLiveVaccine",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.16"
+      }],
+      "short" : "Date of last other live vaccine",
+      "definition" : "Date another live vaccine (not OPV) was last given (MEASLES.DE.16; used by DT.02 weeksSinceOtherLiveVaccine; rests on measles.live-vaccine-spacing; catchup.live-vaccine-spacing)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.dateOfLastOtherLiveVaccine",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.hivStatus",
+      "path" : "MeaslesVaccinationContact.hivStatus",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.17"
+      }],
+      "short" : "HIV status",
+      "definition" : "Client's HIV status (MEASLES.DE.17; used by DT.01 DT.04; rests on measles.hiv-routine-vaccination; measles.hiv-exposed-mcv0)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.hivStatus",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.receivingHaart",
+      "path" : "MeaslesVaccinationContact.receivingHaart",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.18"
+      }],
+      "short" : "Receiving HAART",
+      "definition" : "Client is receiving highly active antiretroviral therapy (MEASLES.DE.18; used by DT.04; rests on measles.hiv-haart-additional-dose)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.receivingHaart",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.haartStartDate",
+      "path" : "MeaslesVaccinationContact.haartStartDate",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.19"
+      }],
+      "short" : "HAART start date",
+      "definition" : "Date HAART was started (MEASLES.DE.19; used by DT.04 monthsSinceHaartStart; rests on measles.hiv-haart-no-cd4-monitoring)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.haartStartDate",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.cd4TLymphocytePercentage",
+      "path" : "MeaslesVaccinationContact.cd4TLymphocytePercentage",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.20"
+      }],
+      "short" : "CD4+ T lymphocyte percentage",
+      "definition" : "Most recent CD4+ T lymphocyte count as a percentage (MEASLES.DE.20; used by DT.04; rests on measles.hiv-haart-additional-dose)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.cd4TLymphocytePercentage",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Quantity"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.hivAdditionalMcvDoseGiven",
+      "path" : "MeaslesVaccinationContact.hivAdditionalMcvDoseGiven",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.21"
+      }],
+      "short" : "HIV additional MCV dose given",
+      "definition" : "The additional dose after immune reconstitution has been given (MEASLES.DE.21; used by DT.04; rests on measles.hiv-haart-additional-dose)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.hivAdditionalMcvDoseGiven",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.screeningOutcome",
+      "path" : "MeaslesVaccinationContact.screeningOutcome",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.22"
+      }],
+      "short" : "Screening outcome",
+      "definition" : "Outcome of screening before vaccination (MEASLES.DE.22; used by MEASLES.A G2; rests on DT.02)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.screeningOutcome",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.reasonNotVaccinated",
+      "path" : "MeaslesVaccinationContact.reasonNotVaccinated",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.23"
+      }],
+      "short" : "Reason not vaccinated",
+      "definition" : "Why no dose was given at this contact (MEASLES.DE.23; used by MEASLES.A A9; rests on measles.avoid-in-pregnancy; measles.contraindications; measles.live-vaccine-spacing)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.reasonNotVaccinated",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.nextMcvDueDate",
+      "path" : "MeaslesVaccinationContact.nextMcvDueDate",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.24"
+      }],
+      "short" : "Next MCV due date",
+      "definition" : "Date the next MCV dose is due (MEASLES.DE.24; used by MEASLES.A A7 A9; MEASLES.B B1; rests on catchup.multi-dose-return-date)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.nextMcvDueDate",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.healthWorkerMeaslesImmunityProof",
+      "path" : "MeaslesVaccinationContact.healthWorkerMeaslesImmunityProof",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.25"
+      }],
+      "short" : "Health worker measles immunity proof",
+      "definition" : "Proof or documentation of measles immunity or immunization for a health worker (MEASLES.DE.25; used by MEASLES.S4; rests on measles.health-worker-immunity)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.healthWorkerMeaslesImmunityProof",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.confirmedMeaslesCase",
+      "path" : "MeaslesVaccinationContact.confirmedMeaslesCase",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.26"
+      }],
+      "short" : "Confirmed measles case",
+      "definition" : "A confirmed measles case (laboratory or epidemiological link; reported clinical cases included as the JRF instructs) (MEASLES.DE.26; used by IND.07; rests on JRF 1. Reported Cases row 1020; Instructions row 10)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "MeaslesVaccinationContact.confirmedMeaslesCase",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    }]
+  },
+  "differential" : {
+    "element" : [{
+      "id" : "MeaslesVaccinationContact",
+      "path" : "MeaslesVaccinationContact",
+      "short" : "Measles vaccination contact",
+      "definition" : "The data a measles vaccination contact (MEASLES.A) and its reporting (MEASLES.B) record: the core data elements MEASLES.DE.01-26."
+    },
+    {
+      "id" : "MeaslesVaccinationContact.clientIdentifier",
+      "path" : "MeaslesVaccinationContact.clientIdentifier",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.01"
+      }],
+      "short" : "Client identifier",
+      "definition" : "Unique identifier of the client in the register or EIR (MEASLES.DE.01; used by MEASLES.A; rests on catchup.confirm-by-written-record)",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.dateOfBirth",
+      "path" : "MeaslesVaccinationContact.dateOfBirth",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.02"
+      }],
+      "short" : "Date of birth",
+      "definition" : "Client's date of birth (MEASLES.DE.02; used by DT.01 DT.03 (age); rests on T1 measles footnote (ages throughout))",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.sex",
+      "path" : "MeaslesVaccinationContact.sex",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.03"
+      }],
+      "short" : "Sex",
+      "definition" : "Client's sex (MEASLES.DE.03; used by IND.01 IND.02 disaggregation; rests on JRF 4A. Routine Coverage)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.caregiverName",
+      "path" : "MeaslesVaccinationContact.caregiverName",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.04"
+      }],
+      "short" : "Caregiver name",
+      "definition" : "Name of the caregiver who brings a child (MEASLES.DE.04; used by MEASLES.A; rests on catchup.multi-dose-return-date)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.homeBasedRecordPresented",
+      "path" : "MeaslesVaccinationContact.homeBasedRecordPresented",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.05"
+      }],
+      "short" : "Home-based record presented",
+      "definition" : "Whether a home-based record was presented at this contact (MEASLES.DE.05; used by MEASLES.A A1; rests on catchup.confirm-by-written-record)",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.nationalScheduleSetting",
+      "path" : "MeaslesVaccinationContact.nationalScheduleSetting",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.06"
+      }],
+      "short" : "National schedule setting",
+      "definition" : "Whether the national schedule gives MCV1 at 9 months (high transmission) or 12 months (low transmission) (MEASLES.DE.06; used by DT.01 transmissionSetting; rests on measles.mcv1-9-months-high-transmission; measles.mcv1-12-months-low-transmission)",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.supplementaryDoseIndication",
+      "path" : "MeaslesVaccinationContact.supplementaryDoseIndication",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.07"
+      }],
+      "short" : "Supplementary-dose indication",
+      "definition" : "The infant is in a situation the measles footnote lists for a dose from 6 months (MEASLES.DE.07; used by DT.01 supplementaryIndication; rests on measles.mcv0-situations; measles.hiv-high-incidence-mcv0-6-months)",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.mcvDoseDateGiven",
+      "path" : "MeaslesVaccinationContact.mcvDoseDateGiven",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.08"
+      }],
+      "short" : "MCV dose: date given",
+      "definition" : "Date a measles-containing vaccine dose was given (MEASLES.DE.08; used by DT.03 DT.01; rests on measles.mcv0-recording)",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.mcvDoseDoseLabel",
+      "path" : "MeaslesVaccinationContact.mcvDoseDoseLabel",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.09"
+      }],
+      "short" : "MCV dose: dose label",
+      "definition" : "How the dose counts (MEASLES.DE.09; used by DT.03 countsAs; rests on measles.mcv0-recording; catchup.mcv2-only-after-mcv1)",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.mcvDoseVaccine",
+      "path" : "MeaslesVaccinationContact.mcvDoseVaccine",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.10"
+      }],
+      "short" : "MCV dose: vaccine",
+      "definition" : "Which measles-containing vaccine was given (MEASLES.DE.10; used by IND.01 IND.02; rests on JRF 2A. Schedule rows 2270-2310; measles.same-formulation-both-doses)",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.mcvDoseDocumented",
+      "path" : "MeaslesVaccinationContact.mcvDoseDocumented",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.11"
+      }],
+      "short" : "MCV dose: documented",
+      "definition" : "Whether the dose is documented in a home-based record or register (MEASLES.DE.11; used by DT.03 documented; rests on catchup.confirm-by-written-record; catchup.unconfirmed-assume-unvaccinated)",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.anaphylaxisOrSevereAllergyToAVaccineComponent",
+      "path" : "MeaslesVaccinationContact.anaphylaxisOrSevereAllergyToAVaccineComponent",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.12"
+      }],
+      "short" : "Anaphylaxis or severe allergy to a vaccine component",
+      "definition" : "History of anaphylaxis or severe allergic reaction to any component (e.g. neomycin or gelatin) (MEASLES.DE.12; used by DT.02; rests on measles.contraindications)",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.severeImmunosuppression",
+      "path" : "MeaslesVaccinationContact.severeImmunosuppression",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.13"
+      }],
+      "short" : "Severe immunosuppression",
+      "definition" : "Client has any form of severe immunosuppression (MEASLES.DE.13; used by DT.02; rests on measles.contraindications)",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.pregnant",
+      "path" : "MeaslesVaccinationContact.pregnant",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.14"
+      }],
+      "short" : "Pregnant",
+      "definition" : "Client is pregnant (MEASLES.DE.14; used by DT.02; rests on measles.avoid-in-pregnancy)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.mildConcurrentInfection",
+      "path" : "MeaslesVaccinationContact.mildConcurrentInfection",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.15"
+      }],
+      "short" : "Mild concurrent infection",
+      "definition" : "Client has a mild concurrent infection (recorded; not a reason to defer) (MEASLES.DE.15; used by DT.02; rests on measles.mild-infection-not-contraindication)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.dateOfLastOtherLiveVaccine",
+      "path" : "MeaslesVaccinationContact.dateOfLastOtherLiveVaccine",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.16"
+      }],
+      "short" : "Date of last other live vaccine",
+      "definition" : "Date another live vaccine (not OPV) was last given (MEASLES.DE.16; used by DT.02 weeksSinceOtherLiveVaccine; rests on measles.live-vaccine-spacing; catchup.live-vaccine-spacing)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.hivStatus",
+      "path" : "MeaslesVaccinationContact.hivStatus",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.17"
+      }],
+      "short" : "HIV status",
+      "definition" : "Client's HIV status (MEASLES.DE.17; used by DT.01 DT.04; rests on measles.hiv-routine-vaccination; measles.hiv-exposed-mcv0)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.receivingHaart",
+      "path" : "MeaslesVaccinationContact.receivingHaart",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.18"
+      }],
+      "short" : "Receiving HAART",
+      "definition" : "Client is receiving highly active antiretroviral therapy (MEASLES.DE.18; used by DT.04; rests on measles.hiv-haart-additional-dose)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.haartStartDate",
+      "path" : "MeaslesVaccinationContact.haartStartDate",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.19"
+      }],
+      "short" : "HAART start date",
+      "definition" : "Date HAART was started (MEASLES.DE.19; used by DT.04 monthsSinceHaartStart; rests on measles.hiv-haart-no-cd4-monitoring)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.cd4TLymphocytePercentage",
+      "path" : "MeaslesVaccinationContact.cd4TLymphocytePercentage",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.20"
+      }],
+      "short" : "CD4+ T lymphocyte percentage",
+      "definition" : "Most recent CD4+ T lymphocyte count as a percentage (MEASLES.DE.20; used by DT.04; rests on measles.hiv-haart-additional-dose)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Quantity"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.hivAdditionalMcvDoseGiven",
+      "path" : "MeaslesVaccinationContact.hivAdditionalMcvDoseGiven",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.21"
+      }],
+      "short" : "HIV additional MCV dose given",
+      "definition" : "The additional dose after immune reconstitution has been given (MEASLES.DE.21; used by DT.04; rests on measles.hiv-haart-additional-dose)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.screeningOutcome",
+      "path" : "MeaslesVaccinationContact.screeningOutcome",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.22"
+      }],
+      "short" : "Screening outcome",
+      "definition" : "Outcome of screening before vaccination (MEASLES.DE.22; used by MEASLES.A G2; rests on DT.02)",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.reasonNotVaccinated",
+      "path" : "MeaslesVaccinationContact.reasonNotVaccinated",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.23"
+      }],
+      "short" : "Reason not vaccinated",
+      "definition" : "Why no dose was given at this contact (MEASLES.DE.23; used by MEASLES.A A9; rests on measles.avoid-in-pregnancy; measles.contraindications; measles.live-vaccine-spacing)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.nextMcvDueDate",
+      "path" : "MeaslesVaccinationContact.nextMcvDueDate",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.24"
+      }],
+      "short" : "Next MCV due date",
+      "definition" : "Date the next MCV dose is due (MEASLES.DE.24; used by MEASLES.A A7 A9; MEASLES.B B1; rests on catchup.multi-dose-return-date)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "MeaslesVaccinationContact.healthWorkerMeaslesImmunityProof",
+      "path" : "MeaslesVaccinationContact.healthWorkerMeaslesImmunityProof",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.25"
+      }],
+      "short" : "Health worker measles immunity proof",
+      "definition" : "Proof or documentation of measles immunity or immunization for a health worker (MEASLES.DE.25; used by MEASLES.S4; rests on measles.health-worker-immunity)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS"
+      }
+    },
+    {
+      "id" : "MeaslesVaccinationContact.confirmedMeaslesCase",
+      "path" : "MeaslesVaccinationContact.confirmedMeaslesCase",
+      "code" : [{
+        "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+        "code" : "MEASLES.DE.26"
+      }],
+      "short" : "Confirmed measles case",
+      "definition" : "A confirmed measles case (laboratory or epidemiological link; reported clinical cases included as the JRF instructs) (MEASLES.DE.26; used by IND.07; rests on JRF 1. Reported Cases row 1020; Instructions row 10)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    }]
+  }
+}

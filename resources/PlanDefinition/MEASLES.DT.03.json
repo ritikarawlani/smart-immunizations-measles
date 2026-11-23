@@ -1,0 +1,122 @@
+{
+  "resourceType" : "PlanDefinition",
+  "id" : "MEASLES.DT.03",
+  "meta" : {
+    "profile" : ["http://smart.who.int/base/StructureDefinition/SGDecisionTable"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<div>\n    <table class=\"grid dict\">\n        \n        <tr>\n            <th scope=\"row\"><b>Id: </b></th>\n            <td style=\"padding-left: 4px;\">MEASLES.DT.03</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Url: </b></th>\n            <td style=\"padding-left: 4px;\"><a href=\"PlanDefinition-MEASLES.DT.03.html\">MEASLES.DT.03 Count a recorded measles-containing vaccine dose</a></td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Version: </b></th>\n            <td style=\"padding-left: 4px;\">0.1.0</td>\n        </tr>\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Title: </b></th>\n            <td style=\"padding-left: 4px;\">MEASLES.DT.03 Count a recorded measles-containing vaccine dose</td>\n        </tr>\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Status: </b></th>\n            <td style=\"padding-left: 4px;\">draft</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Experimental: </b></th>\n            <td style=\"padding-left: 4px;\">true</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Type: </b></th>\n            <td style=\"padding-left: 4px;\">\n                \n                    \n                        \n                        <p style=\"margin-bottom: 5px;\">\n                            <b>system: </b> <span><a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-plan-definition-type.html\">http://terminology.hl7.org/CodeSystem/plan-definition-type</a></span>\n                        </p>\n                        \n                        \n                        <p style=\"margin-bottom: 5px;\">\n                            <b>code: </b> <span>eca-rule</span>\n                        </p>\n                        \n                        \n                    \n                \n                \n            </td>\n        </tr>\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Date: </b></th>\n            <td style=\"padding-left: 4px;\">2026-11-23 10:30:20+0000</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Publisher: </b></th>\n            <td style=\"padding-left: 4px;\">WHO</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Description: </b></th>\n            <td style=\"padding-left: 4px;\"><div><p>How one recorded MCV dose counts, evaluated dose by dose in date order. Hit policy FIRST. Adjudication: pending. L3 of input/decision-logic/MEASLES.DT.03.dmn.</p>\n</div></td>\n        </tr>\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Libraries: </b></th>\n            <td style=\"padding-left: 4px;\">\n                <table class=\"grid-dict\">\n                    \n                    <tr>\n                        <td><a href=\"Library-MEASLESDT03.html\">MEASLES.DT.03 Count a recorded measles-containing vaccine dose (logic)</a></td>\n                    </tr>\n                    \n                </table>\n            </td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Actions: </b></th>\n            <td style=\"padding-left: 4px;\">\n                <table class=\"grid-dict\">\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 1: not counted:</b> No written evidence: treat as not received and offer vaccination.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 1 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 2: invalid:</b> Given before the minimum age of 6 months: not valid; repeat as age-appropriate.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 2 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 3: MCV0:</b> Given before 9 months: a supplementary dose, recorded as MCV0; MCV1 and MCV2 still follow.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 3 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 4: invalid:</b> Less than 4 weeks after the previous MCV: not valid; repeat 4 weeks after this dose.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 4 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 5: MCV1:</b> The first valid routine dose, whatever it was recorded as.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 5 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 6: MCV2:</b> The second valid routine dose.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 6 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 7: extra:</b> Series already complete; this dose is not needed.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 7 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 8: unknown:</b> Not settled: the dose date, age or earlier doses are missing.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 8 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                </table>\n            </td>\n        </tr>\n        \n    </table>\n</div>\n</div>"
+  },
+  "url" : "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03",
+  "version" : "0.1.0",
+  "name" : "MEASLESDT03PlanDefinition",
+  "title" : "MEASLES.DT.03 Count a recorded measles-containing vaccine dose",
+  "type" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/plan-definition-type",
+      "code" : "eca-rule"
+    }]
+  },
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-23T10:30:20+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "How one recorded MCV dose counts, evaluated dose by dose in date order. Hit policy FIRST. Adjudication: pending. L3 of input/decision-logic/MEASLES.DT.03.dmn.",
+  "library" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03"],
+  "action" : [{
+    "title" : "Rule 1: not counted",
+    "description" : "No written evidence: treat as not received and offer vaccination.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 1 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 2: invalid",
+    "description" : "Given before the minimum age of 6 months: not valid; repeat as age-appropriate.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 2 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 3: MCV0",
+    "description" : "Given before 9 months: a supplementary dose, recorded as MCV0; MCV1 and MCV2 still follow.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 3 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 4: invalid",
+    "description" : "Less than 4 weeks after the previous MCV: not valid; repeat 4 weeks after this dose.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 4 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 5: MCV1",
+    "description" : "The first valid routine dose, whatever it was recorded as.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 5 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 6: MCV2",
+    "description" : "The second valid routine dose.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 6 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 7: extra",
+    "description" : "Series already complete; this dose is not needed.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 7 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 8: unknown",
+    "description" : "Not settled: the dose date, age or earlier doses are missing.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 8 fires"
+      }
+    }]
+  }]
+}

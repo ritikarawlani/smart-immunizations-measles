@@ -1,0 +1,627 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "d9a95a05-7e33-44ff-9a84-c593273ea373",
+  "meta" : {
+    "lastUpdated" : "2026-11-23T10:30:20.863+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "meta" : {
+        "profile" : ["http://smart.who.int/base/StructureDefinition/SGValueSet"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-MeaslesConcepts.html\">codesystem Measles concepts v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.25.documented-immunization\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4625.46documented-immunization\">MEASLES.DE.25.documented-immunization</a></td><td>documented-immunization</td><td>Health worker measles immunity proof: documented-immunization</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.25.documented-immunization&quot;, &quot;display&quot;: &quot;documented-immunization&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.25.documented-immunization&quot;/&gt;&lt;display value=&quot;documented-immunization&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.25.documented-immunity\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4625.46documented-immunity\">MEASLES.DE.25.documented-immunity</a></td><td>documented-immunity</td><td>Health worker measles immunity proof: documented-immunity</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.25.documented-immunity&quot;, &quot;display&quot;: &quot;documented-immunity&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.25.documented-immunity&quot;/&gt;&lt;display value=&quot;documented-immunity&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.25.none\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4625.46none\">MEASLES.DE.25.none</a></td><td>none</td><td>Health worker measles immunity proof: none</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.25.none&quot;, &quot;display&quot;: &quot;none&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.25.none&quot;/&gt;&lt;display value=&quot;none&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS",
+      "version" : "0.1.0",
+      "name" : "MeaslesHealthWorkerMeaslesImmunityProofVS",
+      "title" : "Health worker measles immunity proof",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-23T10:30:20+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:c2be8b55-c7c9-49f8-b43b-256e45cdd9ca",
+        "timestamp" : "2026-11-23T10:32:23+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.25.documented-immunization",
+          "display" : "documented-immunization"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.25.documented-immunity",
+          "display" : "documented-immunity"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.25.none",
+          "display" : "none"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "meta" : {
+        "profile" : ["http://smart.who.int/base/StructureDefinition/SGValueSet"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-MeaslesConcepts.html\">codesystem Measles concepts v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.17.infected\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4617.46infected\">MEASLES.DE.17.infected</a></td><td>infected</td><td>HIV status: infected</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.17.infected&quot;, &quot;display&quot;: &quot;infected&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.17.infected&quot;/&gt;&lt;display value=&quot;infected&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.17.exposed-infant\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4617.46exposed-infant\">MEASLES.DE.17.exposed-infant</a></td><td>exposed-infant</td><td>HIV status: exposed-infant</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.17.exposed-infant&quot;, &quot;display&quot;: &quot;exposed-infant&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.17.exposed-infant&quot;/&gt;&lt;display value=&quot;exposed-infant&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.17.negative\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4617.46negative\">MEASLES.DE.17.negative</a></td><td>negative</td><td>HIV status: negative</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.17.negative&quot;, &quot;display&quot;: &quot;negative&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.17.negative&quot;/&gt;&lt;display value=&quot;negative&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.17.unknown\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4617.46unknown\">MEASLES.DE.17.unknown</a></td><td>unknown</td><td>HIV status: unknown</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.17.unknown&quot;, &quot;display&quot;: &quot;unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.17.unknown&quot;/&gt;&lt;display value=&quot;unknown&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS",
+      "version" : "0.1.0",
+      "name" : "MeaslesHivStatusVS",
+      "title" : "HIV status",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-23T10:30:20+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:86eda428-76d7-45cd-a4e7-e48516cf9f98",
+        "timestamp" : "2026-11-23T10:32:23+00:00",
+        "total" : 4,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.17.infected",
+          "display" : "infected"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.17.exposed-infant",
+          "display" : "exposed-infant"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.17.negative",
+          "display" : "negative"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.17.unknown",
+          "display" : "unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "meta" : {
+        "profile" : ["http://smart.who.int/base/StructureDefinition/SGValueSet"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-MeaslesConcepts.html\">codesystem Measles concepts v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.09.mcv0\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4609.46mcv0\">MEASLES.DE.09.mcv0</a></td><td>MCV0</td><td>MCV dose: dose label: MCV0</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.09.mcv0&quot;, &quot;display&quot;: &quot;MCV0&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.09.mcv0&quot;/&gt;&lt;display value=&quot;MCV0&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.09.mcv1\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4609.46mcv1\">MEASLES.DE.09.mcv1</a></td><td>MCV1</td><td>MCV dose: dose label: MCV1</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.09.mcv1&quot;, &quot;display&quot;: &quot;MCV1&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.09.mcv1&quot;/&gt;&lt;display value=&quot;MCV1&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.09.mcv2\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4609.46mcv2\">MEASLES.DE.09.mcv2</a></td><td>MCV2</td><td>MCV dose: dose label: MCV2</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.09.mcv2&quot;, &quot;display&quot;: &quot;MCV2&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.09.mcv2&quot;/&gt;&lt;display value=&quot;MCV2&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.09.extra\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4609.46extra\">MEASLES.DE.09.extra</a></td><td>extra</td><td>MCV dose: dose label: extra</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.09.extra&quot;, &quot;display&quot;: &quot;extra&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.09.extra&quot;/&gt;&lt;display value=&quot;extra&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.09.invalid\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4609.46invalid\">MEASLES.DE.09.invalid</a></td><td>invalid</td><td>MCV dose: dose label: invalid</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.09.invalid&quot;, &quot;display&quot;: &quot;invalid&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.09.invalid&quot;/&gt;&lt;display value=&quot;invalid&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.09.not-counted\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4609.46not-counted\">MEASLES.DE.09.not-counted</a></td><td>not counted</td><td>MCV dose: dose label: not counted</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.09.not-counted&quot;, &quot;display&quot;: &quot;not counted&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.09.not-counted&quot;/&gt;&lt;display value=&quot;not counted&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS",
+      "version" : "0.1.0",
+      "name" : "MeaslesMcvDoseDoseLabelVS",
+      "title" : "MCV dose: dose label",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-23T10:30:20+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:967b11e7-3dd3-4c14-b9c0-41e4808ff4c9",
+        "timestamp" : "2026-11-23T10:32:23+00:00",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.09.mcv0",
+          "display" : "MCV0"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.09.mcv1",
+          "display" : "MCV1"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.09.mcv2",
+          "display" : "MCV2"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.09.extra",
+          "display" : "extra"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.09.invalid",
+          "display" : "invalid"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.09.not-counted",
+          "display" : "not counted"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "meta" : {
+        "profile" : ["http://smart.who.int/base/StructureDefinition/SGValueSet"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-MeaslesConcepts.html\">codesystem Measles concepts v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.10.m\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4610.46m\">MEASLES.DE.10.m</a></td><td>M</td><td>MCV dose: vaccine: M</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.10.m&quot;, &quot;display&quot;: &quot;M&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.10.m&quot;/&gt;&lt;display value=&quot;M&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.10.mm\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4610.46mm\">MEASLES.DE.10.mm</a></td><td>MM</td><td>MCV dose: vaccine: MM</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.10.mm&quot;, &quot;display&quot;: &quot;MM&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.10.mm&quot;/&gt;&lt;display value=&quot;MM&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.10.mr\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4610.46mr\">MEASLES.DE.10.mr</a></td><td>MR</td><td>MCV dose: vaccine: MR</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.10.mr&quot;, &quot;display&quot;: &quot;MR&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.10.mr&quot;/&gt;&lt;display value=&quot;MR&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.10.mmr\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4610.46mmr\">MEASLES.DE.10.mmr</a></td><td>MMR</td><td>MCV dose: vaccine: MMR</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.10.mmr&quot;, &quot;display&quot;: &quot;MMR&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.10.mmr&quot;/&gt;&lt;display value=&quot;MMR&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.10.mmrv\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4610.46mmrv\">MEASLES.DE.10.mmrv</a></td><td>MMRV</td><td>MCV dose: vaccine: MMRV</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.10.mmrv&quot;, &quot;display&quot;: &quot;MMRV&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.10.mmrv&quot;/&gt;&lt;display value=&quot;MMRV&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS",
+      "version" : "0.1.0",
+      "name" : "MeaslesMcvDoseVaccineVS",
+      "title" : "MCV dose: vaccine",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-23T10:30:20+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:a138c7a2-60d4-4eb4-bfe4-ee0bf67c7e70",
+        "timestamp" : "2026-11-23T10:32:23+00:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.10.m",
+          "display" : "M"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.10.mm",
+          "display" : "MM"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.10.mr",
+          "display" : "MR"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.10.mmr",
+          "display" : "MMR"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.10.mmrv",
+          "display" : "MMRV"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "meta" : {
+        "profile" : ["http://smart.who.int/base/StructureDefinition/SGValueSet"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-MeaslesConcepts.html\">codesystem Measles concepts v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.06.high\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4606.46high\">MEASLES.DE.06.high</a></td><td>high</td><td>National schedule setting: high</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.06.high&quot;, &quot;display&quot;: &quot;high&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.06.high&quot;/&gt;&lt;display value=&quot;high&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.06.low\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4606.46low\">MEASLES.DE.06.low</a></td><td>low</td><td>National schedule setting: low</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.06.low&quot;, &quot;display&quot;: &quot;low&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.06.low&quot;/&gt;&lt;display value=&quot;low&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS",
+      "version" : "0.1.0",
+      "name" : "MeaslesNationalScheduleSettingVS",
+      "title" : "National schedule setting",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-23T10:30:20+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:9e3031ea-3d75-4b81-a20a-a31f4ba5f0f7",
+        "timestamp" : "2026-11-23T10:32:23+00:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.06.high",
+          "display" : "high"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.06.low",
+          "display" : "low"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "meta" : {
+        "profile" : ["http://smart.who.int/base/StructureDefinition/SGValueSet"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-MeaslesConcepts.html\">codesystem Measles concepts v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.23.not-due\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4623.46not-due\">MEASLES.DE.23.not-due</a></td><td>not-due</td><td>Reason not vaccinated: not-due</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.23.not-due&quot;, &quot;display&quot;: &quot;not-due&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.23.not-due&quot;/&gt;&lt;display value=&quot;not-due&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.23.series-complete\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4623.46series-complete\">MEASLES.DE.23.series-complete</a></td><td>series-complete</td><td>Reason not vaccinated: series-complete</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.23.series-complete&quot;, &quot;display&quot;: &quot;series-complete&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.23.series-complete&quot;/&gt;&lt;display value=&quot;series-complete&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.23.pregnant\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4623.46pregnant\">MEASLES.DE.23.pregnant</a></td><td>pregnant</td><td>Reason not vaccinated: pregnant</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.23.pregnant&quot;, &quot;display&quot;: &quot;pregnant&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.23.pregnant&quot;/&gt;&lt;display value=&quot;pregnant&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.23.contraindication\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4623.46contraindication\">MEASLES.DE.23.contraindication</a></td><td>contraindication</td><td>Reason not vaccinated: contraindication</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.23.contraindication&quot;, &quot;display&quot;: &quot;contraindication&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.23.contraindication&quot;/&gt;&lt;display value=&quot;contraindication&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.23.live-vaccine-spacing\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4623.46live-vaccine-spacing\">MEASLES.DE.23.live-vaccine-spacing</a></td><td>live-vaccine-spacing</td><td>Reason not vaccinated: live-vaccine-spacing</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.23.live-vaccine-spacing&quot;, &quot;display&quot;: &quot;live-vaccine-spacing&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.23.live-vaccine-spacing&quot;/&gt;&lt;display value=&quot;live-vaccine-spacing&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.23.other\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4623.46other\">MEASLES.DE.23.other</a></td><td>other</td><td>Reason not vaccinated: other</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.23.other&quot;, &quot;display&quot;: &quot;other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.23.other&quot;/&gt;&lt;display value=&quot;other&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS",
+      "version" : "0.1.0",
+      "name" : "MeaslesReasonNotVaccinatedVS",
+      "title" : "Reason not vaccinated",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-23T10:30:20+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:b65fbbe4-f75c-4795-a51a-db0b88c93fb8",
+        "timestamp" : "2026-11-23T10:32:23+00:00",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.23.not-due",
+          "display" : "not-due"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.23.series-complete",
+          "display" : "series-complete"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.23.pregnant",
+          "display" : "pregnant"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.23.contraindication",
+          "display" : "contraindication"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.23.live-vaccine-spacing",
+          "display" : "live-vaccine-spacing"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.23.other",
+          "display" : "other"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "meta" : {
+        "profile" : ["http://smart.who.int/base/StructureDefinition/SGValueSet"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-MeaslesConcepts.html\">codesystem Measles concepts v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.22.proceed\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4622.46proceed\">MEASLES.DE.22.proceed</a></td><td>proceed</td><td>Screening outcome: proceed</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.22.proceed&quot;, &quot;display&quot;: &quot;proceed&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.22.proceed&quot;/&gt;&lt;display value=&quot;proceed&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.22.defer\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4622.46defer\">MEASLES.DE.22.defer</a></td><td>defer</td><td>Screening outcome: defer</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.22.defer&quot;, &quot;display&quot;: &quot;defer&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.22.defer&quot;/&gt;&lt;display value=&quot;defer&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.22.do-not-vaccinate\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4622.46do-not-vaccinate\">MEASLES.DE.22.do-not-vaccinate</a></td><td>do-not-vaccinate</td><td>Screening outcome: do-not-vaccinate</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.22.do-not-vaccinate&quot;, &quot;display&quot;: &quot;do-not-vaccinate&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.22.do-not-vaccinate&quot;/&gt;&lt;display value=&quot;do-not-vaccinate&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.22.unknown\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4622.46unknown\">MEASLES.DE.22.unknown</a></td><td>unknown</td><td>Screening outcome: unknown</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.22.unknown&quot;, &quot;display&quot;: &quot;unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.22.unknown&quot;/&gt;&lt;display value=&quot;unknown&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS",
+      "version" : "0.1.0",
+      "name" : "MeaslesScreeningOutcomeVS",
+      "title" : "Screening outcome",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-23T10:30:20+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:d3392114-4d1a-4049-b68e-f3d0e4801d68",
+        "timestamp" : "2026-11-23T10:32:23+00:00",
+        "total" : 4,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.22.proceed",
+          "display" : "proceed"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.22.defer",
+          "display" : "defer"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.22.do-not-vaccinate",
+          "display" : "do-not-vaccinate"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.22.unknown",
+          "display" : "unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "meta" : {
+        "profile" : ["http://smart.who.int/base/StructureDefinition/SGValueSet"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-MeaslesConcepts.html\">codesystem Measles concepts v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.03.female\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4603.46female\">MEASLES.DE.03.female</a></td><td>female</td><td>Sex: female</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.03.female&quot;, &quot;display&quot;: &quot;female&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.03.female&quot;/&gt;&lt;display value=&quot;female&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.03.male\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4603.46male\">MEASLES.DE.03.male</a></td><td>male</td><td>Sex: male</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.03.male&quot;, &quot;display&quot;: &quot;male&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.03.male&quot;/&gt;&lt;display value=&quot;male&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.03.other\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4603.46other\">MEASLES.DE.03.other</a></td><td>other</td><td>Sex: other</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.03.other&quot;, &quot;display&quot;: &quot;other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.03.other&quot;/&gt;&lt;display value=&quot;other&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.03.unknown\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4603.46unknown\">MEASLES.DE.03.unknown</a></td><td>unknown</td><td>Sex: unknown</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.03.unknown&quot;, &quot;display&quot;: &quot;unknown&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.03.unknown&quot;/&gt;&lt;display value=&quot;unknown&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS",
+      "version" : "0.1.0",
+      "name" : "MeaslesSexVS",
+      "title" : "Sex",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-23T10:30:20+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:4ec46dae-745b-4997-8b35-f85ebf09f18e",
+        "timestamp" : "2026-11-23T10:32:24+00:00",
+        "total" : 4,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.03.female",
+          "display" : "female"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.03.male",
+          "display" : "male"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.03.other",
+          "display" : "other"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.03.unknown",
+          "display" : "unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "meta" : {
+        "profile" : ["http://smart.who.int/base/StructureDefinition/SGValueSet"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-MeaslesConcepts.html\">codesystem Measles concepts v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 7 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.07.outbreak-intensified-service\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4607.46outbreak-intensified-service\">MEASLES.DE.07.outbreak-intensified-service</a></td><td>outbreak-intensified-service</td><td>Supplementary-dose indication: outbreak-intensified-service</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.07.outbreak-intensified-service&quot;, &quot;display&quot;: &quot;outbreak-intensified-service&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.07.outbreak-intensified-service&quot;/&gt;&lt;display value=&quot;outbreak-intensified-service&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.07.high-risk-campaign\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4607.46high-risk-campaign\">MEASLES.DE.07.high-risk-campaign</a></td><td>high-risk-campaign</td><td>Supplementary-dose indication: high-risk-campaign</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.07.high-risk-campaign&quot;, &quot;display&quot;: &quot;high-risk-campaign&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.07.high-risk-campaign&quot;/&gt;&lt;display value=&quot;high-risk-campaign&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.07.displaced-refugee-conflict\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4607.46displaced-refugee-conflict\">MEASLES.DE.07.displaced-refugee-conflict</a></td><td>displaced-refugee-conflict</td><td>Supplementary-dose indication: displaced-refugee-conflict</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.07.displaced-refugee-conflict&quot;, &quot;display&quot;: &quot;displaced-refugee-conflict&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.07.displaced-refugee-conflict&quot;/&gt;&lt;display value=&quot;displaced-refugee-conflict&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.07.contact-or-high-exposure\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4607.46contact-or-high-exposure\">MEASLES.DE.07.contact-or-high-exposure</a></td><td>contact-or-high-exposure</td><td>Supplementary-dose indication: contact-or-high-exposure</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.07.contact-or-high-exposure&quot;, &quot;display&quot;: &quot;contact-or-high-exposure&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.07.contact-or-high-exposure&quot;/&gt;&lt;display value=&quot;contact-or-high-exposure&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.07.travel-to-outbreak-country\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4607.46travel-to-outbreak-country\">MEASLES.DE.07.travel-to-outbreak-country</a></td><td>travel-to-outbreak-country</td><td>Supplementary-dose indication: travel-to-outbreak-country</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.07.travel-to-outbreak-country&quot;, &quot;display&quot;: &quot;travel-to-outbreak-country&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.07.travel-to-outbreak-country&quot;/&gt;&lt;display value=&quot;travel-to-outbreak-country&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.07.hiv-infected-or-exposed\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4607.46hiv-infected-or-exposed\">MEASLES.DE.07.hiv-infected-or-exposed</a></td><td>hiv-infected-or-exposed</td><td>Supplementary-dose indication: hiv-infected-or-exposed</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.07.hiv-infected-or-exposed&quot;, &quot;display&quot;: &quot;hiv-infected-or-exposed&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.07.hiv-infected-or-exposed&quot;/&gt;&lt;display value=&quot;hiv-infected-or-exposed&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts-MEASLES.DE.07.high-hiv-and-measles-incidence\"> </a><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4607.46high-hiv-and-measles-incidence\">MEASLES.DE.07.high-hiv-and-measles-incidence</a></td><td>high-hiv-and-measles-incidence</td><td>Supplementary-dose indication: high-hiv-and-measles-incidence</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MEASLES.DE.07.high-hiv-and-measles-incidence&quot;, &quot;display&quot;: &quot;high-hiv-and-measles-incidence&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;MEASLES.DE.07.high-hiv-and-measles-incidence&quot;/&gt;&lt;display value=&quot;high-hiv-and-measles-incidence&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS",
+      "version" : "0.1.0",
+      "name" : "MeaslesSupplementaryDoseIndicationVS",
+      "title" : "Supplementary-dose indication",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-23T10:30:20+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:75333e52-0310-406a-bee8-40d9a174a0f8",
+        "timestamp" : "2026-11-23T10:32:24+00:00",
+        "total" : 7,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.07.outbreak-intensified-service",
+          "display" : "outbreak-intensified-service"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.07.high-risk-campaign",
+          "display" : "high-risk-campaign"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.07.displaced-refugee-conflict",
+          "display" : "displaced-refugee-conflict"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.07.contact-or-high-exposure",
+          "display" : "contact-or-high-exposure"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.07.travel-to-outbreak-country",
+          "display" : "travel-to-outbreak-country"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.07.hiv-infected-or-exposed",
+          "display" : "hiv-infected-or-exposed"
+        },
+        {
+          "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+          "code" : "MEASLES.DE.07.high-hiv-and-measles-incidence",
+          "display" : "high-hiv-and-measles-incidence"
+        }]
+      }
+    }
+  }]
+}

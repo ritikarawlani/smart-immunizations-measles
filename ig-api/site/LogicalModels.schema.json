@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "#/LogicalModels.schema.json",
+  "title": "Logical Model Enumeration Schema",
+  "description": "JSON Schema defining the structure of the Logical Model enumeration endpoint response",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "logical_model",
+      "description": "The type of schemas enumerated (logical_model)"
+    },
+    "count": {
+      "type": "integer",
+      "description": "Total number of schemas available"
+    },
+    "schemas": {
+      "type": "array",
+      "description": "Array of available schemas",
+      "items": {
+        "type": "object",
+        "properties": {
+          "filename": {
+            "type": "string",
+            "description": "Schema filename"
+          },
+          "id": {
+            "type": "string",
+            "description": "Schema $id"
+          },
+          "title": {
+            "type": "string",
+            "description": "Schema title"
+          },
+          "description": {
+            "type": "string",
+            "description": "Schema description"
+          },
+          "url": {
+            "type": "string",
+            "description": "Relative URL to the schema file"
+          },
+          "logicalModelUrl": {
+            "type": "string",
+            "description": "FHIR canonical URL of the Logical Model"
+          },
+          "propertyCount": {
+            "type": "integer",
+            "description": "Number of properties in the Logical Model"
+          }
+        },
+        "required": [
+          "filename",
+          "title",
+          "url"
+        ]
+      }
+    }
+  },
+  "required": [
+    "type",
+    "count",
+    "schemas"
+  ],
+  "example": {
+    "type": "logical_model",
+    "count": 1,
+    "schemas": [
+      {
+        "filename": "StructureDefinition-MeaslesVaccinationContact.schema.json",
+        "id": "http://smart.who.int/immunizations-measles/StructureDefinition-MeaslesVaccinationContact.schema.json",
+        "title": "Measles vaccination contact",
+        "description": "The data a measles vaccination contact (MEASLES.A) and its reporting (MEASLES.B) record: the core data elements MEASLES.DE.01-26.",
+        "url": "./StructureDefinition-MeaslesVaccinationContact.schema.json",
+        "propertyCount": 29
+      }
+    ]
+  }
+}

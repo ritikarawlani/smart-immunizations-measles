@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "MeaslesSupplementaryDoseIndicationVS",
+  "meta" : {
+    "profile" : ["http://smart.who.int/base/StructureDefinition/SGValueSet"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet MeaslesSupplementaryDoseIndicationVS</b></p><a name=\"MeaslesSupplementaryDoseIndicationVS\"> </a><a name=\"hcMeaslesSupplementaryDoseIndicationVS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://smart.who.int/base/1.0.0/StructureDefinition-SGValueSet.html\">SMART Guidelines ValueSet</a></p></div><ul><li>Include these codes as defined in <a href=\"CodeSystem-MeaslesConcepts.html\"><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4607.46outbreak-intensified-service\">MEASLES.DE.07.outbreak-intensified-service</a></td><td style=\"color: #cccccc\">outbreak-intensified-service</td><td>Supplementary-dose indication: outbreak-intensified-service</td></tr><tr><td><a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4607.46high-risk-campaign\">MEASLES.DE.07.high-risk-campaign</a></td><td style=\"color: #cccccc\">high-risk-campaign</td><td>Supplementary-dose indication: high-risk-campaign</td></tr><tr><td><a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4607.46displaced-refugee-conflict\">MEASLES.DE.07.displaced-refugee-conflict</a></td><td style=\"color: #cccccc\">displaced-refugee-conflict</td><td>Supplementary-dose indication: displaced-refugee-conflict</td></tr><tr><td><a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4607.46contact-or-high-exposure\">MEASLES.DE.07.contact-or-high-exposure</a></td><td style=\"color: #cccccc\">contact-or-high-exposure</td><td>Supplementary-dose indication: contact-or-high-exposure</td></tr><tr><td><a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4607.46travel-to-outbreak-country\">MEASLES.DE.07.travel-to-outbreak-country</a></td><td style=\"color: #cccccc\">travel-to-outbreak-country</td><td>Supplementary-dose indication: travel-to-outbreak-country</td></tr><tr><td><a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4607.46hiv-infected-or-exposed\">MEASLES.DE.07.hiv-infected-or-exposed</a></td><td style=\"color: #cccccc\">hiv-infected-or-exposed</td><td>Supplementary-dose indication: hiv-infected-or-exposed</td></tr><tr><td><a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4607.46high-hiv-and-measles-incidence\">MEASLES.DE.07.high-hiv-and-measles-incidence</a></td><td style=\"color: #cccccc\">high-hiv-and-measles-incidence</td><td>Supplementary-dose indication: high-hiv-and-measles-incidence</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS",
+  "version" : "0.1.0",
+  "name" : "MeaslesSupplementaryDoseIndicationVS",
+  "title" : "Supplementary-dose indication",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-23T10:30:20+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "Allowed values of MEASLES.DE.07 (Supplementary-dose indication).",
+  "compose" : {
+    "include" : [{
+      "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+      "concept" : [{
+        "code" : "MEASLES.DE.07.outbreak-intensified-service"
+      },
+      {
+        "code" : "MEASLES.DE.07.high-risk-campaign"
+      },
+      {
+        "code" : "MEASLES.DE.07.displaced-refugee-conflict"
+      },
+      {
+        "code" : "MEASLES.DE.07.contact-or-high-exposure"
+      },
+      {
+        "code" : "MEASLES.DE.07.travel-to-outbreak-country"
+      },
+      {
+        "code" : "MEASLES.DE.07.hiv-infected-or-exposed"
+      },
+      {
+        "code" : "MEASLES.DE.07.high-hiv-and-measles-incidence"
+      }]
+    }]
+  }
+}

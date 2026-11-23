@@ -1,0 +1,122 @@
+{
+  "resourceType" : "PlanDefinition",
+  "id" : "MEASLES.DT.04",
+  "meta" : {
+    "profile" : ["http://smart.who.int/base/StructureDefinition/SGDecisionTable"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<div>\n    <table class=\"grid dict\">\n        \n        <tr>\n            <th scope=\"row\"><b>Id: </b></th>\n            <td style=\"padding-left: 4px;\">MEASLES.DT.04</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Url: </b></th>\n            <td style=\"padding-left: 4px;\"><a href=\"PlanDefinition-MEASLES.DT.04.html\">MEASLES.DT.04 Additional measles dose for a child living with HIV on HAART</a></td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Version: </b></th>\n            <td style=\"padding-left: 4px;\">0.1.0</td>\n        </tr>\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Title: </b></th>\n            <td style=\"padding-left: 4px;\">MEASLES.DT.04 Additional measles dose for a child living with HIV on HAART</td>\n        </tr>\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Status: </b></th>\n            <td style=\"padding-left: 4px;\">draft</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Experimental: </b></th>\n            <td style=\"padding-left: 4px;\">true</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Type: </b></th>\n            <td style=\"padding-left: 4px;\">\n                \n                    \n                        \n                        <p style=\"margin-bottom: 5px;\">\n                            <b>system: </b> <span><a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-plan-definition-type.html\">http://terminology.hl7.org/CodeSystem/plan-definition-type</a></span>\n                        </p>\n                        \n                        \n                        <p style=\"margin-bottom: 5px;\">\n                            <b>code: </b> <span>eca-rule</span>\n                        </p>\n                        \n                        \n                    \n                \n                \n            </td>\n        </tr>\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Date: </b></th>\n            <td style=\"padding-left: 4px;\">2026-11-23 10:30:20+0000</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Publisher: </b></th>\n            <td style=\"padding-left: 4px;\">WHO</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Description: </b></th>\n            <td style=\"padding-left: 4px;\"><div><p>Whether an HIV-infected child receiving HAART needs the additional MCV dose after immune reconstitution. Hit policy FIRST. Adjudication: pending. L3 of input/decision-logic/MEASLES.DT.04.dmn.</p>\n</div></td>\n        </tr>\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Libraries: </b></th>\n            <td style=\"padding-left: 4px;\">\n                <table class=\"grid-dict\">\n                    \n                    <tr>\n                        <td><a href=\"Library-MEASLESDT04.html\">MEASLES.DT.04 Additional measles dose for a child living with HIV on HAART (logic)</a></td>\n                    </tr>\n                    \n                </table>\n            </td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Actions: </b></th>\n            <td style=\"padding-left: 4px;\">\n                <table class=\"grid-dict\">\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 1: no:</b> Not HIV-infected.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 1 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 2: no:</b> Additional dose already given.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 2 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 3: no:</b> Not on HAART: no additional dose yet; an infant at high risk may get MCV0 (DT.01).\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 3 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 4: yes:</b> Immune reconstitution reached (CD4+ 20-25% or more).\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 4 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 5: no:</b> Wait for immune reconstitution (CD4+ 20-25%).\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 5 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 6: yes:</b> CD4+ not monitored: give 6-12 months after HAART started.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 6 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 7: no:</b> Due 6-12 months after HAART started.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 7 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 8: unknown:</b> Not settled: HIV status, HAART or CD4+ facts are missing.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 8 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                </table>\n            </td>\n        </tr>\n        \n    </table>\n</div>\n</div>"
+  },
+  "url" : "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04",
+  "version" : "0.1.0",
+  "name" : "MEASLESDT04PlanDefinition",
+  "title" : "MEASLES.DT.04 Additional measles dose for a child living with HIV on HAART",
+  "type" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/plan-definition-type",
+      "code" : "eca-rule"
+    }]
+  },
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-23T10:30:20+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "Whether an HIV-infected child receiving HAART needs the additional MCV dose after immune reconstitution. Hit policy FIRST. Adjudication: pending. L3 of input/decision-logic/MEASLES.DT.04.dmn.",
+  "library" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04"],
+  "action" : [{
+    "title" : "Rule 1: no",
+    "description" : "Not HIV-infected.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 1 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 2: no",
+    "description" : "Additional dose already given.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 2 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 3: no",
+    "description" : "Not on HAART: no additional dose yet; an infant at high risk may get MCV0 (DT.01).",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 3 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 4: yes",
+    "description" : "Immune reconstitution reached (CD4+ 20-25% or more).",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 4 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 5: no",
+    "description" : "Wait for immune reconstitution (CD4+ 20-25%).",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 5 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 6: yes",
+    "description" : "CD4+ not monitored: give 6-12 months after HAART started.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 6 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 7: no",
+    "description" : "Due 6-12 months after HAART started.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 7 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 8: unknown",
+    "description" : "Not settled: HIV status, HAART or CD4+ facts are missing.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 8 fires"
+      }
+    }]
+  }]
+}

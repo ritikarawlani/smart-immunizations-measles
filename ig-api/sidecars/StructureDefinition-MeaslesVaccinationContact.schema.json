@@ -1,0 +1,243 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/immunizations-measles/StructureDefinition-MeaslesVaccinationContact.schema.json",
+  "title": "Measles vaccination contact",
+  "description": "The data a measles vaccination contact (MEASLES.A) and its reporting (MEASLES.B) record: the core data elements MEASLES.DE.01-26.",
+  "type": "object",
+  "properties": {
+    "resourceType": {
+      "type": "string",
+      "const": "MeaslesVaccinationContact",
+      "description": "Resource type identifier for MeaslesVaccinationContact logical model"
+    },
+    "@context": {
+      "description": "JSON-LD context for this logical model with ValueSet vocabularies",
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uri",
+          "description": "URI reference to external JSON-LD context"
+        },
+        {
+          "type": "object",
+          "description": "Inline JSON-LD context",
+          "properties": {
+            "@version": {
+              "type": "number",
+              "const": 1.1
+            },
+            "fhir": {
+              "type": "string",
+              "const": "http://hl7.org/fhir/"
+            }
+          },
+          "additionalProperties": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        {
+          "type": "array",
+          "description": "Array of JSON-LD context objects/URIs",
+          "items": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uri"
+              },
+              {
+                "type": "object"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "@type": {
+      "type": "string",
+      "description": "JSON-LD type identifier for MeaslesVaccinationContact logical model",
+      "examples": [
+        "LogicalModel-MeaslesVaccinationContact"
+      ]
+    },
+    "clientIdentifier": {
+      "type": "object",
+      "description": "Unique identifier of the client in the register or EIR (MEASLES.DE.01; used by MEASLES.A; rests on catchup.confirm-by-written-record)"
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "description": "Client's date of birth (MEASLES.DE.02; used by DT.01 DT.03 (age); rests on T1 measles footnote (ages throughout))"
+    },
+    "sex": {
+      "$ref": "./ValueSet-MeaslesSexVS.schema.json",
+      "description": "Client's sex (MEASLES.DE.03; used by IND.01 IND.02 disaggregation; rests on JRF 4A. Routine Coverage)"
+    },
+    "caregiverName": {
+      "type": "string",
+      "description": "Name of the caregiver who brings a child (MEASLES.DE.04; used by MEASLES.A; rests on catchup.multi-dose-return-date)"
+    },
+    "homeBasedRecordPresented": {
+      "type": "boolean",
+      "description": "Whether a home-based record was presented at this contact (MEASLES.DE.05; used by MEASLES.A A1; rests on catchup.confirm-by-written-record)"
+    },
+    "nationalScheduleSetting": {
+      "$ref": "./ValueSet-MeaslesNationalScheduleSettingVS.schema.json",
+      "description": "Whether the national schedule gives MCV1 at 9 months (high transmission) or 12 months (low transmission) (MEASLES.DE.06; used by DT.01 transmissionSetting; rests on measles.mcv1-9-months-high-transmission; measles.mcv1-12-months-low-transmission)"
+    },
+    "supplementaryDoseIndication": {
+      "type": "array",
+      "items": {
+        "$ref": "./ValueSet-MeaslesSupplementaryDoseIndicationVS.schema.json",
+        "description": "Coding-shaped {system, code} object from ValueSet MeaslesSupplementaryDoseIndicationVS"
+      },
+      "description": "The infant is in a situation the measles footnote lists for a dose from 6 months (MEASLES.DE.07; used by DT.01 supplementaryIndication; rests on measles.mcv0-situations; measles.hiv-high-incidence-mcv0-6-months)"
+    },
+    "mcvDoseDateGiven": {
+      "type": "string",
+      "format": "date",
+      "description": "Date a measles-containing vaccine dose was given (MEASLES.DE.08; used by DT.03 DT.01; rests on measles.mcv0-recording)"
+    },
+    "mcvDoseDoseLabel": {
+      "$ref": "./ValueSet-MeaslesMcvDoseDoseLabelVS.schema.json",
+      "description": "How the dose counts (MEASLES.DE.09; used by DT.03 countsAs; rests on measles.mcv0-recording; catchup.mcv2-only-after-mcv1)"
+    },
+    "mcvDoseVaccine": {
+      "$ref": "./ValueSet-MeaslesMcvDoseVaccineVS.schema.json",
+      "description": "Which measles-containing vaccine was given (MEASLES.DE.10; used by IND.01 IND.02; rests on JRF 2A. Schedule rows 2270-2310; measles.same-formulation-both-doses)"
+    },
+    "mcvDoseDocumented": {
+      "type": "boolean",
+      "description": "Whether the dose is documented in a home-based record or register (MEASLES.DE.11; used by DT.03 documented; rests on catchup.confirm-by-written-record; catchup.unconfirmed-assume-unvaccinated)"
+    },
+    "anaphylaxisOrSevereAllergyToAVaccineComponent": {
+      "type": "boolean",
+      "description": "History of anaphylaxis or severe allergic reaction to any component (e.g. neomycin or gelatin) (MEASLES.DE.12; used by DT.02; rests on measles.contraindications)"
+    },
+    "severeImmunosuppression": {
+      "type": "boolean",
+      "description": "Client has any form of severe immunosuppression (MEASLES.DE.13; used by DT.02; rests on measles.contraindications)"
+    },
+    "pregnant": {
+      "type": "boolean",
+      "description": "Client is pregnant (MEASLES.DE.14; used by DT.02; rests on measles.avoid-in-pregnancy)"
+    },
+    "mildConcurrentInfection": {
+      "type": "boolean",
+      "description": "Client has a mild concurrent infection (recorded; not a reason to defer) (MEASLES.DE.15; used by DT.02; rests on measles.mild-infection-not-contraindication)"
+    },
+    "dateOfLastOtherLiveVaccine": {
+      "type": "string",
+      "format": "date",
+      "description": "Date another live vaccine (not OPV) was last given (MEASLES.DE.16; used by DT.02 weeksSinceOtherLiveVaccine; rests on measles.live-vaccine-spacing; catchup.live-vaccine-spacing)"
+    },
+    "hivStatus": {
+      "$ref": "./ValueSet-MeaslesHivStatusVS.schema.json",
+      "description": "Client's HIV status (MEASLES.DE.17; used by DT.01 DT.04; rests on measles.hiv-routine-vaccination; measles.hiv-exposed-mcv0)"
+    },
+    "receivingHaart": {
+      "type": "boolean",
+      "description": "Client is receiving highly active antiretroviral therapy (MEASLES.DE.18; used by DT.04; rests on measles.hiv-haart-additional-dose)"
+    },
+    "haartStartDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date HAART was started (MEASLES.DE.19; used by DT.04 monthsSinceHaartStart; rests on measles.hiv-haart-no-cd4-monitoring)"
+    },
+    "cd4TLymphocytePercentage": {
+      "type": "object",
+      "description": "Most recent CD4+ T lymphocyte count as a percentage (MEASLES.DE.20; used by DT.04; rests on measles.hiv-haart-additional-dose)"
+    },
+    "hivAdditionalMcvDoseGiven": {
+      "type": "boolean",
+      "description": "The additional dose after immune reconstitution has been given (MEASLES.DE.21; used by DT.04; rests on measles.hiv-haart-additional-dose)"
+    },
+    "screeningOutcome": {
+      "$ref": "./ValueSet-MeaslesScreeningOutcomeVS.schema.json",
+      "description": "Outcome of screening before vaccination (MEASLES.DE.22; used by MEASLES.A G2; rests on DT.02)"
+    },
+    "reasonNotVaccinated": {
+      "$ref": "./ValueSet-MeaslesReasonNotVaccinatedVS.schema.json",
+      "description": "Why no dose was given at this contact (MEASLES.DE.23; used by MEASLES.A A9; rests on measles.avoid-in-pregnancy; measles.contraindications; measles.live-vaccine-spacing)"
+    },
+    "nextMcvDueDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the next MCV dose is due (MEASLES.DE.24; used by MEASLES.A A7 A9; MEASLES.B B1; rests on catchup.multi-dose-return-date)"
+    },
+    "healthWorkerMeaslesImmunityProof": {
+      "$ref": "./ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.schema.json",
+      "description": "Proof or documentation of measles immunity or immunization for a health worker (MEASLES.DE.25; used by MEASLES.S4; rests on measles.health-worker-immunity)"
+    },
+    "confirmedMeaslesCase": {
+      "type": "boolean",
+      "description": "A confirmed measles case (laboratory or epidemiological link; reported clinical cases included as the JRF instructs) (MEASLES.DE.26; used by IND.07; rests on JRF 1. Reported Cases row 1020; Instructions row 10)"
+    }
+  },
+  "required": [
+    "resourceType",
+    "clientIdentifier",
+    "dateOfBirth",
+    "homeBasedRecordPresented",
+    "nationalScheduleSetting",
+    "mcvDoseDateGiven",
+    "mcvDoseDoseLabel",
+    "mcvDoseVaccine",
+    "mcvDoseDocumented",
+    "anaphylaxisOrSevereAllergyToAVaccineComponent",
+    "severeImmunosuppression",
+    "screeningOutcome"
+  ],
+  "allOf": [
+    {
+      "$ref": "./StructureDefinition-FHIRSchemaBase.schema.json"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "resourceDefinition": {
+          "type": "string",
+          "format": "uri",
+          "const": "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact"
+        },
+        "fhir:parent": {
+          "type": "string",
+          "const": "http://hl7.org/fhir/StructureDefinition/Base"
+        },
+        "jsonld:valuesets": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "const": [
+            "MeaslesHealthWorkerMeaslesImmunityProofVS",
+            "MeaslesHivStatusVS",
+            "MeaslesMcvDoseDoseLabelVS",
+            "MeaslesMcvDoseVaccineVS",
+            "MeaslesNationalScheduleSettingVS",
+            "MeaslesReasonNotVaccinatedVS",
+            "MeaslesScreeningOutcomeVS",
+            "MeaslesSexVS",
+            "MeaslesSupplementaryDoseIndicationVS"
+          ]
+        },
+        "jsonld:contextTemplate": {
+          "type": "object",
+          "const": {
+            "@version": 1.1,
+            "fhir": "http://hl7.org/fhir/",
+            "MeaslesHealthWorkerMeaslesImmunityProofVS": "http://smart.who.int/immunizations-measles/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.jsonld",
+            "MeaslesHivStatusVS": "http://smart.who.int/immunizations-measles/ValueSet-MeaslesHivStatusVS.jsonld",
+            "MeaslesMcvDoseDoseLabelVS": "http://smart.who.int/immunizations-measles/ValueSet-MeaslesMcvDoseDoseLabelVS.jsonld",
+            "MeaslesMcvDoseVaccineVS": "http://smart.who.int/immunizations-measles/ValueSet-MeaslesMcvDoseVaccineVS.jsonld",
+            "MeaslesNationalScheduleSettingVS": "http://smart.who.int/immunizations-measles/ValueSet-MeaslesNationalScheduleSettingVS.jsonld",
+            "MeaslesReasonNotVaccinatedVS": "http://smart.who.int/immunizations-measles/ValueSet-MeaslesReasonNotVaccinatedVS.jsonld",
+            "MeaslesScreeningOutcomeVS": "http://smart.who.int/immunizations-measles/ValueSet-MeaslesScreeningOutcomeVS.jsonld",
+            "MeaslesSexVS": "http://smart.who.int/immunizations-measles/ValueSet-MeaslesSexVS.jsonld",
+            "MeaslesSupplementaryDoseIndicationVS": "http://smart.who.int/immunizations-measles/ValueSet-MeaslesSupplementaryDoseIndicationVS.jsonld"
+          }
+        }
+      }
+    }
+  ]
+}

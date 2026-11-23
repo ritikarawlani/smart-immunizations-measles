@@ -1,0 +1,166 @@
+{
+  "resourceType" : "PlanDefinition",
+  "id" : "MEASLES.DT.01",
+  "meta" : {
+    "profile" : ["http://smart.who.int/base/StructureDefinition/SGDecisionTable"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<div>\n    <table class=\"grid dict\">\n        \n        <tr>\n            <th scope=\"row\"><b>Id: </b></th>\n            <td style=\"padding-left: 4px;\">MEASLES.DT.01</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Url: </b></th>\n            <td style=\"padding-left: 4px;\"><a href=\"PlanDefinition-MEASLES.DT.01.html\">MEASLES.DT.01 Determine measles-containing vaccine dose due</a></td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Version: </b></th>\n            <td style=\"padding-left: 4px;\">0.1.0</td>\n        </tr>\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Title: </b></th>\n            <td style=\"padding-left: 4px;\">MEASLES.DT.01 Determine measles-containing vaccine dose due</td>\n        </tr>\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Status: </b></th>\n            <td style=\"padding-left: 4px;\">draft</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Experimental: </b></th>\n            <td style=\"padding-left: 4px;\">true</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Type: </b></th>\n            <td style=\"padding-left: 4px;\">\n                \n                    \n                        \n                        <p style=\"margin-bottom: 5px;\">\n                            <b>system: </b> <span><a href=\"http://terminology.hl7.org/7.5.0/CodeSystem-plan-definition-type.html\">http://terminology.hl7.org/CodeSystem/plan-definition-type</a></span>\n                        </p>\n                        \n                        \n                        <p style=\"margin-bottom: 5px;\">\n                            <b>code: </b> <span>eca-rule</span>\n                        </p>\n                        \n                        \n                    \n                \n                \n            </td>\n        </tr>\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Date: </b></th>\n            <td style=\"padding-left: 4px;\">2026-11-23 10:30:20+0000</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Publisher: </b></th>\n            <td style=\"padding-left: 4px;\">WHO</td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Description: </b></th>\n            <td style=\"padding-left: 4px;\"><div><p>Which MCV dose, if any, a client needs today, from the doses DT.03 counted as valid. Hit policy FIRST. Derived from Table 1's measles footnote and Table 3's measles row (input/L2/provenance.json). Adjudication: pending. L3 of input/decision-logic/MEASLES.DT.01.dmn.</p>\n</div></td>\n        </tr>\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Libraries: </b></th>\n            <td style=\"padding-left: 4px;\">\n                <table class=\"grid-dict\">\n                    \n                    <tr>\n                        <td><a href=\"Library-MEASLESDT01.html\">MEASLES.DT.01 Determine measles-containing vaccine dose due (logic)</a></td>\n                    </tr>\n                    \n                </table>\n            </td>\n        </tr>\n        \n\n        \n        <tr>\n            <th scope=\"row\"><b>Actions: </b></th>\n            <td style=\"padding-left: 4px;\">\n                <table class=\"grid-dict\">\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 1: none:</b> Series complete: two valid routine doses; no booster.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 1 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 2: none:</b> Too young: no MCV dose before 6 months.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 2 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 3: MCV0:</b> Supplementary dose: an infant aged 6-8 months in a situation the footnote lists.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 3 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 4: none:</b> MCV1 not yet due.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 4 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 5: MCV1:</b> First routine dose (from 9 months where measles transmission and mortality risk are high; at any older age if missed).\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 5 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 6: MCV1:</b> First routine dose (from 12 months where measles transmission is low; at any older age if missed).\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 6 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 7: none:</b> MCV1 due at 12 months in this schedule.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 7 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 8: none:</b> Too soon: at least 4 weeks between MCV1 and MCV2.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 8 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 9: MCV2:</b> Second routine dose (from 15 months; at any older age if missed).\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 9 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 10: MCV2:</b> Late start: a child who began after 12 months gets the second dose 4 weeks after the first.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 10 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 11: none:</b> MCV2 due at 15 months.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 11 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                    <tr>\n                        <td>\n                            \n                            <b> Rule 12: unknown:</b> Not settled: a required fact (doses, age or schedule setting) is missing.\n                            \n                            <br/>\n                            \n                            \n                            <b>If:</b>\n                            \n                            <i>Applicability:</i>\n                            \n                            <i>(Rule 12 fires)</i>\n                            <br/>\n                            \n                            \n                            \n                            \n                            \n                        </td>\n                    </tr>\n                    \n                </table>\n            </td>\n        </tr>\n        \n    </table>\n</div>\n</div>"
+  },
+  "url" : "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01",
+  "version" : "0.1.0",
+  "name" : "MEASLESDT01PlanDefinition",
+  "title" : "MEASLES.DT.01 Determine measles-containing vaccine dose due",
+  "type" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/plan-definition-type",
+      "code" : "eca-rule"
+    }]
+  },
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-23T10:30:20+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "Which MCV dose, if any, a client needs today, from the doses DT.03 counted as valid. Hit policy FIRST. Derived from Table 1's measles footnote and Table 3's measles row (input/L2/provenance.json). Adjudication: pending. L3 of input/decision-logic/MEASLES.DT.01.dmn.",
+  "library" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01"],
+  "action" : [{
+    "title" : "Rule 1: none",
+    "description" : "Series complete: two valid routine doses; no booster.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 1 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 2: none",
+    "description" : "Too young: no MCV dose before 6 months.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 2 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 3: MCV0",
+    "description" : "Supplementary dose: an infant aged 6-8 months in a situation the footnote lists.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 3 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 4: none",
+    "description" : "MCV1 not yet due.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 4 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 5: MCV1",
+    "description" : "First routine dose (from 9 months where measles transmission and mortality risk are high; at any older age if missed).",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 5 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 6: MCV1",
+    "description" : "First routine dose (from 12 months where measles transmission is low; at any older age if missed).",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 6 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 7: none",
+    "description" : "MCV1 due at 12 months in this schedule.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 7 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 8: none",
+    "description" : "Too soon: at least 4 weeks between MCV1 and MCV2.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 8 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 9: MCV2",
+    "description" : "Second routine dose (from 15 months; at any older age if missed).",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 9 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 10: MCV2",
+    "description" : "Late start: a child who began after 12 months gets the second dose 4 weeks after the first.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 10 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 11: none",
+    "description" : "MCV2 due at 15 months.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 11 fires"
+      }
+    }]
+  },
+  {
+    "title" : "Rule 12: unknown",
+    "description" : "Not settled: a required fact (doses, age or schedule setting) is missing.",
+    "condition" : [{
+      "kind" : "applicability",
+      "expression" : {
+        "language" : "text/cql-identifier",
+        "expression" : "Rule 12 fires"
+      }
+    }]
+  }]
+}

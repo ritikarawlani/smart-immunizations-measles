@@ -1,0 +1,78 @@
+{
+  "resourceType" : "Measure",
+  "id" : "MEASLES.IND.02",
+  "meta" : {
+    "profile" : ["http://smart.who.int/base/StructureDefinition/SGMeasure"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <table class=\"narrative-table\">\n    <tbody>\n<tr>\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\">Knowledge Artifact Metadata</th>\n\n</tr>\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Name (machine-readable)</th>\n\n<td class=\"content-container\">MEASLESIND02</td>\n</tr>\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Title (human-readable)</th>\n\n<td class=\"content-container\">MCV2 coverage</td>\n</tr>\n\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Status</th>\n\n<td class=\"content-container\">Draft</td>\n</tr>\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Experimental</th>\n\n<td class=\"content-container\">true</td>\n</tr>\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Description</th>\n\n<td class=\"content-container\"><div><p>Percentage of the MCV2 target population who received MCV2 (JRF 2016 row 4180). Denominator interpreted as registered children who turned 2 in the period.</p>\n</div></td>\n</tr>\n\n\n\n\n\n\n\n\n\n\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Measure Steward</th>\n\n<td class=\"content-container\">WHO</td>\n</tr>\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Steward Contact Details</th>\n\n<td class=\"content-container\">WHO: <a href=\"http://who.int\">http://who.int</a></td>\n</tr>\n\n\n\n\n\n\n\n\n\n\n\n<tr>\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\">Measure Metadata</th>\n\n</tr>\n\n\n\n\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Version Number</th>\n\n<td class=\"content-container\">0.1.0</td>\n</tr>\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Measure Scoring</th>\n\n<td class=\"content-container\"><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-scoring proportion}\">Proportion</span></td>\n</tr>\n\n\n\n\n\n\n\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Improvement Notation</th>\n\n<td class=\"content-container\"><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-improvement-notation increase}\">Increased score indicates improvement</span></td>\n</tr>\n\n\n\n\n\n\n\n\n  \n    <tr>\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\">Measure Population Criteria</th>\n\n</tr>\n  \n  \n  \n  \n    <tr>\n      \n        \n          \n            \n<th scope=\"row\" class=\"row-header\">Initial Population</th>\n\n          \n          \n          \n          \n          \n          \n          \n          \n          \n        \n      \n      <td class=\"content-container\">\n        \n        \n          <em>Description</em>: No description provided\n        \n        \n          \n            \n            <em>Logic Definition</em>: <a href=\"#measlesindicators-ind02-denominator\">IND02 Denominator</a> \n          \n        \n      </td>\n    </tr>\n  \n\n  \n    <tr>\n      \n        \n          \n          \n          \n          \n            \n<th scope=\"row\" class=\"row-header\">Denominator</th>\n\n          \n          \n          \n          \n          \n          \n        \n      \n      <td class=\"content-container\">\n        \n        \n          <em>Description</em>: No description provided\n        \n        \n          \n            \n            <em>Logic Definition</em>: <a href=\"#measlesindicators-ind02-denominator\">IND02 Denominator</a> \n          \n        \n      </td>\n    </tr>\n  \n\n  \n    <tr>\n      \n        \n          \n          \n            \n<th scope=\"row\" class=\"row-header\">Numerator</th>\n\n          \n          \n          \n          \n          \n          \n          \n          \n        \n      \n      <td class=\"content-container\">\n        \n        \n          <em>Description</em>: No description provided\n        \n        \n          \n            \n            <em>Logic Definition</em>: <a href=\"#measlesindicators-ind02-numerator\">IND02 Numerator</a> \n          \n        \n      </td>\n    </tr>\n  \n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n<tr>\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\">Measure Logic</th>\n\n</tr>\n\n<tr>\n\n<th scope=\"row\" class=\"row-header\">Primary Library</th>\n\n<td class=\"content-container\"><a href=\"Library-MEASLESIndicators.html\">Measles indicators (logic)</a></td>\n</tr>\n\n\n\n\n<tr>\n  <th colspan=\"2\" scope=\"row\" class=\"row-header\">Generated using version 0.4.6 of the sample-content-ig Liquid templates</th>\n</tr>\n    </tbody>\n  </table>\n</div>"
+  },
+  "url" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02",
+  "version" : "0.1.0",
+  "name" : "MEASLESIND02",
+  "title" : "MCV2 coverage",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-23T10:30:20+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "Percentage of the MCV2 target population who received MCV2 (JRF 2016 row 4180). Denominator interpreted as registered children who turned 2 in the period.",
+  "library" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators"],
+  "scoring" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/measure-scoring",
+      "code" : "proportion"
+    }]
+  },
+  "improvementNotation" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
+      "code" : "increase"
+    }]
+  },
+  "group" : [{
+    "population" : [{
+      "code" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code" : "initial-population"
+        }]
+      },
+      "criteria" : {
+        "language" : "text/cql-identifier",
+        "expression" : "IND02 Denominator"
+      }
+    },
+    {
+      "code" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code" : "denominator"
+        }]
+      },
+      "criteria" : {
+        "language" : "text/cql-identifier",
+        "expression" : "IND02 Denominator"
+      }
+    },
+    {
+      "code" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code" : "numerator"
+        }]
+      },
+      "criteria" : {
+        "language" : "text/cql-identifier",
+        "expression" : "IND02 Numerator"
+      }
+    }]
+  }]
+}

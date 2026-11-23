@@ -1,0 +1,1793 @@
+{
+  "$schema": "folio-fhir-artifact-index/v2",
+  "id": "smart-immunizations-measles",
+  "title": "smart.who.int.immunizations-measles — artefact index (from the IG Publisher AST cache)",
+  "packageId": "smart.who.int.immunizations-measles",
+  "version": "0.1.0",
+  "status": "draft",
+  "canonicalBase": "http://smart.who.int/immunizations-measles",
+  "source": {
+    "kind": "output",
+    "of": ".",
+    "revision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+    "readAt": "2026-11-23"
+  },
+  "provenance": {},
+  "sidecarApi": "present",
+  "count": 30,
+  "artifacts": [
+    {
+      "key": "ActorDefinition/MEASLES.P.Client",
+      "resourceType": "ActorDefinition",
+      "id": "MEASLES.P.Client",
+      "name": "MEASLESClient",
+      "title": "Client and caregiver",
+      "description": "The child, adolescent or adult who is vaccinated, and the caregiver who brings a child and keeps the home-based record. Specialises DAK.Persona.Person.",
+      "canonical": "http://smart.who.int/immunizations-measles/ActorDefinition/MEASLES.P.Client",
+      "version": "0.1.0",
+      "category": "Requirements: Actor Definitions",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGActor"
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/fhir-types",
+            "code": "ActorDefinition"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json"
+        },
+        "localPath": "resources/ActorDefinition/MEASLES.P.Client.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "ActorDefinition/MEASLES.P.DataManager",
+      "resourceType": "ActorDefinition",
+      "id": "MEASLES.P.DataManager",
+      "name": "MEASLESDataManager",
+      "title": "Immunization data manager",
+      "description": "Aggregates doses by antigen and dose number, computes coverage and fills the WHO/UNICEF Joint Reporting Form. Specialises DAK.Persona.DataManager.",
+      "canonical": "http://smart.who.int/immunizations-measles/ActorDefinition/MEASLES.P.DataManager",
+      "version": "0.1.0",
+      "category": "Requirements: Actor Definitions",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGActor"
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/fhir-types",
+            "code": "ActorDefinition"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json"
+        },
+        "localPath": "resources/ActorDefinition/MEASLES.P.DataManager.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "ActorDefinition/MEASLES.P.HealthWorker",
+      "resourceType": "ActorDefinition",
+      "id": "MEASLES.P.HealthWorker",
+      "name": "MEASLESHealthWorker",
+      "title": "Health worker (vaccinator)",
+      "description": "Checks a client's vaccination record, decides which measles-containing vaccine dose is due, screens for contraindications, vaccinates, records the dose and gives the return date. Specialises DAK.Persona.HealthcareProvider.",
+      "canonical": "http://smart.who.int/immunizations-measles/ActorDefinition/MEASLES.P.HealthWorker",
+      "version": "0.1.0",
+      "category": "Requirements: Actor Definitions",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGActor"
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/fhir-types",
+            "code": "ActorDefinition"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json"
+        },
+        "localPath": "resources/ActorDefinition/MEASLES.P.HealthWorker.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "ActorDefinition/MEASLES.P.ProgrammeManager",
+      "resourceType": "ActorDefinition",
+      "id": "MEASLES.P.ProgrammeManager",
+      "name": "MEASLESProgrammeManager",
+      "title": "Immunization programme manager",
+      "description": "Sets the national schedule, the catch-up policy and health-worker immunity rules, and organises defaulter tracking. Specialises DAK.Persona.HealthSystemManager.",
+      "canonical": "http://smart.who.int/immunizations-measles/ActorDefinition/MEASLES.P.ProgrammeManager",
+      "version": "0.1.0",
+      "category": "Requirements: Actor Definitions",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGActor"
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/fhir-types",
+            "code": "ActorDefinition"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json"
+        },
+        "localPath": "resources/ActorDefinition/MEASLES.P.ProgrammeManager.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "CodeSystem/MeaslesConcepts",
+      "resourceType": "CodeSystem",
+      "id": "MeaslesConcepts",
+      "name": "MeaslesConcepts",
+      "title": "Measles concepts",
+      "description": "Concepts of the measles DAK: its core data elements (MEASLES.DE.*) and their allowed values. Local codes; binding to SNOMED CT, LOINC or ICD-11 awaits the terminologist's review.",
+      "canonical": "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+      "version": "0.1.0",
+      "category": "Terminology: Code Systems",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGCodeSystem"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/CodeSystem-MeaslesConcepts.json"
+        },
+        "localPath": "resources/CodeSystem/MeaslesConcepts.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "ImplementationGuide/smart.who.int.immunizations-measles",
+      "resourceType": "ImplementationGuide",
+      "id": "smart.who.int.immunizations-measles",
+      "name": "ImmunizationsMeasles",
+      "title": "SMART Immunizations — Measles",
+      "description": "Measles immunization DAK (L2) and FHIR IG (L3), derived from the L1 sources attached to ritikarawlani/smart-immunizations-measles#1.",
+      "canonical": "http://smart.who.int/immunizations-measles/ImplementationGuide/smart.who.int.immunizations-measles",
+      "version": "0.1.0",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles.json"
+        },
+        "localPath": "resources/ImplementationGuide/smart.who.int.immunizations-measles.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "Library/MEASLESDT01",
+      "resourceType": "Library",
+      "id": "MEASLESDT01",
+      "name": "MEASLESDT01",
+      "title": "MEASLES.DT.01 Determine measles-containing vaccine dose due (logic)",
+      "description": "CQL of MEASLES.DT.01, rule for rule; derived from input/decision-logic/MEASLES.DT.01.dmn.",
+      "canonical": "http://smart.who.int/immunizations-measles/Library/MEASLESDT01",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGLibrary"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Library-MEASLESDT01.json"
+        },
+        "localPath": "resources/Library/MEASLESDT01.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "Library/MEASLESDT02",
+      "resourceType": "Library",
+      "id": "MEASLESDT02",
+      "name": "MEASLESDT02",
+      "title": "MEASLES.DT.02 Screen before measles vaccination (logic)",
+      "description": "CQL of MEASLES.DT.02, rule for rule; derived from input/decision-logic/MEASLES.DT.02.dmn.",
+      "canonical": "http://smart.who.int/immunizations-measles/Library/MEASLESDT02",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGLibrary"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Library-MEASLESDT02.json"
+        },
+        "localPath": "resources/Library/MEASLESDT02.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "Library/MEASLESDT03",
+      "resourceType": "Library",
+      "id": "MEASLESDT03",
+      "name": "MEASLESDT03",
+      "title": "MEASLES.DT.03 Count a recorded measles-containing vaccine dose (logic)",
+      "description": "CQL of MEASLES.DT.03, rule for rule; derived from input/decision-logic/MEASLES.DT.03.dmn.",
+      "canonical": "http://smart.who.int/immunizations-measles/Library/MEASLESDT03",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGLibrary"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Library-MEASLESDT03.json"
+        },
+        "localPath": "resources/Library/MEASLESDT03.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "Library/MEASLESDT04",
+      "resourceType": "Library",
+      "id": "MEASLESDT04",
+      "name": "MEASLESDT04",
+      "title": "MEASLES.DT.04 Additional measles dose for a child living with HIV on HAART (logic)",
+      "description": "CQL of MEASLES.DT.04, rule for rule; derived from input/decision-logic/MEASLES.DT.04.dmn.",
+      "canonical": "http://smart.who.int/immunizations-measles/Library/MEASLESDT04",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGLibrary"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Library-MEASLESDT04.json"
+        },
+        "localPath": "resources/Library/MEASLESDT04.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "Library/MEASLESIndicators",
+      "resourceType": "Library",
+      "id": "MEASLESIndicators",
+      "name": "MEASLESIndicators",
+      "title": "Measles indicators (logic)",
+      "description": "CQL for the measles indicator Measures; L3 of input/indicators/measles-indicators.csv.",
+      "canonical": "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGLibrary"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Library-MEASLESIndicators.json"
+        },
+        "localPath": "resources/Library/MEASLESIndicators.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "Measure/MEASLES.IND.01",
+      "resourceType": "Measure",
+      "id": "MEASLES.IND.01",
+      "name": "MEASLESIND01",
+      "title": "MCV1 coverage",
+      "description": "Percentage of surviving infants who received MCV1 (JRF 2016 row 4160). Denominator interpreted as registered children who turned 1 in the period.",
+      "canonical": "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGMeasure"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Measure-MEASLES.IND.01.json"
+        },
+        "localPath": "resources/Measure/MEASLES.IND.01.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "Measure/MEASLES.IND.02",
+      "resourceType": "Measure",
+      "id": "MEASLES.IND.02",
+      "name": "MEASLESIND02",
+      "title": "MCV2 coverage",
+      "description": "Percentage of the MCV2 target population who received MCV2 (JRF 2016 row 4180). Denominator interpreted as registered children who turned 2 in the period.",
+      "canonical": "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGMeasure"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Measure-MEASLES.IND.02.json"
+        },
+        "localPath": "resources/Measure/MEASLES.IND.02.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "Measure/MEASLES.IND.06",
+      "resourceType": "Measure",
+      "id": "MEASLES.IND.06",
+      "name": "MEASLESIND06",
+      "title": "MCV1-MCV2 dropout",
+      "description": "Percentage of children with MCV1 who have no MCV2, among children who turned 2 in the period.",
+      "canonical": "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGMeasure"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Measure-MEASLES.IND.06.json"
+        },
+        "localPath": "resources/Measure/MEASLES.IND.06.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "Measure/MEASLES.IND.07",
+      "resourceType": "Measure",
+      "id": "MEASLES.IND.07",
+      "name": "MEASLESIND07",
+      "title": "Confirmed measles cases",
+      "description": "Number of patients with a confirmed measles case recorded in the period (JRF 2016 row 1020).",
+      "canonical": "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGMeasure"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Measure-MEASLES.IND.07.json"
+        },
+        "localPath": "resources/Measure/MEASLES.IND.07.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "PlanDefinition/MEASLES.DT.01",
+      "resourceType": "PlanDefinition",
+      "id": "MEASLES.DT.01",
+      "name": "MEASLESDT01PlanDefinition",
+      "title": "MEASLES.DT.01 Determine measles-containing vaccine dose due",
+      "description": "Which MCV dose, if any, a client needs today, from the doses DT.03 counted as valid. Hit policy FIRST. Derived from Table 1's measles footnote and Table 3's measles row (input/L2/provenance.json). Adjudication: pending. L3 of input/decision-logic/MEASLES.DT.01.dmn.",
+      "canonical": "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGDecisionTable"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json"
+        },
+        "localPath": "resources/PlanDefinition/MEASLES.DT.01.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "PlanDefinition/MEASLES.DT.02",
+      "resourceType": "PlanDefinition",
+      "id": "MEASLES.DT.02",
+      "name": "MEASLESDT02PlanDefinition",
+      "title": "MEASLES.DT.02 Screen before measles vaccination",
+      "description": "Whether to vaccinate today, defer, or not vaccinate. Hit policy FIRST. A mild concurrent infection is not a reason to defer. Adjudication: pending. L3 of input/decision-logic/MEASLES.DT.02.dmn.",
+      "canonical": "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGDecisionTable"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json"
+        },
+        "localPath": "resources/PlanDefinition/MEASLES.DT.02.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "PlanDefinition/MEASLES.DT.03",
+      "resourceType": "PlanDefinition",
+      "id": "MEASLES.DT.03",
+      "name": "MEASLESDT03PlanDefinition",
+      "title": "MEASLES.DT.03 Count a recorded measles-containing vaccine dose",
+      "description": "How one recorded MCV dose counts, evaluated dose by dose in date order. Hit policy FIRST. Adjudication: pending. L3 of input/decision-logic/MEASLES.DT.03.dmn.",
+      "canonical": "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGDecisionTable"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json"
+        },
+        "localPath": "resources/PlanDefinition/MEASLES.DT.03.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "PlanDefinition/MEASLES.DT.04",
+      "resourceType": "PlanDefinition",
+      "id": "MEASLES.DT.04",
+      "name": "MEASLESDT04PlanDefinition",
+      "title": "MEASLES.DT.04 Additional measles dose for a child living with HIV on HAART",
+      "description": "Whether an HIV-infected child receiving HAART needs the additional MCV dose after immune reconstitution. Hit policy FIRST. Adjudication: pending. L3 of input/decision-logic/MEASLES.DT.04.dmn.",
+      "canonical": "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGDecisionTable"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json"
+        },
+        "localPath": "resources/PlanDefinition/MEASLES.DT.04.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "Requirements/MEASLES.FR",
+      "resourceType": "Requirements",
+      "id": "MEASLES.FR",
+      "name": "MEASLESFunctionalRequirements",
+      "title": "Measles functional requirements",
+      "description": "What a digital system supporting MEASLES.A and MEASLES.B must do; L3 of the L2 requirements.",
+      "canonical": "http://smart.who.int/immunizations-measles/Requirements/MEASLES.FR",
+      "version": "0.1.0",
+      "category": "Requirements: Formal Requirements",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGRequirements"
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/fhir-types",
+            "code": "Requirements"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/Requirements-MEASLES.FR.json"
+        },
+        "localPath": "resources/Requirements/MEASLES.FR.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/MeaslesVaccinationContact",
+      "resourceType": "StructureDefinition",
+      "id": "MeaslesVaccinationContact",
+      "name": "MeaslesVaccinationContact",
+      "title": "Measles vaccination contact",
+      "description": "The data a measles vaccination contact (MEASLES.A) and its reporting (MEASLES.B) record: the core data elements MEASLES.DE.01-26.",
+      "canonical": "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact",
+      "version": "0.1.0",
+      "category": "Structures: Logical Models",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json"
+        },
+        "localPath": "resources/StructureDefinition/MeaslesVaccinationContact.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      },
+      "sidecars": {
+        "openapi": {
+          "url": "ig-api/sidecars/StructureDefinition-MeaslesVaccinationContact.openapi.json",
+          "localPath": "ig-api/sidecars/StructureDefinition-MeaslesVaccinationContact.openapi.json",
+          "bytes": 13856
+        },
+        "schema": {
+          "url": "ig-api/sidecars/StructureDefinition-MeaslesVaccinationContact.schema.json",
+          "localPath": "ig-api/sidecars/StructureDefinition-MeaslesVaccinationContact.schema.json",
+          "bytes": 11275
+        }
+      }
+    },
+    {
+      "key": "ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS",
+      "resourceType": "ValueSet",
+      "id": "MeaslesHealthWorkerMeaslesImmunityProofVS",
+      "name": "MeaslesHealthWorkerMeaslesImmunityProofVS",
+      "title": "Health worker measles immunity proof",
+      "description": "Allowed values of MEASLES.DE.25 (Health worker measles immunity proof).",
+      "canonical": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS",
+      "version": "0.1.0",
+      "category": "Terminology: Value Sets",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGValueSet"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json"
+        },
+        "localPath": "resources/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.displays.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.displays.json",
+          "bytes": 1849
+        },
+        "jsonld": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.jsonld",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.jsonld",
+          "bytes": 1107
+        },
+        "openapi": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.openapi.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.openapi.json",
+          "bytes": 3072
+        },
+        "schema": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.schema.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.schema.json",
+          "bytes": 1704
+        }
+      }
+    },
+    {
+      "key": "ValueSet/MeaslesHivStatusVS",
+      "resourceType": "ValueSet",
+      "id": "MeaslesHivStatusVS",
+      "name": "MeaslesHivStatusVS",
+      "title": "HIV status",
+      "description": "Allowed values of MEASLES.DE.17 (HIV status).",
+      "canonical": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS",
+      "version": "0.1.0",
+      "category": "Terminology: Value Sets",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGValueSet"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json"
+        },
+        "localPath": "resources/ValueSet/MeaslesHivStatusVS.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.displays.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.displays.json",
+          "bytes": 1779
+        },
+        "jsonld": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.jsonld",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.jsonld",
+          "bytes": 1104
+        },
+        "openapi": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.openapi.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.openapi.json",
+          "bytes": 2735
+        },
+        "schema": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.schema.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.schema.json",
+          "bytes": 1551
+        }
+      }
+    },
+    {
+      "key": "ValueSet/MeaslesMcvDoseDoseLabelVS",
+      "resourceType": "ValueSet",
+      "id": "MeaslesMcvDoseDoseLabelVS",
+      "name": "MeaslesMcvDoseDoseLabelVS",
+      "title": "MCV dose: dose label",
+      "description": "Allowed values of MEASLES.DE.09 (MCV dose: dose label).",
+      "canonical": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS",
+      "version": "0.1.0",
+      "category": "Terminology: Value Sets",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGValueSet"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json"
+        },
+        "localPath": "resources/ValueSet/MeaslesMcvDoseDoseLabelVS.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.displays.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.displays.json",
+          "bytes": 1901
+        },
+        "jsonld": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.jsonld",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.jsonld",
+          "bytes": 1236
+        },
+        "openapi": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.openapi.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.openapi.json",
+          "bytes": 2917
+        },
+        "schema": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.schema.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.schema.json",
+          "bytes": 1659
+        }
+      }
+    },
+    {
+      "key": "ValueSet/MeaslesMcvDoseVaccineVS",
+      "resourceType": "ValueSet",
+      "id": "MeaslesMcvDoseVaccineVS",
+      "name": "MeaslesMcvDoseVaccineVS",
+      "title": "MCV dose: vaccine",
+      "description": "Allowed values of MEASLES.DE.10 (MCV dose: vaccine).",
+      "canonical": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS",
+      "version": "0.1.0",
+      "category": "Terminology: Value Sets",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGValueSet"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json"
+        },
+        "localPath": "resources/ValueSet/MeaslesMcvDoseVaccineVS.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.displays.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.displays.json",
+          "bytes": 1799
+        },
+        "jsonld": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.jsonld",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.jsonld",
+          "bytes": 1125
+        },
+        "openapi": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.openapi.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.openapi.json",
+          "bytes": 2827
+        },
+        "schema": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.schema.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.schema.json",
+          "bytes": 1593
+        }
+      }
+    },
+    {
+      "key": "ValueSet/MeaslesNationalScheduleSettingVS",
+      "resourceType": "ValueSet",
+      "id": "MeaslesNationalScheduleSettingVS",
+      "name": "MeaslesNationalScheduleSettingVS",
+      "title": "National schedule setting",
+      "description": "Allowed values of MEASLES.DE.06 (National schedule setting).",
+      "canonical": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS",
+      "version": "0.1.0",
+      "category": "Terminology: Value Sets",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGValueSet"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json"
+        },
+        "localPath": "resources/ValueSet/MeaslesNationalScheduleSettingVS.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.displays.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.displays.json",
+          "bytes": 1685
+        },
+        "jsonld": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.jsonld",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.jsonld",
+          "bytes": 950
+        },
+        "openapi": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.openapi.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.openapi.json",
+          "bytes": 2856
+        },
+        "schema": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.schema.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.schema.json",
+          "bytes": 1570
+        }
+      }
+    },
+    {
+      "key": "ValueSet/MeaslesReasonNotVaccinatedVS",
+      "resourceType": "ValueSet",
+      "id": "MeaslesReasonNotVaccinatedVS",
+      "name": "MeaslesReasonNotVaccinatedVS",
+      "title": "Reason not vaccinated",
+      "description": "Allowed values of MEASLES.DE.23 (Reason not vaccinated).",
+      "canonical": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS",
+      "version": "0.1.0",
+      "category": "Terminology: Value Sets",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGValueSet"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json"
+        },
+        "localPath": "resources/ValueSet/MeaslesReasonNotVaccinatedVS.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.displays.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.displays.json",
+          "bytes": 1981
+        },
+        "jsonld": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.jsonld",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.jsonld",
+          "bytes": 1314
+        },
+        "openapi": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.openapi.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.openapi.json",
+          "bytes": 2988
+        },
+        "schema": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.schema.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.schema.json",
+          "bytes": 1710
+        }
+      }
+    },
+    {
+      "key": "ValueSet/MeaslesScreeningOutcomeVS",
+      "resourceType": "ValueSet",
+      "id": "MeaslesScreeningOutcomeVS",
+      "name": "MeaslesScreeningOutcomeVS",
+      "title": "Screening outcome",
+      "description": "Allowed values of MEASLES.DE.22 (Screening outcome).",
+      "canonical": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS",
+      "version": "0.1.0",
+      "category": "Terminology: Value Sets",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGValueSet"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json"
+        },
+        "localPath": "resources/ValueSet/MeaslesScreeningOutcomeVS.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.displays.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.displays.json",
+          "bytes": 1803
+        },
+        "jsonld": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.jsonld",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.jsonld",
+          "bytes": 1114
+        },
+        "openapi": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.openapi.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.openapi.json",
+          "bytes": 2838
+        },
+        "schema": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.schema.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.schema.json",
+          "bytes": 1598
+        }
+      }
+    },
+    {
+      "key": "ValueSet/MeaslesSexVS",
+      "resourceType": "ValueSet",
+      "id": "MeaslesSexVS",
+      "name": "MeaslesSexVS",
+      "title": "Sex",
+      "description": "Allowed values of MEASLES.DE.03 (Sex).",
+      "canonical": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS",
+      "version": "0.1.0",
+      "category": "Terminology: Value Sets",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGValueSet"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-MeaslesSexVS.json"
+        },
+        "localPath": "resources/ValueSet/MeaslesSexVS.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesSexVS.displays.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesSexVS.displays.json",
+          "bytes": 1723
+        },
+        "jsonld": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesSexVS.jsonld",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesSexVS.jsonld",
+          "bytes": 1062
+        },
+        "openapi": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesSexVS.openapi.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesSexVS.openapi.json",
+          "bytes": 2625
+        },
+        "schema": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesSexVS.schema.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesSexVS.schema.json",
+          "bytes": 1491
+        }
+      }
+    },
+    {
+      "key": "ValueSet/MeaslesSupplementaryDoseIndicationVS",
+      "resourceType": "ValueSet",
+      "id": "MeaslesSupplementaryDoseIndicationVS",
+      "name": "MeaslesSupplementaryDoseIndicationVS",
+      "title": "Supplementary-dose indication",
+      "description": "Allowed values of MEASLES.DE.07 (Supplementary-dose indication).",
+      "canonical": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS",
+      "version": "0.1.0",
+      "category": "Terminology: Value Sets",
+      "profiles": [
+        "http://smart.who.int/base/StructureDefinition/SGValueSet"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json"
+        },
+        "localPath": "resources/ValueSet/MeaslesSupplementaryDoseIndicationVS.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+        },
+        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.displays.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.displays.json",
+          "bytes": 2267
+        },
+        "jsonld": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.jsonld",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.jsonld",
+          "bytes": 1599
+        },
+        "openapi": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.openapi.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.openapi.json",
+          "bytes": 3244
+        },
+        "schema": {
+          "url": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.schema.json",
+          "localPath": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.schema.json",
+          "bytes": 1896
+        }
+      }
+    }
+  ]
+}

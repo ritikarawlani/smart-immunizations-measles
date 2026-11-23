@@ -1,0 +1,365 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "MeaslesConcepts",
+  "meta" : {
+    "profile" : ["http://smart.who.int/base/StructureDefinition/SGCodeSystem"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem MeaslesConcepts</b></p><a name=\"MeaslesConcepts\"> </a><a name=\"hcMeaslesConcepts\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://smart.who.int/base/1.0.0/StructureDefinition-SGCodeSystem.html\">SMART Guidelines CodeSystem</a></p></div><p>This case-sensitive code system <code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.01<a name=\"MeaslesConcepts-MEASLES.46DE.4601\"> </a></td><td>Client identifier</td><td>Unique identifier of the client in the register or EIR</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.02<a name=\"MeaslesConcepts-MEASLES.46DE.4602\"> </a></td><td>Date of birth</td><td>Client's date of birth</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.03<a name=\"MeaslesConcepts-MEASLES.46DE.4603\"> </a></td><td>Sex</td><td>Client's sex</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.03.female<a name=\"MeaslesConcepts-MEASLES.46DE.4603.46female\"> </a></td><td>female</td><td>Sex: female</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.03.male<a name=\"MeaslesConcepts-MEASLES.46DE.4603.46male\"> </a></td><td>male</td><td>Sex: male</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.03.other<a name=\"MeaslesConcepts-MEASLES.46DE.4603.46other\"> </a></td><td>other</td><td>Sex: other</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.03.unknown<a name=\"MeaslesConcepts-MEASLES.46DE.4603.46unknown\"> </a></td><td>unknown</td><td>Sex: unknown</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.04<a name=\"MeaslesConcepts-MEASLES.46DE.4604\"> </a></td><td>Caregiver name</td><td>Name of the caregiver who brings a child</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.05<a name=\"MeaslesConcepts-MEASLES.46DE.4605\"> </a></td><td>Home-based record presented</td><td>Whether a home-based record was presented at this contact</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.06<a name=\"MeaslesConcepts-MEASLES.46DE.4606\"> </a></td><td>National schedule setting</td><td>Whether the national schedule gives MCV1 at 9 months (high transmission) or 12 months (low transmission)</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.06.high<a name=\"MeaslesConcepts-MEASLES.46DE.4606.46high\"> </a></td><td>high</td><td>National schedule setting: high</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.06.low<a name=\"MeaslesConcepts-MEASLES.46DE.4606.46low\"> </a></td><td>low</td><td>National schedule setting: low</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.07<a name=\"MeaslesConcepts-MEASLES.46DE.4607\"> </a></td><td>Supplementary-dose indication</td><td>The infant is in a situation the measles footnote lists for a dose from 6 months</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.07.outbreak-intensified-service<a name=\"MeaslesConcepts-MEASLES.46DE.4607.46outbreak-intensified-service\"> </a></td><td>outbreak-intensified-service</td><td>Supplementary-dose indication: outbreak-intensified-service</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.07.high-risk-campaign<a name=\"MeaslesConcepts-MEASLES.46DE.4607.46high-risk-campaign\"> </a></td><td>high-risk-campaign</td><td>Supplementary-dose indication: high-risk-campaign</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.07.displaced-refugee-conflict<a name=\"MeaslesConcepts-MEASLES.46DE.4607.46displaced-refugee-conflict\"> </a></td><td>displaced-refugee-conflict</td><td>Supplementary-dose indication: displaced-refugee-conflict</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.07.contact-or-high-exposure<a name=\"MeaslesConcepts-MEASLES.46DE.4607.46contact-or-high-exposure\"> </a></td><td>contact-or-high-exposure</td><td>Supplementary-dose indication: contact-or-high-exposure</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.07.travel-to-outbreak-country<a name=\"MeaslesConcepts-MEASLES.46DE.4607.46travel-to-outbreak-country\"> </a></td><td>travel-to-outbreak-country</td><td>Supplementary-dose indication: travel-to-outbreak-country</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.07.hiv-infected-or-exposed<a name=\"MeaslesConcepts-MEASLES.46DE.4607.46hiv-infected-or-exposed\"> </a></td><td>hiv-infected-or-exposed</td><td>Supplementary-dose indication: hiv-infected-or-exposed</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.07.high-hiv-and-measles-incidence<a name=\"MeaslesConcepts-MEASLES.46DE.4607.46high-hiv-and-measles-incidence\"> </a></td><td>high-hiv-and-measles-incidence</td><td>Supplementary-dose indication: high-hiv-and-measles-incidence</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.08<a name=\"MeaslesConcepts-MEASLES.46DE.4608\"> </a></td><td>MCV dose: date given</td><td>Date a measles-containing vaccine dose was given</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.09<a name=\"MeaslesConcepts-MEASLES.46DE.4609\"> </a></td><td>MCV dose: dose label</td><td>How the dose counts</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.09.mcv0<a name=\"MeaslesConcepts-MEASLES.46DE.4609.46mcv0\"> </a></td><td>MCV0</td><td>MCV dose: dose label: MCV0</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.09.mcv1<a name=\"MeaslesConcepts-MEASLES.46DE.4609.46mcv1\"> </a></td><td>MCV1</td><td>MCV dose: dose label: MCV1</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.09.mcv2<a name=\"MeaslesConcepts-MEASLES.46DE.4609.46mcv2\"> </a></td><td>MCV2</td><td>MCV dose: dose label: MCV2</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.09.extra<a name=\"MeaslesConcepts-MEASLES.46DE.4609.46extra\"> </a></td><td>extra</td><td>MCV dose: dose label: extra</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.09.invalid<a name=\"MeaslesConcepts-MEASLES.46DE.4609.46invalid\"> </a></td><td>invalid</td><td>MCV dose: dose label: invalid</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.09.not-counted<a name=\"MeaslesConcepts-MEASLES.46DE.4609.46not-counted\"> </a></td><td>not counted</td><td>MCV dose: dose label: not counted</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.10<a name=\"MeaslesConcepts-MEASLES.46DE.4610\"> </a></td><td>MCV dose: vaccine</td><td>Which measles-containing vaccine was given</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.10.m<a name=\"MeaslesConcepts-MEASLES.46DE.4610.46m\"> </a></td><td>M</td><td>MCV dose: vaccine: M</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.10.mm<a name=\"MeaslesConcepts-MEASLES.46DE.4610.46mm\"> </a></td><td>MM</td><td>MCV dose: vaccine: MM</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.10.mr<a name=\"MeaslesConcepts-MEASLES.46DE.4610.46mr\"> </a></td><td>MR</td><td>MCV dose: vaccine: MR</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.10.mmr<a name=\"MeaslesConcepts-MEASLES.46DE.4610.46mmr\"> </a></td><td>MMR</td><td>MCV dose: vaccine: MMR</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.10.mmrv<a name=\"MeaslesConcepts-MEASLES.46DE.4610.46mmrv\"> </a></td><td>MMRV</td><td>MCV dose: vaccine: MMRV</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.11<a name=\"MeaslesConcepts-MEASLES.46DE.4611\"> </a></td><td>MCV dose: documented</td><td>Whether the dose is documented in a home-based record or register</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.12<a name=\"MeaslesConcepts-MEASLES.46DE.4612\"> </a></td><td>Anaphylaxis or severe allergy to a vaccine component</td><td>History of anaphylaxis or severe allergic reaction to any component (e.g. neomycin or gelatin)</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.13<a name=\"MeaslesConcepts-MEASLES.46DE.4613\"> </a></td><td>Severe immunosuppression</td><td>Client has any form of severe immunosuppression</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.14<a name=\"MeaslesConcepts-MEASLES.46DE.4614\"> </a></td><td>Pregnant</td><td>Client is pregnant</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.15<a name=\"MeaslesConcepts-MEASLES.46DE.4615\"> </a></td><td>Mild concurrent infection</td><td>Client has a mild concurrent infection (recorded; not a reason to defer)</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.16<a name=\"MeaslesConcepts-MEASLES.46DE.4616\"> </a></td><td>Date of last other live vaccine</td><td>Date another live vaccine (not OPV) was last given</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.17<a name=\"MeaslesConcepts-MEASLES.46DE.4617\"> </a></td><td>HIV status</td><td>Client's HIV status</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.17.infected<a name=\"MeaslesConcepts-MEASLES.46DE.4617.46infected\"> </a></td><td>infected</td><td>HIV status: infected</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.17.exposed-infant<a name=\"MeaslesConcepts-MEASLES.46DE.4617.46exposed-infant\"> </a></td><td>exposed-infant</td><td>HIV status: exposed-infant</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.17.negative<a name=\"MeaslesConcepts-MEASLES.46DE.4617.46negative\"> </a></td><td>negative</td><td>HIV status: negative</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.17.unknown<a name=\"MeaslesConcepts-MEASLES.46DE.4617.46unknown\"> </a></td><td>unknown</td><td>HIV status: unknown</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.18<a name=\"MeaslesConcepts-MEASLES.46DE.4618\"> </a></td><td>Receiving HAART</td><td>Client is receiving highly active antiretroviral therapy</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.19<a name=\"MeaslesConcepts-MEASLES.46DE.4619\"> </a></td><td>HAART start date</td><td>Date HAART was started</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.20<a name=\"MeaslesConcepts-MEASLES.46DE.4620\"> </a></td><td>CD4+ T lymphocyte percentage</td><td>Most recent CD4+ T lymphocyte count as a percentage</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.21<a name=\"MeaslesConcepts-MEASLES.46DE.4621\"> </a></td><td>HIV additional MCV dose given</td><td>The additional dose after immune reconstitution has been given</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.22<a name=\"MeaslesConcepts-MEASLES.46DE.4622\"> </a></td><td>Screening outcome</td><td>Outcome of screening before vaccination</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.22.proceed<a name=\"MeaslesConcepts-MEASLES.46DE.4622.46proceed\"> </a></td><td>proceed</td><td>Screening outcome: proceed</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.22.defer<a name=\"MeaslesConcepts-MEASLES.46DE.4622.46defer\"> </a></td><td>defer</td><td>Screening outcome: defer</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.22.do-not-vaccinate<a name=\"MeaslesConcepts-MEASLES.46DE.4622.46do-not-vaccinate\"> </a></td><td>do-not-vaccinate</td><td>Screening outcome: do-not-vaccinate</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.22.unknown<a name=\"MeaslesConcepts-MEASLES.46DE.4622.46unknown\"> </a></td><td>unknown</td><td>Screening outcome: unknown</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.23<a name=\"MeaslesConcepts-MEASLES.46DE.4623\"> </a></td><td>Reason not vaccinated</td><td>Why no dose was given at this contact</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.23.not-due<a name=\"MeaslesConcepts-MEASLES.46DE.4623.46not-due\"> </a></td><td>not-due</td><td>Reason not vaccinated: not-due</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.23.series-complete<a name=\"MeaslesConcepts-MEASLES.46DE.4623.46series-complete\"> </a></td><td>series-complete</td><td>Reason not vaccinated: series-complete</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.23.pregnant<a name=\"MeaslesConcepts-MEASLES.46DE.4623.46pregnant\"> </a></td><td>pregnant</td><td>Reason not vaccinated: pregnant</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.23.contraindication<a name=\"MeaslesConcepts-MEASLES.46DE.4623.46contraindication\"> </a></td><td>contraindication</td><td>Reason not vaccinated: contraindication</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.23.live-vaccine-spacing<a name=\"MeaslesConcepts-MEASLES.46DE.4623.46live-vaccine-spacing\"> </a></td><td>live-vaccine-spacing</td><td>Reason not vaccinated: live-vaccine-spacing</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.23.other<a name=\"MeaslesConcepts-MEASLES.46DE.4623.46other\"> </a></td><td>other</td><td>Reason not vaccinated: other</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.24<a name=\"MeaslesConcepts-MEASLES.46DE.4624\"> </a></td><td>Next MCV due date</td><td>Date the next MCV dose is due</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.25<a name=\"MeaslesConcepts-MEASLES.46DE.4625\"> </a></td><td>Health worker measles immunity proof</td><td>Proof or documentation of measles immunity or immunization for a health worker</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.25.documented-immunization<a name=\"MeaslesConcepts-MEASLES.46DE.4625.46documented-immunization\"> </a></td><td>documented-immunization</td><td>Health worker measles immunity proof: documented-immunization</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.25.documented-immunity<a name=\"MeaslesConcepts-MEASLES.46DE.4625.46documented-immunity\"> </a></td><td>documented-immunity</td><td>Health worker measles immunity proof: documented-immunity</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.25.none<a name=\"MeaslesConcepts-MEASLES.46DE.4625.46none\"> </a></td><td>none</td><td>Health worker measles immunity proof: none</td></tr><tr><td style=\"white-space:nowrap\">MEASLES.DE.26<a name=\"MeaslesConcepts-MEASLES.46DE.4626\"> </a></td><td>Confirmed measles case</td><td>A confirmed measles case (laboratory or epidemiological link; reported clinical cases included as the JRF instructs)</td></tr></table></div>"
+  },
+  "url" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+  "version" : "0.1.0",
+  "name" : "MeaslesConcepts",
+  "title" : "Measles concepts",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-23T10:30:20+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "Concepts of the measles DAK: its core data elements (MEASLES.DE.*) and their allowed values. Local codes; binding to SNOMED CT, LOINC or ICD-11 awaits the terminologist's review.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 67,
+  "concept" : [{
+    "code" : "MEASLES.DE.01",
+    "display" : "Client identifier",
+    "definition" : "Unique identifier of the client in the register or EIR"
+  },
+  {
+    "code" : "MEASLES.DE.02",
+    "display" : "Date of birth",
+    "definition" : "Client's date of birth"
+  },
+  {
+    "code" : "MEASLES.DE.03",
+    "display" : "Sex",
+    "definition" : "Client's sex"
+  },
+  {
+    "code" : "MEASLES.DE.03.female",
+    "display" : "female",
+    "definition" : "Sex: female"
+  },
+  {
+    "code" : "MEASLES.DE.03.male",
+    "display" : "male",
+    "definition" : "Sex: male"
+  },
+  {
+    "code" : "MEASLES.DE.03.other",
+    "display" : "other",
+    "definition" : "Sex: other"
+  },
+  {
+    "code" : "MEASLES.DE.03.unknown",
+    "display" : "unknown",
+    "definition" : "Sex: unknown"
+  },
+  {
+    "code" : "MEASLES.DE.04",
+    "display" : "Caregiver name",
+    "definition" : "Name of the caregiver who brings a child"
+  },
+  {
+    "code" : "MEASLES.DE.05",
+    "display" : "Home-based record presented",
+    "definition" : "Whether a home-based record was presented at this contact"
+  },
+  {
+    "code" : "MEASLES.DE.06",
+    "display" : "National schedule setting",
+    "definition" : "Whether the national schedule gives MCV1 at 9 months (high transmission) or 12 months (low transmission)"
+  },
+  {
+    "code" : "MEASLES.DE.06.high",
+    "display" : "high",
+    "definition" : "National schedule setting: high"
+  },
+  {
+    "code" : "MEASLES.DE.06.low",
+    "display" : "low",
+    "definition" : "National schedule setting: low"
+  },
+  {
+    "code" : "MEASLES.DE.07",
+    "display" : "Supplementary-dose indication",
+    "definition" : "The infant is in a situation the measles footnote lists for a dose from 6 months"
+  },
+  {
+    "code" : "MEASLES.DE.07.outbreak-intensified-service",
+    "display" : "outbreak-intensified-service",
+    "definition" : "Supplementary-dose indication: outbreak-intensified-service"
+  },
+  {
+    "code" : "MEASLES.DE.07.high-risk-campaign",
+    "display" : "high-risk-campaign",
+    "definition" : "Supplementary-dose indication: high-risk-campaign"
+  },
+  {
+    "code" : "MEASLES.DE.07.displaced-refugee-conflict",
+    "display" : "displaced-refugee-conflict",
+    "definition" : "Supplementary-dose indication: displaced-refugee-conflict"
+  },
+  {
+    "code" : "MEASLES.DE.07.contact-or-high-exposure",
+    "display" : "contact-or-high-exposure",
+    "definition" : "Supplementary-dose indication: contact-or-high-exposure"
+  },
+  {
+    "code" : "MEASLES.DE.07.travel-to-outbreak-country",
+    "display" : "travel-to-outbreak-country",
+    "definition" : "Supplementary-dose indication: travel-to-outbreak-country"
+  },
+  {
+    "code" : "MEASLES.DE.07.hiv-infected-or-exposed",
+    "display" : "hiv-infected-or-exposed",
+    "definition" : "Supplementary-dose indication: hiv-infected-or-exposed"
+  },
+  {
+    "code" : "MEASLES.DE.07.high-hiv-and-measles-incidence",
+    "display" : "high-hiv-and-measles-incidence",
+    "definition" : "Supplementary-dose indication: high-hiv-and-measles-incidence"
+  },
+  {
+    "code" : "MEASLES.DE.08",
+    "display" : "MCV dose: date given",
+    "definition" : "Date a measles-containing vaccine dose was given"
+  },
+  {
+    "code" : "MEASLES.DE.09",
+    "display" : "MCV dose: dose label",
+    "definition" : "How the dose counts"
+  },
+  {
+    "code" : "MEASLES.DE.09.mcv0",
+    "display" : "MCV0",
+    "definition" : "MCV dose: dose label: MCV0"
+  },
+  {
+    "code" : "MEASLES.DE.09.mcv1",
+    "display" : "MCV1",
+    "definition" : "MCV dose: dose label: MCV1"
+  },
+  {
+    "code" : "MEASLES.DE.09.mcv2",
+    "display" : "MCV2",
+    "definition" : "MCV dose: dose label: MCV2"
+  },
+  {
+    "code" : "MEASLES.DE.09.extra",
+    "display" : "extra",
+    "definition" : "MCV dose: dose label: extra"
+  },
+  {
+    "code" : "MEASLES.DE.09.invalid",
+    "display" : "invalid",
+    "definition" : "MCV dose: dose label: invalid"
+  },
+  {
+    "code" : "MEASLES.DE.09.not-counted",
+    "display" : "not counted",
+    "definition" : "MCV dose: dose label: not counted"
+  },
+  {
+    "code" : "MEASLES.DE.10",
+    "display" : "MCV dose: vaccine",
+    "definition" : "Which measles-containing vaccine was given"
+  },
+  {
+    "code" : "MEASLES.DE.10.m",
+    "display" : "M",
+    "definition" : "MCV dose: vaccine: M"
+  },
+  {
+    "code" : "MEASLES.DE.10.mm",
+    "display" : "MM",
+    "definition" : "MCV dose: vaccine: MM"
+  },
+  {
+    "code" : "MEASLES.DE.10.mr",
+    "display" : "MR",
+    "definition" : "MCV dose: vaccine: MR"
+  },
+  {
+    "code" : "MEASLES.DE.10.mmr",
+    "display" : "MMR",
+    "definition" : "MCV dose: vaccine: MMR"
+  },
+  {
+    "code" : "MEASLES.DE.10.mmrv",
+    "display" : "MMRV",
+    "definition" : "MCV dose: vaccine: MMRV"
+  },
+  {
+    "code" : "MEASLES.DE.11",
+    "display" : "MCV dose: documented",
+    "definition" : "Whether the dose is documented in a home-based record or register"
+  },
+  {
+    "code" : "MEASLES.DE.12",
+    "display" : "Anaphylaxis or severe allergy to a vaccine component",
+    "definition" : "History of anaphylaxis or severe allergic reaction to any component (e.g. neomycin or gelatin)"
+  },
+  {
+    "code" : "MEASLES.DE.13",
+    "display" : "Severe immunosuppression",
+    "definition" : "Client has any form of severe immunosuppression"
+  },
+  {
+    "code" : "MEASLES.DE.14",
+    "display" : "Pregnant",
+    "definition" : "Client is pregnant"
+  },
+  {
+    "code" : "MEASLES.DE.15",
+    "display" : "Mild concurrent infection",
+    "definition" : "Client has a mild concurrent infection (recorded; not a reason to defer)"
+  },
+  {
+    "code" : "MEASLES.DE.16",
+    "display" : "Date of last other live vaccine",
+    "definition" : "Date another live vaccine (not OPV) was last given"
+  },
+  {
+    "code" : "MEASLES.DE.17",
+    "display" : "HIV status",
+    "definition" : "Client's HIV status"
+  },
+  {
+    "code" : "MEASLES.DE.17.infected",
+    "display" : "infected",
+    "definition" : "HIV status: infected"
+  },
+  {
+    "code" : "MEASLES.DE.17.exposed-infant",
+    "display" : "exposed-infant",
+    "definition" : "HIV status: exposed-infant"
+  },
+  {
+    "code" : "MEASLES.DE.17.negative",
+    "display" : "negative",
+    "definition" : "HIV status: negative"
+  },
+  {
+    "code" : "MEASLES.DE.17.unknown",
+    "display" : "unknown",
+    "definition" : "HIV status: unknown"
+  },
+  {
+    "code" : "MEASLES.DE.18",
+    "display" : "Receiving HAART",
+    "definition" : "Client is receiving highly active antiretroviral therapy"
+  },
+  {
+    "code" : "MEASLES.DE.19",
+    "display" : "HAART start date",
+    "definition" : "Date HAART was started"
+  },
+  {
+    "code" : "MEASLES.DE.20",
+    "display" : "CD4+ T lymphocyte percentage",
+    "definition" : "Most recent CD4+ T lymphocyte count as a percentage"
+  },
+  {
+    "code" : "MEASLES.DE.21",
+    "display" : "HIV additional MCV dose given",
+    "definition" : "The additional dose after immune reconstitution has been given"
+  },
+  {
+    "code" : "MEASLES.DE.22",
+    "display" : "Screening outcome",
+    "definition" : "Outcome of screening before vaccination"
+  },
+  {
+    "code" : "MEASLES.DE.22.proceed",
+    "display" : "proceed",
+    "definition" : "Screening outcome: proceed"
+  },
+  {
+    "code" : "MEASLES.DE.22.defer",
+    "display" : "defer",
+    "definition" : "Screening outcome: defer"
+  },
+  {
+    "code" : "MEASLES.DE.22.do-not-vaccinate",
+    "display" : "do-not-vaccinate",
+    "definition" : "Screening outcome: do-not-vaccinate"
+  },
+  {
+    "code" : "MEASLES.DE.22.unknown",
+    "display" : "unknown",
+    "definition" : "Screening outcome: unknown"
+  },
+  {
+    "code" : "MEASLES.DE.23",
+    "display" : "Reason not vaccinated",
+    "definition" : "Why no dose was given at this contact"
+  },
+  {
+    "code" : "MEASLES.DE.23.not-due",
+    "display" : "not-due",
+    "definition" : "Reason not vaccinated: not-due"
+  },
+  {
+    "code" : "MEASLES.DE.23.series-complete",
+    "display" : "series-complete",
+    "definition" : "Reason not vaccinated: series-complete"
+  },
+  {
+    "code" : "MEASLES.DE.23.pregnant",
+    "display" : "pregnant",
+    "definition" : "Reason not vaccinated: pregnant"
+  },
+  {
+    "code" : "MEASLES.DE.23.contraindication",
+    "display" : "contraindication",
+    "definition" : "Reason not vaccinated: contraindication"
+  },
+  {
+    "code" : "MEASLES.DE.23.live-vaccine-spacing",
+    "display" : "live-vaccine-spacing",
+    "definition" : "Reason not vaccinated: live-vaccine-spacing"
+  },
+  {
+    "code" : "MEASLES.DE.23.other",
+    "display" : "other",
+    "definition" : "Reason not vaccinated: other"
+  },
+  {
+    "code" : "MEASLES.DE.24",
+    "display" : "Next MCV due date",
+    "definition" : "Date the next MCV dose is due"
+  },
+  {
+    "code" : "MEASLES.DE.25",
+    "display" : "Health worker measles immunity proof",
+    "definition" : "Proof or documentation of measles immunity or immunization for a health worker"
+  },
+  {
+    "code" : "MEASLES.DE.25.documented-immunization",
+    "display" : "documented-immunization",
+    "definition" : "Health worker measles immunity proof: documented-immunization"
+  },
+  {
+    "code" : "MEASLES.DE.25.documented-immunity",
+    "display" : "documented-immunity",
+    "definition" : "Health worker measles immunity proof: documented-immunity"
+  },
+  {
+    "code" : "MEASLES.DE.25.none",
+    "display" : "none",
+    "definition" : "Health worker measles immunity proof: none"
+  },
+  {
+    "code" : "MEASLES.DE.26",
+    "display" : "Confirmed measles case",
+    "definition" : "A confirmed measles case (laboratory or epidemiological link; reported clinical cases included as the JRF instructs)"
+  }]
+}

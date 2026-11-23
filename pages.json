@@ -1,0 +1,3234 @@
+{
+  "$schema" : "ig-ast-pages/v1",
+  "authority" : "cache",
+  "fragments" : {
+    "ActorDefinition-MEASLES.P.Client-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"]
+    },
+    "ActorDefinition-MEASLES.P.Client-history.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"]
+    },
+    "ActorDefinition-MEASLES.P.Client-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"]
+    },
+    "ActorDefinition-MEASLES.P.Client-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"]
+    },
+    "ActorDefinition-MEASLES.P.Client-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"]
+    },
+    "ActorDefinition-MEASLES.P.Client-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"]
+    },
+    "ActorDefinition-MEASLES.P.Client-status.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"]
+    },
+    "ActorDefinition-MEASLES.P.Client-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"]
+    },
+    "ActorDefinition-MEASLES.P.Client-summary.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"]
+    },
+    "ActorDefinition-MEASLES.P.Client-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"]
+    },
+    "ActorDefinition-MEASLES.P.Client-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"]
+    },
+    "ActorDefinition-MEASLES.P.Client-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"]
+    },
+    "ActorDefinition-MEASLES.P.Client-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager-history.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager-status.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager-summary.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker-history.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker-status.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker-summary.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager-history.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager-status.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager-summary.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"]
+    },
+    "CodeSystem-MeaslesConcepts-changes.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-content.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-history.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-html.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-nsinfo.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-status.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-summary.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-validate.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-validation.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "CodeSystem-MeaslesConcepts-xref.xhtml" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.immunizations-measles-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ImplementationGuide/smart.who.int.immunizations-measles|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.immunizations-measles-history.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ImplementationGuide/smart.who.int.immunizations-measles|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.immunizations-measles-html.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ImplementationGuide/smart.who.int.immunizations-measles|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.immunizations-measles-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ImplementationGuide/smart.who.int.immunizations-measles|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.immunizations-measles-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ImplementationGuide/smart.who.int.immunizations-measles|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.immunizations-measles-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ImplementationGuide/smart.who.int.immunizations-measles|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.immunizations-measles-status.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ImplementationGuide/smart.who.int.immunizations-measles|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.immunizations-measles-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ImplementationGuide/smart.who.int.immunizations-measles|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.immunizations-measles-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ImplementationGuide/smart.who.int.immunizations-measles|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.immunizations-measles-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ImplementationGuide/smart.who.int.immunizations-measles|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.immunizations-measles-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ImplementationGuide/smart.who.int.immunizations-measles|0.1.0"]
+    },
+    "Library-MEASLESDT01-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"]
+    },
+    "Library-MEASLESDT01-history.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"]
+    },
+    "Library-MEASLESDT01-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"]
+    },
+    "Library-MEASLESDT01-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"]
+    },
+    "Library-MEASLESDT01-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"]
+    },
+    "Library-MEASLESDT01-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"]
+    },
+    "Library-MEASLESDT01-status.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"]
+    },
+    "Library-MEASLESDT01-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"]
+    },
+    "Library-MEASLESDT01-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"]
+    },
+    "Library-MEASLESDT01-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"]
+    },
+    "Library-MEASLESDT01-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"]
+    },
+    "Library-MEASLESDT02-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"]
+    },
+    "Library-MEASLESDT02-history.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"]
+    },
+    "Library-MEASLESDT02-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"]
+    },
+    "Library-MEASLESDT02-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"]
+    },
+    "Library-MEASLESDT02-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"]
+    },
+    "Library-MEASLESDT02-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"]
+    },
+    "Library-MEASLESDT02-status.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"]
+    },
+    "Library-MEASLESDT02-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"]
+    },
+    "Library-MEASLESDT02-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"]
+    },
+    "Library-MEASLESDT02-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"]
+    },
+    "Library-MEASLESDT02-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"]
+    },
+    "Library-MEASLESDT03-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"]
+    },
+    "Library-MEASLESDT03-history.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"]
+    },
+    "Library-MEASLESDT03-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"]
+    },
+    "Library-MEASLESDT03-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"]
+    },
+    "Library-MEASLESDT03-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"]
+    },
+    "Library-MEASLESDT03-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"]
+    },
+    "Library-MEASLESDT03-status.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"]
+    },
+    "Library-MEASLESDT03-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"]
+    },
+    "Library-MEASLESDT03-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"]
+    },
+    "Library-MEASLESDT03-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"]
+    },
+    "Library-MEASLESDT03-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"]
+    },
+    "Library-MEASLESDT04-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"]
+    },
+    "Library-MEASLESDT04-history.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"]
+    },
+    "Library-MEASLESDT04-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"]
+    },
+    "Library-MEASLESDT04-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"]
+    },
+    "Library-MEASLESDT04-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"]
+    },
+    "Library-MEASLESDT04-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"]
+    },
+    "Library-MEASLESDT04-status.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"]
+    },
+    "Library-MEASLESDT04-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"]
+    },
+    "Library-MEASLESDT04-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"]
+    },
+    "Library-MEASLESDT04-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"]
+    },
+    "Library-MEASLESDT04-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"]
+    },
+    "Library-MEASLESIndicators-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"]
+    },
+    "Library-MEASLESIndicators-history.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"]
+    },
+    "Library-MEASLESIndicators-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"]
+    },
+    "Library-MEASLESIndicators-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"]
+    },
+    "Library-MEASLESIndicators-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"]
+    },
+    "Library-MEASLESIndicators-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"]
+    },
+    "Library-MEASLESIndicators-status.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"]
+    },
+    "Library-MEASLESIndicators-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"]
+    },
+    "Library-MEASLESIndicators-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"]
+    },
+    "Library-MEASLESIndicators-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"]
+    },
+    "Library-MEASLESIndicators-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"]
+    },
+    "Measure-MEASLES.IND.01-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Measure-MEASLES.IND.01-history.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Measure-MEASLES.IND.01-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Measure-MEASLES.IND.01-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Measure-MEASLES.IND.01-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Measure-MEASLES.IND.01-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Measure-MEASLES.IND.01-status.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Measure-MEASLES.IND.01-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Measure-MEASLES.IND.01-summary.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Measure-MEASLES.IND.01-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Measure-MEASLES.IND.01-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Measure-MEASLES.IND.01-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Measure-MEASLES.IND.01-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Measure-MEASLES.IND.02-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Measure-MEASLES.IND.02-history.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Measure-MEASLES.IND.02-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Measure-MEASLES.IND.02-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Measure-MEASLES.IND.02-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Measure-MEASLES.IND.02-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Measure-MEASLES.IND.02-status.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Measure-MEASLES.IND.02-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Measure-MEASLES.IND.02-summary.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Measure-MEASLES.IND.02-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Measure-MEASLES.IND.02-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Measure-MEASLES.IND.02-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Measure-MEASLES.IND.02-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Measure-MEASLES.IND.06-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Measure-MEASLES.IND.06-history.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Measure-MEASLES.IND.06-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Measure-MEASLES.IND.06-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Measure-MEASLES.IND.06-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Measure-MEASLES.IND.06-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Measure-MEASLES.IND.06-status.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Measure-MEASLES.IND.06-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Measure-MEASLES.IND.06-summary.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Measure-MEASLES.IND.06-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Measure-MEASLES.IND.06-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Measure-MEASLES.IND.06-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Measure-MEASLES.IND.06-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Measure-MEASLES.IND.07-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
+    "Measure-MEASLES.IND.07-history.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
+    "Measure-MEASLES.IND.07-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
+    "Measure-MEASLES.IND.07-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
+    "Measure-MEASLES.IND.07-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
+    "Measure-MEASLES.IND.07-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
+    "Measure-MEASLES.IND.07-status.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
+    "Measure-MEASLES.IND.07-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
+    "Measure-MEASLES.IND.07-summary.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
+    "Measure-MEASLES.IND.07-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
+    "Measure-MEASLES.IND.07-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
+    "Measure-MEASLES.IND.07-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
+    "Measure-MEASLES.IND.07-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.01-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.01-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.01-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.01-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.01-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.01-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.01-status.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.01-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.01-summary.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.01-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.01-validate.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.01-validation.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.01-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.02-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.02-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.02-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.02-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.02-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.02-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.02-status.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.02-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.02-summary.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.02-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.02-validate.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.02-validation.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.02-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.03-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.03-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.03-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.03-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.03-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.03-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.03-status.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.03-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.03-summary.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.03-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.03-validate.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.03-validation.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.03-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.04-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.04-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.04-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.04-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.04-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.04-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.04-status.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.04-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.04-summary.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.04-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.04-validate.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.04-validation.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "PlanDefinition-MEASLES.DT.04-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "Requirements-MEASLES.FR-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"]
+    },
+    "Requirements-MEASLES.FR-history.xhtml" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"]
+    },
+    "Requirements-MEASLES.FR-html.xhtml" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"]
+    },
+    "Requirements-MEASLES.FR-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"]
+    },
+    "Requirements-MEASLES.FR-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"]
+    },
+    "Requirements-MEASLES.FR-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"]
+    },
+    "Requirements-MEASLES.FR-status.xhtml" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"]
+    },
+    "Requirements-MEASLES.FR-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"]
+    },
+    "Requirements-MEASLES.FR-summary.xhtml" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"]
+    },
+    "Requirements-MEASLES.FR-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"]
+    },
+    "Requirements-MEASLES.FR-validate.xhtml" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"]
+    },
+    "Requirements-MEASLES.FR-validation.xhtml" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"]
+    },
+    "Requirements-MEASLES.FR-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-adl-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-adl.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-class-table.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-crumbs.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-ctxts.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-dict-active.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-dict-diff.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-dict-key.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-dict-ms.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-dict.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-diff-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-diff-bindings-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-diff-bindings.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-diff-obligations-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-diff-obligations.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-diff.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-eview-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-eview.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-expansion.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-experimental-warning.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-grid.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-header.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-history.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-html.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-inv-diff.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-inv-key.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-inv.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-json-schema.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-maps.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-obligations-actor-MEASLES.P.Client-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-obligations-actor-MEASLES.P.Client.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-obligations-actor-MEASLES.P.DataManager-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-obligations-actor-MEASLES.P.DataManager.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-obligations-actor-MEASLES.P.HealthWorker-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-obligations-actor-MEASLES.P.HealthWorker.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-obligations-actor-MEASLES.P.ProgrammeManager-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-obligations-actor-MEASLES.P.ProgrammeManager.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-obligations-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-obligations.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-other-versions.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-pseudo-json.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-pseudo-ttl.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-pseudo-xml.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-sd-changes.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-sd-use-context.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-sd-xref.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-search-params.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-shex.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-bindings-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-bindings.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-by-key-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-by-key-bindings-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-by-key-bindings.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-by-key-obligations-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-by-key-obligations.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-by-key.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-by-mustsupport-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-by-mustsupport-bindings-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-by-mustsupport-bindings.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-by-mustsupport-obligations-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-by-mustsupport-obligations.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-by-mustsupport.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-obligations-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot-obligations.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-snapshot.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-status.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-summary-all.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-summary.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-tx-diff-must-support.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-tx-diff.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-tx-key.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-tx-must-support.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-tx.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-typename.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-uses.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-validate.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-validation.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact.md" : {
+      "source" : "input/pagecontent/StructureDefinition-MeaslesVaccinationContact.md",
+      "resources" : []
+    },
+    "StructureDefinition-example-list-MeaslesVaccinationContact.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-example-list-all-MeaslesVaccinationContact.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-example-table-MeaslesVaccinationContact.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-example-table-all-MeaslesVaccinationContact.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-testplan-list-MeaslesVaccinationContact.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-testplan-table-MeaslesVaccinationContact.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-testscript-list-MeaslesVaccinationContact.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "StructureDefinition-testscript-table-MeaslesVaccinationContact.xhtml" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-changes.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-cld.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-expansion-oids.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-expansion.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-history.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-status.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-summary.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-xref.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.md" : {
+      "source" : "input/pagecontent/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.md",
+      "resources" : []
+    },
+    "ValueSet-MeaslesHivStatusVS-changes.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-cld.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-expansion-oids.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-expansion.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-history.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-status.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-summary.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS-xref.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"]
+    },
+    "ValueSet-MeaslesHivStatusVS.md" : {
+      "source" : "input/pagecontent/ValueSet-MeaslesHivStatusVS.md",
+      "resources" : []
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-changes.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-cld.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-expansion-oids.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-expansion.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-history.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-status.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-summary.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-xref.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS.md" : {
+      "source" : "input/pagecontent/ValueSet-MeaslesMcvDoseDoseLabelVS.md",
+      "resources" : []
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-changes.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-cld.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-expansion-oids.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-expansion.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-history.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-status.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-summary.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-xref.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS.md" : {
+      "source" : "input/pagecontent/ValueSet-MeaslesMcvDoseVaccineVS.md",
+      "resources" : []
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-changes.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-cld.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-expansion-oids.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-expansion.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-history.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-status.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-summary.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-xref.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS.md" : {
+      "source" : "input/pagecontent/ValueSet-MeaslesNationalScheduleSettingVS.md",
+      "resources" : []
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-changes.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-cld.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-expansion-oids.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-expansion.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-history.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-status.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-summary.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-xref.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS.md" : {
+      "source" : "input/pagecontent/ValueSet-MeaslesReasonNotVaccinatedVS.md",
+      "resources" : []
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-changes.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-cld.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-expansion-oids.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-expansion.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-history.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-status.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-summary.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-xref.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS.md" : {
+      "source" : "input/pagecontent/ValueSet-MeaslesScreeningOutcomeVS.md",
+      "resources" : []
+    },
+    "ValueSet-MeaslesSexVS-changes.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-cld.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-expansion-oids.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-expansion.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-history.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-status.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-summary.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS-xref.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSexVS.md" : {
+      "source" : "input/pagecontent/ValueSet-MeaslesSexVS.md",
+      "resources" : []
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-changes.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-cld.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-expansion-oids.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-expansion.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-history.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-status.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-summary-table.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-summary.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-xref.xhtml" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS.md" : {
+      "source" : "input/pagecontent/ValueSet-MeaslesSupplementaryDoseIndicationVS.md",
+      "resources" : []
+    },
+    "artifacts.xml" : {
+      "source" : "temp/pages/_includes/artifacts.xml",
+      "resources" : []
+    },
+    "business-processes.md" : {
+      "source" : "input/pagecontent/business-processes.md",
+      "resources" : []
+    },
+    "decision-logic.md" : {
+      "source" : "input/pagecontent/decision-logic.md",
+      "resources" : []
+    },
+    "dictionary.md" : {
+      "source" : "input/pagecontent/dictionary.md",
+      "resources" : []
+    },
+    "fsh-link-references.md" : {
+      "source" : "fsh-generated/includes/fsh-link-references.md",
+      "resources" : []
+    },
+    "gap-report.md" : {
+      "source" : "input/pagecontent/gap-report.md",
+      "resources" : []
+    },
+    "index.md" : {
+      "source" : "input/pagecontent/index.md",
+      "resources" : []
+    },
+    "indicators.md" : {
+      "source" : "input/pagecontent/indicators.md",
+      "resources" : []
+    },
+    "l2-dependencies.md" : {
+      "source" : "input/pagecontent/l2-dependencies.md",
+      "resources" : []
+    },
+    "menu.xml" : {
+      "source" : "fsh-generated/includes/menu.xml",
+      "resources" : []
+    },
+    "personas.md" : {
+      "source" : "input/pagecontent/personas.md",
+      "resources" : []
+    },
+    "requirements.md" : {
+      "source" : "input/pagecontent/requirements.md",
+      "resources" : []
+    },
+    "testing.md" : {
+      "source" : "input/pagecontent/testing.md",
+      "resources" : []
+    },
+    "user-scenarios.md" : {
+      "source" : "input/pagecontent/user-scenarios.md",
+      "resources" : []
+    }
+  },
+  "pages" : {
+    "ActorDefinition-MEASLES.P.Client-testing.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"],
+      "fragments" : ["ActorDefinition-MEASLES.P.Client-history.xhtml", "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.Client.change.history.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"],
+      "fragments" : ["ActorDefinition-MEASLES.P.Client-history.xhtml", "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.Client.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"],
+      "fragments" : ["ActorDefinition-MEASLES.P.Client-history.xhtml",
+      "ActorDefinition-MEASLES.P.Client-html.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.Client.json.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"],
+      "fragments" : ["ActorDefinition-MEASLES.P.Client-json-html.xhtml", "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.Client.ttl.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"],
+      "fragments" : ["ActorDefinition-MEASLES.P.Client-ttl-html.xhtml", "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.Client.xml.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.Client.json",
+      "resources" : ["ActorDefinition/MEASLES.P.Client"],
+      "fragments" : ["ActorDefinition-MEASLES.P.Client-xml-html.xhtml", "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager-testing.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"],
+      "fragments" : ["ActorDefinition-MEASLES.P.DataManager-history.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager.change.history.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"],
+      "fragments" : ["ActorDefinition-MEASLES.P.DataManager-history.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"],
+      "fragments" : ["ActorDefinition-MEASLES.P.DataManager-history.xhtml",
+      "ActorDefinition-MEASLES.P.DataManager-html.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager.json.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"],
+      "fragments" : ["ActorDefinition-MEASLES.P.DataManager-json-html.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager.ttl.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"],
+      "fragments" : ["ActorDefinition-MEASLES.P.DataManager-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.DataManager.xml.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.DataManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.DataManager"],
+      "fragments" : ["ActorDefinition-MEASLES.P.DataManager-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker-testing.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"],
+      "fragments" : ["ActorDefinition-MEASLES.P.HealthWorker-history.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker.change.history.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"],
+      "fragments" : ["ActorDefinition-MEASLES.P.HealthWorker-history.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"],
+      "fragments" : ["ActorDefinition-MEASLES.P.HealthWorker-history.xhtml",
+      "ActorDefinition-MEASLES.P.HealthWorker-html.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker.json.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"],
+      "fragments" : ["ActorDefinition-MEASLES.P.HealthWorker-json-html.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker.ttl.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"],
+      "fragments" : ["ActorDefinition-MEASLES.P.HealthWorker-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.HealthWorker.xml.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.HealthWorker.json",
+      "resources" : ["ActorDefinition/MEASLES.P.HealthWorker"],
+      "fragments" : ["ActorDefinition-MEASLES.P.HealthWorker-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager-testing.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"],
+      "fragments" : ["ActorDefinition-MEASLES.P.ProgrammeManager-history.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager.change.history.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"],
+      "fragments" : ["ActorDefinition-MEASLES.P.ProgrammeManager-history.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"],
+      "fragments" : ["ActorDefinition-MEASLES.P.ProgrammeManager-history.xhtml",
+      "ActorDefinition-MEASLES.P.ProgrammeManager-html.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager.json.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"],
+      "fragments" : ["ActorDefinition-MEASLES.P.ProgrammeManager-json-html.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager.ttl.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"],
+      "fragments" : ["ActorDefinition-MEASLES.P.ProgrammeManager-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "ActorDefinition-MEASLES.P.ProgrammeManager.xml.html" : {
+      "source" : "fsh-generated/resources/ActorDefinition-MEASLES.P.ProgrammeManager.json",
+      "resources" : ["ActorDefinition/MEASLES.P.ProgrammeManager"],
+      "fragments" : ["ActorDefinition-MEASLES.P.ProgrammeManager-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "CodeSystem-MeaslesConcepts-testing.html" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"],
+      "fragments" : ["CodeSystem-MeaslesConcepts-history.xhtml", "menu.xml"]
+    },
+    "CodeSystem-MeaslesConcepts.change.history.html" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"],
+      "fragments" : ["CodeSystem-MeaslesConcepts-history.xhtml", "menu.xml"]
+    },
+    "CodeSystem-MeaslesConcepts.html" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"],
+      "fragments" : ["CodeSystem-MeaslesConcepts-contained-index.xhtml",
+      "CodeSystem-MeaslesConcepts-content.xhtml",
+      "CodeSystem-MeaslesConcepts-history.xhtml",
+      "CodeSystem-MeaslesConcepts-xref.xhtml",
+      "menu.xml"]
+    },
+    "CodeSystem-MeaslesConcepts.json.html" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"],
+      "fragments" : ["CodeSystem-MeaslesConcepts-json-html.xhtml", "menu.xml"]
+    },
+    "CodeSystem-MeaslesConcepts.ttl.html" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"],
+      "fragments" : ["CodeSystem-MeaslesConcepts-ttl-html.xhtml", "menu.xml"]
+    },
+    "CodeSystem-MeaslesConcepts.xml.html" : {
+      "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"],
+      "fragments" : ["CodeSystem-MeaslesConcepts-xml-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT01-testing.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"],
+      "fragments" : ["Library-MEASLESDT01-history.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT01.change.history.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"],
+      "fragments" : ["Library-MEASLESDT01-history.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT01.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"],
+      "fragments" : ["Library-MEASLESDT01-history.xhtml",
+      "Library-MEASLESDT01-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLESDT01.json.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"],
+      "fragments" : ["Library-MEASLESDT01-json-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT01.ttl.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"],
+      "fragments" : ["Library-MEASLESDT01-ttl-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT01.xml.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"],
+      "fragments" : ["Library-MEASLESDT01-xml-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT02-testing.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"],
+      "fragments" : ["Library-MEASLESDT02-history.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT02.change.history.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"],
+      "fragments" : ["Library-MEASLESDT02-history.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT02.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"],
+      "fragments" : ["Library-MEASLESDT02-history.xhtml",
+      "Library-MEASLESDT02-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLESDT02.json.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"],
+      "fragments" : ["Library-MEASLESDT02-json-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT02.ttl.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"],
+      "fragments" : ["Library-MEASLESDT02-ttl-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT02.xml.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0"],
+      "fragments" : ["Library-MEASLESDT02-xml-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT03-testing.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"],
+      "fragments" : ["Library-MEASLESDT03-history.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT03.change.history.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"],
+      "fragments" : ["Library-MEASLESDT03-history.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT03.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"],
+      "fragments" : ["Library-MEASLESDT03-history.xhtml",
+      "Library-MEASLESDT03-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLESDT03.json.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"],
+      "fragments" : ["Library-MEASLESDT03-json-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT03.ttl.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"],
+      "fragments" : ["Library-MEASLESDT03-ttl-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT03.xml.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0"],
+      "fragments" : ["Library-MEASLESDT03-xml-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT04-testing.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"],
+      "fragments" : ["Library-MEASLESDT04-history.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT04.change.history.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"],
+      "fragments" : ["Library-MEASLESDT04-history.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT04.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"],
+      "fragments" : ["Library-MEASLESDT04-history.xhtml",
+      "Library-MEASLESDT04-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLESDT04.json.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"],
+      "fragments" : ["Library-MEASLESDT04-json-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT04.ttl.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"],
+      "fragments" : ["Library-MEASLESDT04-ttl-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESDT04.xml.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESDT04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0"],
+      "fragments" : ["Library-MEASLESDT04-xml-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESIndicators-testing.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"],
+      "fragments" : ["Library-MEASLESIndicators-history.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESIndicators.change.history.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"],
+      "fragments" : ["Library-MEASLESIndicators-history.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESIndicators.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"],
+      "fragments" : ["Library-MEASLESIndicators-history.xhtml",
+      "Library-MEASLESIndicators-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLESIndicators.json.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"],
+      "fragments" : ["Library-MEASLESIndicators-json-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESIndicators.ttl.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"],
+      "fragments" : ["Library-MEASLESIndicators-ttl-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLESIndicators.xml.html" : {
+      "source" : "fsh-generated/resources/Library-MEASLESIndicators.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0"],
+      "fragments" : ["Library-MEASLESIndicators-xml-html.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.01-testing.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.01-history.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.01.change.history.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.01-history.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.01.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.01-history.xhtml",
+      "Measure-MEASLES.IND.01-html.xhtml",
+      "menu.xml"]
+    },
+    "Measure-MEASLES.IND.01.json.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.01-json-html.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.01.ttl.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.01-ttl-html.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.01.xml.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.01-xml-html.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.02-testing.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.02-history.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.02.change.history.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.02-history.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.02.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.02-history.xhtml",
+      "Measure-MEASLES.IND.02-html.xhtml",
+      "menu.xml"]
+    },
+    "Measure-MEASLES.IND.02.json.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.02-json-html.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.02.ttl.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.02-ttl-html.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.02.xml.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.02-xml-html.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.06-testing.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.06-history.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.06.change.history.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.06-history.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.06.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.06-history.xhtml",
+      "Measure-MEASLES.IND.06-html.xhtml",
+      "menu.xml"]
+    },
+    "Measure-MEASLES.IND.06.json.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.06-json-html.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.06.ttl.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.06-ttl-html.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.06.xml.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.06-xml-html.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.07-testing.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.07-history.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.07.change.history.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.07-history.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.07.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.07-history.xhtml",
+      "Measure-MEASLES.IND.07-html.xhtml",
+      "menu.xml"]
+    },
+    "Measure-MEASLES.IND.07.json.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.07-json-html.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.07.ttl.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.07-ttl-html.xhtml", "menu.xml"]
+    },
+    "Measure-MEASLES.IND.07.xml.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"],
+      "fragments" : ["Measure-MEASLES.IND.07-xml-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.01-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.01-history.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.01.change.history.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.01-history.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.01.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.01-history.xhtml",
+      "PlanDefinition-MEASLES.DT.01-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.01.json.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.01-json-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.01.ttl.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.01-ttl-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.01.xml.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.01-xml-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.02-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.02-history.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.02.change.history.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.02-history.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.02.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.02-history.xhtml",
+      "PlanDefinition-MEASLES.DT.02-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.02.json.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.02-json-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.02.ttl.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.02-ttl-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.02.xml.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.02-xml-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.03-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.03-history.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.03.change.history.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.03-history.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.03.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.03-history.xhtml",
+      "PlanDefinition-MEASLES.DT.03-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.03.json.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.03-json-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.03.ttl.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.03-ttl-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.03.xml.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.03-xml-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.04-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.04-history.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.04.change.history.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.04-history.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.04.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.04-history.xhtml",
+      "PlanDefinition-MEASLES.DT.04-html.xhtml",
+      "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.04.json.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.04-json-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.04.ttl.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.04-ttl-html.xhtml", "menu.xml"]
+    },
+    "PlanDefinition-MEASLES.DT.04.xml.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"],
+      "fragments" : ["PlanDefinition-MEASLES.DT.04-xml-html.xhtml", "menu.xml"]
+    },
+    "Requirements-MEASLES.FR-testing.html" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"],
+      "fragments" : ["Requirements-MEASLES.FR-history.xhtml", "menu.xml"]
+    },
+    "Requirements-MEASLES.FR.change.history.html" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"],
+      "fragments" : ["Requirements-MEASLES.FR-history.xhtml", "menu.xml"]
+    },
+    "Requirements-MEASLES.FR.html" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"],
+      "fragments" : ["Requirements-MEASLES.FR-history.xhtml",
+      "Requirements-MEASLES.FR-html.xhtml",
+      "menu.xml"]
+    },
+    "Requirements-MEASLES.FR.json.html" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"],
+      "fragments" : ["Requirements-MEASLES.FR-json-html.xhtml", "menu.xml"]
+    },
+    "Requirements-MEASLES.FR.ttl.html" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"],
+      "fragments" : ["Requirements-MEASLES.FR-ttl-html.xhtml", "menu.xml"]
+    },
+    "Requirements-MEASLES.FR.xml.html" : {
+      "source" : "fsh-generated/resources/Requirements-MEASLES.FR.json",
+      "resources" : ["Requirements/MEASLES.FR"],
+      "fragments" : ["Requirements-MEASLES.FR-xml-html.xhtml", "menu.xml"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-definitions.html" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"],
+      "fragments" : ["StructureDefinition-MeaslesVaccinationContact-dict-diff.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-dict-key.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-dict.xhtml",
+      "menu.xml"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-examples.html" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"],
+      "fragments" : ["menu.xml"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-mappings.html" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"],
+      "fragments" : ["StructureDefinition-MeaslesVaccinationContact-maps.xhtml",
+      "menu.xml"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact-testing.html" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"],
+      "fragments" : ["menu.xml"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact.html" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"],
+      "fragments" : ["StructureDefinition-MeaslesVaccinationContact-contained-index.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-diff-all.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-diff.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-inv-diff.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-inv-key.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-inv.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-pseudo-json.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-pseudo-ttl.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-pseudo-xml.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-sd-xref.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-snapshot-all.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-snapshot-by-key-all.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-snapshot-by-key.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-snapshot.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-summary-all.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-summary.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-tx-diff.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-tx-key.xhtml",
+      "StructureDefinition-MeaslesVaccinationContact-tx.xhtml",
+      "menu.xml"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact.profile.history.html" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"],
+      "fragments" : ["StructureDefinition-MeaslesVaccinationContact-history.xhtml",
+      "menu.xml"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact.profile.json.html" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"],
+      "fragments" : ["menu.xml"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact.profile.ttl.html" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"],
+      "fragments" : ["menu.xml"]
+    },
+    "StructureDefinition-MeaslesVaccinationContact.profile.xml.html" : {
+      "source" : "fsh-generated/resources/StructureDefinition-MeaslesVaccinationContact.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0"],
+      "fragments" : ["menu.xml"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-testing.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-history.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.change.history.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-history.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-cld.xhtml",
+      "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-contained-index.xhtml",
+      "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-expansion.xhtml",
+      "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-history.xhtml",
+      "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-xref.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-json-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.ttl.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.xml.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesHivStatusVS-testing.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesHivStatusVS-history.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesHivStatusVS.change.history.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesHivStatusVS-history.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesHivStatusVS.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesHivStatusVS-cld.xhtml",
+      "ValueSet-MeaslesHivStatusVS-contained-index.xhtml",
+      "ValueSet-MeaslesHivStatusVS-expansion.xhtml",
+      "ValueSet-MeaslesHivStatusVS-history.xhtml",
+      "ValueSet-MeaslesHivStatusVS-xref.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesHivStatusVS.json.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesHivStatusVS-json-html.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesHivStatusVS.ttl.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesHivStatusVS-ttl-html.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesHivStatusVS.xml.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesHivStatusVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesHivStatusVS-xml-html.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS-testing.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesMcvDoseDoseLabelVS-history.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS.change.history.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesMcvDoseDoseLabelVS-history.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesMcvDoseDoseLabelVS-cld.xhtml",
+      "ValueSet-MeaslesMcvDoseDoseLabelVS-contained-index.xhtml",
+      "ValueSet-MeaslesMcvDoseDoseLabelVS-expansion.xhtml",
+      "ValueSet-MeaslesMcvDoseDoseLabelVS-history.xhtml",
+      "ValueSet-MeaslesMcvDoseDoseLabelVS-xref.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS.json.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesMcvDoseDoseLabelVS-json-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS.ttl.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesMcvDoseDoseLabelVS-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesMcvDoseDoseLabelVS.xml.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesMcvDoseDoseLabelVS-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS-testing.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesMcvDoseVaccineVS-history.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS.change.history.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesMcvDoseVaccineVS-history.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesMcvDoseVaccineVS-cld.xhtml",
+      "ValueSet-MeaslesMcvDoseVaccineVS-contained-index.xhtml",
+      "ValueSet-MeaslesMcvDoseVaccineVS-expansion.xhtml",
+      "ValueSet-MeaslesMcvDoseVaccineVS-history.xhtml",
+      "ValueSet-MeaslesMcvDoseVaccineVS-xref.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS.json.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesMcvDoseVaccineVS-json-html.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS.ttl.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesMcvDoseVaccineVS-ttl-html.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesMcvDoseVaccineVS.xml.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesMcvDoseVaccineVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesMcvDoseVaccineVS-xml-html.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS-testing.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesNationalScheduleSettingVS-history.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS.change.history.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesNationalScheduleSettingVS-history.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesNationalScheduleSettingVS-cld.xhtml",
+      "ValueSet-MeaslesNationalScheduleSettingVS-contained-index.xhtml",
+      "ValueSet-MeaslesNationalScheduleSettingVS-expansion.xhtml",
+      "ValueSet-MeaslesNationalScheduleSettingVS-history.xhtml",
+      "ValueSet-MeaslesNationalScheduleSettingVS-xref.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS.json.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesNationalScheduleSettingVS-json-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS.ttl.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesNationalScheduleSettingVS-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesNationalScheduleSettingVS.xml.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesNationalScheduleSettingVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesNationalScheduleSettingVS-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS-testing.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesReasonNotVaccinatedVS-history.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS.change.history.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesReasonNotVaccinatedVS-history.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesReasonNotVaccinatedVS-cld.xhtml",
+      "ValueSet-MeaslesReasonNotVaccinatedVS-contained-index.xhtml",
+      "ValueSet-MeaslesReasonNotVaccinatedVS-expansion.xhtml",
+      "ValueSet-MeaslesReasonNotVaccinatedVS-history.xhtml",
+      "ValueSet-MeaslesReasonNotVaccinatedVS-xref.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS.json.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesReasonNotVaccinatedVS-json-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS.ttl.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesReasonNotVaccinatedVS-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesReasonNotVaccinatedVS.xml.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesReasonNotVaccinatedVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesReasonNotVaccinatedVS-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS-testing.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesScreeningOutcomeVS-history.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS.change.history.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesScreeningOutcomeVS-history.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesScreeningOutcomeVS-cld.xhtml",
+      "ValueSet-MeaslesScreeningOutcomeVS-contained-index.xhtml",
+      "ValueSet-MeaslesScreeningOutcomeVS-expansion.xhtml",
+      "ValueSet-MeaslesScreeningOutcomeVS-history.xhtml",
+      "ValueSet-MeaslesScreeningOutcomeVS-xref.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS.json.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesScreeningOutcomeVS-json-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS.ttl.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesScreeningOutcomeVS-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesScreeningOutcomeVS.xml.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesScreeningOutcomeVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesScreeningOutcomeVS-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesSexVS-testing.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesSexVS-history.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesSexVS.change.history.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesSexVS-history.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesSexVS.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesSexVS-cld.xhtml",
+      "ValueSet-MeaslesSexVS-contained-index.xhtml",
+      "ValueSet-MeaslesSexVS-expansion.xhtml",
+      "ValueSet-MeaslesSexVS-history.xhtml",
+      "ValueSet-MeaslesSexVS-xref.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesSexVS.json.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesSexVS-json-html.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesSexVS.ttl.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesSexVS-ttl-html.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesSexVS.xml.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSexVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesSexVS-xml-html.xhtml", "menu.xml"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS-testing.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesSupplementaryDoseIndicationVS-history.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS.change.history.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesSupplementaryDoseIndicationVS-history.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesSupplementaryDoseIndicationVS-cld.xhtml",
+      "ValueSet-MeaslesSupplementaryDoseIndicationVS-contained-index.xhtml",
+      "ValueSet-MeaslesSupplementaryDoseIndicationVS-expansion.xhtml",
+      "ValueSet-MeaslesSupplementaryDoseIndicationVS-history.xhtml",
+      "ValueSet-MeaslesSupplementaryDoseIndicationVS-xref.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS.json.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesSupplementaryDoseIndicationVS-json-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS.ttl.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesSupplementaryDoseIndicationVS-ttl-html.xhtml",
+      "menu.xml"]
+    },
+    "ValueSet-MeaslesSupplementaryDoseIndicationVS.xml.html" : {
+      "source" : "fsh-generated/resources/ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0"],
+      "fragments" : ["ValueSet-MeaslesSupplementaryDoseIndicationVS-xml-html.xhtml",
+      "menu.xml"]
+    },
+    "artifacts.html" : {
+      "source" : "temp/pages/_includes/artifacts.xml",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "business-processes.html" : {
+      "source" : "input/pagecontent/business-processes.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "decision-logic.html" : {
+      "source" : "input/pagecontent/decision-logic.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "dictionary.html" : {
+      "source" : "input/pagecontent/dictionary.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "gap-report.html" : {
+      "source" : "input/pagecontent/gap-report.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "index.html" : {
+      "source" : "input/pagecontent/index.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "indicators.html" : {
+      "source" : "input/pagecontent/indicators.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "l2-dependencies.html" : {
+      "source" : "input/pagecontent/l2-dependencies.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "personas.html" : {
+      "source" : "input/pagecontent/personas.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "requirements.html" : {
+      "source" : "input/pagecontent/requirements.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "searchform.html" : {
+      "fragments" : []
+    },
+    "testing.html" : {
+      "source" : "input/pagecontent/testing.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "toc.html" : {
+      "fragments" : ["menu.xml"]
+    },
+    "user-scenarios.html" : {
+      "source" : "input/pagecontent/user-scenarios.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    }
+  },
+  "unresolvedIncludes" : 10
+}

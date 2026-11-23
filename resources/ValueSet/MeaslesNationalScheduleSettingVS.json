@@ -1,0 +1,38 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "MeaslesNationalScheduleSettingVS",
+  "meta" : {
+    "profile" : ["http://smart.who.int/base/StructureDefinition/SGValueSet"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet MeaslesNationalScheduleSettingVS</b></p><a name=\"MeaslesNationalScheduleSettingVS\"> </a><a name=\"hcMeaslesNationalScheduleSettingVS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://smart.who.int/base/1.0.0/StructureDefinition-SGValueSet.html\">SMART Guidelines ValueSet</a></p></div><ul><li>Include these codes as defined in <a href=\"CodeSystem-MeaslesConcepts.html\"><code>http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4606.46high\">MEASLES.DE.06.high</a></td><td style=\"color: #cccccc\">high</td><td>National schedule setting: high</td></tr><tr><td><a href=\"CodeSystem-MeaslesConcepts.html#MeaslesConcepts-MEASLES.46DE.4606.46low\">MEASLES.DE.06.low</a></td><td style=\"color: #cccccc\">low</td><td>National schedule setting: low</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS",
+  "version" : "0.1.0",
+  "name" : "MeaslesNationalScheduleSettingVS",
+  "title" : "National schedule setting",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-23T10:30:20+00:00",
+  "publisher" : "WHO",
+  "contact" : [{
+    "name" : "WHO",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://who.int"
+    }]
+  }],
+  "description" : "Allowed values of MEASLES.DE.06 (National schedule setting).",
+  "compose" : {
+    "include" : [{
+      "system" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+      "concept" : [{
+        "code" : "MEASLES.DE.06.high"
+      },
+      {
+        "code" : "MEASLES.DE.06.low"
+      }]
+    }]
+  }
+}

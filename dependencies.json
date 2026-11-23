@@ -1,0 +1,501 @@
+{
+  "$schema" : "ig-ast-dependencies/v1",
+  "authority" : "cache",
+  "edges" : 55,
+  "resolvedInIg" : 26,
+  "dependencies" : [{
+    "source" : "ActorDefinition/MEASLES.P.Client",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGActor",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ActorDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "ActorDefinition/MEASLES.P.DataManager",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGActor",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ActorDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "ActorDefinition/MEASLES.P.HealthWorker",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGActor",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ActorDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "ActorDefinition/MEASLES.P.ProgrammeManager",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGActor",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ActorDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "Requirements/MEASLES.FR",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGRequirements",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Requirements.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGCodeSystem",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "CodeSystem.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGLibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGLibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGLibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGLibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGLibrary",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Library.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0",
+    "kind" : "library",
+    "target" : "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators",
+    "targetVersion" : null,
+    "resolved" : "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0",
+    "path" : "Measure.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGMeasure",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Measure.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0",
+    "kind" : "library",
+    "target" : "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators",
+    "targetVersion" : null,
+    "resolved" : "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0",
+    "path" : "Measure.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGMeasure",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Measure.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0",
+    "kind" : "library",
+    "target" : "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators",
+    "targetVersion" : null,
+    "resolved" : "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0",
+    "path" : "Measure.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGMeasure",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Measure.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0",
+    "kind" : "library",
+    "target" : "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators",
+    "targetVersion" : null,
+    "resolved" : "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0",
+    "path" : "Measure.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGMeasure",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "Measure.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0",
+    "kind" : "library",
+    "target" : "http://smart.who.int/immunizations-measles/Library/MEASLESDT01",
+    "targetVersion" : null,
+    "resolved" : "http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0",
+    "path" : "PlanDefinition.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGDecisionTable",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0",
+    "kind" : "library",
+    "target" : "http://smart.who.int/immunizations-measles/Library/MEASLESDT02",
+    "targetVersion" : null,
+    "resolved" : "http://smart.who.int/immunizations-measles/Library/MEASLESDT02|0.1.0",
+    "path" : "PlanDefinition.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGDecisionTable",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0",
+    "kind" : "library",
+    "target" : "http://smart.who.int/immunizations-measles/Library/MEASLESDT03",
+    "targetVersion" : null,
+    "resolved" : "http://smart.who.int/immunizations-measles/Library/MEASLESDT03|0.1.0",
+    "path" : "PlanDefinition.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGDecisionTable",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0",
+    "kind" : "library",
+    "target" : "http://smart.who.int/immunizations-measles/Library/MEASLESDT04",
+    "targetVersion" : null,
+    "resolved" : "http://smart.who.int/immunizations-measles/Library/MEASLESDT04|0.1.0",
+    "path" : "PlanDefinition.library",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGDecisionTable",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "PlanDefinition.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0",
+    "kind" : "binds to",
+    "target" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact|0.1.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Base",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0",
+    "kind" : "includes from",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGValueSet",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ValueSet.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0",
+    "kind" : "includes from",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGValueSet",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ValueSet.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0",
+    "kind" : "includes from",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGValueSet",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ValueSet.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0",
+    "kind" : "includes from",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGValueSet",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ValueSet.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0",
+    "kind" : "includes from",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGValueSet",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ValueSet.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0",
+    "kind" : "includes from",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGValueSet",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ValueSet.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0",
+    "kind" : "includes from",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGValueSet",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ValueSet.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0",
+    "kind" : "includes from",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGValueSet",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ValueSet.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0",
+    "kind" : "includes from",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+    "targetVersion" : "0.1.0",
+    "resolved" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "http://smart.who.int/base/StructureDefinition/SGValueSet",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ValueSet.meta.profile",
+    "origin" : "ast-export"
+  }]
+}

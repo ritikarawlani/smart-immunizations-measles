@@ -1,0 +1,234 @@
+[
+  {
+    "outputFile": "ActorDefinition-MEASLES.P.Client.json",
+    "fshName": "MEASLES.P.Client",
+    "fshType": "Instance",
+    "fshFile": "actors.fsh",
+    "startLine": 12,
+    "endLine": 20
+  },
+  {
+    "outputFile": "ActorDefinition-MEASLES.P.DataManager.json",
+    "fshName": "MEASLES.P.DataManager",
+    "fshType": "Instance",
+    "fshFile": "actors.fsh",
+    "startLine": 32,
+    "endLine": 40
+  },
+  {
+    "outputFile": "ActorDefinition-MEASLES.P.HealthWorker.json",
+    "fshName": "MEASLES.P.HealthWorker",
+    "fshType": "Instance",
+    "fshFile": "actors.fsh",
+    "startLine": 2,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ActorDefinition-MEASLES.P.ProgrammeManager.json",
+    "fshName": "MEASLES.P.ProgrammeManager",
+    "fshType": "Instance",
+    "fshFile": "actors.fsh",
+    "startLine": 22,
+    "endLine": 30
+  },
+  {
+    "outputFile": "CodeSystem-MeaslesConcepts.json",
+    "fshName": "MeaslesConcepts",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystem.fsh",
+    "startLine": 2,
+    "endLine": 77
+  },
+  {
+    "outputFile": "Library-MEASLESDT01.json",
+    "fshName": "MEASLESDT01",
+    "fshType": "Instance",
+    "fshFile": "decisions/MEASLESDT01.fsh",
+    "startLine": 2,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Library-MEASLESDT02.json",
+    "fshName": "MEASLESDT02",
+    "fshType": "Instance",
+    "fshFile": "decisions/MEASLESDT02.fsh",
+    "startLine": 2,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Library-MEASLESDT03.json",
+    "fshName": "MEASLESDT03",
+    "fshType": "Instance",
+    "fshFile": "decisions/MEASLESDT03.fsh",
+    "startLine": 2,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Library-MEASLESDT04.json",
+    "fshName": "MEASLESDT04",
+    "fshType": "Instance",
+    "fshFile": "decisions/MEASLESDT04.fsh",
+    "startLine": 2,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Library-MEASLESIndicators.json",
+    "fshName": "MEASLESIndicators",
+    "fshType": "Instance",
+    "fshFile": "measures.fsh",
+    "startLine": 4,
+    "endLine": 15
+  },
+  {
+    "outputFile": "Measure-MEASLES.IND.01.json",
+    "fshName": "MEASLES.IND.01",
+    "fshType": "Instance",
+    "fshFile": "measures.fsh",
+    "startLine": 25,
+    "endLine": 41
+  },
+  {
+    "outputFile": "Measure-MEASLES.IND.02.json",
+    "fshName": "MEASLES.IND.02",
+    "fshType": "Instance",
+    "fshFile": "measures.fsh",
+    "startLine": 43,
+    "endLine": 59
+  },
+  {
+    "outputFile": "Measure-MEASLES.IND.06.json",
+    "fshName": "MEASLES.IND.06",
+    "fshType": "Instance",
+    "fshFile": "measures.fsh",
+    "startLine": 61,
+    "endLine": 78
+  },
+  {
+    "outputFile": "Measure-MEASLES.IND.07.json",
+    "fshName": "MEASLES.IND.07",
+    "fshType": "Instance",
+    "fshFile": "measures.fsh",
+    "startLine": 80,
+    "endLine": 90
+  },
+  {
+    "outputFile": "PlanDefinition-MEASLES.DT.01.json",
+    "fshName": "MEASLES.DT.01",
+    "fshType": "Instance",
+    "fshFile": "decisions/MEASLESDT01.fsh",
+    "startLine": 15,
+    "endLine": 86
+  },
+  {
+    "outputFile": "PlanDefinition-MEASLES.DT.02.json",
+    "fshName": "MEASLES.DT.02",
+    "fshType": "Instance",
+    "fshFile": "decisions/MEASLESDT02.fsh",
+    "startLine": 15,
+    "endLine": 56
+  },
+  {
+    "outputFile": "PlanDefinition-MEASLES.DT.03.json",
+    "fshName": "MEASLES.DT.03",
+    "fshType": "Instance",
+    "fshFile": "decisions/MEASLESDT03.fsh",
+    "startLine": 15,
+    "endLine": 66
+  },
+  {
+    "outputFile": "PlanDefinition-MEASLES.DT.04.json",
+    "fshName": "MEASLES.DT.04",
+    "fshType": "Instance",
+    "fshFile": "decisions/MEASLESDT04.fsh",
+    "startLine": 15,
+    "endLine": 66
+  },
+  {
+    "outputFile": "Requirements-MEASLES.FR.json",
+    "fshName": "MEASLES.FR",
+    "fshType": "Instance",
+    "fshFile": "requirements.fsh",
+    "startLine": 2,
+    "endLine": 63
+  },
+  {
+    "outputFile": "StructureDefinition-MeaslesVaccinationContact.json",
+    "fshName": "MeaslesVaccinationContact",
+    "fshType": "Logical",
+    "fshFile": "models/MeaslesVaccinationContact.fsh",
+    "startLine": 2,
+    "endLine": 68
+  },
+  {
+    "outputFile": "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json",
+    "fshName": "MeaslesHealthWorkerMeaslesImmunityProofVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets.fsh",
+    "startLine": 105,
+    "endLine": 114
+  },
+  {
+    "outputFile": "ValueSet-MeaslesHivStatusVS.json",
+    "fshName": "MeaslesHivStatusVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets.fsh",
+    "startLine": 67,
+    "endLine": 77
+  },
+  {
+    "outputFile": "ValueSet-MeaslesMcvDoseDoseLabelVS.json",
+    "fshName": "MeaslesMcvDoseDoseLabelVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets.fsh",
+    "startLine": 40,
+    "endLine": 52
+  },
+  {
+    "outputFile": "ValueSet-MeaslesMcvDoseVaccineVS.json",
+    "fshName": "MeaslesMcvDoseVaccineVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets.fsh",
+    "startLine": 54,
+    "endLine": 65
+  },
+  {
+    "outputFile": "ValueSet-MeaslesNationalScheduleSettingVS.json",
+    "fshName": "MeaslesNationalScheduleSettingVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets.fsh",
+    "startLine": 15,
+    "endLine": 23
+  },
+  {
+    "outputFile": "ValueSet-MeaslesReasonNotVaccinatedVS.json",
+    "fshName": "MeaslesReasonNotVaccinatedVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets.fsh",
+    "startLine": 91,
+    "endLine": 103
+  },
+  {
+    "outputFile": "ValueSet-MeaslesScreeningOutcomeVS.json",
+    "fshName": "MeaslesScreeningOutcomeVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets.fsh",
+    "startLine": 79,
+    "endLine": 89
+  },
+  {
+    "outputFile": "ValueSet-MeaslesSexVS.json",
+    "fshName": "MeaslesSexVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets.fsh",
+    "startLine": 3,
+    "endLine": 13
+  },
+  {
+    "outputFile": "ValueSet-MeaslesSupplementaryDoseIndicationVS.json",
+    "fshName": "MeaslesSupplementaryDoseIndicationVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets.fsh",
+    "startLine": 25,
+    "endLine": 38
+  }
+]

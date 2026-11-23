@@ -1,0 +1,65 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "MCV dose: vaccine Schema API",
+    "description": "JSON Schema for MCV dose: vaccine ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-MeaslesMcvDoseVaccineVS.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-MeaslesMcvDoseVaccineVS",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-MeaslesMcvDoseVaccineVS.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-MeaslesMcvDoseVaccineVS",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-MeaslesMcvDoseVaccineVS.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-MeaslesMcvDoseVaccineVS": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/immunizations-measles/ValueSet-MeaslesMcvDoseVaccineVS.schema.json",
+        "title": "MCV dose: vaccine Schema",
+        "description": "JSON Schema for MCV dose: vaccine ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+        "type": "object",
+        "required": [
+          "system",
+          "code"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "system": {
+            "type": "string",
+            "const": "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts"
+          },
+          "code": {
+            "type": "string",
+            "enum": [
+              "MEASLES.DE.10.m",
+              "MEASLES.DE.10.mm",
+              "MEASLES.DE.10.mr",
+              "MEASLES.DE.10.mmr",
+              "MEASLES.DE.10.mmrv"
+            ]
+          }
+        },
+        "narrative": "This schema validates Coding-shaped objects for the MCV dose: vaccine ValueSet. Each value must be an object with 'system' (CodeSystem URI) and 'code' (fragment after '#') properties. Display values are available at http://smart.who.int/immunizations-measles/ValueSet-MeaslesMcvDoseVaccineVS.displays.json. The canonical IRI for a code can be reconstructed as system + '#' + code. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/immunizations-measles/ValueSet-MeaslesMcvDoseVaccineVS.displays.json",
+        "fhir:valueSet": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS",
+        "fhir:version": "0.1.0",
+        "fhir:expansionTimestamp": "2026-11-23T10:32:23+00:00"
+      }
+    }
+  }
+}

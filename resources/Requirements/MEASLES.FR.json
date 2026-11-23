@@ -1,0 +1,313 @@
+{
+  "resourceType" : "Basic",
+  "id" : "MEASLES.FR",
+  "meta" : {
+    "profile" : ["http://smart.who.int/base/StructureDefinition/SGRequirements"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Requirements MEASLES.FR</b></p><a name=\"MEASLES.FR\"> </a><a name=\"hcMEASLES.FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://smart.who.int/base/1.0.0/StructureDefinition-SGRequirements.html\">SMART Guidelines Requirements</a></p></div><table class=\"grid\"><tr><td><b><a name=\"MEASLES.FR.01\"> </a></b>MEASLES.FR.01</td><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>The system shall show a client's documented MCV doses with date and vaccine and how each counts (MCV0 MCV1 MCV2 invalid not counted)</p>\n</div></td></tr><tr><td><b><a name=\"MEASLES.FR.02\"> </a></b>MEASLES.FR.02</td><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>The system shall treat a client with no documented MCV dose as unvaccinated</p>\n</div></td></tr><tr><td><b><a name=\"MEASLES.FR.03\"> </a></b>MEASLES.FR.03</td><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>The system shall determine the MCV dose due today from age and valid doses and the national schedule setting</p>\n</div></td></tr><tr><td><b><a name=\"MEASLES.FR.04\"> </a></b>MEASLES.FR.04</td><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>The system shall not limit MCV1 or MCV2 to the target ages and shall offer missed doses at any contact</p>\n</div></td></tr><tr><td><b><a name=\"MEASLES.FR.05\"> </a></b>MEASLES.FR.05</td><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>The system shall record any MCV dose given before 9 months as MCV0 and keep MCV1 and MCV2 due</p>\n</div></td></tr><tr><td><b><a name=\"MEASLES.FR.06\"> </a></b>MEASLES.FR.06</td><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>The system shall never record a dose as MCV2 for a client without a valid MCV1</p>\n</div></td></tr><tr><td><b><a name=\"MEASLES.FR.07\"> </a></b>MEASLES.FR.07</td><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>The system shall prompt the screening questions (allergy to a component; severe immunosuppression; pregnancy; other live vaccine in the last 4 weeks) before vaccination</p>\n</div></td></tr><tr><td><b><a name=\"MEASLES.FR.08\"> </a></b>MEASLES.FR.08</td><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>The system shall record the reason a client was not vaccinated and the return date</p>\n</div></td></tr><tr><td><b><a name=\"MEASLES.FR.09\"> </a></b>MEASLES.FR.09</td><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>The system shall calculate the next MCV due date and print it for the home-based record</p>\n</div></td></tr><tr><td><b><a name=\"MEASLES.FR.10\"> </a></b>MEASLES.FR.10</td><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>The system shall flag the additional dose for an HIV-infected child on HAART</p>\n</div></td></tr><tr><td><b><a name=\"MEASLES.FR.11\"> </a></b>MEASLES.FR.11</td><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>The system shall list children overdue for MCV1 or MCV2 and zero-dose children each month</p>\n</div></td></tr><tr><td><b><a name=\"MEASLES.FR.12\"> </a></b>MEASLES.FR.12</td><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>The system shall compute IND.01 to IND.07 and produce the Joint Reporting Form measles rows</p>\n</div></td></tr><tr><td><b><a name=\"MEASLES.FR.13\"> </a></b>MEASLES.FR.13</td><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>The system shall record a health worker's proof of measles immunity or immunization</p>\n</div></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.url",
+    "valueUri" : "http://smart.who.int/immunizations-measles/Requirements/MEASLES.FR"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.version",
+    "valueString" : "0.1.0"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.name",
+    "valueString" : "MEASLESFunctionalRequirements"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.title",
+    "valueString" : "Measles functional requirements"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.status",
+    "valueCode" : "draft"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.experimental",
+    "valueBoolean" : true
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.date",
+    "valueDateTime" : "2026-11-23T10:30:20+00:00"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.publisher",
+    "valueString" : "WHO"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.contact",
+    "valueContactDetail" : {
+      "name" : "WHO",
+      "telecom" : [{
+        "system" : "url",
+        "value" : "http://who.int"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.description",
+    "valueMarkdown" : "What a digital system supporting MEASLES.A and MEASLES.B must do; L3 of the L2 requirements."
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.jurisdiction"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key",
+      "valueId" : "MEASLES.FR.01"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label",
+      "valueString" : "MEASLES.FR.01"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance",
+      "valueCode" : "SHALL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement",
+      "valueMarkdown" : "The system shall show a client's documented MCV doses with date and vaccine and how each counts (MCV0 MCV1 MCV2 invalid not counted)"
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key",
+      "valueId" : "MEASLES.FR.02"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label",
+      "valueString" : "MEASLES.FR.02"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance",
+      "valueCode" : "SHALL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement",
+      "valueMarkdown" : "The system shall treat a client with no documented MCV dose as unvaccinated"
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key",
+      "valueId" : "MEASLES.FR.03"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label",
+      "valueString" : "MEASLES.FR.03"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance",
+      "valueCode" : "SHALL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement",
+      "valueMarkdown" : "The system shall determine the MCV dose due today from age and valid doses and the national schedule setting"
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key",
+      "valueId" : "MEASLES.FR.04"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label",
+      "valueString" : "MEASLES.FR.04"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance",
+      "valueCode" : "SHALL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement",
+      "valueMarkdown" : "The system shall not limit MCV1 or MCV2 to the target ages and shall offer missed doses at any contact"
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key",
+      "valueId" : "MEASLES.FR.05"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label",
+      "valueString" : "MEASLES.FR.05"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance",
+      "valueCode" : "SHALL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement",
+      "valueMarkdown" : "The system shall record any MCV dose given before 9 months as MCV0 and keep MCV1 and MCV2 due"
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key",
+      "valueId" : "MEASLES.FR.06"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label",
+      "valueString" : "MEASLES.FR.06"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance",
+      "valueCode" : "SHALL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement",
+      "valueMarkdown" : "The system shall never record a dose as MCV2 for a client without a valid MCV1"
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key",
+      "valueId" : "MEASLES.FR.07"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label",
+      "valueString" : "MEASLES.FR.07"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance",
+      "valueCode" : "SHALL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement",
+      "valueMarkdown" : "The system shall prompt the screening questions (allergy to a component; severe immunosuppression; pregnancy; other live vaccine in the last 4 weeks) before vaccination"
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key",
+      "valueId" : "MEASLES.FR.08"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label",
+      "valueString" : "MEASLES.FR.08"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance",
+      "valueCode" : "SHALL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement",
+      "valueMarkdown" : "The system shall record the reason a client was not vaccinated and the return date"
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key",
+      "valueId" : "MEASLES.FR.09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label",
+      "valueString" : "MEASLES.FR.09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance",
+      "valueCode" : "SHALL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement",
+      "valueMarkdown" : "The system shall calculate the next MCV due date and print it for the home-based record"
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key",
+      "valueId" : "MEASLES.FR.10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label",
+      "valueString" : "MEASLES.FR.10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance",
+      "valueCode" : "SHALL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement",
+      "valueMarkdown" : "The system shall flag the additional dose for an HIV-infected child on HAART"
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key",
+      "valueId" : "MEASLES.FR.11"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label",
+      "valueString" : "MEASLES.FR.11"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance",
+      "valueCode" : "SHALL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement",
+      "valueMarkdown" : "The system shall list children overdue for MCV1 or MCV2 and zero-dose children each month"
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key",
+      "valueId" : "MEASLES.FR.12"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label",
+      "valueString" : "MEASLES.FR.12"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance",
+      "valueCode" : "SHALL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement",
+      "valueMarkdown" : "The system shall compute IND.01 to IND.07 and produce the Joint Reporting Form measles rows"
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key",
+      "valueId" : "MEASLES.FR.13"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label",
+      "valueString" : "MEASLES.FR.13"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance",
+      "valueCode" : "SHALL"
+    },
+    {
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement",
+      "valueMarkdown" : "The system shall record a health worker's proof of measles immunity or immunization"
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/fhir-types",
+      "code" : "Requirements"
+    }]
+  }
+}
