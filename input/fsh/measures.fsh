@@ -13,6 +13,9 @@ Usage: #definition
 * type = $library-type#logic-library
 * description = "CQL for the measles indicator Measures; L3 of input/indicators/measles-indicators.csv."
 * content.id = "ig-loader-MEASLESIndicators.cql"
+// Explicit narrative: the generated one fails to parse the CQL (Interval<DateTime>) and shows an error box.
+* text.status = #additional
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>CQL of the measles indicators MEASLES.IND.01, .02, .06 and .07, for the Measures; L3 of <code>input/indicators/measles-indicators.csv</code>. The CQL itself is this Library's content.</p></div>"
 
 RuleSet: MeaslesMeasure
 * status = #draft

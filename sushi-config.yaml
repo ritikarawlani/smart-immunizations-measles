@@ -17,6 +17,8 @@ publisher:
 
 dependencies:
   smart.who.int.base: 1.0.0
+  # FHIRHelpers 4.0.1, which input/cql/MEASLESIndicators.cql includes (as litlfred/smart-immunizations does).
+  fhir.cqf.common: 4.0.1
 
 parameters:
   # The IG Publisher attaches each Library's CQL (content.id ig-loader-<name>.cql) from here.

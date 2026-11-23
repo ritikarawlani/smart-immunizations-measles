@@ -11,6 +11,8 @@ Usage: #definition
 * type = $library-type#logic-library
 * description = "CQL of MEASLES.DT.04, rule for rule; derived from input/decision-logic/MEASLES.DT.04.dmn."
 * content.id = "ig-loader-MEASLESDT04.cql"
+* text.status = #additional
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>CQL of MEASLES.DT.04 Additional measles dose for a child living with HIV on HAART, rule for rule, derived from <code>input/decision-logic/MEASLES.DT.04.dmn</code> by <code>input/L3/dmn2cql.py</code>. The CQL itself is this Library's content.</p></div>"
 
 Instance: MEASLES.DT.04
 InstanceOf: $SGDecisionTable
