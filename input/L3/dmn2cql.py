@@ -85,7 +85,12 @@ def derive(dmn: Path):
          f'* name = "{lib}"', "* status = #draft", "* experimental = true", '* publisher = "WHO"', "* version = \"0.1.0\"",
          "* type = $library-type#logic-library",
          f'* description = "CQL of {did}, rule for rule; derived from {src}."',
-         f'* content.id = "ig-loader-{lib}.cql"', "",
+         f'* content.id = "ig-loader-{lib}.cql"',
+         # An explicit narrative: the Publisher's generated one embeds the CQL in a
+         # <code> block and fails to parse it on CQL's "<" ("Exception parsing
+         # generated Narrative"), so the page would show an error box instead.
+         "* text.status = #additional",
+         f'* text.div = "<div xmlns=\\"http://www.w3.org/1999/xhtml\\"><p>CQL of {did} {dec.get("name")}, rule for rule, derived from <code>{src}</code> by <code>input/L3/dmn2cql.py</code>. The CQL itself is this Library\'s content.</p></div>"', "",
          f"Instance: {did}", "InstanceOf: $SGDecisionTable", f'Title: "{did} {dec.get("name")}"', "Usage: #definition",
          f'* name = "{lib}PlanDefinition"', "* status = #draft", "* experimental = true", '* publisher = "WHO"', "* version = \"0.1.0\"",
          "* type = $plan-definition-type#eca-rule",
