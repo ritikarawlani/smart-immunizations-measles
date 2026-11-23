@@ -350,7 +350,9 @@
         "input/system-requirements/",
         "input/testing/",
         "input/L2/",
-        "input/L3/"
+        "input/L3/",
+        "qa/ig-content-qa.json",
+        "input/ignoreWarnings.txt"
       ]
     }
   }
