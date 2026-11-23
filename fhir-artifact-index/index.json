@@ -9,7 +9,7 @@
   "source": {
     "kind": "output",
     "of": ".",
-    "revision": "ff4311629a7d3b205b96d003323795e77c2a741b",
+    "revision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
     "readAt": "2026-11-23"
   },
   "provenance": {},
@@ -69,10 +69,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -128,10 +128,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -187,10 +187,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -246,10 +246,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -297,10 +297,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -344,10 +344,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -395,10 +395,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -446,10 +446,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -497,10 +497,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -548,10 +548,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -599,10 +599,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -650,10 +650,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -701,10 +701,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -752,10 +752,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -803,10 +803,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -854,10 +854,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -905,10 +905,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -956,10 +956,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -1007,10 +1007,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -1066,10 +1066,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -1114,10 +1114,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       },
       "sidecars": {
         "openapi": {
@@ -1177,32 +1177,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
-      },
-      "sidecars": {
-        "displays": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.displays.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.displays.json",
-          "bytes": 1849
-        },
-        "jsonld": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.jsonld",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.jsonld",
-          "bytes": 1107
-        },
-        "openapi": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.openapi.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.openapi.json",
-          "bytes": 3072
-        },
-        "schema": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.schema.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.schema.json",
-          "bytes": 1704
-        }
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -1250,32 +1228,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
-      },
-      "sidecars": {
-        "displays": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.displays.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.displays.json",
-          "bytes": 1779
-        },
-        "jsonld": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.jsonld",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.jsonld",
-          "bytes": 1104
-        },
-        "openapi": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.openapi.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.openapi.json",
-          "bytes": 2735
-        },
-        "schema": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.schema.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesHivStatusVS.schema.json",
-          "bytes": 1551
-        }
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -1323,32 +1279,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
-      },
-      "sidecars": {
-        "displays": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.displays.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.displays.json",
-          "bytes": 1901
-        },
-        "jsonld": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.jsonld",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.jsonld",
-          "bytes": 1236
-        },
-        "openapi": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.openapi.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.openapi.json",
-          "bytes": 2917
-        },
-        "schema": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.schema.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseDoseLabelVS.schema.json",
-          "bytes": 1659
-        }
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -1396,32 +1330,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
-      },
-      "sidecars": {
-        "displays": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.displays.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.displays.json",
-          "bytes": 1799
-        },
-        "jsonld": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.jsonld",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.jsonld",
-          "bytes": 1125
-        },
-        "openapi": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.openapi.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.openapi.json",
-          "bytes": 2827
-        },
-        "schema": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.schema.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesMcvDoseVaccineVS.schema.json",
-          "bytes": 1593
-        }
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -1469,32 +1381,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
-      },
-      "sidecars": {
-        "displays": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.displays.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.displays.json",
-          "bytes": 1685
-        },
-        "jsonld": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.jsonld",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.jsonld",
-          "bytes": 950
-        },
-        "openapi": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.openapi.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.openapi.json",
-          "bytes": 2856
-        },
-        "schema": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.schema.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesNationalScheduleSettingVS.schema.json",
-          "bytes": 1570
-        }
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -1542,32 +1432,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
-      },
-      "sidecars": {
-        "displays": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.displays.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.displays.json",
-          "bytes": 1981
-        },
-        "jsonld": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.jsonld",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.jsonld",
-          "bytes": 1314
-        },
-        "openapi": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.openapi.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.openapi.json",
-          "bytes": 2988
-        },
-        "schema": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.schema.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesReasonNotVaccinatedVS.schema.json",
-          "bytes": 1710
-        }
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -1615,32 +1483,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
-      },
-      "sidecars": {
-        "displays": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.displays.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.displays.json",
-          "bytes": 1803
-        },
-        "jsonld": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.jsonld",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.jsonld",
-          "bytes": 1114
-        },
-        "openapi": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.openapi.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.openapi.json",
-          "bytes": 2838
-        },
-        "schema": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.schema.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesScreeningOutcomeVS.schema.json",
-          "bytes": 1598
-        }
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -1688,32 +1534,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
-      },
-      "sidecars": {
-        "displays": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesSexVS.displays.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesSexVS.displays.json",
-          "bytes": 1723
-        },
-        "jsonld": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesSexVS.jsonld",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesSexVS.jsonld",
-          "bytes": 1062
-        },
-        "openapi": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesSexVS.openapi.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesSexVS.openapi.json",
-          "bytes": 2625
-        },
-        "schema": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesSexVS.schema.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesSexVS.schema.json",
-          "bytes": 1491
-        }
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     },
     {
@@ -1761,32 +1585,10 @@
         "purpose": "compiled",
         "inputs": {
           "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-          "sourceRevision": "ff4311629a7d3b205b96d003323795e77c2a741b",
-          "inputDigest": "9f7a35459301480c144ab499617121cd85f18306156e77196c6403af785ed878"
+          "sourceRevision": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+          "inputDigest": "8bc29e03d0a3fd227ebe2ccf7efa954366397fc4a583c7562d9b88a25e09087f"
         },
-        "materializedAt": "2026-11-23T10:32:55.262875113Z"
-      },
-      "sidecars": {
-        "displays": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.displays.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.displays.json",
-          "bytes": 2267
-        },
-        "jsonld": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.jsonld",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.jsonld",
-          "bytes": 1599
-        },
-        "openapi": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.openapi.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.openapi.json",
-          "bytes": 3244
-        },
-        "schema": {
-          "url": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.schema.json",
-          "localPath": "ig-api/sidecars/ValueSet-MeaslesSupplementaryDoseIndicationVS.schema.json",
-          "bytes": 1896
-        }
+        "materializedAt": "2026-11-23T11:03:40.497301355Z"
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "$schema" : "ig-ast-dependencies/v1",
   "authority" : "cache",
-  "edges" : 55,
-  "resolvedInIg" : 26,
+  "edges" : 65,
+  "resolvedInIg" : 28,
   "dependencies" : [{
     "source" : "ActorDefinition/MEASLES.P.Client",
     "kind" : "meta.profile",
@@ -103,6 +103,15 @@
     "origin" : "ast-export"
   },
   {
+    "source" : "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators|0.1.0",
+    "kind" : "relatedArtifact.depends-on",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+    "targetVersion" : null,
+    "resolved" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0",
+    "path" : "Library.relatedArtifact.resource",
+    "origin" : "ast-export"
+  },
+  {
     "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0",
     "kind" : "library",
     "target" : "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators",
@@ -118,6 +127,24 @@
     "targetVersion" : null,
     "resolved" : null,
     "path" : "Measure.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0",
+    "kind" : "relatedArtifact.depends-on",
+    "target" : "http://hl7.org/fhir/Library/FHIRHelpers",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : "Measure.contained.relatedArtifact.resource",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0",
+    "kind" : "relatedArtifact.depends-on",
+    "target" : "http://hl7.org/fhir/uv/cql/Library/FHIR-ModelInfo",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : "Measure.contained.relatedArtifact.resource",
     "origin" : "ast-export"
   },
   {
@@ -139,6 +166,24 @@
     "origin" : "ast-export"
   },
   {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0",
+    "kind" : "relatedArtifact.depends-on",
+    "target" : "http://hl7.org/fhir/Library/FHIRHelpers",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : "Measure.contained.relatedArtifact.resource",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0",
+    "kind" : "relatedArtifact.depends-on",
+    "target" : "http://hl7.org/fhir/uv/cql/Library/FHIR-ModelInfo",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : "Measure.contained.relatedArtifact.resource",
+    "origin" : "ast-export"
+  },
+  {
     "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0",
     "kind" : "library",
     "target" : "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators",
@@ -157,6 +202,24 @@
     "origin" : "ast-export"
   },
   {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0",
+    "kind" : "relatedArtifact.depends-on",
+    "target" : "http://hl7.org/fhir/Library/FHIRHelpers",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : "Measure.contained.relatedArtifact.resource",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0",
+    "kind" : "relatedArtifact.depends-on",
+    "target" : "http://hl7.org/fhir/uv/cql/Library/FHIR-ModelInfo",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : "Measure.contained.relatedArtifact.resource",
+    "origin" : "ast-export"
+  },
+  {
     "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0",
     "kind" : "library",
     "target" : "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators",
@@ -172,6 +235,33 @@
     "targetVersion" : null,
     "resolved" : null,
     "path" : "Measure.meta.profile",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0",
+    "kind" : "relatedArtifact.depends-on",
+    "target" : "http://hl7.org/fhir/Library/FHIRHelpers",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : "Measure.contained.relatedArtifact.resource",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0",
+    "kind" : "relatedArtifact.depends-on",
+    "target" : "http://hl7.org/fhir/uv/cql/Library/FHIR-ModelInfo",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : "Measure.contained.relatedArtifact.resource",
+    "origin" : "ast-export"
+  },
+  {
+    "source" : "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0",
+    "kind" : "relatedArtifact.depends-on",
+    "target" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts",
+    "targetVersion" : null,
+    "resolved" : "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0",
+    "path" : "Measure.contained.relatedArtifact.resource",
     "origin" : "ast-export"
   },
   {

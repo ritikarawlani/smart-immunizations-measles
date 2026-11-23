@@ -322,6 +322,70 @@
       "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.immunizations-measles.json",
       "resources" : ["http://smart.who.int/immunizations-measles/ImplementationGuide/smart.who.int.immunizations-measles|0.1.0"]
     },
+    "Library-MEASLES.DT.01_effective-data-requirements-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "Library-MEASLES.DT.01_effective-data-requirements-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"]
+    },
+    "Library-MEASLES.DT.02_effective-data-requirements-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "Library-MEASLES.DT.02_effective-data-requirements-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"]
+    },
+    "Library-MEASLES.DT.03_effective-data-requirements-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "Library-MEASLES.DT.03_effective-data-requirements-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"]
+    },
+    "Library-MEASLES.DT.04_effective-data-requirements-history.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "Library-MEASLES.DT.04_effective-data-requirements-html.xhtml" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"]
+    },
+    "Library-MEASLES.IND.01_effective-data-requirements-history.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Library-MEASLES.IND.01_effective-data-requirements-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"]
+    },
+    "Library-MEASLES.IND.02_effective-data-requirements-history.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Library-MEASLES.IND.02_effective-data-requirements-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"]
+    },
+    "Library-MEASLES.IND.06_effective-data-requirements-history.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Library-MEASLES.IND.06_effective-data-requirements-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"]
+    },
+    "Library-MEASLES.IND.07_effective-data-requirements-history.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
+    "Library-MEASLES.IND.07_effective-data-requirements-html.xhtml" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"]
+    },
     "Library-MEASLESDT01-contained-index.xhtml" : {
       "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
       "resources" : ["http://smart.who.int/immunizations-measles/Library/MEASLESDT01|0.1.0"]
@@ -2304,6 +2368,110 @@
       "source" : "fsh-generated/resources/CodeSystem-MeaslesConcepts.json",
       "resources" : ["http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts|0.1.0"],
       "fragments" : ["CodeSystem-MeaslesConcepts-xml-html.xhtml", "menu.xml"]
+    },
+    "Library-MEASLES.DT.01_effective-data-requirements-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"],
+      "fragments" : ["Library-MEASLES.DT.01_effective-data-requirements-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.DT.01_effective-data-requirements.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01|0.1.0"],
+      "fragments" : ["Library-MEASLES.DT.01_effective-data-requirements-history.xhtml",
+      "Library-MEASLES.DT.01_effective-data-requirements-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.DT.02_effective-data-requirements-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"],
+      "fragments" : ["Library-MEASLES.DT.02_effective-data-requirements-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.DT.02_effective-data-requirements.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02|0.1.0"],
+      "fragments" : ["Library-MEASLES.DT.02_effective-data-requirements-history.xhtml",
+      "Library-MEASLES.DT.02_effective-data-requirements-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.DT.03_effective-data-requirements-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"],
+      "fragments" : ["Library-MEASLES.DT.03_effective-data-requirements-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.DT.03_effective-data-requirements.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.03.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03|0.1.0"],
+      "fragments" : ["Library-MEASLES.DT.03_effective-data-requirements-history.xhtml",
+      "Library-MEASLES.DT.03_effective-data-requirements-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.DT.04_effective-data-requirements-testing.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"],
+      "fragments" : ["Library-MEASLES.DT.04_effective-data-requirements-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.DT.04_effective-data-requirements.html" : {
+      "source" : "fsh-generated/resources/PlanDefinition-MEASLES.DT.04.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04|0.1.0"],
+      "fragments" : ["Library-MEASLES.DT.04_effective-data-requirements-history.xhtml",
+      "Library-MEASLES.DT.04_effective-data-requirements-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.IND.01_effective-data-requirements-testing.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"],
+      "fragments" : ["Library-MEASLES.IND.01_effective-data-requirements-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.IND.01_effective-data-requirements.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.01.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01|0.1.0"],
+      "fragments" : ["Library-MEASLES.IND.01_effective-data-requirements-history.xhtml",
+      "Library-MEASLES.IND.01_effective-data-requirements-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.IND.02_effective-data-requirements-testing.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"],
+      "fragments" : ["Library-MEASLES.IND.02_effective-data-requirements-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.IND.02_effective-data-requirements.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.02.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02|0.1.0"],
+      "fragments" : ["Library-MEASLES.IND.02_effective-data-requirements-history.xhtml",
+      "Library-MEASLES.IND.02_effective-data-requirements-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.IND.06_effective-data-requirements-testing.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"],
+      "fragments" : ["Library-MEASLES.IND.06_effective-data-requirements-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.IND.06_effective-data-requirements.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.06.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06|0.1.0"],
+      "fragments" : ["Library-MEASLES.IND.06_effective-data-requirements-history.xhtml",
+      "Library-MEASLES.IND.06_effective-data-requirements-html.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.IND.07_effective-data-requirements-testing.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"],
+      "fragments" : ["Library-MEASLES.IND.07_effective-data-requirements-history.xhtml",
+      "menu.xml"]
+    },
+    "Library-MEASLES.IND.07_effective-data-requirements.html" : {
+      "source" : "fsh-generated/resources/Measure-MEASLES.IND.07.json",
+      "resources" : ["http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07|0.1.0"],
+      "fragments" : ["Library-MEASLES.IND.07_effective-data-requirements-history.xhtml",
+      "Library-MEASLES.IND.07_effective-data-requirements-html.xhtml",
+      "menu.xml"]
     },
     "Library-MEASLESDT01-testing.html" : {
       "source" : "fsh-generated/resources/Library-MEASLESDT01.json",
