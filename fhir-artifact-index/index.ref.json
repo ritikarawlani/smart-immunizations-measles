@@ -1,0 +1,7 @@
+{
+  "$schema": "fhir-artifact-index-ref/v1",
+  "index": "https://raw.githubusercontent.com/ritikarawlani/smart-immunizations-measles/c05a81e490c8dcfd5676880208fa0cb2a79312cc/fhir-artifact-index/index.json",
+  "base": "https://raw.githubusercontent.com/ritikarawlani/smart-immunizations-measles/c05a81e490c8dcfd5676880208fa0cb2a79312cc/",
+  "repository": "ritikarawlani/smart-immunizations-measles",
+  "commit": "c05a81e490c8dcfd5676880208fa0cb2a79312cc"
+}

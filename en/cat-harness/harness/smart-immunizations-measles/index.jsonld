@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@id": "https://ritikarawlani.github.io/smart-immunizations-measles/en/cat-harness/harness/smart-immunizations-measles/",
+  "url": "https://ritikarawlani.github.io/smart-immunizations-measles/en/cat-harness/harness/smart-immunizations-measles/",
+  "@type": "WebPage",
+  "name": "SMART Immunizations — Measles on SMART Immunizations — Measles",
+  "about": {
+    "@id": "https://ritikarawlani.github.io/smart-immunizations-measles/",
+    "@type": "SoftwareSourceCode",
+    "identifier": "smart-immunizations-measles",
+    "name": "SMART Immunizations — Measles",
+    "description": "A measles immunization SMART Guideline: the L1 sources attached to issue #1 ingested into `library/`, the measles recommendations extracted from them, the L2 DAK authored from those recommendations, and the L3 FHIR IG derived from the DAK. A layer on smart-base, mounted through `index.config.json`.",
+    "version": "0.1.0",
+    "codeRepository": "https://github.com/ritikarawlani/smart-immunizations-measles",
+    "isBasedOn": [
+      {
+        "@id": "https://litlfred.github.io/smart-base/"
+      }
+    ]
+  },
+  "isPartOf": {
+    "@id": "https://ritikarawlani.github.io/smart-immunizations-measles/",
+    "name": "SMART Immunizations — Measles"
+  },
+  "significantLink": [
+    "https://github.com/ritikarawlani/smart-immunizations-measles/tree/1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9",
+    "https://github.com/ritikarawlani/smart-immunizations-measles/blob/1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9/README.md",
+    "https://github.com/ritikarawlani/smart-immunizations-measles/blob/1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9/AGENTS.md"
+  ]
+}

@@ -1,0 +1,994 @@
+<!doctype html>
+<html lang="en">
+<head><meta name="fa-shared-asset" data-dir="assets/vendor/crepe/" content="https://litlfred.github.io/smart-html-jtd/shared/assets/vendor/crepe/bbe613e43166c241/">
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>library/leave-no-one-behind-catch-up-vaccination-9789240016514/footnotes — folio-document-footnotes/v1</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1b1b1b; --bg:#fdfdfb; --muted:#5b5b5b; --line:#d6d6d0; --link:#0b5cad; --panel:#f3f4f2; }
+  @media (prefers-color-scheme: dark) { :root:not([data-fa-scheme="light"]) { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; } }
+  :root[data-fa-scheme="dark"] { --fg:#e8e8e6; --bg:#161616; --muted:#a8a8a4; --line:#3a3a38; --link:#7db4ff; --panel:#1f2124; }
+  :root[data-fa-scheme="light"] { color-scheme: light; } :root[data-fa-scheme="dark"] { color-scheme: dark; }
+  body { margin:0; font:1rem/1.5 system-ui,sans-serif; color:var(--fg); background:var(--bg); }
+  main { max-width:80rem; margin:0 auto; padding:1.5rem 1.5rem 4rem; min-width:0; overflow-wrap:anywhere; }
+  h1 { font-size:1.35rem; margin:0 0 .25rem; } h2 { font-size:1.05rem; margin:1.5rem 0 .5rem; }
+  a { color:var(--link); } a:focus-visible, select:focus-visible { outline:3px solid var(--link); outline-offset:2px; }
+  .m { color:var(--muted); font-size:.9rem; }
+  .tiles { display:flex; flex-wrap:wrap; gap:.5rem; margin:.5rem 0; padding:0; list-style:none; }
+  .tiles li { border:1px solid var(--line); border-radius:.4rem; padding:.35rem .7rem; }
+  .tiles b { font-size:1.2rem; margin-right:.3rem; }
+  .clip { width:100%; overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { text-align:left; vertical-align:top; padding:.35rem .5rem; border-bottom:1px solid var(--line); }
+  th { background:var(--panel); white-space:nowrap; }
+  /* Only the node's path and long text may break mid-word; a status or a date
+     broken across lines ("in_pr ogres s") is unreadable. */
+  td { overflow-wrap:normal; } td.p, td.t { overflow-wrap:anywhere; } td.s { white-space:nowrap; }
+  dl { display:grid; grid-template-columns:minmax(8rem,14rem) 1fr; gap:.25rem 1rem; }
+  dt { font-weight:600; } dd { margin:0; }
+  pre { background:var(--panel); padding:.75rem; overflow-x:auto; font-size:.85rem; }
+  label { margin-right:1rem; }
+  @media (max-width:40rem) { dl { grid-template-columns:1fr; } }
+</style>
+<link rel="stylesheet" href="../../../../../../../../assets/css/navbar.css"><script src="../../../../../../../../assets/navbar/rail-21mnubphyef.js" defer></script><script src="../../../../../../../../assets/js/navbar.js" defer></script><style data-folio-narrow-viewport>
+/* Narrow viewports: nothing may widen the PAGE — bean `2r2n`.
+ *
+ * At 390 px, 105 of 249 built pages scrolled sideways (measured 2026-09-24).
+ * The rule here is the bean's: wide content scrolls INSIDE ITS OWN BOX with a
+ * visible cue, and the page itself never pans.
+ *
+ * ONE FILE, TWO WAYS IN. Themed pages link it from `_includes/head_custom.html`.
+ * The standalone viewer pages carry no theme stylesheet at all, so
+ * `withViewerNav` in `scripts/viewer-page.ts` inlines this same file when it
+ * adds the rail. A copy of these rules in each place would be two answers to
+ * "what does a table do at 390 px", free to drift apart.
+ *
+ * Every selector here is written to be safe on both kinds of page: no
+ * `.main-content` scope (a standalone page has none), the navbar excluded by
+ * name, and the theme's own `.table-wrapper` left alone, since it already does
+ * this job for Markdown tables. */
+
+@media (max-width: 799.98px) {
+  /* A table the theme did not wrap: raw HTML from a generator, or one built at
+   * runtime. `display: block` makes the table its own scroll box. Its cells
+   * still lay out as a table inside the anonymous table box. */
+  table:not(.table-wrapper > table):not(.fa-nav table) {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* THE CUE: the edge that has more content past it fades out. The fade is a
+   * MASK over the table's own pixels, driven by its own scroll position, so
+   * it needs no knowledge of the page's background. A painted cover (the
+   * usual `background-attachment: local` trick) does: the first version used
+   * `Canvas`, and on a page that is dark under a LIGHT scheme it laid a white
+   * band over the first column.
+   *
+   * A table that does not overflow has an inactive scroll timeline, so the
+   * animation has no effect and both fades stay at their initial 0: no cue
+   * where there is nothing to scroll to. A browser without scroll-driven
+   * animations shows no fade, and the table still scrolls. */
+  @supports (animation-timeline: scroll()) {
+    table:not(.table-wrapper > table):not(.fa-nav table) {
+      mask-image: linear-gradient(to right,
+        transparent 0, #000 var(--fa-cue-l),
+        #000 calc(100% - var(--fa-cue-r)), transparent 100%);
+      animation: fa-scroll-cue linear both;
+      animation-timeline: scroll(self inline);
+    }
+  }
+
+  /* A code block scrolls in its own box, which is what `pre` is for. Mermaid
+   * SOURCE sits in a `pre` until the renderer replaces it, and at 390 px a
+   * diagram's source line is longer than the screen. */
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Prose that has no break opportunity: a long path in inline code, or a
+   * glossary definition naming one. Breaking the string is better than
+   * widening the page it sits on. */
+  :not(pre) > code,
+  dd {
+    overflow-wrap: anywhere;
+  }
+}
+
+@property --fa-cue-l { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fa-cue-r { syntax: "<length>"; inherits: false; initial-value: 0px; }
+
+@keyframes fa-scroll-cue {
+  0%   { --fa-cue-l: 0px;    --fa-cue-r: 2.5rem; }
+  12%  { --fa-cue-l: 2.5rem; }
+  88%  { --fa-cue-r: 2.5rem; }
+  100% { --fa-cue-l: 2.5rem; --fa-cue-r: 0px; }
+}
+
+</style>
+<script type="application/json" id="fa-translation-meta">{"lang":"en","translationStatus":"","translationSource":"","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":[]}</script><link rel="stylesheet" href="../../../../../../../../assets/page-layout.css" data-fa-page-layout><script src="../../../../../../../../assets/page-layout.js" defer data-fa-page-layout></script><script src="../../../../../../../../assets/draft-banner.js" defer data-fa-page-layout></script><noscript data-fa-draft-noscript><link rel="stylesheet" href="../../../../../../../../assets/draft-banner-noscript.css"></noscript><link rel="stylesheet" href="../../../../../../../../assets/ig-artifact.css"><style data-ig-version-chrome>.ig-topbar-head{flex:0 0 100%;display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .9rem}.ig-topbar-head .ig-topbar-home{flex:none}.ig-topbar-ver{font-weight:400;font-size:.9em;opacity:.95;white-space:nowrap}.ig-topbar-flag{font-size:1.1em}.ig-version-banner{box-sizing:border-box;margin:0;padding:.5rem 1.5rem;background:#ffffa0;color:#222;border-bottom:1px solid #0a0008;font-size:.95rem;line-height:1.45}.ig-version-banner a{color:#1a4b8c;text-decoration:underline}html:not([data-fa-scheme="light"]) .ig-version-banner{background:#4a4520;color:#fff8d0;border-color:#8a7d2a}html:not([data-fa-scheme="light"]) .ig-version-banner a{color:#ffe680}.ig-metadata{border-collapse:collapse;margin:0 0 1rem;font-size:.95rem}.ig-metadata td{border:1px solid #c8c8c8;padding:.25rem .6rem;vertical-align:top}.ig-metadata code{overflow-wrap:anywhere}</style></head>
+<body data-fa-node-kind-page>
+<header class="ig-search-top fa-page-bar"><a class="ig-search-home" href="../../../../../../../../index.html">SMART Immunizations — Measles</a><span class="ig-topbar-ver">0.1.0 - ci-build</span><form class="ig-search" role="search" data-ig-search-index="../../../../../../../../assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Immunizations — Measles</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span></header><p class="ig-version-banner" role="note">This page is part of the <a href="../../../../../../../../index.html">SMART Immunizations — Measles</a> (v0.1.0: ci-build) based on <a href="http://hl7.org/fhir/R4/">FHIR (HL7® FHIR® Standard) v4.0.1</a>. This is the continuous integration build: it follows the source and is not a published version. For a full list of available versions, see the <a href="http://smart.who.int/immunizations-measles/history.html">Directory of published versions</a>.</p><script type="application/json" id="fa-rail" data-fa-root="../../../../../../../.." data-fa-to-root="../../../../../../../..">{"data":"rail-21mnubphyef","here":"/en/cat-harness-tools/folio-document-footnotes/v1/smart-immunizations-measles/library/leave-no-one-behind-catch-up-vaccination-9789240016514/footnotes/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../../../../../">folio-assistant</a></nav>
+<main>
+<h1 id="nk-title">library/leave-no-one-behind-catch-up-vaccination-9789240016514/footnotes</h1>
+<p class="m">A <a href="../../../../">folio-document-footnotes/v1</a> node held by <a href="../../../">smart-immunizations-measles</a>, at <code>library/leave-no-one-behind-catch-up-vaccination-9789240016514/footnotes.json</code>.</p>
+
+<h2 id="fields">Fields</h2>
+<dl>
+<dt>$schema</dt><dd>folio-document-footnotes/v1</dd>
+<dt>entry</dt><dd>leave-no-one-behind-catch-up-vaccination-9789240016514</dd>
+<dt>status</dt><dd>determined</dd>
+<dt>body_size</dt><dd>11</dd>
+<dt>footnotes</dt><dd><pre>[
+  {
+    &quot;id&quot;: &quot;fn-p008-1&quot;,
+    &quot;page&quot;: 8,
+    &quot;mark&quot;: &quot;1&quot;,
+    &quot;text&quot;: &quot;https://www.who.int/immunization/sage/FEASIBILITY_FULL_TEXT_y09_final_draft.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 8,
+        &quot;context&quot;: &quot; used for measles elimination in the Region of the Americas.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-001&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p009-1&quot;,
+    &quot;page&quot;: 9,
+    &quot;mark&quot;: &quot;2&quot;,
+    &quot;text&quot;: &quot;See WHO/UNICEF Guidance note on Criteria to determine if a given vaccination is a routine or supplemental dose: https://cdn.who.int/media/docs/default-source/immunization/who-unicef-guidance_note_on_vaccination_doses_2011.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 9,
+        &quot;context&quot;: &quot;as part of the administrative routine immunization coverage.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-002&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p011-1&quot;,
+    &quot;page&quot;: 11,
+    &quot;mark&quot;: &quot;3&quot;,
+    &quot;text&quot;: &quot;For example, rotavirus vaccine is not recommended &gt;24 months, Haemophilus influenza type b (Hib) is not recommended &gt;5 years as there is limited benefit beyond these ages due to disease epidemiology; DTP-containing vaccines should only be given with Td and aP if &gt;7 years. For all WHO recommendations for routine immunization and ages of eligibility, see WHO position paper Summary Tables, available at: https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who- recommendations-for-routine-immunization---summary-tables&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 11,
+        &quot;context&quot;: &quot;cines for which upper age limits do apply for administration&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-003&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p011-2&quot;,
+    &quot;page&quot;: 11,
+    &quot;mark&quot;: &quot;4&quot;,
+    &quot;text&quot;: &quot;See WHO. Missed Opportunities for Vaccination (MOV) Strategy, at: https://www.who.int/fr/teams/immunization-vaccines- and-biologicals/essential-programme-on-immunization/implementation/reducing-missed-opportunities-for-vaccination-(mov)&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 11,
+        &quot;context&quot;: &quot;vaccination&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-003&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p012-1&quot;,
+    &quot;page&quot;: 12,
+    &quot;mark&quot;: &quot;5&quot;,
+    &quot;text&quot;: &quot;WHO Summary Table 3: Recommendations for Interrupted or Delayed Immunization. Last updated April 2019. Available at: https://www.who.int/publications/m/item/table-3-who-recommendations-for-routine-immunization&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 12,
+        &quot;context&quot;: &quot;commendations from WHO vaccine position papers in one place.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-005&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p012-2&quot;,
+    &quot;page&quot;: 12,
+    &quot;mark&quot;: &quot;6&quot;,
+    &quot;text&quot;: &quot;All WHO summary tables, along with the User’s Guide are available in English and French, at: https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine- immunization---summary-tables&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 12,
+        &quot;context&quot;: &quot;cy and decision-makers. A User’s Guide to the Summary Tables&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-005&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p013-1&quot;,
+    &quot;page&quot;: 13,
+    &quot;mark&quot;: &quot;7&quot;,
+    &quot;text&quot;: &quot;Moro PL, Arana J, Marquez PL, et al. Is there any harm in administering extra-doses of vaccine to a person? Excess doses of vaccine reported to the Vaccine Adverse Event Reporting System (VAERS), 2007-2017. Vaccine. 2019;37(28):3730-3734. doi:10.1016/j.vaccine.2019.04.088.&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 13,
+        &quot;context&quot;: &quot;have been previously vaccinated.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-006&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p013-2&quot;,
+    &quot;page&quot;: 13,
+    &quot;mark&quot;: &quot;8&quot;,
+    &quot;text&quot;: &quot;The updated Effective Vaccine Management tool (EVM2.0) includes a targeted assessment function for this purpose. See https://extranet.who.int/evm2/web&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 13,
+        &quot;context&quot;: &quot;n (iSC) system performance to identify and address any gaps.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-006&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p014-1&quot;,
+    &quot;page&quot;: 14,
+    &quot;mark&quot;: &quot;9&quot;,
+    &quot;text&quot;: &quot;WHO Policy Statement: Multi-dose vial policy (MDVP), Revision 2014. https://apps.who.int/iris/bitstream/handle/10665/135972/WHO_IVB_14.07_eng.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 14,
+        &quot;context&quot;: &quot;vaccines that must be discarded within six hours&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-007&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p014-2&quot;,
+    &quot;page&quot;: 14,
+    &quot;mark&quot;: &quot;10&quot;,
+    &quot;text&quot;: &quot;https://www.smtplatform.org/; https://www.unicef.org/supply/introducing-vaccine-stock-management-tool-smt&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 14,
+        &quot;context&quot;: &quot;Management Tool (SMT)&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-007&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p014-3&quot;,
+    &quot;page&quot;: 14,
+    &quot;mark&quot;: &quot;11&quot;,
+    &quot;text&quot;: &quot;Web VSSM can be downloaded here: http://www.wvssm-demo.com/download/; job aid (PAHO) available here: https://www.paho.org/hq/dmdocuments/2013/IM-JobAids-2010-12eng.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 14,
+        &quot;context&quot;: &quot;, web-based Vaccine Stock and Supply Management tool (wVSSM)&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-007&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p014-4&quot;,
+    &quot;page&quot;: 14,
+    &quot;mark&quot;: &quot;12&quot;,
+    &quot;text&quot;: &quot;https://www.who.int/publications/m/item/vaccine-wastage-rates-calculator&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 14,
+        &quot;context&quot;: &quot;WHO Vaccine Wastage Rates Calculator&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-007&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p015-1&quot;,
+    &quot;page&quot;: 15,
+    &quot;mark&quot;: &quot;13&quot;,
+    &quot;text&quot;: &quot;See also WHO Establishing and strengthening immunization in the second year of life: practices for vaccination beyond infancy for training resources for health workers on catch-up vaccination. https://www.who.int/publications/i/item/9789241513678&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 15,
+        &quot;context&quot;: &quot;tools for assisting health workers are found in Annexes 2-4.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p016-1&quot;,
+    &quot;page&quot;: 16,
+    &quot;mark&quot;: &quot;16&quot;,
+    &quot;text&quot;: &quot;There are a few exceptions to this general principle: Some vaccines lacking long duration protection (such as cholera and typhoid vaccines) require restarting the series if a certain amount of time has passed since the last dose. Refer to WHO Summary Tables for details.&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 16,
+        &quot;context&quot;: &quot;vaccine series.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p016-2&quot;,
+    &quot;page&quot;: 16,
+    &quot;mark&quot;: &quot;17&quot;,
+    &quot;text&quot;: &quot;WHO. Immunization in Practice: a practical guide for health staff – 2015 update. https://apps.who.int/iris/bitstream/handle/10665/193412/9789241549097_eng.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 16,
+        &quot;context&quot;: &quot;2.5 cm.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p017-1&quot;,
+    &quot;page&quot;: 17,
+    &quot;mark&quot;: &quot;18&quot;,
+    &quot;text&quot;: &quot;Opel et al., The Architecture of Provider-Parent Vaccine Discussions at Health Supervision Visits. Pediatrics. 2013 Dec; 132(6): 1037–1046. doi: 10.1542/peds.2013-2037&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 17,
+        &quot;context&quot;: &quot;take place (e.g. “we will have to give some vaccines today”)&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p017-4&quot;,
+    &quot;page&quot;: 17,
+    &quot;mark&quot;: &quot;21&quot;,
+    &quot;text&quot;: &quot;WHO Guidance Note: Vaccine Diluents – Revision 2015. The proper handling and use of vaccine diluents. https://apps.who.int/iris/bitstream/handle/10665/192741/WHO_IVB_15.08_eng.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 17,
+        &quot;context&quot;: &quot;r the specific vaccine and presentation should ever be used.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p019-1&quot;,
+    &quot;page&quot;: 19,
+    &quot;mark&quot;: &quot;22&quot;,
+    &quot;text&quot;: &quot;Both “timely coverage” (vaccines given within the recommended age range) and “total coverage” are useful data points, but for programmes truly interested in monitoring timeliness, coverage surveys offer a more nuanced picture than administrative systems, provided a high proportion of home-based records with vaccination dates are available.&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 19,
+        &quot;context&quot;: &quot;ls, as well as the way administrative coverage is calculated&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p020-1&quot;,
+    &quot;page&quot;: 20,
+    &quot;mark&quot;: &quot;23&quot;,
+    &quot;text&quot;: &quot;Available at: https://www.technet-21.org/en/library/main/6634-who-handbook-on-the-use,-collection,-and-improvement- of-immunization-data&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 20,
+        &quot;context&quot;: &quot;on the use, collection, and improvement of immunization data&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-009&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p020-2&quot;,
+    &quot;page&quot;: 20,
+    &quot;mark&quot;: &quot;24&quot;,
+    &quot;text&quot;: &quot;Available at: https://apps.who.int/iris/bitstream/handle/10665/260556/9789241513678-eng.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 20,
+        &quot;context&quot;: &quot;beyond infancy&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-009&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p021-1&quot;,
+    &quot;page&quot;: 21,
+    &quot;mark&quot;: &quot;25&quot;,
+    &quot;text&quot;: &quot;Available at: https://apps.who.int/iris/bitstream/handle/10665/330101/9789241516310-eng.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 21,
+        &quot;context&quot;: &quot;Opportunities for Vaccination&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-009&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p021-2&quot;,
+    &quot;page&quot;: 21,
+    &quot;mark&quot;: &quot;26&quot;,
+    &quot;text&quot;: &quot;Available at: https://apps.who.int/iris/bitstream/handle/10665/175905/WHO_IVB_15.05_eng.pdf; and https://apps.who.int/iris/bitstream/handle/10665/274277/9789241550352-eng.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 21,
+        &quot;context&quot;: &quot;Records.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-009&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p023-1&quot;,
+    &quot;page&quot;: 23,
+    &quot;mark&quot;: &quot;27&quot;,
+    &quot;text&quot;: &quot;See more on the WHO Missed Opportunities for Vaccination (MOV) Strategy, at: https://www.who.int/teams/immunization- vaccines-and-biologicals/essential-programme-on-immunization/implementation/reducing-missed-opportunities-for- vaccination-(mov)&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 23,
+        &quot;context&quot;: &quot; principle for reducing missed opportunities for vaccination&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p023-2&quot;,
+    &quot;page&quot;: 23,
+    &quot;mark&quot;: &quot;28&quot;,
+    &quot;text&quot;: &quot;See WHO. Working Together: An integration resource guide for planning and strengthening immunization services throughout the life course, available at: https://apps.who.int/iris/bitstream/handle/10665/276546/9789241514736-eng.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 23,
+        &quot;context&quot;: &quot;with other health delivery platforms across the life-course.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p023-3&quot;,
+    &quot;page&quot;: 23,
+    &quot;mark&quot;: &quot;29&quot;,
+    &quot;text&quot;: &quot;See WHO/UNICEF Guidance note on Criteria to determine if a given vaccination is a routine or supplemental dose: https://cdn.who.int/media/docs/default-source/immunization/who-unicef-guidance_note_on_vaccination_doses_2011.pdf. Also Annex 6 for a comparison of the characteristics of PIRI vs SIAs.&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 23,
+        &quot;context&quot;: &quot;home-based record.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p024-1&quot;,
+    &quot;page&quot;: 24,
+    &quot;mark&quot;: &quot;30&quot;,
+    &quot;text&quot;: &quot;Available at: https://www.mchip.net/sites/default/files/PIRI%20monograph_Feb09_0.PDF&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 24,
+        &quot;context&quot;: &quot;implications for action.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p024-2&quot;,
+    &quot;page&quot;: 24,
+    &quot;mark&quot;: &quot;31&quot;,
+    &quot;text&quot;: &quot;For more information on checking vaccination status at entry to, or during school, including considerations for implementation and country case studies, see: https://www.who.int/teams/immunization-vaccines-and-biologicals/essential- programme-on-immunization/integration/school-vaccination&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 24,
+        &quot;context&quot;: &quot;School vaccination checks&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p024-3&quot;,
+    &quot;page&quot;: 24,
+    &quot;mark&quot;: &quot;32&quot;,
+    &quot;text&quot;: &quot;WHO has developed a School Vaccination Readiness Assessment Tool that can be adapted for this purpose, available at: https://www.who.int/publications/i/item/school-vaccination-readiness-assessment-tool&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 24,
+        &quot;context&quot;: &quot;capacity of their school and health systems&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p025-1&quot;,
+    &quot;page&quot;: 25,
+    &quot;mark&quot;: &quot;33&quot;,
+    &quot;text&quot;: &quot;For example, evidence showed a 25% decline in measles vaccine coverage in both Liberia and Guinea during the 2014-2015 Ebola outbreak in West Africa. See: Masresha BG, et al. The impact of a prolonged ebola outbreak on measles elimination activities in Guinea, Liberia and Sierra Leone, 2014-2015. Pan African Medical Journal. 2020;35(1):8.&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 25,
+        &quot;context&quot;: &quot;overburdened.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p026-1&quot;,
+    &quot;page&quot;: 26,
+    &quot;mark&quot;: &quot;34&quot;,
+    &quot;text&quot;: &quot;WHO Policy Statement: Multi-dose vial policy (MDVP), Revision 2014, available at: https://apps.who.int/iris/bitstream/handle/10665/135972/WHO_IVB_14.07_eng.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 26,
+        &quot;context&quot;: &quot;oAdopt multi-dose vial policy&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-013&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p026-2&quot;,
+    &quot;page&quot;: 26,
+    &quot;mark&quot;: &quot;35&quot;,
+    &quot;text&quot;: &quot;See Acceptance of available traditional vaccine supply with reduced shelf-life. WHO-UNICEF Interim guidance. 1 March 2021. https://www.who.int/publications/i/item/acceptance-of-available-traditional-vaccine-supply-with-reduced-shelf-life&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 26,
+        &quot;context&quot;: &quot;first out” (FEFO) principle.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-013&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p026-3&quot;,
+    &quot;page&quot;: 26,
+    &quot;mark&quot;: &quot;36&quot;,
+    &quot;text&quot;: &quot;https://www.who.int/teams/immunization-vaccines-and-biologicals/essential-programme-on-immunization/supply- chain/controlled-temperature-chain-(ctc)&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 26,
+        &quot;context&quot;: &quot;conditions.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-013&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p028-1&quot;,
+    &quot;page&quot;: 28,
+    &quot;mark&quot;: &quot;37&quot;,
+    &quot;text&quot;: &quot;Available at: https://www.euro.who.int/__data/assets/pdf_file/0004/329647/Vaccines-and-trust.PDF&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 28,
+        &quot;context&quot;: &quot;ing/following crises, see WHO guidance on Vaccine and trust.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-015&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p029-1&quot;,
+    &quot;page&quot;: 29,
+    &quot;mark&quot;: &quot;38&quot;,
+    &quot;text&quot;: &quot;Available at: https://apps.who.int/iris/bitstream/handle/10665/255575/WHO-IVB-17.03-eng.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 29,
+        &quot;context&quot;: &quot;Decision Making&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-016&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p030-1&quot;,
+    &quot;page&quot;: 30,
+    &quot;mark&quot;: &quot;39&quot;,
+    &quot;text&quot;: &quot;Available at: https://apps.who.int/iris/bitstream/handle/10665/255575/WHO-IVB-17.03-eng.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 30,
+        &quot;context&quot;: &quot;Making,&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p031-1&quot;,
+    &quot;page&quot;: 31,
+    &quot;mark&quot;: &quot;40&quot;,
+    &quot;text&quot;: &quot;Lessons from delivering adolescent-friendly health services indicate that service uptake is lower if they are expected to cue with mothers and babies; also during outbreaks this age group may be a high-risk vector to other age groups.&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 31,
+        &quot;context&quot;: &quot;underlying health conditions, adolescents&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p032-1&quot;,
+    &quot;page&quot;: 32,
+    &quot;mark&quot;: &quot;41&quot;,
+    &quot;text&quot;: &quot;For more on planning and implementing SIAs, see WHO. Planning and implementing high-quality Supplementary Immunization Activities for injectable vaccines, available at: https://apps.who.int/iris/bitstream/handle/10665/330568/9789241511254-eng.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 32,
+        &quot;context&quot;: &quot;antigens, non-selective SIAs may be considered.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p032-2&quot;,
+    &quot;page&quot;: 32,
+    &quot;mark&quot;: &quot;42&quot;,
+    &quot;text&quot;: &quot;See WHO/UNICEF Guidance note on Criteria to determine if a given vaccination is a routine or supplemental dose: https://cdn.who.int/media/docs/default-source/immunization/who-unicef-guidance_note_on_vaccination_doses_2011.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 32,
+        &quot;context&quot;: &quot;coverage.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p032-3&quot;,
+    &quot;page&quot;: 32,
+    &quot;mark&quot;: &quot;43&quot;,
+    &quot;text&quot;: &quot;WHO. Overview of technologies for the treatment of infectious and sharp waste from health care facilities. Available at: https://apps.who.int/iris/bitstream/handle/10665/328146/9789241516228-eng.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 32,
+        &quot;context&quot;: &quot;sharp waste from health care facilities&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p032-4&quot;,
+    &quot;page&quot;: 32,
+    &quot;mark&quot;: &quot;44&quot;,
+    &quot;text&quot;: &quot;See WHO. Framework for decision-making: Implementation of mass vaccination campaigns in the context of the COVID-19 pandemic (2020) for principles to consider when deliberating the implementation of mass vaccination campaigns during an ongoing pandemic. This guidance discusses risk factors related to COVID-19 but can be adapted in the context of other outbreak-prone diseases. Available at: https://www.who.int/publications/i/item/WHO-2019-nCoV-essential_health_services- 2020.2&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 32,
+        &quot;context&quot;: &quot;aigns of any kind must accompany a thorough risk assessment.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p033-1&quot;,
+    &quot;page&quot;: 33,
+    &quot;mark&quot;: &quot;45&quot;,
+    &quot;text&quot;: &quot;The latest WHO COVID-19 technical guidance on Infection prevention and control / WASH is available at: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/infection-prevention-and-control&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 33,
+        &quot;context&quot;: &quot;related WHO guidance.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p034-1&quot;,
+    &quot;page&quot;: 34,
+    &quot;mark&quot;: &quot;46&quot;,
+    &quot;text&quot;: &quot;These and additional examples are also available on Tech-net – link forthcoming&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 34,
+        &quot;context&quot;: &quot;ating the variation in design approaches can be found below.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p034-2&quot;,
+    &quot;page&quot;: 34,
+    &quot;mark&quot;: &quot;47&quot;,
+    &quot;text&quot;: &quot;WHO. Protecting all against tetanus: Guide to sustaining maternal and neonatal tetanus elimination (MNTE) and broadening tetanus protection for all populations.&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 34,
+        &quot;context&quot;: &quot;previously unvaccinated individuals &gt;1 year of age&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p035-9&quot;,
+    &quot;page&quot;: 35,
+    &quot;mark&quot;: &quot;a&quot;,
+    &quot;text&quot;: &quot;See full version of Table 3 for addition al details, and recommendations for certain regions and high-risk populations: https://www.who.int/publications/m/item/table-3-who-recommendations-for-routine-immunization&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 35,
+        &quot;context&quot;: &quot;terrupted or Delayed Routine Immunization – simplified table&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p035-10&quot;,
+    &quot;page&quot;: 35,
+    &quot;mark&quot;: &quot;b&quot;,
+    &quot;text&quot;: &quot;In polio-endemic countries and in countries at high risk for importation and subsequent spread of poliovirus, WHO recommends a birth dose of bOPV (“bOPV0”), followed by a primary series of 3 bOPV doses and at least 1 dose of IPV.&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 35,
+        &quot;context&quot;: &quot;birth dose)&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p040-1&quot;,
+    &quot;page&quot;: 40,
+    &quot;mark&quot;: &quot;a&quot;,
+    &quot;text&quot;: &quot;Adapted from the Australian Immunisation Handbook, developed by the Australian Government Department of Health, available online: https://immunisationhandbook.health.gov.au/resources/handbook-tables/resource-catch-up-worksheet- for-children&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 40,
+        &quot;context&quot;: &quot;. Catch-up vaccination worksheet for determining eligibility&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-020&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p043-1&quot;,
+    &quot;page&quot;: 43,
+    &quot;mark&quot;: &quot;a&quot;,
+    &quot;text&quot;: &quot;Drafting led by Fields R, Kretsinger K, Mirza I, Sodha S, Wallace A.&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 43,
+        &quot;context&quot;: &quot;as developed in October 2018 by an ad-hoc workgroup on PIRI.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-022&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p043-2&quot;,
+    &quot;page&quot;: 43,
+    &quot;mark&quot;: &quot;b&quot;,
+    &quot;text&quot;: &quot;As described in WHO. Periodic Intensification of Routine Immunization: Lessons Learned and Implications for Action, available at:    https://www.mchip.net/sites/default/files/PIRI%20monograph_Feb09_0.PDF&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 43,
+        &quot;context&quot;: &quot;General Approach&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-022&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p049-1&quot;,
+    &quot;page&quot;: 49,
+    &quot;mark&quot;: &quot;c&quot;,
+    &quot;text&quot;: &quot;http://www.euro.who.int/en/health-topics/communicable-diseases/poliomyelitis/publications/2019/tip-tailoring- immunization-programmes-2019&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 49,
+        &quot;context&quot;: &quot;Programmes&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-024&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p049-2&quot;,
+    &quot;page&quot;: 49,
+    &quot;mark&quot;: &quot;d&quot;,
+    &quot;text&quot;: &quot;https://www.who.int/publications/m/item/full-competency-framework-document&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 49,
+        &quot;context&quot;: &quot;Immunization Competencies Framework,&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-024&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p050-1&quot;,
+    &quot;page&quot;: 50,
+    &quot;mark&quot;: &quot;e&quot;,
+    &quot;text&quot;: &quot;Available at: https://apps.who.int/iris/bitstream/handle/10665/255575/WHO-IVB-17.03-eng.pdf&quot;,
+    &quot;marks&quot;: [
+      {
+        &quot;page&quot;: 50,
+        &quot;context&quot;: &quot;Humanitarian Emergencies: a Framework for Decision Making.&quot;
+      }
+    ],
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-024&quot;
+  }
+]</pre></dd>
+<dt>uncalled_notes</dt><dd><pre>[
+  {
+    &quot;id&quot;: &quot;fn-p015-2&quot;,
+    &quot;page&quot;: 15,
+    &quot;mark&quot;: &quot;14&quot;,
+    &quot;text&quot;: &quot;Moro PL, Arana J, Marquez PL, et al. Is there any harm in administering extra-doses of vaccine to a person? Excess doses of vaccine reported to the Vaccine Adverse Event Reporting System (VAERS), 2007-2017. Vaccine. 2019;37(28):3730-3734. doi:10.1016/j.vaccine.2019.04.088.&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p015-3&quot;,
+    &quot;page&quot;: 15,
+    &quot;mark&quot;: &quot;15&quot;,
+    &quot;text&quot;: &quot;Some countries use serological testing to assess immunity status for individuals where evidence of vaccination cannot be ascertained, to determine if revaccination is needed. This method is more costly than revaccination and should only occur in settings where quality testing and guaranteed follow up are feasible.&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p017-2&quot;,
+    &quot;page&quot;: 17,
+    &quot;mark&quot;: &quot;19&quot;,
+    &quot;text&quot;: &quot;Safety and acceptability of multiple vaccine injections. https://cdn.who.int/media/docs/default- source/immunization/multiple-injections/multiple_injections_acceptability_safety.pdf&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p017-3&quot;,
+    &quot;page&quot;: 17,
+    &quot;mark&quot;: &quot;20&quot;,
+    &quot;text&quot;: &quot;Reducing pain at the time of vaccination: WHO position paper – September 2015. https://www.who.int/publications/i/item/wer9039&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p035-1&quot;,
+    &quot;page&quot;: 35,
+    &quot;mark&quot;: &quot;9&quot;,
+    &quot;text&quot;: &quot;or 12 months&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p035-2&quot;,
+    &quot;page&quot;: 35,
+    &quot;mark&quot;: &quot;2&quot;,
+    &quot;text&quot;: &quot;doses (4 weeks) Resume without&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p035-3&quot;,
+    &quot;page&quot;: 35,
+    &quot;mark&quot;: &quot;2&quot;,
+    &quot;text&quot;: &quot;doses&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p035-4&quot;,
+    &quot;page&quot;: 35,
+    &quot;mark&quot;: &quot;2&quot;,
+    &quot;text&quot;: &quot;doses Not recommended vaccine (MCV) (6 months min, see repeating previous dose footnote)c Rubella&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p035-5&quot;,
+    &quot;page&quot;: 35,
+    &quot;mark&quot;: &quot;9&quot;,
+    &quot;text&quot;: &quot;or 12 months&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p035-6&quot;,
+    &quot;page&quot;: 35,
+    &quot;mark&quot;: &quot;1&quot;,
+    &quot;text&quot;: &quot;dose with MCV NA&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p035-7&quot;,
+    &quot;page&quot;: 35,
+    &quot;mark&quot;: &quot;1&quot;,
+    &quot;text&quot;: &quot;dose&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p035-8&quot;,
+    &quot;page&quot;: 35,
+    &quot;mark&quot;: &quot;1&quot;,
+    &quot;text&quot;: &quot;dose Not recommended Human As soon as possible If started &lt;15 years, 2 doses Resume without NA 9-14 years: 2 doses Not recommended Papillomavirus from 9 years of (5 months) repeating previous dose vaccine (HPV) age No maximum interval. If started ≥15 years, 3 doses Resume without ≥15 years: 3 doses (1 month for 2nd dose, 4 repeating previous dose months for 3rd dose) No maximum interval.&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p035-11&quot;,
+    &quot;page&quot;: 35,
+    &quot;mark&quot;: &quot;c&quot;,
+    &quot;text&quot;: &quot;In certain situations, MCV can be given from 6 months of age. This dose should be considered a zero dose (“MCV0”) and two subsequent doses (MCV1 and MCV2) should still be provided according to the national schedule.&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-1&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;8&quot;,
+    &quot;text&quot;: &quot;weeks&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-2&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;4&quot;,
+    &quot;text&quot;: &quot;weeks&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-3&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;4&quot;,
+    &quot;text&quot;: &quot;weeks For IPV-only schedules, if the first dose is given &lt;2 months, a booster should be given at least 6 months after the last dose. Rotavirus&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-4&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;6&quot;,
+    &quot;text&quot;: &quot;weeks&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-5&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;4&quot;,
+    &quot;text&quot;: &quot;weeks&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-6&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;4&quot;,
+    &quot;text&quot;: &quot;weeks Not recommended &gt;2 years. (if using a 3- dose schedule) PCV*&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-7&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;6&quot;,
+    &quot;text&quot;: &quot;weeks&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-8&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;4&quot;,
+    &quot;text&quot;: &quot;weeks&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-9&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;4&quot;,
+    &quot;text&quot;: &quot;weeks If 1-5 years, only 2 doses needed. MR or MMR&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-10&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;9&quot;,
+    &quot;text&quot;: &quot;months&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-11&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;4&quot;,
+    &quot;text&quot;: &quot;weeks In certain cases, a supplementary dose of measles vaccine can be given as early as 6 (6 months, see (and &gt;1 year of months of age. Any dose given &lt;9 months comments) age, for 2nd should be recorded as MCV0. Two subsequent dose) doses are required. HPV&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-12&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;9&quot;,
+    &quot;text&quot;: &quot;years&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-13&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;5&quot;,
+    &quot;text&quot;: &quot;months If series is started ≥15 years old, 3 doses are needed (minimum interval 1 month between (if started ≥15&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-14&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;1&quot;,
+    &quot;text&quot;: &quot;st and 2nd dose; 4 months between 2nd and 3rd years, see dose) comments)&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  },
+  {
+    &quot;id&quot;: &quot;fn-p036-15&quot;,
+    &quot;page&quot;: 36,
+    &quot;mark&quot;: &quot;*&quot;,
+    &quot;text&quot;: &quot;Alternative schedules available. See WHO recommendations for interrupted or delayed immunization for additional detail and for other antigens not shown above.&quot;,
+    &quot;block&quot;: &quot;library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018&quot;
+  }
+]</pre></dd>
+<dt>unlinked_marks</dt><dd><pre>[]</pre></dd>
+</dl>
+</main>
+<script src="../../../../../../../../assets/ig-search.js" defer></script>
+</body>
+</html>

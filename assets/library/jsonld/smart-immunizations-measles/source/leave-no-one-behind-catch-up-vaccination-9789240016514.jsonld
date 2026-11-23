@@ -1,0 +1,58 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "@type": [
+    "cat-harness:SourceDocument"
+  ],
+  "title": "Leave no one behind: guidance for planning and implementing catch-up vaccination",
+  "contains": [
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-front-matter",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-000",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-001",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-002",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-003",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-004",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-005",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-006",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-007",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-009",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-010",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-011",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-012",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-013",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-014",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-015",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-016",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-017",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-018",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-019",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-020",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-021",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-022",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-023",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-024",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-025"
+  ],
+  "provenance": "ingested",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/smart-immunizations-measles/directory/library",
+  "meta": {
+    "doc_id": "leave-no-one-behind-catch-up-vaccination-9789240016514",
+    "title_source": "corroborated",
+    "title_from": "structure.json metadata.title",
+    "title_verified": true,
+    "source_file": "leave-no-one-behind-catch-up-vaccination-9789240016514.pdf",
+    "source_sha256": "f13c21a9eec89c9b36112f6cb50b5de83bdbe4b541e650ba0ef39402c6cbedca",
+    "pages": 53,
+    "arxiv": null,
+    "doi": null,
+    "document_class": null,
+    "extractor_validated": null,
+    "disposition": "ingested source material — attributed to its document, not folio content"
+  }
+}

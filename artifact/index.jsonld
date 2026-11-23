@@ -1,0 +1,453 @@
+{
+  "@context": {
+    "fhir": "http://hl7.org/fhir/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "$schema": "folio-ig-artifact-index-jsonld/v1",
+  "@id": "index.jsonld",
+  "@type": "fhir:ImplementationGuide",
+  "dcterms:identifier": "smart.who.int.immunizations-measles",
+  "schema:version": "0.1.0",
+  "schema:sameAs": {
+    "@id": "http://smart.who.int/immunizations-measles"
+  },
+  "dcterms:title": "SMART Immunizations — Measles",
+  "schema:numberOfItems": 30,
+  "schema:hasPart": [
+    {
+      "@id": "ActorDefinition-MEASLES.P.Client",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/MEASLES.P.Client",
+      "dcterms:title": "Client and caregiver",
+      "schema:name": "MEASLESClient",
+      "dcterms:description": "The child, adolescent or adult who is vaccinated, and the caregiver who brings a child and keeps the home-based record. Specialises DAK.Persona.Person.",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/ActorDefinition/MEASLES.P.Client"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActorDefinition-MEASLES.P.Client.json"
+      }
+    },
+    {
+      "@id": "ActorDefinition-MEASLES.P.DataManager",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/MEASLES.P.DataManager",
+      "dcterms:title": "Immunization data manager",
+      "schema:name": "MEASLESDataManager",
+      "dcterms:description": "Aggregates doses by antigen and dose number, computes coverage and fills the WHO/UNICEF Joint Reporting Form. Specialises DAK.Persona.DataManager.",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/ActorDefinition/MEASLES.P.DataManager"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActorDefinition-MEASLES.P.DataManager.json"
+      }
+    },
+    {
+      "@id": "ActorDefinition-MEASLES.P.HealthWorker",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/MEASLES.P.HealthWorker",
+      "dcterms:title": "Health worker (vaccinator)",
+      "schema:name": "MEASLESHealthWorker",
+      "dcterms:description": "Checks a client's vaccination record, decides which measles-containing vaccine dose is due, screens for contraindications, vaccinates, records the dose and gives the return date. Specialises DAK.Persona.HealthcareProvider.",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/ActorDefinition/MEASLES.P.HealthWorker"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActorDefinition-MEASLES.P.HealthWorker.json"
+      }
+    },
+    {
+      "@id": "ActorDefinition-MEASLES.P.ProgrammeManager",
+      "@type": "fhir:ActorDefinition",
+      "dcterms:identifier": "ActorDefinition/MEASLES.P.ProgrammeManager",
+      "dcterms:title": "Immunization programme manager",
+      "schema:name": "MEASLESProgrammeManager",
+      "dcterms:description": "Sets the national schedule, the catch-up policy and health-worker immunity rules, and organises defaulter tracking. Specialises DAK.Persona.HealthSystemManager.",
+      "dcterms:type": "Requirements: Actor Definitions",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/ActorDefinition/MEASLES.P.ProgrammeManager"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActorDefinition-MEASLES.P.ProgrammeManager.json"
+      }
+    },
+    {
+      "@id": "CodeSystem-MeaslesConcepts",
+      "@type": "fhir:CodeSystem",
+      "dcterms:identifier": "CodeSystem/MeaslesConcepts",
+      "dcterms:title": "Measles concepts",
+      "dcterms:description": "Concepts of the measles DAK: its core data elements (MEASLES.DE.*) and their allowed values. Local codes; binding to SNOMED CT, LOINC or ICD-11 awaits the terminologist's review.",
+      "dcterms:type": "Terminology: Code Systems",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/CodeSystem/MeaslesConcepts"
+      },
+      "schema:contentUrl": {
+        "@id": "../CodeSystem-MeaslesConcepts.json"
+      }
+    },
+    {
+      "@id": "Library-MEASLESDT01",
+      "@type": "fhir:Library",
+      "dcterms:identifier": "Library/MEASLESDT01",
+      "dcterms:title": "MEASLES.DT.01 Determine measles-containing vaccine dose due (logic)",
+      "dcterms:description": "CQL of MEASLES.DT.01, rule for rule; derived from input/decision-logic/MEASLES.DT.01.dmn.",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/Library/MEASLESDT01"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-MEASLESDT01.json"
+      }
+    },
+    {
+      "@id": "Library-MEASLESDT02",
+      "@type": "fhir:Library",
+      "dcterms:identifier": "Library/MEASLESDT02",
+      "dcterms:title": "MEASLES.DT.02 Screen before measles vaccination (logic)",
+      "dcterms:description": "CQL of MEASLES.DT.02, rule for rule; derived from input/decision-logic/MEASLES.DT.02.dmn.",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/Library/MEASLESDT02"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-MEASLESDT02.json"
+      }
+    },
+    {
+      "@id": "Library-MEASLESDT03",
+      "@type": "fhir:Library",
+      "dcterms:identifier": "Library/MEASLESDT03",
+      "dcterms:title": "MEASLES.DT.03 Count a recorded measles-containing vaccine dose (logic)",
+      "dcterms:description": "CQL of MEASLES.DT.03, rule for rule; derived from input/decision-logic/MEASLES.DT.03.dmn.",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/Library/MEASLESDT03"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-MEASLESDT03.json"
+      }
+    },
+    {
+      "@id": "Library-MEASLESDT04",
+      "@type": "fhir:Library",
+      "dcterms:identifier": "Library/MEASLESDT04",
+      "dcterms:title": "MEASLES.DT.04 Additional measles dose for a child living with HIV on HAART (logic)",
+      "dcterms:description": "CQL of MEASLES.DT.04, rule for rule; derived from input/decision-logic/MEASLES.DT.04.dmn.",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/Library/MEASLESDT04"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-MEASLESDT04.json"
+      }
+    },
+    {
+      "@id": "Library-MEASLESIndicators",
+      "@type": "fhir:Library",
+      "dcterms:identifier": "Library/MEASLESIndicators",
+      "dcterms:title": "Measles indicators (logic)",
+      "dcterms:description": "CQL for the measles indicator Measures; L3 of input/indicators/measles-indicators.csv.",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/Library/MEASLESIndicators"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-MEASLESIndicators.json"
+      }
+    },
+    {
+      "@id": "Measure-MEASLES.IND.01",
+      "@type": "fhir:Measure",
+      "dcterms:identifier": "Measure/MEASLES.IND.01",
+      "dcterms:title": "MCV1 coverage",
+      "schema:name": "MEASLESIND01",
+      "dcterms:description": "Percentage of surviving infants who received MCV1 (JRF 2016 row 4160). Denominator interpreted as registered children who turned 1 in the period.",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.01"
+      },
+      "schema:contentUrl": {
+        "@id": "../Measure-MEASLES.IND.01.json"
+      }
+    },
+    {
+      "@id": "Measure-MEASLES.IND.02",
+      "@type": "fhir:Measure",
+      "dcterms:identifier": "Measure/MEASLES.IND.02",
+      "dcterms:title": "MCV2 coverage",
+      "schema:name": "MEASLESIND02",
+      "dcterms:description": "Percentage of the MCV2 target population who received MCV2 (JRF 2016 row 4180). Denominator interpreted as registered children who turned 2 in the period.",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.02"
+      },
+      "schema:contentUrl": {
+        "@id": "../Measure-MEASLES.IND.02.json"
+      }
+    },
+    {
+      "@id": "Measure-MEASLES.IND.06",
+      "@type": "fhir:Measure",
+      "dcterms:identifier": "Measure/MEASLES.IND.06",
+      "dcterms:title": "MCV1-MCV2 dropout",
+      "schema:name": "MEASLESIND06",
+      "dcterms:description": "Percentage of children with MCV1 who have no MCV2, among children who turned 2 in the period.",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.06"
+      },
+      "schema:contentUrl": {
+        "@id": "../Measure-MEASLES.IND.06.json"
+      }
+    },
+    {
+      "@id": "Measure-MEASLES.IND.07",
+      "@type": "fhir:Measure",
+      "dcterms:identifier": "Measure/MEASLES.IND.07",
+      "dcterms:title": "Confirmed measles cases",
+      "schema:name": "MEASLESIND07",
+      "dcterms:description": "Number of patients with a confirmed measles case recorded in the period (JRF 2016 row 1020).",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/Measure/MEASLES.IND.07"
+      },
+      "schema:contentUrl": {
+        "@id": "../Measure-MEASLES.IND.07.json"
+      }
+    },
+    {
+      "@id": "PlanDefinition-MEASLES.DT.01",
+      "@type": "fhir:PlanDefinition",
+      "dcterms:identifier": "PlanDefinition/MEASLES.DT.01",
+      "dcterms:title": "MEASLES.DT.01 Determine measles-containing vaccine dose due",
+      "schema:name": "MEASLESDT01PlanDefinition",
+      "dcterms:description": "Which MCV dose, if any, a client needs today, from the doses DT.03 counted as valid. Hit policy FIRST. Derived from Table 1's measles footnote and Table 3's measles row (input/L2/provenance.json). Adjudication: pending. L3 of input/decision-logic/MEASLES.DT.01.dmn.",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.01"
+      },
+      "schema:contentUrl": {
+        "@id": "../PlanDefinition-MEASLES.DT.01.json"
+      }
+    },
+    {
+      "@id": "PlanDefinition-MEASLES.DT.02",
+      "@type": "fhir:PlanDefinition",
+      "dcterms:identifier": "PlanDefinition/MEASLES.DT.02",
+      "dcterms:title": "MEASLES.DT.02 Screen before measles vaccination",
+      "schema:name": "MEASLESDT02PlanDefinition",
+      "dcterms:description": "Whether to vaccinate today, defer, or not vaccinate. Hit policy FIRST. A mild concurrent infection is not a reason to defer. Adjudication: pending. L3 of input/decision-logic/MEASLES.DT.02.dmn.",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.02"
+      },
+      "schema:contentUrl": {
+        "@id": "../PlanDefinition-MEASLES.DT.02.json"
+      }
+    },
+    {
+      "@id": "PlanDefinition-MEASLES.DT.03",
+      "@type": "fhir:PlanDefinition",
+      "dcterms:identifier": "PlanDefinition/MEASLES.DT.03",
+      "dcterms:title": "MEASLES.DT.03 Count a recorded measles-containing vaccine dose",
+      "schema:name": "MEASLESDT03PlanDefinition",
+      "dcterms:description": "How one recorded MCV dose counts, evaluated dose by dose in date order. Hit policy FIRST. Adjudication: pending. L3 of input/decision-logic/MEASLES.DT.03.dmn.",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.03"
+      },
+      "schema:contentUrl": {
+        "@id": "../PlanDefinition-MEASLES.DT.03.json"
+      }
+    },
+    {
+      "@id": "PlanDefinition-MEASLES.DT.04",
+      "@type": "fhir:PlanDefinition",
+      "dcterms:identifier": "PlanDefinition/MEASLES.DT.04",
+      "dcterms:title": "MEASLES.DT.04 Additional measles dose for a child living with HIV on HAART",
+      "schema:name": "MEASLESDT04PlanDefinition",
+      "dcterms:description": "Whether an HIV-infected child receiving HAART needs the additional MCV dose after immune reconstitution. Hit policy FIRST. Adjudication: pending. L3 of input/decision-logic/MEASLES.DT.04.dmn.",
+      "dcterms:type": "Other",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/PlanDefinition/MEASLES.DT.04"
+      },
+      "schema:contentUrl": {
+        "@id": "../PlanDefinition-MEASLES.DT.04.json"
+      }
+    },
+    {
+      "@id": "Requirements-MEASLES.FR",
+      "@type": "fhir:Requirements",
+      "dcterms:identifier": "Requirements/MEASLES.FR",
+      "dcterms:title": "Measles functional requirements",
+      "schema:name": "MEASLESFunctionalRequirements",
+      "dcterms:description": "What a digital system supporting MEASLES.A and MEASLES.B must do; L3 of the L2 requirements.",
+      "dcterms:type": "Requirements: Formal Requirements",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/Requirements/MEASLES.FR"
+      },
+      "schema:contentUrl": {
+        "@id": "../Requirements-MEASLES.FR.json"
+      }
+    },
+    {
+      "@id": "StructureDefinition-MeaslesVaccinationContact",
+      "@type": "fhir:StructureDefinition",
+      "dcterms:identifier": "StructureDefinition/MeaslesVaccinationContact",
+      "dcterms:title": "Measles vaccination contact",
+      "dcterms:description": "The data a measles vaccination contact (MEASLES.A) and its reporting (MEASLES.B) record: the core data elements MEASLES.DE.01-26.",
+      "dcterms:type": "Structures: Logical Models",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/StructureDefinition/MeaslesVaccinationContact"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-MeaslesVaccinationContact.json"
+      }
+    },
+    {
+      "@id": "ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS",
+      "@type": "fhir:ValueSet",
+      "dcterms:identifier": "ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS",
+      "dcterms:title": "Health worker measles immunity proof",
+      "dcterms:description": "Allowed values of MEASLES.DE.25 (Health worker measles immunity proof).",
+      "dcterms:type": "Terminology: Value Sets",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHealthWorkerMeaslesImmunityProofVS"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-MeaslesHealthWorkerMeaslesImmunityProofVS.json"
+      }
+    },
+    {
+      "@id": "ValueSet-MeaslesHivStatusVS",
+      "@type": "fhir:ValueSet",
+      "dcterms:identifier": "ValueSet/MeaslesHivStatusVS",
+      "dcterms:title": "HIV status",
+      "dcterms:description": "Allowed values of MEASLES.DE.17 (HIV status).",
+      "dcterms:type": "Terminology: Value Sets",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesHivStatusVS"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-MeaslesHivStatusVS.json"
+      }
+    },
+    {
+      "@id": "ValueSet-MeaslesMcvDoseDoseLabelVS",
+      "@type": "fhir:ValueSet",
+      "dcterms:identifier": "ValueSet/MeaslesMcvDoseDoseLabelVS",
+      "dcterms:title": "MCV dose: dose label",
+      "dcterms:description": "Allowed values of MEASLES.DE.09 (MCV dose: dose label).",
+      "dcterms:type": "Terminology: Value Sets",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseDoseLabelVS"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-MeaslesMcvDoseDoseLabelVS.json"
+      }
+    },
+    {
+      "@id": "ValueSet-MeaslesMcvDoseVaccineVS",
+      "@type": "fhir:ValueSet",
+      "dcterms:identifier": "ValueSet/MeaslesMcvDoseVaccineVS",
+      "dcterms:title": "MCV dose: vaccine",
+      "dcterms:description": "Allowed values of MEASLES.DE.10 (MCV dose: vaccine).",
+      "dcterms:type": "Terminology: Value Sets",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-MeaslesMcvDoseVaccineVS.json"
+      }
+    },
+    {
+      "@id": "ValueSet-MeaslesNationalScheduleSettingVS",
+      "@type": "fhir:ValueSet",
+      "dcterms:identifier": "ValueSet/MeaslesNationalScheduleSettingVS",
+      "dcterms:title": "National schedule setting",
+      "dcterms:description": "Allowed values of MEASLES.DE.06 (National schedule setting).",
+      "dcterms:type": "Terminology: Value Sets",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesNationalScheduleSettingVS"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-MeaslesNationalScheduleSettingVS.json"
+      }
+    },
+    {
+      "@id": "ValueSet-MeaslesReasonNotVaccinatedVS",
+      "@type": "fhir:ValueSet",
+      "dcterms:identifier": "ValueSet/MeaslesReasonNotVaccinatedVS",
+      "dcterms:title": "Reason not vaccinated",
+      "dcterms:description": "Allowed values of MEASLES.DE.23 (Reason not vaccinated).",
+      "dcterms:type": "Terminology: Value Sets",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesReasonNotVaccinatedVS"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-MeaslesReasonNotVaccinatedVS.json"
+      }
+    },
+    {
+      "@id": "ValueSet-MeaslesScreeningOutcomeVS",
+      "@type": "fhir:ValueSet",
+      "dcterms:identifier": "ValueSet/MeaslesScreeningOutcomeVS",
+      "dcterms:title": "Screening outcome",
+      "dcterms:description": "Allowed values of MEASLES.DE.22 (Screening outcome).",
+      "dcterms:type": "Terminology: Value Sets",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesScreeningOutcomeVS"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-MeaslesScreeningOutcomeVS.json"
+      }
+    },
+    {
+      "@id": "ValueSet-MeaslesSexVS",
+      "@type": "fhir:ValueSet",
+      "dcterms:identifier": "ValueSet/MeaslesSexVS",
+      "dcterms:title": "Sex",
+      "dcterms:description": "Allowed values of MEASLES.DE.03 (Sex).",
+      "dcterms:type": "Terminology: Value Sets",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSexVS"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-MeaslesSexVS.json"
+      }
+    },
+    {
+      "@id": "ValueSet-MeaslesSupplementaryDoseIndicationVS",
+      "@type": "fhir:ValueSet",
+      "dcterms:identifier": "ValueSet/MeaslesSupplementaryDoseIndicationVS",
+      "dcterms:title": "Supplementary-dose indication",
+      "dcterms:description": "Allowed values of MEASLES.DE.07 (Supplementary-dose indication).",
+      "dcterms:type": "Terminology: Value Sets",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesSupplementaryDoseIndicationVS"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-MeaslesSupplementaryDoseIndicationVS.json"
+      }
+    },
+    {
+      "@id": "ImplementationGuide-smart.who.int.immunizations-measles",
+      "@type": "fhir:ImplementationGuide",
+      "dcterms:identifier": "ImplementationGuide/smart.who.int.immunizations-measles",
+      "dcterms:title": "SMART Immunizations — Measles",
+      "schema:name": "ImmunizationsMeasles",
+      "dcterms:description": "Measles immunization DAK (L2) and FHIR IG (L3), derived from the L1 sources attached to ritikarawlani/smart-immunizations-measles#1.",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/immunizations-measles/ImplementationGuide/smart.who.int.immunizations-measles"
+      },
+      "schema:contentUrl": {
+        "@id": "../ImplementationGuide-smart.who.int.immunizations-measles.json"
+      }
+    }
+  ]
+}

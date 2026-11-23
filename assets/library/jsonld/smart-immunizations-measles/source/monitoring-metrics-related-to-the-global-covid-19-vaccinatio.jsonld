@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/monitoring-metrics-related-to-the-global-covid-19-vaccinatio",
+  "@type": [
+    "cat-harness:SourceDocument"
+  ],
+  "title": "Monitoring Metrics Related to the Global Covid-19 Vaccination Strategy in a Changing World",
+  "contains": [
+    "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/sections/page-001",
+    "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/sections/page-002",
+    "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/sections/page-003",
+    "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/sections/page-004",
+    "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/sections/page-005",
+    "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/sections/page-006",
+    "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/sections/page-007"
+  ],
+  "provenance": "ingested",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/smart-immunizations-measles/directory/library",
+  "meta": {
+    "doc_id": "monitoring-metrics-related-to-the-global-covid-19-vaccinatio",
+    "title_source": "corroborated",
+    "title_from": "structure.json metadata.title",
+    "title_verified": true,
+    "source_file": "Monitoring-Metrics-Related-to-the-Global-Covid-19-Vaccination-Strategy---July-2022-update.pdf",
+    "source_sha256": "129415f7c33d6069c1e200fe2848ebbfbab0dcec2d78149012b7a9543d7f033e",
+    "pages": 7,
+    "arxiv": null,
+    "doi": null,
+    "document_class": null,
+    "extractor_validated": null,
+    "disposition": "ingested source material — attributed to its document, not folio content"
+  }
+}

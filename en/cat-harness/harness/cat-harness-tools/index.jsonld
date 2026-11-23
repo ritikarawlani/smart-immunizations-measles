@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@id": "https://ritikarawlani.github.io/smart-immunizations-measles/en/cat-harness/harness/cat-harness-tools/",
+  "url": "https://ritikarawlani.github.io/smart-immunizations-measles/en/cat-harness/harness/cat-harness-tools/",
+  "@type": "WebPage",
+  "name": "C@T Harness Tools on SMART Immunizations — Measles",
+  "about": {
+    "@type": "SoftwareSourceCode",
+    "identifier": "cat-harness-tools",
+    "name": "C@T Harness Tools",
+    "description": "What implements the harness's Tool definitions: the MCP servers, their tool registrars and routes. Definitions stay in cat-harness; this layer runs them.",
+    "version": "0.1.0",
+    "codeRepository": "https://github.com/litlfred/cat-harness-tools",
+    "isBasedOn": [
+      {
+        "@id": "https://litlfred.github.io/cat-harness/"
+      },
+      {
+        "identifier": "bootstrap-tools"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "name": "pinnedCommit",
+      "value": "6dd108f5cdb33eae9482a4b55f1f88b3f98ecb4b"
+    }
+  },
+  "isPartOf": {
+    "@id": "https://ritikarawlani.github.io/smart-immunizations-measles/",
+    "name": "SMART Immunizations — Measles"
+  },
+  "significantLink": [
+    "https://litlfred.github.io/folio-assistant/cat-harness-tools/",
+    "https://github.com/litlfred/cat-harness-tools/tree/6dd108f5cdb33eae9482a4b55f1f88b3f98ecb4b",
+    "https://github.com/litlfred/cat-harness-tools/blob/6dd108f5cdb33eae9482a4b55f1f88b3f98ecb4b/README.md",
+    "https://github.com/litlfred/cat-harness-tools/blob/6dd108f5cdb33eae9482a4b55f1f88b3f98ecb4b/AGENTS.md"
+  ]
+}

@@ -1,0 +1,3184 @@
+{
+  "$schema": "folio-library-entry/v1",
+  "id": "leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "blocks": [
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p001-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "../images/img-p001-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p001-2",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "../images/img-p001-2.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-front-matter",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Front matter",
+      "pageStart": 1,
+      "pageEnd": 6,
+      "target": "../sections/sec-front-matter.md",
+      "narrative": null,
+      "content": "Leave no one behind:  \nguidance for planning and \nimplementing  \ncatch-up vaccination \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nLeave no one behind:  \nguidance for planning and \nimplementing  \ncatch-up vaccination \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nLeave no one behind: guidance for planning and implementing catch-up vaccination  \nISBN 978-92-4-001651-4 (electronic version) \nISBN 978-92-4-001652-1 (print version) \n \n© World Health Organization 2021 \nSome rights reserved. This work is available under the Creative Commons Attribution-NonCommercial-ShareAlike \n3.0 IGO licence (CC BY-N",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-front-matter-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 6,
+      "target": "recommendation-sec-front-matter-01.md",
+      "narrative": null,
+      "content": "In any use of this work, there should be no suggestion that WHO endorses any specific organization, products or services.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-front-matter-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 6,
+      "target": "recommendation-sec-front-matter-02.md",
+      "narrative": null,
+      "content": "If you adapt the work, then you must license your work under the same or equivalent Creative Commons licence.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-front-matter-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 6,
+      "target": "recommendation-sec-front-matter-03.md",
+      "narrative": null,
+      "content": "If you create a translation of this work, you should add the following disclaimer along with the suggested citation: “This translation was not created by the World Health Organization (WHO).",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-front-matter-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 6,
+      "target": "recommendation-sec-front-matter-04.md",
+      "narrative": null,
+      "content": "The original English edition shall be the binding and authentic edition”.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-front-matter-05",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 6,
+      "target": "recommendation-sec-front-matter-05.md",
+      "narrative": null,
+      "content": "Any mediation relating to disputes arising under the licence shall be conducted in accordance with the mediation rules of the World Intellectual Property Organization (http://www.wipo.int/amc/en/mediation/rules/).",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-front-matter-06",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 6,
+      "target": "recommendation-sec-front-matter-06.md",
+      "narrative": null,
+      "content": "The mention of specific companies or of certain manufacturers’ products does not imply that they are endorsed or recommended by WHO in preference to others of a similar nature that are not mentioned.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-front-matter-07",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 6,
+      "target": "recommendation-sec-front-matter-07.md",
+      "narrative": null,
+      "content": "In no event shall WHO be liable for damages arising from its use.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p003-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 3,
+      "pageEnd": 3,
+      "target": "../images/img-p003-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-000",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Acknowledgements",
+      "pageStart": 6,
+      "pageEnd": 7,
+      "target": "../sections/sec-000-acknowledgements.md",
+      "narrative": null,
+      "content": "This document was developed by the Essential Programme on Immunization (EPI), Department of \nImmunization, Vaccines and Biologicals (IVB) of the World Health Organization (WHO) with extensive \nreview and inputs from numerous colleagues in headquarters and regional offices, individuals and \nconsultants, and partner organizations. Sincere thanks to all those who contributed their experience \nand knowledge.  \n \nv",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-001",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Purpose of this guidance",
+      "pageStart": 7,
+      "pageEnd": 8,
+      "target": "../sections/sec-001-purpose-of-this-guidance.md",
+      "narrative": null,
+      "content": "• \nTo assist national immunization programmes to establish or refine a catch-up vaccination policy \nand catch-up schedule, as an essential component of a well-functioning immunization programme.   \n• \nTo ensure eligible individuals who miss routine vaccine doses for any reason can be identified and \nvaccinated at the earliest opportunity. \n• \nTo lay out strategies for continuously implementing catch-up vaccination as a component of routine \nimmunization and as an integrated part of the healthcare system, as well as describe intensified \nstrategies to close “immunization gaps” following a signi",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-001-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 7,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-01.md",
+      "narrative": null,
+      "content": "All immunization programmes should have a catch-up vaccination policy and catch-up vaccination schedule in place to ensure individuals are able to be vaccinated even if they miss one or more scheduled doses.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-001-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 7,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-02.md",
+      "narrative": null,
+      "content": "In most cases, a significant interruption in immunization services will be a consequence of a large-scale disruption in the overall health system, therefore any specialized efforts to restart and/or intensify immunization efforts should be part of an overall health system recovery plan.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-001-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 7,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-03.md",
+      "narrative": null,
+      "content": "These specialized efforts should be implemented in addition to providing year-round continuous catch- up vaccination through routine immunization services which is outlined in Section 1.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-002",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Key terms",
+      "pageStart": 8,
+      "pageEnd": 10,
+      "target": "../sections/sec-002-key-terms.md",
+      "narrative": null,
+      "content": "Catch-up vaccination – refers to the action of vaccinating an individual, who for whatever reason \n(e.g. delays, stockouts, access, hesitancy, service interruptions, etc.), is missing/has not received \ndoses of vaccines for which they are eligible, per the national immunization schedule. \n• Catchup vaccination can be conducted through regular routine immunization service delivery \n(fixed, outreach, mobile, school-based), periodic intensification of routine immunization (PIRI) \nactivities, or through innovative local strategies that ensure individuals have the opportunity to \nreceive routine im",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 8,
+      "pageEnd": 10,
+      "target": "recommendation-sec-002-01.md",
+      "narrative": null,
+      "content": "Catch-up vaccination – refers to the action of vaccinating an individual, who for whatever reason (e.g. delays, stockouts, access, hesitancy, service interruptions, etc.), is missing/has not received doses of vaccines for which they are eligible, per the national immunization schedule. • Catchup vaccination can be conducted through regular routine immunization service delivery (fixed, outreach, mobile, school-based), periodic intensification of routine immunization (PIRI) activities, or through innovative local strategies that ensure individuals have the opportunity to receive routine immuniza",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 8,
+      "pageEnd": 10,
+      "target": "recommendation-sec-002-02.md",
+      "narrative": null,
+      "content": "Catch-up vaccination schedule – along with a catch-up policy, every country should have a catch-up vaccination schedule that clearly indicates the age cohorts to whom the catch-up schedule applies, minimum and maximum ages (if applicable as per national policy) and directives on minimum intervals permissible between doses for each antigen, to assist health workers and individuals to complete the vaccination schedule if interrupted or delayed (see Box 1).",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 8,
+      "pageEnd": 10,
+      "target": "recommendation-sec-002-03.md",
+      "narrative": null,
+      "content": "Invalid dose – a vaccine dose is considered invalid if it is administered earlier than the minimum age recommended, or earlier than the minimum interval since the previous dose in the vaccine series.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 8,
+      "pageEnd": 10,
+      "target": "recommendation-sec-002-04.md",
+      "narrative": null,
+      "content": "Invalid doses may not elicit an adequate immune response and therefore should be repeated once the individual has reached the minimum age and/or the appropriate minimum interval has passed.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-05",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 8,
+      "pageEnd": 10,
+      "target": "recommendation-sec-002-05.md",
+      "narrative": null,
+      "content": "It should be noted that as best practice, some countries use home-based records/immunization cards that include a special separate section for recording “supplementary” doses given.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-06",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 8,
+      "pageEnd": 10,
+      "target": "recommendation-sec-002-06.md",
+      "narrative": null,
+      "content": "An SIA should not be confused with a “selective” mass vaccination campaign; the latter does screen for eligibility and records the doses given to each individual on their home-based record/immunization card.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-07",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 8,
+      "pageEnd": 10,
+      "target": "recommendation-sec-002-07.md",
+      "narrative": null,
+      "content": "In this way, “selective” mass vaccination campaigns are considered a PIRI approach and the doses should be reported in the routine administrative immunization coverage.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-08",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 8,
+      "pageEnd": 10,
+      "target": "recommendation-sec-002-08.md",
+      "narrative": null,
+      "content": "Timely dose – refers to a vaccine dose administered within a certain time since the recommended age of vaccination.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-09",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 8,
+      "pageEnd": 10,
+      "target": "recommendation-sec-002-09.md",
+      "narrative": null,
+      "content": "There is no universal standard window of time within which a vaccine must be given to be considered timely, and the timeliness window may vary for different antigens.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-001",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "",
+      "pageStart": 8,
+      "pageEnd": 8,
+      "target": "../tables/table-1.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-003",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Overview",
+      "pageStart": 10,
+      "pageEnd": 11,
+      "target": "../sections/sec-003-overview.md",
+      "narrative": null,
+      "content": "• \nTimely vaccination is key to maintaining population immunity against vaccine-preventable diseases \n(VPDs), ensuring populations are fully protected against life-threatening illnesses as early as \npossible, and preventing large outbreaks of VPDs. However, despite best efforts and intentions, \nindividuals may not always receive all vaccinations in a timely manner as per the recommended age \nin a national immunization schedule.  \n• \nRegularly scheduled vaccinations may be missed for a variety of context-specific reasons (e.g. \ndifficulty accessing health services and other health system barrie",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-003-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 10,
+      "pageEnd": 11,
+      "target": "recommendation-sec-003-01.md",
+      "narrative": null,
+      "content": "However, despite best efforts and intentions, individuals may not always receive all vaccinations in a timely manner as per the recommended age in a national immunization schedule. • Regularly scheduled vaccinations may be missed for a variety of context-specific reasons (e.g. difficulty accessing health services and other health system barriers, health worker practices, stock outs, beliefs held by caregivers and community members about vaccination, etc.). • No one should miss out on the right to the protection that vaccines offer, simply because they are not able to access services in time. •",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p011-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 11,
+      "pageEnd": 11,
+      "target": "../images/img-p011-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-004",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Principles of catch-up vaccination",
+      "pageStart": 11,
+      "pageEnd": 11,
+      "target": "../sections/sec-004-1-principles-of-catch-up-vaccination.md",
+      "narrative": null,
+      "content": "",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": {
+        "status": "empty"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-005",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Introduction",
+      "pageStart": 11,
+      "pageEnd": 12,
+      "target": "../sections/sec-005-introduction.md",
+      "narrative": null,
+      "content": "• \nEveryone should fully benefit from vaccination by receiving recommended vaccines as soon as they \nare eligible, and those who arrive “late” should not be denied vaccination.  \n• \nMost vaccines are safe and effective to administer with no upper age limit and while timely \nvaccination should always be the aim, it is almost always better to vaccinate late than never.  \nThere are a small number of vaccines for which upper age limits do apply for administration3, but \nfor most vaccine-preventable diseases (VPDs), providing vaccines late will still result in protection \nagainst morbidity and mort",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-005-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 11,
+      "pageEnd": 12,
+      "target": "recommendation-sec-005-01.md",
+      "narrative": null,
+      "content": "• Everyone should fully benefit from vaccination by receiving recommended vaccines as soon as they are eligible, and those who arrive “late” should not be denied vaccination. • Most vaccines are safe and effective to administer with no upper age limit and while timely vaccination should always be the aim, it is almost always better to vaccinate late than never.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-005-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 11,
+      "pageEnd": 12,
+      "target": "recommendation-sec-005-02.md",
+      "narrative": null,
+      "content": "As these individuals age, it becomes harder to identify effective ways to reach them with the needed vaccines. • Having a catch-up vaccination strategy in place is an essential part of a well-functioning routine immunization programme and should be implemented on a continuous basis to ensure an individual’s right to be offered the benefit of vaccination, even if it is late (see Figure 1). • All touchpoints with the health system should be used to reduce missed opportunities for vaccination4, by assessing vaccination status and vaccinating or referring individuals for catch-up vaccination if th",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-005-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 11,
+      "pageEnd": 12,
+      "target": "recommendation-sec-005-03.md",
+      "narrative": null,
+      "content": "3 For example, rotavirus vaccine is not recommended >24 months, Haemophilus influenza type b (Hib) is not recommended >5 years as there is limited benefit beyond these ages due to disease epidemiology; DTP-containing vaccines should only be given with Td and aP if >7 years.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-005-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 11,
+      "pageEnd": 12,
+      "target": "recommendation-sec-005-04.md",
+      "narrative": null,
+      "content": "For all WHO recommendations for routine immunization and ages of eligibility, see WHO position paper Summary Tables, available at: https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who- recommendations-for-routine-immunization---summary-tables 4 See WHO.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-006",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Establishing a catch-up vaccination policy and schedule",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "../sections/sec-006-11-establishing-a-catch-up-vaccination-policy-an.md",
+      "narrative": null,
+      "content": "• \nEvery country should have a clear catch-up vaccination policy and catch-up schedule designed in \nline with the national immunization schedule. The catch-up policy should provide clarity to health \nworkers on:  \n1) The importance of providing vaccinations for those who have missed one or more doses \nwithin the national immunization schedule,  \n2) How to determine eligibility including permissible age ranges,   \n3) Correct recording and reporting of delayed doses, \n4) Leveraging every health contact as an opportunity to check vaccination history and catch \nup on vaccinations as appropriate.",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-01.md",
+      "narrative": null,
+      "content": "• Every country should have a clear catch-up vaccination policy and catch-up schedule designed in line with the national immunization schedule.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-02.md",
+      "narrative": null,
+      "content": "The catch-up policy should provide clarity to health workers on: 1) The importance of providing vaccinations for those who have missed one or more doses within the national immunization schedule, 2) How to determine eligibility including permissible age ranges, 3) Correct recording and reporting of delayed doses, 4) Leveraging every health contact as an opportunity to check vaccination history and catch up on vaccinations as appropriate.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-03.md",
+      "narrative": null,
+      "content": "Decision-making • WHO has published tables with recommendations for interrupted or delayed immunization, which summarize the recommendations from WHO vaccine position papers in one place.5 These summary tables are not intended for direct use by health workers, but rather to aid and guide policy and decision-makers.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-04.md",
+      "narrative": null,
+      "content": "A User’s Guide to the Summary Tables 6 is also available, to help support the process of developing or revising immunization schedules. • Although each country has its own mechanisms for an informed decision-making process on developing or revising immunization policy, it is important to ensure that all relevant stakeholders are consulted and the implications across all components of the immunization programme are considered. • National immunization technical advisory groups (NITAGs) should be engaged to provide technical and programmatic advice on developing a catch-up vaccination policy and",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-05",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-05.md",
+      "narrative": null,
+      "content": "As part of this process, local disease epidemiology, current immunization coverage levels and programme performance, health system capacity, and implications on budget and logistics (see Ensuring availability of vaccines and supplies for catch-up vaccination below) should be taken into consideration.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-06",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-06.md",
+      "narrative": null,
+      "content": "In addition, a review of relevant literature and discussions with countries with established catch-up vaccination policies could further guide this decision-making process. • Existing policies should be reviewed for any provisions that may negatively impact catch-up vaccination and be revised, if needed.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-07",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-07.md",
+      "narrative": null,
+      "content": "For example, remove restrictive target age groups or upper age limits; diminish restrictions on which cadre of health workers can vaccinate; expand which health workers can (and should) screen home-based records to determine vaccine eligibility, and increase flexibility on where and when immunization takes place. • Establishing or strengthening policies that encourage presentation of home-based records at every health contact is also important to ensure that all touch points with the health system can be leveraged. • Catch-up policies should also clearly indicate what to do if evidence of prev",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-08",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-08.md",
+      "narrative": null,
+      "content": "If no vaccination records are available, it should be assumed that the person has not",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-09",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-09.md",
+      "narrative": null,
+      "content": "5 WHO Summary Table 3: Recommendations for Interrupted or Delayed Immunization.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-10",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-10.md",
+      "narrative": null,
+      "content": "Available at: https://www.who.int/publications/m/item/table-3-who-recommendations-for-routine-immunization 6 All WHO summary tables, along with the User’s Guide are available in English and French, at: https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine- immunization---summary-tables 3",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-11",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-11.md",
+      "narrative": null,
+      "content": "received the vaccine(s) and vaccination should be offered.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-12",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-12.md",
+      "narrative": null,
+      "content": "It is safe to revaccinate individuals who have been previously vaccinated.7 • All revised policies and operational guidance should be disseminated from national, to subnational, and service delivery levels.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-13",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-13.md",
+      "narrative": null,
+      "content": "Revisions should be well-explained and reinforced at all available opportunities, including supportive supervision, academic and in-service trainings, information circulars, etc.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-14",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-14.md",
+      "narrative": null,
+      "content": "Health workers should be trained on the importance and value of catch-up vaccination, and how to adopt these changes in policy into their practices. • Non-government immunization providers (e.g. private, NGO, faith-based, etc.) also need to be informed about the catch-up vaccination policy and catch-up schedule and urged to provide delayed doses in line with national policy, including monitoring and reporting doses administered as per systems in place.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-15",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-15.md",
+      "narrative": null,
+      "content": "Designing a catch-up schedule • All countries should have a catch-up schedule that includes: - Age cohorts to which the catch-up schedule applies (see below); - Minimum age and maximum/upper age limit (if applicable as per national policy); and - Clear directives on minimum intervals permissible between doses for each antigen. • As national immunization programmes expand to include vaccination across the life course, multiple catch-up schedules for different target populations/age groups will be needed.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-006-16",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 12,
+      "pageEnd": 13,
+      "target": "recommendation-sec-006-16.md",
+      "narrative": null,
+      "content": "This is because the vaccine presentations, number of doses required, and minimum intervals differ depending on an individuals’ current age, as well as age at starting a vaccine series. - For example, a country may require one catch-up schedule for children <7 years, another catch-up schedule for individuals between 7-18 years, plus additional catch-up schedules applicable to adults over 18 years, as well as special populations (such as health care workers) where recommendations may differ. - This will vary by country and the target groups included in the routine immunization programme. • Catch",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-007",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Ensuring availability of vaccines and supplies for catch-up vaccination",
+      "pageStart": 13,
+      "pageEnd": 14,
+      "target": "../sections/sec-007-12-ensuring-availability-of-vaccines-and-supplie.md",
+      "narrative": null,
+      "content": "• \nPlanning to introduce a catch-up policy requires an assessment of the vaccine stock management \nand overall immunization supply chain (iSC) system performance to identify and address any gaps.8   \n• \nImmunization managers at all levels of the supply chain should closely monitor their actual vaccine \nstock, vaccine consumption, wastage, and target population in their respective catchment areas, \nand adjust vaccine forecasts and distribution accordingly, ensuring a buffer stock is maintained on \ntop of any revised consumption.  \n \n7 Moro PL, Arana J, Marquez PL, et al. Is there any harm in ad",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-007-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 13,
+      "pageEnd": 14,
+      "target": "recommendation-sec-007-01.md",
+      "narrative": null,
+      "content": "• Planning to introduce a catch-up policy requires an assessment of the vaccine stock management and overall immunization supply chain (iSC) system performance to identify and address any gaps.8 • Immunization managers at all levels of the supply chain should closely monitor their actual vaccine stock, vaccine consumption, wastage, and target population in their respective catchment areas, and adjust vaccine forecasts and distribution accordingly, ensuring a buffer stock is maintained on top of any revised consumption.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-007-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 13,
+      "pageEnd": 14,
+      "target": "recommendation-sec-007-02.md",
+      "narrative": null,
+      "content": "• Often countries are concerned that implementing catch-up vaccination will lead to shortage of vaccines or stock-outs, as a result of increased demand from older age cohorts who missed vaccination at the recommended age.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-007-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 13,
+      "pageEnd": 14,
+      "target": "recommendation-sec-007-03.md",
+      "narrative": null,
+      "content": "However, ensuring that the recommended buffer stock is available is generally sufficient to manage any temporary increase. • As catch-up vaccination becomes standard practice and forecasting is revised based on updated consumption, vaccine and supply needs should stabilize, based on the following principles: o Catch-up vaccination is simply allowing for doses to be provided to individuals that should have already been included in the forecast of vaccines needed to protect that age cohort. o Delays between doses in a vaccine series (e.g.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-007-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 13,
+      "pageEnd": 14,
+      "target": "recommendation-sec-007-04.md",
+      "narrative": null,
+      "content": "Therefore, catch-up vaccination should not require consumption of any extra vaccine per individual (except in some cases where vaccination history cannot be ascertained and re-vaccination with some vaccines may be needed). o Expanding eligibility and offering catch-up vaccination to older age cohorts who had missed doses may actually have the overall effect of reducing wastage for multi-dose vials of vaccines that must be discarded within six hours9 (such as BCG, measles-containing vaccine or yellow fever), as more eligible individuals may be vaccinated during a given session. • The use of ele",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-002",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "",
+      "pageStart": 13,
+      "pageEnd": 13,
+      "target": "../tables/table-2.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-008",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Building health worker knowledge and practice",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "../sections/sec-008-13-building-health-worker-knowledge-and-practice.md",
+      "narrative": null,
+      "content": "• \nThe success of any health intervention depends on competent front-line health workers and \nmanagers. For catch-up vaccination to be viewed as a priority, health workers’ interpersonal skills, \nmotivations and attitudes need to be addressed in training, supervision, and the feedback they are \ngiven. For programmes that historically limited routine immunization to children <1 year, or \nchildren <2 years, the expansion of catch-up to older age groups may be entirely new to health \nworkers and require a shift in both attitude and practice. \n \n9 WHO Policy Statement: Multi-dose vial policy (MDVP",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-01.md",
+      "narrative": null,
+      "content": "• Training, supervision, and other means of post-training support should reinforce the core principle that timely vaccination is ideal but (with few exceptions) late vaccination is preferable to no vaccination at all, as well as the practice of checking for vaccination history at every health contact. • Catch-up schedules, no matter how comprehensive, will not be able to address all possible scenarios that a health worker may encounter.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-02.md",
+      "narrative": null,
+      "content": "Health workers (if possible, both immunization and non-immunization health workers) should be trained on how to evaluate eligibility of individuals of any age and determine if any missed vaccinations need to be provided. • For catch-up of vaccines requiring multiple doses in a series, the health worker will need to calculate the appropriate timing for subsequent doses, instruct the caregiver or individual when to return to complete the series, and write this down in their home-based record. • Updated operational guidance and resource materials should be provided to help health workers understa",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-03.md",
+      "narrative": null,
+      "content": "Training should be reinforced through supportive supervision and any in-service training of new staff hires. • See Box 2 for a summary of instructions for health workers, which can be adapted into a job aid.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-04.md",
+      "narrative": null,
+      "content": "Additional examples for job aids and tools for assisting health workers are found in Annexes 2-4.13 Assessing vaccination status and determining eligibility • Written documentation (e.g. home-based record, or immunization register) of vaccination should be used to confirm individual vaccination status/history. • If evidence of previous vaccination cannot be confirmed, it should be assumed that the person has not received the vaccine(s) and vaccination should be offered.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-05",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-05.md",
+      "narrative": null,
+      "content": "This method is more costly than revaccination and should only occur in settings where quality testing and guaranteed follow up are feasible.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-06",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-06.md",
+      "narrative": null,
+      "content": "See Annex 2 for a reference table on minimum intervals that can be adapted into a job aid or printed on the back of a catch-up schedule and circulated to health workers. • Vaccine doses administered earlier than the minimum age recommended in the national immunization schedule or minimum interval should not be counted as valid and should be repeated (as age-appropriate), following the minimum interval after the invalid dose. • Should a vaccine dose be delayed, for any reason, in most cases it is not necessary to restart the vaccine series.16 The next dose in the series should be administered a",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-07",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-07.md",
+      "narrative": null,
+      "content": "Managing Multiple injections • Administering multiple vaccines at the same visit should be encouraged with health workers and individuals whenever possible.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-08",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-08.md",
+      "narrative": null,
+      "content": "However, more than one dose of a single antigen should not be provided on the same day (see minimum intervals between doses, above). • Health workers should receive adequate training and supportive supervision on vaccine co- administration practices and interpersonal communications skills, to ensure they are comfortable and confident to communicate on the safety and acceptability of multiple injections, managing common side effects following vaccination and monitoring for adverse events following immunization (AEFI), and tips for reducing pain at the time of vaccination. • Multiple injections",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-09",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-09.md",
+      "narrative": null,
+      "content": "However, as with all vaccinations, the caregiver or individual should be informed about the possibility of minor side effects (e.g. fever, local tenderness at the injection sites) that may occur following vaccination and how to manage it. • Separate auto-disable syringes and needles should be used for each injection and, wherever possible, different injection sites (limbs) should be used.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-10",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-10.md",
+      "narrative": null,
+      "content": "Ideally, national guidelines should include instructions on which injectable vaccine should be given on which limb (so that in case of severe local reaction, the AEFI investigator can identify which vaccine may have caused the reaction), and guidance on appropriate injection sites for vaccines given to older children and adults. • If two injections into the same limb are required, the injection sites should be separated by at least 2.5 cm.17 • Research and experience have shown that, in most settings, health workers are the most trusted source of information about vaccination and have the grea",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-11",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-11.md",
+      "narrative": null,
+      "content": "If the health worker can confidently answer questions and address concerns about the safety and effectiveness of multiple injections, perform correct technique in administering the vaccine to minimize pain, and initiate the recommendation in a manner that",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-12",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-12.md",
+      "narrative": null,
+      "content": "presumes vaccination will take place (e.g. “we will have to give some vaccines today”)18 caregivers and individuals are usually willing to receive multiple injections during the same visit. • However, if a caregiver or individual still has concerns about receiving multiple vaccine injections, they should not be pressured to receive all catch-up vaccination doses during one visit.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-13",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-13.md",
+      "narrative": null,
+      "content": "The health worker should elicit the reasons for deferring vaccination and work together with the caregiver or individual to agree on when they should return to receive remaining vaccine doses required at earliest opportunity. • Resources about multiple injections and minimizing pain during vaccination, including training modules and visual job aids, are available on the WHO website.19, 20 Spacing of inactivated vs. live vaccines • Inactivated vaccines: any inactivated vaccine can be administered together (simultaneously), before or after any other inactivated vaccine or live vaccine. • Live at",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-14",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-14.md",
+      "narrative": null,
+      "content": "Interchangeability of vaccine formulations or manufacturers products • Interchangeability of vaccines from different manufacturers: In general, the same manufacturer's product should be used for all doses in a vaccine series.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-15",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-15.md",
+      "narrative": null,
+      "content": "However, if a series cannot be completed with the same vaccine, the available alternative product should be used.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-16",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-16.md",
+      "narrative": null,
+      "content": "Restarting a series is not recommended, even for the primary series. o If different vaccine products require different number of doses for series completion (e.g., Haemophilus influenzae b (Hib), rotavirus vaccines), administering the higher number of doses is recommended to complete the series. • Vaccine diluents are not interchangeable across manufacturers nor formulations.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-17",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-17.md",
+      "narrative": null,
+      "content": "Only the diluent assigned by the manufacturer for the specific vaccine and presentation should ever be used.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-18",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-18.md",
+      "narrative": null,
+      "content": "21 • Interchangeability of formulations: If needed to continue completion of a vaccine series, combination vaccines may be used interchangeably with monovalent formulations and other combination products with similar component antigens if produced by the same manufacturer.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-19",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-19.md",
+      "narrative": null,
+      "content": "If concerns remain, a caregiver or individual should not be pressured to receive all catch-up doses during one visit.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-20",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-20.md",
+      "narrative": null,
+      "content": "For HPV, the minimum interval is 5 months. o Intervals recommended in the national immunization schedule may be reduced if a previous dose was delayed, as long as the minimum interval is respected. o Example: if MR is recommended at 9 months and 15 months, and a child does not receive MR1 until 12 months, they should still receive MR2 at 15 months. o Example: If a child receives MR1 at 15 months, they should receive MR2 at 16 months (4 weeks later). o Example: if the first dose of HPV is delayed, observe the minimum interval of 5 months before administering the second dose, irrespective of the",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-008-21",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 14,
+      "pageEnd": 19,
+      "target": "recommendation-sec-008-21.md",
+      "narrative": null,
+      "content": "Continue with the next dose required in the series. o Example: If the home-based record indicates the child has received 2 previous doses of pentavalent (Penta1 and Penta2), but it has been 6 months since the last visit, continue the series and record the dose given today as Penta3. o Example: If the home-based record or HPV vaccination card indicates more than the recommended 6 or 12 months has passed since the first dose of HPV, provide the second dose today, regardless of how long the interval and irrespective of the age of the girl.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-003",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "",
+      "pageStart": 18,
+      "pageEnd": 20,
+      "target": "../tables/table-3.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-009",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Recording and reporting of catch-up vaccination doses",
+      "pageStart": 19,
+      "pageEnd": 22,
+      "target": "../sections/sec-009-14-recording-and-reporting-of-catch-up-vaccinati.md",
+      "narrative": null,
+      "content": "• \nA major challenge for identifying eligibility, administering and monitoring catch-up vaccination is \nlack of reliable written record of vaccination history (i.e. individual home-based records, facility-\nbased paper registers, or EIRs). \n• \nMany immunization information systems are not currently designed to record, and report delayed \ndoses. For example, administrative systems typically record vaccinations by yearly age range (e.g. 0-\n11m, 12-23m, etc.) or only for the exact age of eligibility (e.g. HPV at 10 years). However, these \nrestrictive formats may lead to unintended consequences, su",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-009-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 19,
+      "pageEnd": 22,
+      "target": "recommendation-sec-009-01.md",
+      "narrative": null,
+      "content": "However, these restrictive formats may lead to unintended consequences, such as vaccines being denied to children above the recommended age range if they are unable to be vaccinated on time (for a variety of reasons). • Furthermore, dividing doses into 12 month calendar cycles buckets for monitoring coverage results in inconsistency amongst antigens in what constitutes an acceptable time frame for capturing coverage: for example, a vaccine due at birth such as BCG would have an acceptable delay of 12 months, while for MR1 it would only be 3 months (for schedules with MR1 at 9 months), or 12 mo",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-009-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 19,
+      "pageEnd": 22,
+      "target": "recommendation-sec-009-02.md",
+      "narrative": null,
+      "content": "22 Both “timely coverage” (vaccines given within the recommended age range) and “total coverage” are useful data points, but for programmes truly interested in monitoring timeliness, coverage surveys offer a more nuanced picture than administrative systems, provided a high proportion of home-based records with vaccination dates are available.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-009-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 19,
+      "pageEnd": 22,
+      "target": "recommendation-sec-009-03.md",
+      "narrative": null,
+      "content": "o Home-based records should contain sufficient space for health workers to record all routine doses of vaccines, the dates they were administered, and the dates to return for the next vaccination visit (see Box 4); o Tally sheets should be designed in a way that guides health workers to accurately record all vaccination doses administered at any age and doesn’t cause unnecessary confusion or arbitrary restrictions on recording delayed doses (e.g. if tally sheets are disaggregated by age groups, there should also be an option for recording doses given above the target age).",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-009-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 19,
+      "pageEnd": 22,
+      "target": "recommendation-sec-009-04.md",
+      "narrative": null,
+      "content": "Examples of tally sheets for routine childhood immunization that allow for capturing delayed catch-up vaccination doses are available in Annex 5; o Monthly summary reports should capture and summarize all data collected on the tally sheets. (e.g. if the tally sheet contains space for reporting doses given above the target age, then the monthly summary report should also capture this so that health workers do not have to improvise their own solutions); o Immunization registers should include space for individually recording dates that doses are administered without restricting the time-frame wi",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-009-05",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 19,
+      "pageEnd": 22,
+      "target": "recommendation-sec-009-05.md",
+      "narrative": null,
+      "content": "A dose should never be recorded and reported as MCV2 if the child has not first received MCV1.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-009-06",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 19,
+      "pageEnd": 22,
+      "target": "recommendation-sec-009-06.md",
+      "narrative": null,
+      "content": "The importance for the individual or caregiver to safely guard the HBR and bring it to every health contact should be stressed at every opportunity.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-009-07",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 19,
+      "pageEnd": 22,
+      "target": "recommendation-sec-009-07.md",
+      "narrative": null,
+      "content": "In some countries, it may not be common practice to recommend caregivers keep HBRs beyond early childhood.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-009-08",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 19,
+      "pageEnd": 22,
+      "target": "recommendation-sec-009-08.md",
+      "narrative": null,
+      "content": "Countries must ensure that an ample supply of HBRs are available for distribution, including sufficient buffer stock for replacement if a caregiver or individual has misplaced the HBR.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-009-09",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 19,
+      "pageEnd": 22,
+      "target": "recommendation-sec-009-09.md",
+      "narrative": null,
+      "content": "Where an individuals’ vaccination status cannot be confirmed, it should be assumed that they are not vaccinated, and catch-up vaccination should be offered.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-004",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "",
+      "pageStart": 21,
+      "pageEnd": 21,
+      "target": "../tables/table-4.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-010",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Communication and community engagement",
+      "pageStart": 22,
+      "pageEnd": 22,
+      "target": "../sections/sec-010-15-communication-and-community-engagement.md",
+      "narrative": null,
+      "content": "• \nTargeted communications should inform individuals, caregivers, and communities more broadly of \nthe value of vaccination and the importance of being vaccinated in a timely manner. \n• \nCommunication with caregivers and individuals through phone calls, emails, and SMS text message \nreminders, as well as broader messaging through television, radio, social media, posters, etc. should \naim to increase awareness that missing a scheduled vaccination does not necessarily mean that \nindividuals are no longer eligible: vaccines given late are still safe and effective at providing \nprotection against",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-011",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Strategies for catch-up vaccination",
+      "pageStart": 22,
+      "pageEnd": 25,
+      "target": "../sections/sec-011-16-strategies-for-catch-up-vaccination.md",
+      "narrative": null,
+      "content": "Routine immunization services throughout the year \n• \nThe practice of catch-up vaccination should be integrated into routine immunization service \ndelivery on a continuous basis.  Every immunization contact, whether fixed or outreach (including \nschool-based), should be used as an opportunity to review an individual’s vaccination status and \ncatch-up any antigens that have been missed before that visit. \n• \nEvery health facility should have a process in place for newborn and defaulter tracking and for \nidentifying and reaching zero-dose children in their catchment area (see Box 3). \n• \nCreativ",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-010-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 22,
+      "pageEnd": 22,
+      "target": "recommendation-sec-010-01.md",
+      "narrative": null,
+      "content": "• Targeted communications should inform individuals, caregivers, and communities more broadly of the value of vaccination and the importance of being vaccinated in a timely manner. • Communication with caregivers and individuals through phone calls, emails, and SMS text message reminders, as well as broader messaging through television, radio, social media, posters, etc. should aim to increase awareness that missing a scheduled vaccination does not necessarily mean that individuals are no longer eligible: vaccines given late are still safe and effective at providing protection against disease,",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-011-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 22,
+      "pageEnd": 25,
+      "target": "recommendation-sec-011-01.md",
+      "narrative": null,
+      "content": "Routine immunization services throughout the year • The practice of catch-up vaccination should be integrated into routine immunization service delivery on a continuous basis.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-011-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 22,
+      "pageEnd": 25,
+      "target": "recommendation-sec-011-02.md",
+      "narrative": null,
+      "content": "Every immunization contact, whether fixed or outreach (including school-based), should be used as an opportunity to review an individual’s vaccination status and catch-up any antigens that have been missed before that visit. • Every health facility should have a process in place for newborn and defaulter tracking and for identifying and reaching zero-dose children in their catchment area (see Box 3). • Creative and innovative behavioral interventions should be explored, to encourage individuals to return for future vaccinations, and reinforce the message that it is never too late to be immuniz",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-011-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 22,
+      "pageEnd": 25,
+      "target": "recommendation-sec-011-03.md",
+      "narrative": null,
+      "content": "Reducing missed opportunities for vaccination through integration with other health services • Beyond immunization services, every health contact should be used as an opportunity to review an individual’s vaccination status and to administer doses for which they are eligible – or to refer them to an immunization provider for vaccination (i.e. “screen and refer”).",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-011-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 22,
+      "pageEnd": 25,
+      "target": "recommendation-sec-011-04.md",
+      "narrative": null,
+      "content": "• For more on PIRI, including considerations for improving recording and reporting practices, see Annex 6, and WHO Periodic Intensification of Routine Immunization: Lessons learned and implications for action.30 School vaccination checks31 • School settings provide excellent opportunities to integrate interventions aimed at reducing vaccine preventable diseases along improving overall mental, physical and social health of children. • Implementing school vaccination checks (either as part of the entry/enrollment process each year or during school along with other school health services) is also",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-012",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Special catch-up vaccination efforts following an interruption of services",
+      "pageStart": 25,
+      "pageEnd": 25,
+      "target": "../sections/sec-012-2-special-catch-up-vaccination-efforts-following.md",
+      "narrative": null,
+      "content": "services  \n• \nImmunization is an essential health service that should continue without interruption to the \nmaximum extent possible under all circumstances. However, in exceptional emergency or disaster \nsituations there may be an interruption or significant drop in routine immunization services, delay \nor temporary suspension of mass vaccination campaigns, and/or prolonged vaccine shortages, \nleading to an accumulation of individuals susceptible to one or more VPDs. \n• \nIf not already in place, catch-up vaccination practices should be integrated into ongoing routine \nimmunization service deli",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-013",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Policy and advocacy",
+      "pageStart": 25,
+      "pageEnd": 26,
+      "target": "../sections/sec-013-21-policy-and-advocacy.md",
+      "narrative": null,
+      "content": "• \nDuring, or in the aftermath of a catastrophic event, whether it be an outbreak, epidemic or \npandemic, natural disaster, acute conflict, or other disruption, health systems are likely to be \noverburdened.33 Finances and human resources may be limited due to reallocation. Supply chains \nmay be disrupted leading to stock-outs of vaccines and supplies. Surveillance systems may have \nbeen stopped or diverted. There may be decreased demand for immunization services (due to \nmisinformation, fear, inaccessibility, limitation in mobility, competing priorities, previous \ndisruptions in services, etc",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-012-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 25,
+      "pageEnd": 25,
+      "target": "recommendation-sec-012-01.md",
+      "narrative": null,
+      "content": "services • Immunization is an essential health service that should continue without interruption to the maximum extent possible under all circumstances.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-012-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 25,
+      "pageEnd": 25,
+      "target": "recommendation-sec-012-02.md",
+      "narrative": null,
+      "content": "However, in exceptional emergency or disaster situations there may be an interruption or significant drop in routine immunization services, delay or temporary suspension of mass vaccination campaigns, and/or prolonged vaccine shortages, leading to an accumulation of individuals susceptible to one or more VPDs. • If not already in place, catch-up vaccination practices should be integrated into ongoing routine immunization service delivery as soon as services are restored (see Section 1), and should continue as an essential component of the routine immunization programme. • Offering catch-up vac",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-013-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 25,
+      "pageEnd": 26,
+      "target": "recommendation-sec-013-01.md",
+      "narrative": null,
+      "content": "There may be decreased demand for immunization services (due to misinformation, fear, inaccessibility, limitation in mobility, competing priorities, previous disruptions in services, etc.) • Efforts to restart and/or intensify immunization should be part of an overall coordinated health system recovery plan. • In the context of several competing pressures and resource constraints (both financial and human), it will be important to advocate for the importance of immunization with a view to resuming services and closing gaps at the earliest opportunity.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-013-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 25,
+      "pageEnd": 26,
+      "target": "recommendation-sec-013-02.md",
+      "narrative": null,
+      "content": "The consequences of inaction, including quantification of the increased morbidity and mortality expected as a result of suspending immunization, should be made to emphasize these points. • If catch-up vaccination is not already an ongoing component of the routine immunization programme, restoration of services following a disruption is an opportunity to begin implementing this practice (See Section 1). • NITAGs should be engaged at the earliest opportunity for a rapid review of any policies that may impact catch-up vaccination (e.g. restrictive target age groups, upper age limits, or maximum d",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-013-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 25,
+      "pageEnd": 26,
+      "target": "recommendation-sec-013-03.md",
+      "narrative": null,
+      "content": "• Where policy development or revision can be a lengthy process, interim guidance for catch-up vaccination should be issued (e.g. temporary removal of upper age limits to ensure those missed as a result of service interruption are able to receive the vaccines for which they were due).",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-013-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 25,
+      "pageEnd": 26,
+      "target": "recommendation-sec-013-04.md",
+      "narrative": null,
+      "content": "Once the situation resumes to normal, a policy review should be conducted to decide if the removal of age- cutoffs should be permanently adopted. • Any interim guidance on catch-up vaccination should be coordinated closely with other related programmes (e.g.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-014",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Managing vaccines and supplies",
+      "pageStart": 26,
+      "pageEnd": 27,
+      "target": "../sections/sec-014-22-managing-vaccines-and-supplies.md",
+      "narrative": null,
+      "content": "• \nDuring an interruption in services, supply chains at local, regional, national, and possibly international \nlevels may be affected. Stock out of key supplies may be a challenge, requiring a remapping of \ninventory, at all levels, and a coordinated redistribution of supplies once delivery channels are \nreopened.  \n• \nThe situation can be mitigated by the following actions: \no Establish and implement procedures for safeguarding and maximizing in-country stocks of \nvaccines through robust management of temperature records, VVM indicators and expiry \ndates.  \no Account for any expired or damage",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-014-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 26,
+      "pageEnd": 27,
+      "target": "recommendation-sec-014-01.md",
+      "narrative": null,
+      "content": "Stock out of key supplies may be a challenge, requiring a remapping of inventory, at all levels, and a coordinated redistribution of supplies once delivery channels are reopened. • The situation can be mitigated by the following actions: o Establish and implement procedures for safeguarding and maximizing in-country stocks of vaccines through robust management of temperature records, VVM indicators and expiry dates. o Account for any expired or damaged vaccine, delayed deliveries, etc. o Closely monitor stocks of vaccine and related supplies, including the recommended buffer stock at all level",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-015",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Monitoring the extent of the interruption",
+      "pageStart": 27,
+      "pageEnd": 28,
+      "target": "../sections/sec-015-23-monitoring-the-extent-of-the-interruption.md",
+      "narrative": null,
+      "content": "• \nIt is important to monitor the situation as closely as possible throughout the period of disruption \nand track individuals or cohorts missing vaccination as best as possible to inform catch-up \nstrategies.  This can be done by: \no Continuing to monitor vaccination coverage, VPD surveillance, AEFIs, and vaccine safety \nconcerns in order to identify gaps, inequalities and vulnerable groups and communities.  \no Maintaining a logbook of the population with pending vaccines, including newborns during \nthe period of disruption, based on individual records (facility-based paper immunization \nregis",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-015-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 27,
+      "pageEnd": 28,
+      "target": "recommendation-sec-015-01.md",
+      "narrative": null,
+      "content": "This can be done by: o Continuing to monitor vaccination coverage, VPD surveillance, AEFIs, and vaccine safety concerns in order to identify gaps, inequalities and vulnerable groups and communities. o Maintaining a logbook of the population with pending vaccines, including newborns during the period of disruption, based on individual records (facility-based paper immunization register, tickler files, EIR, etc.) o Monitoring, on a monthly basis and by district/municipality, the impending buildup of susceptible persons to estimate a target population for intensified catch-up vaccination efforts",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-015-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 27,
+      "pageEnd": 28,
+      "target": "recommendation-sec-015-02.md",
+      "narrative": null,
+      "content": "Estimating target population for catch-up vaccination efforts In addition to compiling a list based on individual vaccination records, the target population for an intensified catch-up effort should be monitored throughout the period of disrupted services.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-015-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 27,
+      "pageEnd": 28,
+      "target": "recommendation-sec-015-03.md",
+      "narrative": null,
+      "content": "Modifying target population • If the disruption took place over an extended period, catching up of all missed doses will take several sessions and months following resumption of services (for example, a child that missed Penta2 and Penta3 visits will require two catch up visits, spaced 4 weeks apart). • The estimate of individuals who have missed vaccinations should be added to the combined monthly target population for the months where intensified catch-up is expected.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-015-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 27,
+      "pageEnd": 28,
+      "target": "recommendation-sec-015-04.md",
+      "narrative": null,
+      "content": "• These higher target populations should be used to forecast needs for vaccine orders and to plan the number and frequency of immunization sessions.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-015-05",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 27,
+      "pageEnd": 28,
+      "target": "recommendation-sec-015-05.md",
+      "narrative": null,
+      "content": "Monitoring the success of the catch-up vaccination efforts • All doses administered during catch-up (whether through delivery of routine immunization services, or through a PIRI activity) should be compared against the modified target population (i.e. original target for that period + catch-up target). • Recording delayed doses may be a challenge for programmes that do not already have monitoring systems set up to capture doses given outside the recommended target age range (see Section 1). • As the immediate period following a significant interruption in immunization services is likely not th",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-005",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "",
+      "pageStart": 27,
+      "pageEnd": 27,
+      "target": "../tables/table-5.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-016",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Communication and community engagement",
+      "pageStart": 28,
+      "pageEnd": 29,
+      "target": "../sections/sec-016-24-communication-and-community-engagement.md",
+      "narrative": null,
+      "content": "• \nEven if routine immunization services have continued at reduced capacity or once they resume, \ndemand and accessibility may remain low and intermittent interruptions may continue to occur for \nsome time.  \n• \nEngagement with communities (including local civil society, non-governmental and faith-based \norganizations, professional associations, etc.) to help design and implement tailored and targeted \ncommunication strategies will be essential to restore and rebuild community confidence in vaccines \nand/or immunization services. \n• \nIf possible, formative research should be conducted to learn",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-016-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 28,
+      "pageEnd": 29,
+      "target": "recommendation-sec-016-01.md",
+      "narrative": null,
+      "content": "• Even if routine immunization services have continued at reduced capacity or once they resume, demand and accessibility may remain low and intermittent interruptions may continue to occur for some time. • Engagement with communities (including local civil society, non-governmental and faith-based organizations, professional associations, etc.) to help design and implement tailored and targeted communication strategies will be essential to restore and rebuild community confidence in vaccines and/or immunization services. • If possible, formative research should be conducted to learn about the",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-017",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Strategies for catch-up vaccination after an interruption of services",
+      "pageStart": 29,
+      "pageEnd": 34,
+      "target": "../sections/sec-017-25-strategies-for-catch-up-vaccination-after-an.md",
+      "narrative": null,
+      "content": "• \nOffering catch-up vaccination on an ongoing basis through the routine immunization system is the \nleast resource intensive and most sustainable strategy for ensuring individuals are able to receive \nthe vaccines they are due, especially if the service interruption is relatively short.  \n• \nIf immunization services have been impacted for a prolonged period of time, additional strategies \nto accelerate catch-up vaccination efforts will likely be needed, to reach larger groups and close \nimmunization gaps as quickly as possible.   \n• \nDepending on the extent and duration of the disruption in i",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-017-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 29,
+      "pageEnd": 34,
+      "target": "recommendation-sec-017-01.md",
+      "narrative": null,
+      "content": "• Offering catch-up vaccination on an ongoing basis through the routine immunization system is the least resource intensive and most sustainable strategy for ensuring individuals are able to receive the vaccines they are due, especially if the service interruption is relatively short. • If immunization services have been impacted for a prolonged period of time, additional strategies to accelerate catch-up vaccination efforts will likely be needed, to reach larger groups and close immunization gaps as quickly as possible. • Depending on the extent and duration of the disruption in immunization",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-017-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 29,
+      "pageEnd": 34,
+      "target": "recommendation-sec-017-02.md",
+      "narrative": null,
+      "content": "These concerns should be considered when planning activities and during training.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-017-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 29,
+      "pageEnd": 34,
+      "target": "recommendation-sec-017-03.md",
+      "narrative": null,
+      "content": "To succeed, the selected strategy or strategies must be convenient and acceptable to the local community.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-017-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 29,
+      "pageEnd": 34,
+      "target": "recommendation-sec-017-04.md",
+      "narrative": null,
+      "content": "Considerations to manage this include: o Scheduling appointments to avoid overcrowding (but important to still allow those arriving without prior appointment to be vaccinated). o Assigning specific times for certain population groups (e.g. older persons, people with underlying health conditions, adolescents40, etc.). • Outreach immunization activities should be expanded to include wider age ranges to catch-up individuals who might not be within the typical target groups for outreach activities. • If possible, outreach activities should be planned in collaboration with other health programmes,",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-017-05",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 29,
+      "pageEnd": 34,
+      "target": "recommendation-sec-017-05.md",
+      "narrative": null,
+      "content": "Targeted and selective (PIRI approach) vaccination campaigns that screen for vaccination history and record doses given as routine immunization • If resources are available, countries may choose to conduct targeted and selective mass vaccination (similar to a PIRI approach) to provide more intensive and large-scale opportunities for catch-up of missed vaccinations. • The number of intensified activities to be conducted should be based on the duration and extent of the immunization service interruption.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-017-06",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 29,
+      "pageEnd": 34,
+      "target": "recommendation-sec-017-06.md",
+      "narrative": null,
+      "content": "Supplementary Immunization Activities (SIAs) • If there’s greater urgency to vaccinate a large number of susceptible individuals with specific antigens, non-selective SIAs may be considered.41 • SIAs enable the vaccination of a large number of individuals regardless of their vaccination history by vaccinating all within a target age group.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-017-07",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 29,
+      "pageEnd": 34,
+      "target": "recommendation-sec-017-07.md",
+      "narrative": null,
+      "content": "Given their scope and speed SIAs often limit the number of antigens and additional interventions provided. • The vaccine doses that are administered during SIAs are considered “supplemental” rather than “routine” and are not recorded and reported as part of the routine immunization administrative coverage.42 They may, however, still be recorded on individual home-based records or on SIA- specific cards as a supplemental dose. • In countries where preventive campaigns are already planned and conducted at regular intervals, these opportunities should be leveraged to assist with catch-up to the e",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-017-08",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 29,
+      "pageEnd": 34,
+      "target": "recommendation-sec-017-08.md",
+      "narrative": null,
+      "content": "WHO has issued new guidance on technologies for the appropriate treatment of infectious and sharp waste from health care facilities43 which emphasizes the preferred use of treatment technologies (high temperature incineration, autoclaving, microwaving) over uncontrolled combustion (only to be used as a last resort). • In the event of an ongoing outbreak where infection risk remains elevated, the decision to conduct mass campaigns of any kind must accompany a thorough risk assessment.44 • Special considerations for setting up the vaccination site, spacing clients (e.g. through scheduling), exte",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-017-09",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 29,
+      "pageEnd": 34,
+      "target": "recommendation-sec-017-09.md",
+      "narrative": null,
+      "content": "recommended personal protective equipment (PPE), should be followed as detailed in existing related WHO guidance.45",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-006",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "",
+      "pageStart": 29,
+      "pageEnd": 30,
+      "target": "../tables/table-6.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-007",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "target": "../tables/table-7.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p034-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 34,
+      "pageEnd": 34,
+      "target": "../images/img-p034-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-018",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Designing Catch-up Vaccination Schedules",
+      "pageStart": 34,
+      "pageEnd": 36,
+      "target": "../sections/sec-018-annex-1-designing-catch-up-vaccination-schedules.md",
+      "narrative": null,
+      "content": "Every country should have a catch-up vaccination schedule designed in line with the national \nimmunization schedule, that adhere to any upper or lower age requirements as determined by the \nnational immunization policy. NITAGs should be involved in the process of developing a catch-up \nvaccination schedule at the earliest opportunity.  \nCatch-up vaccination schedules can be designed in a variety of ways and, as immunization programmes \nand schedules vary considerably across countries (and sometimes within), it is not possible to \nrecommend a ‘generic’ catch-up schedule.  \nSee Table A1.2 for a",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-018-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 34,
+      "pageEnd": 36,
+      "target": "recommendation-sec-018-01.md",
+      "narrative": null,
+      "content": "Every country should have a catch-up vaccination schedule designed in line with the national immunization schedule, that adhere to any upper or lower age requirements as determined by the national immunization policy.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-018-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 34,
+      "pageEnd": 36,
+      "target": "recommendation-sec-018-02.md",
+      "narrative": null,
+      "content": "NITAGs should be involved in the process of developing a catch-up vaccination schedule at the earliest opportunity.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-018-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 34,
+      "pageEnd": 36,
+      "target": "recommendation-sec-018-03.md",
+      "narrative": null,
+      "content": "Catch-up vaccination schedules can be designed in a variety of ways and, as immunization programmes and schedules vary considerably across countries (and sometimes within), it is not possible to recommend a ‘generic’ catch-up schedule.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-018-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 34,
+      "pageEnd": 36,
+      "target": "recommendation-sec-018-04.md",
+      "narrative": null,
+      "content": "See Table A1.2 for a simplified version of the WHO Recommendations for Interrupted or Delayed Routine Immunization.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-018-05",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 34,
+      "pageEnd": 36,
+      "target": "recommendation-sec-018-05.md",
+      "narrative": null,
+      "content": "Table A1.2 – WHO recommendations for Interrupted or Delayed Routine Immunization – simplified tablea Antigen Minimum age of first dose Doses in primary series (minimum interval between doses) Interrupted primary series Doses for those who start vaccination late Booster If ≤ 12 months of age If > 12 months of age",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-018-06",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 34,
+      "pageEnd": 36,
+      "target": "recommendation-sec-018-06.md",
+      "narrative": null,
+      "content": "As soon as possible after birth 1 dose NA 1 dose 1 dose Not recommended Hepatitis B As soon as possible after birth (<24h) Birth dose <24 hrs plus 2-3 doses with DTPCV (4 weeks) Resume without repeating previous dose 3 doses 3 doses Not recommended Polio bOPV + IPV 6 weeks (see footnote for birth dose)b 4 doses (IPV dose to be given with bOPV dose from 14 weeks of age) (4 weeks) Resume without repeating previous dose 4 doses (IPV to be given with 1st dose of bOPV) 4 doses (IPV to be given with 1st dose of bOPV) Not recommended IPV / bOPV Sequential 8 weeks (IPV 1st)",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-018-07",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 34,
+      "pageEnd": 36,
+      "target": "recommendation-sec-018-07.md",
+      "narrative": null,
+      "content": "1-2 doses IPV and 2 doses bOPV Not recommended IPV 8 weeks 3 doses (4 weeks) Resume without repeating previous dose 3 doses 3 doses If primary series begins < 2 months of age, booster to be given at least 6 months after the last dose DTP-containing vaccine (DTPCV) 6 weeks",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-018-08",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 34,
+      "pageEnd": 36,
+      "target": "recommendation-sec-018-08.md",
+      "narrative": null,
+      "content": "Resume without repeating previous dose 2 or 3 depending on product >24 months limited benefit Not recommended Measles-containing vaccine (MCV) 9 or 12 months (6 months min, see footnote)c 2 doses (4 weeks)",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-018-09",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 34,
+      "pageEnd": 36,
+      "target": "recommendation-sec-018-09.md",
+      "narrative": null,
+      "content": "Resume without repeating previous dose 2 doses 2 doses Not recommended Rubella 9 or 12 months 1 dose with MCV NA 1 dose 1 dose Not recommended Human Papillomavirus vaccine (HPV) As soon as possible from 9 years of age If started <15 years, 2 doses (5 months) Resume without repeating previous dose No maximum interval.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-018-10",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 34,
+      "pageEnd": 36,
+      "target": "recommendation-sec-018-10.md",
+      "narrative": null,
+      "content": "NA 9-14 years: 2 doses Not recommended If started ≥15 years, 3 doses (1 month for 2nd dose, 4 months for 3rd dose) Resume without repeating previous dose No maximum interval. ≥15 years: 3 doses",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-018-11",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 34,
+      "pageEnd": 36,
+      "target": "recommendation-sec-018-11.md",
+      "narrative": null,
+      "content": "a See full version of Table 3 for addition al details, and recommendations for certain regions and high-risk populations: https://www.who.int/publications/m/item/table-3-who-recommendations-for-routine-immunization b In polio-endemic countries and in countries at high risk for importation and subsequent spread of poliovirus, WHO recommends a birth dose of bOPV (“bOPV0”), followed by a primary series of 3 bOPV doses and at least 1 dose of IPV. c In certain situations, MCV can be given from 6 months of age.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-018-12",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 34,
+      "pageEnd": 36,
+      "target": "recommendation-sec-018-12.md",
+      "narrative": null,
+      "content": "This dose should be considered a zero dose (“MCV0”) and two subsequent doses (MCV1 and MCV2) should still be provided according to the national schedule.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-008",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "Table A1.2 – WHO recommendations for Interrupted or Delayed Routine Immunization – simplified tablea",
+      "pageStart": 35,
+      "pageEnd": 35,
+      "target": "../tables/table-8.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-019",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Minimum Intervals between Doses in a Vaccine Series",
+      "pageStart": 36,
+      "pageEnd": 37,
+      "target": "../sections/sec-019-annex-2-minimum-intervals-between-doses-in-a-vac.md",
+      "narrative": null,
+      "content": "For vaccines requiring multiple doses, the minimum interval is the shortest amount of time permissible between \ndoses in order to provide an adequate immune response. If the interval between the doses is shorter than the \nminimum interval, the second dose received may not be effective. \nRefer to WHO recommendations for interrupted or delayed immunization to design an catch-up vaccination \nschedule and job aids to assist health workers in assessing eligibility for vaccination when an individual has missed \nor delayed doses. \nAntigen \nMinimum age \nat first dose \nMinimum \ninterval \nbetween doses",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-019-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 36,
+      "pageEnd": 37,
+      "target": "recommendation-sec-019-01.md",
+      "narrative": null,
+      "content": "Refer to WHO recommendations for interrupted or delayed immunization to design an catch-up vaccination schedule and job aids to assist health workers in assessing eligibility for vaccination when an individual has missed or delayed doses.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-019-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 36,
+      "pageEnd": 37,
+      "target": "recommendation-sec-019-02.md",
+      "narrative": null,
+      "content": "DTP-containing vaccine 6 weeks 4 weeks 4 weeks (If >1 year, leave at least 6 months between dose 2 and 3) 6 months (and >1 year of age) If >7 years, use only aP containing vaccine; if >7 years, use Td-containing vaccine A total of 6 doses of Td/DT-containing vaccine are recommended, minimum interval of 6 months.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-019-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 36,
+      "pageEnd": 37,
+      "target": "recommendation-sec-019-03.md",
+      "narrative": null,
+      "content": "Not recommended for >5 years, if healthy.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-019-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 36,
+      "pageEnd": 37,
+      "target": "recommendation-sec-019-04.md",
+      "narrative": null,
+      "content": "For IPV-only schedules, if the first dose is given <2 months, a booster should be given at least 6 months after the last dose.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-019-05",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 36,
+      "pageEnd": 37,
+      "target": "recommendation-sec-019-05.md",
+      "narrative": null,
+      "content": "Not recommended >2 years.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-019-06",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 36,
+      "pageEnd": 37,
+      "target": "recommendation-sec-019-06.md",
+      "narrative": null,
+      "content": "Any dose given <9 months should be recorded as MCV0.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-019-07",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 36,
+      "pageEnd": 37,
+      "target": "recommendation-sec-019-07.md",
+      "narrative": null,
+      "content": "See WHO recommendations for interrupted or delayed immunization for additional detail and for other antigens not shown above.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-009",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "target": "../tables/table-9.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-020",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Sample job aids for catch-up vaccination",
+      "pageStart": 37,
+      "pageEnd": 40,
+      "target": "../sections/sec-020-annex-3-sample-job-aids-for-catch-up-vaccination.md",
+      "narrative": null,
+      "content": "The job aids below are illustrative examples, to be adapted in line with national immunization \nschedules and catch-up vaccination policies. Additional examples of job aids for adaptation are \navailable on Tech-net (https://www.technet-21.org/en/topics) \nSome countries have developed online, computer or mobile phone-based applications to help health \nworkers calculate eligibility for catch-up and answer frequently asked questions about vaccination \nschedules and catch-up vaccination. \nExamples of such web-based tools include: \n• \nThe National Immunisation Catch-up Calculator (NICC) developed b",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p038-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 38,
+      "pageEnd": 38,
+      "target": "../images/img-p038-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p039-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 39,
+      "pageEnd": 39,
+      "target": "../images/img-p039-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-021",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Catch-up vaccination worksheet for determining eligibility",
+      "pageStart": 40,
+      "pageEnd": 41,
+      "target": "../sections/sec-021-annex-4-catch-up-vaccination-worksheet-for-deter.md",
+      "narrative": null,
+      "content": "Worksheets like this can be a useful tool to help health workers assess which doses an individual is \neligible for at the time of a visit, and when subsequent doses will be needed (to communicate this to \nthe caregiver or individual). \nName: \nDate of this assessment: \nDate of birth: \nAge at this assessment: \nVaccine \nNumber of \ndoses \nreceived and \ndate for each \nNumber of \ndoses \nneeded at \ncurrent age \nDose number \ndue now \nAdditional \ndoses \nrequired \n(interval or \ndate) \nComments \nTo be \ncompleted \nbased on \nnational \nimmunization \nschedule \n \n \n \n \nNote here if \nany upper age \nlimits appl",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-010",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "",
+      "pageStart": 40,
+      "pageEnd": 40,
+      "target": "../tables/table-10.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p041-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 41,
+      "pageEnd": 41,
+      "target": "../images/img-p041-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-022",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Tally sheets for routine childhood vaccinations",
+      "pageStart": 41,
+      "pageEnd": 43,
+      "target": "../sections/sec-022-annex-5-tally-sheets-for-routine-childhood-vacci.md",
+      "narrative": null,
+      "content": "The tally sheet below provides an example of a design which allows health workers to record catch-\nup vaccinations administered without restricting recording within an upper age limit.  \nDepending on the programme objectives for calculating coverage, alternative designs may remove \nage groupings entirely. \n \n32 \n \nTally sheet for routine childhood vaccinations – example 2 \nThe tally sheet below provides an example of a design which allows health workers to record catch-\nup vaccinations administered without restricting recording within an upper age limit.  \nDepending on the programme objectives",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p042-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 42,
+      "pageEnd": 42,
+      "target": "../images/img-p042-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-023",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Periodic Intensification of Routine Immunization: An Overview",
+      "pageStart": 43,
+      "pageEnd": 48,
+      "target": "../sections/sec-023-annex-6-periodic-intensification-of-routine-immu.md",
+      "narrative": null,
+      "content": "The note below was developed in October 2018 by an ad-hoc workgroup on PIRI.a \nAbout \nPeriodic intensification of routine immunization (PIRI) is an umbrella term to describe a spectrum of \ntime-limited, intermittent activities used to administer routine vaccinations to under-vaccinated \npopulations and/or raise awareness of the benefits of vaccination.  Example activities include Child \nHealth Days, Child Health Weeks, and National Vaccination Weeks (Table A6.1).  Historically, a PIRI \nthat included delivery of vaccinations also included delivery of other key maternal and child health \n(MCH) i",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-023-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 43,
+      "pageEnd": 48,
+      "target": "recommendation-sec-023-01.md",
+      "narrative": null,
+      "content": "This means that health workers must screen children for eligibility based on age and immunization history and that the doses administered must be recorded on vaccination cards and registers, reported as part of annual coverage estimates generated by countries, and submitted as part of the WHO/UNICEF Joint Reporting Form process.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-023-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 43,
+      "pageEnd": 48,
+      "target": "recommendation-sec-023-02.md",
+      "narrative": null,
+      "content": "Targeted delivery of all or selected routinely-recommended vaccinations to under-vaccinated populations within the usual target age range stipulated by the national immunization program for routine vaccination services.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-023-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 43,
+      "pageEnd": 48,
+      "target": "recommendation-sec-023-03.md",
+      "narrative": null,
+      "content": "Use of the targeted delivery activity is considered expensive and may interfere with the normal, routine health system operations, so sufficient value and need must be present before supporting the use of a targeted delivery activity.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-023-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 43,
+      "pageEnd": 48,
+      "target": "recommendation-sec-023-04.md",
+      "narrative": null,
+      "content": "Table A6.1 - PIRI goals, general strategies, and activities PIRI goal General strategy Type of activity Expand access and provide vaccination plus other health interventions that are not routinely available to a wide range of population Deliver routine immunization doses (and possibly other selected child health interventions) during a multi- day period Child Health Day/Week Deliver routine immunization doses (and possibly other maternal and child health interventions) during a multi- day period Maternal & Child Health Day/Week Expand access and provide vaccination to specifically- defined vac",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-023-05",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 43,
+      "pageEnd": 48,
+      "target": "recommendation-sec-023-05.md",
+      "narrative": null,
+      "content": "Vaccine doses provided during the PIRI activity are considered as routine immunization doses and must be recorded and reported so that they are captured in annual estimates of coverage.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-023-06",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 43,
+      "pageEnd": 48,
+      "target": "recommendation-sec-023-06.md",
+      "narrative": null,
+      "content": "In operational terms, this means that all children must be screened for eligibility for each dose provided through PIRI.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-023-07",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 43,
+      "pageEnd": 48,
+      "target": "recommendation-sec-023-07.md",
+      "narrative": null,
+      "content": "Screening Required to determine child’s age Required to determine child’s age and eligibility for each vaccine dose to be given Required to determine child’s age and eligibility for each vaccine dose to be given Recording of doses Each dose is considered supplemental and is recorded on tally sheet for the SIA, and ideally Each dose is considered routine and must be recorded on home-based Each dose is considered routine and must be recorded on home-based 36",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-023-08",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 43,
+      "pageEnd": 48,
+      "target": "recommendation-sec-023-08.md",
+      "narrative": null,
+      "content": "should be recorded as a supplemental dose on home-based record or SIA card record, clinic-based register, and tally sheet record, clinic-based register, and tally sheet Reporting of doses All doses are captured in report for the SIA All doses are captured in annual administrative estimates of coverage and Joint Reporting Form All doses are captured in annual administrative estimates of coverage and Joint Reporting Form Communication on next doses Inform caregiver of need for routine immunization Inform caregiver on when to return for next dose Inform caregiver on when to return for next dose",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-023-09",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 43,
+      "pageEnd": 48,
+      "target": "recommendation-sec-023-09.md",
+      "narrative": null,
+      "content": "Doses given during PIRI must be captured in registers and HBRs as routine doses.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-023-10",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 43,
+      "pageEnd": 48,
+      "target": "recommendation-sec-023-10.md",
+      "narrative": null,
+      "content": "Ideally, PIRIs should be part of a bigger immunization program strategy that also includes efforts to simultaneously strengthen routine immunization services for the long term.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-023-11",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 43,
+      "pageEnd": 48,
+      "target": "recommendation-sec-023-11.md",
+      "narrative": null,
+      "content": "Whether a PIRI should be conducted depends largely on whether investing resources into the PIRI activity to rapidly raise coverage among certain target groups outweighs the potential benefits of using those resources to support routine operational activities (e.g., ensuring that planned outreach sessions occur, routine supportive supervision takes place, routine microplanning happens at all levels).",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-011",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "Table A6.1 - PIRI goals, general strategies, and activities",
+      "pageStart": 44,
+      "pageEnd": 44,
+      "target": "../tables/table-11.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-012",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "Table A6.2 – Comparison of features of SIAs, PIRI targeted service delivery, and routine",
+      "pageStart": 45,
+      "pageEnd": 45,
+      "target": "../tables/table-12.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-013",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "Table A6.3 – Potential PIRI design based on country setting",
+      "pageStart": 47,
+      "pageEnd": 47,
+      "target": "../tables/table-13.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-024",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Actions to enhance acceptance and demand for vaccination",
+      "pageStart": 48,
+      "pageEnd": 50,
+      "target": "../sections/sec-024-annex-7-actions-to-enhance-acceptance-and-demand.md",
+      "narrative": null,
+      "content": "KEY POINTS \n• \nVaccination uptake is affected by both individual, social and practical factors. This includes the \nconvenience and experience of immunization services, as well as community trust in vaccines \nand local or national authorities. \n• \nBuilding acceptance and demand for vaccination not only contributes to closing immunity gaps \nbut strengthens resilience in the face of vaccine-related events (e.g. outbreaks, AEFIs, rumours / \nmisinformation), to minimise the negative impact of such events. \n• \nIntensified efforts are needed to support vaccine demand in the context of service disrupt",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-024-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 48,
+      "pageEnd": 50,
+      "target": "recommendation-sec-024-01.md",
+      "narrative": null,
+      "content": "Communication about immunization • It is always important to reinforce the value of vaccination to build public awareness. • In the event of service disruptions, communication must address public concerns and convey clear messages about the extent of the disruption. • Programmes should communicate regularly during and even after disruptions to reinforce two key messages: ✓ Importance and benefits of vaccines ✓ Where, when and how the public can continue to access vaccination services.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-024-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 48,
+      "pageEnd": 50,
+      "target": "recommendation-sec-024-02.md",
+      "narrative": null,
+      "content": "They can also play a key role in implementation of immunization and encourage transparency and accountability. • To build acceptance and demand for vaccination, programmes must: o Harness local alliances – especially any structures that may have emerged during emergency/exceptional situations. o Coordinate with CSOs to facilitate community engagement to build support for vaccination, listen and respond to community concerns regarding vaccination, and promote the value of vaccination, and where and when to seek vaccination.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-024-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 48,
+      "pageEnd": 50,
+      "target": "recommendation-sec-024-03.md",
+      "narrative": null,
+      "content": "Behaviourally informed interventions • To design and evaluate effective immunization programmes and services, including catch-up vaccination strategies, immunization professionals must first identify the root causes for low coverage. • Assessing the drivers and barriers of immunization does not need to be a resource and time intensive activity.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-024-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 48,
+      "pageEnd": 50,
+      "target": "recommendation-sec-024-04.md",
+      "narrative": null,
+      "content": "• Immunization programme managers and planners should generate insights on context-specific drivers and barriers to uptake, and tailor services and interventions to help individuals overcome any lack of motivation or competing priorities. • For detailed guidance on tailoring interventions, please see the Tailoring Immunization Programmesc (2019) approach. • Important behaviourally informed interventions for addressing known drivers and barriers to immunization include: o Ensure clean workstations and simple/easy workflows for vaccination health workers to encourage safe, effective and prompt s",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-024-05",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 48,
+      "pageEnd": 50,
+      "target": "recommendation-sec-024-05.md",
+      "narrative": null,
+      "content": "To sustainably build acceptance and demand, programmes must invest in adequate training and support for front-line vaccination health workers. • Supportive supervision is intended to help health workers to enhance the quality of service delivery, which includes: o Improving lines of communication between health workers and supervisors. o Using feedback mechanisms to gather and address any health worker concerns. o Using tools for supervision, including job descriptions and performance reviews. o Providing written feedback for reference and evidence-based action planning. • Training and capacit",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-024-06",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 48,
+      "pageEnd": 50,
+      "target": "recommendation-sec-024-06.md",
+      "narrative": null,
+      "content": "This should include guidance on how to address rumours and concerns about vaccines, and communicate about AEFIs, and the benefits of vaccines.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-025",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Example VPD risk-assessment worksheets",
+      "pageStart": 50,
+      "pageEnd": 53,
+      "target": "../sections/sec-025-annex-8-example-vpd-risk-assessment-worksheets.md",
+      "narrative": null,
+      "content": "The risk-assessment worksheets below are examples, taken from the WHO Vaccination in Acute \nHumanitarian Emergencies: a Framework for Decision Making.e Worksheets to assist in risk-\nassessments for the following VPDs can be found in Annex 2 of that document: \n• \ncholera \n• \ndiphtheria  \n• \nhepatitis A \n• \nhepatitis B \n• \nhepatitis E \n• \nHaemophilus influenza type b (Hib) \n• \nhuman papillomavirus (HPV) \n• \ninfluenza (seasonal) \n• \nJapanese encephalitis \n• \nmeasles \n• \nmeningitis \n• \nmumps \n• \npertussis \n• \npneumococcal \n• \npoliomyelitis \n• \nrabies \n• \nrotavirus \n• \nrubella \n• \ntetanus \n• \ntuber",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-025-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 50,
+      "pageEnd": 53,
+      "target": "recommendation-sec-025-01.md",
+      "narrative": null,
+      "content": "Local experts should be consulted on local seasonal changes.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-025-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 50,
+      "pageEnd": 53,
+      "target": "recommendation-sec-025-02.md",
+      "narrative": null,
+      "content": "Population immunity Routine vaccination coverage for children <18 months is <70% Routine vaccination coverage for children <18 months is 70-89% Routine vaccination coverage for children <18 months is >95% and routine immunization can be maintained Reaching all children with 2 doses of measles-containing vaccine should be the standard for all national immunization programmes.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-025-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 50,
+      "pageEnd": 53,
+      "target": "recommendation-sec-025-03.md",
+      "narrative": null,
+      "content": "Age-specific burden: Children <5 years are especially vulnerable; children 5–14 generally have lower rates of complications or death but should also be vaccinated.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-014",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "",
+      "pageStart": 50,
+      "pageEnd": 50,
+      "target": "../tables/table-14.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/table-015",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "Table A8.1 – Measles disease-specific risk factors",
+      "pageStart": 51,
+      "pageEnd": 52,
+      "target": "../tables/table-15.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p053-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 53,
+      "pageEnd": 53,
+      "target": "../images/img-p053-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    }
+  ]
+}

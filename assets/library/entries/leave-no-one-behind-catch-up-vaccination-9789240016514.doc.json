@@ -1,0 +1,4810 @@
+{
+  "$schema": "folio-library-document/v1",
+  "id": "leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "title": "Leave no one behind: guidance for planning and implementing catch-up vaccination",
+  "variant": "pdf",
+  "pages": 53,
+  "tocSource": "inferred",
+  "tocMethod": "contents",
+  "toc": [
+    {
+      "level": 1,
+      "title": "Acknowledgements",
+      "number": null,
+      "page": 6,
+      "pageLabel": "iv",
+      "confidence": 0.9,
+      "evidence": [
+        "contents",
+        "body",
+        "style"
+      ],
+      "source": "inferred",
+      "section": "sec-000-acknowledgements"
+    },
+    {
+      "level": 1,
+      "title": "Purpose of this guidance",
+      "number": null,
+      "page": 7,
+      "pageLabel": "v",
+      "confidence": 0.9,
+      "evidence": [
+        "contents",
+        "body",
+        "style"
+      ],
+      "source": "inferred",
+      "section": "sec-001-purpose-of-this-guidance"
+    },
+    {
+      "level": 1,
+      "title": "Key terms",
+      "number": null,
+      "page": 8,
+      "pageLabel": "vi",
+      "confidence": 0.9,
+      "evidence": [
+        "contents",
+        "body",
+        "style"
+      ],
+      "source": "inferred",
+      "section": "sec-002-key-terms"
+    },
+    {
+      "level": 1,
+      "title": "Overview",
+      "number": null,
+      "page": 10,
+      "pageLabel": "viii",
+      "confidence": 0.9,
+      "evidence": [
+        "contents",
+        "body",
+        "style"
+      ],
+      "source": "inferred",
+      "section": "sec-003-overview"
+    },
+    {
+      "level": 1,
+      "title": "Principles of catch-up vaccination",
+      "number": "1",
+      "page": 11,
+      "pageLabel": "1",
+      "confidence": 0.8,
+      "evidence": [
+        "contents",
+        "body",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-004-1-principles-of-catch-up-vaccination"
+    },
+    {
+      "level": 2,
+      "title": "Introduction",
+      "number": null,
+      "page": 11,
+      "pageLabel": "1",
+      "confidence": 0.75,
+      "evidence": [
+        "contents",
+        "body"
+      ],
+      "source": "inferred",
+      "section": "sec-005-introduction"
+    },
+    {
+      "level": 2,
+      "title": "Establishing a catch-up vaccination policy and schedule",
+      "number": "1.1",
+      "page": 12,
+      "pageLabel": "2",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-006-11-establishing-a-catch-up-vaccination-policy-an"
+    },
+    {
+      "level": 2,
+      "title": "Ensuring availability of vaccines and supplies for catch-up vaccination",
+      "number": "1.2",
+      "page": 13,
+      "pageLabel": "3",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-007-12-ensuring-availability-of-vaccines-and-supplie"
+    },
+    {
+      "level": 2,
+      "title": "Building health worker knowledge and practice",
+      "number": "1.3",
+      "page": 14,
+      "pageLabel": "4",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-008-13-building-health-worker-knowledge-and-practice"
+    },
+    {
+      "level": 2,
+      "title": "Recording and reporting of catch-up vaccination doses",
+      "number": "1.4",
+      "page": 19,
+      "pageLabel": "9",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-009-14-recording-and-reporting-of-catch-up-vaccinati"
+    },
+    {
+      "level": 2,
+      "title": "Communication and community engagement",
+      "number": "1.5",
+      "page": 22,
+      "pageLabel": "12",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-010-15-communication-and-community-engagement"
+    },
+    {
+      "level": 2,
+      "title": "Strategies for catch-up vaccination",
+      "number": "1.6",
+      "page": 22,
+      "pageLabel": "12",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-011-16-strategies-for-catch-up-vaccination"
+    },
+    {
+      "level": 1,
+      "title": "Special catch-up vaccination efforts following an interruption of services",
+      "number": "2",
+      "page": 25,
+      "pageLabel": "15",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-012-2-special-catch-up-vaccination-efforts-following"
+    },
+    {
+      "level": 2,
+      "title": "Policy and advocacy",
+      "number": "2.1",
+      "page": 25,
+      "pageLabel": "15",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-013-21-policy-and-advocacy"
+    },
+    {
+      "level": 2,
+      "title": "Managing vaccines and supplies",
+      "number": "2.2",
+      "page": 26,
+      "pageLabel": "16",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-014-22-managing-vaccines-and-supplies"
+    },
+    {
+      "level": 2,
+      "title": "Monitoring the extent of the interruption",
+      "number": "2.3",
+      "page": 27,
+      "pageLabel": "17",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-015-23-monitoring-the-extent-of-the-interruption"
+    },
+    {
+      "level": 2,
+      "title": "Communication and community engagement",
+      "number": "2.4",
+      "page": 28,
+      "pageLabel": "18",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-016-24-communication-and-community-engagement"
+    },
+    {
+      "level": 2,
+      "title": "Strategies for catch-up vaccination after an interruption of services",
+      "number": "2.5",
+      "page": 29,
+      "pageLabel": "19",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-017-25-strategies-for-catch-up-vaccination-after-an"
+    },
+    {
+      "level": 1,
+      "title": "Designing Catch-up Vaccination Schedules",
+      "number": "Annex 1",
+      "page": 34,
+      "pageLabel": "24",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-018-annex-1-designing-catch-up-vaccination-schedules"
+    },
+    {
+      "level": 1,
+      "title": "Minimum Intervals between Doses in a Vaccine Series",
+      "number": "Annex 2",
+      "page": 36,
+      "pageLabel": "26",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-019-annex-2-minimum-intervals-between-doses-in-a-vac"
+    },
+    {
+      "level": 1,
+      "title": "Sample job aids for catch-up vaccination",
+      "number": "Annex 3",
+      "page": 37,
+      "pageLabel": "27",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-020-annex-3-sample-job-aids-for-catch-up-vaccination"
+    },
+    {
+      "level": 1,
+      "title": "Catch-up vaccination worksheet for determining eligibility",
+      "number": "Annex 4",
+      "page": 40,
+      "pageLabel": "30",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-021-annex-4-catch-up-vaccination-worksheet-for-deter"
+    },
+    {
+      "level": 1,
+      "title": "Tally sheets for routine childhood vaccinations",
+      "number": "Annex 5",
+      "page": 41,
+      "pageLabel": "31",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-022-annex-5-tally-sheets-for-routine-childhood-vacci"
+    },
+    {
+      "level": 1,
+      "title": "Periodic Intensification of Routine Immunization: An Overview",
+      "number": "Annex 6",
+      "page": 43,
+      "pageLabel": "33",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-023-annex-6-periodic-intensification-of-routine-immu"
+    },
+    {
+      "level": 1,
+      "title": "Actions to enhance acceptance and demand for vaccination",
+      "number": "Annex 7",
+      "page": 48,
+      "pageLabel": "38",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-024-annex-7-actions-to-enhance-acceptance-and-demand"
+    },
+    {
+      "level": 1,
+      "title": "Example VPD risk-assessment worksheets",
+      "number": "Annex 8",
+      "page": 50,
+      "pageLabel": "40",
+      "confidence": 0.95,
+      "evidence": [
+        "contents",
+        "body",
+        "style",
+        "number"
+      ],
+      "source": "inferred",
+      "section": "sec-025-annex-8-example-vpd-risk-assessment-worksheets"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-front-matter",
+      "number": null,
+      "title": "Front matter",
+      "level": 1,
+      "pageStart": 1,
+      "pageEnd": 6,
+      "labelStart": null,
+      "labelEnd": "iv",
+      "words": 737,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "suggested citation",
+          "heading": false
+        },
+        {
+          "term": "implementing catch-up",
+          "heading": false
+        },
+        {
+          "term": "behind",
+          "heading": false
+        },
+        {
+          "term": "licence",
+          "heading": false
+        },
+        {
+          "term": "leave",
+          "heading": false
+        },
+        {
+          "term": "igo",
+          "heading": false
+        },
+        {
+          "term": "translation",
+          "heading": false
+        },
+        {
+          "term": "material",
+          "heading": false
+        }
+      ],
+      "extract": "Leave no one behind: guidance for planning and implementing catch-up vaccination Leave no one behind: guidance for planning and implementing catch-up vaccination Leave no one behind: guidance for planning and implementing catch-up vaccination ISBN 978-92-4-001651-4 (electronic version) ISBN 978-92-4-001652-1 (print version) © World Health Organization 2021 Some rights reserved. This work is available under the",
+      "extractCut": true,
+      "blocks": [
+        "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-front-matter",
+        "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-front-matter-01",
+        "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-front-matter-02",
+        "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-front-matter-03",
+        "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-front-matter-04",
+        "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-front-matter-05",
+        "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-front-matter-06",
+        "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-front-matter-07",
+        "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p001-1",
+        "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p001-2",
+        "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/figure-img-p003-1"
+      ]
+    },
+    {
+      "id": "sec-000-acknowledgements",
+      "number": null,
+      "title": "Acknowledgements",
+      "level": 1,
+      "pageStart": 6,
+      "pageEnd": 7,
+      "labelStart": "iv",
+      "labelEnd": "v",
+      "words": 55,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "contributed",
+          "heading": false
+        },
+        {
+          "term": "ivb",
+          "heading": false
+        },
+        {
+          "term": "sincere",
+          "heading": false
+        }
+      ],
+      "extract": "This document was developed by the Essential Programme on Immunization (EPI), Department of Immunization, Vaccines and Biologicals (IVB) of the World Health Organization (WHO) with extensive review and inputs from numerous colleagues in headquarters and regional offices, individuals and consultants, and partner organizations. Sincere thanks to all those who contributed their experience and knowledge. v",
+      "extractCut": false
+    },
+    {
+      "id": "sec-001-purpose-of-this-guidance",
+      "number": null,
+      "title": "Purpose of this guidance",
+      "level": 1,
+      "pageStart": 7,
+      "pageEnd": 8,
+      "labelStart": "v",
+      "labelEnd": "vi",
+      "words": 335,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "specialized efforts",
+          "heading": false
+        },
+        {
+          "term": "implementing catch-up",
+          "heading": false
+        },
+        {
+          "term": "following significant",
+          "heading": false
+        },
+        {
+          "term": "miss",
+          "heading": false
+        },
+        {
+          "term": "guidance",
+          "heading": true
+        },
+        {
+          "term": "close",
+          "heading": false
+        },
+        {
+          "term": "routine",
+          "heading": false
+        },
+        {
+          "term": "interruption",
+          "heading": false
+        }
+      ],
+      "extract": "• To assist national immunization programmes to establish or refine a catch-up vaccination policy and catch-up schedule, as an essential component of a well-functioning immunization programme. • To ensure eligible individuals who miss routine vaccine doses for any reason can be identified and vaccinated at the earliest opportunity. • To lay out strategies for continuously implementing catch-up vaccination as a",
+      "extractCut": true
+    },
+    {
+      "id": "sec-002-key-terms",
+      "number": null,
+      "title": "Key terms",
+      "level": 1,
+      "pageStart": 8,
+      "pageEnd": 10,
+      "labelStart": "vi",
+      "labelEnd": "viii",
+      "words": 812,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "administrative routine",
+          "heading": false
+        },
+        {
+          "term": "considered invalid",
+          "heading": false
+        },
+        {
+          "term": "minimum interval",
+          "heading": false
+        },
+        {
+          "term": "piri",
+          "heading": false
+        },
+        {
+          "term": "minimum age",
+          "heading": false
+        },
+        {
+          "term": "periodic intensification",
+          "heading": false
+        },
+        {
+          "term": "catch-up policy",
+          "heading": false
+        },
+        {
+          "term": "adequate immune",
+          "heading": false
+        }
+      ],
+      "extract": "Catch-up vaccination – refers to the action of vaccinating an individual, who for whatever reason (e.g. delays, stockouts, access, hesitancy, service interruptions, etc.), is missing/has not received doses of vaccines for which they are eligible, per the national immunization schedule. • Catchup vaccination can be conducted through regular routine immunization service delivery (fixed, outreach, mobile,",
+      "extractCut": true
+    },
+    {
+      "id": "sec-003-overview",
+      "number": null,
+      "title": "Overview",
+      "level": 1,
+      "pageStart": 10,
+      "pageEnd": 11,
+      "labelStart": "viii",
+      "labelEnd": "1",
+      "words": 475,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "strengthen",
+          "heading": false
+        },
+        {
+          "term": "disruptions",
+          "heading": false
+        },
+        {
+          "term": "gaps",
+          "heading": false
+        },
+        {
+          "term": "stock",
+          "heading": false
+        },
+        {
+          "term": "vpds",
+          "heading": false
+        },
+        {
+          "term": "schedule",
+          "heading": false
+        },
+        {
+          "term": "services",
+          "heading": false
+        },
+        {
+          "term": "opportunities",
+          "heading": false
+        }
+      ],
+      "extract": "• Timely vaccination is key to maintaining population immunity against vaccine-preventable diseases (VPDs), ensuring populations are fully protected against life-threatening illnesses as early as possible, and preventing large outbreaks of VPDs. However, despite best efforts and intentions, individuals may not always receive all vaccinations in a timely manner as per the recommended age in a national immunization",
+      "extractCut": true
+    },
+    {
+      "id": "sec-004-1-principles-of-catch-up-vaccination",
+      "number": "1",
+      "title": "Principles of catch-up vaccination",
+      "level": 1,
+      "pageStart": 11,
+      "pageEnd": 11,
+      "labelStart": "1",
+      "labelEnd": "1",
+      "words": 0,
+      "summary": null,
+      "keywords": [],
+      "extract": null,
+      "extractCut": false
+    },
+    {
+      "id": "sec-005-introduction",
+      "number": null,
+      "title": "Introduction",
+      "level": 2,
+      "pageStart": 11,
+      "pageEnd": 12,
+      "labelStart": "1",
+      "labelEnd": "2",
+      "words": 380,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "upper age",
+          "heading": false
+        },
+        {
+          "term": "missed opportunities",
+          "heading": false
+        },
+        {
+          "term": "mov",
+          "heading": false
+        },
+        {
+          "term": "late",
+          "heading": false
+        },
+        {
+          "term": "benefit",
+          "heading": false
+        },
+        {
+          "term": "registers",
+          "heading": false
+        },
+        {
+          "term": "figure",
+          "heading": false
+        },
+        {
+          "term": "catch-up",
+          "heading": false
+        }
+      ],
+      "extract": "• Everyone should fully benefit from vaccination by receiving recommended vaccines as soon as they are eligible, and those who arrive “late” should not be denied vaccination. • Most vaccines are safe and effective to administer with no upper age limit and while timely vaccination should always be the aim, it is almost always better to vaccinate late than never. There are a small number of vaccines for which upper",
+      "extractCut": true
+    },
+    {
+      "id": "sec-006-11-establishing-a-catch-up-vaccination-policy-an",
+      "number": "1.1",
+      "title": "Establishing a catch-up vaccination policy and schedule",
+      "level": 2,
+      "pageStart": 12,
+      "pageEnd": 13,
+      "labelStart": "2",
+      "labelEnd": "3",
+      "words": 796,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "catch-up schedule",
+          "heading": true
+        },
+        {
+          "term": "summary tables",
+          "heading": false
+        },
+        {
+          "term": "age groups",
+          "heading": false
+        },
+        {
+          "term": "decision-making process",
+          "heading": false
+        },
+        {
+          "term": "upper age",
+          "heading": false
+        },
+        {
+          "term": "delayed doses",
+          "heading": false
+        },
+        {
+          "term": "user guide",
+          "heading": false
+        },
+        {
+          "term": "policy",
+          "heading": true
+        }
+      ],
+      "extract": "• Every country should have a clear catch-up vaccination policy and catch-up schedule designed in line with the national immunization schedule. The catch-up policy should provide clarity to health workers on: 1) The importance of providing vaccinations for those who have missed one or more doses within the national immunization schedule, 2) How to determine eligibility including permissible age ranges, 3) Correct",
+      "extractCut": true
+    },
+    {
+      "id": "sec-007-12-ensuring-availability-of-vaccines-and-supplie",
+      "number": "1.2",
+      "title": "Ensuring availability of vaccines and supplies for catch-up vaccination",
+      "level": 2,
+      "pageStart": 13,
+      "pageEnd": 14,
+      "labelStart": "3",
+      "labelEnd": "4",
+      "words": 505,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "buffer stock",
+          "heading": false
+        },
+        {
+          "term": "management tool",
+          "heading": false
+        },
+        {
+          "term": "offering catch-up",
+          "heading": false
+        },
+        {
+          "term": "age cohort",
+          "heading": false
+        },
+        {
+          "term": "wastage",
+          "heading": false
+        },
+        {
+          "term": "older age",
+          "heading": false
+        },
+        {
+          "term": "missed doses",
+          "heading": false
+        },
+        {
+          "term": "temporary increase",
+          "heading": false
+        }
+      ],
+      "extract": "• Planning to introduce a catch-up policy requires an assessment of the vaccine stock management and overall immunization supply chain (iSC) system performance to identify and address any gaps.8 • Immunization managers at all levels of the supply chain should closely monitor their actual vaccine stock, vaccine consumption, wastage, and target population in their respective catchment areas, and adjust vaccine",
+      "extractCut": true
+    },
+    {
+      "id": "sec-008-13-building-health-worker-knowledge-and-practice",
+      "number": "1.3",
+      "title": "Building health worker knowledge and practice",
+      "level": 2,
+      "pageStart": 14,
+      "pageEnd": 19,
+      "labelStart": "4",
+      "labelEnd": "9",
+      "words": 2417,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "multiple injections",
+          "heading": false
+        },
+        {
+          "term": "multiple doses",
+          "heading": false
+        },
+        {
+          "term": "same visit",
+          "heading": false
+        },
+        {
+          "term": "minimum interval",
+          "heading": false
+        },
+        {
+          "term": "injection sites",
+          "heading": false
+        },
+        {
+          "term": "few exceptions",
+          "heading": false
+        },
+        {
+          "term": "primary series",
+          "heading": false
+        },
+        {
+          "term": "catch-up schedule",
+          "heading": false
+        }
+      ],
+      "extract": "• The success of any health intervention depends on competent front-line health workers and managers. For catch-up vaccination to be viewed as a priority, health workers’ interpersonal skills, motivations and attitudes need to be addressed in training, supervision, and the feedback they are given. For programmes that historically limited routine immunization to children <1 year, or children <2 years, the expansion",
+      "extractCut": true
+    },
+    {
+      "id": "sec-009-14-recording-and-reporting-of-catch-up-vaccinati",
+      "number": "1.4",
+      "title": "Recording and reporting of catch-up vaccination doses",
+      "level": 2,
+      "pageStart": 19,
+      "pageEnd": 22,
+      "labelStart": "9",
+      "labelEnd": "12",
+      "words": 1194,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "doses",
+          "heading": true
+        },
+        {
+          "term": "target age",
+          "heading": false
+        },
+        {
+          "term": "delayed doses",
+          "heading": false
+        },
+        {
+          "term": "hbr",
+          "heading": false
+        },
+        {
+          "term": "home-based records",
+          "heading": false
+        },
+        {
+          "term": "age range",
+          "heading": false
+        },
+        {
+          "term": "sheets",
+          "heading": false
+        },
+        {
+          "term": "recording",
+          "heading": true
+        }
+      ],
+      "extract": "• A major challenge for identifying eligibility, administering and monitoring catch-up vaccination is lack of reliable written record of vaccination history (i.e. individual home-based records, facility- based paper registers, or EIRs). • Many immunization information systems are not currently designed to record, and report delayed doses. For example, administrative systems typically record vaccinations by yearly",
+      "extractCut": true
+    },
+    {
+      "id": "sec-010-15-communication-and-community-engagement",
+      "number": "1.5",
+      "title": "Communication and community engagement",
+      "level": 2,
+      "pageStart": 22,
+      "pageEnd": 22,
+      "labelStart": "12",
+      "labelEnd": "12",
+      "words": 239,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "communication",
+          "heading": true
+        },
+        {
+          "term": "caregivers",
+          "heading": false
+        },
+        {
+          "term": "messaging",
+          "heading": false
+        },
+        {
+          "term": "reminders",
+          "heading": false
+        },
+        {
+          "term": "importance",
+          "heading": false
+        },
+        {
+          "term": "communities",
+          "heading": false
+        },
+        {
+          "term": "value",
+          "heading": false
+        }
+      ],
+      "extract": "• Targeted communications should inform individuals, caregivers, and communities more broadly of the value of vaccination and the importance of being vaccinated in a timely manner. • Communication with caregivers and individuals through phone calls, emails, and SMS text message reminders, as well as broader messaging through television, radio, social media, posters, etc. should aim to increase awareness that missing",
+      "extractCut": true
+    },
+    {
+      "id": "sec-011-16-strategies-for-catch-up-vaccination",
+      "number": "1.6",
+      "title": "Strategies for catch-up vaccination",
+      "level": 2,
+      "pageStart": 22,
+      "pageEnd": 25,
+      "labelStart": "12",
+      "labelEnd": "15",
+      "words": 1201,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "piri activity",
+          "heading": false
+        },
+        {
+          "term": "during school",
+          "heading": false
+        },
+        {
+          "term": "periodic intensification",
+          "heading": false
+        },
+        {
+          "term": "reducing missed",
+          "heading": false
+        },
+        {
+          "term": "checks",
+          "heading": false
+        },
+        {
+          "term": "missed opportunities",
+          "heading": false
+        },
+        {
+          "term": "routine vaccinations",
+          "heading": false
+        },
+        {
+          "term": "catch-up",
+          "heading": true
+        }
+      ],
+      "extract": "Routine immunization services throughout the year • The practice of catch-up vaccination should be integrated into routine immunization service delivery on a continuous basis. Every immunization contact, whether fixed or outreach (including school-based), should be used as an opportunity to review an individual’s vaccination status and catch-up any antigens that have been missed before that visit. • Every health",
+      "extractCut": true
+    },
+    {
+      "id": "sec-012-2-special-catch-up-vaccination-efforts-following",
+      "number": "2",
+      "title": "Special catch-up vaccination efforts following an interruption of services",
+      "level": 1,
+      "pageStart": 25,
+      "pageEnd": 25,
+      "labelStart": "15",
+      "labelEnd": "15",
+      "words": 216,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "interruption",
+          "heading": true
+        },
+        {
+          "term": "catch-up",
+          "heading": true
+        },
+        {
+          "term": "services",
+          "heading": true
+        },
+        {
+          "term": "routine",
+          "heading": false
+        },
+        {
+          "term": "efforts",
+          "heading": true
+        },
+        {
+          "term": "period",
+          "heading": false
+        },
+        {
+          "term": "significant",
+          "heading": false
+        }
+      ],
+      "extract": "services • Immunization is an essential health service that should continue without interruption to the maximum extent possible under all circumstances. However, in exceptional emergency or disaster situations there may be an interruption or significant drop in routine immunization services, delay or temporary suspension of mass vaccination campaigns, and/or prolonged vaccine shortages, leading to an accumulation of",
+      "extractCut": true
+    },
+    {
+      "id": "sec-013-21-policy-and-advocacy",
+      "number": "2.1",
+      "title": "Policy and advocacy",
+      "level": 2,
+      "pageStart": 25,
+      "pageEnd": 26,
+      "labelStart": "15",
+      "labelEnd": "16",
+      "words": 446,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "age limits",
+          "heading": false
+        },
+        {
+          "term": "upper age",
+          "heading": false
+        },
+        {
+          "term": "earliest opportunity",
+          "heading": false
+        },
+        {
+          "term": "interim guidance",
+          "heading": false
+        },
+        {
+          "term": "outbreak",
+          "heading": false
+        },
+        {
+          "term": "competing",
+          "heading": false
+        },
+        {
+          "term": "disruption",
+          "heading": false
+        },
+        {
+          "term": "coordinated",
+          "heading": false
+        }
+      ],
+      "extract": "• During, or in the aftermath of a catastrophic event, whether it be an outbreak, epidemic or pandemic, natural disaster, acute conflict, or other disruption, health systems are likely to be overburdened.33 Finances and human resources may be limited due to reallocation. Supply chains may be disrupted leading to stock-outs of vaccines and supplies. Surveillance systems may have been stopped or diverted. There may be",
+      "extractCut": true
+    },
+    {
+      "id": "sec-014-22-managing-vaccines-and-supplies",
+      "number": "2.2",
+      "title": "Managing vaccines and supplies",
+      "level": 2,
+      "pageStart": 26,
+      "pageEnd": 27,
+      "labelStart": "16",
+      "labelEnd": "17",
+      "words": 300,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "supplies",
+          "heading": true
+        },
+        {
+          "term": "cold chain",
+          "heading": false
+        },
+        {
+          "term": "multi-dose vial",
+          "heading": false
+        },
+        {
+          "term": "related supplies",
+          "heading": false
+        },
+        {
+          "term": "vial policy",
+          "heading": false
+        },
+        {
+          "term": "temperature",
+          "heading": false
+        },
+        {
+          "term": "stock",
+          "heading": false
+        },
+        {
+          "term": "conditions",
+          "heading": false
+        }
+      ],
+      "extract": "• During an interruption in services, supply chains at local, regional, national, and possibly international levels may be affected. Stock out of key supplies may be a challenge, requiring a remapping of inventory, at all levels, and a coordinated redistribution of supplies once delivery channels are reopened. • The situation can be mitigated by the following actions: o Establish and implement procedures for",
+      "extractCut": true
+    },
+    {
+      "id": "sec-015-23-monitoring-the-extent-of-the-interruption",
+      "number": "2.3",
+      "title": "Monitoring the extent of the interruption",
+      "level": 2,
+      "pageStart": 27,
+      "pageEnd": 28,
+      "labelStart": "17",
+      "labelEnd": "18",
+      "words": 730,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "target population",
+          "heading": false
+        },
+        {
+          "term": "catch-up efforts",
+          "heading": false
+        },
+        {
+          "term": "administered doses",
+          "heading": false
+        },
+        {
+          "term": "intensified catch-up",
+          "heading": false
+        },
+        {
+          "term": "catch-up strategies",
+          "heading": false
+        },
+        {
+          "term": "disruption",
+          "heading": false
+        },
+        {
+          "term": "period",
+          "heading": false
+        },
+        {
+          "term": "estimate",
+          "heading": false
+        }
+      ],
+      "extract": "• It is important to monitor the situation as closely as possible throughout the period of disruption and track individuals or cohorts missing vaccination as best as possible to inform catch-up strategies. This can be done by: o Continuing to monitor vaccination coverage, VPD surveillance, AEFIs, and vaccine safety concerns in order to identify gaps, inequalities and vulnerable groups and communities. o Maintaining",
+      "extractCut": true
+    },
+    {
+      "id": "sec-016-24-communication-and-community-engagement",
+      "number": "2.4",
+      "title": "Communication and community engagement",
+      "level": 2,
+      "pageStart": 28,
+      "pageEnd": 29,
+      "labelStart": "18",
+      "labelEnd": "19",
+      "words": 270,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "communication",
+          "heading": true
+        },
+        {
+          "term": "community",
+          "heading": true
+        },
+        {
+          "term": "engagement",
+          "heading": true
+        },
+        {
+          "term": "confidence",
+          "heading": false
+        },
+        {
+          "term": "media",
+          "heading": false
+        },
+        {
+          "term": "demand",
+          "heading": false
+        },
+        {
+          "term": "safe",
+          "heading": false
+        },
+        {
+          "term": "strategies",
+          "heading": false
+        }
+      ],
+      "extract": "• Even if routine immunization services have continued at reduced capacity or once they resume, demand and accessibility may remain low and intermittent interruptions may continue to occur for some time. • Engagement with communities (including local civil society, non-governmental and faith-based organizations, professional associations, etc.) to help design and implement tailored and targeted communication",
+      "extractCut": true
+    },
+    {
+      "id": "sec-017-25-strategies-for-catch-up-vaccination-after-an",
+      "number": "2.5",
+      "title": "Strategies for catch-up vaccination after an interruption of services",
+      "level": 2,
+      "pageStart": 29,
+      "pageEnd": 34,
+      "labelStart": "19",
+      "labelEnd": "24",
+      "words": 1930,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "selective mass",
+          "heading": false
+        },
+        {
+          "term": "strategies",
+          "heading": true
+        },
+        {
+          "term": "outreach activities",
+          "heading": false
+        },
+        {
+          "term": "risk factors",
+          "heading": false
+        },
+        {
+          "term": "piri approach",
+          "heading": false
+        },
+        {
+          "term": "intensified catch-up",
+          "heading": false
+        },
+        {
+          "term": "preventive campaigns",
+          "heading": false
+        },
+        {
+          "term": "age ranges",
+          "heading": false
+        }
+      ],
+      "extract": "• Offering catch-up vaccination on an ongoing basis through the routine immunization system is the least resource intensive and most sustainable strategy for ensuring individuals are able to receive the vaccines they are due, especially if the service interruption is relatively short. • If immunization services have been impacted for a prolonged period of time, additional strategies to accelerate catch-up",
+      "extractCut": true
+    },
+    {
+      "id": "sec-018-annex-1-designing-catch-up-vaccination-schedules",
+      "number": "Annex 1",
+      "title": "Designing Catch-up Vaccination Schedules",
+      "level": 1,
+      "pageStart": 34,
+      "pageEnd": 36,
+      "labelStart": "24",
+      "labelEnd": "26",
+      "words": 858,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "catch-up schedules",
+          "heading": true
+        },
+        {
+          "term": "dose doses",
+          "heading": false
+        },
+        {
+          "term": "repeating previous",
+          "heading": false
+        },
+        {
+          "term": "birth dose",
+          "heading": false
+        },
+        {
+          "term": "started years",
+          "heading": false
+        },
+        {
+          "term": "maximum interval",
+          "heading": false
+        },
+        {
+          "term": "resume",
+          "heading": false
+        },
+        {
+          "term": "primary series",
+          "heading": false
+        }
+      ],
+      "extract": "Every country should have a catch-up vaccination schedule designed in line with the national immunization schedule, that adhere to any upper or lower age requirements as determined by the national immunization policy. NITAGs should be involved in the process of developing a catch-up vaccination schedule at the earliest opportunity. Catch-up vaccination schedules can be designed in a variety of ways and, as",
+      "extractCut": true
+    },
+    {
+      "id": "sec-019-annex-2-minimum-intervals-between-doses-in-a-vac",
+      "number": "Annex 2",
+      "title": "Minimum Intervals between Doses in a Vaccine Series",
+      "level": 1,
+      "pageStart": 36,
+      "pageEnd": 37,
+      "labelStart": "26",
+      "labelEnd": "27",
+      "words": 432,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "birth dose",
+          "heading": false
+        },
+        {
+          "term": "started years",
+          "heading": false
+        },
+        {
+          "term": "minimum interval",
+          "heading": false
+        },
+        {
+          "term": "excluding birth",
+          "heading": false
+        },
+        {
+          "term": "weeks",
+          "heading": false
+        },
+        {
+          "term": "months",
+          "heading": false
+        },
+        {
+          "term": "comments",
+          "heading": false
+        },
+        {
+          "term": "earliest opportunity",
+          "heading": false
+        }
+      ],
+      "extract": "For vaccines requiring multiple doses, the minimum interval is the shortest amount of time permissible between doses in order to provide an adequate immune response. If the interval between the doses is shorter than the minimum interval, the second dose received may not be effective. Refer to WHO recommendations for interrupted or delayed immunization to design an catch-up vaccination schedule and job aids to assist",
+      "extractCut": true
+    },
+    {
+      "id": "sec-020-annex-3-sample-job-aids-for-catch-up-vaccination",
+      "number": "Annex 3",
+      "title": "Sample job aids for catch-up vaccination",
+      "level": 1,
+      "pageStart": 37,
+      "pageEnd": 40,
+      "labelStart": "27",
+      "labelEnd": "30",
+      "words": 128,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "job aids",
+          "heading": true
+        },
+        {
+          "term": "available here",
+          "heading": false
+        },
+        {
+          "term": "catch-up",
+          "heading": true
+        },
+        {
+          "term": "calculator",
+          "heading": false
+        },
+        {
+          "term": "today",
+          "heading": false
+        }
+      ],
+      "extract": "The job aids below are illustrative examples, to be adapted in line with national immunization schedules and catch-up vaccination policies. Additional examples of job aids for adaptation are available on Tech-net (https://www.technet-21.org/en/topics) Some countries have developed online, computer or mobile phone-based applications to help health workers calculate eligibility for catch-up and answer frequently asked",
+      "extractCut": true
+    },
+    {
+      "id": "sec-021-annex-4-catch-up-vaccination-worksheet-for-deter",
+      "number": "Annex 4",
+      "title": "Catch-up vaccination worksheet for determining eligibility",
+      "level": 1,
+      "pageStart": 40,
+      "pageEnd": 41,
+      "labelStart": "30",
+      "labelEnd": "31",
+      "words": 152,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "date",
+          "heading": false
+        },
+        {
+          "term": "comments",
+          "heading": false
+        },
+        {
+          "term": "australian",
+          "heading": false
+        },
+        {
+          "term": "doses",
+          "heading": false
+        },
+        {
+          "term": "handbook",
+          "heading": false
+        }
+      ],
+      "extract": "Worksheets like this can be a useful tool to help health workers assess which doses an individual is eligible for at the time of a visit, and when subsequent doses will be needed (to communicate this to the caregiver or individual). Name: Date of this assessment: Date of birth: Age at this assessment: Vaccine Number of doses received and date for each Number of doses needed at current age Dose number due now",
+      "extractCut": true
+    },
+    {
+      "id": "sec-022-annex-5-tally-sheets-for-routine-childhood-vacci",
+      "number": "Annex 5",
+      "title": "Tally sheets for routine childhood vaccinations",
+      "level": 1,
+      "pageStart": 41,
+      "pageEnd": 43,
+      "labelStart": "31",
+      "labelEnd": "33",
+      "words": 97,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "remove age",
+          "heading": false
+        },
+        {
+          "term": "alternative designs",
+          "heading": false
+        },
+        {
+          "term": "sheet below",
+          "heading": false
+        },
+        {
+          "term": "calculating coverage",
+          "heading": false
+        }
+      ],
+      "extract": "The tally sheet below provides an example of a design which allows health workers to record catch- up vaccinations administered without restricting recording within an upper age limit. Depending on the programme objectives for calculating coverage, alternative designs may remove age groupings entirely. 32 Tally sheet for routine childhood vaccinations – example 2 The tally sheet below provides an example of a design",
+      "extractCut": true
+    },
+    {
+      "id": "sec-023-annex-6-periodic-intensification-of-routine-immu",
+      "number": "Annex 6",
+      "title": "Periodic Intensification of Routine Immunization: An Overview",
+      "level": 1,
+      "pageStart": 43,
+      "pageEnd": 48,
+      "labelStart": "33",
+      "labelEnd": "38",
+      "words": 2280,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "piri activity",
+          "heading": false
+        },
+        {
+          "term": "piri targeted",
+          "heading": false
+        },
+        {
+          "term": "piri service",
+          "heading": false
+        },
+        {
+          "term": "potential piri",
+          "heading": false
+        },
+        {
+          "term": "during piri",
+          "heading": false
+        },
+        {
+          "term": "routine",
+          "heading": true
+        },
+        {
+          "term": "through piri",
+          "heading": false
+        },
+        {
+          "term": "delivery activity",
+          "heading": false
+        }
+      ],
+      "extract": "The note below was developed in October 2018 by an ad-hoc workgroup on PIRI.a About Periodic intensification of routine immunization (PIRI) is an umbrella term to describe a spectrum of time-limited, intermittent activities used to administer routine vaccinations to under-vaccinated populations and/or raise awareness of the benefits of vaccination. Example activities include Child Health Days, Child Health Weeks,",
+      "extractCut": true
+    },
+    {
+      "id": "sec-024-annex-7-actions-to-enhance-acceptance-and-demand",
+      "number": "Annex 7",
+      "title": "Actions to enhance acceptance and demand for vaccination",
+      "level": 1,
+      "pageStart": 48,
+      "pageEnd": 50,
+      "labelStart": "38",
+      "labelEnd": "40",
+      "words": 837,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "demand",
+          "heading": true
+        },
+        {
+          "term": "build acceptance",
+          "heading": false
+        },
+        {
+          "term": "supportive supervision",
+          "heading": false
+        },
+        {
+          "term": "community engagement",
+          "heading": false
+        },
+        {
+          "term": "informed interventions",
+          "heading": false
+        },
+        {
+          "term": "civil society",
+          "heading": false
+        },
+        {
+          "term": "barriers",
+          "heading": false
+        },
+        {
+          "term": "messages",
+          "heading": false
+        }
+      ],
+      "extract": "KEY POINTS • Vaccination uptake is affected by both individual, social and practical factors. This includes the convenience and experience of immunization services, as well as community trust in vaccines and local or national authorities. • Building acceptance and demand for vaccination not only contributes to closing immunity gaps but strengthens resilience in the face of vaccine-related events (e.g. outbreaks,",
+      "extractCut": true
+    },
+    {
+      "id": "sec-025-annex-8-example-vpd-risk-assessment-worksheets",
+      "number": "Annex 8",
+      "title": "Example VPD risk-assessment worksheets",
+      "level": 1,
+      "pageStart": 50,
+      "pageEnd": 53,
+      "labelStart": "40",
+      "labelEnd": "43",
+      "words": 976,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "transmission season",
+          "heading": false
+        },
+        {
+          "term": "past years",
+          "heading": false
+        },
+        {
+          "term": "children years",
+          "heading": false
+        },
+        {
+          "term": "polio-free countries",
+          "heading": false
+        },
+        {
+          "term": "cases peak",
+          "heading": false
+        },
+        {
+          "term": "polio case",
+          "heading": false
+        },
+        {
+          "term": "worksheets",
+          "heading": true
+        },
+        {
+          "term": "risk level",
+          "heading": false
+        }
+      ],
+      "extract": "The risk-assessment worksheets below are examples, taken from the WHO Vaccination in Acute Humanitarian Emergencies: a Framework for Decision Making.e Worksheets to assist in risk- assessments for the following VPDs can be found in Annex 2 of that document: • cholera • diphtheria • hepatitis A • hepatitis B • hepatitis E • Haemophilus influenza type b (Hib) • human papillomavirus (HPV) • influenza (seasonal) •",
+      "extractCut": true
+    }
+  ],
+  "checks": {
+    "tocAlignment": {
+      "listed_not_found": {
+        "count": 0,
+        "items": []
+      },
+      "found_not_listed": {
+        "count": 2,
+        "items": [
+          "3 Correct recording and reporting of delayed doses,",
+          "4 Leveraging every health contact as an opportunity to check vaccination history and catch up on vaccinations as appropriate."
+        ]
+      },
+      "page_mismatch": {
+        "count": 0,
+        "items": []
+      }
+    },
+    "figureSequenceGaps": [],
+    "pageLabelConflicts": {
+      "count": 0,
+      "items": []
+    }
+  },
+  "withheld": false,
+  "keywords": [
+    {
+      "term": "catch-up doses",
+      "heading": true
+    },
+    {
+      "term": "routine doses",
+      "heading": false
+    },
+    {
+      "term": "catch-up schedule",
+      "heading": true
+    },
+    {
+      "term": "catch-up individuals",
+      "heading": true
+    },
+    {
+      "term": "catch-up strategies",
+      "heading": true
+    },
+    {
+      "term": "missed doses",
+      "heading": false
+    },
+    {
+      "term": "catch-up efforts",
+      "heading": true
+    },
+    {
+      "term": "target age",
+      "heading": false
+    },
+    {
+      "term": "routine services",
+      "heading": false
+    },
+    {
+      "term": "catch-up opportunity",
+      "heading": false
+    },
+    {
+      "term": "doses during",
+      "heading": false
+    },
+    {
+      "term": "intensified catch-up",
+      "heading": true
+    }
+  ],
+  "pageLabels": [
+    {
+      "physical": 1,
+      "label": null,
+      "source": null,
+      "confidence": 0
+    },
+    {
+      "physical": 2,
+      "label": null,
+      "source": null,
+      "confidence": 0
+    },
+    {
+      "physical": 3,
+      "label": null,
+      "source": null,
+      "confidence": 0
+    },
+    {
+      "physical": 4,
+      "label": null,
+      "source": null,
+      "confidence": 0
+    },
+    {
+      "physical": 5,
+      "label": "iii",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 6,
+      "label": "iv",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 7,
+      "label": "v",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 8,
+      "label": "vi",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 9,
+      "label": "vii",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 10,
+      "label": "viii",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 11,
+      "label": "1",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 12,
+      "label": "2",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 13,
+      "label": "3",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 14,
+      "label": "4",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 15,
+      "label": "5",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 16,
+      "label": "6",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 17,
+      "label": "7",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 18,
+      "label": "8",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 19,
+      "label": "9",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 20,
+      "label": "10",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 21,
+      "label": "11",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 22,
+      "label": "12",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 23,
+      "label": "13",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 24,
+      "label": "14",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 25,
+      "label": "15",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 26,
+      "label": "16",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 27,
+      "label": "17",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 28,
+      "label": "18",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 29,
+      "label": "19",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 30,
+      "label": "20",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 31,
+      "label": "21",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 32,
+      "label": "22",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 33,
+      "label": "23",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 34,
+      "label": "24",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 35,
+      "label": "25",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 36,
+      "label": "26",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 37,
+      "label": "27",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 38,
+      "label": "28",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 39,
+      "label": "29",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 40,
+      "label": "30",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 41,
+      "label": "31",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 42,
+      "label": "32",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 43,
+      "label": "33",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 44,
+      "label": "34",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 45,
+      "label": "35",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 46,
+      "label": "36",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 47,
+      "label": "37",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 48,
+      "label": "38",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 49,
+      "label": "39",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 50,
+      "label": "40",
+      "source": "printed",
+      "confidence": 0.85
+    },
+    {
+      "physical": 51,
+      "label": "41",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 52,
+      "label": "42",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 53,
+      "label": "43",
+      "source": "printed",
+      "confidence": 0.7
+    }
+  ],
+  "figures": [
+    {
+      "kind": "figure",
+      "number": "1",
+      "title": "Elements of a strong catch-up vaccination strategy",
+      "page": 11,
+      "pageLabel": "1",
+      "confidence": 0.9,
+      "evidence": [
+        "referenced",
+        "in-sequence",
+        "graphic"
+      ]
+    },
+    {
+      "kind": "box",
+      "number": "1",
+      "title": "Designing a catch-up schedule •",
+      "page": 13,
+      "pageLabel": "3",
+      "confidence": 0.8,
+      "evidence": [
+        "referenced",
+        "in-sequence"
+      ]
+    },
+    {
+      "kind": "box",
+      "number": "2",
+      "title": "Summary Instructions for Health Workers on Catch-up Vaccination 1. At every health contact, review individual vaccination history (home-based record or immunization register) to determine whether any vaccine doses are missing or due. If there is no evidence or confirmation of vaccination history, as",
+      "page": 18,
+      "pageLabel": "8",
+      "confidence": 0.8,
+      "evidence": [
+        "referenced",
+        "in-sequence"
+      ]
+    },
+    {
+      "kind": "box",
+      "number": "3",
+      "title": "A note about denominators Reliable estimates of the target population are critical in order to effectively track and follow up with defaulters and also those individuals in the catchment area that are hard to reach or have difficulty accessing services. Target estimates can be obtained through sever",
+      "page": 20,
+      "pageLabel": "10",
+      "confidence": 0.8,
+      "evidence": [
+        "referenced",
+        "in-sequence"
+      ]
+    },
+    {
+      "kind": "box",
+      "number": "4",
+      "title": "The importance of Home-based Records (HBRs) as enablers of effective catch-up vaccination Without reliable documentation of individual vaccination history, an individual or caregiver may not be aware that vaccines are due and health workers may be unable to ascertain eligibility for catch-up vaccina",
+      "page": 21,
+      "pageLabel": "11",
+      "confidence": 0.8,
+      "evidence": [
+        "referenced",
+        "in-sequence"
+      ]
+    },
+    {
+      "kind": "box",
+      "number": "5",
+      "title": "Estimating target population for catch-up vaccination efforts In addition to compiling a list based on individual vaccination records, the target population for an intensified catch-up effort should be monitored throughout the period of disrupted services",
+      "page": 27,
+      "pageLabel": "17",
+      "confidence": 0.8,
+      "evidence": [
+        "referenced",
+        "in-sequence"
+      ]
+    },
+    {
+      "kind": "box",
+      "number": "6",
+      "title": "Choice of a catch-up vaccination strategy or strategies will depend on many factors: •",
+      "page": 29,
+      "pageLabel": "19",
+      "confidence": 0.8,
+      "evidence": [
+        "referenced",
+        "in-sequence"
+      ]
+    },
+    {
+      "kind": "box",
+      "number": "7",
+      "title": "A framework for decision-making on prioritization of strategies for vaccine delivery Adapted from the WHO Vaccination in Acute Humanitarian Emergencies: a Framework for Decision Making,39 the following framework can help countries follow an evidence based approach to prioritize delivery of vaccines",
+      "page": 30,
+      "pageLabel": "20",
+      "confidence": 0.8,
+      "evidence": [
+        "referenced",
+        "in-sequence"
+      ]
+    },
+    {
+      "kind": "table",
+      "number": "A1.1",
+      "title": "Catch-up vaccination schedule for Tetanus-toxoid-containing vaccine (TTCV) for previously unvaccinated individuals >1 year of age47",
+      "page": 34,
+      "pageLabel": "24",
+      "confidence": 0.8,
+      "evidence": [
+        "referenced",
+        "in-sequence"
+      ]
+    },
+    {
+      "kind": "table",
+      "number": "A1.2",
+      "title": "WHO recommendations for Interrupted or Delayed Routine Immunization – simplified tablea",
+      "page": 35,
+      "pageLabel": "25",
+      "confidence": 0.8,
+      "evidence": [
+        "referenced",
+        "in-sequence"
+      ]
+    },
+    {
+      "kind": "table",
+      "number": "A6.1",
+      "title": "PIRI goals, general strategies, and activities PIRI goal",
+      "page": 44,
+      "pageLabel": "34",
+      "confidence": 0.8,
+      "evidence": [
+        "referenced",
+        "in-sequence"
+      ]
+    },
+    {
+      "kind": "table",
+      "number": "A6.2",
+      "title": "Comparison of features of SIAs, PIRI targeted service delivery, and routine immunization service delivery SIA",
+      "page": 45,
+      "pageLabel": "35",
+      "confidence": 0.8,
+      "evidence": [
+        "referenced",
+        "in-sequence"
+      ]
+    },
+    {
+      "kind": "table",
+      "number": "A6.3",
+      "title": "Potential PIRI design based on country setting",
+      "page": 47,
+      "pageLabel": "37",
+      "confidence": 0.8,
+      "evidence": [
+        "referenced",
+        "in-sequence"
+      ]
+    },
+    {
+      "kind": "table",
+      "number": "A8.1",
+      "title": "Measles disease-specific risk factors Factor",
+      "page": 51,
+      "pageLabel": "41",
+      "confidence": 0.6,
+      "evidence": [
+        "in-sequence"
+      ]
+    },
+    {
+      "kind": "table",
+      "number": "A8.2",
+      "title": "Poliomyelitis disease-specific risk factors Factor",
+      "page": 52,
+      "pageLabel": "42",
+      "confidence": 0.6,
+      "evidence": [
+        "in-sequence"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "img-p001-1",
+      "file": "images/img-p001-1.png",
+      "page": 1,
+      "narratives": {},
+      "state": "draft"
+    },
+    {
+      "id": "img-p001-2",
+      "file": "images/img-p001-2.png",
+      "page": 1,
+      "narratives": {},
+      "state": "draft"
+    },
+    {
+      "id": "img-p003-1",
+      "file": "images/img-p003-1.png",
+      "page": 3,
+      "narratives": {},
+      "state": "draft"
+    },
+    {
+      "id": "img-p011-1",
+      "file": "images/img-p011-1.png",
+      "page": 11,
+      "narratives": {},
+      "state": "draft"
+    },
+    {
+      "id": "img-p034-1",
+      "file": "images/img-p034-1.png",
+      "page": 34,
+      "narratives": {},
+      "state": "draft"
+    },
+    {
+      "id": "img-p038-1",
+      "file": "images/img-p038-1.png",
+      "page": 38,
+      "narratives": {},
+      "state": "draft"
+    },
+    {
+      "id": "img-p039-1",
+      "file": "images/img-p039-1.png",
+      "page": 39,
+      "narratives": {},
+      "state": "draft"
+    },
+    {
+      "id": "img-p041-1",
+      "file": "images/img-p041-1.png",
+      "page": 41,
+      "narratives": {},
+      "state": "draft"
+    },
+    {
+      "id": "img-p042-1",
+      "file": "images/img-p042-1.png",
+      "page": 42,
+      "narratives": {},
+      "state": "draft"
+    },
+    {
+      "id": "img-p053-1",
+      "file": "images/img-p053-1.png",
+      "page": 53,
+      "narratives": {},
+      "state": "draft"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "caption": "",
+      "pages": [
+        8
+      ],
+      "columns": [
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Catch-up vaccination – refers to the action of vaccinating an individual, who for whatever reason"
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "(e.g. delays, stockouts, access, hesitancy, service interruptions, etc.), is missing/has not received"
+        ],
+        [
+          "",
+          "doses of vaccines for which they are eligible, per the national immunization schedule."
+        ],
+        [
+          "",
+          "• Catchup vaccination can be conducted through regular routine immunization service delivery"
+        ],
+        [
+          "",
+          "(fixed, outreach, mobile, school-based), periodic intensification of routine immunization (PIRI)"
+        ],
+        [
+          "",
+          "activities, or through innovative local strategies that ensure individuals have the opportunity to"
+        ],
+        [
+          "",
+          "receive routine immunizations for which they are overdue and eligible."
+        ],
+        [
+          "",
+          "• Catch-up vaccination as described in this document is not equivalent to other immunization"
+        ],
+        [
+          "",
+          "activities that use the word ‘catch-up’ such as ‘catch-up SIAs’ that are one-time campaigns to"
+        ],
+        [
+          "",
+          "vaccinate the main target population responsible for disease transmission in order to rapidly"
+        ],
+        [
+          "",
+          "reduce the number of susceptible individuals (see SIAs below), other ‘catch-up campaigns’ that"
+        ],
+        [
+          "",
+          "sometimes accompany new vaccine introductions, or from the strategy of ‘catch-up, keep-up,"
+        ],
+        [
+          "",
+          "follow-up, speed-up’ used for measles elimination in the Region of the Americas.1"
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-1.csv"
+    },
+    {
+      "label": "Table 2",
+      "caption": "",
+      "pages": [
+        13
+      ],
+      "columns": [
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Box 1. Designing a catch-up schedule"
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "• All countries should have a catch-up schedule that includes:"
+        ],
+        [
+          "",
+          "- Age cohorts to which the catch-up schedule applies (see below);"
+        ],
+        [
+          "",
+          "- Minimum age and maximum/upper age limit (if applicable as per national policy); and"
+        ],
+        [
+          "",
+          "- Clear directives on minimum intervals permissible between doses for each antigen."
+        ],
+        [
+          "",
+          "• As national immunization programmes expand to include vaccination across the life course,"
+        ],
+        [
+          "",
+          "multiple catch-up schedules for different target populations/age groups will be needed. This is"
+        ],
+        [
+          "",
+          "because the vaccine presentations, number of doses required, and minimum intervals differ"
+        ],
+        [
+          "",
+          "depending on an individuals’ current age, as well as age at starting a vaccine series."
+        ],
+        [
+          "",
+          "- For example, a country may require one catch-up schedule for children <7 years, another"
+        ],
+        [
+          "",
+          "catch-up schedule for individuals between 7-18 years, plus additional catch-up schedules"
+        ],
+        [
+          "",
+          "applicable to adults over 18 years, as well as special populations (such as health care"
+        ],
+        [
+          "",
+          "workers) where recommendations may differ."
+        ],
+        [
+          "",
+          "- This will vary by country and the target groups included in the routine immunization"
+        ],
+        [
+          "",
+          "programme."
+        ],
+        [
+          "",
+          "• Catch-up schedules can be designed in a variety of ways and because national immunization"
+        ],
+        [
+          "",
+          "schedules vary considerably across countries (and sometimes within), it is not possible to"
+        ],
+        [
+          "",
+          "recommend a ‘generic’ catch-up schedule."
+        ],
+        [
+          "",
+          "• Examples of catch-up schedules illustrating the variation in design approaches are provided in"
+        ],
+        [
+          "",
+          "Annex 1."
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-2.csv"
+    },
+    {
+      "label": "Table 3",
+      "caption": "",
+      "pages": [
+        18,
+        19,
+        20
+      ],
+      "columns": [
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Box 2. Summary Instructions for Health Workers on Catch-up Vaccination"
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "1. At every health contact, review individual vaccination history (home-based record or"
+        ],
+        [
+          "",
+          "immunization register) to determine whether any vaccine doses are missing or due. If there is no"
+        ],
+        [
+          "",
+          "evidence or confirmation of vaccination history, assume the person has not been vaccinated. Do"
+        ],
+        [
+          "",
+          "not blame the caregiver or individual if any doses are missing."
+        ],
+        [
+          "",
+          "2. Always respect the minimum age of eligibility for each vaccine in the schedule."
+        ],
+        [
+          "",
+          "3. For most vaccines, it is better to vaccinate late than never. Refer to the national catch-up"
+        ],
+        [
+          "",
+          "vaccination policy and catch-up schedule for any exceptions to this general principle."
+        ],
+        [
+          "",
+          "4. If more than one vaccine is due (or overdue) provide one dose of each vaccine at that visit. Do"
+        ],
+        [
+          "",
+          "not unnecessarily defer giving vaccines that are due or overdue."
+        ],
+        [
+          "",
+          "o Example: if a child arrives at 9 months for MR vaccine, but has not yet received OPV3,"
+        ],
+        [
+          "",
+          "Penta3, and IPV – the child is eligible for all four of these vaccines, and one dose of each"
+        ],
+        [
+          "",
+          "antigen can be given at the same visit."
+        ],
+        [
+          "",
+          "5. It is safe to give multiple vaccine injections at the same time, (this will allow the individual to be"
+        ],
+        [
+          "",
+          "protected as soon as possible, reduce the number of return visits needed, and minimize the risk"
+        ],
+        [
+          "",
+          "of defaulting)."
+        ],
+        [
+          "",
+          "o Explain this to the caregiver or individual and address any concerns raised about the"
+        ],
+        [
+          "",
+          "safety of multiple injections. If concerns remain, a caregiver or individual should not be"
+        ],
+        [
+          "",
+          "pressured to receive all catch-up doses during one visit. Work together with the"
+        ],
+        [
+          "",
+          "individual to agree when to return to receive remaining doses at earliest opportunity."
+        ],
+        [
+          "",
+          "6. Observe minimum intervals permissible between doses – for most vaccines in the primary series,"
+        ],
+        [
+          "",
+          "this is 4 weeks (1 month) between doses. For HPV, the minimum interval is 5 months."
+        ],
+        [
+          "",
+          "o Intervals recommended in the national immunization schedule may be reduced if a"
+        ],
+        [
+          "",
+          "previous dose was delayed, as long as the minimum interval is respected."
+        ],
+        [
+          "",
+          "o Example: if MR is recommended at 9 months and 15 months, and a child does not"
+        ],
+        [
+          "",
+          "receive MR1 until 12 months, they should still receive MR2 at 15 months."
+        ],
+        [
+          "",
+          "o Example: If a child receives MR1 at 15 months, they should receive MR2 at 16 months (4"
+        ],
+        [
+          "",
+          "weeks later)."
+        ],
+        [
+          "",
+          "o Example: if the first dose of HPV is delayed, observe the minimum interval of 5 months"
+        ],
+        [
+          "",
+          "before administering the second dose, irrespective of the recommended interval that"
+        ],
+        [
+          "",
+          "may be 6 or 12 months."
+        ],
+        [
+          "",
+          "7. If vaccination history shows that some but not all doses in a vaccine series were given, do not"
+        ],
+        [
+          "",
+          "restart the series, regardless of the time that has passed between doses. Continue with the next"
+        ],
+        [
+          "",
+          "dose required in the series."
+        ],
+        [
+          "",
+          "o Example: If the home-based record indicates the child has received 2 previous doses of"
+        ],
+        [
+          "",
+          "pentavalent (Penta1 and Penta2), but it has been 6 months since the last visit, continue"
+        ],
+        [
+          "",
+          "the series and record the dose given today as Penta3."
+        ],
+        [
+          "",
+          "o Example: If the home-based record or HPV vaccination card indicates more than the"
+        ],
+        [
+          "",
+          "recommended 6 or 12 months has passed since the first dose of HPV, provide the second"
+        ],
+        [
+          "",
+          "dose today, regardless of how long the interval and irrespective of the age of the girl."
+        ],
+        [
+          "",
+          "There is no maximum interval for HPV."
+        ],
+        [
+          "",
+          "8. Record administered vaccine dose(s) according to the actual dose number in the series received"
+        ],
+        [
+          "",
+          "(not based on what is due or expected at a certain age) (see more on Recording and reporting of"
+        ],
+        [
+          "",
+          "catch-up vaccination doses, below):"
+        ],
+        [
+          "",
+          "o Example: if a child is 5 months and is receiving pentavalent, oral polio vaccine (OPV), and"
+        ],
+        [
+          "",
+          "pneumococcal vaccine (PCV) for the first time, record all of these as the first dose:"
+        ],
+        [
+          "",
+          "Penta1, OPV1, PCV1."
+        ],
+        [
+          "",
+          "o Example: if a child is 15 months but has not yet received a first dose of measles-rubella"
+        ],
+        [
+          "",
+          "(MR) vaccine, record it as MR1."
+        ],
+        [
+          "",
+          "9. Schedule subsequent immunization visits, following the appropriate minimum interval, and"
+        ],
+        [
+          "",
+          "communicate this schedule with the caregiver or individual so they know when to return."
+        ],
+        [
+          "",
+          "10. Once the individual is back on track/caught up (having received all vaccines for which they are"
+        ],
+        [
+          "",
+          "due), revert to using the national immunization schedule until they are fully vaccinated."
+        ],
+        [
+          "",
+          "11. Remember to listen carefully to any questions from the caregiver or individual and respond in a"
+        ],
+        [
+          "",
+          "caring manner. Remind the caregiver or individual of the importance of vaccination and need to"
+        ],
+        [
+          "",
+          "bring the home-based record to every visit."
+        ],
+        [
+          "",
+          "Box 3. A note about denominators"
+        ],
+        [
+          "",
+          "Reliable estimates of the target population are critical in order to effectively track and follow up with"
+        ],
+        [
+          "",
+          "defaulters and also those individuals in the catchment area that are hard to reach or have difficulty"
+        ],
+        [
+          "",
+          "accessing services. Target estimates can be obtained through several different sources including"
+        ],
+        [
+          "",
+          "census data, Civil Registration and Vital Statistics (CRVS) systems, electronic immunization registers"
+        ],
+        [
+          "",
+          "(EIRs), local enumerators and head counts, service data from the immunization or other"
+        ],
+        [
+          "",
+          "programmes, and satellite imagery (sometimes in conjunction with mobile phone data)."
+        ],
+        [
+          "",
+          "For more detail on use of these sources for best estimates of target populations, see the WHO"
+        ],
+        [
+          "",
+          "Handbook on the use, collection, and improvement of immunization data."
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-3.csv"
+    },
+    {
+      "label": "Table 4",
+      "caption": "",
+      "pages": [
+        21
+      ],
+      "columns": [
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Box 4. The importance of Home-based Records (HBRs) as enablers of effective catch-up vaccination"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "Without reliable documentation of individual vaccination history, an individual or caregiver may not",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "be aware that vaccines are due and health workers may be unable to ascertain eligibility for catch-up",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "vaccination. The importance for the individual or caregiver to safely guard the HBR and bring it to",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "every health contact should be stressed at every opportunity.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "In some countries, it may not be common practice to recommend caregivers keep HBRs beyond early",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "childhood. However, as programmes move towards a life course approach to vaccination, with",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "additional vaccines introduced at older ages, maintaining an individual record of vaccination history",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "is becoming increasingly important.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "HBR stockouts continue to be a problem in many settings, contributing to missed opportunities for",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "vaccination. Countries must ensure that an ample supply of HBRs are available for distribution,",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "including sufficient buffer stock for replacement if a caregiver or individual has misplaced the HBR.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Where an individuals’ vaccination status cannot be confirmed, it should be assumed that they are not",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "vaccinated, and catch-up vaccination should be offered.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "The WHO Intervention Guidebook for implementing and monitoring activities to reduce Missed",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Opportunities for Vaccination25 offers guidance and solutions to common encounters where HBRs are",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "unavailable or difficult for the health worker to interpret.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Problem",
+          "",
+          "",
+          "Solution"
+        ],
+        [
+          "",
+          "The HBR is not available.",
+          "The HBR is not",
+          "",
+          "",
+          "• During supervision, remind health workers to use all available means"
+        ],
+        [
+          "",
+          "",
+          "available.",
+          "",
+          "",
+          "to verify the vaccination status (checking health facility registers,"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "contacting previous health centre visited, etc.)."
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "• Lack of documentation is not a valid reason for not vaccinating eligible"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "individuals."
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "• When in doubt, vaccinate and issue a new or temporary card; remind"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "the caregiver or individual to keep the HBR safe but avoid criticism or"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "humiliation as that may deter the individual from returning for future"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "doses."
+        ],
+        [
+          "",
+          "The HBR is in a different format, or language, to what the health worker is used to.",
+          "",
+          "",
+          "",
+          "• Online resources are available to assist health workers in translating"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "common foreign language terms found in immunization records. See"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "examples below:"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "https://www.cdc.gov/vaccines/pubs/pinkbook/downloads/appendices/B/foreign-products-"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "tables.pdf"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "http://www.immunize.org/izpractices/p5121.pdf"
+        ],
+        [
+          "",
+          "HBR is poorly designed/easily damaged.",
+          "",
+          "",
+          "",
+          "Immediate term: conduct inquiry with health workers to identify specific"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "areas of confusion in existing card to provide clarification through"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "supportive supervision or training."
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Medium term: Revise and improve HBR."
+        ],
+        [
+          "",
+          "For more on strengthening the implementation of HBRs, see WHO resources on Home-Based",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Records.26",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-4.csv"
+    },
+    {
+      "label": "Table 5",
+      "caption": "",
+      "pages": [
+        27
+      ],
+      "columns": [
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Box 5. Estimating target population for catch-up vaccination efforts"
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "In addition to compiling a list based on individual vaccination records, the target population for an"
+        ],
+        [
+          "",
+          "intensified catch-up effort should be monitored throughout the period of disrupted services."
+        ],
+        [
+          "",
+          "Based on a monitoring chart or other monthly numerator data, compare (A) the difference in"
+        ],
+        [
+          "",
+          "cumulative doses administered, year-to-date, to one of the following (B):"
+        ],
+        [
+          "",
+          "• the cumulative target, year-to-date, if it is credible, or"
+        ],
+        [
+          "",
+          "• if the target cannot be used: the equivalent cumulative number of administered doses by year-"
+        ],
+        [
+          "",
+          "to-date on last year’s monitoring chart/tabulation, or"
+        ],
+        [
+          "",
+          "• if last year’s performance data is not deemed representative: the average numbers of"
+        ],
+        [
+          "",
+          "administered doses for the months pre-disruption."
+        ],
+        [
+          "",
+          "The difference between (A) and (B) can be used as an estimated target requiring catch-up, to be"
+        ],
+        [
+          "",
+          "added to the regular monthly target population (see below)."
+        ],
+        [
+          "",
+          "Note that this method of estimation assumes a relatively stable target population size which may not"
+        ],
+        [
+          "",
+          "be the case, especially depending on the type, extent, and cause of the disruption. Using various"
+        ],
+        [
+          "",
+          "sources of data available to estimate and update denominators is therefore also extremely important"
+        ],
+        [
+          "",
+          "(see Box 3 in Section 1)."
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-5.csv"
+    },
+    {
+      "label": "Table 6",
+      "caption": "",
+      "pages": [
+        29,
+        30
+      ],
+      "columns": [
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Box 6. Choice of a catch-up vaccination strategy or strategies will depend on many factors:"
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "• Duration and extent of disrupted immunization services"
+        ],
+        [
+          "",
+          "• Local epidemiology of outbreak-prone VPDs (e.g. measles, polio, diphtheria, yellow fever)"
+        ],
+        [
+          "",
+          "• Size and extent of pre-existing immunity gaps in under-served communities or assessment of"
+        ],
+        [
+          "",
+          "overall population-level immunity in low coverage contexts"
+        ],
+        [
+          "",
+          "• Dates and age ranges of last planned preventive campaigns for various outbreak-prone VPDs"
+        ],
+        [
+          "",
+          "• Target population (e.g. age, geography) needing to be caught up"
+        ],
+        [
+          "",
+          "• Human resources available"
+        ],
+        [
+          "",
+          "• Vaccine stocks and supplies available"
+        ],
+        [
+          "",
+          "• Financial resources available"
+        ],
+        [
+          "",
+          "• Availability of home-based records and/or nominal immunization registers"
+        ],
+        [
+          "",
+          "• Local contextual considerations (e.g. rainy season, security, major political events)"
+        ],
+        [
+          "",
+          "• Other specifics related to cause of disruption (e.g. pandemic transmission risks, physical"
+        ],
+        [
+          "",
+          "distancing measures required, etc.)"
+        ],
+        [
+          "",
+          "Additional considerations:"
+        ],
+        [
+          "",
+          "• Timing – The timeframe for resuming immunization services may be difficult to define and may"
+        ],
+        [
+          "",
+          "vary across settings. Guidance and strategies may need to be revised and reprioritized as the"
+        ],
+        [
+          "",
+          "situation evolves. Different strategies may be needed for different geographical regions (tailored"
+        ],
+        [
+          "",
+          "approach)."
+        ],
+        [
+          "",
+          "• Coordination and integration – Identify opportunities to collaborate with other disease control"
+        ],
+        [
+          "",
+          "programmes such as polio, malaria, yellow fever, other NTDs, etc., as well as opportunistic"
+        ],
+        [
+          "",
+          "linkage with other sectors of health services (curative/treatment, antenatal, family planning, etc.)"
+        ],
+        [
+          "",
+          "• Demand and acceptance – Health-seeking behaviors will be influenced by the cause of the"
+        ],
+        [
+          "",
+          "disruption (e.g. pandemic fears and social distancing measures, acute violence/insecurity, etc.),"
+        ],
+        [
+          "",
+          "and may negatively impact demand and acceptance for vaccines. These concerns should be"
+        ],
+        [
+          "",
+          "considered when planning activities and during training. To succeed, the selected strategy or"
+        ],
+        [
+          "",
+          "strategies must be convenient and acceptable to the local community."
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-6.csv"
+    },
+    {
+      "label": "Table 7",
+      "caption": "",
+      "pages": [
+        30
+      ],
+      "columns": [
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Box 7. A framework for decision-making on prioritization of strategies for vaccine delivery"
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "Adapted from the WHO Vaccination in Acute Humanitarian Emergencies: a Framework for Decision"
+        ],
+        [
+          "",
+          "Making,39 the following framework can help countries follow an evidence based approach to"
+        ],
+        [
+          "",
+          "prioritize delivery of vaccines during and following a protracted crisis situation. Refer to the full"
+        ],
+        [
+          "",
+          "Framework document for details on how to conduct and adapt each step as well as specific factors to"
+        ],
+        [
+          "",
+          "consider for each VPD."
+        ],
+        [
+          "",
+          "Step 1: Conduct an epidemiological risk assessment for each VPD based on general risk factors"
+        ],
+        [
+          "",
+          "(e.g., population immunity, burden of disease, etc.), as well as risk factors associated with the"
+        ],
+        [
+          "",
+          "cause of the service interruption (e.g., acute conflict, pandemic, etc.)."
+        ],
+        [
+          "",
+          "• Risk assessment worksheets for each VPD are available in the Framework. Example"
+        ],
+        [
+          "",
+          "worksheets for measles and polio are provided in Annex 8."
+        ],
+        [
+          "",
+          "Step 2: Consider each vaccine and its amenability for various delivery strategies based on"
+        ],
+        [
+          "",
+          "vaccine characteristics (e.g. availability in sufficient quantities, cold chain requirements, etc.) and"
+        ],
+        [
+          "",
+          "operational factors for delivery."
+        ],
+        [
+          "",
+          "Step 3: Assess contextual factors and competing needs (e.g., ethical, political, security,"
+        ],
+        [
+          "",
+          "economic, logistic, and other considerations and constraints)"
+        ],
+        [
+          "",
+          "An e-Tool based on the Framework has been developed and is available for download here:"
+        ],
+        [
+          "",
+          "https://www.who.int/teams/immunization-vaccines-and-biologicals/essential-programme-on-"
+        ],
+        [
+          "",
+          "immunization/implementation/vaccination-in-humanitarian-emergencies"
+        ],
+        [
+          "",
+          "An e-Learning course is also available, in collaboration with UNICEF, and can be accessed here:"
+        ],
+        [
+          "",
+          "https://agora.unicef.org/course/info.php"
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-7.csv"
+    },
+    {
+      "label": "Table A1.2",
+      "caption": "Table A1.2 – WHO recommendations for Interrupted or Delayed Routine Immunization – simplified tablea",
+      "pages": [
+        35
+      ],
+      "columns": [
+        {
+          "titles": "Antigen"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Minimum age of first dose"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Doses in primary series"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Interrupted primary series"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Doses for those who start vaccination late"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Booster"
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "(minimum interval between",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "If ≤ 12 months of",
+          "",
+          "If > 12 months of age",
+          "If > 12 months of age",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "doses)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "age",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "BCG",
+          "",
+          "As soon as possible after birth",
+          "1 dose",
+          "",
+          "",
+          "NA",
+          "",
+          "",
+          "1 dose",
+          "",
+          "",
+          "1 dose",
+          "",
+          "",
+          "Not recommended",
+          ""
+        ],
+        [
+          "Hepatitis B",
+          "",
+          "As soon as possible after birth (<24h)",
+          "Birth dose <24 hrs plus 2-3 doses with DTPCV (4 weeks)",
+          "",
+          "",
+          "Resume without repeating previous dose",
+          "",
+          "",
+          "3 doses",
+          "",
+          "",
+          "3 doses",
+          "",
+          "",
+          "Not recommended",
+          ""
+        ],
+        [
+          "Polio",
+          "bOPV + IPV",
+          "6 weeks (see footnote for birth dose)b",
+          "4 doses (IPV dose to be given with bOPV dose from 14 weeks of age) (4 weeks)",
+          "",
+          "",
+          "Resume without repeating previous dose",
+          "",
+          "",
+          "4 doses (IPV to be given with 1st dose of bOPV)",
+          "",
+          "",
+          "4 doses (IPV to be given with 1st dose of bOPV)",
+          "",
+          "",
+          "Not recommended",
+          ""
+        ],
+        [
+          "",
+          "IPV / bOPV Sequential",
+          "8 weeks (IPV 1st)",
+          "1-2 doses IPV and 2 doses bOPV (4 weeks)",
+          "",
+          "",
+          "Resume without repeating previous dose",
+          "",
+          "",
+          "1-2 doses IPV and 2 doses bOPV",
+          "",
+          "",
+          "1-2 doses IPV and 2 doses bOPV",
+          "",
+          "",
+          "Not recommended",
+          ""
+        ],
+        [
+          "",
+          "IPV",
+          "8 weeks",
+          "3 doses (4 weeks)",
+          "",
+          "",
+          "Resume without repeating previous dose",
+          "",
+          "",
+          "3 doses",
+          "",
+          "",
+          "3 doses",
+          "",
+          "",
+          "If primary series begins < 2 months of age, booster to be given at least 6 months after the last dose",
+          ""
+        ],
+        [
+          "DTP-containing vaccine (DTPCV)",
+          "",
+          "6 weeks",
+          "3 doses (4 weeks)",
+          "",
+          "",
+          "Resume without repeating previous dose",
+          "",
+          "",
+          "3 doses",
+          "",
+          "",
+          "3 doses with interval of at least 4 weeks between 1st & 2nd dose, and at least 6 months between 2nd & 3rd dose. (if > 7 yrs use only aP containing vaccine",
+          "",
+          "",
+          "3 boosters: 12-23 months (DTP- containing vaccine); 4-7 years (Td/DT containing vaccine; and 9-15 yrs (Td containing) (if > 7 yrs use only aP containing vaccine).",
+          ""
+        ],
+        [
+          "Pneumococcal (Conjugate) (PCV)",
+          "",
+          "6 weeks",
+          "3 doses (3p+0) with DTPCV (4 weeks) or 2 doses (2p+1) (8 weeks)",
+          "",
+          "",
+          "Resume without repeating previous dose",
+          "",
+          "",
+          "2-3 doses",
+          "",
+          "",
+          "1-5 yrs at high-risk: 2 doses",
+          "",
+          "",
+          "Booster at 9-18 months if following a 2-dose schedule. Another booster if HIV+ or preterm neonate.",
+          ""
+        ],
+        [
+          "Rotavirus",
+          "",
+          "6 weeks",
+          "2 or 3 depending on product",
+          "",
+          "",
+          "Resume without repeating previous dose",
+          "",
+          "",
+          "2 or 3 depending on product",
+          "",
+          "",
+          ">24 months limited benefit",
+          "",
+          "",
+          "Not recommended",
+          ""
+        ],
+        [
+          "Measles-containing vaccine (MCV)",
+          "",
+          "9 or 12 months (6 months min, see footnote)c",
+          "2 doses (4 weeks)",
+          "",
+          "",
+          "Resume without repeating previous dose",
+          "",
+          "",
+          "2 doses",
+          "",
+          "",
+          "2 doses",
+          "",
+          "",
+          "Not recommended",
+          ""
+        ],
+        [
+          "Rubella",
+          "",
+          "9 or 12 months",
+          "1 dose with MCV",
+          "",
+          "",
+          "",
+          "NA",
+          "",
+          "1 dose",
+          "",
+          "",
+          "1 dose",
+          "",
+          "",
+          "Not recommended",
+          ""
+        ],
+        [
+          "Human Papillomavirus vaccine (HPV)",
+          "",
+          "As soon as possible from 9 years of age",
+          "If started <15 years, 2 doses (5 months)",
+          "",
+          "",
+          "Resume without repeating previous dose No maximum interval.",
+          "",
+          "",
+          "NA",
+          "",
+          "",
+          "9-14 years: 2 doses",
+          "",
+          "",
+          "Not recommended",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "If started ≥15 years, 3 doses (1 month for 2nd dose, 4 months for 3rd dose)",
+          "",
+          "",
+          "Resume without repeating previous dose No maximum interval.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "≥15 years: 3 doses",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-8.csv"
+    },
+    {
+      "label": "Table 9",
+      "caption": "",
+      "pages": [
+        36
+      ],
+      "columns": [
+        {
+          "titles": "Antigen"
+        },
+        {
+          "titles": "Minimum age at first dose"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Minimum interval between doses 1 and 2"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Minimum interval between doses 2 and 3"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Minimum interval between doses 3 and 4"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Comments"
+        },
+        {
+          "titles": ""
+        }
+      ],
+      "rows": [
+        [
+          "BCG",
+          "Birth",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Give at earliest opportunity after birth",
+          ""
+        ],
+        [
+          "Hepatitis B birth dose",
+          "Birth",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Give at earliest opportunity after birth, up until eligible for the first dose of HepB1 or combination vaccine",
+          ""
+        ],
+        [
+          "Hepatitis B (excluding birth dose)",
+          "6 weeks",
+          "",
+          "",
+          "4 weeks",
+          "",
+          "",
+          "4 weeks",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "DTP-containing vaccine",
+          "6 weeks",
+          "",
+          "",
+          "4 weeks",
+          "",
+          "",
+          "4 weeks (If >1 year, leave at least 6 months between dose 2 and 3)",
+          "",
+          "",
+          "6 months (and >1 year of age)",
+          "",
+          "",
+          "",
+          "If >7 years, use only aP containing vaccine; if >7"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "years, use Td-containing vaccine"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "A total of 6 doses of Td/DT-containing vaccine"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "are recommended, minimum interval of 6"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "months."
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "If Td vaccination is started during adolescence"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "or adulthood, only 5 doses are required."
+        ],
+        [
+          "Hib*",
+          "6 weeks",
+          "",
+          "",
+          "4 weeks",
+          "",
+          "",
+          "4 weeks",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "If >1 year, only 1 dose is needed. Not recommended for >5 years, if healthy.",
+          ""
+        ],
+        [
+          "Polio OPV (excluding birth dose)*",
+          "6 weeks",
+          "",
+          "",
+          "4 weeks",
+          "",
+          "",
+          "4 weeks",
+          "",
+          "",
+          "4 weeks",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Polio IPV*",
+          "8 weeks",
+          "",
+          "",
+          "4 weeks",
+          "",
+          "",
+          "4 weeks",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "For IPV-only schedules, if the first dose is given <2 months, a booster should be given at least 6 months after the last dose.",
+          ""
+        ],
+        [
+          "Rotavirus",
+          "6 weeks",
+          "",
+          "",
+          "4 weeks",
+          "",
+          "",
+          "4 weeks (if using a 3- dose schedule)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Not recommended >2 years.",
+          ""
+        ],
+        [
+          "PCV*",
+          "",
+          "6 weeks",
+          "",
+          "",
+          "4 weeks",
+          "",
+          "",
+          "4 weeks",
+          "",
+          "",
+          "",
+          "",
+          "If 1-5 years, only 2 doses needed.",
+          ""
+        ],
+        [
+          "MR or MMR",
+          "9 months (6 months, see comments)",
+          "",
+          "",
+          "4 weeks (and >1 year of age, for 2nd dose)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "In certain cases, a supplementary dose of measles vaccine can be given as early as 6 months of age. Any dose given <9 months should be recorded as MCV0. Two subsequent doses are required.",
+          ""
+        ],
+        [
+          "HPV",
+          "",
+          "9 years",
+          "",
+          "5 months",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "If series is started ≥15 years old, 3 doses are needed (minimum interval 1 month between 1st and 2nd dose; 4 months between 2nd and 3rd dose)",
+          ""
+        ],
+        [
+          "",
+          "",
+          "(if started ≥15",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "years, see",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "comments)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-9.csv"
+    },
+    {
+      "label": "Table 10",
+      "caption": "",
+      "pages": [
+        40
+      ],
+      "columns": [
+        {
+          "titles": "Name: Date of this assessment: Date of birth: Age at this assessment: Additional Number of Number of doses doses doses Dose number Vaccine required Comments received and needed at due now (interval or date for each current age date) To be completed Note here if based on any upper age national limits apply immunization (e.g. Rotavirus) schedule Photocopy or take a photo of the section below and provide to individual (hard copy or send via SMS/chat/email):"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        }
+      ],
+      "rows": [
+        [
+          "Catch-up vaccination appointments Date Vaccines and dose Interval to next dose (if Comments numbers needed)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Date",
+          "Vaccines and dose numbers",
+          "Interval to next dose (if needed)",
+          "Comments"
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-10.csv"
+    },
+    {
+      "label": "Table A6.1",
+      "caption": "Table A6.1 - PIRI goals, general strategies, and activities",
+      "pages": [
+        44
+      ],
+      "columns": [
+        {
+          "titles": "PIRI goal"
+        },
+        {
+          "titles": "General strategy"
+        },
+        {
+          "titles": "Type of activity"
+        }
+      ],
+      "rows": [
+        [
+          "Expand access and provide vaccination plus other health interventions that are not routinely available to a wide range of population",
+          "Deliver routine immunization doses (and possibly other selected child health interventions) during a multi- day period",
+          "Child Health Day/Week"
+        ],
+        [
+          "",
+          "Deliver routine immunization doses (and possibly other maternal and child health interventions) during a multi- day period",
+          "Maternal & Child Health Day/Week"
+        ],
+        [
+          "Expand access and provide vaccination to specifically- defined vaccination-eligible populations that have not received recommended vaccines",
+          "Deliver routine immunization doses (and other selected health interventions) during a multi-day period, targeted at specifically defined, under-vaccinated communities",
+          "Targeted CHW/MCHW"
+        ],
+        [
+          "Improve demand: Promote the benefits of routine vaccination",
+          "High visibility communication, advocacy, and social mobilization events",
+          "Global/Regional/ National Immunization Week"
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-11.csv"
+    },
+    {
+      "label": "Table A6.2",
+      "caption": "Table A6.2 – Comparison of features of SIAs, PIRI targeted service delivery, and routine",
+      "pages": [
+        45
+      ],
+      "columns": [
+        {
+          "titles": ""
+        },
+        {
+          "titles": "SIA"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": "PIRI targeted service"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Routine immunization"
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          "delivery",
+          "",
+          "",
+          "service delivery"
+        ],
+        [
+          "Purpose",
+          "Rapidly increase population immunity by providing vaccine doses to a target geographic and age-range, regardless of prior vaccination status",
+          "Rapidly reach underserved populations or catch up children who are overdue for vaccination",
+          "",
+          "",
+          "Provide timely vaccination to all intended beneficiaries as soon as they become eligible, in accordance with national vaccination schedule",
+          ""
+        ],
+        [
+          "Geographic scope",
+          "Large geographic areas, based on epidemiologic data",
+          "Selected geographic areas",
+          "",
+          "",
+          "Nationwide",
+          ""
+        ],
+        [
+          "Age of target population",
+          "Often an expanded target age group, based on epidemiologic needs",
+          "Corresponds to target age group in national vaccination schedule. May be temporarily expanded to catch up children who are overdue for doses",
+          "",
+          "",
+          "Corresponds to target age group in national vaccination schedule.",
+          ""
+        ],
+        [
+          "Screening",
+          "Required to determine child’s age",
+          "Required to determine child’s age and eligibility for each vaccine dose to be given",
+          "",
+          "",
+          "Required to determine child’s age and eligibility for each vaccine dose to be given",
+          ""
+        ],
+        [
+          "Recording of doses",
+          "Each dose is considered supplemental and is recorded on tally sheet for the SIA, and ideally",
+          "Each dose is considered routine and must be recorded on home-based",
+          "",
+          "",
+          "Each dose is considered routine and must be recorded on home-based",
+          ""
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-12.csv"
+    },
+    {
+      "label": "Table A6.3",
+      "caption": "Table A6.3 – Potential PIRI design based on country setting",
+      "pages": [
+        47
+      ],
+      "columns": [
+        {
+          "titles": "Vaccination coverage level"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Operational issues for PIRI"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "Service delivery",
+          "Service delivery",
+          "",
+          "IEC /social",
+          "",
+          "Considerations",
+          "Considerations"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "mobilization",
+          "",
+          "",
+          ""
+        ],
+        [
+          "High coverage nationally and subnationally",
+          "May not be appropriate",
+          "",
+          "Optional social mobilization event to maintain high and positive vaccination awareness",
+          "",
+          "",
+          "Identify if impact of social mobilization event outweighs cost, particularly compared with other strategies that could be used to improve/ maintain coverage",
+          ""
+        ],
+        [
+          "Medium/high nationally, with multiple low coverage subnational areas",
+          "Consider targeted, time-limited outreach sessions 1-2 times per year in communities with identified low vaccination coverage",
+          "",
+          "If needed, social mobilization to improve demand and use; combine with expanded service delivery (if included in the PIRI activity)",
+          "",
+          "",
+          "Analyze whether investments into routine outreach or ensuring that all fixed health facilities conduct vaccination sessions is a better use of funds than PIRI activity",
+          ""
+        ],
+        [
+          "Low nationally, with several low coverage subnational areas",
+          "Consider wide-scale Child Health Week twice per year, particularly in locations with poor infrastructure",
+          "",
+          "Social mobilization event coupled with Child Health Week",
+          "",
+          "",
+          "Identify if investments into routine outreach or ensuring all fixed health facilities conduct vaccination sessions is a better use of funds than PIRI activity",
+          ""
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-13.csv"
+    },
+    {
+      "label": "Table 14",
+      "caption": "",
+      "pages": [
+        50
+      ],
+      "columns": [
+        {
+          "titles": "A"
+        },
+        {
+          "titles": "nnex 8. Example VPD"
+        },
+        {
+          "titles": "risk-assessment"
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "Th",
+          "e risk-assessment workshee",
+          "ts below are exampl"
+        ],
+        [
+          "Hu",
+          "manitarian Emergencies: a",
+          "Framework for Decis"
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "as",
+          "sessments for the following",
+          "VPDs can be found i"
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "cholera",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "diphtheria",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "hepatitis A",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "hepatitis B",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "hepatitis E",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "Haemophilus influenza type",
+          "b (Hib)"
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "human papillomavirus (HPV",
+          ")"
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "influenza (seasonal)",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "Japanese encephalitis",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "measles",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "meningitis",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "mumps",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "pertussis",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "pneumococcal",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "poliomyelitis",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "rabies",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "rotavirus",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "rubella",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "tetanus",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "tuberculosis",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "typhoid",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "varicella",
+          ""
+        ],
+        [
+          "",
+          "",
+          ""
+        ],
+        [
+          "•",
+          "yellow fever",
+          ""
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-14.csv"
+    },
+    {
+      "label": "Table A8.1",
+      "caption": "Table A8.1 – Measles disease-specific risk factors",
+      "pages": [
+        51,
+        52
+      ],
+      "columns": [
+        {
+          "titles": "Factor"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Risk level"
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": "Comments"
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "High",
+          "",
+          "",
+          "Medium",
+          "",
+          "",
+          "Low",
+          "",
+          ""
+        ],
+        [
+          "Risk level for the setting: geography, climate and season",
+          "• Sub-Saharan Africa • South and South-East Asia • High transmission season occurring currently or within the next 3 months",
+          "",
+          "",
+          "• High transmission season within the next 3-6 months",
+          "",
+          "",
+          "• Low transmission season • The Americas, Europe and the Middle East",
+          "",
+          "",
+          "Likely that seasonal climate patterns influence population density that, in turn, increases the transmission of measles. Strongest seasonal effect is in the Sahel, where cases peak in the dry season as people congregate in villages and towns. In other parts of Africa, cases peak in the cool rainy season. Local experts should be consulted on local seasonal changes."
+        ],
+        [
+          "Population immunity",
+          "Routine vaccination coverage for children <18 months is <70%",
+          "",
+          "",
+          "Routine vaccination coverage for children <18 months is 70-89%",
+          "",
+          "",
+          "Routine vaccination coverage for children <18 months is >95% and routine immunization can be maintained",
+          "",
+          "",
+          "Reaching all children with 2 doses of measles-containing vaccine should be the standard for all national immunization programmes. Infection is thought to provide long-lasting/lifelong immunity. Acute malnutrition and vitamin A deficiency increases measles mortality. Case management is very important in an outbreak."
+        ],
+        [
+          "Burden of disease",
+          "• The area has experienced one or more large outbreaks in the past 3 years, and/or • An outbreak is currently ongoing",
+          "",
+          "",
+          "• The area has experienced one or more large outbreaks in the past 5 years, but none of them large",
+          "",
+          "",
+          "• The country has achieved elimination status",
+          "",
+          "",
+          "A large outbreak could consist of >100 cases or >10 deaths. Case-fatality ratio can range from <1% to 5-6% (higher in Africa, SE Asia); CFR >10% have occurred in refugee camps."
+        ],
+        [
+          "",
+          "",
+          "High",
+          "",
+          "",
+          "Medium",
+          "",
+          "",
+          "Low",
+          "",
+          ""
+        ],
+        [
+          "Population immunity",
+          "• Reported routine vaccination coverage for children <23 months is <80% • In endemic or countries at high risk of outbreaks following importation: the last SIA was done >6 months ago; or within the last 6 months but with coverage <80%",
+          "",
+          "",
+          "• Reported routine vaccination coverage for children <23 months is 80- 89% • In endemic or countries at high risk of outbreaks following importation: the last SIA was done within the last 6 months but with coverage <90%",
+          "",
+          "",
+          "• Reported routine vaccination coverage for children <23 months is >89%",
+          "",
+          "",
+          "Many polio-free countries at high risk of outbreaks following virus importation or emergence of circulating vaccine-derived poliovirus (cVDPV) also carry out regular SIAs"
+        ],
+        [
+          "Burden of disease",
+          "The country experiencing the emergency (or from which refugees have fled) has ongoing virus transmission, i.e. is either endemic for polio, is currently affected by transmission, or shares borders with an infected country or area.",
+          "",
+          "",
+          "The country experiencing the emergency (or from which refugees have fled) was recently infected (endemic or outbreak- related transmission), but no polio case has been reported for at least 12 months.",
+          "",
+          "",
+          "No polio case for at least 3 years, with good surveillance.",
+          "",
+          "",
+          "About <1% of poliovirus infections in children <5 years of age, varying with serotype and age, results in paralysis. The case-fatality rates among paralytic cases range from 5 to 10% in children and from 15 to 30% in adolescents and adults. All polio-free areas remain at risk as long as any country remains endemic."
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-15.csv"
+    }
+  ],
+  "coverage": [
+    {
+      "kind": "contents",
+      "state": "found",
+      "count": 26,
+      "note": "contents from inferred"
+    },
+    {
+      "kind": "sections",
+      "state": "found",
+      "count": 27
+    },
+    {
+      "kind": "figures",
+      "state": "partial",
+      "count": 10,
+      "note": "10 kept (10 raster, 0 vector); 1 vector render(s) not yet inspected; 15 caption(s) read off the pages"
+    },
+    {
+      "kind": "tables",
+      "state": "found",
+      "count": 15,
+      "note": "drafts; backend pdfplumber 0.11.10; 8 candidate(s) dropped: under two columns or no row under the header; 24 dropped as prose cut into columns (a word cut at a quarter or more of the cell boundaries)"
+    },
+    {
+      "kind": "references",
+      "state": "not-extracted",
+      "note": "the instance declares no references directory to hold the nodes"
+    },
+    {
+      "kind": "glossary",
+      "state": "not-extracted",
+      "note": "the instance declares no glossary directory to hold the scheme"
+    },
+    {
+      "kind": "footnotes",
+      "state": "found",
+      "count": 51,
+      "note": "called from the text; also kept: 28 foot-of-page line(s) no mark calls"
+    },
+    {
+      "kind": "summaries",
+      "state": "not-extracted",
+      "count": 0,
+      "note": "0 of 27 sections"
+    }
+  ],
+  "links": {
+    "repo": "ritikarawlani/smart-immunizations-measles",
+    "branch": "main",
+    "dir": "library/leave-no-one-behind-catch-up-vaccination-9789240016514"
+  }
+}

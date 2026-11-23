@@ -1,0 +1,600 @@
+{
+  "$schema": "folio-library-document/v1",
+  "id": "monitoring-metrics-related-to-the-global-covid-19-vaccinatio",
+  "title": "Monitoring Metrics Related to the Global Covid-19 Vaccination Strategy in a Changing World",
+  "variant": "pdf",
+  "pages": 7,
+  "tocSource": "undetermined",
+  "tocMethod": "font",
+  "toc": [],
+  "sections": [
+    {
+      "id": "page-001",
+      "number": null,
+      "title": "Page 1",
+      "level": 1,
+      "pageStart": 1,
+      "pageEnd": 1,
+      "labelStart": "1",
+      "labelEnd": "1",
+      "words": 16,
+      "summary": null,
+      "keywords": [],
+      "extract": "Monitoring Metrics Related to the Global Covid-19 Vaccination Strategy in a Changing World July 2022 update",
+      "extractCut": false,
+      "blocks": [
+        "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/prose-page-001"
+      ]
+    },
+    {
+      "id": "page-002",
+      "number": null,
+      "title": "Page 2",
+      "level": 1,
+      "pageStart": 2,
+      "pageEnd": 2,
+      "labelStart": "2",
+      "labelEnd": "2",
+      "words": 16,
+      "summary": null,
+      "keywords": [],
+      "extract": "Monitoring Metrics Related to the Global Covid-19 Vaccination Strategy in a Changing World July 2022 update",
+      "extractCut": false,
+      "blocks": [
+        "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/prose-page-002"
+      ]
+    },
+    {
+      "id": "page-003",
+      "number": null,
+      "title": "Page 3",
+      "level": 1,
+      "pageStart": 3,
+      "pageEnd": 3,
+      "labelStart": "3",
+      "labelEnd": "3",
+      "words": 409,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "monitoring metrics",
+          "heading": false
+        },
+        {
+          "term": "metrics associated",
+          "heading": false
+        },
+        {
+          "term": "performance indicators",
+          "heading": false
+        },
+        {
+          "term": "share",
+          "heading": false
+        },
+        {
+          "term": "assistance vaccinated",
+          "heading": false
+        },
+        {
+          "term": "complete primary",
+          "heading": false
+        },
+        {
+          "term": "primary series",
+          "heading": false
+        },
+        {
+          "term": "humanitarian assistance",
+          "heading": false
+        }
+      ],
+      "extract": "Purpose of this document This document complements the WHO’s ‘Global Covid-19 Vaccination Strategy in a Changing World’ published in July of 2022.1 Its purpose is to specify key monitoring metrics to guide progress towards the goals, objectives, and operational priorities of the strategy. Monitoring metrics The following metrics are recommended for the global community to measure and monitor progress in support of",
+      "extractCut": true,
+      "blocks": [
+        "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/prose-page-003",
+        "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/recommendation-page-003-01",
+        "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/table-001"
+      ]
+    },
+    {
+      "id": "page-004",
+      "number": null,
+      "title": "Page 4",
+      "level": 1,
+      "pageStart": 4,
+      "pageEnd": 4,
+      "labelStart": "4",
+      "labelEnd": "4",
+      "words": 320,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "monitoring metrics",
+          "heading": false
+        },
+        {
+          "term": "income group",
+          "heading": false
+        },
+        {
+          "term": "reduce transmission",
+          "heading": false
+        },
+        {
+          "term": "improved",
+          "heading": false
+        },
+        {
+          "term": "progress against",
+          "heading": false
+        },
+        {
+          "term": "increase duration",
+          "heading": false
+        },
+        {
+          "term": "healthcare workers",
+          "heading": false
+        },
+        {
+          "term": "improve delivery",
+          "heading": false
+        }
+      ],
+      "extract": "Goal 2 ‘Accelerate development and access to improved vaccines to achieve durable, broadly protective immunity, and reduce transmission’ 7. A. Number of COVID-19 vaccine products with improved attributes in phase 2/3 clinical trial with prospects to increase duration, broaden immunity, reduce transmission, and improve delivery. B. Number of COVID-19 vaccine products with improved attributes authorized with prospects",
+      "extractCut": true,
+      "blocks": [
+        "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/prose-page-004",
+        "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/recommendation-page-004-01",
+        "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/table-002"
+      ]
+    },
+    {
+      "id": "page-005",
+      "number": null,
+      "title": "Page 5",
+      "level": 1,
+      "pageStart": 5,
+      "pageEnd": 5,
+      "labelStart": "5",
+      "labelEnd": "5",
+      "words": 293,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "united nations",
+          "heading": false
+        },
+        {
+          "term": "humanitarian assistance",
+          "heading": false
+        },
+        {
+          "term": "nations population",
+          "heading": false
+        },
+        {
+          "term": "older adults",
+          "heading": false
+        },
+        {
+          "term": "population estimates",
+          "heading": false
+        },
+        {
+          "term": "country reports",
+          "heading": false
+        },
+        {
+          "term": "reports total",
+          "heading": false
+        },
+        {
+          "term": "persons vaccinated",
+          "heading": false
+        }
+      ],
+      "extract": "2 • Number of older adults vaccinated with a complete primary series by country • Number of older persons vaccinated with at least one booster/additional dose by country • Definition of ‘older population’ age group by country8 • Regional systems based on country reports • Total number of older adults, aggregated by age based on country- specific definition of older population • United Nations population estimates9 3",
+      "extractCut": true,
+      "blocks": [
+        "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/prose-page-005",
+        "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/recommendation-page-005-01"
+      ]
+    },
+    {
+      "id": "page-006",
+      "number": null,
+      "title": "Page 6",
+      "level": 1,
+      "pageStart": 6,
+      "pageEnd": 6,
+      "labelStart": "6",
+      "labelEnd": "6",
+      "words": 115,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "income",
+          "heading": false
+        },
+        {
+          "term": "studies",
+          "heading": false
+        },
+        {
+          "term": "bank",
+          "heading": false
+        },
+        {
+          "term": "number",
+          "heading": false
+        }
+      ],
+      "extract": "7 • Number of COVID-19 vaccine products in phase 2/3 clinical trial • Number of COVID-19 vaccine products authorized • WHO International Clinical Trials Registry Platform14 • Public registries, such as IVAC View-hub • Sources will be further specified and developed 8 • Number of COVID-19 vaccine effectiveness studies against VoCs • Number of COVID-19 vaccine safety studies 9-10 • Number of secured COVID-19 vaccine",
+      "extractCut": true,
+      "blocks": [
+        "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/prose-page-006"
+      ]
+    },
+    {
+      "id": "page-007",
+      "number": null,
+      "title": "Page 7",
+      "level": 1,
+      "pageStart": 7,
+      "pageEnd": 7,
+      "labelStart": "7",
+      "labelEnd": "7",
+      "words": 5,
+      "summary": null,
+      "keywords": [],
+      "extract": "_(no text on this page)_",
+      "extractCut": false,
+      "blocks": [
+        "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/prose-page-007"
+      ]
+    }
+  ],
+  "checks": {
+    "figureSequenceGaps": [],
+    "pageLabelConflicts": {
+      "count": 0,
+      "items": []
+    }
+  },
+  "withheld": false,
+  "keywords": [
+    {
+      "term": "monitoring metrics",
+      "heading": true
+    },
+    {
+      "term": "total number",
+      "heading": false
+    },
+    {
+      "term": "global covid",
+      "heading": true
+    },
+    {
+      "term": "total population",
+      "heading": false
+    },
+    {
+      "term": "country number",
+      "heading": false
+    },
+    {
+      "term": "assistance vaccinated",
+      "heading": false
+    },
+    {
+      "term": "metrics related",
+      "heading": true
+    },
+    {
+      "term": "metrics associated",
+      "heading": false
+    },
+    {
+      "term": "population estimates",
+      "heading": false
+    },
+    {
+      "term": "nations population",
+      "heading": false
+    },
+    {
+      "term": "humanitarian assistance",
+      "heading": false
+    },
+    {
+      "term": "older population",
+      "heading": false
+    }
+  ],
+  "pageLabels": [
+    {
+      "physical": 1,
+      "label": "1",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 2,
+      "label": "2",
+      "source": "interpolated",
+      "confidence": 0.5
+    },
+    {
+      "physical": 3,
+      "label": "3",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 4,
+      "label": "4",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 5,
+      "label": "5",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 6,
+      "label": "6",
+      "source": "printed",
+      "confidence": 0.7
+    },
+    {
+      "physical": 7,
+      "label": "7",
+      "source": "printed",
+      "confidence": 0.7
+    }
+  ],
+  "figures": [
+    {
+      "kind": "table",
+      "number": "1",
+      "title": "Monitoring metrics related to the ‘Global Covid-19 Vaccination",
+      "page": 3,
+      "pageLabel": "3",
+      "confidence": 0.8,
+      "evidence": [
+        "referenced",
+        "in-sequence"
+      ]
+    },
+    {
+      "kind": "table",
+      "number": "2",
+      "title": "Metadata for monitoring metrics related to the ‘Global Covid-19",
+      "page": 4,
+      "pageLabel": "4",
+      "confidence": 0.8,
+      "evidence": [
+        "referenced",
+        "in-sequence"
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "caption": "Table 1. Monitoring metrics related to the ‘Global Covid-19 Vaccination",
+      "pages": [
+        3,
+        4
+      ],
+      "columns": [
+        {
+          "titles": "Strategic goals"
+        },
+        {
+          "titles": "Monitoring metrics"
+        }
+      ],
+      "rows": [
+        [
+          "Goal 1 ‘Sustain and enhance momentum to reduce mortality and morbidity, protect health systems, and resume socio- economic activity with existing vaccines‘",
+          "1. A. Share of healthcare workers vaccinated with a complete primary series. B.Share of healthcare workers vaccinated with at least one booster/additional dose.2"
+        ],
+        [
+          "",
+          "2. A. Share of older adults vaccinated with a complete primary series. B.Share of older adults vaccinated with at least one booster/additional dose."
+        ],
+        [
+          "",
+          "3. A. Share of total population vaccinated with a complete primary series. B.Share of total population vaccinated with at least one booster/additional dose.3"
+        ],
+        [
+          "",
+          "4. Where applicable A.Share of population in areas with people in need of humanitarian assistance vaccinated with a complete primary series. B.Share of population in areas with people in need of humanitarian assistance vaccinated with at least one booster/additional dose."
+        ],
+        [
+          "",
+          "5. System for vaccination of adults in place through a primary healthcare and life course approach."
+        ],
+        [
+          "",
+          "6. Core COVID-19 data4 collected through electronic health information system.5"
+        ],
+        [
+          "Goal 2 ‘Accelerate development and access to improved vaccines to achieve durable, broadly protective immunity, and reduce transmission’",
+          "7. A. Number of COVID-19 vaccine products with improved attributes in phase 2/3 clinical trial with prospects to increase duration, broaden immunity, reduce transmission, and improve delivery. B. Number of COVID-19 vaccine products with improved attributes authorized with prospects to increase duration, broaden immunity, reduce transmission, and improve delivery."
+        ],
+        [
+          "",
+          "8. A. Number of vaccine effectiveness studies against variants of concern (VoCs) by product and by country. B. Number of vaccine safety studies by product and by country."
+        ],
+        [
+          "",
+          "9. Number of secured doses of vaccine products with improved attributes by income group per 100 inhabitants."
+        ],
+        [
+          "",
+          "10. Number of delivered doses of vaccine products with improved attributes by income group per 100 inhabitants."
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-1.csv"
+    },
+    {
+      "label": "Table 2",
+      "caption": "Table 2. Metadata for monitoring metrics related to the ‘Global Covid-19",
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "columns": [
+        {
+          "titles": "Monitoring metrics"
+        },
+        {
+          "titles": "Metadata"
+        },
+        {
+          "titles": "Source"
+        }
+      ],
+      "rows": [
+        [
+          "1",
+          "• Number of healthcare workers vaccinated with a complete primary series by country • Number of healthcare workers vaccinated with at least one booster/ additional dose by country",
+          "• Regional systems based on country reports"
+        ],
+        [
+          "",
+          "• Total number of healthcare workers by country",
+          "• ILOStat. Employment by sex and age — ILO modelled estimates6 • WHO Health workforce estimations7"
+        ],
+        [
+          "2",
+          "• Number of older adults vaccinated with a complete primary series by country • Number of older persons vaccinated with at least one booster/additional dose by country • Definition of ‘older population’ age group by country8",
+          "• Regional systems based on country reports"
+        ],
+        [
+          "",
+          "• Total number of older adults, aggregated by age based on country- specific definition of older population",
+          "• United Nations population estimates9"
+        ],
+        [
+          "3",
+          "• Number of persons vaccinated with a complete primary series by country • Number of persons vaccinated with at least one booster/additional dose by country",
+          "• Regional systems based on country reports"
+        ],
+        [
+          "",
+          "• Total population by country",
+          "• United Nations population estimates"
+        ],
+        [
+          "4",
+          "• Areas with people in need of humanitarian assistance",
+          "• Global Humanitarian Overview, defined by The United Nations Office for the Coordination of Humanitarian Affairs (OCHA)10"
+        ],
+        [
+          "",
+          "• Total number of people living in areas with people in need of humanitarian assistance",
+          "• Multiple sources, as collated by the UN (WHO) Global Health Cluster11"
+        ],
+        [
+          "5",
+          "The WHO will define a data collection mechanism in the second half of 2022",
+          ""
+        ],
+        [
+          "6",
+          "• Proxy metric12",
+          "• WHO And UNICEF ’s annual eJRF13 • Supplementary information provided by countries"
+        ],
+        [
+          "7",
+          "• Number of COVID-19 vaccine products in phase 2/3 clinical trial • Number of COVID-19 vaccine products authorized",
+          "• WHO International Clinical Trials Registry Platform14 • Public registries, such as IVAC View-hub • Sources will be further specified and developed"
+        ],
+        [
+          "8",
+          "• Number of COVID-19 vaccine effectiveness studies against VoCs • Number of COVID-19 vaccine safety studies",
+          ""
+        ],
+        [
+          "9-10",
+          "• Number of secured COVID-19 vaccine doses through supply agreements by product by country • Number of delivered COVID-19 vaccine doses by product by country",
+          "• UNICEF COVID-19 Vaccine Market Dashboard"
+        ],
+        [
+          "",
+          "• Countries by income group",
+          "• World Bank country classifications by income level"
+        ],
+        [
+          "",
+          "• Total population by country",
+          "• United Nations population estimates"
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-2.csv"
+    }
+  ],
+  "coverage": [
+    {
+      "kind": "contents",
+      "state": "partial",
+      "note": "contents refused, page granularity instead: 8 inferred entries, 75% of them starting on page(s) 2, 3 of 7 — a list found ON a page, not the document's structure"
+    },
+    {
+      "kind": "sections",
+      "state": "found",
+      "count": 7,
+      "note": "one section per page"
+    },
+    {
+      "kind": "figures",
+      "state": "none",
+      "count": 0,
+      "note": "2 caption(s) read off the pages"
+    },
+    {
+      "kind": "tables",
+      "state": "found",
+      "count": 2,
+      "note": "drafts; backend pdfplumber 0.11.10; 1 candidate(s) dropped: under two columns or no row under the header"
+    },
+    {
+      "kind": "references",
+      "state": "not-extracted",
+      "note": "the instance declares no references directory to hold the nodes"
+    },
+    {
+      "kind": "glossary",
+      "state": "not-extracted",
+      "note": "the instance declares no glossary directory to hold the scheme"
+    },
+    {
+      "kind": "footnotes",
+      "state": "found",
+      "count": 5,
+      "note": "called from the text; also kept: 9 mark(s) with no note found"
+    },
+    {
+      "kind": "summaries",
+      "state": "not-extracted",
+      "count": 0,
+      "note": "0 of 7 sections"
+    }
+  ],
+  "links": {
+    "repo": "ritikarawlani/smart-immunizations-measles",
+    "branch": "main",
+    "dir": "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "fhir": "http://hl7.org/fhir/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "$schema": "folio-ig-artifact-jsonld/v1",
+  "@id": "ValueSet-MeaslesMcvDoseVaccineVS",
+  "@type": "fhir:ValueSet",
+  "dcterms:identifier": "ValueSet/MeaslesMcvDoseVaccineVS",
+  "schema:name": "MeaslesMcvDoseVaccineVS",
+  "dcterms:title": "MCV dose: vaccine",
+  "dcterms:description": "Allowed values of MEASLES.DE.10 (MCV dose: vaccine).",
+  "schema:version": "0.1.0",
+  "dcterms:type": "Terminology: Value Sets",
+  "schema:sameAs": {
+    "@id": "http://smart.who.int/immunizations-measles/ValueSet/MeaslesMcvDoseVaccineVS"
+  },
+  "schema:creativeWorkStatus": "materialized",
+  "schema:encoding": [
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "../ValueSet-MeaslesMcvDoseVaccineVS.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "local"
+    },
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/ritikarawlani/smart-immunizations-measles/c05a81e490c8dcfd5676880208fa0cb2a79312cc/resources/ValueSet/MeaslesMcvDoseVaccineVS.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "mirror"
+    }
+  ],
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
+    "prov:used": "1c9a2703ca806ed07c67da3dbeb1ddd90fc1a0f9"
+  },
+  "dcterms:isPartOf": {
+    "@type": "fhir:ImplementationGuide",
+    "dcterms:identifier": "smart.who.int.immunizations-measles",
+    "schema:version": "0.1.0",
+    "schema:sameAs": {
+      "@id": "http://smart.who.int/immunizations-measles"
+    }
+  }
+}

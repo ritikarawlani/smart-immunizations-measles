@@ -1,0 +1,85 @@
+{
+ "$schema": "site-parity-report/v1",
+ "outcome": "carries-everything",
+ "shortfall": [],
+ "droppedByRuling": [],
+ "current": {
+  "pages": 1,
+  "counts": {
+   "siteNav": 0,
+   "search": 0,
+   "navbarRow": 0,
+   "rail": 0,
+   "translationMeta": 0
+  },
+  "dirs": [],
+  "index": []
+ },
+ "candidate": {
+  "pages": 1136,
+  "counts": {
+   "siteNav": 0,
+   "search": 1064,
+   "navbarRow": 108,
+   "rail": 1064,
+   "translationMeta": 1065
+  },
+  "dirs": [
+   "artifact",
+   "assets",
+   "cat-harness",
+   "en",
+   "fhir-artifact-index",
+   "id-lookup",
+   "openapi",
+   "payload",
+   "slices",
+   "smart-base",
+   "v0"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ],
+  "stamp": {
+   "present": true
+  }
+ },
+ "baseline": {
+  "features": {
+   "pages": 1136,
+   "counts": {
+    "siteNav": 0,
+    "search": 1064,
+    "navbarRow": 108,
+    "rail": 1064,
+    "translationMeta": 1065
+   },
+   "dirs": [
+    "artifact",
+    "assets",
+    "cat-harness",
+    "en",
+    "fhir-artifact-index",
+    "id-lookup",
+    "openapi",
+    "payload",
+    "slices",
+    "smart-base",
+    "v0"
+   ],
+   "index": [
+    "search",
+    "navbarRow",
+    "rail",
+    "translationMeta"
+   ],
+   "stamp": {
+    "present": true
+   }
+  },
+  "from": "1c9a2703ca80"
+ }
+}

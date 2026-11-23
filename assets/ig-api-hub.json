@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "schema": "https://schema.org/"
+  },
+  "@id": "assets/ig-api-hub.json",
+  "@type": "schema:WebAPI",
+  "schema:name": "DAK API",
+  "schema:documentation": "openapi/",
+  "schema:hasPart": [
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-MeaslesVaccinationContact.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "https://raw.githubusercontent.com/ritikarawlani/smart-immunizations-measles/c05a81e490c8dcfd5676880208fa0cb2a79312cc/ig-api/sidecars/StructureDefinition-MeaslesVaccinationContact.openapi.json",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-MeaslesVaccinationContact.html",
+        "schema:identifier": "StructureDefinition/MeaslesVaccinationContact"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "StructureDefinition-MeaslesVaccinationContact.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "https://raw.githubusercontent.com/ritikarawlani/smart-immunizations-measles/c05a81e490c8dcfd5676880208fa0cb2a79312cc/ig-api/sidecars/StructureDefinition-MeaslesVaccinationContact.schema.json",
+      "schema:url": "artifact/StructureDefinition-MeaslesVaccinationContact.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/StructureDefinition-MeaslesVaccinationContact.html",
+        "schema:identifier": "StructureDefinition/MeaslesVaccinationContact"
+      }
+    }
+  ],
+  "schema:workExample": [
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "LogicalModels.schema.json",
+      "schema:contentUrl": "https://raw.githubusercontent.com/ritikarawlani/smart-immunizations-measles/c05a81e490c8dcfd5676880208fa0cb2a79312cc/ig-api/site/LogicalModels.schema.json"
+    }
+  ]
+}

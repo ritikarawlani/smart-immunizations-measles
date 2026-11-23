@@ -1,0 +1,479 @@
+{
+  "$schema": "folio-library-document/v1",
+  "id": "immunization-summary-table-4",
+  "title": "immunization-summary-table-4",
+  "variant": "pdf",
+  "pages": 2,
+  "tocSource": "inferred",
+  "tocMethod": "font",
+  "toc": [
+    {
+      "level": 1,
+      "title": "Antigen",
+      "number": null,
+      "page": 1,
+      "pageLabel": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "source": "inferred",
+      "section": "sec-000-antigen"
+    },
+    {
+      "level": 1,
+      "title": "Vaccination of Health Care Workers Recommended",
+      "number": null,
+      "page": 1,
+      "pageLabel": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "source": "inferred",
+      "section": "sec-001-vaccination-of-health-care-workers-recommended"
+    },
+    {
+      "level": 1,
+      "title": "No current recommendation for vaccination of Health Care Workers",
+      "number": null,
+      "page": 1,
+      "pageLabel": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "source": "inferred",
+      "section": "sec-002-no-current-recommendation-for-vaccination-of-hea"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-front-matter",
+      "number": null,
+      "title": "Front matter",
+      "level": 1,
+      "pageStart": 1,
+      "pageEnd": 1,
+      "labelStart": null,
+      "labelEnd": null,
+      "words": 3,
+      "summary": null,
+      "keywords": [],
+      "extract": "Updated December 2025",
+      "extractCut": false,
+      "blocks": [
+        "library/immunization-summary-table-4/blocks/prose-sec-front-matter",
+        "library/immunization-summary-table-4/blocks/table-001"
+      ]
+    },
+    {
+      "id": "sec-000-antigen",
+      "number": null,
+      "title": "Antigen",
+      "level": 1,
+      "pageStart": 1,
+      "pageEnd": 1,
+      "labelStart": null,
+      "labelEnd": null,
+      "words": 0,
+      "summary": null,
+      "keywords": [],
+      "extract": null,
+      "extractCut": false
+    },
+    {
+      "id": "sec-001-vaccination-of-health-care-workers-recommended",
+      "number": null,
+      "title": "Vaccination of Health Care Workers Recommended",
+      "level": 1,
+      "pageStart": 1,
+      "pageEnd": 1,
+      "labelStart": null,
+      "labelEnd": null,
+      "words": 261,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "occupational exposure",
+          "heading": false
+        },
+        {
+          "term": "hcws",
+          "heading": false
+        },
+        {
+          "term": "health-care workers",
+          "heading": false
+        },
+        {
+          "term": "recommended",
+          "heading": true
+        },
+        {
+          "term": "varicella",
+          "heading": false
+        },
+        {
+          "term": "employment",
+          "heading": false
+        },
+        {
+          "term": "blood",
+          "heading": false
+        },
+        {
+          "term": "enrollment",
+          "heading": false
+        }
+      ],
+      "extract": "BCG 1 BCG vaccination is recommended for unvaccinated TST- or IGRA-negative persons at risk of occupational exposure in low and high TB incidence areas (e.g. health- care workers, laboratory workers, medical students, prison workers, other individuals with occupational exposure). Hepatitis B 2 Immunization is suggested for groups at risk of acquiring infection who have not been vaccinated previously (for example",
+      "extractCut": true
+    },
+    {
+      "id": "sec-002-no-current-recommendation-for-vaccination-of-hea",
+      "number": null,
+      "title": "No current recommendation for vaccination of Health Care Workers",
+      "level": 1,
+      "pageStart": 1,
+      "pageEnd": 2,
+      "labelStart": null,
+      "labelEnd": null,
+      "words": 857,
+      "summary": null,
+      "keywords": [
+        {
+          "term": "epidemiological record",
+          "heading": false
+        },
+        {
+          "term": "care workers",
+          "heading": true
+        },
+        {
+          "term": "regarding hcws",
+          "heading": false
+        },
+        {
+          "term": "position paper",
+          "heading": false
+        },
+        {
+          "term": "increased risk",
+          "heading": false
+        },
+        {
+          "term": "recommendation",
+          "heading": true
+        },
+        {
+          "term": "special risk",
+          "heading": false
+        },
+        {
+          "term": "endemic areas",
+          "heading": false
+        }
+      ],
+      "extract": "Tetanus 11 There is currently no recommendation regarding HCWs. Haemophilus influenzae type b 12 The main burden of disease lies in infants under 5 years of age. Work in a health care setting is not indicated as a factor for increased risk. There is currently no recommendation regarding HCWs. Pneumococcal 13 The main burden of disease lies in infants under 5 years of age. Immunocompetent adults are not at increased",
+      "extractCut": true
+    }
+  ],
+  "checks": {
+    "figureSequenceGaps": [
+      "table 1",
+      "table 2",
+      "table 3"
+    ],
+    "pageLabelConflicts": {
+      "count": 0,
+      "items": []
+    }
+  },
+  "withheld": false,
+  "keywords": [
+    {
+      "term": "regarding hcws",
+      "heading": false
+    },
+    {
+      "term": "epidemiological record",
+      "heading": false
+    },
+    {
+      "term": "increased risk",
+      "heading": false
+    },
+    {
+      "term": "position paper",
+      "heading": false
+    },
+    {
+      "term": "health-care workers",
+      "heading": false
+    },
+    {
+      "term": "special risk",
+      "heading": false
+    },
+    {
+      "term": "care workers",
+      "heading": true
+    },
+    {
+      "term": "recommendation regarding",
+      "heading": false
+    },
+    {
+      "term": "endemic areas",
+      "heading": false
+    },
+    {
+      "term": "occupational exposure",
+      "heading": false
+    },
+    {
+      "term": "care setting",
+      "heading": false
+    },
+    {
+      "term": "pneumococcal disease",
+      "heading": false
+    }
+  ],
+  "pageLabels": [
+    {
+      "physical": 1,
+      "label": null,
+      "source": null,
+      "confidence": 0
+    },
+    {
+      "physical": 2,
+      "label": null,
+      "source": null,
+      "confidence": 0
+    }
+  ],
+  "figures": [
+    {
+      "kind": "table",
+      "number": "4",
+      "title": "Summary of WHO Position Papers – Immunization of Health Care WorkersA",
+      "page": 1,
+      "pageLabel": null,
+      "confidence": 0.5,
+      "evidence": []
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "caption": "",
+      "pages": [
+        1
+      ],
+      "columns": [
+        {
+          "titles": "Updated December 2025 Table 4: Summary of WHO Position Papers – Immunization of Health Care WorkersA The information below is provided to assist countries to develop national policies for the vaccination of health care workers (HCWs). It is expected that HCWs are fully vaccinated per the national vaccination schedule in use in their country. Antigen Vaccination of Health Care Workers Recommended BCG vaccination is recommended for unvaccinated TST- or IGRA-negative persons at risk of occupational exposure in low and high TB incidence areas (e.g. health- BCG 1 care workers, laboratory workers, medical students, prison workers, other individuals with occupational exposure). Immunization is suggested for groups at risk of acquiring infection who have not been vaccinated previously (for example HCWs who may be exposed to blood and Hepatitis B 2 blood products at work). Polio 3 All HCWs should have completed a full course of primary vaccination against polio. HCWs who may have occupational exposure to C. diphtheriae. All health-care workers should up to date with immunization as recommended in their national Diphtheria 4 immunization schedules. All HCWs should be immune to measles and proof/documentation of immunity or immunization should be required as a condition of enrollment into training and Measles 5 employment. If rubella vaccine has been introduced into the national programme, all HCWs should be immune to rubella and proof/documentation of immunity or immunization Rubella 6 should be required as a condition of enrollment into training and employment. Meningococcal 7 One booster dose 3-5 years after the primary dose may be given to persons considered to be at continued risk of exposure, including HCWs. Influenza 8 HCWs are an important group for influenza vaccination. Annual immunization with a single dose is recommended. Countries should consider vaccination of potentially susceptible health-care workers (i.e. unvaccinated and with no history of varicella) with 2 doses of varicella Varicella 9 vaccine. Pertussis 10 HWCs should be prioritized as a group to receive pertussis vaccine. Antigen No current recommendation for vaccination of Health Care Workers Tetanus 11 There is currently no recommendation regarding HCWs. The main burden of disease lies in infants under 5 years of age. Work in a health care setting is not indicated as a factor for increased risk. There is currently no Haemophilus influenzae type b 12 recommendation regarding HCWs. The main burden of disease lies in infants under 5 years of age. Immunocompetent adults are not at increased risk for serious pneumococcal disease. HCWs are not Pneumococcal 13 indicated as a group at increased risk of pneumococcal disease. Rotavirus 14 Children are the target group for rotavirus vaccination as they have the greatest burden of disease. Adults including HCWs are not at increased risk of severe disease. HPV 15 HCWs are not at increased risk of HPV. The primary target group for vaccination is girls aged 9-14. Health-care workers are generally not at special risk of contracting JE. Workers at high-risk in endemic areas, such as those involved in vector control, should be Japanese Encephalitis 16 vaccinated. Individuals in endemic countries and travelers to these countries should receive a single dose of yellow fever vaccine. Work in a health care setting is not indicated as Yellow Fever 17 a factor for increased risk. There is currently no recommendation regarding HCWs. Health-care workers are generally not at special risk of contracting JE. Workers at high-risk in endemic areas, such as those involved in vector control, should be Tick-borne Encephalitis 18 vaccinated. Typhoid vaccines should be employed as part of comprehensive control strategies in areas where the disease is endemic. Work in a health care setting is not indicated Typhoid 19 as a factor for increased risk. There is currently no recommendation regarding HCWs. Cholera vaccines may be employed as part of comprehensive control strategies in areas where the disease is endemic as well as to prevent and respond to cholera Cholera 20 outbreaksB. There is currently no recommendation regarding HCWs. Hepatitis A is transmitted through contaminated food and water or direct contact with an infectious person. HCWs are not indicated as a group at increased risk of Hepatitis A 21 hepatitis A infection. Rabies 22 PrEP may be considered for medical professionals who regularly provide care to persons with rabies. Health workers are generally not at special risk of mumps. All health-care workers should be up-to-date with immunization as recommended in their national Mumps2 3 immunization schedule. Dengue (TAK-003) 24 Health workers are generally not at greater risk of dengue. Malaria 25 Vaccine not recommended for adults. HWs are not at increased risk of malaria."
+        },
+        {
+          "titles": ""
+        },
+        {
+          "titles": ""
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "Antigen",
+          "Vaccination of Health Care Workers Recommended"
+        ],
+        [
+          "",
+          "BCG 1",
+          "BCG vaccination is recommended for unvaccinated TST- or IGRA-negative persons at risk of occupational exposure in low and high TB incidence areas (e.g. health- care workers, laboratory workers, medical students, prison workers, other individuals with occupational exposure)."
+        ],
+        [
+          "",
+          "Hepatitis B 2",
+          "Immunization is suggested for groups at risk of acquiring infection who have not been vaccinated previously (for example HCWs who may be exposed to blood and blood products at work)."
+        ],
+        [
+          "",
+          "Polio 3",
+          "All HCWs should have completed a full course of primary vaccination against polio."
+        ],
+        [
+          "",
+          "Diphtheria 4",
+          "HCWs who may have occupational exposure to C. diphtheriae. All health-care workers should up to date with immunization as recommended in their national immunization schedules."
+        ],
+        [
+          "",
+          "Measles 5",
+          "All HCWs should be immune to measles and proof/documentation of immunity or immunization should be required as a condition of enrollment into training and employment."
+        ],
+        [
+          "",
+          "Rubella 6",
+          "If rubella vaccine has been introduced into the national programme, all HCWs should be immune to rubella and proof/documentation of immunity or immunization should be required as a condition of enrollment into training and employment."
+        ],
+        [
+          "",
+          "Meningococcal 7",
+          "One booster dose 3-5 years after the primary dose may be given to persons considered to be at continued risk of exposure, including HCWs."
+        ],
+        [
+          "",
+          "Influenza 8",
+          "HCWs are an important group for influenza vaccination. Annual immunization with a single dose is recommended."
+        ],
+        [
+          "",
+          "Varicella 9",
+          "Countries should consider vaccination of potentially susceptible health-care workers (i.e. unvaccinated and with no history of varicella) with 2 doses of varicella vaccine."
+        ],
+        [
+          "",
+          "Pertussis 10",
+          "HWCs should be prioritized as a group to receive pertussis vaccine."
+        ],
+        [
+          "",
+          "Antigen",
+          "No current recommendation for vaccination of Health Care Workers"
+        ],
+        [
+          "",
+          "Tetanus 11",
+          "There is currently no recommendation regarding HCWs."
+        ],
+        [
+          "",
+          "Haemophilus influenzae type b 12",
+          "The main burden of disease lies in infants under 5 years of age. Work in a health care setting is not indicated as a factor for increased risk. There is currently no recommendation regarding HCWs."
+        ],
+        [
+          "",
+          "Pneumococcal 13",
+          "The main burden of disease lies in infants under 5 years of age. Immunocompetent adults are not at increased risk for serious pneumococcal disease. HCWs are not indicated as a group at increased risk of pneumococcal disease."
+        ],
+        [
+          "",
+          "Rotavirus 14",
+          "Children are the target group for rotavirus vaccination as they have the greatest burden of disease. Adults including HCWs are not at increased risk of severe disease."
+        ],
+        [
+          "",
+          "HPV 15",
+          "HCWs are not at increased risk of HPV. The primary target group for vaccination is girls aged 9-14."
+        ],
+        [
+          "",
+          "Japanese Encephalitis 16",
+          "Health-care workers are generally not at special risk of contracting JE. Workers at high-risk in endemic areas, such as those involved in vector control, should be vaccinated."
+        ],
+        [
+          "",
+          "Yellow Fever 17",
+          "Individuals in endemic countries and travelers to these countries should receive a single dose of yellow fever vaccine. Work in a health care setting is not indicated as a factor for increased risk. There is currently no recommendation regarding HCWs."
+        ],
+        [
+          "",
+          "Tick-borne Encephalitis 18",
+          "Health-care workers are generally not at special risk of contracting JE. Workers at high-risk in endemic areas, such as those involved in vector control, should be vaccinated."
+        ],
+        [
+          "",
+          "Typhoid 19",
+          "Typhoid vaccines should be employed as part of comprehensive control strategies in areas where the disease is endemic. Work in a health care setting is not indicated as a factor for increased risk. There is currently no recommendation regarding HCWs."
+        ],
+        [
+          "",
+          "Cholera 20",
+          "Cholera vaccines may be employed as part of comprehensive control strategies in areas where the disease is endemic as well as to prevent and respond to cholera outbreaksB. There is currently no recommendation regarding HCWs."
+        ],
+        [
+          "",
+          "Hepatitis A 21",
+          "Hepatitis A is transmitted through contaminated food and water or direct contact with an infectious person. HCWs are not indicated as a group at increased risk of hepatitis A infection."
+        ],
+        [
+          "",
+          "Rabies 22",
+          "PrEP may be considered for medical professionals who regularly provide care to persons with rabies."
+        ],
+        [
+          "",
+          "Mumps2 3",
+          "Health workers are generally not at special risk of mumps. All health-care workers should be up-to-date with immunization as recommended in their national immunization schedule."
+        ],
+        [
+          "",
+          "Dengue (TAK-003) 24",
+          "Health workers are generally not at greater risk of dengue."
+        ],
+        [
+          "",
+          "Malaria 25",
+          "Vaccine not recommended for adults. HWs are not at increased risk of malaria."
+        ]
+      ],
+      "narratives": {},
+      "csv": "tables/table-1.csv"
+    }
+  ],
+  "coverage": [
+    {
+      "kind": "contents",
+      "state": "found",
+      "count": 3,
+      "note": "contents from inferred"
+    },
+    {
+      "kind": "sections",
+      "state": "found",
+      "count": 4
+    },
+    {
+      "kind": "figures",
+      "state": "none",
+      "count": 0,
+      "note": "1 caption(s) read off the pages"
+    },
+    {
+      "kind": "tables",
+      "state": "found",
+      "count": 1,
+      "note": "drafts; backend pdfplumber 0.11.10; 1 dropped as prose cut into columns (a word cut at a quarter or more of the cell boundaries)"
+    },
+    {
+      "kind": "references",
+      "state": "not-extracted",
+      "note": "the instance declares no references directory to hold the nodes"
+    },
+    {
+      "kind": "glossary",
+      "state": "not-extracted",
+      "note": "the instance declares no glossary directory to hold the scheme"
+    },
+    {
+      "kind": "footnotes",
+      "state": "partial",
+      "note": "no footnote linked to a mark; 24 mark(s) with no note found, kept for a reader to judge"
+    },
+    {
+      "kind": "summaries",
+      "state": "not-extracted",
+      "count": 0,
+      "note": "0 of 4 sections"
+    }
+  ],
+  "links": {
+    "repo": "ritikarawlani/smart-immunizations-measles",
+    "branch": "main",
+    "dir": "library/immunization-summary-table-4"
+  }
+}

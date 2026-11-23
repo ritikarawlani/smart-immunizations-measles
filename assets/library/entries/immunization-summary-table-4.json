@@ -1,0 +1,435 @@
+{
+  "$schema": "folio-library-entry/v1",
+  "id": "immunization-summary-table-4",
+  "blocks": [
+    {
+      "id": "library/immunization-summary-table-4/blocks/prose-sec-000",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Antigen",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "../sections/sec-000-antigen.md",
+      "narrative": null,
+      "content": "",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": {
+        "status": "empty"
+      }
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/prose-sec-001",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Vaccination of Health Care Workers Recommended",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "../sections/sec-001-vaccination-of-health-care-workers-recommended.md",
+      "narrative": null,
+      "content": "BCG 1\nBCG vaccination is recommended for unvaccinated TST- or IGRA-negative persons at risk of occupational exposure in low and high TB incidence areas (e.g. health-\ncare workers, laboratory workers, medical students, prison workers, other individuals with occupational exposure).\nHepatitis B 2\nImmunization is suggested for groups at risk of acquiring infection who have not been vaccinated previously (for example HCWs who may be exposed to blood and \nblood products at work).\nPolio 3\nAll HCWs should have completed a full course of primary vaccination against polio.\nDiphtheria 4\nHCWs who may have",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/prose-sec-002",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "No current recommendation for vaccination of Health Care Workers",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "../sections/sec-002-no-current-recommendation-for-vaccination-of-hea.md",
+      "narrative": null,
+      "content": "Tetanus 11\nThere is currently no recommendation regarding HCWs.\nHaemophilus influenzae type b 12\nThe main burden of disease lies in infants under 5 years of age. Work in a health care setting is not indicated as a factor for increased risk. There is currently no \nrecommendation regarding HCWs.\nPneumococcal 13\nThe main burden of disease lies in infants under 5 years of age. Immunocompetent adults are not at increased risk for serious pneumococcal disease. HCWs are not \nindicated as a group at increased risk of pneumococcal disease.\nRotavirus 14\nChildren are the target group for rotavirus vaccin",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/prose-sec-front-matter",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Front matter",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "../sections/sec-front-matter.md",
+      "narrative": null,
+      "content": "Updated December 2025",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-001-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "recommendation-sec-001-01.md",
+      "narrative": null,
+      "content": "BCG 1 BCG vaccination is recommended for unvaccinated TST- or IGRA-negative persons at risk of occupational exposure in low and high TB incidence areas (e.g. health- care workers, laboratory workers, medical students, prison workers, other individuals with occupational exposure).",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-001-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "recommendation-sec-001-02.md",
+      "narrative": null,
+      "content": "Polio 3 All HCWs should have completed a full course of primary vaccination against polio.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-001-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "recommendation-sec-001-03.md",
+      "narrative": null,
+      "content": "All health-care workers should up to date with immunization as recommended in their national immunization schedules.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-001-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "recommendation-sec-001-04.md",
+      "narrative": null,
+      "content": "Measles 5 All HCWs should be immune to measles and proof/documentation of immunity or immunization should be required as a condition of enrollment into training and employment.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-001-05",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "recommendation-sec-001-05.md",
+      "narrative": null,
+      "content": "Rubella 6 If rubella vaccine has been introduced into the national programme, all HCWs should be immune to rubella and proof/documentation of immunity or immunization should be required as a condition of enrollment into training and employment.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-001-06",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "recommendation-sec-001-06.md",
+      "narrative": null,
+      "content": "Meningococcal 7 One booster dose 3-5 years after the primary dose may be given to persons considered to be at continued risk of exposure, including HCWs.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-001-07",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "recommendation-sec-001-07.md",
+      "narrative": null,
+      "content": "Annual immunization with a single dose is recommended.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-001-08",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "recommendation-sec-001-08.md",
+      "narrative": null,
+      "content": "Varicella 9 Countries should consider vaccination of potentially susceptible health-care workers (i.e. unvaccinated and with no history of varicella) with 2 doses of varicella vaccine.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-001-09",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "recommendation-sec-001-09.md",
+      "narrative": null,
+      "content": "Pertussis 10 HWCs should be prioritized as a group to receive pertussis vaccine.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-002-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-002-01.md",
+      "narrative": null,
+      "content": "Tetanus 11 There is currently no recommendation regarding HCWs.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-002-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-002-02.md",
+      "narrative": null,
+      "content": "There is currently no recommendation regarding HCWs.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-002-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-002-03.md",
+      "narrative": null,
+      "content": "Workers at high-risk in endemic areas, such as those involved in vector control, should be vaccinated.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-002-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-002-04.md",
+      "narrative": null,
+      "content": "Yellow Fever 17 Individuals in endemic countries and travelers to these countries should receive a single dose of yellow fever vaccine.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-002-05",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-002-05.md",
+      "narrative": null,
+      "content": "There is currently no recommendation regarding HCWs.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-002-06",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-002-06.md",
+      "narrative": null,
+      "content": "Workers at high-risk in endemic areas, such as those involved in vector control, should be vaccinated.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-002-07",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-002-07.md",
+      "narrative": null,
+      "content": "Typhoid 19 Typhoid vaccines should be employed as part of comprehensive control strategies in areas where the disease is endemic.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-002-08",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-002-08.md",
+      "narrative": null,
+      "content": "There is currently no recommendation regarding HCWs.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-002-09",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-002-09.md",
+      "narrative": null,
+      "content": "There is currently no recommendation regarding HCWs.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-002-10",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-002-10.md",
+      "narrative": null,
+      "content": "Rabies 22 PrEP may be considered for medical professionals who regularly provide care to persons with rabies.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-002-11",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-002-11.md",
+      "narrative": null,
+      "content": "All health-care workers should be up-to-date with immunization as recommended in their national immunization schedule.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/recommendation-sec-002-12",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-002-12.md",
+      "narrative": null,
+      "content": "Malaria 25 Vaccine not recommended for adults.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-4/blocks/table-001",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "../tables/table-1.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    }
+  ]
+}

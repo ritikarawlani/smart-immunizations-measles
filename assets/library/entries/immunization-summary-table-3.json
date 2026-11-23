@@ -1,0 +1,1811 @@
+{
+  "$schema": "folio-library-entry/v1",
+  "id": "immunization-summary-table-3",
+  "blocks": [
+    {
+      "id": "library/immunization-summary-table-3/blocks/prose-sec-000",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "../sections/sec-000-table-3-recommendations-for-interrupted-or-delay.md",
+      "narrative": null,
+      "content": "Antigen \nAge of 1st Dose \n(minimum) \nDoses in Primary \nSeries (min interval \nbetween doses)** \nInterrupted \nprimary \nseries*** \nDoses for those who start vaccination late \n \nBooster \nIf ≤ 12 months of age \nIf > 12 months of age \nRecommendations for all immunization programmes \nRSV 1 \nOption 1 Maternal \nvaccination \nThird trimester  \n1 \nNA \nIdeally no later than 2 weeks before delivery \nNA \nOption 2 Monoclonal \nantibody \nAs soon as possible after birth   \n(see footnotes)  \n1 \nNA \nEarliest opportunity  \n(see footnotes) \nNA \nNA \nBCG 2 \nAs soon as possible after birth \n1 dose \nNA \n1 dose \n1 dose",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/prose-sec-front-matter",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Front matter",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "../sections/sec-front-matter.md",
+      "narrative": null,
+      "content": "(updated: December 2025)",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-000-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-000-01.md",
+      "narrative": null,
+      "content": "Booster If ≤ 12 months of age If > 12 months of age Recommendations for all immunization programmes RSV 1 Option 1 Maternal vaccination Third trimester 1 NA Ideally no later than 2 weeks before delivery NA Option 2 Monoclonal antibody As soon as possible after birth (see footnotes) 1 NA Earliest opportunity (see footnotes) NA NA BCG 2 As soon as possible after birth 1 dose NA 1 dose 1 dose Not recommended Hepatitis B 3 As soon as possible after birth (<24h) Birth dose <24 hrs plus 2-3 doses with DTPcv (4 weeks) Resume without repeating previous dose 3 doses 3 doses Not recommended",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-000-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-000-02.md",
+      "narrative": null,
+      "content": "(IPV to be given with 1st dose & 3rd dose of bOPV) Not recommended bOPV + IPV (Hexavalent option)",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-000-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-000-03.md",
+      "narrative": null,
+      "content": "DTP-containing vaccine (DTPcv) 5 6 weeks (min) 3 doses (4 weeks) Resume without repeating previous dose 3 doses 3 doses with interval of at least 4 weeks between 1st & 2nd dose, and at least 6 mos between 2nd & 3rd dose (if > 7 yrs use only aP containing vaccine; if > 4 yrs Td containing vaccine is preferred and should only be used for >7 yrs) 3 boosters: 12-23 months (DTP- containing vaccine); 4-7 years (Td/DT containing vaccine), see footnotes; and 9-15 yrs (Td containing) (if > 7 yrs use only aP containing vaccine) If tetanus vaccination started during adolescence or adulthood only 5 doses",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-000-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "target": "recommendation-sec-000-04.md",
+      "narrative": null,
+      "content": "Haemophilus influenzae type b 6 Option 1 6 weeks (min) 3 doses (4 weeks) Resume without repeating previous dose 3 doses 1 dose >5 yrs not recommended if healthy None Option 2",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/table-001",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "../tables/table-1.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/prose-sec-001",
+      "types": [
+        "folio-assistant-core:Prose",
+        "doco:Section"
+      ],
+      "kind": "prose",
+      "title": "Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "../sections/sec-001-table-3-recommendations-for-interrupted-or-delay.md",
+      "narrative": null,
+      "content": "Antigen \nAge of 1st Dose \n(minimum) \nDoses in Primary \nSeries (min interval \nbetween doses)** \nInterrupted \nprimary \nseries*** \nDoses for those who start vaccination late \n \nBooster \nIf ≤ 12 months of age \nIf > 12 months of age \nPneumococcal (Conjugate) 7 \n6 weeks (min) \n3 doses (3p+0) with DTPcv \n(4weeks) or  \n2 doses (2p+1) (4-8 weeks) \nResume without \nrepeating previous dose \n2-3 doses \n12-24 months: 2 doses \n2-5 yrs: 1 dose \n1-5 yrs at high-risk: 2 doses \nBooster at 9-18 months if following 2 dose \nschedule  \nAnother booster if HIV+or preterm neonate \nVaccination in older adults \nRotavirus",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": {
+        "status": "not-summarised"
+      }
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-01",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-01.md",
+      "narrative": null,
+      "content": "Booster If ≤ 12 months of age If > 12 months of age Pneumococcal (Conjugate) 7 6 weeks (min) 3 doses (3p+0) with DTPcv (4weeks) or 2 doses (2p+1) (4-8 weeks) Resume without repeating previous dose 2-3 doses 12-24 months: 2 doses 2-5 yrs: 1 dose 1-5 yrs at high-risk: 2 doses Booster at 9-18 months if following 2 dose schedule Another booster if HIV+or preterm neonate Vaccination in older adults Rotavirus 8 6 weeks (min) 2 or 3 depending on product given with DTPCV Resume without repeating previous dose 2 or 3 depending on product >24 months limited benefit Not recommended if > 24 months old Mea",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-02",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-02.md",
+      "narrative": null,
+      "content": "2 doses Not recommended Rubella 10 9 or 12 months 1 dose with measles containing vaccine NA 1 dose 1 dose Not recommended HPV 11 As soon as possible from 9 years of age (females) 1-2 doses (6-12 months) Resume without repeating previous dose",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-03",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-03.md",
+      "narrative": null,
+      "content": "NA Girls: 9-14 years 1-2 doses (see footnote) Not recommended Recommendations for certain regions Japanese Encephalitis12 Inactivated Vero cell- derived vaccine 6 months 2 (4 weeks) generally Resume without repeating previous dose 2 doses (generally) 2 doses (generally) Not recommended Live attenuated 8 months 1 NA 1 dose 1 dose Live recombinant vaccine 9 months 1 NA 1 dose 1 dose Yellow Fever 13 9-12 months 1 dose with measles containing vaccine NA 1 dose 1 dose Not recommended Tick-Borne Encephalitis 14 FSME-Immun & Encepur ≥ 1 yr 3 doses (1st to 2nd 1-3 mos; 2nd to 3rd 12 mos) Resume withou",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-04",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-04.md",
+      "narrative": null,
+      "content": "TBE_Moscow & EnceVir ≥ 3 yr 3 doses (1st to 2nd 1-7 mos; 2nd to 3rd 12 mos) Resume without repeating previous dose 3 doses 3 doses Every 3 years Recommendations for some high-risk populations Typhoid 15 TCV-Typbar >6 months 1 dose NA 1 dose 1 dose",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-05",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-05.md",
+      "narrative": null,
+      "content": "Vi PS 2 years (min) 1 dose NA Not recommended",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-06",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-06.md",
+      "narrative": null,
+      "content": "1 dose Every 3 years Ty21a Capsules 6 years (min) (see footnote) 3-4 doses (1 day) (see footnote) If interruption is < 21 days, resume without repeating previous dose; If > 21 days restart primary series Not recommended > 6 yrs: 3-4 doses Every 3-7 years",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-07",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-07.md",
+      "narrative": null,
+      "content": "(updated: December 2025) Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers Antigen Age of 1st Dose (minimum) Doses in Primary Series (min interval between doses)** Interrupted primary series*** Doses for those who start vaccination late",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-08",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-08.md",
+      "narrative": null,
+      "content": "If booster is delayed > 6 months the primary series must be repeated. >6 yrs: every 2 years.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-09",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-09.md",
+      "narrative": null,
+      "content": "If booster is delayed > 2 yrs the primary series must be repeated Shanchol, Euvchol and mORCVAX 1 year (min) 2 doses (2 weeks) Resume without repeating previous dose Not recommended 2 doses After 2 years Meningococcal 17 MenA conjugate 9-18 months 1 NA 2 doses if < 9 months with 8 week interval 1 dose Not recommended MenC conjugate 2-11 months 1 NA 2 doses 1 dose 2-11 months of age: after 1 year >12 months 2 (8 weeks min) Resume without repeating previous dose Quadrivalent conjugate (See footnotes for schedule alternatives based on vaccine product options) Pentavalent conjugate (Men5CV) 9-18 m",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-10",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-10.md",
+      "narrative": null,
+      "content": "1 dose 1 dose Not recommended Hepatitis A 18 Inactivated > 12 months 1 or 2 Resume without repeating previous dose Not recommended 1 or 2 Not recommended Live attenuated 18 months 1",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-100",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-100.md",
+      "narrative": null,
+      "content": "Countries may choose to use a one-dose schedule but if they do, they should note that, while such a programme may be sufficient to reduce mortality and severe morbidity from varicella, it is less effective than a 2-dose schedule in preventing virus circulation and occasional outbreaks. • For catch-up vaccination in adolescents and adults, a 2-dose schedule of varicella vaccine should also be used. • Varicella vaccine can be administered concomitantly with other vaccines.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-101",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-101.md",
+      "narrative": null,
+      "content": "Unless given together with other live viral vaccines (measles, MR, MMR), it should be administered at a minimum interval of 28 days (4 weeks). • Regardless of the duration of delay, interrupted schedules should be resumed as soon as possible without repeating previous doses.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-11",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-11.md",
+      "narrative": null,
+      "content": "2 doses Only if occupation puts a frequent or continual risk of exposure, titres should be tested if possible Dengue (TAK-003) 20 6 years (min) 2 doses (3 months) Resume without repeating previous dose Not recommended 2 doses 6-16 years Not recommended Malaria 21 5 months 4 doses (4 weeks) Resume without repeating previous dose 4 doses 4 doses",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-12",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-12.md",
+      "narrative": null,
+      "content": "Recommendations for children receiving vaccinations from immunization programmes with certain characteristics Mumps 21 12-18 months 2 doses with measles and rubella containing vaccine (4 weeks) Resume without repeating previous dose Not recommended 2 doses Not recommended Seasonal influenza (inactivated tri- and quadri-valent) 22 6 months (min) 2 (6 month to 8 years) 1(≥ 9 years) Resume without repeating previous dose 2 doses 2 (6 month to 8 years) 1(≥ 9 years) Revaccinate annually 1 dose only Varicella 23 12-18 months 1-2 (4 weeks – 3 months, depending on manufacturer) Resume without repeatin",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-13",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-13.md",
+      "narrative": null,
+      "content": "Summary Table 3 - Notes • Refer to http://www.who.int/immunization/documents/positionpapers for the most recent version of the tables and position papers. • The attached table summarizes the WHO recommendations for interrupted or delayed routine vaccination.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-14",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-14.md",
+      "narrative": null,
+      "content": "Its purpose is to assist national decision-makers and programme managers to develop appropriate policy guidance in relation to their national immunization schedule. • This table is designed to be used together with two other summary tables - Table 1: Summary of WHO Position Papers - Recommendations for Routine Immunization; and Table 2: Summary of WHO Position Papers - Recommended Routine Immunization for Children. • Vaccines can generally be co-administered (i.e. more than one vaccine given at different sites during the same visit).",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-15",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-15.md",
+      "narrative": null,
+      "content": "Recommendations that explicitly endorse co-administration are indicated in the footnotes.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-16",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-16.md",
+      "narrative": null,
+      "content": "Lack of an explicit co-administration recommendation is often due to a lack of evidence and does not necessarily imply that the vaccine cannot be co-administered.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-17",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-17.md",
+      "narrative": null,
+      "content": "Record (2025, 22:193–218) Maternal RSV vaccine • For countries using maternal RSV vaccine , WHO recommends a single dose in the third trimester of pregnancy, as defined in the local context (≥28 weeks gestation in most settings). • Ideally vaccination should occur more than 2 weeks before delivery to ensure adequate transfer of antibodies to protect the baby.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-18",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-18.md",
+      "narrative": null,
+      "content": "Therefore no upper limit of week of gestation is recommended, except for women in active labour who should not receive the RSV vaccine.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-19",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-19.md",
+      "narrative": null,
+      "content": "Long-acting monoclonal antibody (mAb) • For countries deciding to use RSV mAb to protect young infants, WHO recommends a single dose at birth, or at the earliest opportunity thereafter if year-round administration is adopted. • In a seasonal approach, administration of a single dose of RSV mAb is recommended for infants and should begin shortly before the start of the RSV season, as well as at birth or earliest opportunity thereafter for infants born during the RSV season. • The greatest impact in preventing severe RSV disease will be achieved by administering the mAb to infants aged under 6 m",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-20",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-20.md",
+      "narrative": null,
+      "content": "Record (2018, 93:73-96). • BCG vaccination is recommended for unvaccinated TST- or IGRA-negative older children, adolescents and adults from settings with high incidence of TB and/or high leprosy burden, those moving from low to high TB incidence/ leprosy burden settings and persons at risk of occupational exposure in low and high TB incidence areas (e.g. health-care workers, laboratory workers, medical students, prison workers, other individuals with occupational exposure).",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-21",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-21.md",
+      "narrative": null,
+      "content": "Record (2017, 92:369-392). • In general, the dose for infants and children (aged < 15 years) is half the recommended adult dose. • Co-administration of HepB vaccine does not interfere with the immune response to any other vaccine and vice versa. • If delayed or interrupted scheduling of vaccination for children, adolescents and adults, 3 doses are recommended, with the second dose administered at least 1 month after the first, and the third dose 6 months after the first dose.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-22",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-22.md",
+      "narrative": null,
+      "content": "Record (2022, 97:277-300). bOPV plus IPV • For infants late in starting the routine immunization schedule (age >3 months) the first IPV dose should be administered at the first immunization contact along with bOPV and the other routinely recommended vaccines. • Countries using a hexavalent vaccine should follow the delayed schedule for DTP-containing vaccines, ensuring at least 2 IPV doses are provided.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-23",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-23.md",
+      "narrative": null,
+      "content": "Sequential IPV–bOPV • For sequential IPV– bOPV schedules, WHO recommends that the first dose of IPV be given starting from 8 weeks of age with an interval of 4–8 weeks before administration of the second IPV dose.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-24",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-24.md",
+      "narrative": null,
+      "content": "This should be followed by at least 2 doses of bOPV separated by 4–8 weeks, depending on the risk of exposure to poliovirus in early childhood.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-25",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-25.md",
+      "narrative": null,
+      "content": "IPV-only • A primary 3-dose series of IPV administered beginning at 6 or 8 weeks of age, with a minimum 4 week interval between doses, is recommended. • Alternatively, a 2-dose or fractional dose IPV schedule, starting at 14 weeks of age or older, with a second dose 4 months or more later, can be considered.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-26",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-26.md",
+      "narrative": null,
+      "content": "This schedule is currently only recommended for use after OPV cessation.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-27",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-27.md",
+      "narrative": null,
+      "content": "Record (2015, 90: 433-460). • If either the start or the completion of the primary series has been delayed, the missing doses should be given at the earliest opportunity with an interval of at least 4 weeks between doses. • 3 booster doses of diphtheria toxoid-containing vaccine should be provided during childhood and adolescence.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-28",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-28.md",
+      "narrative": null,
+      "content": "The diphtheria booster doses should be given in combination with tetanus toxoid using the same schedule, i.e at 12–23 months of age, 4–7 years of age, and 9–15 years of age, using age-appropriate vaccine formulations.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-29",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-29.md",
+      "narrative": null,
+      "content": "Ideally, there should be at least 4 years between booster doses. • Tetanus: To ensure lifelong protection against tetanus all people should receive 6 doses (3 primary plus 3 booster doses) of tetanus toxoid-containing vaccine (TTCV) through routine childhood immunization schedules. • If tetanus vaccination is started during adolescence or adulthood, a total of only 5 appropriately spaced doses are required to obtain lifelong protection. • To provide and sustain both tetanus and diphtheria immunity throughout the life course and for both sexes, age-appropriate combinations of tetanus and diphth",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-30",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-30.md",
+      "narrative": null,
+      "content": "For children <7 years of age DTwP or DTaP combinations may be used.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-31",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-31.md",
+      "narrative": null,
+      "content": "For children aged 4 years and older Td containing vaccine may be used and is preferred. • From 7 years of age only Td combinations should be used.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-32",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-32.md",
+      "narrative": null,
+      "content": "Vaccination history should be verified in order to determine whether a dose of TTCV is needed in the current pregnancy. • Pertussis: Only aP-containing vaccines should be used for vaccination of persons aged ≥7 years. • Pertussis-containing booster: A booster dose is recommended for children aged 1–6 years, preferably during the second year of life (≥6 months after last primary dose), unless otherwise indicated by local epidemiology; the contact could also be used to catch up on any missed doses of other vaccines.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-33",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-33.md",
+      "narrative": null,
+      "content": "This schedule should provide protection for at least 6 years for countries using wP vaccine.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-34",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-34.md",
+      "narrative": null,
+      "content": "For countries using aP vaccine, protection may decline appreciably before 6 years of age. • Delayed or interrupted DTP-containing series: For children whose vaccination series has been interrupted, the series should be resumed without repeating previous doses.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-35",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-35.md",
+      "narrative": null,
+      "content": "Children aged 1 to < 7 years who have not previously been vaccinated should receive 3 doses of vaccine following a 0, 1, 6 month schedule.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-36",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-36.md",
+      "narrative": null,
+      "content": "Record (2013, 88: 413-428). • The number of primary doses should be set after consideration of the local epidemiology, vaccine presentation (Hib conjugate monovalent vaccine versus Hib conjugate vaccine in combination with other antigens) and how this fits into the overall routine immunization schedule. • If the vaccination course has been interrupted, the schedule should be resumed without repeating the previous dose.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-37",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-37.md",
+      "narrative": null,
+      "content": "Children who start vaccination late, but are aged under 12 months, should complete the vaccination schedule (e.g. have 3 primary doses or 2 primary doses plus a booster). • When a first dose is given to a child older than 12 months of age, only one dose is recommended. • Hib vaccine is not required for healthy children after 5 years of age.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-38",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-38.md",
+      "narrative": null,
+      "content": "Record (2025, 39: 411-437). • For administration of PCV to infants, WHO recommends a 3-dose schedule administered either as 2p+1 or as 3p+0, starting as early as 6 weeks of age. • If the 2p+1 schedule is selected, an interval of ≥8 weeks is recommended between the 2 primary doses.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-39",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-39.md",
+      "narrative": null,
+      "content": "The booster dose should be given at 9–18 months of age, according to programmatic considerations; there is no defined minimum or maximum interval between the primary series and the booster dose. • If the 3p+0 schedule is used, a minimum interval of 4 weeks should be maintained between doses. • Off-label 1p+1 (see position paper for criteria): The first dose of the 1p+1 schedule can be given at ≥6 weeks of age, and the booster can be given at ≥9 months of age. • Interrupted schedules should be resumed without repeating the previous dose. • If a series cannot be completed with the same type of v",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-40",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-40.md",
+      "narrative": null,
+      "content": "Restarting a series is not recommended, even for the primary series. • Wherever possible, catch-up vaccination at the time of introduction of PCV should be used to accelerate its impact on disease in children aged 1–5 years, particularly in settings with a high disease burden and mortality.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-41",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-41.md",
+      "narrative": null,
+      "content": "If there is limited availability of vaccine or of financial resources for catch-up vaccination, the youngest children (e.g. <2 years of age) should be prioritized to receive catch-up doses of PCV because of their higher risk for pneumococcal disease. • Catch-up vaccination can be done with a single dose of vaccine for children ≥24 months. • Previously unvaccinated or incompletely vaccinated children who recover from invasive pneumococcal disease should be vaccinated according to the recommended age-appropriate regimens. • Unvaccinated children aged 1–5 years who are at high risk for pneumococc",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-42",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-42.md",
+      "narrative": null,
+      "content": "Record (2021, 96: 301-320). • Early administration is favoured, with the first dose of rotavirus vaccine to be administered as soon as possible after 6 weeks of age, however, in order to benefit those who may come late should be vaccinated. • If a child <24 months of age misses a rotavirus dose or series for any reason, WHO recommends rotavirus vaccination for that child.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-43",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-43.md",
+      "narrative": null,
+      "content": "Because of the typical age distribution of RVGE, rotavirus vaccination of children >24 months of age is not recommended. • Regardless of the duration of the delay, interrupted schedules should be resumed as soon as possible without repeating the previous dose. • The rotavirus vaccination series for each child should be completed with the same product whenever feasible.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-44",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-44.md",
+      "narrative": null,
+      "content": "However, if the product used for a prior dose is unavailable or unknown, the series should be completed with any available licensed product. • Rotavirus vaccinations may be administered simultaneously with other vaccines of the childhood immunization programme.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-45",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-45.md",
+      "narrative": null,
+      "content": "Record (2017, 92: 205-228). • Reaching all children with 2 doses of measles vaccine should be the standard for all national immunization programmes. • Regardless of the duration of delay, interrupted schedules should be resumed as soon as possible, without repeating previous doses. • The minimum interval between MCV1 and MCV2 is 4 weeks. • Because many cases of measles occur in children aged >12 months who have not been vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and routine delivery of MCV2 should not be limited to infants 15 to 18 months of age.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-46",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-46.md",
+      "narrative": null,
+      "content": "Every opportunity (e.g. when children come into contact with health services) should be taken to vaccinate all children that missed one or both MCV routine doses, particularly those under 15 years of age.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-47",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-47.md",
+      "narrative": null,
+      "content": "Policies which prohibit use of vaccine in children >1 year of age, older children, and teenagers, should be changed to allow these individuals to be vaccinated. • As a general rule, live vaccines should be given either simultaneously or at intervals of 4 weeks.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-48",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-48.md",
+      "narrative": null,
+      "content": "This component of the Rubella Position Paper will be amended in the next update; in the meantime, the new policy recommendation can be found in the Meeting of the Strategic Advisory Group of Experts on Immunization, September 2024: conclusions and recommendations. • All countries that have not yet introduced RCV should plan to do so.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-49",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-49.md",
+      "narrative": null,
+      "content": "• RCV’s can be administered concurrently with inactivated vaccines. • Live vaccines should be given either simultaneously with RCV’s, or at least 4 weeks apart.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-50",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-50.md",
+      "narrative": null,
+      "content": "WHO recommends co-administration of RCV and YF vaccines. • Rubella vaccination should be avoided in pregnancy because of a theoretical (but never demonstrated) risk of teratogenic outcomes.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-51",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-51.md",
+      "narrative": null,
+      "content": "Women planning a pregnancy are advised to avoid pregnancy for 1 month after rubella vaccination. • WHO recommends that people who receive blood products wait at least 3 months before vaccination with RCV, and, if possible, avoid administration of blood products for 2 weeks after vaccination.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-52",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-52.md",
+      "narrative": null,
+      "content": "Record (2022, 97: 645-672). • The current evidence supports the recommendation that a 2-dose schedule be used in the primary target group from 9 years of age and for all older age groups for which HPV vaccines are licensed. • The minimum interval between first and second dose is 6 months.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-53",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-53.md",
+      "narrative": null,
+      "content": "A 12-month schedule results in higher GMTs and is suggested for programmatic and efficiency reasons. • There is no maximum recommended interval between doses and longer intervals – up to 3 or 5 years – can be considered if useful from a programme perspective. • Alternative single-dose schedule: As an off-label option, a single-dose schedule can be used in girls and boys aged 9–20 years.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-54",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-54.md",
+      "narrative": null,
+      "content": "From a public health perspective, the use of a single dose schedule can offer substantial benefits that outweigh the potential risk of a lower level of protection if efficacy wanes over time, although there is no current evidence of this. • Individuals known to be immunocompromised or HIV-infected (regardless of age or antiretroviral therapy status) should receive at least two HPV vaccine doses (minimum 6 months interval) and, where possible, three doses. • HPV vaccines can be co-administered with other non-live and live vaccines using separate syringes and different injection sites.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-55",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-55.md",
+      "narrative": null,
+      "content": "Co-administration of a booster dose of tetanus-diphtheria (Td) vaccination should be considered to improve programme efficiency and avoid missed opportunities to receive needed vaccinations. • As a precaution HPV vaccine is not recommended in pregnancy.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-56",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-56.md",
+      "narrative": null,
+      "content": "If pregnancy occurs following the first dose of vaccination, the subsequent dose should be delayed until after the pregnancy.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-57",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-57.md",
+      "narrative": null,
+      "content": "Record (2015, 90: 69-88). • The most effective immunization strategy in JE endemic settings is a one-time campaign in the primary target population, as defined by local epidemiology (typically children aged <15 years), followed by incorporation of JE vaccine into the routine childhood immunization programme. • The following vaccine dosing schedules and age of administration are recommended.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-58",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-58.md",
+      "narrative": null,
+      "content": "The need for a booster dose in endemic settings has not been clearly established for any of the vaccines listed below:  Inactivated Vero cell-derived vaccine: Primary series according to manufacturer’s recommendations (these vary by product), generally 2 doses at 4-week intervals starting the primary series at ≥6 months of age in endemic settings  Live attenuated vaccine: Single dose administered at ≥8 months of age  Live recombinant vaccine: Single dose administered at ≥9 months of age • Despite a lack of comprehensive immunogenicity/effectiveness and safety data for all possible combinati",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-59",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-59.md",
+      "narrative": null,
+      "content": "Record (2013, 88: 269-284). • A single dose of YF vaccine is sufficient to confer sustained life-long protective immunity against YF disease; a booster dose is not necessary. • The vaccine is contraindicated in children aged <6 months and is not recommended for those aged 6-8 months, except during epidemics when the risk of infection with the YF virus is very high.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-60",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-60.md",
+      "narrative": null,
+      "content": "Other contraindications for YF vaccination are severe hyper-sensitivity to egg antigens and severe immunodeficiency. • Vaccine should be offered to all unvaccinated travelers aged ≥ 9 months, travelling to and from at- risk areas, unless they belong to the group of individuals for whom YF vaccination is contraindicated. • YF vaccine may be administered simultaneously with other vaccines.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-61",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-61.md",
+      "narrative": null,
+      "content": "As a general rule, any live vaccine may be given either simultaneously or at an interval of 4 weeks.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-62",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-62.md",
+      "narrative": null,
+      "content": "Oral polio vaccine may be given at any time in relation to YF vaccination.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-63",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-63.md",
+      "narrative": null,
+      "content": "Record (2011, 86: 241-256). • Vaccination against the disease requires a primary series of 3 doses; those who will continue to be at risk should probably have ≥1 booster doses. • Within the considerable range of acceptable dose intervals, the relevant national authorities should select the most rational primary schedule for their national, regional or district immunization programmes. • Although there is a strong indication that the spacing of boosters could be expanded considerably from the intervals currently recommended by the manufacturers (every 3-5 years), the evidence is still insuffici",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-64",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-64.md",
+      "narrative": null,
+      "content": "Countries should therefore continue to recommend the use of vaccines in accordance with local disease epidemiology and current schedules until more definitive information becomes available. • Regardless of the duration of the delay, interrupted schedules should be resumed without repeating previous doses.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-65",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-65.md",
+      "narrative": null,
+      "content": "Record (2018, 93: 153-172) • TCV is recommended for infants and children from 6 months of age and in adults up to 45 years.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-66",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-66.md",
+      "narrative": null,
+      "content": "Ty21a – 3-doses to be administered orally every second day from 6 years of age. • Regardless of the duration of the delay, interrupted schedules should be resumed without repeating previous doses.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-67",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-67.md",
+      "narrative": null,
+      "content": "• Catch-up vaccination with TCV up to 15 years of age is recommended when feasible and supported by epidemiological data. • The potential need for revaccination with TCV is currently unclear.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-68",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-68.md",
+      "narrative": null,
+      "content": "Revaccination is recommended every 3 years for ViPS, and every 3-7 years for Ty21a.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-69",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-69.md",
+      "narrative": null,
+      "content": "Record (2017, 92:477-500). • WC vaccines (Shanchol, Euvchol, and mORCVAX) 2 doses should be given 14 days apart to individuals ≥1 year of age.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-70",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-70.md",
+      "narrative": null,
+      "content": "For WC-rBS vaccine (Dukoral) 3 doses should be given to children 2-5 years of age, and 2 doses to children aged ≥6 years and adults, with an interval of 1-6 weeks between doses in both groups. • For WC vaccines, interrupted schedules should be resumed without repeating previous dose, regardless of delay.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-71",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-71.md",
+      "narrative": null,
+      "content": "For WC-rBS vaccine, if ≥6 weeks has passed since last dose, restart the series. • Revaccination is recommended where there is continued risk of V. cholerae infection.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-72",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-72.md",
+      "narrative": null,
+      "content": "For WC vaccines revaccination is recommended after 3 years.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-73",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-73.md",
+      "narrative": null,
+      "content": "For WC-rBS vaccine: children age 2-5 years revaccination is recommended within 6 months.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-74",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-74.md",
+      "narrative": null,
+      "content": "If more than 6 months have passed, the primary series of 3 doses should be repeated.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-75",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-75.md",
+      "narrative": null,
+      "content": "If more than 2 years have passed, the primary series of 2 doses should be repeated. • Pregnant and lactating women and HIV infected individuals should be included in OCV campaigns since there is a high potential benefit and minimal risks.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-76",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-76.md",
+      "narrative": null,
+      "content": "Record (2024, 99: 1-10). • WHO now recommends the use of Men5CV (pentavalent meningococcal conjugate vaccine) as a single-dose schedule beginning at 9 months of age, in alignment with routine immunization schedules.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-77",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-77.md",
+      "narrative": null,
+      "content": "The need for a booster dose is currently under review, based on accumulating programmatic experience. • For countries still using MenA conjugate vaccine, MenA conjugate vaccine (5µg) a 1-dose schedule is recommended at 9-18 months of age based on local programmatic and epidemiologic considerations.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-78",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-78.md",
+      "narrative": null,
+      "content": "MenA (10µg) should be used for catch-up and periodic campaigns from 12 months of age onwards. • If in a specific context there is a compelling reason to vaccinate infants younger than 9 months, a 2-dose schedule should be used starting at 3 months of age, with an interval of at least 8 weeks between doses. • For monovalent MenC conjugate vaccine one single intramuscular dose is recommended for children aged ≥12 months, teenagers and adults.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-79",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-79.md",
+      "narrative": null,
+      "content": "Children 2-11 months require 2 doses administered at an interval of a least 2 months and a booster about 1 year after. • If the primary series is interrupted, vaccination should be resumed without repeating the previous dose.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-80",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-80.md",
+      "narrative": null,
+      "content": "Record (2022, 97: 493-512). • Vaccination against hepatitis A should be part of a comprehensive plan for the prevention and control of viral hepatitis, including measures to improve safe drinking-water, sanitation and hygiene (such as hand washing) and measures for outbreak control. • WHO recommends that vaccination against hepatitis A virus be introduced into national immunization schedules for individuals aged ≥12 months, if indicated on the basis of: i) an increasing trend over time of acute hepatitis A disease, including severe disease, among older children, adolescents or adults; ii) chan",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-81",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-81.md",
+      "narrative": null,
+      "content": "In these countries, large-scale hepatitis A vaccination programmes are not routinely recommended, because they carry a risk of a paradoxical increase in disease incidence in unvaccinated people.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-82",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-82.md",
+      "narrative": null,
+      "content": "If a highly endemic country nevertheless wishes to consider largescale vaccination, it is essential to undertake a thorough prior analysis of risks vs benefits and ensure a high vaccination coverage to avoid this risk. • Groups at higher risk of hepatitis A should be vaccinated.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-83",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-83.md",
+      "narrative": null,
+      "content": "In such countries, large-scale hepatitis A vaccination in early childhood is likely to be cost–effective and is therefore recommended.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-84",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-84.md",
+      "narrative": null,
+      "content": "When introducing the vaccine, these countries should consider the need for catch-up immunization based on age- specific seroprevalence rates or other markers of susceptibility.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-85",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-85.md",
+      "narrative": null,
+      "content": "With a 2-dose schedule, the first dose should be given starting from age ≥12 months.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-86",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-86.md",
+      "narrative": null,
+      "content": "Data on vaccine effectiveness, antibody persistence, and modelling on long-term seroprotection indicate that an off-label, single dose schedule is equivalent to the two- dose schedule in children, in addition to being less costly and easier to implement. • For adults aged >40 years, vaccination with inactivated vaccines using the 2-dose schedule is preferred since there is insufficient evidence on the immunogenicity and long-term protection from a single dose in this age group. • Inactivated hepatitis A vaccines produced by different manufacturers, including combined hepatitis A vaccines, are",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-87",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-87.md",
+      "narrative": null,
+      "content": "Inactivated hepatitis A vaccines should also be considered for use in pregnant women at risk of HAV infection.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-88",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-88.md",
+      "narrative": null,
+      "content": "Record (2018, 93: 201-220). • If any doses are delayed, vaccination should be resumed, not restarted.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-89",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-89.md",
+      "narrative": null,
+      "content": "Record (2024, 99: 203-224) • WHO recommends the use of TAK-003 in children aged 6–16 years in settings with high dengue transmission intensity. • Catch-up vaccination can also be considered for other age groups within the 6–16 year age range at the time of vaccine introduction. • The vaccine is recommended as a 2-dose schedule with a minimum interval of 3 months between doses.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-90",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-90.md",
+      "narrative": null,
+      "content": "It is not advised to reduce the interval between doses. • If the second dose is delayed for any reason, it is not necessary to restart the series and the second dose should be administered at the first available opportunity. • A booster dose is not recommended. • TAK-003 may be co-administered with other inactivated, subunit, or mRNA vaccines, except for live vaccines, for which more data are required. • TAK-003 is not recommended during pregnancy and pregnancy should be avoided for at least 1 month following vaccination.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-91",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-91.md",
+      "narrative": null,
+      "content": "Inadvertent vaccination of a pregnant person is not a reason to terminate the pregnancy. • TAK-003 is contraindicated for mothers during breastfeeding, in persons with congenital or acquired immune deficiency, including those receiving immunosuppressive therapies such as chemotherapy or high doses of systemic corticosteroids within 4 weeks prior to vaccination (as with other live attenuated vaccines), and in individuals with symptomatic HIV infection or with asymptomatic HIV infection associated with evidence of impaired immune function.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-92",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-92.md",
+      "narrative": null,
+      "content": "Record (2024, 99: 225-248) • Malaria vaccines should be provided in a 4-dose schedule in children from 5 months of age. • The minimum interval between any doses is 4 weeks; however, to achieve prolonged protection, the fourth dose should be given 6–18 months after the third dose. • To improve coverage, there can be flexibility in the timing of the fourth dose, including by aligning it with vaccines given in the second year of life.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-93",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-93.md",
+      "narrative": null,
+      "content": "Alternatively, because vaccine efficacy is highest in the first months after vaccination, the fourth dose can be given just prior to seasonal peaks in malaria transmission to optimize vaccine efficacy. • A fifth dose, given one year after the fourth dose, may be provided in areas of highly seasonal transmission and may be considered in other areas – depending on a local assessment of feasibility and cost-effectiveness – where a significant malaria risk remains for children. • At the time of vaccine introduction, catch-up vaccination can be considered in children up to 5 years of age, subject t",
+      "truncated": true,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-94",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-94.md",
+      "narrative": null,
+      "content": "Record (2024, 82: 49-60). • If implemented, mumps vaccine should be administered with measles and rubella as MMR or MMRV combination vaccine and follow the same schedule. • Regardless of the duration of delay, interrupted schedules should be resumed as soon as possible without repeating previous doses. • Minimum interval between doses is 4 weeks.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-95",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-95.md",
+      "narrative": null,
+      "content": "Record (2022, 97: 185-208). • A single dose is appropriate for those ≥ 9 years of age and healthy adults. • Children aged 6 months -8 years should receive 2 doses at least 4 weeks apart. • Those who have previously been vaccinated at least once should subsequently receive 1 annual dose. • Live attenuated influenza vaccines (LAIVs) are currently not recommended for children under 2 years of age and adults, including older adults and those with comorbidities, because VE has not been consistently demonstrated in these age groups.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-96",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-96.md",
+      "narrative": null,
+      "content": "Because LAIV is a live-virus vaccine and data on its administration to pregnant women and the associated maternal and fetal risks are limited, LAIV is also not recommended during pregnancy. • Inactivated influenza vaccine is safe to give throughout pregnancy. • Co-administration of influenza vaccine, including with COVID-19 or live vaccines is acceptable.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-97",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-97.md",
+      "narrative": null,
+      "content": "When 2 vaccines are administered at the same visit, the contralateral limb should be used.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-98",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-98.md",
+      "narrative": null,
+      "content": "Record (2025, 47: 567-590). • The number of doses recommended depends on the goal of the vaccination programme.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/recommendation-sec-001-99",
+      "types": [
+        "folio-assistant-core:Recommendation"
+      ],
+      "kind": "recommendation",
+      "title": "",
+      "pageStart": 2,
+      "pageEnd": 8,
+      "target": "recommendation-sec-001-99.md",
+      "narrative": null,
+      "content": "For effective prevention of varicella, WHO recommends a 2-dose schedule of a varicella-containing vaccine given the higher effectiveness of 2 doses versus a single dose.",
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/table-002",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers",
+      "pageStart": 2,
+      "pageEnd": 3,
+      "target": "../tables/table-2.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/table-003",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "",
+      "pageStart": 5,
+      "pageEnd": 6,
+      "target": "../tables/table-3.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/immunization-summary-table-3/blocks/table-004",
+      "types": [
+        "folio-assistant-core:Table",
+        "doco:Table"
+      ],
+      "kind": "table",
+      "title": "",
+      "pageStart": 7,
+      "pageEnd": 8,
+      "target": "../tables/table-4.csv",
+      "narrative": null,
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    }
+  ]
+}

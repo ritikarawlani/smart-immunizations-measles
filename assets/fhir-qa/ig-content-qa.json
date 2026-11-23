@@ -1,0 +1,71 @@
+{
+  "$schema": "ig-content-qa-verdict/v1",
+  "items": 270,
+  "contentDigest": "sha256:080625457d7489283a11800ebc12a947253208793e7469770872fed50e9dcf9f",
+  "patternHits": [],
+  "reviewedDigest": "sha256:be7521a1f3253707cdfe745e058908442157713b961145ccd0ea8b8a734c2646",
+  "reviewer": {
+    "kind": "agent",
+    "name": "claude",
+    "session": "https://claude.ai/code/session_011x8QKrrGoMAhJexF61Mr8x"
+  },
+  "reviewedAt": "2026-11-23T10:43:47.291Z",
+  "ok": true,
+  "state": "stale",
+  "openFindings": [],
+  "unreviewed": [
+    {
+      "where": "Library/MEASLESDT01",
+      "field": "text.div"
+    },
+    {
+      "where": "Library/MEASLESDT02",
+      "field": "text.div"
+    },
+    {
+      "where": "Library/MEASLESDT03",
+      "field": "text.div"
+    },
+    {
+      "where": "Library/MEASLESDT04",
+      "field": "text.div"
+    },
+    {
+      "where": "Library/MEASLESIndicators",
+      "field": "text.div"
+    },
+    {
+      "where": "Measure/MEASLES.IND.01",
+      "field": "text.div"
+    },
+    {
+      "where": "Measure/MEASLES.IND.02",
+      "field": "text.div"
+    },
+    {
+      "where": "Measure/MEASLES.IND.06",
+      "field": "text.div"
+    },
+    {
+      "where": "Measure/MEASLES.IND.07",
+      "field": "text.div"
+    },
+    {
+      "where": "PlanDefinition/MEASLES.DT.01",
+      "field": "text.div"
+    },
+    {
+      "where": "PlanDefinition/MEASLES.DT.02",
+      "field": "text.div"
+    },
+    {
+      "where": "PlanDefinition/MEASLES.DT.03",
+      "field": "text.div"
+    },
+    {
+      "where": "PlanDefinition/MEASLES.DT.04",
+      "field": "text.div"
+    }
+  ],
+  "said": "WARNING: the review in qa/ig-content-qa.json is stale: it read sha256:be7521a1f3253707cdfe745e058908442157713b961145ccd0ea8b8a734c2646 (270 text(s)), the site publishes sha256:080625457d7489283a11800ebc12a947253208793e7469770872fed50e9dcf9f (270); published anyway, with no pattern hit; 13 text(s) not reviewed:\n  Library/MEASLESDT01 text.div\n  Library/MEASLESDT02 text.div\n  Library/MEASLESDT03 text.div\n  Library/MEASLESDT04 text.div\n  Library/MEASLESIndicators text.div\n  Measure/MEASLES.IND.01 text.div\n  Measure/MEASLES.IND.02 text.div\n  Measure/MEASLES.IND.06 text.div\n  Measure/MEASLES.IND.07 text.div\n  PlanDefinition/MEASLES.DT.01 text.div\n  PlanDefinition/MEASLES.DT.02 text.div\n  PlanDefinition/MEASLES.DT.03 text.div\n  PlanDefinition/MEASLES.DT.04 text.div; an agent reviews the texts and records the review (skill ig-content-qa: `ig-content-qa.ts scan`, then `record`)"
+}

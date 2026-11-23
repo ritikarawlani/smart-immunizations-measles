@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+<head><meta name="fa-shared-asset" data-dir="assets/vendor/crepe/" content="https://litlfred.github.io/smart-html-jtd/shared/assets/vendor/crepe/bbe613e43166c241/">
+<script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Decision logic — SMART Immunizations — Measles</title>
+<link rel="canonical" href="./decision-logic.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23276749'/%3E%3C/svg%3E">
+<meta name="folio-navbar" content="linked">
+<meta name="fa-visualiser-label" content="SMART Immunizations — Measles">
+<link rel="stylesheet" href="./assets/page-layout.css" data-fa-page-layout>
+<script src="./assets/page-layout.js" defer data-fa-page-layout></script>
+<link rel="stylesheet" href="./assets/ig-artifact.css">
+<link rel="stylesheet" href="./assets/css/docs-ui.css" data-fa-folio-mount>
+<script src="./assets/navbar/row-2acuhncsmbg.js" defer></script><script src="./assets/js/docs-ui.js" defer data-fa-folio-mount></script>
+<script type="application/json" id="fa-translation-meta">{"lang":"en","translationStatus":"","translationSource":"","supportedLocales":["ar","zh","en","fr","ru","es"],"availableLocales":[]}</script><style data-ig-version-chrome>.ig-topbar-head{flex:0 0 100%;display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .9rem}.ig-topbar-head .ig-topbar-home{flex:none}.ig-topbar-ver{font-weight:400;font-size:.9em;opacity:.95;white-space:nowrap}.ig-topbar-flag{font-size:1.1em}.ig-version-banner{box-sizing:border-box;margin:0;padding:.5rem 1.5rem;background:#ffffa0;color:#222;border-bottom:1px solid #0a0008;font-size:.95rem;line-height:1.45}.ig-version-banner a{color:#1a4b8c;text-decoration:underline}html:not([data-fa-scheme="light"]) .ig-version-banner{background:#4a4520;color:#fff8d0;border-color:#8a7d2a}html:not([data-fa-scheme="light"]) .ig-version-banner a{color:#ffe680}.ig-metadata{border-collapse:collapse;margin:0 0 1rem;font-size:.95rem}.ig-metadata td{border:1px solid #c8c8c8;padding:.25rem .6rem;vertical-align:top}.ig-metadata code{overflow-wrap:anywhere}</style><link rel="stylesheet" href="./assets/css/navbar.css"><script src="./assets/navbar/rail-1bwx8vmf1fv.js" defer></script><script src="./assets/js/navbar.js" defer></script><link rel="stylesheet" href="./assets/css/navbar-row.css"><script src="./assets/js/navbar-row.js" defer></script><meta name="fa-pinned-data" content="."></head>
+<body><script type="application/json" id="fa-navbar-row" data-fa-root="." data-fa-row-src="row-2acuhncsmbg"></script><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root=".">{"data":"rail-1bwx8vmf1fv","here":"/decision-logic.html"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="./">SMART Immunizations — Measles</a></nav>
+
+<div class="ig-topbar fa-page-bar" role="navigation" aria-label="SMART Immunizations — Measles menu"><span class="ig-topbar-head"><a class="ig-topbar-home" href="./index.html">SMART Immunizations — Measles</a><span class="ig-topbar-ver">0.1.0 - ci-build</span></span><a class="ig-topbar-group ig-topbar-link" href="./index.html">Home</a><details class="ig-topbar-group"><summary>DAK</summary><ul><li><a href="./personas.html">Personas</a></li><li><a href="./user-scenarios.html">User scenarios</a></li><li><a href="./business-processes.html">Business processes</a></li><li><a href="./dictionary.html">Core data elements</a></li><li><a href="./decision-logic.html">Decision logic</a></li><li><a href="./indicators.html">Indicators</a></li><li><a href="./requirements.html">Requirements</a></li><li><a href="./testing.html">Test scenarios</a></li></ul></details><a class="ig-topbar-group ig-topbar-link" href="./gap-report.html">Gap report</a><a class="ig-topbar-group ig-topbar-link" href="./artifacts.html">Artifacts</a><form class="ig-search" role="search" data-ig-search-index="./assets/ig-search.json"><label class="ig-search-label" for="search-input">Search SMART Immunizations — Measles</label><input type="search" id="search-input" class="ig-search-input" placeholder="Search pages and artefacts" autocomplete="off" aria-controls="ig-search-results" aria-expanded="false"><ul id="ig-search-results" class="ig-search-results" hidden></ul></form><span class="ig-locale-slot" data-fa-slot="locale"></span><script src="./assets/ig-search.js" defer></script></div><p class="ig-version-banner" role="note">This page is part of the <a href="index.html">SMART Immunizations — Measles</a> (v0.1.0: ci-build) based on <a href="http://hl7.org/fhir/R4/">FHIR (HL7® FHIR® Standard) v4.0.1</a>. This is the continuous integration build: it follows the source and is not a published version. For a full list of available versions, see the <a href="http://smart.who.int/immunizations-measles/history.html">Directory of published versions</a>.</p>
+<main class="ig-main main-content fa-page-main" id="main-content">
+
+<p><span hidden="" data-fa-figure-images="ig"></span></p>
+
+<h3 id="decision-logic">Decision logic</h3>
+
+<p>Four decision tables (DMN 1.3, hit policy FIRST) in <code class="language-plaintext highlighter-rouge">input/decision-logic/</code>. Each rule cites the page and the L1 node it rests on; the last rule of each returns <em>unknown</em> when a needed fact is missing. Checked with <code class="language-plaintext highlighter-rouge">bun run cat dmn:report</code> (0 errors, 0 warnings) and run against the dummy clients in <a href="testing.html">test scenarios</a>. <strong>Adjudication: pending</strong> (Clinical SME).</p>
+
+<h4 id="measlesdt01--determine-measles-containing-vaccine-dose-due">MEASLES.DT.01 — Determine measles-containing vaccine dose due</h4>
+
+<p>Which MCV dose, if any, a client needs today, from the doses DT.03 counted as valid. Hit policy FIRST. Derived from Table 1’s measles footnote and Table 3’s measles row (input/L2/provenance.json). Adjudication: pending.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Valid routine MCV doses (from DT.03)</th>
+      <th>Age (months)</th>
+      <th><a href="artifact/ValueSet-MeaslesNationalScheduleSettingVS.html">National schedule setting</a></th>
+      <th><a href="artifact/ValueSet-MeaslesSupplementaryDoseIndicationVS.html">Supplementary-dose indication</a></th>
+      <th>MCV0 already given</th>
+      <th>Weeks since last valid MCV</th>
+      <th>Age at MCV1 (months)</th>
+      <th>Dose due</th>
+      <th>Reason</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>&gt;= 2</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>none</td>
+      <td>Series complete: two valid routine doses; no booster.</td>
+      <td>Table 3, page 2 (measles row and footnote); Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>&lt; 1</td>
+      <td>&lt; 6</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>none</td>
+      <td>Too young: no MCV dose before 6 months.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>&lt; 1</td>
+      <td>&lt; 9</td>
+      <td>-</td>
+      <td>true</td>
+      <td>false</td>
+      <td>-</td>
+      <td>-</td>
+      <td>MCV0</td>
+      <td>Supplementary dose: an infant aged 6-8 months in a situation the footnote lists.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>&lt; 1</td>
+      <td>&lt; 9</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>none</td>
+      <td>MCV1 not yet due.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>&lt; 1</td>
+      <td>&gt;= 9</td>
+      <td>“high”</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>MCV1</td>
+      <td>First routine dose (from 9 months where measles transmission and mortality risk are high; at any older age if missed).</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>&lt; 1</td>
+      <td>&gt;= 12</td>
+      <td>“low”</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>MCV1</td>
+      <td>First routine dose (from 12 months where measles transmission is low; at any older age if missed).</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>&lt; 1</td>
+      <td>-</td>
+      <td>“low”</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>none</td>
+      <td>MCV1 due at 12 months in this schedule.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>&lt; 2</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>&lt; 4</td>
+      <td>-</td>
+      <td>none</td>
+      <td>Too soon: at least 4 weeks between MCV1 and MCV2.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>&lt; 2</td>
+      <td>&gt;= 15</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>MCV2</td>
+      <td>Second routine dose (from 15 months; at any older age if missed).</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>&lt; 2</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>&gt; 12</td>
+      <td>MCV2</td>
+      <td>Late start: a child who began after 12 months gets the second dose 4 weeks after the first.</td>
+      <td>Table 3, page 2 (measles row and footnote)</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>&lt; 2</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>none</td>
+      <td>MCV2 due at 15 months.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>unknown</td>
+      <td>Not settled: a required fact (doses, age or schedule setting) is missing.</td>
+      <td>No source: returned only when the inputs match no rule above (a fact is missing or out of range).</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="measlesdt02--screen-before-measles-vaccination">MEASLES.DT.02 — Screen before measles vaccination</h4>
+
+<p>Whether to vaccinate today, defer, or not vaccinate. Hit policy FIRST. A mild concurrent infection is not a reason to defer. Adjudication: pending.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Anaphylaxis or severe allergy to a vaccine component</th>
+      <th>Severe immunosuppression</th>
+      <th>Pregnant</th>
+      <th>Weeks since another live vaccine (not today)</th>
+      <th>Screening</th>
+      <th>Reason</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>true</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>do-not-vaccinate</td>
+      <td>History of anaphylaxis or severe allergy to a component (e.g. neomycin, gelatin).</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>-</td>
+      <td>true</td>
+      <td>-</td>
+      <td>-</td>
+      <td>do-not-vaccinate</td>
+      <td>Severe immunosuppression.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>-</td>
+      <td>-</td>
+      <td>true</td>
+      <td>-</td>
+      <td>defer</td>
+      <td>Pregnant: vaccinate after the pregnancy.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>&lt; 4</td>
+      <td>defer</td>
+      <td>Another live vaccine less than 4 weeks ago: give on the same day or wait until 4 weeks have passed.</td>
+      <td>Table 1, page 3 (measles footnote); catch-up guide, page 14</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>false</td>
+      <td>false</td>
+      <td>false</td>
+      <td>-</td>
+      <td>proceed</td>
+      <td>No contraindication; a mild concurrent infection does not count.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>unknown</td>
+      <td>Not settled: ask about allergy, immunosuppression and pregnancy.</td>
+      <td>No source: returned only when the inputs match no rule above (a fact is missing or out of range).</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="measlesdt03--count-a-recorded-measles-containing-vaccine-dose">MEASLES.DT.03 — Count a recorded measles-containing vaccine dose</h4>
+
+<p>How one recorded MCV dose counts, evaluated dose by dose in date order. Hit policy FIRST. Adjudication: pending.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Documented (home-based record or register)</th>
+      <th>Age at the dose (months)</th>
+      <th>Valid routine doses before this one</th>
+      <th>Weeks since the previous valid routine dose</th>
+      <th>Counts as</th>
+      <th>Reason</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>false</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>not counted</td>
+      <td>No written evidence: treat as not received and offer vaccination.</td>
+      <td>catch-up guide, page 14</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>-</td>
+      <td>&lt; 6</td>
+      <td>-</td>
+      <td>-</td>
+      <td>invalid</td>
+      <td>Given before the minimum age of 6 months: not valid; repeat as age-appropriate.</td>
+      <td>catch-up guide, page 14; Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>-</td>
+      <td>&lt; 9</td>
+      <td>-</td>
+      <td>-</td>
+      <td>MCV0</td>
+      <td>Given before 9 months: a supplementary dose, recorded as MCV0; MCV1 and MCV2 still follow.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>-</td>
+      <td>-</td>
+      <td>&gt;= 1</td>
+      <td>&lt; 4</td>
+      <td>invalid</td>
+      <td>Less than 4 weeks after the previous MCV: not valid; repeat 4 weeks after this dose.</td>
+      <td>Table 1, page 3 (measles footnote); catch-up guide, page 14</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>-</td>
+      <td>-</td>
+      <td>&lt; 1</td>
+      <td>-</td>
+      <td>MCV1</td>
+      <td>The first valid routine dose, whatever it was recorded as.</td>
+      <td>catch-up guide, page 19</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>-</td>
+      <td>-</td>
+      <td>&lt; 2</td>
+      <td>-</td>
+      <td>MCV2</td>
+      <td>The second valid routine dose.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>-</td>
+      <td>-</td>
+      <td>&gt;= 2</td>
+      <td>-</td>
+      <td>extra</td>
+      <td>Series already complete; this dose is not needed.</td>
+      <td>Table 3, page 2 (measles row and footnote)</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>unknown</td>
+      <td>Not settled: the dose date, age or earlier doses are missing.</td>
+      <td>No source: returned only when the inputs match no rule above (a fact is missing or out of range).</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="measlesdt04--additional-measles-dose-for-a-child-living-with-hiv-on-haart">MEASLES.DT.04 — Additional measles dose for a child living with HIV on HAART</h4>
+
+<p>Whether an HIV-infected child receiving HAART needs the additional MCV dose after immune reconstitution. Hit policy FIRST. Adjudication: pending.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>HIV-infected</th>
+      <th>Additional dose already given</th>
+      <th>Receiving HAART</th>
+      <th>CD4+ monitored</th>
+      <th>CD4+ T lymphocyte (%)</th>
+      <th>Months since HAART started</th>
+      <th>Additional dose due</th>
+      <th>Reason</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>false</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>no</td>
+      <td>Not HIV-infected.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>-</td>
+      <td>true</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>no</td>
+      <td>Additional dose already given.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>-</td>
+      <td>-</td>
+      <td>false</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>no</td>
+      <td>Not on HAART: no additional dose yet; an infant at high risk may get MCV0 (DT.01).</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>true</td>
+      <td>&gt;= 20</td>
+      <td>-</td>
+      <td>yes</td>
+      <td>Immune reconstitution reached (CD4+ 20-25% or more).</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>true</td>
+      <td>-</td>
+      <td>-</td>
+      <td>no</td>
+      <td>Wait for immune reconstitution (CD4+ 20-25%).</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>false</td>
+      <td>-</td>
+      <td>&gt;= 6</td>
+      <td>yes</td>
+      <td>CD4+ not monitored: give 6-12 months after HAART started.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>false</td>
+      <td>-</td>
+      <td>&lt; 6</td>
+      <td>no</td>
+      <td>Due 6-12 months after HAART started.</td>
+      <td>Table 1, page 3 (measles footnote)</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>unknown</td>
+      <td>Not settled: HIV status, HAART or CD4+ facts are missing.</td>
+      <td>No source: returned only when the inputs match no rule above (a fact is missing or out of range).</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="ig-edit"><a data-fa-link="edit" data-src="input/pagecontent/decision-logic.md" data-repo="ritikarawlani/smart-immunizations-measles" href="https://github.com/ritikarawlani/smart-immunizations-measles/edit/main/input/pagecontent/decision-logic.md">Edit this page on GitHub</a></p>
+<script type="application/json" id="ig-source-lines">{"blob": "https://github.com/ritikarawlani/smart-immunizations-measles/blob/main/input/pagecontent/decision-logic.md", "repo": "ritikarawlani/smart-immunizations-measles", "branch": "main", "path": "input/pagecontent/decision-logic.md", "lines": [{"t":"Decision logic","l":1},{"t":"MEASLES.DT.01 — Determine measles-containing vaccine dose due","l":5},{"t":"MEASLES.DT.02 — Screen before measles vaccination","l":24},{"t":"MEASLES.DT.03 — Count a recorded measles-containing vaccine dose","l":37},{"t":"MEASLES.DT.04 — Additional measles dose for a child living with HIV on HAART","l":52}]}</script>
+
+<script src="./assets/ig-source-links.js"></script>
+
+
+<script>(function(){
+var f=document.querySelector("#main-content .pt-diagram[data-panel]");
+if(!f||window.__igTaskPanel)return;
+var p=f.getAttribute("data-panel")||"";
+if(!/^[A-Za-z0-9._-][A-Za-z0-9._/-]*[.]tasks[.]json$/.test(p)||p.indexOf("//")>=0)return;
+window.__igTaskPanel=1;
+var dir=p.replace(/[^/]*$/,"");
+var l=document.createElement("link");l.rel="stylesheet";l.href=dir+"task-panel.css";document.head.appendChild(l);
+var s=document.createElement("script");s.src=dir+"task-panel.js";document.body.appendChild(s);
+})();</script>
+<script>(function(){
+var main=document.getElementById("main-content");
+if(!main||main.querySelector(".igi-contents"))return;
+var rowsOf=function igContentsRows(hs) {
+  let top = 0;
+  for (const h of hs)
+    if (h.level >= 2 && h.level <= 4 && (top === 0 || h.level < top))
+      top = h.level;
+  if (top === 0)
+    return [];
+  const rows = [];
+  let count = 0;
+  for (const h of hs)
+    if (h.level === top) {
+      rows.push({ i: h.i, sub: [] });
+      count++;
+    } else if (h.level === top + 1) {
+      const last = rows[rows.length - 1];
+      if (last)
+        last.sub.push(h.i);
+      else
+        rows.push({ i: h.i, sub: [] });
+      count++;
+    }
+  return count < 2 ? [] : rows;
+};
+var hs=Array.prototype.filter.call(main.querySelectorAll("h2,h3,h4"),function(h){return !h.closest(".igi-contents,#ig-footer,.ig-edit,.ig-metadata")&&h.textContent.trim();});
+var rows=rowsOf(hs.map(function(h,i){return {level:+h.tagName.charAt(1),i:i};}));
+if(!rows.length)return;
+var used={};
+function slug(t){var b=t.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||"section",s=b,i=1;while(used[s]||document.getElementById(s))s=b+"-"+(++i);used[s]=1;return s;}
+function item(h){if(!h.id)h.id=slug(h.textContent);var li=document.createElement("li"),a=document.createElement("a");a.href="#"+h.id;
+var c=h.cloneNode(true);Array.prototype.forEach.call(c.querySelectorAll(".anchor-heading,.fa-sec-box,svg,button"),function(n){n.remove();});
+a.textContent=c.textContent.replace(/\s+/g," ").trim();li.appendChild(a);return li;}
+var nav=document.createElement("nav");nav.className="igi-contents";nav.setAttribute("aria-label","Contents");
+var t=document.createElement("p");t.className="igi-contents-title";t.textContent="Contents";nav.appendChild(t);
+var ul=document.createElement("ul");
+rows.forEach(function(r){var li=item(hs[r.i]);if(r.sub.length){var sub=document.createElement("ul");sub.className="igi-contents-sub";r.sub.forEach(function(k){sub.appendChild(item(hs[k]));});li.appendChild(sub);}ul.appendChild(li);});
+nav.appendChild(ul);
+var h1=main.querySelector("h1"),meta=main.querySelector(":scope > .ig-metadata");
+var at=h1&&h1.parentNode===main?h1:meta||null;
+var bannerOf=function igIsBanner(e) {
+  if (e.display === "none" || /^(H[1-6]|SCRIPT|STYLE|NAV)$/i.test(e.tag))
+    return !1;
+  if (/(^|[\s_-])(hero|banner)([\s_-]|$)/i.test(e.cls))
+    return !0;
+  return !!e.bgImage && e.bgImage !== "none";
+};
+var b=null,first=hs[0];
+for(var n=main.firstElementChild;n&&n!==first&&!n.contains(first);n=n.nextElementSibling){var cs=getComputedStyle(n);
+if(bannerOf({tag:n.tagName,cls:n.getAttribute("class")||"",bgImage:cs.backgroundImage,display:cs.display}))b=n;}
+if(b&&(!at||at.compareDocumentPosition(b)&4))at=b;
+if(at)at.insertAdjacentElement("afterend",nav);else main.insertBefore(nav,main.firstChild);
+})();</script>
+</main>
+<link rel="stylesheet" href="assets/ig-pages.css">
+<footer id="ig-footer">
+<p class="ig-footer-nav"><a href="dictionary.html">&lt;prev</a> | <a href="#">top</a> | <a href="indicators.html">next&gt;</a></p>
+<p class="ig-footer-band">IG © 2026+ <a href="http://who.int" rel="external">WHO</a>. Package <code>smart.who.int.immunizations-measles#0.1.0</code> based on <a href="http://hl7.org/fhir/R4/" rel="external">FHIR 4.0.1</a>. Generated 2026-11-23</p>
+<p class="ig-footer-links">Links: <a href="toc.html">Table of Contents</a> | <a href="qa.html">QA Report</a> | <a href="https://spdx.org/licenses/CC-BY-SA-3.0-IGO.html" rel="external">License</a></p>
+</footer>
+
+</body>
+</html>
