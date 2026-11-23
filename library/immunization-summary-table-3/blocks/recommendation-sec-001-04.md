@@ -1,0 +1,1 @@
+TBE_Moscow & EnceVir ≥ 3 yr 3 doses (1st to 2nd 1-7 mos; 2nd to 3rd 12 mos) Resume without repeating previous dose 3 doses 3 doses Every 3 years Recommendations for some high-risk populations Typhoid 15 TCV-Typbar >6 months 1 dose NA 1 dose 1 dose

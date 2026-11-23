@@ -1,0 +1,1 @@
+In case of a security breach leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of or access to personal data transmitted, stored or otherwise processed, DDCC:VS Holders should be notified in an appropriate and timely manner.

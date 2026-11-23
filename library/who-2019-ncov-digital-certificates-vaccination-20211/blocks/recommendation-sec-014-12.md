@@ -1,0 +1,1 @@
+PURPOSE LIMITATION AND SPECIFICATION As the personal data collected in the interest of the DDCC:VS may only be used for continuity of care and proof of verification, they should not be processed in ways that are incompatible with such purposes.

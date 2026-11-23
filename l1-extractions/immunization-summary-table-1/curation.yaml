@@ -1,0 +1,118 @@
+$schema: l1-recommendation-curation/v1
+_comment: 'AUTHORED by an agent under recommendation-extraction step 4, measles scope (issue #1): every normative sentence of the measles footnote (footnote 9, page 3) is decided; the other antigens'' candidates are left undecided, so coverage reports them as unaccounted. Every decision is a candidate until a Clinical SME reviews it.'
+entry: library/immunization-summary-table-1
+publication:
+  identifiers:
+  - type: url
+    value: https://github.com/user-attachments/files/35149133/immunization-summary-table-1.pdf
+  title: 'Table 1: Summary of WHO Position Papers – Recommendations for Routine Immunization'
+  publicationType: summary-table
+  basis: 'Title as printed at the head of page 1; the URL is the one the table prints for the latest position papers. A summary table of position papers, so publicationType summary-table; its measles footnote cites the measles position paper, Weekly Epidemiological Record (2017, 92: 205-228). Identified by the URL of the file as attached to issue #1: Tables 1-3 all print the same position-papers URL, which identifies the series, not the table, and would give their nodes one IRI.'
+decisions:
+  p3:s92:
+    as: recommendation
+    key: measles.two-doses-standard
+    basis: 'Measles footnote, page 3, first bullet: the standard of two doses for every programme.'
+    statement: Reaching all children with 2 doses of measles vaccine should be the standard for all national immunization programmes.
+  p3:s93:
+  - as: recommendation
+    key: measles.mcv2-in-schedule
+    basis: 'Measles footnote, page 3: every country adds MCV2 regardless of MCV1 coverage.'
+    statement: In addition to the first routine dose of MCV1, all countries should add a second routine dose of MCV2 to their national immunization schedules regardless of the level of MCV1 coverage.
+  - as: recommendation
+    key: measles.mcv1-9-months-high-transmission
+    basis: 'Measles footnote, page 3: MCV1 age where transmission and mortality risk are high.'
+    statement: In countries with ongoing transmission in which the risk of measles mortality remains high, MCV1 should be given at age 9 months.
+  p3:s94:
+    as: recommendation
+    key: measles.mcv2-15-18-months
+    basis: 'Measles footnote, page 3: MCV2 age, with its printed rationale.'
+  p3:s95:
+  - as: recommendation
+    key: measles.mcv-minimum-interval
+    basis: 'Measles footnote, page 3: the minimum interval between the two routine doses, a rule applied per client.'
+    statement: The minimum interval between MCV1 and MCV2 is 4 weeks.
+  - as: recommendation
+    key: measles.routine-delivery-not-age-limited
+    basis: 'Measles footnote, page 3: routine MCV1/MCV2 delivery is not limited to the target ages.'
+    statement: Because many cases of measles occur in children aged >12 months who have not been vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and routine delivery of MCV2 should not be limited to infants 15 to 18 months of age.
+  p3:s96:
+    as: recommendation
+    key: measles.catch-up-every-opportunity
+    basis: 'Measles footnote, page 3: catch-up of missed MCV doses at every health contact, particularly under 15 years.'
+  p3:s97:
+  - as: recommendation
+    key: measles.policies-allow-older-ages
+    basis: 'Measles footnote, page 3: policy change to allow vaccinating children over 1 year, older children and teenagers.'
+    statement: Policies which prohibit use of vaccine in children >1 year of age, older children and teenagers should be changed to allow these individuals to be vaccinated.
+  - as: recommendation
+    key: measles.mcv1-12-months-low-transmission
+    kind: context-specific
+    basis: 'Measles footnote, page 3: MCV1 at 12 months where transmission is low; conditional on the setting as printed (''may'').'
+    statement: In countries with low levels of measles transmission (i.e. those that are near elimination or verified as having eliminated endemic measles virus transmission) and therefore the risk of measles virus infection among infants is low, MCV1 may be administered at 12 months of age to take advantage of the higher seroconversion rates achieved at this age.
+  p3:s101:
+  - as: recommendation
+    key: measles.mcv2-at-school-entry
+    kind: context-specific
+    basis: 'Measles footnote, page 3: MCV2 at school entry when MCV1 coverage >90% and enrolment >95%.'
+    statement: If MCV1 coverage is high (>90%) and school enrolment is high (>95%), administration of routine MCV2 at school entry may prove an effective strategy for achieving high coverage and preventing outbreaks in schools.
+  - as: recommendation
+    key: measles.same-formulation-both-doses
+    basis: 'Measles footnote, page 3: the same formulation for both routine doses, for programmatic reasons.'
+    statement: For programmatic reasons (e.g. to reduce cold storage needs and vaccine wastage), it is recommended that the same vaccine formulation is used for both routine doses of MCV.
+  - as: recommendation
+    key: measles.mcv0-situations
+    basis: 'Measles footnote, page 3: the six situations in which a supplementary dose is given from 6 months.'
+    statement: 'In the following situations, a supplementary dose of MCV should be given to infants from 6 months of age: (1) during a measles outbreak as part of intensified service delivery; (2) during campaigns in settings where the risk of measles among infants < 9 months of age remains high (e.g. in endemic countries experiencing regular outbreaks); (3) for internally displaced populations and refugees, and populations in conflict zones; (4) for individual infants at high risk of contracting measles (e.g. contacts of known measles cases or in settings with increased risk of exposure during outbreaks such as day-care facilities); (5) for infants travelling to countries experiencing measles outbreaks; (6) for infants known to be HIV-infected or exposed (i.e. born to an HIV-infected woman).'
+  - as: recommendation
+    key: measles.mcv0-recording
+    basis: 'Measles footnote, page 3: a dose before 9 months is supplementary and recorded as MCV0.'
+    statement: MCV administered before 9 months of age should be considered a supplementary dose and recorded on the child’s vaccination record as “MCV0”.
+  p3:s102:
+  - as: recommendation
+    key: measles.mcv0-then-routine-doses
+    basis: 'Measles footnote, page 3: MCV0 does not replace MCV1 and MCV2.'
+    statement: Children who receive MCV0 should also receive MCV1 and MCV2 at the recommended ages according to the national schedule.
+  - as: recommendation
+    key: measles.hiv-routine-vaccination
+    basis: 'Measles footnote, page 3: routine vaccination of susceptible asymptomatic HIV-infected children and adults.'
+    statement: Given the severe course of measles in patients with AIDS, measles vaccination should be routinely administered to potentially susceptible, asymptomatic HIV infected children and adults.
+  p3:s104:
+    as: recommendation
+    key: measles.hiv-high-incidence-mcv0-6-months
+    kind: context-specific
+    basis: 'Measles footnote, page 3: MCV0 from 6 months where HIV and measles incidence are both high.'
+  p3:s105:
+  - as: remark
+    of: measles.hiv-high-incidence-mcv0-6-months
+    basis: 'Measles footnote, page 3: ''these children'' refers back to the preceding sentence; it restates that the two routine doses follow MCV0.'
+  - as: recommendation
+    key: measles.hiv-haart-additional-dose
+    basis: 'Measles footnote, page 3: an additional dose after immune reconstitution on HAART, timed by CD4+ count where monitored.'
+    statement: An additional dose of MCV should be administered to HIV-infected children receiving HAART following immune reconstitution If CD4+ T lymphocyte counts are monitored, an additional dose of MCV should be administered when immune reconstitution has been achieved, e.g. when the CD4+ T lymphocyte count reaches 20–25%.
+  p3:s106:
+  - as: recommendation
+    key: measles.hiv-haart-no-cd4-monitoring
+    basis: 'Measles footnote, page 3: without CD4+ monitoring, the additional dose 6-12 months after starting HAART.'
+    statement: Where CD4+ T lymphocyte monitoring is not available, children should receive an additional dose of MCV 6–12 months after initiation of HAART.
+  - as: recommendation
+    key: measles.hiv-exposed-mcv0
+    basis: 'Measles footnote, page 3: supplementary MCV0 for HIV-exposed infants and HIV-infected children not on HAART at high risk.'
+    statement: A supplementary dose of MCV (recorded as MCV0) should be considered for infants known to be exposed (i.e. born to an HIV-infected woman) or soon after diagnosis of HIV infection in children older than 6 months who are not receiving HAART and for whom the risk of measles is high, with the aim of providing partial protection until they are revaccinated after immune reconstitution with HAART.
+  - as: recommendation
+    key: measles.mild-infection-not-contraindication
+    basis: 'Measles footnote, page 3: mild concurrent infection does not contraindicate vaccination.'
+    statement: Mild concurrent infections are not a contraindication to vaccination.
+  p3:s107:
+    as: recommendation
+    key: measles.avoid-in-pregnancy
+    basis: 'Measles footnote, page 3: precaution against measles vaccine in pregnancy.'
+  p3:s108:
+  - as: recommendation
+    key: measles.contraindications
+    basis: 'Measles footnote, page 3: anaphylaxis or severe allergy to a component, or severe immunosuppression.'
+    statement: MCVs should not be given to individuals with a history of anaphylactic reactions or severe allergic reactions to any component of the vaccine (e.g. neomycin or gelatin) or those with any form of severe immunosuppression.
+  - as: recommendation
+    key: measles.live-vaccine-spacing
+    basis: 'Measles footnote, page 3: live vaccines simultaneously or 4 weeks apart, printed in the measles footnote.'
+    statement: As a general rule, live vaccines should be given either simultaneously or at intervals of 4 weeks.

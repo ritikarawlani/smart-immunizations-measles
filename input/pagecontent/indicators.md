@@ -1,0 +1,15 @@
+### Indicators
+
+Measles indicators as the WHO/UNICEF Joint Reporting Form (2016) asks for them, plus the dropout the programme manager reviews monthly.
+
+| id | name | definition | numerator | denominator | disaggregation | reporting | source |
+|---|---|---|---|---|---|---|---|
+| MEASLES.IND.01 | MCV1 coverage | Percentage of surviving infants who received the first dose of measles-containing vaccine | Number of MCV1 doses given (DE.09 = MCV1) | Surviving infants in the period | sex, age group (<1, ≥1 year) | JRF 4A row 4160; annual | JRF 2016 4A. Routine Coverage row 4160; Instructions row 54 (MCV includes M MR MMR MMRV) |
+| MEASLES.IND.02 | MCV2 coverage | Percentage of the national MCV2 target population who received the second dose of measles-containing vaccine | Number of MCV2 doses given (DE.09 = MCV2) | Target population for MCV2 as the country defines it | sex, age group (<2, ≥2 years) | JRF 4A row 4180; annual | JRF 2016 4A. Routine Coverage row 4180 |
+| MEASLES.IND.03 | Districts by MCV1 coverage band | Number of districts with MCV1 coverage in each band | Districts in each band of IND.01: <50% / 50–79% / 80–89% / 90–94% / ≥95% | All districts | band | JRF 6 row 6250; annual | JRF 2016 6. Indicators rows 38-39; measles.two-doses-standard |
+| MEASLES.IND.04 | Districts by MCV2 coverage band | Number of districts with MCV2 coverage in each band | Districts in each band of IND.02: <50% / 50–79% / 80–89% / 90–94% / ≥95% | All districts | band | JRF 6 row 6270; annual | JRF 2016 6. Indicators rows 38 and 41 |
+| MEASLES.IND.05 | Late MCV1 doses | Number of MCV1 doses given after the scheduled age (12–23 months where MCV1 is scheduled before 12 months; later than the national definition where it is scheduled at 12 months or later) | MCV1 doses given late | (count) | setting (DE.06) | JRF 4A rows 4260/4270; annual | JRF 2016 4A rows 36-37; Instructions rows 58-59; catchup.mcv2-only-after-mcv1 |
+| MEASLES.IND.06 | MCV1–MCV2 dropout | Percentage of children who received MCV1 but not MCV2 | IND.01 numerator minus IND.02 numerator | IND.01 numerator | district | monthly (MEASLES.B B6) | Derived from IND.01 and IND.02; the facility analysis guide (referenced; licence withheld) defines dropout between doses |
+| MEASLES.IND.07 | Confirmed measles cases | Number of confirmed measles cases | Confirmed cases (DE.26) | (count) | age, vaccination status | JRF 1 row 1020; annual | JRF 2016 1. Reported Cases row 1020; Instructions row 10 |
+
+Source file: `input/indicators/measles-indicators.csv`. **Adjudication: pending.**

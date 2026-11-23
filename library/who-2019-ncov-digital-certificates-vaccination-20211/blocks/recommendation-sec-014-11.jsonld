@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/v0/ns/"
+    }
+  ],
+  "@id": "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-014-11",
+  "@type": [
+    "folio-assistant-core:Recommendation"
+  ],
+  "kind": "recommendation",
+  "pageStart": 29,
+  "pageEnd": 32,
+  "text": "recommendation-sec-014-11.md",
+  "derivedFrom": "library/who-2019-ncov-digital-certificates-vaccination-20211/sections/sec-014",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/who-2019-ncov-digital-certificates-vaccination-20211",
+  "provenance": "ingested",
+  "meta": {
+    "source_kind": "normative-statement",
+    "strength": "should",
+    "aspect": "requirements"
+  }
+}

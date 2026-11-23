@@ -1,0 +1,1 @@
+Two subsequent booster doses using Td or Tdap combination vaccines are needed with an interval of at least 1 year between doses. • Health-care workers should be prioritized as a group to receive pertussis vaccine.

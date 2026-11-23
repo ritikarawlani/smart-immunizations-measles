@@ -1,0 +1,1 @@
+Interchangeability of vaccine formulations or manufacturers products • Interchangeability of vaccines from different manufacturers: In general, the same manufacturer's product should be used for all doses in a vaccine series.

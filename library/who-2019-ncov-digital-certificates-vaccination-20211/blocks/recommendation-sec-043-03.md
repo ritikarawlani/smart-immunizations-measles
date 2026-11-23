@@ -1,0 +1,1 @@
+User populations are never static, and so the ability to handle current typical and peak volumes of usage and predicted future states, and the strategy for handling a traffic surge, must be considered.

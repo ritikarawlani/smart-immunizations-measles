@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-002",
+  "@type": [
+    "doco:Section"
+  ],
+  "title": "Key terms",
+  "pageStart": 8,
+  "pageEnd": 10,
+  "contains": [
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/prose-sec-002",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-01",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-02",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-03",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-04",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-05",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-06",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-07",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-08",
+    "library/leave-no-one-behind-catch-up-vaccination-9789240016514/blocks/recommendation-sec-002-09"
+  ],
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "provenance": "ingested"
+}

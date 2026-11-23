@@ -1,0 +1,23 @@
+{
+ "$schema": "qa-review/v1",
+ "subject": {
+  "kind": "l1-extraction",
+  "id": "l1-sme-immunization-summary-table-1",
+  "path": "l1-extractions/immunization-summary-table-1/l1.json"
+ },
+ "findings": [],
+ "notes": [
+  {
+   "id": "l1-sme-immunization-summary-table-1-request",
+   "author": {
+    "kind": "agent",
+    "id": "claude"
+   },
+   "rationale": "Review requested of role `clinical-sme`: Does each recommendation node say what the printed sentence says, beside its page? Staged on the PR's branch; no decision recorded yet (pending).",
+   "cites": [],
+   "written_at": "2026-11-20T00:00:00Z"
+  }
+ ],
+ "decisions": [],
+ "updated_at": "2026-11-20T00:00:00Z"
+}

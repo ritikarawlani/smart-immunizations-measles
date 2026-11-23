@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.019 Disaster recovery, business continuity, resilience It SHOULD be possible to use system alerts to perform actions such as dispatch of a warning email/SMS to a system administrator or to execute a script that (for example) spins up a new virtual machine for load balancing.

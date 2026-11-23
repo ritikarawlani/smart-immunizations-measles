@@ -1,0 +1,1 @@
+CONFIDENTIALITY AND SECURITY Personal data processed in the interest of the application of the DDCC:VS should be kept confidential and not disclosed to unauthorized parties; personal data should only be accessible to the data subject or to other explicitly authorized parties.

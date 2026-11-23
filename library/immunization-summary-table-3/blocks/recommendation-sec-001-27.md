@@ -1,0 +1,1 @@
+Record (2015, 90: 433-460). • If either the start or the completion of the primary series has been delayed, the missing doses should be given at the earliest opportunity with an interval of at least 4 weeks between doses. • 3 booster doses of diphtheria toxoid-containing vaccine should be provided during childhood and adolescence.

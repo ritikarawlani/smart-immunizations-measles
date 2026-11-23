@@ -1,0 +1,58 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "library/who-2019-ncov-digital-certificates-vaccination-20211/sections/sec-013",
+  "@type": [
+    "doco:Section"
+  ],
+  "title": "Ethical considerations for a DDCC:VS",
+  "pageStart": 23,
+  "pageEnd": 29,
+  "contains": [
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/prose-sec-013",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-01",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-02",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-03",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-04",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-05",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-06",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-07",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-08",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-09",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-10",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-11",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-12",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-13",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-14",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-15",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-16",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-17",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-18",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-19",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-20",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-21",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-22",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-23",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-24",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-25",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-26",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-27",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-28",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-29",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-30",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/recommendation-sec-013-31",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-022",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-023",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-024",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-025",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-026",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211/blocks/table-027"
+  ],
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/who-2019-ncov-digital-certificates-vaccination-20211",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/who-2019-ncov-digital-certificates-vaccination-20211",
+  "provenance": "ingested"
+}

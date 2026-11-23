@@ -1,0 +1,1 @@
+In addition to the first routine dose of MCV1, all countries should add a second routine dose of MCV2 to their national immunization schedules regardless of the level of MCV1 coverage. • In countries with ongoing transmission in which the risk of measles mortality remains high, MCV1 should be given at age 9 months.

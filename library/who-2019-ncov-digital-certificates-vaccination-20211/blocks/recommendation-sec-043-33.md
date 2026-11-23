@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.032 Security and privacy Dashboards, reports, standard queries and exports of security information SHOULD be provided to assist system administrators in the management of access permissions.

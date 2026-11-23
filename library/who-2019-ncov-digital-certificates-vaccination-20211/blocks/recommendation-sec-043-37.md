@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.034 Regulation and compliance Any solution SHOULD be designed to be mindful of existing reference architecture guidelines and standards for distributed trust framework solutions and tools for exchanging vaccination data.

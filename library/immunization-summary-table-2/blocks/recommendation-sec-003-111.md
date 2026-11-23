@@ -1,0 +1,1 @@
+Record (2011, 86: 241-256). • Since the incidence of tick-borne encephalitis may vary considerably between and even within geographical regions, public immunization strategies should be based on risk assessments conducted at country, regional or district level, and they should be appropriate to the local endemic situation.

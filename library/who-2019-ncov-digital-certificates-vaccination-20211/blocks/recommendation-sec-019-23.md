@@ -1,0 +1,1 @@
+DDCC.FXNREQ.025 If an offline Digital Health Solution for vaccine registration is available, and is part of the national PKI trust framework, and is authorized by the PHA to sign vaccination content as a DDCC:VS, then it SHALL register the DDCC:VS through the DDCC:VS Registry Service.

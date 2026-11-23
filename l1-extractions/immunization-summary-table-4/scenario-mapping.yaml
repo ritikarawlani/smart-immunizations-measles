@@ -1,0 +1,20 @@
+# AUTHORED by an agent (recommendation-extraction Part 2); every entry is a CANDIDATE until a person reviews it.
+$schema: l1-scenario-mapping/v1
+guide: smart-immunizations-measles
+scenarioIdPrefix: MEASLES.Scenario.T4
+entries:
+  measles.health-worker-immunity:
+    personas:
+    - id: DAK.Persona.HealthSystemManager
+      source: inferred
+      basis: An employment and training condition set by management.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: require proof of measles immunity or immunization from every health worker at enrolment in training and employment
+    outcome: health workers neither catch nor spread measles
+    domain:
+      code: health-system-strengthening
+      source: inferred
+      basis: A workforce policy.

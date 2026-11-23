@@ -1,0 +1,23 @@
+{
+ "$schema": "qa-review/v1",
+ "subject": {
+  "kind": "l1-extraction",
+  "id": "l1-immunization-summary-table-4",
+  "path": "l1-extractions/immunization-summary-table-4/"
+ },
+ "findings": [],
+ "notes": [
+  {
+   "id": "l1-immunization-summary-table-4-request",
+   "author": {
+    "kind": "agent",
+    "id": "claude"
+   },
+   "rationale": "Review requested of role `l1-extraction-reviewer`: Are the proposed exclusions right (sign each), and does every measles sentence of the source have a node? Staged on the PR's branch; no decision recorded yet (pending).",
+   "cites": [],
+   "written_at": "2026-11-20T00:00:00Z"
+  }
+ ],
+ "decisions": [],
+ "updated_at": "2026-11-20T00:00:00Z"
+}

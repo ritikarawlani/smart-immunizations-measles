@@ -1,0 +1,1 @@
+Any process that generates a paper vaccination card SHALL include elements on the card that support the Verifier in visually checking that the card is genuine (e.g. water marks, holographic seals etc.) without the use of any digital technology.

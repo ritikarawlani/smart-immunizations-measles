@@ -1,0 +1,130 @@
+{
+ "$schema": "folio-document-footnotes/v1",
+ "entry": "immunization-summary-table-4",
+ "status": "determined",
+ "body_size": 7.9,
+ "footnotes": [],
+ "uncalled_notes": [],
+ "unlinked_marks": [
+  {
+   "page": 1,
+   "mark": "1",
+   "context": "BCG"
+  },
+  {
+   "page": 1,
+   "mark": "2",
+   "context": "Hepatitis B"
+  },
+  {
+   "page": 1,
+   "mark": "3",
+   "context": "Polio"
+  },
+  {
+   "page": 1,
+   "mark": "4",
+   "context": "Diphtheria"
+  },
+  {
+   "page": 1,
+   "mark": "5",
+   "context": "Measles"
+  },
+  {
+   "page": 1,
+   "mark": "6",
+   "context": "Rubella"
+  },
+  {
+   "page": 1,
+   "mark": "7",
+   "context": "Meningococcal"
+  },
+  {
+   "page": 1,
+   "mark": "8",
+   "context": "Influenza"
+  },
+  {
+   "page": 1,
+   "mark": "9",
+   "context": "Varicella"
+  },
+  {
+   "page": 1,
+   "mark": "10",
+   "context": "Pertussis"
+  },
+  {
+   "page": 1,
+   "mark": "11",
+   "context": "Tetanus"
+  },
+  {
+   "page": 1,
+   "mark": "12",
+   "context": "Haemophilus influenzae type b"
+  },
+  {
+   "page": 1,
+   "mark": "13",
+   "context": "Pneumococcal"
+  },
+  {
+   "page": 1,
+   "mark": "14",
+   "context": "Rotavirus"
+  },
+  {
+   "page": 1,
+   "mark": "15",
+   "context": "HPV"
+  },
+  {
+   "page": 1,
+   "mark": "16",
+   "context": "Japanese Encephalitis"
+  },
+  {
+   "page": 1,
+   "mark": "17",
+   "context": "Yellow Fever"
+  },
+  {
+   "page": 1,
+   "mark": "18",
+   "context": "Tick-borne Encephalitis"
+  },
+  {
+   "page": 1,
+   "mark": "19",
+   "context": "Typhoid"
+  },
+  {
+   "page": 1,
+   "mark": "20",
+   "context": "Cholera"
+  },
+  {
+   "page": 1,
+   "mark": "21",
+   "context": "Hepatitis A"
+  },
+  {
+   "page": 1,
+   "mark": "22",
+   "context": "Rabies"
+  },
+  {
+   "page": 1,
+   "mark": "24",
+   "context": "Dengue (TAK-003)"
+  },
+  {
+   "page": 1,
+   "mark": "25",
+   "context": "Malaria"
+  }
+ ]
+}

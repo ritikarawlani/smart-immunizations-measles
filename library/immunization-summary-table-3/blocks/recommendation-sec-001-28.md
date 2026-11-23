@@ -1,0 +1,1 @@
+The diphtheria booster doses should be given in combination with tetanus toxoid using the same schedule, i.e at 12–23 months of age, 4–7 years of age, and 9–15 years of age, using age-appropriate vaccine formulations.

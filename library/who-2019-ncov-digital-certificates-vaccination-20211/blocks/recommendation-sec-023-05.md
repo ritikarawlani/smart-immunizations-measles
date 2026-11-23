@@ -1,0 +1,1 @@
+DDCC.FXNREQ.040 If a paper vaccination card or electronic vaccination document bearing a 1D or 2D barcode is presented to a Verifier, then it SHALL be possible for the Verifier to scan the code and, as a minimum, read the HCID encoded in the barcode, to visually compare it with the HCID written on the paper card, if present.

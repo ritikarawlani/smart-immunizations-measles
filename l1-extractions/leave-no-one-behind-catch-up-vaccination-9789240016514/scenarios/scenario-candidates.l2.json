@@ -1,0 +1,783 @@
+{
+  "@context": "http://smart.who.int/kg/l2.context.jsonld",
+  "id": "http://smart.who.int/immunizations-measles/graph/l1-scenarios/measles-scenario-cu",
+  "type": "Entity",
+  "ontologyVersion": "1.0",
+  "generatedAt": "2026-11-20T13:04:49Z",
+  "wasDerivedFrom": [
+    {
+      "path": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json",
+      "sha256": "6aaadc74d248b3f59181a274f0faff883a0bbed13692eefad8a401290fb16006",
+      "note": "The L1 recommendations, each the source of one implementedBy edge."
+    },
+    {
+      "path": "l1-extractions/scenarios/measles-guide-vocabulary.json",
+      "sha256": "9d085dd8073442a7a0f863e2402d57d72c18bf3c429c676fb1f86013315fad44",
+      "note": "The personas and processes of smart-immunizations-measles, read at ritikarawlani/smart-immunizations-measles@7f8cfe7d94585910e617ec8b92ba7b6081f4eb96."
+    },
+    {
+      "path": "smart-base/scripts/fixtures/l1-recommendation-scenarios/smart-base-generic-personas.json",
+      "sha256": "fa33902453047ae0f8f913a05bf5e6b3000a5084c553975923003c0f3267c4e5",
+      "note": "smart-base's generic personas, read at litlfred/smart-base@417720453eb28a142a503cc96afb38efc6e42386."
+    },
+    {
+      "path": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml",
+      "sha256": "961b0495d22f5a1867bca01f5d3dd1c8582205f935c517051d21af8f7ebc701a",
+      "note": "The authored mapping: per recommendation, its personas, process, act, outcome and domain, each with a source and a basis."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-confirm-by-written-record",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.CU.catchup.confirm-by-written-record: confirm vaccination history from a home-based record or register",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for implementation practice catchup.confirm-by-written-record, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json#catchup.confirm-by-written-record (library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md)",
+        "quote": "Written documentation (e.g. home-based record, or immunization register) of vaccination should be used to confirm individual vaccination status/history."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.CU.catchup.confirm-by-written-record",
+        "title": "MEASLES.Scenario.CU.catchup.confirm-by-written-record: confirm vaccination history from a home-based record or register",
+        "description": "As a Healthcare Provider, during [process not determined], I confirm vaccination history from a home-based record or register so that the client's status is known before deciding doses.",
+        "source": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.confirm-by-written-record"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-defaulter-tracking",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.CU.catchup.defaulter-tracking: set up newborn and defaulter tracking and reach zero-dose children in the catchment area",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for implementation practice catchup.defaulter-tracking, authored from its statement against the smart-immunizations-measles vocabulary. Domain public-health (inferred).",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json#catchup.defaulter-tracking (library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-011-16-strategies-for-catch-up-vaccination.md)",
+        "quote": "Every health facility should have a process in place for newborn and defaulter tracking and for identifying and reaching zero-dose children in their catchment area (see Box 3)."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.CU.catchup.defaulter-tracking",
+        "title": "MEASLES.Scenario.CU.catchup.defaulter-tracking: set up newborn and defaulter tracking and reach zero-dose children in the catchment area",
+        "description": "As a Health System Manager, during [process not determined], I set up newborn and defaulter tracking and reach zero-dose children in the catchment area so that children who never started or dropped out are found.",
+        "source": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.defaulter-tracking"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-delayed-dose-no-restart",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.CU.catchup.delayed-dose-no-restart: give the next due dose of a delayed series as soon as possible without restarting",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for implementation practice catchup.delayed-dose-no-restart, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json#catchup.delayed-dose-no-restart (library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md)",
+        "quote": "Should a vaccine dose be delayed, for any reason, in most cases it is not necessary to restart the vaccine series.16 The next dose in the series should be administered as soon as possible and the individual should be told to return for any subsequent doses, after the appropriate time interval."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.CU.catchup.delayed-dose-no-restart",
+        "title": "MEASLES.Scenario.CU.catchup.delayed-dose-no-restart: give the next due dose of a delayed series as soon as possible without restarting",
+        "description": "As a Healthcare Provider, during [process not determined], I give the next due dose of a delayed series as soon as possible without restarting so that the series is completed.",
+        "source": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.delayed-dose-no-restart"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-every-immunization-contact",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.CU.catchup.every-immunization-contact: review vaccination status at every immunization contact and give missed antigens",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for implementation practice catchup.every-immunization-contact, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json#catchup.every-immunization-contact (library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-011-16-strategies-for-catch-up-vaccination.md)",
+        "quote": "Every immunization contact, whether fixed or outreach (including school-based), should be used as an opportunity to review an individual’s vaccination status and catch-up any antigens that have been missed before that visit."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.CU.catchup.every-immunization-contact",
+        "title": "MEASLES.Scenario.CU.catchup.every-immunization-contact: review vaccination status at every immunization contact and give missed antigens",
+        "description": "As a Healthcare Provider, during [process not determined], I review vaccination status at every immunization contact and give missed antigens so that missed antigens are caught up.",
+        "source": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.every-immunization-contact"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-every-touchpoint",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.CU.catchup.every-touchpoint: assess vaccination status at every health contact and vaccinate or refer anyone who missed doses",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for implementation practice catchup.every-touchpoint, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json#catchup.every-touchpoint (library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-005-introduction.md)",
+        "quote": "All touchpoints with the health system should be used to reduce missed opportunities for vaccination4, by assessing vaccination status and vaccinating or referring individuals for catch-up vaccination if they have missed any doses."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.CU.catchup.every-touchpoint",
+        "title": "MEASLES.Scenario.CU.catchup.every-touchpoint: assess vaccination status at every health contact and vaccinate or refer anyone who missed doses",
+        "description": "As a Healthcare Provider, during [process not determined], I assess vaccination status at every health contact and vaccinate or refer anyone who missed doses so that missed opportunities are reduced.",
+        "source": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.every-touchpoint"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-invalid-early-dose-repeat",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.CU.catchup.invalid-early-dose-repeat: not count a dose given before the minimum age or interval and repeat it after the minimum interval",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for implementation practice catchup.invalid-early-dose-repeat, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json#catchup.invalid-early-dose-repeat (library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md)",
+        "quote": "Vaccine doses administered earlier than the minimum age recommended in the national immunization schedule or minimum interval should not be counted as valid and should be repeated (as age-appropriate), following the minimum interval after the invalid dose."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.CU.catchup.invalid-early-dose-repeat",
+        "title": "MEASLES.Scenario.CU.catchup.invalid-early-dose-repeat: not count a dose given before the minimum age or interval and repeat it after the minimum interval",
+        "description": "As a Healthcare Provider, during [process not determined], I not count a dose given before the minimum age or interval and repeat it after the minimum interval so that only valid doses count towards the series.",
+        "source": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.invalid-early-dose-repeat"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-late-not-denied",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.CU.catchup.late-not-denied: vaccinate a client who arrives late rather than turn them away",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for implementation practice catchup.late-not-denied, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json#catchup.late-not-denied (library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-005-introduction.md)",
+        "quote": "Everyone should fully benefit from vaccination by receiving recommended vaccines as soon as they are eligible, and those who arrive “late” should not be denied vaccination."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.CU.catchup.late-not-denied",
+        "title": "MEASLES.Scenario.CU.catchup.late-not-denied: vaccinate a client who arrives late rather than turn them away",
+        "description": "As a Healthcare Provider, during [process not determined], I vaccinate a client who arrives late rather than turn them away so that late clients are still protected.",
+        "source": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.late-not-denied"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-live-vaccine-spacing",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.CU.catchup.live-vaccine-spacing: give live vaccines including MCV on the same day or 4 weeks apart",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for implementation practice catchup.live-vaccine-spacing, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json#catchup.live-vaccine-spacing (library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md)",
+        "quote": "Live attenuated vaccines: as a general rule, live vaccines (for example, measles-containing vaccines, yellow fever, or Japanese Encephalitis) should be given either together at the same visit (simultaneously) or separated by an interval of 4 weeks; an exception to this rule is oral poliovirus vaccine (OPV), which can be given at any time before, simultaneously with, or after other live vaccines."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.CU.catchup.live-vaccine-spacing",
+        "title": "MEASLES.Scenario.CU.catchup.live-vaccine-spacing: give live vaccines including MCV on the same day or 4 weeks apart",
+        "description": "As a Healthcare Provider, during [process not determined], I give live vaccines including MCV on the same day or 4 weeks apart so that live vaccines are given at valid intervals.",
+        "source": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.live-vaccine-spacing"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-mcv2-only-after-mcv1",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.CU.catchup.mcv2-only-after-mcv1: record a dose as MCV2 only if the child has already received MCV1",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for implementation practice catchup.mcv2-only-after-mcv1, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json#catchup.mcv2-only-after-mcv1 (library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-009-14-recording-and-reporting-of-catch-up-vaccinati.md)",
+        "quote": "A dose should never be recorded and reported as MCV2 if the child has not first received MCV1."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.CU.catchup.mcv2-only-after-mcv1",
+        "title": "MEASLES.Scenario.CU.catchup.mcv2-only-after-mcv1: record a dose as MCV2 only if the child has already received MCV1",
+        "description": "As a Healthcare Provider, during [process not determined], I record a dose as MCV2 only if the child has already received MCV1 so that coverage of each dose is reported correctly.",
+        "source": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.mcv2-only-after-mcv1"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-multi-dose-return-date",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.CU.catchup.multi-dose-return-date: calculate when the next dose of a multi-dose series is due, tell the caregiver, and write it in the home-based record",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for implementation practice catchup.multi-dose-return-date, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json#catchup.multi-dose-return-date (library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md)",
+        "quote": "For catch-up of vaccines requiring multiple doses in a series, the health worker will need to calculate the appropriate timing for subsequent doses, instruct the caregiver or individual when to return to complete the series, and write this down in their home-based record."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.CU.catchup.multi-dose-return-date",
+        "title": "MEASLES.Scenario.CU.catchup.multi-dose-return-date: calculate when the next dose of a multi-dose series is due, tell the caregiver, and write it in the home-based record",
+        "description": "As a Healthcare Provider, during [process not determined], I calculate when the next dose of a multi-dose series is due, tell the caregiver, and write it in the home-based record so that the series is completed.",
+        "source": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.multi-dose-return-date"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-national-catch-up-schedule",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.CU.catchup.national-catch-up-schedule: publish a national catch-up schedule with age cohorts, minimum and maximum ages and minimum intervals per antigen",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for implementation practice catchup.national-catch-up-schedule, authored from its statement against the smart-immunizations-measles vocabulary. Domain health-system-strengthening (inferred).",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json#catchup.national-catch-up-schedule (library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-002-key-terms.md)",
+        "quote": "Catch-up vaccination schedule – along with a catch-up policy, every country should have a catch-up vaccination schedule that clearly indicates the age cohorts to whom the catch-up schedule applies, minimum and maximum ages (if applicable as per national policy) and directives on minimum intervals permissible between doses for each antigen, to assist health workers and individuals to complete the vaccination schedule if interrupted or delayed (see Box 1)."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.CU.catchup.national-catch-up-schedule",
+        "title": "MEASLES.Scenario.CU.catchup.national-catch-up-schedule: publish a national catch-up schedule with age cohorts, minimum and maximum ages and minimum intervals per antigen",
+        "description": "As a Health System Manager, during [process not determined], I publish a national catch-up schedule with age cohorts, minimum and maximum ages and minimum intervals per antigen so that health workers can complete interrupted or delayed schedules.",
+        "source": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.national-catch-up-schedule"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-no-restart-series",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.CU.catchup.no-restart-series: not restart a vaccine series",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for implementation practice catchup.no-restart-series, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json#catchup.no-restart-series (library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md)",
+        "quote": "Restarting a series is not recommended, even for the primary series."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.CU.catchup.no-restart-series",
+        "title": "MEASLES.Scenario.CU.catchup.no-restart-series: not restart a vaccine series",
+        "description": "As a Healthcare Provider, during [process not determined], I not restart a vaccine series so that no extra doses are given.",
+        "source": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.no-restart-series"
+      }
+    },
+    {
+      "id": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-unconfirmed-assume-unvaccinated",
+      "type": "user-scenario",
+      "label": "MEASLES.Scenario.CU.catchup.unconfirmed-assume-unvaccinated: treat a client with no evidence of vaccination as unvaccinated and offer vaccination",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "User-scenario CANDIDATE for implementation practice catchup.unconfirmed-assume-unvaccinated, authored from its statement against the smart-immunizations-measles vocabulary. Domain clinical (inferred).",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/l1.json#catchup.unconfirmed-assume-unvaccinated (library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md)",
+        "quote": "If evidence of previous vaccination cannot be confirmed, it should be assumed that the person has not received the vaccine(s) and vaccination should be offered."
+      },
+      "properties": {
+        "id": "MEASLES.Scenario.CU.catchup.unconfirmed-assume-unvaccinated",
+        "title": "MEASLES.Scenario.CU.catchup.unconfirmed-assume-unvaccinated: treat a client with no evidence of vaccination as unvaccinated and offer vaccination",
+        "description": "As a Healthcare Provider, during [process not determined], I treat a client with no evidence of vaccination as unvaccinated and offer vaccination so that clients without records are protected.",
+        "source": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.unconfirmed-assume-unvaccinated"
+      }
+    },
+    {
+      "id": "https://smart.who.int/base/persona/health-system-manager",
+      "type": "persona",
+      "label": "Health System Manager",
+      "derivation": "derived",
+      "skill": "smart-base/recommendation-extraction",
+      "properties": {
+        "id": "DAK.Persona.HealthSystemManager",
+        "title": "Health System Manager",
+        "description": "A professional involved in the administration and oversight of health systems.",
+        "iscoCode": [
+          "1342",
+          "2446",
+          "3354",
+          "4311"
+        ],
+        "personaType": "person",
+        "source": "litlfred/smart-base@4177204:input/fsh/actors/DAK.Persona.HealthSystemManager.fsh (Instance: DAK.Persona.HealthSystemManager)",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "id": "https://smart.who.int/base/persona/healthcare-provider",
+      "type": "persona",
+      "label": "Healthcare Provider",
+      "derivation": "derived",
+      "skill": "smart-base/recommendation-extraction",
+      "properties": {
+        "id": "DAK.Persona.HealthcareProvider",
+        "title": "Healthcare Provider",
+        "description": "A member of the health workforce who delivers health interventions. This group has also been described as 'health workers' or 'healthcare workers'.",
+        "iscoCode": [
+          "2211",
+          "2212",
+          "2221",
+          "2222",
+          "3211",
+          "3212",
+          "3213",
+          "3221",
+          "3222",
+          "3255"
+        ],
+        "personaType": "person",
+        "source": "litlfred/smart-base@4177204:input/fsh/actors/DAK.Persona.HealthcareProvider.fsh (Instance: DAK.Persona.HealthcareProvider)",
+        "resolutionStatus": "resolved"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.national-catch-up-schedule",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-national-catch-up-schedule",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Implementation practice catchup.national-catch-up-schedule is implemented by scenario MEASLES.Scenario.CU.catchup.national-catch-up-schedule — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.national-catch-up-schedule"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "health-system-strengthening",
+        "domainSource": "inferred",
+        "domainBasis": "A policy instrument."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-national-catch-up-schedule",
+      "target": "https://smart.who.int/base/persona/health-system-manager",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "National policy is set by programme management.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.national-catch-up-schedule.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.late-not-denied",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-late-not-denied",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Implementation practice catchup.late-not-denied is implemented by scenario MEASLES.Scenario.CU.catchup.late-not-denied — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.late-not-denied"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client principle."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-late-not-denied",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Acted on at the contact.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.late-not-denied.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.every-touchpoint",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-every-touchpoint",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Implementation practice catchup.every-touchpoint is implemented by scenario MEASLES.Scenario.CU.catchup.every-touchpoint — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.every-touchpoint"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client act."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-every-touchpoint",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Any provider at a health contact.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.every-touchpoint.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.multi-dose-return-date",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-multi-dose-return-date",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Implementation practice catchup.multi-dose-return-date is implemented by scenario MEASLES.Scenario.CU.catchup.multi-dose-return-date — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.multi-dose-return-date"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client act."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-multi-dose-return-date",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider calculates and records.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.multi-dose-return-date.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.confirm-by-written-record",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-confirm-by-written-record",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Implementation practice catchup.confirm-by-written-record is implemented by scenario MEASLES.Scenario.CU.catchup.confirm-by-written-record — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.confirm-by-written-record"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client act."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-confirm-by-written-record",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider reads the record.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.confirm-by-written-record.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.unconfirmed-assume-unvaccinated",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-unconfirmed-assume-unvaccinated",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Implementation practice catchup.unconfirmed-assume-unvaccinated is implemented by scenario MEASLES.Scenario.CU.catchup.unconfirmed-assume-unvaccinated — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.unconfirmed-assume-unvaccinated"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-unconfirmed-assume-unvaccinated",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider decides at the contact.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.unconfirmed-assume-unvaccinated.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.invalid-early-dose-repeat",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-invalid-early-dose-repeat",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Implementation practice catchup.invalid-early-dose-repeat is implemented by scenario MEASLES.Scenario.CU.catchup.invalid-early-dose-repeat — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.invalid-early-dose-repeat"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-invalid-early-dose-repeat",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider evaluates each recorded dose.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.invalid-early-dose-repeat.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.delayed-dose-no-restart",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-delayed-dose-no-restart",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Implementation practice catchup.delayed-dose-no-restart is implemented by scenario MEASLES.Scenario.CU.catchup.delayed-dose-no-restart — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.delayed-dose-no-restart"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-delayed-dose-no-restart",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider decides the next dose.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.delayed-dose-no-restart.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.live-vaccine-spacing",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-live-vaccine-spacing",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Implementation practice catchup.live-vaccine-spacing is implemented by scenario MEASLES.Scenario.CU.catchup.live-vaccine-spacing — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.live-vaccine-spacing"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client interval rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-live-vaccine-spacing",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Checked by the provider.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.live-vaccine-spacing.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.no-restart-series",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-no-restart-series",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Implementation practice catchup.no-restart-series is implemented by scenario MEASLES.Scenario.CU.catchup.no-restart-series — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.no-restart-series"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client rule."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-no-restart-series",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider decides.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.no-restart-series.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.mcv2-only-after-mcv1",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-mcv2-only-after-mcv1",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Implementation practice catchup.mcv2-only-after-mcv1 is implemented by scenario MEASLES.Scenario.CU.catchup.mcv2-only-after-mcv1 — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.mcv2-only-after-mcv1"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "Recording a per-client dose."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-mcv2-only-after-mcv1",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider records the dose.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.mcv2-only-after-mcv1.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.every-immunization-contact",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-every-immunization-contact",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Implementation practice catchup.every-immunization-contact is implemented by scenario MEASLES.Scenario.CU.catchup.every-immunization-contact — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.every-immunization-contact"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "clinical",
+        "domainSource": "inferred",
+        "domainBasis": "A per-client act."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-every-immunization-contact",
+      "target": "https://smart.who.int/base/persona/healthcare-provider",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "The provider at the immunization contact.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.every-immunization-contact.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "implementedBy",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.defaulter-tracking",
+      "target": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-defaulter-tracking",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "Implementation practice catchup.defaulter-tracking is implemented by scenario MEASLES.Scenario.CU.catchup.defaulter-tracking — a candidate, never derived: deciding that a scenario realises a recommendation is adaptation.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.defaulter-tracking"
+      },
+      "properties": {
+        "reviewStatus": "candidate",
+        "domain": "public-health",
+        "domainSource": "inferred",
+        "domainBasis": "A population outreach process."
+      }
+    },
+    {
+      "type": "Statement",
+      "predicate": "involves",
+      "source": "http://smart.who.int/immunizations-measles/user-scenario/measles-scenario-cu-catchup-defaulter-tracking",
+      "target": "https://smart.who.int/base/persona/health-system-manager",
+      "derivation": "inferred",
+      "skill": "smart-base/recommendation-extraction",
+      "note": "A facility process organised by its management.",
+      "evidence": {
+        "location": "l1-extractions/leave-no-one-behind-catch-up-vaccination-9789240016514/scenario-mapping.yaml#entries.catchup.defaulter-tracking.personas[0]"
+      },
+      "properties": {
+        "linkSource": "inferred",
+        "tier": "generic",
+        "reviewStatus": "candidate",
+        "resolutionStatus": "resolved"
+      }
+    }
+  ]
+}

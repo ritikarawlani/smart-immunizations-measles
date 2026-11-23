@@ -1,0 +1,1 @@
+Once the situation resumes to normal, a policy review should be conducted to decide if the removal of age- cutoffs should be permanently adopted. • Any interim guidance on catch-up vaccination should be coordinated closely with other related programmes (e.g.

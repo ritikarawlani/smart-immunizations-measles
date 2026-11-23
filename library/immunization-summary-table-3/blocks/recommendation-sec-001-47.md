@@ -1,0 +1,1 @@
+Policies which prohibit use of vaccine in children >1 year of age, older children, and teenagers, should be changed to allow these individuals to be vaccinated. • As a general rule, live vaccines should be given either simultaneously or at intervals of 4 weeks.

@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://ritikarawlani.github.io/smart-immunizations-measles/ns/context/v1.jsonld",
+    {
+      "@base": "https://ritikarawlani.github.io/smart-immunizations-measles/v0/"
+    }
+  ],
+  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations-measles/source/immunization-summary-table-3",
+  "@type": [
+    "cat-harness:SourceDocument"
+  ],
+  "title": "Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers",
+  "contains": [
+    "library/immunization-summary-table-3/sections/sec-front-matter",
+    "library/immunization-summary-table-3/sections/sec-000",
+    "library/immunization-summary-table-3/sections/sec-001"
+  ],
+  "provenance": "ingested",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/smart-immunizations-measles/directory/library",
+  "meta": {
+    "doc_id": "immunization-summary-table-3",
+    "title_source": "corroborated",
+    "title_from": "structure.json metadata.title",
+    "title_verified": true,
+    "source_file": "immunization-summary-table-3.pdf",
+    "source_sha256": "aead588449159c46bad3a190f6427f4bf3d53ead55786b165105ccffaeb357a2",
+    "pages": 8,
+    "arxiv": null,
+    "doi": null,
+    "document_class": null,
+    "extractor_validated": null,
+    "disposition": "ingested source material — attributed to its document, not folio content"
+  }
+}

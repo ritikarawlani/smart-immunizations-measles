@@ -1,0 +1,27 @@
+# This workflow reuses the openHIE GitHub action for building IGs
+# Initial idea by Carl Leitner, developed by Elliot Silver, available from: https://www.argentixinfo.com/archives/156
+# Change log:
+# v0.1.0
+# 2021-06-18: publish default branches to / , other branches branches/<branch>
+# 2021-11-26: reusable workflow
+
+name: FHIR CI Build
+
+# Controls when the action will run. 
+# Manual trigger only (owner decision, 2026-10-06): no build runs on push or
+# pull request. Run it from the Actions tab when a build is wanted.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  # This workflow contains a single job called "build"
+  # litlfred/smart-base, not WorldHealthOrganization/smart-base (owner card
+  # 2026-10-30T15:38Z, "B. Use litlfred workflow now"; bean
+  # folio-assistant-cz17): this repository's DAK declaration is
+  # index.config.json contentTypes.dak, and dak.json is gone. The called
+  # workflow takes no inputs and no secrets.
+  call_build:
+    uses: litlfred/smart-base/.github/workflows/fhirbuild.yml@328e07312e44958d4d749c99dcee8f8209e7e55a # index.lock.json

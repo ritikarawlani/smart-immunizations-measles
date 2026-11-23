@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.051 Usability Any interface created SHOULD be mindful of best practices for user design/adaptive design to ensure the best chance of presenting a clear and concise, and intuitive user experience.

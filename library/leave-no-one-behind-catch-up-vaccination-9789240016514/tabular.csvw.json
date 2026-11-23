@@ -1,0 +1,958 @@
+{
+  "$schema": "folio-tabular-csvw/v1",
+  "doc_id": "leave-no-one-behind-catch-up-vaccination-9789240016514",
+  "source": {
+    "file": "leave-no-one-behind-catch-up-vaccination-9789240016514.pdf",
+    "sha256": "f13c21a9eec89c9b36112f6cb50b5de83bdbe4b541e650ba0ef39402c6cbedca",
+    "bytes": 1439254,
+    "pages": 53,
+    "text_source": "embedded",
+    "extractor": "pymupdf",
+    "mtime": "2026-11-20T12:49:37Z",
+    "mimetype_sniffed": "application/pdf",
+    "mimetype_source": "magic-bytes",
+    "note": "tables extracted from the PDF pages by pdf-tables.py — drafts, not checked against the page"
+  },
+  "narrative": {
+    "text": null,
+    "state": "not-authored"
+  },
+  "tables": [
+    {
+      "url": "tables/table-1.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "catch-up-vaccination-refers-to-the-action-of-vac",
+            "titles": "Catch-up vaccination – refers to the action of vaccinating an individual, who for whatever reason",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 12,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 1",
+      "fac:pages": [
+        8
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p008-006",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-2.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "box-1-designing-a-catch-up-schedule",
+            "titles": "Box 1. Designing a catch-up schedule",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 19,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 2",
+      "fac:pages": [
+        13
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p013-011",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-3.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "box-2-summary-instructions-for-health-workers-on",
+            "titles": "Box 2. Summary Instructions for Health Workers on Catch-up Vaccination",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 64,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 3",
+      "fac:pages": [
+        18,
+        19,
+        20
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p018-016",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-4.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "box-4-the-importance-of-home-based-records-hbrs-",
+            "titles": "Box 4. The importance of Home-based Records (HBRs) as enablers of effective catch-up vaccination",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-5",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-6",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 38,
+        "columns": 6,
+        "source": "measured"
+      },
+      "fac:label": "Table 4",
+      "fac:pages": [
+        21
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p021-019",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-5.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "box-5-estimating-target-population-for-catch-up-",
+            "titles": "Box 5. Estimating target population for catch-up vaccination efforts",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 15,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 5",
+      "fac:pages": [
+        27
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p027-027",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-6.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "box-6-choice-of-a-catch-up-vaccination-strategy-",
+            "titles": "Box 6. Choice of a catch-up vaccination strategy or strategies will depend on many factors:",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 26,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 6",
+      "fac:pages": [
+        29,
+        30
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p029-029",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-7.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "box-7-a-framework-for-decision-making-on-priorit",
+            "titles": "Box 7. A framework for decision-making on prioritization of strategies for vaccine delivery",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 20,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 7",
+      "fac:pages": [
+        30
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p030-031",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-8.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "antigen",
+            "titles": "Antigen",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "minimum-age-of-first-dose",
+            "titles": "Minimum age of first dose",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "doses-in-primary-series",
+            "titles": "Doses in primary series",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-6",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "interrupted-primary-series",
+            "titles": "Interrupted primary series",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-8",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-9",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-10",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "doses-for-those-who-start-vaccination-late",
+            "titles": "Doses for those who start vaccination late",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-12",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-13",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-14",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-15",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-16",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "booster",
+            "titles": "Booster",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 14,
+        "columns": 17,
+        "source": "measured"
+      },
+      "fac:label": "Table A1.2",
+      "fac:caption": "Table A1.2 – WHO recommendations for Interrupted or Delayed Routine Immunization – simplified tablea",
+      "fac:pages": [
+        35
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p035-035",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-9.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "antigen",
+            "titles": "Antigen",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "minimum-age-at-first-dose",
+            "titles": "Minimum age at first dose",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "minimum-interval-between-doses-1-and-2",
+            "titles": "Minimum interval between doses 1 and 2",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-6",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-7",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "minimum-interval-between-doses-2-and-3",
+            "titles": "Minimum interval between doses 2 and 3",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-9",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-10",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "minimum-interval-between-doses-3-and-4",
+            "titles": "Minimum interval between doses 3 and 4",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-12",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-13",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "comments",
+            "titles": "Comments",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-15",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 20,
+        "columns": 15,
+        "source": "measured"
+      },
+      "fac:label": "Table 9",
+      "fac:pages": [
+        36
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p036-036",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-10.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "name-date-of-this-assessment-date-of-birth-age-a",
+            "titles": "Name: Date of this assessment: Date of birth: Age at this assessment: Additional Number of Number of doses doses doses Dose number Vaccine required Comments received and needed at due now (interval or date for each current age date) To be completed Note here if based on any upper age national limits apply immunization (e.g. Rotavirus) schedule Photocopy or take a photo of the section below and provide to individual (hard copy or send via SMS/chat/email):",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-5",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 2,
+        "columns": 5,
+        "source": "measured"
+      },
+      "fac:label": "Table 10",
+      "fac:pages": [
+        40
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p040-038",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-11.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "piri-goal",
+            "titles": "PIRI goal",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "general-strategy",
+            "titles": "General strategy",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "type-of-activity",
+            "titles": "Type of activity",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 4,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table A6.1",
+      "fac:caption": "Table A6.1 - PIRI goals, general strategies, and activities",
+      "fac:pages": [
+        44
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p044-042",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-12.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "sia",
+            "titles": "SIA",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "piri-targeted-service",
+            "titles": "PIRI targeted service",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-5",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-6",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "routine-immunization",
+            "titles": "Routine immunization",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 6,
+        "columns": 7,
+        "source": "measured"
+      },
+      "fac:label": "Table A6.2",
+      "fac:caption": "Table A6.2 – Comparison of features of SIAs, PIRI targeted service delivery, and routine",
+      "fac:pages": [
+        45
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p045-043",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-13.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "vaccination-coverage-level",
+            "titles": "Vaccination coverage level",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "operational-issues-for-piri",
+            "titles": "Operational issues for PIRI",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-5",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-6",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-7",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-8",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 5,
+        "columns": 8,
+        "source": "measured"
+      },
+      "fac:label": "Table A6.3",
+      "fac:caption": "Table A6.3 – Potential PIRI design based on country setting",
+      "fac:pages": [
+        47
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p047-045",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-14.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "a",
+            "titles": "A",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "nnex-8-example-vpd",
+            "titles": "nnex 8. Example VPD",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "risk-assessment",
+            "titles": "risk-assessment",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 51,
+        "columns": 3,
+        "source": "measured"
+      },
+      "fac:label": "Table 14",
+      "fac:pages": [
+        50
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p050-048",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-15.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "factor",
+            "titles": "Factor",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "risk-level",
+            "titles": "Risk level",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-5",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-6",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-7",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-8",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-9",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-10",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "comments",
+            "titles": "Comments",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 7,
+        "columns": 11,
+        "source": "measured"
+      },
+      "fac:label": "Table A8.1",
+      "fac:caption": "Table A8.1 – Measles disease-specific risk factors",
+      "fac:pages": [
+        51,
+        52
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p051-049",
+        "at": "2026-11-20"
+      }
+    }
+  ]
+}

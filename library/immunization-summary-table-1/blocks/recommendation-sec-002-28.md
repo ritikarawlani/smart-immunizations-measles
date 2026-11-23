@@ -1,0 +1,1 @@
+This schedule will not be compliant post-certification and countries will have to switch to the preferred schedule starting at 14 weeks. • In polio-endemic countries and in countries at high risk for poliovirus importation and subsequent spread, WHO recommends a bOPV birth dose (zero dose) followed by the primary series of 3 bOPV doses and 2 IPV doses.

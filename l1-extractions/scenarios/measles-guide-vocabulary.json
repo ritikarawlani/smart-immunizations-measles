@@ -1,0 +1,16 @@
+{
+  "$schema": "l1-scenario-vocabulary/v1",
+  "_comment": "The target guide's own vocabulary, rung 1 of recommendation-extraction Part 2. This guide (smart-immunizations-measles) has authored no personas or business processes yet, so both lists are empty and every scenario falls to smart-base's generic personas (rung 2) with process could-not-determine. Rewrite this file from the guide's own pages once the L2 personas and processes exist. source.paths names the declaration, the place the guide would declare its personas and processes; it declares none.",
+  "tier": "guide",
+  "guide": "smart-immunizations-measles",
+  "namespace": "http://smart.who.int/immunizations-measles",
+  "source": {
+    "repository": "ritikarawlani/smart-immunizations-measles",
+    "commit": "7f8cfe7d94585910e617ec8b92ba7b6081f4eb96",
+    "paths": [
+      "smart-immunizations-measles.json"
+    ]
+  },
+  "personas": [],
+  "processes": []
+}

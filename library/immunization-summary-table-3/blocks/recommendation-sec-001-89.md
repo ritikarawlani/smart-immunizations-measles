@@ -1,0 +1,1 @@
+Record (2024, 99: 203-224) • WHO recommends the use of TAK-003 in children aged 6–16 years in settings with high dengue transmission intensity. • Catch-up vaccination can also be considered for other age groups within the 6–16 year age range at the time of vaccine introduction. • The vaccine is recommended as a 2-dose schedule with a minimum interval of 3 months between doses.

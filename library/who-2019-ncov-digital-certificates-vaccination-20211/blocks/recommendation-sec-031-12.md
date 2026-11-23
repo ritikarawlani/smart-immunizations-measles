@@ -1,0 +1,1 @@
+This allows for continued trust in the system. » REMEDY PROVISION: If a DDCC:VS is revoked, Member States should apply measures to rectify the situation, for example, by providing the option of a new vaccination, if advisable.

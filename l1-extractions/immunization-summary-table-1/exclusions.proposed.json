@@ -1,0 +1,23 @@
+[
+  {
+    "location": "p3:s61",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p3:s88",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p3:s125",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  }
+]

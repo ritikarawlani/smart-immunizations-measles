@@ -1,0 +1,54 @@
+{
+  "$schema": "folio-library-extraction/v1",
+  "doc_id": "immunization-summary-table-2",
+  "kinds": {
+    "contents": {
+      "state": "found",
+      "count": 8,
+      "note": "contents from outline",
+      "tool": "pdf-structure.py",
+      "version": "0b311238188a",
+      "at": "2026-11-20"
+    },
+    "sections": {
+      "state": "found",
+      "count": 5,
+      "tool": "pdf-structure.py",
+      "version": "0b311238188a",
+      "at": "2026-11-20"
+    },
+    "figures": {
+      "state": "none",
+      "count": 0,
+      "note": "1 caption(s) read off the pages",
+      "tool": "pdf-images.py+pdf-vector-figures.py",
+      "at": "2026-11-20"
+    },
+    "tables": {
+      "state": "found",
+      "count": 8,
+      "note": "drafts; backend pdfplumber 0.11.10; 17 candidate(s) dropped: under two columns or no row under the header",
+      "tool": "pdf-tables.py",
+      "version": "b3b9e4012c21",
+      "at": "2026-11-20"
+    },
+    "references": {
+      "state": "not-extracted",
+      "note": "the instance declares no references directory to hold the nodes",
+      "tool": "references-extract",
+      "at": "2026-11-20"
+    },
+    "glossary": {
+      "state": "not-extracted",
+      "note": "the instance declares no glossary directory to hold the scheme",
+      "tool": "glossary-from-source",
+      "at": "2026-11-20"
+    },
+    "footnotes": {
+      "state": "partial",
+      "note": "no footnote linked to a mark; 25 mark(s) with no note found, kept for a reader to judge",
+      "tool": "pdf-footnotes.py",
+      "at": "2026-11-20"
+    }
+  }
+}

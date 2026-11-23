@@ -1,0 +1,1 @@
+→The working hours, location and corporate culture (including working language) of any supplier should be considered, to ensure that teams will work together well and that the risk of miscommunication is reduced.

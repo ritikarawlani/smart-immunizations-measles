@@ -1,0 +1,374 @@
+{
+  "$schema": "folio-tabular-csvw/v1",
+  "doc_id": "immunization-summary-table-1",
+  "source": {
+    "file": "immunization-summary-table-1.pdf",
+    "sha256": "9861c483644986f477485fdf98f61f493a4f1e2ace8e20f48c04ba70e0d18f8d",
+    "bytes": 431702,
+    "pages": 13,
+    "text_source": "embedded",
+    "extractor": "pymupdf",
+    "mtime": "2026-11-20T12:49:37Z",
+    "mimetype_sniffed": "application/pdf",
+    "mimetype_source": "magic-bytes",
+    "note": "tables extracted from the PDF pages by pdf-tables.py — drafts, not checked against the page"
+  },
+  "narrative": {
+    "text": null,
+    "state": "not-authored"
+  },
+  "tables": [
+    {
+      "url": "tables/table-1.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-5",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-6",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "considerations",
+            "titles": "Considerations",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 56,
+        "columns": 7,
+        "source": "measured"
+      },
+      "fac:label": "Table 1",
+      "fac:caption": "Table 1: Summary of WHO Position Papers – Recommendations for Routine Immunization",
+      "fac:pages": [
+        1
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p001-001",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-2.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-5",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "considerations",
+            "titles": "Considerations",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 59,
+        "columns": 6,
+        "source": "measured"
+      },
+      "fac:label": "Table 1",
+      "fac:caption": "Table 1: Summary of WHO Position Papers – Recommendations for Routine Immunization",
+      "fac:pages": [
+        2
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p002-002",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-3.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-4",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "considerations",
+            "titles": "Considerations",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 22,
+        "columns": 5,
+        "source": "measured"
+      },
+      "fac:label": "Table 1",
+      "fac:caption": "Table 1: Summary of WHO Position Papers – Recommendations for Routine Immunization",
+      "fac:pages": [
+        3
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p003-003",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-4.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "1-respiratory-syncytial-virus",
+            "titles": "1 Respiratory Syncytial Virus",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 4",
+      "fac:pages": [
+        4,
+        5
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p004-006",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-5.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "4polio",
+            "titles": "4Polio",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 5",
+      "fac:pages": [
+        5,
+        6
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p005-008",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-6.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "13-yellow-fever",
+            "titles": "13 Yellow Fever",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 6",
+      "fac:pages": [
+        9,
+        10
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p009-017",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-7.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "20-dengue-tak-003",
+            "titles": "20 Dengue (TAK-003)",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 7",
+      "fac:pages": [
+        12,
+        13
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p012-025",
+        "at": "2026-11-20"
+      }
+    }
+  ]
+}

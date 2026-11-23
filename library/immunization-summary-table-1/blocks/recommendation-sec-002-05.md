@@ -1,0 +1,1 @@
+While vaccines are universally recommended, some children may have contraindications to particular vaccines. • Vaccines can generally be co-administered (i.e. more than one vaccine given at different sites during the same visit).

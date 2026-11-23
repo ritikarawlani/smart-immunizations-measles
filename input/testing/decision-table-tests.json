@@ -1,0 +1,292 @@
+{
+  "$comment": "Dummy clients for MEASLES.DT.01-04; hit policy FIRST; inputs not listed are null.",
+  "tests": {
+    "MEASLES.DT.01": [
+      {
+        "name": "Asha, 9 months, high transmission, no doses",
+        "given": {
+          "validRoutineDoses": 0,
+          "ageMonths": 9,
+          "transmissionSetting": "high",
+          "supplementaryIndication": false,
+          "mcv0Given": false
+        },
+        "expect": "MCV1"
+      },
+      {
+        "name": "Asha, 15 months, MCV1 at 9 months, 26 weeks ago",
+        "given": {
+          "validRoutineDoses": 1,
+          "ageMonths": 15,
+          "transmissionSetting": "high",
+          "weeksSinceLastMcv": 26,
+          "ageAtMcv1Months": 9
+        },
+        "expect": "MCV2"
+      },
+      {
+        "name": "Asha, complete",
+        "given": {
+          "validRoutineDoses": 2,
+          "ageMonths": 16
+        },
+        "expect": "none"
+      },
+      {
+        "name": "Daniel, 6 years, no record",
+        "given": {
+          "validRoutineDoses": 0,
+          "ageMonths": 72,
+          "transmissionSetting": "high",
+          "supplementaryIndication": false,
+          "mcv0Given": false
+        },
+        "expect": "MCV1"
+      },
+      {
+        "name": "Daniel, 4 weeks after MCV1 at 72 months",
+        "given": {
+          "validRoutineDoses": 1,
+          "ageMonths": 73,
+          "transmissionSetting": "high",
+          "weeksSinceLastMcv": 4,
+          "ageAtMcv1Months": 72
+        },
+        "expect": "MCV2"
+      },
+      {
+        "name": "Daniel, 2 weeks after MCV1",
+        "given": {
+          "validRoutineDoses": 1,
+          "ageMonths": 72,
+          "weeksSinceLastMcv": 2,
+          "ageAtMcv1Months": 72
+        },
+        "expect": "none"
+      },
+      {
+        "name": "Lina, 7 months, HIV-exposed during an outbreak",
+        "given": {
+          "validRoutineDoses": 0,
+          "ageMonths": 7,
+          "transmissionSetting": "high",
+          "supplementaryIndication": true,
+          "mcv0Given": false
+        },
+        "expect": "MCV0"
+      },
+      {
+        "name": "Lina, 7 months, MCV0 given",
+        "given": {
+          "validRoutineDoses": 0,
+          "ageMonths": 7,
+          "transmissionSetting": "high",
+          "supplementaryIndication": true,
+          "mcv0Given": true
+        },
+        "expect": "none"
+      },
+      {
+        "name": "Low transmission, 10 months",
+        "given": {
+          "validRoutineDoses": 0,
+          "ageMonths": 10,
+          "transmissionSetting": "low",
+          "supplementaryIndication": false
+        },
+        "expect": "none"
+      },
+      {
+        "name": "Low transmission, 12 months",
+        "given": {
+          "validRoutineDoses": 0,
+          "ageMonths": 12,
+          "transmissionSetting": "low",
+          "supplementaryIndication": false
+        },
+        "expect": "MCV1"
+      },
+      {
+        "name": "MCV1 at 9 months, now 12 months",
+        "given": {
+          "validRoutineDoses": 1,
+          "ageMonths": 12,
+          "weeksSinceLastMcv": 13,
+          "ageAtMcv1Months": 9
+        },
+        "expect": "none"
+      },
+      {
+        "name": "Infant, 4 months",
+        "given": {
+          "validRoutineDoses": 0,
+          "ageMonths": 4,
+          "supplementaryIndication": true,
+          "mcv0Given": false
+        },
+        "expect": "none"
+      }
+    ],
+    "MEASLES.DT.02": [
+      {
+        "name": "Asha, well",
+        "given": {
+          "anaphylaxisToComponent": false,
+          "severeImmunosuppression": false,
+          "pregnant": false
+        },
+        "expect": "proceed"
+      },
+      {
+        "name": "Grace, pregnant",
+        "given": {
+          "anaphylaxisToComponent": false,
+          "severeImmunosuppression": false,
+          "pregnant": true
+        },
+        "expect": "defer"
+      },
+      {
+        "name": "Gelatin anaphylaxis",
+        "given": {
+          "anaphylaxisToComponent": true,
+          "severeImmunosuppression": false,
+          "pregnant": false
+        },
+        "expect": "do-not-vaccinate"
+      },
+      {
+        "name": "Yellow fever vaccine 2 weeks ago",
+        "given": {
+          "anaphylaxisToComponent": false,
+          "severeImmunosuppression": false,
+          "pregnant": false,
+          "weeksSinceOtherLiveVaccine": 2
+        },
+        "expect": "defer"
+      },
+      {
+        "name": "Daniel, with a cough",
+        "given": {
+          "anaphylaxisToComponent": false,
+          "severeImmunosuppression": false,
+          "pregnant": false
+        },
+        "expect": "proceed"
+      }
+    ],
+    "MEASLES.DT.03": [
+      {
+        "name": "Daniel: caregiver recalls a dose, no record",
+        "given": {
+          "documented": false,
+          "ageAtDoseMonths": 10,
+          "priorRoutineDoses": 0
+        },
+        "expect": "not counted"
+      },
+      {
+        "name": "Lina's dose at 7 months",
+        "given": {
+          "documented": true,
+          "ageAtDoseMonths": 7,
+          "priorRoutineDoses": 0
+        },
+        "expect": "MCV0"
+      },
+      {
+        "name": "Dose at 5 months",
+        "given": {
+          "documented": true,
+          "ageAtDoseMonths": 5,
+          "priorRoutineDoses": 0
+        },
+        "expect": "invalid"
+      },
+      {
+        "name": "Asha's MCV1 at 9 months",
+        "given": {
+          "documented": true,
+          "ageAtDoseMonths": 9,
+          "priorRoutineDoses": 0
+        },
+        "expect": "MCV1"
+      },
+      {
+        "name": "Recorded as MCV2, no MCV1 before",
+        "given": {
+          "documented": true,
+          "ageAtDoseMonths": 18,
+          "priorRoutineDoses": 0
+        },
+        "expect": "MCV1"
+      },
+      {
+        "name": "Second dose 3 weeks after the first",
+        "given": {
+          "documented": true,
+          "ageAtDoseMonths": 13,
+          "priorRoutineDoses": 1,
+          "weeksSincePreviousRoutine": 3
+        },
+        "expect": "invalid"
+      },
+      {
+        "name": "Asha's MCV2 at 15 months",
+        "given": {
+          "documented": true,
+          "ageAtDoseMonths": 15,
+          "priorRoutineDoses": 1,
+          "weeksSincePreviousRoutine": 26
+        },
+        "expect": "MCV2"
+      }
+    ],
+    "MEASLES.DT.04": [
+      {
+        "name": "On HAART, CD4 22%",
+        "given": {
+          "hivInfected": true,
+          "additionalDoseGiven": false,
+          "onHaart": true,
+          "cd4Monitored": true,
+          "cd4Percent": 22
+        },
+        "expect": "yes"
+      },
+      {
+        "name": "On HAART, CD4 15%",
+        "given": {
+          "hivInfected": true,
+          "additionalDoseGiven": false,
+          "onHaart": true,
+          "cd4Monitored": true,
+          "cd4Percent": 15
+        },
+        "expect": "no"
+      },
+      {
+        "name": "On HAART 8 months, no CD4 monitoring",
+        "given": {
+          "hivInfected": true,
+          "additionalDoseGiven": false,
+          "onHaart": true,
+          "cd4Monitored": false,
+          "monthsSinceHaartStart": 8
+        },
+        "expect": "yes"
+      },
+      {
+        "name": "On HAART 3 months, no CD4 monitoring",
+        "given": {
+          "hivInfected": true,
+          "additionalDoseGiven": false,
+          "onHaart": true,
+          "cd4Monitored": false,
+          "monthsSinceHaartStart": 3
+        },
+        "expect": "no"
+      }
+    ]
+  }
+}

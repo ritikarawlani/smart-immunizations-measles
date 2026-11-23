@@ -1,0 +1,1 @@
+Women planning a pregnancy are advised to avoid pregnancy for 1 month after rubella vaccination. • WHO recommends that people who receive blood products wait at least 3 months before vaccination with RCV, and, if possible, avoid administration of blood products for 2 weeks after vaccination.

@@ -1,0 +1,1 @@
+When rapid protection is required, for example for people who will be travelling to endemic areas, the interval between the first 2 doses may be reduced to 1–2 weeks. • With the vaccines manufactured in the Russian Federation (TBE-Moscow and EnceVir) the recommended intervals are 1–7 months between the first 2 doses, and 12 months between the second and third doses.

@@ -1,0 +1,1 @@
+For these infants, the birth dose should not count as part of the primary 3-dose series; the 3 doses of the standard primary series should be given according to the national vaccination schedule. • For catch-up of unvaccinated individuals, priority should be given to younger age groups since the risk of chronic infection is highest in these cohorts.

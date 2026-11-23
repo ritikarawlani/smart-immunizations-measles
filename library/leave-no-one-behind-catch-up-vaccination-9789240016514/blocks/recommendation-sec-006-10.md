@@ -1,0 +1,1 @@
+Available at: https://www.who.int/publications/m/item/table-3-who-recommendations-for-routine-immunization 6 All WHO summary tables, along with the User’s Guide are available in English and French, at: https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine- immunization---summary-tables 3

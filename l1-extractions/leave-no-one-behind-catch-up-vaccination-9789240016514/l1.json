@@ -1,0 +1,423 @@
+{
+  "@context": "http://smart.who.int/kg/l1-library.context.jsonld",
+  "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514#recommendation-candidates",
+  "type": "Entity",
+  "ontologyVersion": "3.0",
+  "generatedAt": "2026-11-20T12:58:16Z",
+  "wasDerivedFrom": [
+    {
+      "path": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/structure.json",
+      "sha256": "e14a314333bf9b2958be0e4a16358b39f8ffd34569ae5d66572485afc8609da1",
+      "note": "The entry's structure; the source PDF's sha256 is f13c21a9eec89c9b36112f6cb50b5de83bdbe4b541e650ba0ef39402c6cbedca."
+    },
+    {
+      "path": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/",
+      "sha256": "cfeadf6c2310143b10c6c493956c8bf5a6c912f51571dff38162723dfc9abaf1",
+      "note": "The page texts read, hashed as a sha256sum listing in file order."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+      "type": "publication",
+      "label": "Leave no one behind: guidance for planning and implementing catch-up vaccination",
+      "properties": {
+        "title": "Leave no one behind: guidance for planning and implementing catch-up vaccination",
+        "identifiers": [
+          {
+            "type": "isbn",
+            "value": "978-92-4-001651-4"
+          }
+        ],
+        "publicationType": "implementation-guidance",
+        "sha256": "f13c21a9eec89c9b36112f6cb50b5de83bdbe4b541e650ba0ef39402c6cbedca"
+      },
+      "derivation": "inferred",
+      "note": "ISBN as the work list proposed from the printed imprint; title from the cover. Guidance on planning and implementing catch-up vaccination, making no recommendations of its own, so implementation-guidance (handbook for guideline development section 1.9).",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-front-matter.md",
+        "quote": "ISBN 978-92-4-001651-4 (electronic"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.national-catch-up-schedule",
+      "type": "implementation-practice",
+      "label": "catchup.national-catch-up-schedule",
+      "properties": {
+        "identifier": "catchup.national-catch-up-schedule",
+        "statement": "Catch-up vaccination schedule – along with a catch-up policy, every country should have a catch-up vaccination schedule that clearly indicates the age cohorts to whom the catch-up schedule applies, minimum and maximum ages (if applicable as per national policy) and directives on minimum intervals permissible between doses for each antigen, to assist health workers and individuals to complete the vaccination schedule if interrupted or delayed (see Box 1).",
+        "contentHash": "6685a99590ead74256f6207e4137ffdcef9b8ec1af388336b0c7db430a3177d6"
+      },
+      "derivation": "inferred",
+      "note": "Page 8, definitions: every country has a catch-up schedule with age cohorts, minimum/maximum ages and minimum intervals per antigen.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-002-key-terms.md",
+        "quote": "Catch-up vaccination schedule – along with a catch-up policy, every country should have a catch-up vaccination schedule that clearly indicates the age cohorts to whom the catch-up schedule applies, minimum and maximum ages (if applicable as per national policy) and directives on minimum intervals permissible between doses for each antigen, to assist health workers and individuals to complete the vaccination schedule if interrupted or delayed (see Box 1)."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.late-not-denied",
+      "type": "implementation-practice",
+      "label": "catchup.late-not-denied",
+      "properties": {
+        "identifier": "catchup.late-not-denied",
+        "statement": "Everyone should fully benefit from vaccination by receiving recommended vaccines as soon as they are eligible, and those who arrive “late” should not be denied vaccination.",
+        "contentHash": "f9a76936cb088ded9d1166386281f283cb7a68244fb426b70e98a86270aa14d3"
+      },
+      "derivation": "inferred",
+      "note": "Page 11, guiding principles, first bullet.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-005-introduction.md",
+        "quote": "• Everyone should fully benefit from vaccination by receiving recommended vaccines as soon as they are eligible, and those who arrive “late” should not be denied vaccination. • Most vaccines are safe and effective to administer with no upper age limit and while timely vaccination should always be the aim, it is almost always better to vaccinate late than never."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.every-touchpoint",
+      "type": "implementation-practice",
+      "label": "catchup.every-touchpoint",
+      "properties": {
+        "identifier": "catchup.every-touchpoint",
+        "statement": "All touchpoints with the health system should be used to reduce missed opportunities for vaccination4, by assessing vaccination status and vaccinating or referring individuals for catch-up vaccination if they have missed any doses.",
+        "contentHash": "836a5d6a4b18b57ef157f8be93b215f69d12bbcbb551920ce612edce24ee2c10"
+      },
+      "derivation": "inferred",
+      "note": "Page 11, third bullet; the '4' is a printed footnote mark.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-005-introduction.md",
+        "quote": "As these individuals age, it becomes harder to identify effective ways to reach them with the needed vaccines. • Having a catch-up vaccination strategy in place is an essential part of a well-functioning routine immunization programme and should be implemented on a continuous basis to ensure an individual’s right to be offered the benefit of vaccination, even if it is late (see Figure 1). • All touchpoints with the health system should be used to reduce missed opportunities for vaccination4, by assessing vaccination status and vaccinating or referring individuals for catch-up vaccination if they have missed any doses. • A catch-up vaccination strategy relies on the availability of good record keeping of vaccination history – either in individual home-based records (HBRs), facility-based registers or electronic immunization registers (EIRs)."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.multi-dose-return-date",
+      "type": "implementation-practice",
+      "label": "catchup.multi-dose-return-date",
+      "properties": {
+        "identifier": "catchup.multi-dose-return-date",
+        "statement": "For catch-up of vaccines requiring multiple doses in a series, the health worker will need to calculate the appropriate timing for subsequent doses, instruct the caregiver or individual when to return to complete the series, and write this down in their home-based record.",
+        "contentHash": "6d59dc733c76f26245ac4ba5c1683dde5554d4c24c327d7a2376e83447962648"
+      },
+      "derivation": "inferred",
+      "note": "Page 14, health worker capacity, second bullet: applies to the two-dose MCV series.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md",
+        "quote": "Health workers (if possible, both immunization and non-immunization health workers) should be trained on how to evaluate eligibility of individuals of any age and determine if any missed vaccinations need to be provided. • For catch-up of vaccines requiring multiple doses in a series, the health worker will need to calculate the appropriate timing for subsequent doses, instruct the caregiver or individual when to return to complete the series, and write this down in their home-based record. • Updated operational guidance and resource materials should be provided to help health workers understand and implement catch-up vaccination, including best practices for recording and reporting (see Recording and reporting of catch-up vaccination doses, below). • Ideally, healthcare provider academic curricula should be updated to introduce catch-up vaccination policies and practice during academic medical training."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.confirm-by-written-record",
+      "type": "implementation-practice",
+      "label": "catchup.confirm-by-written-record",
+      "properties": {
+        "identifier": "catchup.confirm-by-written-record",
+        "statement": "Written documentation (e.g. home-based record, or immunization register) of vaccination should be used to confirm individual vaccination status/history.",
+        "contentHash": "dbe1aaadeaeb1f57da29c73fd2de842b4f88866e1aaac1272b5ac1d495717fc6"
+      },
+      "derivation": "inferred",
+      "note": "Page 14, 'Assessing vaccination status and determining eligibility', first bullet.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md",
+        "quote": "Additional examples for job aids and tools for assisting health workers are found in Annexes 2-4.13 Assessing vaccination status and determining eligibility • Written documentation (e.g. home-based record, or immunization register) of vaccination should be used to confirm individual vaccination status/history. • If evidence of previous vaccination cannot be confirmed, it should be assumed that the person has not received the vaccine(s) and vaccination should be offered."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.unconfirmed-assume-unvaccinated",
+      "type": "implementation-practice",
+      "label": "catchup.unconfirmed-assume-unvaccinated",
+      "properties": {
+        "identifier": "catchup.unconfirmed-assume-unvaccinated",
+        "statement": "If evidence of previous vaccination cannot be confirmed, it should be assumed that the person has not received the vaccine(s) and vaccination should be offered.",
+        "contentHash": "8c72951853c132ce3aa2541aafa5dc92b61e5fada7a2d76d01abbf907665911b"
+      },
+      "derivation": "inferred",
+      "note": "Page 14, same heading, second bullet.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md",
+        "quote": "Additional examples for job aids and tools for assisting health workers are found in Annexes 2-4.13 Assessing vaccination status and determining eligibility • Written documentation (e.g. home-based record, or immunization register) of vaccination should be used to confirm individual vaccination status/history. • If evidence of previous vaccination cannot be confirmed, it should be assumed that the person has not received the vaccine(s) and vaccination should be offered."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.invalid-early-dose-repeat",
+      "type": "implementation-practice",
+      "label": "catchup.invalid-early-dose-repeat",
+      "properties": {
+        "identifier": "catchup.invalid-early-dose-repeat",
+        "statement": "Vaccine doses administered earlier than the minimum age recommended in the national immunization schedule or minimum interval should not be counted as valid and should be repeated (as age-appropriate), following the minimum interval after the invalid dose.",
+        "contentHash": "87db41d4c662a50e7c2112d380d875ee801284de9e8bf0607dee5ee34d9c99b3"
+      },
+      "derivation": "inferred",
+      "note": "Page 14, minimum ages and intervals, second bullet.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md",
+        "quote": "See Annex 2 for a reference table on minimum intervals that can be adapted into a job aid or printed on the back of a catch-up schedule and circulated to health workers. • Vaccine doses administered earlier than the minimum age recommended in the national immunization schedule or minimum interval should not be counted as valid and should be repeated (as age-appropriate), following the minimum interval after the invalid dose. • Should a vaccine dose be delayed, for any reason, in most cases it is not necessary to restart the vaccine series.16 The next dose in the series should be administered as soon as possible and the individual should be told to return for any subsequent doses, after the appropriate time interval."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.delayed-dose-no-restart",
+      "type": "implementation-practice",
+      "label": "catchup.delayed-dose-no-restart",
+      "properties": {
+        "identifier": "catchup.delayed-dose-no-restart",
+        "statement": "Should a vaccine dose be delayed, for any reason, in most cases it is not necessary to restart the vaccine series.16 The next dose in the series should be administered as soon as possible and the individual should be told to return for any subsequent doses, after the appropriate time interval.",
+        "contentHash": "3299b7b381b9247a90ddc26f84e978f1f3cf4de107c878bd961ec267e4cf00c5"
+      },
+      "derivation": "inferred",
+      "note": "Page 14, third bullet; '16' is a printed footnote mark (exceptions: cholera, typhoid, not measles).",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md",
+        "quote": "See Annex 2 for a reference table on minimum intervals that can be adapted into a job aid or printed on the back of a catch-up schedule and circulated to health workers. • Vaccine doses administered earlier than the minimum age recommended in the national immunization schedule or minimum interval should not be counted as valid and should be repeated (as age-appropriate), following the minimum interval after the invalid dose. • Should a vaccine dose be delayed, for any reason, in most cases it is not necessary to restart the vaccine series.16 The next dose in the series should be administered as soon as possible and the individual should be told to return for any subsequent doses, after the appropriate time interval."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.live-vaccine-spacing",
+      "type": "implementation-practice",
+      "label": "catchup.live-vaccine-spacing",
+      "properties": {
+        "identifier": "catchup.live-vaccine-spacing",
+        "statement": "Live attenuated vaccines: as a general rule, live vaccines (for example, measles-containing vaccines, yellow fever, or Japanese Encephalitis) should be given either together at the same visit (simultaneously) or separated by an interval of 4 weeks; an exception to this rule is oral poliovirus vaccine (OPV), which can be given at any time before, simultaneously with, or after other live vaccines.",
+        "contentHash": "8fd391285aa81a1af1f1cbdc4cc293dfaa8e2525949503d5a38d11d3263e24c2"
+      },
+      "derivation": "inferred",
+      "note": "Page 14, 'Spacing of inactivated vs. live vaccines', names measles-containing vaccines.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md",
+        "quote": "The health worker should elicit the reasons for deferring vaccination and work together with the caregiver or individual to agree on when they should return to receive remaining vaccine doses required at earliest opportunity. • Resources about multiple injections and minimizing pain during vaccination, including training modules and visual job aids, are available on the WHO website.19, 20 Spacing of inactivated vs. live vaccines • Inactivated vaccines: any inactivated vaccine can be administered together (simultaneously), before or after any other inactivated vaccine or live vaccine. • Live attenuated vaccines: as a general rule, live vaccines (for example, measles-containing vaccines, yellow fever, or Japanese Encephalitis) should be given either together at the same visit (simultaneously) or separated by an interval of 4 weeks; an exception to this rule is oral poliovirus vaccine (OPV), which can be given at any time before, simultaneously with, or after other live vaccines. • Providing guidance in the catch-up schedule or other job aids for health workers on which vaccines are live and inactivated may be helpful as a quick reference."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.no-restart-series",
+      "type": "implementation-practice",
+      "label": "catchup.no-restart-series",
+      "properties": {
+        "identifier": "catchup.no-restart-series",
+        "statement": "Restarting a series is not recommended, even for the primary series.",
+        "contentHash": "9554667e96dc38ada4290a2c0d80807550be9be9fbbff60d7fbb47f71fb2db1f"
+      },
+      "derivation": "inferred",
+      "note": "Page 14, interchangeability and series completion.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md",
+        "quote": "Restarting a series is not recommended, even for the primary series. o If different vaccine products require different number of doses for series completion (e.g., Haemophilus influenzae b (Hib), rotavirus vaccines), administering the higher number of doses is recommended to complete the series. • Vaccine diluents are not interchangeable across manufacturers nor formulations."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.mcv2-only-after-mcv1",
+      "type": "implementation-practice",
+      "label": "catchup.mcv2-only-after-mcv1",
+      "properties": {
+        "identifier": "catchup.mcv2-only-after-mcv1",
+        "statement": "A dose should never be recorded and reported as MCV2 if the child has not first received MCV1.",
+        "contentHash": "6aca561891ae649d1cb9053ad9da6a1227c7447f8462a97f412be298b8be395c"
+      },
+      "derivation": "inferred",
+      "note": "Page 19, recording and reporting: an MCV2 record requires a prior MCV1.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-009-14-recording-and-reporting-of-catch-up-vaccinati.md",
+        "quote": "A dose should never be recorded and reported as MCV2 if the child has not first received MCV1."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.every-immunization-contact",
+      "type": "implementation-practice",
+      "label": "catchup.every-immunization-contact",
+      "properties": {
+        "identifier": "catchup.every-immunization-contact",
+        "statement": "Every immunization contact, whether fixed or outreach (including school-based), should be used as an opportunity to review an individual’s vaccination status and catch-up any antigens that have been missed before that visit.",
+        "contentHash": "024cba6ec3c890ddc2c5176a107e93e3ff7d319a584e91ca69586362143fbfdd"
+      },
+      "derivation": "inferred",
+      "note": "Page 22, first bullet.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-011-16-strategies-for-catch-up-vaccination.md",
+        "quote": "Every immunization contact, whether fixed or outreach (including school-based), should be used as an opportunity to review an individual’s vaccination status and catch-up any antigens that have been missed before that visit. • Every health facility should have a process in place for newborn and defaulter tracking and for identifying and reaching zero-dose children in their catchment area (see Box 3). • Creative and innovative behavioral interventions should be explored, to encourage individuals to return for future vaccinations, and reinforce the message that it is never too late to be immunized. • For certain mobile populations (e.g. refugees, asylum seekers, migrant populations), offering catchup vaccination is critical to ensure they have the opportunity to be caught up to date according to the local recommended immunization schedule."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.defaulter-tracking",
+      "type": "implementation-practice",
+      "label": "catchup.defaulter-tracking",
+      "properties": {
+        "identifier": "catchup.defaulter-tracking",
+        "statement": "Every health facility should have a process in place for newborn and defaulter tracking and for identifying and reaching zero-dose children in their catchment area (see Box 3).",
+        "contentHash": "14305ca19e0866e16d4c69434f16e26a76abfa75df0b8375d5193e06580eaaae"
+      },
+      "derivation": "inferred",
+      "note": "Page 22, second bullet.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-011-16-strategies-for-catch-up-vaccination.md",
+        "quote": "Every immunization contact, whether fixed or outreach (including school-based), should be used as an opportunity to review an individual’s vaccination status and catch-up any antigens that have been missed before that visit. • Every health facility should have a process in place for newborn and defaulter tracking and for identifying and reaching zero-dose children in their catchment area (see Box 3). • Creative and innovative behavioral interventions should be explored, to encourage individuals to return for future vaccinations, and reinforce the message that it is never too late to be immunized. • For certain mobile populations (e.g. refugees, asylum seekers, migrant populations), offering catchup vaccination is critical to ensure they have the opportunity to be caught up to date according to the local recommended immunization schedule."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    }
+  ],
+  "edges": [
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.national-catch-up-schedule",
+      "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-002-key-terms.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.late-not-denied",
+      "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-005-introduction.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.every-touchpoint",
+      "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-005-introduction.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.multi-dose-return-date",
+      "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.confirm-by-written-record",
+      "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.unconfirmed-assume-unvaccinated",
+      "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.invalid-early-dose-repeat",
+      "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.delayed-dose-no-restart",
+      "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.live-vaccine-spacing",
+      "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.no-restart-series",
+      "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-008-13-building-health-worker-knowledge-and-practice.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.mcv2-only-after-mcv1",
+      "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-009-14-recording-and-reporting-of-catch-up-vaccinati.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.every-immunization-contact",
+      "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-011-16-strategies-for-catch-up-vaccination.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.defaulter-tracking",
+      "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/leave-no-one-behind-catch-up-vaccination-9789240016514/sections/sec-011-16-strategies-for-catch-up-vaccination.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Population immunity Routine vaccination coverage for children <18 months is <70% Routine vaccination coverage for children <18 months is 70-89% Routine vaccination coverage for children <18 months is >95% and routine immunization can be maintained Reaching all children with 2 doses of measles-containing vaccine should be the standard for all national immunization programmes.

@@ -1,0 +1,1 @@
+Record (2013, 88: 269-284). • A single dose of YF vaccine is sufficient to confer sustained life-long protective immunity against YF disease; a booster dose is not necessary. • The vaccine is contraindicated in children aged <6 months and is not recommended for those aged 6-8 months, except during epidemics when the risk of infection with the YF virus is very high.

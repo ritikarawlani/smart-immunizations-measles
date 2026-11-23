@@ -1,0 +1,1 @@
+→Member States must establish the appropriate policies for appropriate use, data protection and governance of the DDCC:VS to reduce the potential harms, while achieving the public health benefits involved in deploying such a solution.

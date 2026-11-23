@@ -1,0 +1,1 @@
+→ For international travel* * In the context of international travel, in accordance with advice from the 8th meeting of the International Health Regulations (2005) Emergency Committee on COVID-19, held on 14 July 2021, countries should not require proof of COVID-19 vaccination as a condition for travel.

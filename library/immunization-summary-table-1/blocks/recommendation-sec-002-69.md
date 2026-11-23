@@ -1,0 +1,1 @@
+Because of the typical age distribution of RVGE, rotavirus vaccination of children >24 months of age is not recommended. • The rotavirus vaccination series for each child should be completed with the same product whenever feasible.

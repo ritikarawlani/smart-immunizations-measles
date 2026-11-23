@@ -1,0 +1,63 @@
+$schema: l1-recommendation-curation/v1
+_comment: 'AUTHORED by an agent under recommendation-extraction step 4, measles scope (issue #1). Table 2 prints the measles footnote word for word as Table 1 does (page 4 here, page 3 there; checked string-equal per sentence), so each of its sentences is PROPOSED for exclusion as a duplicate of the Table 1 node, unsigned. The measles row (page 2) restates the footnote''s ages and interval and is not curated. Other antigens are left undecided.'
+entry: library/immunization-summary-table-2
+publication:
+  identifiers:
+  - type: url
+    value: https://github.com/user-attachments/files/35149137/immunization-summary-table-2.pdf
+  title: 'Table 2: Summary of WHO Position Papers - Recommended Routine Immunizations for Children'
+  publicationType: summary-table
+  basis: 'Title as printed at the head of page 1; URL as printed. A summary table of position papers. Identified by the URL of the file as attached to issue #1: Tables 1-3 all print the same position-papers URL, which identifies the series, not the table, and would give their nodes one IRI.'
+decisions:
+  p4:s92:
+    as: exclude
+    reason: duplicate-of:measles.two-doses-standard
+    basis: Same sentence as Table 1 p3:s92.
+  p4:s93:
+    as: exclude
+    reason: duplicate-of:measles.mcv2-in-schedule
+    basis: Every sentence here is printed word for word in Table 1 page 3 (string-equal), as measles.mcv2-in-schedule, measles.mcv1-9-months-high-transmission.
+  p4:s94:
+    as: exclude
+    reason: duplicate-of:measles.mcv2-15-18-months
+    basis: Same as Table 1 p3:s94.
+  p4:s95:
+    as: exclude
+    reason: duplicate-of:measles.mcv-minimum-interval
+    basis: Every sentence here is printed word for word in Table 1 page 3 (string-equal), as measles.mcv-minimum-interval, measles.routine-delivery-not-age-limited.
+  p4:s96:
+    as: exclude
+    reason: duplicate-of:measles.catch-up-every-opportunity
+    basis: Same as Table 1 p3:s96.
+  p4:s97:
+    as: exclude
+    reason: duplicate-of:measles.policies-allow-older-ages
+    basis: Every sentence here is printed word for word in Table 1 page 3 (string-equal), as measles.policies-allow-older-ages, measles.mcv1-12-months-low-transmission.
+  p4:s101:
+    as: exclude
+    reason: duplicate-of:measles.mcv2-at-school-entry
+    basis: Every sentence here is printed word for word in Table 1 page 3 (string-equal), as measles.mcv2-at-school-entry, measles.same-formulation-both-doses, measles.mcv0-situations, measles.mcv0-recording.
+  p4:s102:
+    as: exclude
+    reason: duplicate-of:measles.mcv0-then-routine-doses
+    basis: Every sentence here is printed word for word in Table 1 page 3 (string-equal), as measles.mcv0-then-routine-doses, measles.hiv-routine-vaccination.
+  p4:s104:
+    as: exclude
+    reason: duplicate-of:measles.hiv-high-incidence-mcv0-6-months
+    basis: Same as Table 1 p3:s104.
+  p4:s105:
+    as: exclude
+    reason: duplicate-of:measles.hiv-high-incidence-mcv0-6-months
+    basis: Every sentence here is printed word for word in Table 1 page 3 (string-equal), as measles.hiv-high-incidence-mcv0-6-months, measles.hiv-haart-additional-dose.
+  p4:s106:
+    as: exclude
+    reason: duplicate-of:measles.hiv-haart-no-cd4-monitoring
+    basis: Every sentence here is printed word for word in Table 1 page 3 (string-equal), as measles.hiv-haart-no-cd4-monitoring, measles.hiv-exposed-mcv0, measles.mild-infection-not-contraindication.
+  p4:s107:
+    as: exclude
+    reason: duplicate-of:measles.avoid-in-pregnancy
+    basis: Same as Table 1 p3:s107.
+  p4:s108:
+    as: exclude
+    reason: duplicate-of:measles.contraindications
+    basis: Every sentence here is printed word for word in Table 1 page 3 (string-equal), as measles.contraindications, measles.live-vaccine-spacing.

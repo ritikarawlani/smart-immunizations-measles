@@ -1,0 +1,510 @@
+{
+  "$schema": "folio-tabular-csvw/v1",
+  "doc_id": "immunization-summary-table-2",
+  "source": {
+    "file": "immunization-summary-table-2.pdf",
+    "sha256": "ad39704721d999437c3856de0ccb1e825e4f414358142f3bb5970da031fbe025",
+    "bytes": 455860,
+    "pages": 14,
+    "text_source": "embedded",
+    "extractor": "pymupdf",
+    "mtime": "2026-11-20T12:49:37Z",
+    "mimetype_sniffed": "application/pdf",
+    "mimetype_source": "magic-bytes",
+    "note": "tables extracted from the PDF pages by pdf-tables.py — drafts, not checked against the page"
+  },
+  "narrative": {
+    "text": null,
+    "state": "not-authored"
+  },
+  "tables": [
+    {
+      "url": "tables/table-1.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "doses-in",
+            "titles": "Doses in",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "interval-between-doses",
+            "titles": "Interval Between Doses",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-6",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-7",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-8",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "considerations",
+            "titles": "Considerations",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 52,
+        "columns": 9,
+        "source": "measured"
+      },
+      "fac:label": "Table 2",
+      "fac:caption": "Table 2: Summary of WHO Position Papers - Recommended Routine Immunizations for Children",
+      "fac:pages": [
+        1
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p001-001",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-2.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "doses-in",
+            "titles": "Doses in",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "interval-between-doses",
+            "titles": "Interval Between Doses",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-6",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-7",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-8",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "considerations",
+            "titles": "Considerations",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 48,
+        "columns": 9,
+        "source": "measured"
+      },
+      "fac:label": "Table 2",
+      "fac:caption": "Table 2: Summary of WHO Position Papers - Recommended Routine Immunizations for Children",
+      "fac:pages": [
+        2
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p002-002",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-3.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "doses-in",
+            "titles": "Doses in",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "interval-between-doses",
+            "titles": "Interval Between Doses",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-6",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-7",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-8",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "considerations",
+            "titles": "Considerations",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 59,
+        "columns": 9,
+        "source": "measured"
+      },
+      "fac:label": "Table 2",
+      "fac:caption": "Table 2: Summary of WHO Position Papers - Recommended Routine Immunizations for Children",
+      "fac:pages": [
+        3
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p003-003",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-4.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-2",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-3",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "doses-in",
+            "titles": "Doses in",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "interval-between-doses",
+            "titles": "Interval Between Doses",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-6",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-7",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "col-8",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "considerations",
+            "titles": "Considerations",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 47,
+        "columns": 9,
+        "source": "measured"
+      },
+      "fac:label": "Table 2",
+      "fac:caption": "Table 2: Summary of WHO Position Papers - Recommended Routine Immunizations for Children",
+      "fac:pages": [
+        4
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p004-004",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-5.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "1respiratory-syncytial-virus-rsv",
+            "titles": "1Respiratory Syncytial Virus (RSV)",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 5",
+      "fac:pages": [
+        5,
+        6
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p005-007",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-6.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "4polio",
+            "titles": "4Polio",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 6",
+      "fac:pages": [
+        6,
+        7
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p006-009",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-7.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "13-yellow-fever",
+            "titles": "13 Yellow Fever",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 7",
+      "fac:pages": [
+        10,
+        11
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p010-018",
+        "at": "2026-11-20"
+      }
+    },
+    {
+      "url": "tables/table-8.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "col-1",
+            "titles": "",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          },
+          {
+            "name": "20-dengue-tak-003",
+            "titles": "20 Dengue (TAK-003)",
+            "datatype": "any",
+            "datatypeSource": "undetermined"
+          }
+        ]
+      },
+      "fac:anchor": null,
+      "fac:headerRow": 1,
+      "fac:extent": {
+        "rows": 1,
+        "columns": 2,
+        "source": "measured"
+      },
+      "fac:label": "Table 8",
+      "fac:pages": [
+        13,
+        14
+      ],
+      "fac:extracted": {
+        "tool": "pdf-tables.py",
+        "version": "b3b9e4012c21",
+        "backend": "pdfplumber",
+        "backendVersion": "0.11.10",
+        "confidence": null,
+        "id": "tab-p013-026",
+        "at": "2026-11-20"
+      }
+    }
+  ]
+}

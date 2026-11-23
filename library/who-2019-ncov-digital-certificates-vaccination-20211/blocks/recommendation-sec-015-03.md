@@ -1,0 +1,1 @@
+Individuals should not be treated differently or given different levels of trust due to the format of the DDCC:VS they are using (e.g. there should be no discrimination based on whether someone is presenting a DDCC:VS on a smartphone or a paper card).

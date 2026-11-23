@@ -1,0 +1,1041 @@
+{
+ "$schema": "measles-l2-provenance/v1",
+ "_comment": "Every L2 asset of this DAK and the L1 nodes it derives from (smart-guideline-end-to-end, rule 2: an asset built on unadjudicated input says so). Edge properties carry adjudication: pending until the L1 review closes. Generated from the assets: each DMN rule's 'Rests on' output, and the L1 keys each other asset names.",
+ "assets": [
+  {
+   "asset": "input/decision-logic/MEASLES.DT.01.dmn",
+   "id": "MEASLES.DT.01",
+   "type": "decision-table",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.interrupted-delayed-schedule-row",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.two-doses-standard",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-situations",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-high-incidence-mcv0-6-months",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-exposed-mcv0",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-9-months-high-transmission",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-12-months-low-transmission",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.routine-delivery-not-age-limited",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.catch-up-every-opportunity",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv-minimum-interval",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-15-18-months",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.interrupted-resume-no-repeat",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/decision-logic/MEASLES.DT.02.dmn",
+   "id": "MEASLES.DT.02",
+   "type": "decision-table",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.contraindications",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.avoid-in-pregnancy",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.live-vaccine-spacing",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.live-vaccine-spacing",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mild-infection-not-contraindication",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/decision-logic/MEASLES.DT.03.dmn",
+   "id": "MEASLES.DT.03",
+   "type": "decision-table",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.unconfirmed-assume-unvaccinated",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.confirm-by-written-record",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.invalid-early-dose-repeat",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-situations",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-recording",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-then-routine-doses",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv-minimum-interval",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.mcv2-only-after-mcv1",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-15-18-months",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.interrupted-delayed-schedule-row",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/decision-logic/MEASLES.DT.04.dmn",
+   "id": "MEASLES.DT.04",
+   "type": "decision-table",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-haart-additional-dose",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-exposed-mcv0",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-haart-no-cd4-monitoring",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/business-processes/MEASLES.A.bpmn",
+   "type": "business-process",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.confirm-by-written-record",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.every-touchpoint",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.every-immunization-contact",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.late-not-denied",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.delayed-dose-no-restart",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.no-restart-series",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.interrupted-resume-no-repeat",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-recording",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.mcv2-only-after-mcv1",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.multi-dose-return-date",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.interrupted-delayed-schedule-row",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.two-doses-standard",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-situations",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-high-incidence-mcv0-6-months",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-exposed-mcv0",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-9-months-high-transmission",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-12-months-low-transmission",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.routine-delivery-not-age-limited",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.catch-up-every-opportunity",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv-minimum-interval",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-15-18-months",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.contraindications",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.avoid-in-pregnancy",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.live-vaccine-spacing",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.live-vaccine-spacing",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mild-infection-not-contraindication",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.unconfirmed-assume-unvaccinated",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.invalid-early-dose-repeat",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-then-routine-doses",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-haart-additional-dose",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-haart-no-cd4-monitoring",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/business-processes/MEASLES.B.bpmn",
+   "type": "business-process",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.defaulter-tracking",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.mcv2-only-after-mcv1",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "uploads/WHO_UNICEF_JRF_EN_2016.xls",
+     "properties": {
+      "adjudication": "pending"
+     },
+     "note": "Cited by sheet and row; the workbook is not promoted into library/ (tabular promote gap)."
+    }
+   ]
+  },
+  {
+   "asset": "input/pagecontent/personas.md",
+   "type": "personas",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.every-touchpoint",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.confirm-by-written-record",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.multi-dose-return-date",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.two-doses-standard",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-in-schedule",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.policies-allow-older-ages",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-at-school-entry",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149138-immunization-summary-table-4-pdf/recommendation/measles.health-worker-immunity",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.national-catch-up-schedule",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.defaulter-tracking",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.mcv2-only-after-mcv1",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "uploads/WHO_UNICEF_JRF_EN_2016.xls",
+     "properties": {
+      "adjudication": "pending"
+     },
+     "note": "Cited by sheet and row; the workbook is not promoted into library/ (tabular promote gap)."
+    }
+   ]
+  },
+  {
+   "asset": "input/pagecontent/user-scenarios.md",
+   "type": "user-scenarios",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-9-months-high-transmission",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-15-18-months",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv-minimum-interval",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.live-vaccine-spacing",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.contraindications",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.multi-dose-return-date",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.catch-up-every-opportunity",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.routine-delivery-not-age-limited",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.every-touchpoint",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.unconfirmed-assume-unvaccinated",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149129-immunization-summary-table-3-pdf/recommendation/measles.interrupted-delayed-schedule-row",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-situations",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-recording",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-then-routine-doses",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-exposed-mcv0",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.avoid-in-pregnancy",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149138-immunization-summary-table-4-pdf/recommendation/measles.health-worker-immunity",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.defaulter-tracking",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.mcv2-only-after-mcv1",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "uploads/WHO_UNICEF_JRF_EN_2016.xls",
+     "properties": {
+      "adjudication": "pending"
+     },
+     "note": "Cited by sheet and row; the workbook is not promoted into library/ (tabular promote gap)."
+    }
+   ]
+  },
+  {
+   "asset": "input/dictionary/measles-core-data-elements.csv",
+   "type": "core-data-elements",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.confirm-by-written-record",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.multi-dose-return-date",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-9-months-high-transmission",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-12-months-low-transmission",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-situations",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-high-incidence-mcv0-6-months",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-recording",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.mcv2-only-after-mcv1",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.same-formulation-both-doses",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.unconfirmed-assume-unvaccinated",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.contraindications",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.avoid-in-pregnancy",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mild-infection-not-contraindication",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.live-vaccine-spacing",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.live-vaccine-spacing",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-routine-vaccination",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-exposed-mcv0",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-haart-additional-dose",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-haart-no-cd4-monitoring",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149138-immunization-summary-table-4-pdf/recommendation/measles.health-worker-immunity",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "uploads/WHO_UNICEF_JRF_EN_2016.xls",
+     "properties": {
+      "adjudication": "pending"
+     },
+     "note": "Cited by sheet and row; the workbook is not promoted into library/ (tabular promote gap)."
+    }
+   ]
+  },
+  {
+   "asset": "input/indicators/measles-indicators.csv",
+   "type": "indicators",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.two-doses-standard",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.mcv2-only-after-mcv1",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "uploads/WHO_UNICEF_JRF_EN_2016.xls",
+     "properties": {
+      "adjudication": "pending"
+     },
+     "note": "Cited by sheet and row; the workbook is not promoted into library/ (tabular promote gap)."
+    }
+   ]
+  },
+  {
+   "asset": "input/system-requirements/measles-functional-requirements.csv",
+   "type": "functional-requirements",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.confirm-by-written-record",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.unconfirmed-assume-unvaccinated",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.delayed-dose-no-restart",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.no-restart-series",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.routine-delivery-not-age-limited",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.catch-up-every-opportunity",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.every-touchpoint",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.every-immunization-contact",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.late-not-denied",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-recording",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-then-routine-doses",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.mcv2-only-after-mcv1",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.avoid-in-pregnancy",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.multi-dose-return-date",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/implementation-practice/catchup.defaulter-tracking",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149138-immunization-summary-table-4-pdf/recommendation/measles.health-worker-immunity",
+     "properties": {
+      "adjudication": "pending"
+     }
+    },
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "uploads/WHO_UNICEF_JRF_EN_2016.xls",
+     "properties": {
+      "adjudication": "pending"
+     },
+     "note": "Cited by sheet and row; the workbook is not promoted into library/ (tabular promote gap)."
+    }
+   ]
+  }
+ ]
+}

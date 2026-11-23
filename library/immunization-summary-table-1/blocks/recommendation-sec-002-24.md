@@ -1,0 +1,1 @@
+Catch-up vaccination is a time- limited opportunity for prevention and should be considered based on available resources and priority. • Unvaccinated individuals should be vaccinated with a 0, 1, 6 month schedule. • Vaccination of groups at highest risk of acquiring HBV is recommended.

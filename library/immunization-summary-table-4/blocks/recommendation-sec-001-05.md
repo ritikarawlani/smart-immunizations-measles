@@ -1,0 +1,1 @@
+Rubella 6 If rubella vaccine has been introduced into the national programme, all HCWs should be immune to rubella and proof/documentation of immunity or immunization should be required as a condition of enrollment into training and employment.

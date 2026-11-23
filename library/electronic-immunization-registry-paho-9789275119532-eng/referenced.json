@@ -1,0 +1,34 @@
+{
+  "$schema": "folio-referenced-source/v1",
+  "identity": {
+    "title": "Electronic Immunization Registry: Practical Considerations for Planning, Development, Implementation and Evaluation",
+    "version": "2017 (English)",
+    "document_number": "ISBN: 978-92-75-11953-2",
+    "date": "2017",
+    "publisher": "Pan American Health Organization"
+  },
+  "source": {
+    "file": "electronic-immunization-registry-PAHO-9789275119532_eng.pdf",
+    "sha256": "1010a882f2c1990aec1b6ad1f69a6eda548ba007f3c667db5c1edef1b87dcd34",
+    "bytes": 5100968,
+    "mtime": "2026-11-20T12:49:37Z",
+    "mimetype_sniffed": "application/pdf",
+    "mimetype_source": "magic-bytes"
+  },
+  "outline": [],
+  "outline_source": "none",
+  "materialization": {
+    "$schema": "folio-materialization/v1",
+    "state": "referenced",
+    "provenance": {
+      "upstream": {
+        "url": "https://github.com/user-attachments/files/35149136/electronic-immunization-registry-PAHO-9789275119532_eng.pdf"
+      }
+    },
+    "note": "Text withheld by licence; the bytes identified by `source.sha256` were read once to take this record."
+  },
+  "withheld": {
+    "what": "all text, figures and tables",
+    "why": "Page 2: \"All rights reserved. Publications of the Pan American Health Organization are available on the PAHO website (www.paho.org). Requests for permission to reproduce or translate PAHO Publications should be addressed to the Communications Department through the PAHO website (www.paho.org/permissions).\""
+  }
+}

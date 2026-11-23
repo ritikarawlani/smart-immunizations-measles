@@ -1,0 +1,1 @@
+Antigen Age of 1st Dose (minimum) Doses in Primary Series Interval Between Doses Booster Dose Considerations (see footnotes for details) 1st to 2nd 2nd to 3rd 3rd to 4th Recommendations for all children DTP-containing vaccine 5 6 weeks (min) 3 4 weeks (min) - 8 weeks

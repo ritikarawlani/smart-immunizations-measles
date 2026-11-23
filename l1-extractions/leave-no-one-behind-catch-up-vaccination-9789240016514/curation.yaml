@@ -1,0 +1,71 @@
+$schema: l1-recommendation-curation/v1
+_comment: 'AUTHORED by an agent under recommendation-extraction step 4, measles scope (issue #1): the guide''s practices that a measles DAK applies per client (eligibility, validity of doses, resuming a series, spacing of live vaccines, recording MCV doses, using every contact) and the catch-up schedule it presupposes. The guide is implementation guidance, so each is an implementation-practice node. Other candidates are left undecided.'
+entry: library/leave-no-one-behind-catch-up-vaccination-9789240016514
+publication:
+  identifiers:
+  - type: isbn
+    value: 978-92-4-001651-4
+  title: 'Leave no one behind: guidance for planning and implementing catch-up vaccination'
+  publicationType: implementation-guidance
+  basis: ISBN as the work list proposed from the printed imprint; title from the cover. Guidance on planning and implementing catch-up vaccination, making no recommendations of its own, so implementation-guidance (handbook for guideline development section 1.9).
+decisions:
+  p8:s2:
+    as: recommendation
+    key: catchup.national-catch-up-schedule
+    basis: 'Page 8, definitions: every country has a catch-up schedule with age cohorts, minimum/maximum ages and minimum intervals per antigen.'
+  p11:s1:
+    as: recommendation
+    key: catchup.late-not-denied
+    statement: Everyone should fully benefit from vaccination by receiving recommended vaccines as soon as they are eligible, and those who arrive “late” should not be denied vaccination.
+    basis: Page 11, guiding principles, first bullet.
+  p11:s3:
+    as: recommendation
+    key: catchup.every-touchpoint
+    statement: All touchpoints with the health system should be used to reduce missed opportunities for vaccination4, by assessing vaccination status and vaccinating or referring individuals for catch-up vaccination if they have missed any doses.
+    basis: Page 11, third bullet; the '4' is a printed footnote mark.
+  p14:s5:
+    as: recommendation
+    key: catchup.multi-dose-return-date
+    statement: For catch-up of vaccines requiring multiple doses in a series, the health worker will need to calculate the appropriate timing for subsequent doses, instruct the caregiver or individual when to return to complete the series, and write this down in their home-based record.
+    basis: 'Page 14, health worker capacity, second bullet: applies to the two-dose MCV series.'
+  p14:s7:
+  - as: recommendation
+    key: catchup.confirm-by-written-record
+    statement: Written documentation (e.g. home-based record, or immunization register) of vaccination should be used to confirm individual vaccination status/history.
+    basis: Page 14, 'Assessing vaccination status and determining eligibility', first bullet.
+  - as: recommendation
+    key: catchup.unconfirmed-assume-unvaccinated
+    statement: If evidence of previous vaccination cannot be confirmed, it should be assumed that the person has not received the vaccine(s) and vaccination should be offered.
+    basis: Page 14, same heading, second bullet.
+  p14:s21:
+  - as: recommendation
+    key: catchup.invalid-early-dose-repeat
+    statement: Vaccine doses administered earlier than the minimum age recommended in the national immunization schedule or minimum interval should not be counted as valid and should be repeated (as age-appropriate), following the minimum interval after the invalid dose.
+    basis: Page 14, minimum ages and intervals, second bullet.
+  - as: recommendation
+    key: catchup.delayed-dose-no-restart
+    statement: Should a vaccine dose be delayed, for any reason, in most cases it is not necessary to restart the vaccine series.16 The next dose in the series should be administered as soon as possible and the individual should be told to return for any subsequent doses, after the appropriate time interval.
+    basis: 'Page 14, third bullet; ''16'' is a printed footnote mark (exceptions: cholera, typhoid, not measles).'
+  p14:s32:
+    as: recommendation
+    key: catchup.live-vaccine-spacing
+    statement: 'Live attenuated vaccines: as a general rule, live vaccines (for example, measles-containing vaccines, yellow fever, or Japanese Encephalitis) should be given either together at the same visit (simultaneously) or separated by an interval of 4 weeks; an exception to this rule is oral poliovirus vaccine (OPV), which can be given at any time before, simultaneously with, or after other live vaccines.'
+    basis: Page 14, 'Spacing of inactivated vs. live vaccines', names measles-containing vaccines.
+  p14:s35:
+    as: recommendation
+    key: catchup.no-restart-series
+    statement: Restarting a series is not recommended, even for the primary series.
+    basis: Page 14, interchangeability and series completion.
+  p19:s9:
+    as: recommendation
+    key: catchup.mcv2-only-after-mcv1
+    basis: 'Page 19, recording and reporting: an MCV2 record requires a prior MCV1.'
+  p22:s2:
+  - as: recommendation
+    key: catchup.every-immunization-contact
+    statement: Every immunization contact, whether fixed or outreach (including school-based), should be used as an opportunity to review an individual’s vaccination status and catch-up any antigens that have been missed before that visit.
+    basis: Page 22, first bullet.
+  - as: recommendation
+    key: catchup.defaulter-tracking
+    statement: Every health facility should have a process in place for newborn and defaulter tracking and for identifying and reaching zero-dose children in their catchment area (see Box 3).
+    basis: Page 22, second bullet.

@@ -1,0 +1,23 @@
+{
+ "$schema": "qa-review/v1",
+ "subject": {
+  "kind": "decision-table",
+  "id": "l2-MEASLES-DT-01-dmn",
+  "path": "input/decision-logic/MEASLES.DT.01.dmn"
+ },
+ "findings": [],
+ "notes": [
+  {
+   "id": "l2-MEASLES-DT-01-dmn-request",
+   "author": {
+    "kind": "agent",
+    "id": "claude"
+   },
+   "rationale": "Review requested of role `clinical-sme`: Is the dose each dummy client gets (testing.md) the dose recommendation measles.* says? Staged on the PR's branch; no decision recorded yet (pending).",
+   "cites": [],
+   "written_at": "2026-11-20T00:00:00Z"
+  }
+ ],
+ "decisions": [],
+ "updated_at": "2026-11-20T00:00:00Z"
+}

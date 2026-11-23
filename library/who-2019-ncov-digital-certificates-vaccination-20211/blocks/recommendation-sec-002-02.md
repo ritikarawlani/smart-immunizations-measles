@@ -1,0 +1,1 @@
+SHALL: SHALL is used to describe technical features and functions that are mandatory for this specification.1 SHOULD: SHOULD is used to describe technical features and functions that are recommended, but are not mandatory.

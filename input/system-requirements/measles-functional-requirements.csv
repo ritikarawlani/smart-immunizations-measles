@@ -1,0 +1,14 @@
+id,requirement,persona,user scenario,process step,source
+MEASLES.FR.01,The system shall show a client's documented MCV doses with date and vaccine and how each counts (MCV0 MCV1 MCV2 invalid not counted),Health worker,S1 S2 S3,MEASLES.A A2-A3,catchup.confirm-by-written-record; DT.03
+MEASLES.FR.02,The system shall treat a client with no documented MCV dose as unvaccinated,Health worker,S2,MEASLES.A A3,catchup.unconfirmed-assume-unvaccinated
+MEASLES.FR.03,The system shall determine the MCV dose due today from age and valid doses and the national schedule setting,Health worker,S1 S2 S3,MEASLES.A A3,DT.01; catchup.delayed-dose-no-restart; catchup.no-restart-series
+MEASLES.FR.04,The system shall not limit MCV1 or MCV2 to the target ages and shall offer missed doses at any contact,Health worker,S2,MEASLES.A A3,measles.routine-delivery-not-age-limited; measles.catch-up-every-opportunity; catchup.every-touchpoint; catchup.every-immunization-contact; catchup.late-not-denied
+MEASLES.FR.05,The system shall record any MCV dose given before 9 months as MCV0 and keep MCV1 and MCV2 due,Health worker,S3,MEASLES.A A7,measles.mcv0-recording; measles.mcv0-then-routine-doses
+MEASLES.FR.06,The system shall never record a dose as MCV2 for a client without a valid MCV1,Health worker; Data manager,S5,MEASLES.A A7; MEASLES.B B4,catchup.mcv2-only-after-mcv1
+MEASLES.FR.07,The system shall prompt the screening questions (allergy to a component; severe immunosuppression; pregnancy; other live vaccine in the last 4 weeks) before vaccination,Health worker,S1 S4,MEASLES.A A5,DT.02
+MEASLES.FR.08,The system shall record the reason a client was not vaccinated and the return date,Health worker,S4,MEASLES.A A9,measles.avoid-in-pregnancy
+MEASLES.FR.09,The system shall calculate the next MCV due date and print it for the home-based record,Health worker; Client,S1 S2,MEASLES.A A7,catchup.multi-dose-return-date
+MEASLES.FR.10,The system shall flag the additional dose for an HIV-infected child on HAART,Health worker,—,MEASLES.A A3,DT.04
+MEASLES.FR.11,The system shall list children overdue for MCV1 or MCV2 and zero-dose children each month,Programme manager,S5,MEASLES.B B1,catchup.defaulter-tracking
+MEASLES.FR.12,The system shall compute IND.01 to IND.07 and produce the Joint Reporting Form measles rows,Data manager,S5,MEASLES.B B4-B7,JRF 2016
+MEASLES.FR.13,The system shall record a health worker's proof of measles immunity or immunization,Programme manager,S4,—,measles.health-worker-immunity

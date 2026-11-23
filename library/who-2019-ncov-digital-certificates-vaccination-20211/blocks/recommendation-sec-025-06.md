@@ -1,0 +1,1 @@
+The 11th revision of ICD (ICD-11) (31), which comes into effect for recording and reporting in January 2022, is recommended as the most suitable and future-proof value set for use in the DDCC:VS data dictionary.

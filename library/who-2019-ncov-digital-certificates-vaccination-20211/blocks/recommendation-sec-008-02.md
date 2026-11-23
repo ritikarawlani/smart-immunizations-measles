@@ -1,0 +1,1 @@
+To avoid digital exclusion, the recommendations and requirements in the current document are designed to support the use of paper augmented with 1D or 2D barcodes or a smartphone application, or in another format.

@@ -1,0 +1,1 @@
+Co-administration of a booster dose of tetanus- diphtheria (Td) vaccination should be considered to improve programme efficiency and avoid missed opportunities to receive needed vaccinations. • As a precaution HPV vaccine is not recommended in pregnancy.

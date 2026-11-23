@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" id="MEASLES-DT-04" name="Additional measles dose for a child living with HIV on HAART" namespace="http://smart.who.int/immunizations-measles/dmn">
+  <decision id="MEASLES.DT.04" name="Additional measles dose for a child living with HIV on HAART">
+    <description>Whether an HIV-infected child receiving HAART needs the additional MCV dose after immune reconstitution. Hit policy FIRST. Adjudication: pending.</description>
+    <decisionTable id="MEASLES.DT.04_table" hitPolicy="FIRST">
+      <input id="MEASLES.DT.04_in0" label="HIV-infected"><inputExpression id="MEASLES.DT.04_ie0" typeRef="boolean"><text>hivInfected</text></inputExpression></input>
+      <input id="MEASLES.DT.04_in1" label="Additional dose already given"><inputExpression id="MEASLES.DT.04_ie1" typeRef="boolean"><text>additionalDoseGiven</text></inputExpression></input>
+      <input id="MEASLES.DT.04_in2" label="Receiving HAART"><inputExpression id="MEASLES.DT.04_ie2" typeRef="boolean"><text>onHaart</text></inputExpression></input>
+      <input id="MEASLES.DT.04_in3" label="CD4+ monitored"><inputExpression id="MEASLES.DT.04_ie3" typeRef="boolean"><text>cd4Monitored</text></inputExpression></input>
+      <input id="MEASLES.DT.04_in4" label="CD4+ T lymphocyte (%)"><inputExpression id="MEASLES.DT.04_ie4" typeRef="number"><text>cd4Percent</text></inputExpression></input>
+      <input id="MEASLES.DT.04_in5" label="Months since HAART started"><inputExpression id="MEASLES.DT.04_ie5" typeRef="number"><text>monthsSinceHaartStart</text></inputExpression></input>
+      <output id="MEASLES.DT.04_out0" label="Additional dose due" name="additionalDoseDue" typeRef="string"/>
+      <output id="MEASLES.DT.04_out1" label="Reason" name="reason" typeRef="string"/>
+      <output id="MEASLES.DT.04_out2" label="Rests on" name="basis" typeRef="string"/>
+      <rule id="MEASLES.DT.04_r1">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.hiv-haart-additional-dose</description>
+        <inputEntry id="MEASLES.DT.04_r1_i0"><text>false</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r1_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r1_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r1_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r1_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r1_i5"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.04_r1_o0"><text>"no"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r1_o1"><text>"Not HIV-infected."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r1_o2"><text>"T1:measles.hiv-haart-additional-dose"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.04_r2">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.hiv-haart-additional-dose</description>
+        <inputEntry id="MEASLES.DT.04_r2_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r2_i1"><text>true</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r2_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r2_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r2_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r2_i5"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.04_r2_o0"><text>"no"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r2_o1"><text>"Additional dose already given."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r2_o2"><text>"T1:measles.hiv-haart-additional-dose"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.04_r3">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.hiv-exposed-mcv0</description>
+        <inputEntry id="MEASLES.DT.04_r3_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r3_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r3_i2"><text>false</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r3_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r3_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r3_i5"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.04_r3_o0"><text>"no"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r3_o1"><text>"Not on HAART: no additional dose yet; an infant at high risk may get MCV0 (DT.01)."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r3_o2"><text>"T1:measles.hiv-exposed-mcv0"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.04_r4">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.hiv-haart-additional-dose</description>
+        <inputEntry id="MEASLES.DT.04_r4_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r4_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r4_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r4_i3"><text>true</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r4_i4"><text>&gt;= 20</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r4_i5"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.04_r4_o0"><text>"yes"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r4_o1"><text>"Immune reconstitution reached (CD4+ 20-25% or more)."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r4_o2"><text>"T1:measles.hiv-haart-additional-dose"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.04_r5">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.hiv-haart-additional-dose</description>
+        <inputEntry id="MEASLES.DT.04_r5_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r5_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r5_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r5_i3"><text>true</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r5_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r5_i5"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.04_r5_o0"><text>"no"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r5_o1"><text>"Wait for immune reconstitution (CD4+ 20-25%)."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r5_o2"><text>"T1:measles.hiv-haart-additional-dose"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.04_r6">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.hiv-haart-no-cd4-monitoring</description>
+        <inputEntry id="MEASLES.DT.04_r6_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r6_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r6_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r6_i3"><text>false</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r6_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r6_i5"><text>&gt;= 6</text></inputEntry>
+        <outputEntry id="MEASLES.DT.04_r6_o0"><text>"yes"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r6_o1"><text>"CD4+ not monitored: give 6-12 months after HAART started."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r6_o2"><text>"T1:measles.hiv-haart-no-cd4-monitoring"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.04_r7">
+        <description>Table 1, page 3 (measles footnote) — T1:measles.hiv-haart-no-cd4-monitoring</description>
+        <inputEntry id="MEASLES.DT.04_r7_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r7_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r7_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r7_i3"><text>false</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r7_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r7_i5"><text>&lt; 6</text></inputEntry>
+        <outputEntry id="MEASLES.DT.04_r7_o0"><text>"no"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r7_o1"><text>"Due 6-12 months after HAART started."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r7_o2"><text>"T1:measles.hiv-haart-no-cd4-monitoring"</text></outputEntry>
+      </rule>
+      <rule id="MEASLES.DT.04_r8">
+        <description>No source: returned only when the inputs match no rule above (a fact is missing or out of range).</description>
+        <inputEntry id="MEASLES.DT.04_r8_i0"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r8_i1"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r8_i2"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r8_i3"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r8_i4"><text>-</text></inputEntry>
+        <inputEntry id="MEASLES.DT.04_r8_i5"><text>-</text></inputEntry>
+        <outputEntry id="MEASLES.DT.04_r8_o0"><text>"unknown"</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r8_o1"><text>"Not settled: HIV status, HAART or CD4+ facts are missing."</text></outputEntry>
+        <outputEntry id="MEASLES.DT.04_r8_o2"><text>""</text></outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>

@@ -1,0 +1,1 @@
+Sequential IPV–bOPV • For sequential IPV– bOPV schedules, WHO recommends that the first dose of IPV be given starting from 8 weeks of age with an interval of 4–8 weeks before administration of the second IPV dose.

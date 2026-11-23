@@ -1,0 +1,200 @@
+# AUTHORED by an agent (recommendation-extraction Part 2); every entry is a CANDIDATE until a person reviews it.
+$schema: l1-scenario-mapping/v1
+guide: smart-immunizations-measles
+scenarioIdPrefix: MEASLES.Scenario.CU
+entries:
+  catchup.national-catch-up-schedule:
+    personas:
+    - id: DAK.Persona.HealthSystemManager
+      source: inferred
+      basis: National policy is set by programme management.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: publish a national catch-up schedule with age cohorts, minimum and maximum ages and minimum intervals per antigen
+    outcome: health workers can complete interrupted or delayed schedules
+    domain:
+      code: health-system-strengthening
+      source: inferred
+      basis: A policy instrument.
+  catchup.late-not-denied:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: Acted on at the contact.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: vaccinate a client who arrives late rather than turn them away
+    outcome: late clients are still protected
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client principle.
+  catchup.every-touchpoint:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: Any provider at a health contact.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: assess vaccination status at every health contact and vaccinate or refer anyone who missed doses
+    outcome: missed opportunities are reduced
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client act.
+  catchup.multi-dose-return-date:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider calculates and records.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: calculate when the next dose of a multi-dose series is due, tell the caregiver, and write it in the home-based record
+    outcome: the series is completed
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client act.
+  catchup.confirm-by-written-record:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider reads the record.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: confirm vaccination history from a home-based record or register
+    outcome: the client's status is known before deciding doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client act.
+  catchup.unconfirmed-assume-unvaccinated:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider decides at the contact.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: treat a client with no evidence of vaccination as unvaccinated and offer vaccination
+    outcome: clients without records are protected
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client rule.
+  catchup.invalid-early-dose-repeat:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider evaluates each recorded dose.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: not count a dose given before the minimum age or interval and repeat it after the minimum interval
+    outcome: only valid doses count towards the series
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client rule.
+  catchup.delayed-dose-no-restart:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider decides the next dose.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: give the next due dose of a delayed series as soon as possible without restarting
+    outcome: the series is completed
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client rule.
+  catchup.live-vaccine-spacing:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: Checked by the provider.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: give live vaccines including MCV on the same day or 4 weeks apart
+    outcome: live vaccines are given at valid intervals
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client interval rule.
+  catchup.no-restart-series:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider decides.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: not restart a vaccine series
+    outcome: no extra doses are given
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client rule.
+  catchup.mcv2-only-after-mcv1:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider records the dose.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: record a dose as MCV2 only if the child has already received MCV1
+    outcome: coverage of each dose is reported correctly
+    domain:
+      code: clinical
+      source: inferred
+      basis: Recording a per-client dose.
+  catchup.every-immunization-contact:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: The provider at the immunization contact.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: review vaccination status at every immunization contact and give missed antigens
+    outcome: missed antigens are caught up
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client act.
+  catchup.defaulter-tracking:
+    personas:
+    - id: DAK.Persona.HealthSystemManager
+      source: inferred
+      basis: A facility process organised by its management.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: set up newborn and defaulter tracking and reach zero-dose children in the catchment area
+    outcome: children who never started or dropped out are found
+    domain:
+      code: public-health
+      source: inferred
+      basis: A population outreach process.

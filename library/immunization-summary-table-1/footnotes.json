@@ -1,0 +1,135 @@
+{
+ "$schema": "folio-document-footnotes/v1",
+ "entry": "immunization-summary-table-1",
+ "status": "determined",
+ "body_size": 7.0,
+ "footnotes": [],
+ "uncalled_notes": [],
+ "unlinked_marks": [
+  {
+   "page": 1,
+   "mark": "1",
+   "context": "RSV"
+  },
+  {
+   "page": 1,
+   "mark": "2",
+   "context": "BCG"
+  },
+  {
+   "page": 1,
+   "mark": "3",
+   "context": "Hepatitis B"
+  },
+  {
+   "page": 1,
+   "mark": "4",
+   "context": "Polio"
+  },
+  {
+   "page": 1,
+   "mark": "5",
+   "context": "DTP-containing vaccine"
+  },
+  {
+   "page": 1,
+   "mark": "6",
+   "context": "influenzae type b"
+  },
+  {
+   "page": 1,
+   "mark": "7",
+   "context": "(Conjugate)"
+  },
+  {
+   "page": 1,
+   "mark": "8",
+   "context": "Rotavirus"
+  },
+  {
+   "page": 1,
+   "mark": "9",
+   "context": "Measles"
+  },
+  {
+   "page": 1,
+   "mark": "10",
+   "context": "Rubella"
+  },
+  {
+   "page": 1,
+   "mark": "11",
+   "context": "HPV"
+  },
+  {
+   "page": 2,
+   "mark": "12",
+   "context": "Japanese Encephalitis"
+  },
+  {
+   "page": 2,
+   "mark": "13",
+   "context": "Yellow Fever"
+  },
+  {
+   "page": 2,
+   "mark": "14",
+   "context": "Tick-Borne Encephalitis"
+  },
+  {
+   "page": 2,
+   "mark": "15",
+   "context": "Typhoid"
+  },
+  {
+   "page": 2,
+   "mark": "16",
+   "context": "Cholera"
+  },
+  {
+   "page": 2,
+   "mark": "17",
+   "context": "Meningococcal"
+  },
+  {
+   "page": 2,
+   "mark": "18",
+   "context": "Hepatitis A"
+  },
+  {
+   "page": 2,
+   "mark": "19",
+   "context": "Rabies"
+  },
+  {
+   "page": 2,
+   "mark": "20",
+   "context": "Dengue (TAK-003)"
+  },
+  {
+   "page": 2,
+   "mark": "21",
+   "context": "Malaria"
+  },
+  {
+   "page": 3,
+   "mark": "22",
+   "context": "Mumps"
+  },
+  {
+   "page": 3,
+   "mark": "23",
+   "context": "and quadrivalent)"
+  },
+  {
+   "page": 3,
+   "mark": "24",
+   "context": "Varicella"
+  },
+  {
+   "page": 3,
+   "mark": "7",
+   "context": "Pneumococcal (Conjugate)"
+  }
+ ]
+}

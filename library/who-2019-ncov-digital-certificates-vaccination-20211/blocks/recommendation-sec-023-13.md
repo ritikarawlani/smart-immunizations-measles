@@ -1,0 +1,1 @@
+DDCC.FXNREQ.054 The certificate authority (or authorities) in each country SHALL maintain records of the DSCs issued for the purpose of signing vaccination certificates and expose any service(s) that allow a public key to be looked up and checked against its records to check for validity.

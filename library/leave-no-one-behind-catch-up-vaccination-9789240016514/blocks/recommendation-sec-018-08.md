@@ -1,0 +1,1 @@
+Resume without repeating previous dose 2 or 3 depending on product >24 months limited benefit Not recommended Measles-containing vaccine (MCV) 9 or 12 months (6 months min, see footnote)c 2 doses (4 weeks)

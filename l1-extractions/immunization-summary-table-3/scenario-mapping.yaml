@@ -1,0 +1,80 @@
+# AUTHORED by an agent (recommendation-extraction Part 2); every entry is a CANDIDATE until a person reviews it.
+$schema: l1-scenario-mapping/v1
+guide: smart-immunizations-measles
+scenarioIdPrefix: MEASLES.Scenario.T3
+entries:
+  measles.interrupted-delayed-schedule-row:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: Applied by the provider at the contact.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: for a child who starts late or whose series was interrupted, give 2 MCV doses at least 4 weeks apart and no booster
+    outcome: late or interrupted children complete two doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client catch-up rule.
+  measles.two-doses-standard:
+    personas:
+    - id: DAK.Persona.HealthSystemManager
+      source: inferred
+      basis: Programme standard.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: set two doses of measles vaccine for every child as the national programme standard
+    outcome: the programme is planned against two-dose coverage
+    domain:
+      code: public-health
+      source: inferred
+      basis: A population standard.
+  measles.interrupted-resume-no-repeat:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: Applied by the provider.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: resume an interrupted measles series without repeating doses already given
+    outcome: the series is completed without extra doses
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client rule.
+  measles.mcv-minimum-interval:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: Checked by the provider.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: leave at least 4 weeks between MCV1 and MCV2
+    outcome: the second dose counts as valid
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client interval rule.
+  measles.routine-delivery-not-age-limited:
+    personas:
+    - id: DAK.Persona.HealthcareProvider
+      source: inferred
+      basis: Applied by the provider.
+    process:
+      id: could-not-determine
+      source: inferred
+      basis: The guide has no business processes yet (its vocabulary is empty) and no domain process catalogue exists; the L2 process that realises this is still to be authored.
+    act: give MCV1 or MCV2 to an unvaccinated child outside the target ages
+    outcome: older unvaccinated children are protected
+    domain:
+      code: clinical
+      source: inferred
+      basis: A per-client eligibility rule.

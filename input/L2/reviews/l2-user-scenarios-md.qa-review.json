@@ -1,0 +1,23 @@
+{
+ "$schema": "qa-review/v1",
+ "subject": {
+  "kind": "user-scenarios",
+  "id": "l2-user-scenarios-md",
+  "path": "input/pagecontent/user-scenarios.md"
+ },
+ "findings": [],
+ "notes": [
+  {
+   "id": "l2-user-scenarios-md-request",
+   "author": {
+    "kind": "agent",
+    "id": "claude"
+   },
+   "rationale": "Review requested of role `clinical-sme`: Do the five stories match practice and the recommendations they cite? Staged on the PR's branch; no decision recorded yet (pending).",
+   "cites": [],
+   "written_at": "2026-11-20T00:00:00Z"
+  }
+ ],
+ "decisions": [],
+ "updated_at": "2026-11-20T00:00:00Z"
+}

@@ -1,0 +1,1 @@
+As a minimum, both terminology producers should participate in defining the basic purpose and parameters of the mapping task, reviewing and verifying the map, developing the plan for testing and validation, and devising a cost-effective strategy for building, maintaining and enhancing the map over time.

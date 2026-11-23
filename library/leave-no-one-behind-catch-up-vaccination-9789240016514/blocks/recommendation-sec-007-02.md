@@ -1,0 +1,1 @@
+• Often countries are concerned that implementing catch-up vaccination will lead to shortage of vaccines or stock-outs, as a result of increased demand from older age cohorts who missed vaccination at the recommended age.

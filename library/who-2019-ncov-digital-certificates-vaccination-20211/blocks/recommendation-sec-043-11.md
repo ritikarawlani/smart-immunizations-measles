@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.007 Availability Any solution developed SHOULD NOT be able to accept more than 10 minutes of outage during normal usage and cannot accept more than 1 minute of data loss of queries and responses.

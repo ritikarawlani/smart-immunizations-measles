@@ -1,0 +1,1 @@
+Access to quality screening and treatment services should be improved. • The priority purpose of HPV immunization is the prevention of cervical cancer, which accounts for 82% of all HPV-related cancers.

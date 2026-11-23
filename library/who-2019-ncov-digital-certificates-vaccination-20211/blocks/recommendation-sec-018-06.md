@@ -1,0 +1,1 @@
+If a Digital Health Solution does not exist at the care site, details of the vaccination event SHALL be recorded and persisted in a paper record (e.g. immunization registry book), according to the required DDCC:VS core data set.

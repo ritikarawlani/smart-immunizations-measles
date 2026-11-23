@@ -1,0 +1,114 @@
+[
+  {
+    "location": "p4:s61",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s88",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s92",
+    "reason": "duplicate-of:measles.two-doses-standard",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s93",
+    "reason": "duplicate-of:measles.mcv2-in-schedule",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s94",
+    "reason": "duplicate-of:measles.mcv2-15-18-months",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s95",
+    "reason": "duplicate-of:measles.mcv-minimum-interval",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s96",
+    "reason": "duplicate-of:measles.catch-up-every-opportunity",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s97",
+    "reason": "duplicate-of:measles.policies-allow-older-ages",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s101",
+    "reason": "duplicate-of:measles.mcv2-at-school-entry",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s102",
+    "reason": "duplicate-of:measles.mcv0-then-routine-doses",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s104",
+    "reason": "duplicate-of:measles.hiv-high-incidence-mcv0-6-months",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s105",
+    "reason": "duplicate-of:measles.hiv-high-incidence-mcv0-6-months",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s106",
+    "reason": "duplicate-of:measles.hiv-haart-no-cd4-monitoring",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s107",
+    "reason": "duplicate-of:measles.avoid-in-pregnancy",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s108",
+    "reason": "duplicate-of:measles.contraindications",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  },
+  {
+    "location": "p4:s125",
+    "reason": "editorial",
+    "signerRole": {
+      "role": "l1-extraction-reviewer"
+    }
+  }
+]

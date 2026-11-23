@@ -1,0 +1,1 @@
+Countries with insufficient routine vaccination coverage that rely on SIAs to increase population immunity should continue using bOPV in SIAs until routine coverage improves or until the globally coordinated withdrawal of bOPV. • A whole-cell pertussis (wP) hexavalent IPV-containing vaccine has now been prequalified by WHO.

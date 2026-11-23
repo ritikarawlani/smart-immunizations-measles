@@ -1,0 +1,200 @@
+{
+ "$schema": "measles-l3-provenance/v1",
+ "assets": [
+  {
+   "asset": "input/cql/MEASLESDT01.cql",
+   "sourceModel": "input/decision-logic/MEASLES.DT.01.dmn",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/decision-logic/MEASLES.DT.01.dmn",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/fsh/decisions/MEASLESDT01.fsh",
+   "sourceModel": "input/decision-logic/MEASLES.DT.01.dmn",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/decision-logic/MEASLES.DT.01.dmn",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/cql/MEASLESDT02.cql",
+   "sourceModel": "input/decision-logic/MEASLES.DT.02.dmn",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/decision-logic/MEASLES.DT.02.dmn",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/fsh/decisions/MEASLESDT02.fsh",
+   "sourceModel": "input/decision-logic/MEASLES.DT.02.dmn",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/decision-logic/MEASLES.DT.02.dmn",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/cql/MEASLESDT03.cql",
+   "sourceModel": "input/decision-logic/MEASLES.DT.03.dmn",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/decision-logic/MEASLES.DT.03.dmn",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/fsh/decisions/MEASLESDT03.fsh",
+   "sourceModel": "input/decision-logic/MEASLES.DT.03.dmn",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/decision-logic/MEASLES.DT.03.dmn",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/cql/MEASLESDT04.cql",
+   "sourceModel": "input/decision-logic/MEASLES.DT.04.dmn",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/decision-logic/MEASLES.DT.04.dmn",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/fsh/decisions/MEASLESDT04.fsh",
+   "sourceModel": "input/decision-logic/MEASLES.DT.04.dmn",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/decision-logic/MEASLES.DT.04.dmn",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/cql/MEASLESIndicators.cql",
+   "sourceModel": "input/indicators/measles-indicators.csv",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/indicators/measles-indicators.csv",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/fsh/measures.fsh",
+   "sourceModel": "input/indicators/measles-indicators.csv",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/indicators/measles-indicators.csv",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/fsh/codesystem.fsh",
+   "sourceModel": "input/dictionary/measles-core-data-elements.csv",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/dictionary/measles-core-data-elements.csv",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/fsh/valuesets.fsh",
+   "sourceModel": "input/dictionary/measles-core-data-elements.csv",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/dictionary/measles-core-data-elements.csv",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/fsh/models/MeaslesVaccinationContact.fsh",
+   "sourceModel": "input/dictionary/measles-core-data-elements.csv",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/dictionary/measles-core-data-elements.csv",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/fsh/actors.fsh",
+   "sourceModel": "input/pagecontent/personas.md",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/pagecontent/personas.md",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  },
+  {
+   "asset": "input/fsh/requirements.fsh",
+   "sourceModel": "input/system-requirements/measles-functional-requirements.csv",
+   "edges": [
+    {
+     "predicate": "wasDerivedFrom",
+     "target": "input/system-requirements/measles-functional-requirements.csv",
+     "properties": {
+      "adjudication": "pending"
+     }
+    }
+   ]
+  }
+ ]
+}

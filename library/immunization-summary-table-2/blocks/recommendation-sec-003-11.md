@@ -1,0 +1,1 @@
+Therefore no upper limit of week of gestation is recommended, except for women in active labour who should not receive the RSV vaccine. • Current maternal vaccines can be administered along with other vaccines recommended during pregnancy, including simultaneous vaccination at different anatomical sites on the same day.

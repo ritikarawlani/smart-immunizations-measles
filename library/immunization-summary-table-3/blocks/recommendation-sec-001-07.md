@@ -1,0 +1,1 @@
+(updated: December 2025) Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers Antigen Age of 1st Dose (minimum) Doses in Primary Series (min interval between doses)** Interrupted primary series*** Doses for those who start vaccination late

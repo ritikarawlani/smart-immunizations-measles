@@ -1,0 +1,1 @@
+DDCC.NFXNREQ.028 Security and privacy All interactions between a client and a server component of the solution SHALL be securely encrypted to prevent “man in the middle” interference with data in transit.

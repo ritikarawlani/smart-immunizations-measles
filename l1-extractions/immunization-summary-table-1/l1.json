@@ -1,0 +1,744 @@
+{
+  "@context": "http://smart.who.int/kg/l1.context.jsonld",
+  "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf#recommendation-candidates",
+  "type": "Entity",
+  "ontologyVersion": "3.0",
+  "generatedAt": "2026-11-20T13:05:42Z",
+  "wasDerivedFrom": [
+    {
+      "path": "library/immunization-summary-table-1/structure.json",
+      "sha256": "5e477ba1bfea458676c6d7c9bdd0c402501e7ca7a1182575ea57d0e772114f8a",
+      "note": "The entry's structure; the source PDF's sha256 is 9861c483644986f477485fdf98f61f493a4f1e2ace8e20f48c04ba70e0d18f8d."
+    },
+    {
+      "path": "library/immunization-summary-table-1/sections/",
+      "sha256": "72fc39b6053584e8e8fbeeec7bb0c089ec2b431071afd043e0e9a2b2a65bbdfe",
+      "note": "The page texts read, hashed as a sha256sum listing in file order."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "type": "publication",
+      "label": "Table 1: Summary of WHO Position Papers – Recommendations for Routine Immunization",
+      "properties": {
+        "title": "Table 1: Summary of WHO Position Papers – Recommendations for Routine Immunization",
+        "identifiers": [
+          {
+            "type": "url",
+            "value": "https://github.com/user-attachments/files/35149133/immunization-summary-table-1.pdf"
+          }
+        ],
+        "publicationType": "summary-table",
+        "sha256": "9861c483644986f477485fdf98f61f493a4f1e2ace8e20f48c04ba70e0d18f8d"
+      },
+      "derivation": "inferred",
+      "note": "Title as printed at the head of page 1; the URL is the one the table prints for the latest position papers. A summary table of position papers, so publicationType summary-table; its measles footnote cites the measles position paper, Weekly Epidemiological Record (2017, 92: 205-228). Identified by the URL of the file as attached to issue #1: Tables 1-3 all print the same position-papers URL, which identifies the series, not the table, and would give their nodes one IRI.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-000-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.two-doses-standard",
+      "type": "recommendation",
+      "label": "measles.two-doses-standard",
+      "properties": {
+        "identifier": "measles.two-doses-standard",
+        "statement": "Reaching all children with 2 doses of measles vaccine should be the standard for all national immunization programmes.",
+        "contentHash": "4f5ab08b4aac2ecd92b6f636df7233e9b5b3570e3384783c5723d43a8cb39c64"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3, first bullet: the standard of two doses for every programme.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "Record (2017, 92: 205-228). • Reaching all children with 2 doses of measles vaccine should be the standard for all national immunization programmes."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-in-schedule",
+      "type": "recommendation",
+      "label": "measles.mcv2-in-schedule",
+      "properties": {
+        "identifier": "measles.mcv2-in-schedule",
+        "statement": "In addition to the first routine dose of MCV1, all countries should add a second routine dose of MCV2 to their national immunization schedules regardless of the level of MCV1 coverage.",
+        "contentHash": "2846da5a0d187255ff853eb8950cd02f94f0167c5ee3ebf2a077b3fd8a455109"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: every country adds MCV2 regardless of MCV1 coverage.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "In addition to the first routine dose of MCV1, all countries should add a second routine dose of MCV2 to their national immunization schedules regardless of the level of MCV1 coverage. • In countries with ongoing transmission in which the risk of measles mortality remains high, MCV1 should be given at age 9 months."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-9-months-high-transmission",
+      "type": "recommendation",
+      "label": "measles.mcv1-9-months-high-transmission",
+      "properties": {
+        "identifier": "measles.mcv1-9-months-high-transmission",
+        "statement": "In countries with ongoing transmission in which the risk of measles mortality remains high, MCV1 should be given at age 9 months.",
+        "contentHash": "bfacdeaa8a9ad4c3b7f7b53e8b2b38745d5c776f04af05f720f326b8e7a19f82"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: MCV1 age where transmission and mortality risk are high.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "In addition to the first routine dose of MCV1, all countries should add a second routine dose of MCV2 to their national immunization schedules regardless of the level of MCV1 coverage. • In countries with ongoing transmission in which the risk of measles mortality remains high, MCV1 should be given at age 9 months."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-15-18-months",
+      "type": "recommendation",
+      "label": "measles.mcv2-15-18-months",
+      "properties": {
+        "identifier": "measles.mcv2-15-18-months",
+        "statement": "MCV2 should be given between 15-18 months, as providing MCV2 in the 2nd year of life reduces the rate of accumulation of susceptible children and the risk of an outbreak.",
+        "contentHash": "23356cfc7b71cb230c544f8960d6213a04570bd47ed876e160680ef8a0219335"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: MCV2 age, with its printed rationale.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "MCV2 should be given between 15-18 months, as providing MCV2 in the 2nd year of life reduces the rate of accumulation of susceptible children and the risk of an outbreak."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv-minimum-interval",
+      "type": "recommendation",
+      "label": "measles.mcv-minimum-interval",
+      "properties": {
+        "identifier": "measles.mcv-minimum-interval",
+        "statement": "The minimum interval between MCV1 and MCV2 is 4 weeks.",
+        "contentHash": "0f5ceea3e5717bf9bc84d0393d67c76b20ec462a0cc05823df0f0d67114b247b"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: the minimum interval between the two routine doses, a rule applied per client.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "The minimum interval between MCV1 and MCV2 is 4 weeks. • Because many cases of measles occur in children aged >12 months who have not been vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and routine delivery of MCV2 should not be limited to infants 15 to 18 months of age."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.routine-delivery-not-age-limited",
+      "type": "recommendation",
+      "label": "measles.routine-delivery-not-age-limited",
+      "properties": {
+        "identifier": "measles.routine-delivery-not-age-limited",
+        "statement": "Because many cases of measles occur in children aged >12 months who have not been vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and routine delivery of MCV2 should not be limited to infants 15 to 18 months of age.",
+        "contentHash": "e04d2de8978427b4b325a6fffef13a7f2fa72655a0163b0c71877fd38cf9976c"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: routine MCV1/MCV2 delivery is not limited to the target ages.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "The minimum interval between MCV1 and MCV2 is 4 weeks. • Because many cases of measles occur in children aged >12 months who have not been vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and routine delivery of MCV2 should not be limited to infants 15 to 18 months of age."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.catch-up-every-opportunity",
+      "type": "recommendation",
+      "label": "measles.catch-up-every-opportunity",
+      "properties": {
+        "identifier": "measles.catch-up-every-opportunity",
+        "statement": "Every opportunity (e.g. when children come into contact with health services) should be taken to vaccinate all children that missed one or both MCV routine doses, particularly those under 15 years of age.",
+        "contentHash": "7f427f3317d5350009b867f0325183ab5c1a482bcdce73a55ecc6a58e4f8c3df"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: catch-up of missed MCV doses at every health contact, particularly under 15 years.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "Every opportunity (e.g. when children come into contact with health services) should be taken to vaccinate all children that missed one or both MCV routine doses, particularly those under 15 years of age."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.policies-allow-older-ages",
+      "type": "recommendation",
+      "label": "measles.policies-allow-older-ages",
+      "properties": {
+        "identifier": "measles.policies-allow-older-ages",
+        "statement": "Policies which prohibit use of vaccine in children >1 year of age, older children and teenagers should be changed to allow these individuals to be vaccinated.",
+        "contentHash": "739172e676f6d1587da536508fb7fb4da71282838650fc528a3f83be48a19cd9"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: policy change to allow vaccinating children over 1 year, older children and teenagers.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "Policies which prohibit use of vaccine in children >1 year of age, older children and teenagers should be changed to allow these individuals to be vaccinated. • In countries with low levels of measles transmission (i.e. those that are near elimination or verified as having eliminated endemic measles virus transmission) and therefore the risk of measles virus infection among infants is low, MCV1 may be administered at 12 months of age to take advantage of the higher seroconversion rates achieved at this age."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-12-months-low-transmission",
+      "type": "recommendation",
+      "label": "measles.mcv1-12-months-low-transmission",
+      "properties": {
+        "identifier": "measles.mcv1-12-months-low-transmission",
+        "statement": "In countries with low levels of measles transmission (i.e. those that are near elimination or verified as having eliminated endemic measles virus transmission) and therefore the risk of measles virus infection among infants is low, MCV1 may be administered at 12 months of age to take advantage of the higher seroconversion rates achieved at this age.",
+        "kind": "context-specific",
+        "contentHash": "f4607c1e5387d4f1b4b321f2cf7e46f0e2797bd1ecc12846a83c70a507841def"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: MCV1 at 12 months where transmission is low; conditional on the setting as printed ('may').",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "Policies which prohibit use of vaccine in children >1 year of age, older children and teenagers should be changed to allow these individuals to be vaccinated. • In countries with low levels of measles transmission (i.e. those that are near elimination or verified as having eliminated endemic measles virus transmission) and therefore the risk of measles virus infection among infants is low, MCV1 may be administered at 12 months of age to take advantage of the higher seroconversion rates achieved at this age."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-at-school-entry",
+      "type": "recommendation",
+      "label": "measles.mcv2-at-school-entry",
+      "properties": {
+        "identifier": "measles.mcv2-at-school-entry",
+        "statement": "If MCV1 coverage is high (>90%) and school enrolment is high (>95%), administration of routine MCV2 at school entry may prove an effective strategy for achieving high coverage and preventing outbreaks in schools.",
+        "kind": "context-specific",
+        "contentHash": "e2dee89cad2475d18cd510c71ac525b4b8b65f790cfc0d05c69c2d9aa2be05bc"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: MCV2 at school entry when MCV1 coverage >90% and enrolment >95%.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "If MCV1 coverage is high (>90%) and school enrolment is high (>95%), administration of routine MCV2 at school entry may prove an effective strategy for achieving high coverage and preventing outbreaks in schools. • For programmatic reasons (e.g. to reduce cold storage needs and vaccine wastage), it is recommended that the same vaccine formulation is used for both routine doses of MCV. • In the following situations, a supplementary dose of MCV should be given to infants from 6 months of age: (1) during a measles outbreak as part of intensified service delivery; (2) during campaigns in settings where the risk of measles among infants < 9 months of age remains high (e.g. in endemic countries experiencing regular outbreaks); (3) for internally displaced populations and refugees, and populations in conflict zones; (4) for individual infants at high risk of contracting measles (e.g. contacts of known measles cases or in settings with increased risk of exposure during outbreaks such as day-care facilities); (5) for infants travelling to countries experiencing measles outbreaks; (6) for infants known to be HIV-infected or exposed (i.e. born to an HIV-infected woman). • MCV administered before 9 months of age should be considered a supplementary dose and recorded on the child’s vaccination record as “MCV0”."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.same-formulation-both-doses",
+      "type": "recommendation",
+      "label": "measles.same-formulation-both-doses",
+      "properties": {
+        "identifier": "measles.same-formulation-both-doses",
+        "statement": "For programmatic reasons (e.g. to reduce cold storage needs and vaccine wastage), it is recommended that the same vaccine formulation is used for both routine doses of MCV.",
+        "contentHash": "353ea4a524b5e234c08960146193f1c87b08cb09259c9f84aa0774aa07ed7151"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: the same formulation for both routine doses, for programmatic reasons.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "If MCV1 coverage is high (>90%) and school enrolment is high (>95%), administration of routine MCV2 at school entry may prove an effective strategy for achieving high coverage and preventing outbreaks in schools. • For programmatic reasons (e.g. to reduce cold storage needs and vaccine wastage), it is recommended that the same vaccine formulation is used for both routine doses of MCV. • In the following situations, a supplementary dose of MCV should be given to infants from 6 months of age: (1) during a measles outbreak as part of intensified service delivery; (2) during campaigns in settings where the risk of measles among infants < 9 months of age remains high (e.g. in endemic countries experiencing regular outbreaks); (3) for internally displaced populations and refugees, and populations in conflict zones; (4) for individual infants at high risk of contracting measles (e.g. contacts of known measles cases or in settings with increased risk of exposure during outbreaks such as day-care facilities); (5) for infants travelling to countries experiencing measles outbreaks; (6) for infants known to be HIV-infected or exposed (i.e. born to an HIV-infected woman). • MCV administered before 9 months of age should be considered a supplementary dose and recorded on the child’s vaccination record as “MCV0”."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-situations",
+      "type": "recommendation",
+      "label": "measles.mcv0-situations",
+      "properties": {
+        "identifier": "measles.mcv0-situations",
+        "statement": "In the following situations, a supplementary dose of MCV should be given to infants from 6 months of age: (1) during a measles outbreak as part of intensified service delivery; (2) during campaigns in settings where the risk of measles among infants < 9 months of age remains high (e.g. in endemic countries experiencing regular outbreaks); (3) for internally displaced populations and refugees, and populations in conflict zones; (4) for individual infants at high risk of contracting measles (e.g. contacts of known measles cases or in settings with increased risk of exposure during outbreaks such as day-care facilities); (5) for infants travelling to countries experiencing measles outbreaks; (6) for infants known to be HIV-infected or exposed (i.e. born to an HIV-infected woman).",
+        "contentHash": "71ac15312c96aa817e75a066bfa807ee8a5ddf624b60274fa1afa1afc97df92e"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: the six situations in which a supplementary dose is given from 6 months.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "If MCV1 coverage is high (>90%) and school enrolment is high (>95%), administration of routine MCV2 at school entry may prove an effective strategy for achieving high coverage and preventing outbreaks in schools. • For programmatic reasons (e.g. to reduce cold storage needs and vaccine wastage), it is recommended that the same vaccine formulation is used for both routine doses of MCV. • In the following situations, a supplementary dose of MCV should be given to infants from 6 months of age: (1) during a measles outbreak as part of intensified service delivery; (2) during campaigns in settings where the risk of measles among infants < 9 months of age remains high (e.g. in endemic countries experiencing regular outbreaks); (3) for internally displaced populations and refugees, and populations in conflict zones; (4) for individual infants at high risk of contracting measles (e.g. contacts of known measles cases or in settings with increased risk of exposure during outbreaks such as day-care facilities); (5) for infants travelling to countries experiencing measles outbreaks; (6) for infants known to be HIV-infected or exposed (i.e. born to an HIV-infected woman). • MCV administered before 9 months of age should be considered a supplementary dose and recorded on the child’s vaccination record as “MCV0”."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-recording",
+      "type": "recommendation",
+      "label": "measles.mcv0-recording",
+      "properties": {
+        "identifier": "measles.mcv0-recording",
+        "statement": "MCV administered before 9 months of age should be considered a supplementary dose and recorded on the child’s vaccination record as “MCV0”.",
+        "contentHash": "1a55a153321f14337b288bee24d0ad24902be2bfcf4ed8d8c1da33c974db7ee6"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: a dose before 9 months is supplementary and recorded as MCV0.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "If MCV1 coverage is high (>90%) and school enrolment is high (>95%), administration of routine MCV2 at school entry may prove an effective strategy for achieving high coverage and preventing outbreaks in schools. • For programmatic reasons (e.g. to reduce cold storage needs and vaccine wastage), it is recommended that the same vaccine formulation is used for both routine doses of MCV. • In the following situations, a supplementary dose of MCV should be given to infants from 6 months of age: (1) during a measles outbreak as part of intensified service delivery; (2) during campaigns in settings where the risk of measles among infants < 9 months of age remains high (e.g. in endemic countries experiencing regular outbreaks); (3) for internally displaced populations and refugees, and populations in conflict zones; (4) for individual infants at high risk of contracting measles (e.g. contacts of known measles cases or in settings with increased risk of exposure during outbreaks such as day-care facilities); (5) for infants travelling to countries experiencing measles outbreaks; (6) for infants known to be HIV-infected or exposed (i.e. born to an HIV-infected woman). • MCV administered before 9 months of age should be considered a supplementary dose and recorded on the child’s vaccination record as “MCV0”."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-then-routine-doses",
+      "type": "recommendation",
+      "label": "measles.mcv0-then-routine-doses",
+      "properties": {
+        "identifier": "measles.mcv0-then-routine-doses",
+        "statement": "Children who receive MCV0 should also receive MCV1 and MCV2 at the recommended ages according to the national schedule.",
+        "contentHash": "82e4ffeffe71a3aef8408aea6d90211e1075ecaf08e3e62cdcc362b06321642c"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: MCV0 does not replace MCV1 and MCV2.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "Children who receive MCV0 should also receive MCV1 and MCV2 at the recommended ages according to the national schedule. • Given the severe course of measles in patients with AIDS, measles vaccination should be routinely administered to potentially susceptible, asymptomatic HIV infected children and adults."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-routine-vaccination",
+      "type": "recommendation",
+      "label": "measles.hiv-routine-vaccination",
+      "properties": {
+        "identifier": "measles.hiv-routine-vaccination",
+        "statement": "Given the severe course of measles in patients with AIDS, measles vaccination should be routinely administered to potentially susceptible, asymptomatic HIV infected children and adults.",
+        "contentHash": "9a6f0f1fdc2437eb8f52d80ec22587810802d7d25e17efe879d68321fb77d1d7"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: routine vaccination of susceptible asymptomatic HIV-infected children and adults.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "Children who receive MCV0 should also receive MCV1 and MCV2 at the recommended ages according to the national schedule. • Given the severe course of measles in patients with AIDS, measles vaccination should be routinely administered to potentially susceptible, asymptomatic HIV infected children and adults."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-high-incidence-mcv0-6-months",
+      "type": "recommendation",
+      "label": "measles.hiv-high-incidence-mcv0-6-months",
+      "properties": {
+        "identifier": "measles.hiv-high-incidence-mcv0-6-months",
+        "statement": "In areas where there is a high incidence of both HIV infection and measles, an initial dose of MCV may be offered as early as age 6 months (recorded as MCV0).",
+        "kind": "context-specific",
+        "contentHash": "0d9c5f7eefd2f79355974b522ec25fc3b514af6181fcaef163506c433d5d0610"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: MCV0 from 6 months where HIV and measles incidence are both high.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "In areas where there is a high incidence of both HIV infection and measles, an initial dose of MCV may be offered as early as age 6 months (recorded as MCV0)."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-haart-additional-dose",
+      "type": "recommendation",
+      "label": "measles.hiv-haart-additional-dose",
+      "properties": {
+        "identifier": "measles.hiv-haart-additional-dose",
+        "statement": "An additional dose of MCV should be administered to HIV-infected children receiving HAART following immune reconstitution If CD4+ T lymphocyte counts are monitored, an additional dose of MCV should be administered when immune reconstitution has been achieved, e.g. when the CD4+ T lymphocyte count reaches 20–25%.",
+        "contentHash": "3a6e1ca2f2a24dab40eea85dfd0e440bc41504570fb3add971eedde56bf3216f"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: an additional dose after immune reconstitution on HAART, timed by CD4+ count where monitored.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "The 2 routine doses of MCV (MCV1 and MCV2) should then be administered to these children according to the national immunization schedule. • An additional dose of MCV should be administered to HIV-infected children receiving HAART following immune reconstitution If CD4+ T lymphocyte counts are monitored, an additional dose of MCV should be administered when immune reconstitution has been achieved, e.g. when the CD4+ T lymphocyte count reaches 20–25%."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-haart-no-cd4-monitoring",
+      "type": "recommendation",
+      "label": "measles.hiv-haart-no-cd4-monitoring",
+      "properties": {
+        "identifier": "measles.hiv-haart-no-cd4-monitoring",
+        "statement": "Where CD4+ T lymphocyte monitoring is not available, children should receive an additional dose of MCV 6–12 months after initiation of HAART.",
+        "contentHash": "c721af620282840ad0bdcd036f5b564bc938adf8afcfc562fd4c3ebdca93e363"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: without CD4+ monitoring, the additional dose 6-12 months after starting HAART.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "Where CD4+ T lymphocyte monitoring is not available, children should receive an additional dose of MCV 6–12 months after initiation of HAART. • A supplementary dose of MCV (recorded as MCV0) should be considered for infants known to be exposed (i.e. born to an HIV-infected woman) or soon after diagnosis of HIV infection in children older than 6 months who are not receiving HAART and for whom the risk of measles is high, with the aim of providing partial protection until they are revaccinated after immune reconstitution with HAART. • Mild concurrent infections are not a contraindication to vaccination."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-exposed-mcv0",
+      "type": "recommendation",
+      "label": "measles.hiv-exposed-mcv0",
+      "properties": {
+        "identifier": "measles.hiv-exposed-mcv0",
+        "statement": "A supplementary dose of MCV (recorded as MCV0) should be considered for infants known to be exposed (i.e. born to an HIV-infected woman) or soon after diagnosis of HIV infection in children older than 6 months who are not receiving HAART and for whom the risk of measles is high, with the aim of providing partial protection until they are revaccinated after immune reconstitution with HAART.",
+        "contentHash": "bc4bf11844e0beb0d9cd4028e078c30806feb4b5803fa05bb19d30490ab0b265"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: supplementary MCV0 for HIV-exposed infants and HIV-infected children not on HAART at high risk.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "Where CD4+ T lymphocyte monitoring is not available, children should receive an additional dose of MCV 6–12 months after initiation of HAART. • A supplementary dose of MCV (recorded as MCV0) should be considered for infants known to be exposed (i.e. born to an HIV-infected woman) or soon after diagnosis of HIV infection in children older than 6 months who are not receiving HAART and for whom the risk of measles is high, with the aim of providing partial protection until they are revaccinated after immune reconstitution with HAART. • Mild concurrent infections are not a contraindication to vaccination."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mild-infection-not-contraindication",
+      "type": "recommendation",
+      "label": "measles.mild-infection-not-contraindication",
+      "properties": {
+        "identifier": "measles.mild-infection-not-contraindication",
+        "statement": "Mild concurrent infections are not a contraindication to vaccination.",
+        "contentHash": "94a10b67043455c1a33301e94fddb6988d42558fac64cd61972c38fff2b762f1"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: mild concurrent infection does not contraindicate vaccination.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "Where CD4+ T lymphocyte monitoring is not available, children should receive an additional dose of MCV 6–12 months after initiation of HAART. • A supplementary dose of MCV (recorded as MCV0) should be considered for infants known to be exposed (i.e. born to an HIV-infected woman) or soon after diagnosis of HIV infection in children older than 6 months who are not receiving HAART and for whom the risk of measles is high, with the aim of providing partial protection until they are revaccinated after immune reconstitution with HAART. • Mild concurrent infections are not a contraindication to vaccination."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.avoid-in-pregnancy",
+      "type": "recommendation",
+      "label": "measles.avoid-in-pregnancy",
+      "properties": {
+        "identifier": "measles.avoid-in-pregnancy",
+        "statement": "As a precautionary measure, measles vaccine – alone or in combination with other vaccines – should be avoided during pregnancy.",
+        "contentHash": "88c2536098ada86d852ddf65bfe68492043e3fd735f57655b0ea384f2aa8975d"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: precaution against measles vaccine in pregnancy.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "As a precautionary measure, measles vaccine – alone or in combination with other vaccines – should be avoided during pregnancy."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.contraindications",
+      "type": "recommendation",
+      "label": "measles.contraindications",
+      "properties": {
+        "identifier": "measles.contraindications",
+        "statement": "MCVs should not be given to individuals with a history of anaphylactic reactions or severe allergic reactions to any component of the vaccine (e.g. neomycin or gelatin) or those with any form of severe immunosuppression.",
+        "contentHash": "eca95f4a854110e2df3582ac36773ee9b3967d4e33c3d2a2999f0ac3c97b4b42"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: anaphylaxis or severe allergy to a component, or severe immunosuppression.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "MCVs should not be given to individuals with a history of anaphylactic reactions or severe allergic reactions to any component of the vaccine (e.g. neomycin or gelatin) or those with any form of severe immunosuppression. • As a general rule, live vaccines should be given either simultaneously or at intervals of 4 weeks."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.live-vaccine-spacing",
+      "type": "recommendation",
+      "label": "measles.live-vaccine-spacing",
+      "properties": {
+        "identifier": "measles.live-vaccine-spacing",
+        "statement": "As a general rule, live vaccines should be given either simultaneously or at intervals of 4 weeks.",
+        "contentHash": "6c3410e75f35b39b98e56ccb49fe7422b4e212cfae028e13352b50104ccb5f53"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: live vaccines simultaneously or 4 weeks apart, printed in the measles footnote.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "MCVs should not be given to individuals with a history of anaphylactic reactions or severe allergic reactions to any component of the vaccine (e.g. neomycin or gelatin) or those with any form of severe immunosuppression. • As a general rule, live vaccines should be given either simultaneously or at intervals of 4 weeks."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "id": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-high-incidence-mcv0-6-months/remark/1",
+      "type": "remark",
+      "label": "measles.hiv-high-incidence-mcv0-6-months remark 1",
+      "properties": {
+        "text": "The 2 routine doses of MCV (MCV1 and MCV2) should then be administered to these children according to the national immunization schedule. • An additional dose of MCV should be administered to HIV-infected children receiving HAART following immune reconstitution If CD4+ T lymphocyte counts are monitored, an additional dose of MCV should be administered when immune reconstitution has been achieved, e.g. when the CD4+ T lymphocyte count reaches 20–25%.",
+        "ordinal": 1,
+        "contentHash": "2f8b6ebefb5acdb2db55b1dba4975de0ef600500c47498ea80fec54b97a8dcd8"
+      },
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: 'these children' refers back to the preceding sentence; it restates that the two routine doses follow MCV0.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md",
+        "quote": "The 2 routine doses of MCV (MCV1 and MCV2) should then be administered to these children according to the national immunization schedule. • An additional dose of MCV should be administered to HIV-infected children receiving HAART following immune reconstitution If CD4+ T lymphocyte counts are monitored, an additional dose of MCV should be administered when immune reconstitution has been achieved, e.g. when the CD4+ T lymphocyte count reaches 20–25%."
+      },
+      "skill": "smart-base/recommendation-extraction"
+    }
+  ],
+  "edges": [
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.two-doses-standard",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-in-schedule",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-9-months-high-transmission",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-15-18-months",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv-minimum-interval",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.routine-delivery-not-age-limited",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.catch-up-every-opportunity",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.policies-allow-older-ages",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv1-12-months-low-transmission",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv2-at-school-entry",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.same-formulation-both-doses",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-situations",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-recording",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mcv0-then-routine-doses",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-routine-vaccination",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-high-incidence-mcv0-6-months",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-haart-additional-dose",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-haart-no-cd4-monitoring",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-exposed-mcv0",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.mild-infection-not-contraindication",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.avoid-in-pregnancy",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.contraindications",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "definedIn",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.live-vaccine-spacing",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf",
+      "derivation": "inferred",
+      "note": "Printed in this publication.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    },
+    {
+      "type": "Statement",
+      "predicate": "hasRemark",
+      "source": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-high-incidence-mcv0-6-months",
+      "target": "https://smart.who.int/kg/l1/publication/url-github-com-user-attachments-files-35149133-immunization-summary-table-1-pdf/recommendation/measles.hiv-high-incidence-mcv0-6-months/remark/1",
+      "derivation": "inferred",
+      "note": "Measles footnote, page 3: 'these children' refers back to the preceding sentence; it restates that the two routine doses follow MCV0.",
+      "evidence": {
+        "location": "library/immunization-summary-table-1/sections/sec-002-table-1-summary-of-who-position-papers-recommend.md"
+      },
+      "skill": "smart-base/recommendation-extraction"
+    }
+  ]
+}

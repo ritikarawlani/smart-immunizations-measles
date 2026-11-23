@@ -1,0 +1,55 @@
+{
+  "$schema": "folio-library-extraction/v1",
+  "doc_id": "who-2019-ncov-digital-certificates-vaccination-20211",
+  "kinds": {
+    "contents": {
+      "state": "found",
+      "count": 45,
+      "note": "contents from inferred",
+      "tool": "pdf-structure.py",
+      "version": "0b311238188a",
+      "at": "2026-11-20"
+    },
+    "sections": {
+      "state": "found",
+      "count": 46,
+      "tool": "pdf-structure.py",
+      "version": "0b311238188a",
+      "at": "2026-11-20"
+    },
+    "figures": {
+      "state": "partial",
+      "count": 14,
+      "note": "14 kept (14 raster, 0 vector); 15 vector render(s) not yet inspected; 1 caption(s) read off the pages",
+      "tool": "pdf-images.py+pdf-vector-figures.py",
+      "at": "2026-11-20"
+    },
+    "tables": {
+      "state": "found",
+      "count": 95,
+      "note": "drafts; backend pdfplumber 0.11.10; 3 candidate(s) dropped: under two columns or no row under the header; 1 dropped as prose cut into columns (a word cut at a quarter or more of the cell boundaries)",
+      "tool": "pdf-tables.py",
+      "version": "b3b9e4012c21",
+      "at": "2026-11-20"
+    },
+    "references": {
+      "state": "not-extracted",
+      "note": "the instance declares no references directory to hold the nodes",
+      "tool": "references-extract",
+      "at": "2026-11-20"
+    },
+    "glossary": {
+      "state": "not-extracted",
+      "note": "the instance declares no glossary directory to hold the scheme",
+      "tool": "glossary-from-source",
+      "at": "2026-11-20"
+    },
+    "footnotes": {
+      "state": "found",
+      "count": 17,
+      "note": "called from the text; also kept: 21 foot-of-page line(s) no mark calls, 3 mark(s) with no note found",
+      "tool": "pdf-footnotes.py",
+      "at": "2026-11-20"
+    }
+  }
+}

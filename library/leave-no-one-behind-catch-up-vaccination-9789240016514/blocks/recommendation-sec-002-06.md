@@ -1,0 +1,1 @@
+An SIA should not be confused with a “selective” mass vaccination campaign; the latter does screen for eligibility and records the doses given to each individual on their home-based record/immunization card.
