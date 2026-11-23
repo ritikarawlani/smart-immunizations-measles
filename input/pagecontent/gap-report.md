@@ -50,4 +50,5 @@ before stage 6. What L3 now holds, and what it does not:
 
 The IG Publisher has not been run here: SUSHI builds clean (0 errors,
 0 warnings), but the rendered IG, its QA report and the CQL packaging by
-the Publisher are not checked. No build workflow is installed yet.
+the Publisher are not checked here. The build and site workflows are installed
+(`.github/workflows/`): they first run when this work is merged to `main`.
